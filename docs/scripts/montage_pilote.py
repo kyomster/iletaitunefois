@@ -44,6 +44,13 @@ def main():
         aligned = clips / "_aligned"
         offsets = json.load(open(aligned / f"offsets_{style}.json")) if (aligned / f"offsets_{style}.json").exists() else {}
         subs = [(aligned / style / f"{name}-{k}_{style}.mp4") if (aligned / style / f"{name}-{k}_{style}.mp4").exists() else clips / style / f"{name}-{k}_{style}.mp4" for k in (1, 2, 3, 4)]
+        # S2V (bouche pilotée par la voix, 22 août 2026) : si P02-2s2v / P02-3s2v existent, ils remplacent les sous-clips
+        # des locuteurs et la réplique démarre avec eux (décalage 0)
+        for k in (2, 3):
+            s2v = clips / style / f"{name}-{k}s2v_{style}.mp4"
+            if s2v.exists():
+                subs[k - 1] = s2v
+                offsets[f"{name}-{k}"] = 0.0
         if hold is None:
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(clips / style / f"{name}_{style}.mp4"), *ENC, str(dst)], check=True)
         elif all(s.exists() for s in subs):  # dialogue découpé par locuteur : quatre sous-clips enchaînés

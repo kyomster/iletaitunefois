@@ -344,3 +344,13 @@ Retours de Guillaume sur les montages parlants : scènes en double (clip de 5 s 
 Audio posé 0,3 s après le début du sous-clip du locuteur : `montages/montage_Style{A,B}_parlant_v2.mp4` (69,5 s). Reprise de 1b‑3 A (graine +2) sur la « tête dans un sac » signalée vers 16 s : même cadrage de mains et de nœuds, aucune tête identifiable dans l'un ni l'autre tirage ; v2 retenue, à confirmer par Guillaume.
 
 Coût du lot : RTX 5090 secure, 38 min, ~0,6 $. Total RunPod du jour : 3 pods, ~4,6 $.
+
+
+## Lot 6 — S2V (bouche pilotée par la voix) et continuité 4a‑2 / 5‑2 (2026-08-22, 16 h 20 à 17 h 05 UTC, pod RTX 5090 `eju7msjde2tn6s`)
+
+* **Images** (Higgsfield, 8 crédits) : P4a‑2 A et B avec le ballon déjà haut dans le ciel ; P5‑2 A et B avec une seule personne (A : deux mains dans la même manche sombre, B : une moufle). Validables ; anciennes versions dans `_rebuts/*_avant-continuite.png`.
+* **Clips I2V** 4a‑2 et 5‑2 en A et B rerendus depuis ces images.
+* **S2V** : `wan2.2_s2v_14B_fp8_scaled` + LoRA LightX2V t2v 4 étapes (template officiel ComfyUI), 1280 × 720, 25 à 61 images selon la réplique (durée de la voix + 0,4 s), `ref_image` = image clé 720p, audio = mp3 ElevenLabs, prompt « ONLY X speaks, his mouth moving with the voice… ». **8 rendus, 25 à 97 s chacun, aucune erreur.** Sur les bandes : le locuteur ouvre et ferme la bouche (Garnerin en A, les deux inkmen en B nettement), l'autre reste bouche fermée, le décor et la foule tiennent ; l'aide de P03 étant de dos, S2V n'a que sa tête à animer. Le mp4 porte la voix (CreateVideo avec audio).
+* Montages `montage_Style{A,B}_parlant_v4_s2v.mp4` (66 s) : P02 = attente 2 s + S2V badaud 1 (1,6 s) + S2V badaud 2 (2,3 s) + silence 2,5 s = 8,4 s (au lieu de 10), P03 = 2 + 3,8 + 1,3 + 3,5 = 10,6 s (au lieu de 12) : les plans de dialogue raccourcissent à la durée réelle des répliques ; à tenir à 10 / 12 s, on allonge les sous-clips de silence.
+
+Coût du lot : RTX 5090, 45 min, ~0,75 $ ; Higgsfield 8 crédits (solde 882). Total RunPod du jour : 4 pods, ~5,4 $.

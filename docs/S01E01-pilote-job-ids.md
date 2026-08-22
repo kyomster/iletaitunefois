@@ -106,7 +106,7 @@ Réglages : `nano_banana_pro` soumis (le serveur répond `nano_banana_2`, normal
 
 ## Clips (phase D)
 
-Pods RunPod `taqfahum2mbsen` (48 clips, 3 lots, A100), `8vem2qbtwzbw4y` (9 clips parlants, A100), `fpmrh7ovnt7szg` (16 sous-clips de dialogue + 1 reprise, RTX 5090) ; ComfyUI 0.33, Wan 2.2 I2V A14B fp8 + LightX2V 4 étapes, 1280x720 16 im/s. `prompt_id` ComfyUI, graine, mode. Statut `rendu` = version retenue ; `rendu_v1` / `rendu_v2` / `rendu_flf2v` / `rendu_fige` = versions écartées conservées dans `clips-runpod/_v1`, `_v2`, `_flf2v`, `_fige`.
+Pods RunPod `taqfahum2mbsen` (48 clips, A100), `8vem2qbtwzbw4y` (9 clips parlants, A100), `fpmrh7ovnt7szg` (16 sous-clips de dialogue + 1 reprise, RTX 5090), `eju7msjde2tn6s` (8 S2V + 4 reprises de continuité, RTX 5090) ; ComfyUI 0.33. Statut `rendu` = version retenue ; `rendu_v1` / `rendu_v2` / `rendu_flf2v` / `rendu_fige` = versions écartées conservées dans `clips-runpod/_v1`, `_v2`, `_flf2v`, `_fige`.
 
 | Clip | Style | prompt_id | Durée | Graine | Statut | Note |
 |---|---|---|---|---|---|---|
@@ -293,6 +293,18 @@ Pods RunPod `taqfahum2mbsen` (48 clips, 3 lots, A100), `8vem2qbtwzbw4y` (9 clips
 | P03-4 | StyleA | `657e7619-cd4f-4bf4-b08d-15cf6dcbb9ce` | 3.5 | 1277693038 | rendu | i2v length=57 runpod style=fiche gabarit=character chaine=derniere image du precedent ; mp4=P03-4_StyleA_00002_.mp4 ; derniere image=frame_00114_.png |
 | P02-4 | StyleB | `5a68957b-d847-4778-b65d-bf7af65361d6` | 2.5 | 377984971 | rendu | i2v length=41 runpod style=reduced gabarit=character chaine=derniere image du precedent ; mp4=P02-4_StyleB_00001_.mp4 ; derniere image=frame_00041_.pn |
 | P03-4 | StyleB | `29894f59-0499-4756-b1ac-214560f1ef89` | 3.5 | 193492670 | rendu | i2v length=57 runpod style=reduced gabarit=character chaine=derniere image du precedent ; mp4=P03-4_StyleB_00001_.mp4 ; derniere image=frame_00057_.pn |
+| P02-2s2v | StyleA | `b6440efc-85f8-4e96-8b7f-3f9d0246a4c5` | 1.56 | 1778101543 | rendu | s2v audio=S01E01_P02_BADAUD1.mp3 length=25 steps=4 cfg=1.0 ; mp4=P02-2s2v_StyleA_00001_.mp4 |
+| P02-3s2v | StyleA | `b9c05909-9918-4191-9b57-7559af9a446d` | 2.31 | 1918820681 | rendu | s2v audio=S01E01_P02_BADAUD2.mp3 length=37 steps=4 cfg=1.0 ; mp4=P02-3s2v_StyleA_00001_.mp4 |
+| P03-2s2v | StyleA | `26279d8e-6203-4dcb-a23b-e93552fe5842` | 3.81 | 1962167376 | rendu | s2v audio=S01E01_P03_AIDE.mp3 length=61 steps=4 cfg=1.0 ; mp4=P03-2s2v_StyleA_00001_.mp4 |
+| P03-3s2v | StyleA | `579b1217-109d-43f8-b8f5-21f88273c0d7` | 1.31 | 1867579456 | rendu | s2v audio=S01E01_P03_GARNERIN.mp3 length=21 steps=4 cfg=1.0 ; mp4=P03-3s2v_StyleA_00001_.mp4 |
+| P02-2s2v | StyleB | `f51323b6-7357-4e19-ae4b-ed9eadcf98f1` | 1.56 | 777770999 | rendu | s2v audio=S01E01_P02_BADAUD1.mp3 length=25 steps=4 cfg=1.0 ; mp4=P02-2s2v_StyleB_00001_.mp4 |
+| P02-3s2v | StyleB | `e5393b4d-5cb6-4a84-99bf-18534b26d8f8` | 2.31 | 905878425 | rendu | s2v audio=S01E01_P02_BADAUD2.mp3 length=37 steps=4 cfg=1.0 ; mp4=P02-3s2v_StyleB_00001_.mp4 |
+| P03-2s2v | StyleB | `87b4a1df-794f-4ac7-ab38-65d32b9048b4` | 3.81 | 861156992 | rendu | s2v audio=S01E01_P03_AIDE.mp3 length=61 steps=4 cfg=1.0 ; mp4=P03-2s2v_StyleB_00001_.mp4 |
+| P03-3s2v | StyleB | `0cf2b88a-19d8-4f6e-9f07-b4d42bd4d0d3` | 1.31 | 686914288 | rendu | s2v audio=S01E01_P03_GARNERIN.mp3 length=21 steps=4 cfg=1.0 ; mp4=P03-3s2v_StyleB_00001_.mp4 |
+| P4a-2 | StyleA | `2f250e1d-061a-4e55-886b-295b0c0cb0cc` | 3.0 | 1209036028 | rendu | i2v length=49 runpod style=fiche gabarit=crowd ; mp4=P4a-2_StyleA_00001_.mp4 |
+| P5-2 | StyleA | `a8a9fa24-a409-4132-852a-396fbc522abe` | 3.0 | 885752577 | rendu | i2v length=49 runpod style=fiche gabarit=hands ; mp4=P5-2_StyleA_00001_.mp4 |
+| P4a-2 | StyleB | `5eafb160-90f8-477a-9d9e-3494febb6043` | 3.0 | 1360608583 | rendu | i2v length=49 runpod style=reduced gabarit=crowd ; mp4=P4a-2_StyleB_00001_.mp4 |
+| P5-2 | StyleB | `ebc28043-b436-461c-842c-d68da1b18834` | 3.0 | 767742792 | rendu | i2v length=49 runpod style=reduced gabarit=hands ; mp4=P5-2_StyleB_00001_.mp4 |
 
 ## Voix (ElevenLabs, phase D bis)
 
