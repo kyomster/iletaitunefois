@@ -11,6 +11,7 @@ Depuis le 22 août 2026 (demande de Guillaume : pas de synchro labiale ne veut p
 
 Usage : python montage_pilote.py <dossier_clips> <dossier_images_2752> <style> <sortie.mp4> [<dossier_audio>]
 """
+import json
 import subprocess
 import sys
 import tempfile
@@ -39,7 +40,10 @@ def main():
     for name, hold in ORDRE:
         dst = tmp / f"{name}.mp4"
         talk = clips / style / f"{name}-talk_{style}.mp4"
-        subs = [clips / style / f"{name}-{k}_{style}.mp4" for k in (1, 2, 3, 4)]
+        # sous-clips recalés sur le mouvement (align_dialogue_audio.py) s'ils existent, sinon les bruts
+        aligned = clips / "_aligned"
+        offsets = json.load(open(aligned / f"offsets_{style}.json")) if (aligned / f"offsets_{style}.json").exists() else {}
+        subs = [(aligned / style / f"{name}-{k}_{style}.mp4") if (aligned / style / f"{name}-{k}_{style}.mp4").exists() else clips / style / f"{name}-{k}_{style}.mp4" for k in (1, 2, 3, 4)]
         if hold is None:
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(clips / style / f"{name}_{style}.mp4"), *ENC, str(dst)], check=True)
         elif all(s.exists() for s in subs):  # dialogue découpé par locuteur : quatre sous-clips enchaînés
@@ -51,9 +55,9 @@ def main():
                 encoded.append(e)
             sub_lst.write_text("".join(f"file '{p.as_posix()}'\n" for p in encoded), encoding="utf-8")
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(sub_lst), "-c", "copy", str(dst)], check=True)
-            # la réplique du locuteur 1 commence 0,3 s après le début du sous-clip 2, celle du locuteur 2 0,3 s après le sous-clip 3
-            starts[f"{name}/2"] = duree(encoded[0]) + 0.3
-            starts[f"{name}/3"] = duree(encoded[0]) + duree(encoded[1]) + 0.3
+            # réplique du locuteur 1 au début du mouvement mesuré dans le sous-clip 2 (offsets), sinon 0,3 s après son début ; idem locuteur 2 / sous-clip 3
+            starts[f"{name}/2"] = duree(encoded[0]) + offsets.get(f"{name}-2", 0.3)
+            starts[f"{name}/3"] = duree(encoded[0]) + duree(encoded[1]) + offsets.get(f"{name}-3", 0.3)
         elif talk.exists():  # clip parlant bouclé sur la durée du plan
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", str(talk), "-t", str(hold), *ENC, str(dst)], check=True)
         else:

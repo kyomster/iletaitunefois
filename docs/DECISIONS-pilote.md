@@ -94,3 +94,15 @@ Décisions de Guillaume au visionnage des montages parlants :
 ## 2026-08-22, 15 h 20 — Raccord des sous-clips de dialogue : par dernière image rendue, pas par image clé
 
 Le FLF2V avec départ = fin = image clé rend des sous-clips **quasi figés** (piège n° 8 du mode d'emploi RunPod : deux images identiques, mouvement mou). Abandonné après 6 rendus (`clips-runpod/_fige/`). Méthode retenue pour un plan de dialogue découpé par locuteur : sous-clip 1 en I2V depuis l'image clé validée, puis **chaque sous-clip suivant part de la dernière image rendue du précédent** (`docs/scripts/chain_dialogue_runpod.py`, quatre chaînes en parallèle, étage par étage). C'est la « chaîne par dernière image rendue » écartée le matin pour les clips à cadrage différent ; elle est juste ici parce que le cadrage ne change pas. Ajout à la règle : **le raccord se choisit selon que le cadrage change (I2V, coupe nette) ou non (chaîne par dernière image)** ; le FLF2V ne sert qu'avec deux images clés distinctes dans le même cadrage.
+
+## 2026-08-22, 15 h 55 — Alignement des voix : recalage sur le mouvement mesuré, la vraie synchro demande S2V
+
+Guillaume : « l'audio est clairement pas aligné au bon moment ». Cause : la bouche bouge quand le modèle vidéo le décide à l'intérieur du sous-clip, et plus longtemps que la réplique. Réponse immédiate, locale et gratuite (`docs/scripts/align_dialogue_audio.py`) : mesure du mouvement dans la moitié d'écran du locuteur, **sous-clip ré-échantillonné** pour que la durée du mouvement colle à celle de la réplique (+0,3 s, facteur borné 0,6 à 1,8) et **réplique posée au début du mouvement mesuré**. C'est un recalage de début et de durée, pas une synchronisation labiale. Montages `montage_Style{A,B}_parlant_v3.mp4`.
+
+La seule façon d'obtenir une bouche **synchronisée** est un modèle piloté par l'audio : **Wan 2.2 S2V** (speech‑to‑video, `wan2.2_s2v_14B_fp8_scaled.safetensors`, 16 Go, nœud ComfyUI `WanSoundImageToVideo` avec l'encodeur wav2vec2) à partir de l'image clé et du mp3 de la réplique. C'est du lipsync, ce que `PIPELINE` §7.3 et la bible excluaient par choix de style et de coût ; la décision de le tester appartient à Guillaume.
+
+## 2026-08-22, 15 h 55 — Deux défauts de continuité à corriger à l'image, pas au clip
+
+* **4a‑1 / 4a‑2** : les deux images clés montrent le ballon au même niveau ; au montage il « redécolle » deux fois. La brique 4a‑2 doit dire l'état d'avancement : `the balloon already well above the treetops, rising away`. Même famille que 1a‑1 / 1a‑4 et 4b‑1 / 4b‑3 (cadrages voisins, voulus par le découpage).
+* **5‑2 A** : deux manches différentes (beige et grise) sur les deux mains → lues comme deux personnes qui coupent. Brique : `Characters: ONE hand only, Garnerin's, in his dark sleeve`.
+À reprendre quand Guillaume le décide : 2 images × 2 styles (8 crédits) puis 4 clips (~15 min de pod).
