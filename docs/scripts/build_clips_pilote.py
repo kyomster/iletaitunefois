@@ -63,6 +63,24 @@ PRESENCE_LINE = {
 # Sur un clip « talking », les négatives « lip sync, mouth articulation » sont retirées.
 NEG_TALKING_RETIRE = ("lip sync", "mouth articulation")
 
+# Dialogue découpé par locuteur (décision Guillaume, 22 août 15 h : un clip bouclé donne des scènes en double et deux
+# bouches qui parlent). Chaque sous-clip part de l'image clé et Y REVIENT (FLF2V départ = fin = image clé) : le raccord
+# est invisible. (sous-clip, durée s, présence, subject). Les durées somment à celle du plan : P02 10 s, P03 12 s.
+DIALOGUE = {
+    "P02": [
+        ("P02-1", 2.0, "character", "the two onlookers stand and watch the balloon behind them in silence, both mouths closed, slight breathing, the round one adjusts his hat"),
+        ("P02-2", 2.5, "talking", "ONLY the round onlooker with the top hat speaks, his mouth opening and closing, he points toward the basket; the thin onlooker listens with his mouth firmly closed"),
+        ("P02-3", 3.0, "talking", "ONLY the thin onlooker with the cane speaks, his mouth opening and closing as he leans in; the round onlooker listens with his mouth firmly closed"),
+        ("P02-4", 2.5, "character", "both onlookers turn their eyes toward the basket in silence, mouths closed, the thin one taps his cane on the ground"),
+    ],
+    "P03": [
+        ("P03-1", 2.0, "character", "Garnerin checks the folded silk in silence, the assistant watches from the rim, both mouths closed"),
+        ("P03-2", 4.0, "talking", "ONLY the assistant speaks from the rim, seen from behind, his head and shoulders moving as he talks; Garnerin keeps checking the silk with his mouth closed"),
+        ("P03-3", 2.5, "talking", "ONLY Garnerin speaks, a short curt answer, his mouth opening and closing once or twice without looking up; the assistant is silent and still"),
+        ("P03-4", 3.5, "character", "Garnerin tightens a rope in silence and the assistant steps back a little, both mouths closed"),
+    ],
+}
+
 # Clips de dialogue du pilote (plans FIXE du scénario rendus en clips parlants bouclables, + un ANIMÉ où les
 # personnages échangent), essai du 22 août 2026 : (clip, bloc, durée s, subject, camera)
 TALK_CLIPS = [
@@ -120,13 +138,35 @@ def main():
     seed_offset = 0
     reduced = "--video-style=reduced" in sys.argv
     talking = "--talking" in sys.argv
+    dialogue = "--dialogue" in sys.argv
     for a in sys.argv[1:]:
         if a.startswith("--seed-offset="):
             seed_offset = int(a.split("=", 1)[1])  # reprise : autre tirage, meme graine de base + decalage
-    args = [a for a in sys.argv[1:] if a not in ("--chain", "--video-style=reduced", "--talking") and not a.startswith("--seed-offset=")]
+    args = [a for a in sys.argv[1:] if a not in ("--chain", "--video-style=reduced", "--talking", "--dialogue") and not a.startswith("--seed-offset=")]
     sys.argv = [sys.argv[0]] + args
     img_dir = Path(sys.argv[1])
     jobs = []
+    if dialogue:
+        # sous-clips par locuteur, FLF2V départ = fin = image clé, styles A et B (C retiré le 22 août)
+        neg_talk = ", ".join(x for x in (NEG_MOUVEMENT + ", " + NEG_PRESENCE).split(", ") if x not in NEG_TALKING_RETIRE)
+        neg_idle = NEG_MOUVEMENT + ", " + NEG_PRESENCE
+        for style in ("StyleA", "StyleB"):
+            red = reduced or style == "StyleB"
+            for plan, subs in DIALOGUE.items():
+                key = str(img_dir / style / f"{plan}_{style}.png")
+                for sub, dur, pres, subject in subs:
+                    jobs.append({
+                        "name": f"{sub}_{style}", "clip": sub, "bloc": plan, "style": style, "mode": "flf2v",
+                        "duration_s": dur, "length": LENGTH[dur], "start_image": key, "end_image": key,
+                        "seed": seed_for(f"{sub}_{style}_dlg") + seed_offset, "presence": pres,
+                        "prompt": motion_prompt(style, dur, subject, "static", pres, red),
+                        "video_style": "reduced" if red else "fiche",
+                        "negative": neg_talk if pres == "talking" else neg_idle, "settings": SETTINGS,
+                        "output": f"clips-runpod/{style}/{sub}_{style}",
+                    })
+        Path(sys.argv[2]).write_text(json.dumps(jobs, indent=1, ensure_ascii=False), encoding="utf-8")
+        print(f"{len(jobs)} sous-clips de dialogue écrits dans {sys.argv[2]}")
+        return
     if talking:
         # clips de dialogue : présence "talking", négatives sans lip sync / mouth articulation,
         # bloc de style réduit pour B (décision du 22 août, lot 3), bloc de la fiche pour A et C

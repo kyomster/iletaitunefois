@@ -321,3 +321,26 @@ Demande de Guillaume : « pas de synchro labiale ne veut pas dire bouches immobi
 | P1b‑2‑talk (les aides se parlent en portant) | ✔ de profil, bouche discrète | ✔ les deux inkmen échangent en marchant | ✔ |
 
 **Voix** (ElevenLabs `eleven_v3`, français, une seule piste pour les trois styles, `pilote/audio/`) : BADAUD 1 et GARNERIN sur la voix « Guillaume – Narration and voiceover » (grave), BADAUD 2 et L'AIDE sur « Curieux REM » (claire) ; quatre répliques du scénario à la ponctuation près, 1,0 / 1,8 / 3,4 / 0,7 s, 120 caractères. Montages parlants avec piste voix : `pilote/montages/montage_Style{A,B,C}_parlant.mp4` (P02 et P03 bouclés sur 10 et 12 s, répliques posées à +1 s).
+
+
+## Lot 5 — dialogues découpés par locuteur, styles A et B (2026-08-22, 15 h 05 à 15 h 43 UTC, pod RTX 5090 `fpmrh7ovnt7szg`)
+
+Retours de Guillaume sur les montages parlants : scènes en double (clip de 5 s bouclé), deux bouches qui parlent pendant tout le plan, audio décalé ; style C retiré. Nouveau découpage : **quatre sous-clips par plan** — P02 : attente 2 s, le rond parle 2,5 s, le maigre répond 3 s, silence 2,5 s ; P03 : attente 2 s, l'aide parle 4 s, Garnerin répond 2,5 s, silence 3,5 s — prompts « ONLY X speaks… Y keeps his mouth closed ».
+
+* Première tentative, **FLF2V départ = fin = image clé** : 6 rendus quasi figés (piège n° 8), abandonnés (`clips-runpod/_fige/`).
+* Deuxième, **chaîne par dernière image rendue** (`chain_dialogue_runpod.py`) : 16 sous-clips, 4 étages de ~2 min sur RTX 5090.
+
+| Sous-clip | A | B |
+|---|---|---|
+| P02-1 attente | ✔ le rond ajuste son chapeau, bouches fermées | ✔ |
+| P02-2 le rond parle | ✔ bouche mobile, index pointé vers la nacelle ; le maigre écoute bouche fermée | ✔ idem, le maigre fronce |
+| P02-3 le maigre répond | ✔ bouche mobile, penché ; le rond écoute | ✔ |
+| P02-4 silence | ✔ | ✔ |
+| P03-1 attente | ✔ Garnerin vérifie la soie | ✔ Garnerin soulève la soie |
+| P03-2 l'aide parle | ✔ l'aide de dos s'anime, Garnerin regarde, bouche fermée | ~ la tête beige de l'aide bouge, Garnerin sourit |
+| P03-3 Garnerin répond | ✔ | ✔ |
+| P03-4 silence | ✔ | ✔ |
+
+Audio posé 0,3 s après le début du sous-clip du locuteur : `montages/montage_Style{A,B}_parlant_v2.mp4` (69,5 s). Reprise de 1b‑3 A (graine +2) sur la « tête dans un sac » signalée vers 16 s : même cadrage de mains et de nœuds, aucune tête identifiable dans l'un ni l'autre tirage ; v2 retenue, à confirmer par Guillaume.
+
+Coût du lot : RTX 5090 secure, 38 min, ~0,6 $. Total RunPod du jour : 3 pods, ~4,6 $.

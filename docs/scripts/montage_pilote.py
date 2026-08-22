@@ -39,8 +39,21 @@ def main():
     for name, hold in ORDRE:
         dst = tmp / f"{name}.mp4"
         talk = clips / style / f"{name}-talk_{style}.mp4"
+        subs = [clips / style / f"{name}-{k}_{style}.mp4" for k in (1, 2, 3, 4)]
         if hold is None:
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(clips / style / f"{name}_{style}.mp4"), *ENC, str(dst)], check=True)
+        elif all(s.exists() for s in subs):  # dialogue découpé par locuteur : quatre sous-clips enchaînés
+            sub_lst = tmp / f"{name}_subs.txt"
+            encoded = []
+            for k, s in enumerate(subs, 1):
+                e = tmp / f"{name}-{k}.mp4"
+                subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(s), *ENC, str(e)], check=True)
+                encoded.append(e)
+            sub_lst.write_text("".join(f"file '{p.as_posix()}'\n" for p in encoded), encoding="utf-8")
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(sub_lst), "-c", "copy", str(dst)], check=True)
+            # la réplique du locuteur 1 commence 0,3 s après le début du sous-clip 2, celle du locuteur 2 0,3 s après le sous-clip 3
+            starts[f"{name}/2"] = duree(encoded[0]) + 0.3
+            starts[f"{name}/3"] = duree(encoded[0]) + duree(encoded[1]) + 0.3
         elif talk.exists():  # clip parlant bouclé sur la durée du plan
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", str(talk), "-t", str(hold), *ENC, str(dst)], check=True)
         else:
@@ -58,8 +71,11 @@ def main():
         i = 1
         for plan, reps in REPLIQUES.items():
             cursor = starts[plan]
-            for f, gap, after in reps:
-                cursor += gap
+            for n_rep, (f, gap, after) in enumerate(reps, 2):
+                if f"{plan}/{n_rep}" in starts:      # sous-clips par locuteur : réplique au début du sous-clip du locuteur
+                    cursor = starts[plan] + starts[f"{plan}/{n_rep}"]
+                else:
+                    cursor += gap
                 ms = int(cursor * 1000)
                 ins += ["-i", str(audio / f)]
                 filt.append(f"[{i}]adelay={ms}|{ms}[a{i}]"); labels.append(f"[a{i}]")

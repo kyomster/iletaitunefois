@@ -106,7 +106,7 @@ Réglages : `nano_banana_pro` soumis (le serveur répond `nano_banana_2`, normal
 
 ## Clips (phase D)
 
-Pods RunPod `taqfahum2mbsen` (48 clips, 3 lots) puis `8vem2qbtwzbw4y` (9 clips parlants), A100 80 Go PCIe, EU-RO-1, ComfyUI 0.33, Wan 2.2 I2V A14B fp8 + LightX2V 4 étapes, 1280x720 16 im/s. `prompt_id` ComfyUI, graine, mode. Statut `rendu` = version retenue ; `rendu_v1` / `rendu_v2` / `rendu_flf2v` = versions écartées conservées dans `clips-runpod/_v1`, `_v2`, `_flf2v`.
+Pods RunPod `taqfahum2mbsen` (48 clips, 3 lots, A100), `8vem2qbtwzbw4y` (9 clips parlants, A100), `fpmrh7ovnt7szg` (16 sous-clips de dialogue + 1 reprise, RTX 5090) ; ComfyUI 0.33, Wan 2.2 I2V A14B fp8 + LightX2V 4 étapes, 1280x720 16 im/s. `prompt_id` ComfyUI, graine, mode. Statut `rendu` = version retenue ; `rendu_v1` / `rendu_v2` / `rendu_flf2v` / `rendu_fige` = versions écartées conservées dans `clips-runpod/_v1`, `_v2`, `_flf2v`, `_fige`.
 
 | Clip | Style | prompt_id | Durée | Graine | Statut | Note |
 |---|---|---|---|---|---|---|
@@ -163,7 +163,7 @@ Pods RunPod `taqfahum2mbsen` (48 clips, 3 lots) puis `8vem2qbtwzbw4y` (9 clips p
 | P1a-3 | StyleA | `e3d20d7a-bd5c-455a-a265-8dabcacf4d64` | 2.0 | 1978515494 | rendu | i2v length=33 runpod ; mp4=P1a-3_StyleA_00002_.mp4 ; gabarit v1 (ligne personnages generique) |
 | P1b-1 | StyleA | `7f8be9f1-0837-4905-bf5c-21dd2f2b536e` | 3.0 | 1560247387 | rendu | i2v length=49 runpod ; mp4=P1b-1_StyleA_00002_.mp4 ; gabarit v1 (ligne personnages generique) |
 | P1b-2 | StyleA | `9f144e1e-b9eb-47bd-b2d8-1279dff7918c` | 3.0 | 1383103417 | rendu | i2v length=49 runpod ; mp4=P1b-2_StyleA_00002_.mp4 ; gabarit v1 (ligne personnages generique) |
-| P1b-3 | StyleA | `daf1b688-8e4c-4866-8498-6edf77d07d1c` | 3.0 | 517634854 | rendu | i2v length=49 runpod ; mp4=P1b-3_StyleA_00001_.mp4 ; gabarit v1 (ligne personnages generique) |
+| P1b-3 | StyleA | `daf1b688-8e4c-4866-8498-6edf77d07d1c` | 3.0 | 517634854 | rendu_v1 | i2v length=49 runpod ; mp4=P1b-3_StyleA_00001_.mp4 ; gabarit v1 (ligne personnages generique) ; reprise graine+2 (tete dans un sac ?) |
 | P4a-1 | StyleA | `abd2f537-5d98-4104-97ca-ca54baa65736` | 3.0 | 1184852763 | rendu | i2v length=49 runpod ; mp4=P4a-1_StyleA_00002_.mp4 ; gabarit v1 (ligne personnages generique) |
 | P4a-2 | StyleA | `b03c9a77-c17c-43f5-905f-f9953b2877f3` | 3.0 | 1209036025 | rendu | i2v length=49 runpod ; mp4=P4a-2_StyleA_00002_.mp4 ; gabarit v1 (ligne personnages generique) |
 | P4a-3 | StyleA | `cc4edd10-7c10-43f6-828a-42cb64a677a7` | 4.0 | 79326312 | rendu | i2v length=65 runpod ; mp4=P4a-3_StyleA_00001_.mp4 ; gabarit v1 (ligne personnages generique) |
@@ -250,15 +250,49 @@ Pods RunPod `taqfahum2mbsen` (48 clips, 3 lots) puis `8vem2qbtwzbw4y` (9 clips p
 | P4b-3 | StyleB | `5ae89bee-fd26-4570-aea3-a3c2c4458e44` | 3.0 | 1988396768 | rendu | i2v length=49 runpod style=reduced gabarit=none ; mp4=P4b-3_StyleB_00002_.mp4 |
 | P5-2 | StyleB | `4031a02f-7826-4578-ac99-a822d1c43361` | 3.0 | 767742790 | rendu | i2v length=49 runpod style=reduced gabarit=hands ; mp4=P5-2_StyleB_00002_.mp4 |
 | P5-3 | StyleB | `82f6cefc-c69c-44b8-9207-099bca6c0a34` | 2.5 | 1634259931 | rendu | i2v length=41 runpod style=reduced gabarit=none ; mp4=P5-3_StyleB_00003_.mp4 |
-| P02-talk | StyleA | `91010d1b-fc30-4e69-a928-e98ecb7334a7` | 5.0 | 121997555 | rendu | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P02-talk_StyleA_00001_.mp4 |
-| P03-talk | StyleA | `f915e7ef-9ff1-4cbb-b523-7a49deb459f6` | 5.0 | 1523798391 | rendu | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P03-talk_StyleA_00001_.mp4 |
+| P02-talk | StyleA | `91010d1b-fc30-4e69-a928-e98ecb7334a7` | 5.0 | 121997555 | rendu_fige | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P02-talk_StyleA_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P03-talk | StyleA | `f915e7ef-9ff1-4cbb-b523-7a49deb459f6` | 5.0 | 1523798391 | rendu_fige | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P03-talk_StyleA_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
 | P1b-2-talk | StyleA | `92cdde94-e4b7-4414-a464-7c2c87345294` | 3.0 | 964103718 | rendu | i2v length=49 runpod style=fiche gabarit=talking ; mp4=P1b-2-talk_StyleA_00001_.mp4 |
-| P02-talk | StyleB | `a1f40b3e-2da3-4d90-a38f-bc0623762693` | 5.0 | 30538334 | rendu | i2v length=81 runpod style=reduced gabarit=talking ; mp4=P02-talk_StyleB_00001_.mp4 |
-| P03-talk | StyleB | `3757676b-be00-4672-abc6-ffcc37bb1a1b` | 5.0 | 1548166104 | rendu | i2v length=81 runpod style=reduced gabarit=talking ; mp4=P03-talk_StyleB_00001_.mp4 |
+| P02-talk | StyleB | `a1f40b3e-2da3-4d90-a38f-bc0623762693` | 5.0 | 30538334 | rendu_fige | i2v length=81 runpod style=reduced gabarit=talking ; mp4=P02-talk_StyleB_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P03-talk | StyleB | `3757676b-be00-4672-abc6-ffcc37bb1a1b` | 5.0 | 1548166104 | rendu_fige | i2v length=81 runpod style=reduced gabarit=talking ; mp4=P03-talk_StyleB_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
 | P1b-2-talk | StyleB | `ca923025-13d6-4947-a915-144156653e63` | 3.0 | 1071873163 | rendu | i2v length=49 runpod style=reduced gabarit=talking ; mp4=P1b-2-talk_StyleB_00001_.mp4 |
-| P02-talk | StyleC | `2a5a231c-66b0-4cef-9f66-4759fb108c50` | 5.0 | 1250765304 | rendu | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P02-talk_StyleC_00001_.mp4 |
-| P03-talk | StyleC | `f41d29e0-1b24-42bd-9e21-7e402325259d` | 5.0 | 387707006 | rendu | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P03-talk_StyleC_00001_.mp4 |
+| P02-talk | StyleC | `2a5a231c-66b0-4cef-9f66-4759fb108c50` | 5.0 | 1250765304 | rendu_fige | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P02-talk_StyleC_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P03-talk | StyleC | `f41d29e0-1b24-42bd-9e21-7e402325259d` | 5.0 | 387707006 | rendu_fige | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P03-talk_StyleC_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
 | P1b-2-talk | StyleC | `c84beb02-4179-46ae-8309-5006cd31da83` | 3.0 | 1958719279 | rendu | i2v length=49 runpod style=fiche gabarit=talking ; mp4=P1b-2-talk_StyleC_00001_.mp4 |
+| P02-1 | StyleA | `20133a76-0d0f-42ae-b62f-8d9a6bffb6f0` | 2.0 | 1233426956 | rendu_fige | flf2v length=33 runpod style=fiche gabarit=character ; mp4=P02-1_StyleA_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P02-2 | StyleA | `9f7613a1-9017-41c4-a583-7c38cb1f3eac` | 2.5 | 1041910012 | rendu_fige | flf2v length=41 runpod style=fiche gabarit=talking ; mp4=P02-2_StyleA_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P02-3 | StyleA | `f9c60867-2d88-420c-a4a6-e1271c4ed708` | 3.0 | 633275540 | rendu_fige | flf2v length=49 runpod style=fiche gabarit=talking ; mp4=P02-3_StyleA_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P02-4 | StyleA | `a0343d9d-2e29-4446-afe1-88541fb0fee3` | 2.5 | 1361571099 | rendu_fige | flf2v length=41 runpod style=fiche gabarit=character ; mp4=P02-4_StyleA_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P03-1 | StyleA | `cc9fa026-0f28-41f2-ad94-6affff0222fd` | 2.0 | 1418427261 | rendu_fige | flf2v length=33 runpod style=fiche gabarit=character ; mp4=P03-1_StyleA_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P03-2 | StyleA | `b7ff58f4-c8cd-4f16-a8d8-ad91987d6ce9` | 4.0 | 588622221 | rendu_fige | flf2v length=65 runpod style=fiche gabarit=talking ; mp4=P03-2_StyleA_00001_.mp4 ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P03-3 | StyleA | `98b0dda2-946d-4a4f-b793-bfbeecb6d561` | 2.5 | 951117283 | annule | flf2v length=41 runpod style=fiche gabarit=talking ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P03-4 | StyleA | `452ef1a7-7d43-4940-b4fe-53ba7005e3c8` | 3.5 | 1277693038 | annule | flf2v length=57 runpod style=fiche gabarit=character ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P02-1 | StyleB | `0f29a721-9516-49ad-b7a4-d94d778dfda9` | 2.0 | 237297884 | annule | flf2v length=33 runpod style=reduced gabarit=character ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P02-2 | StyleB | `b7dc5eb6-2dcf-4291-b32b-03c106a21411` | 2.5 | 2042245676 | annule | flf2v length=41 runpod style=reduced gabarit=talking ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P02-3 | StyleB | `60603d46-999f-4e53-b0bd-ddc0a026d15f` | 3.0 | 1646231108 | annule | flf2v length=49 runpod style=reduced gabarit=talking ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P02-4 | StyleB | `d3dd8cd3-bcd0-4c7f-9b16-4d6d326232a6` | 2.5 | 377984971 | annule | flf2v length=41 runpod style=reduced gabarit=character ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P03-1 | StyleB | `2e87d26e-f98f-4071-9c07-3128681b2e54` | 2.0 | 321585581 | annule | flf2v length=33 runpod style=reduced gabarit=character ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P03-2 | StyleB | `a44df62e-47c8-42cc-a21d-8a98b040096d` | 4.0 | 1689637725 | annule | flf2v length=65 runpod style=reduced gabarit=talking ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P03-3 | StyleB | `65faa75d-d3a4-49df-a815-e8cbdb6dcdb9` | 2.5 | 2131795763 | annule | flf2v length=41 runpod style=reduced gabarit=talking ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P03-4 | StyleB | `56bf2ca8-7240-4dc1-832c-15f0b77897af` | 3.5 | 193492670 | annule | flf2v length=57 runpod style=reduced gabarit=character ; flf2v depart=fin=cle : quasi fige, abandonne |
+| P1b-3 | StyleA | `f2fde18a-b869-414c-a106-154e88791a92` | 3.0 | 517634856 | annule | i2v length=49 runpod style=fiche gabarit=hands ; file videe, resoumis |
+| P1b-3 | StyleA | `ab185279-a260-4087-86c6-043e5937230d` | 3.0 | 517634856 | rendu | i2v length=49 runpod style=fiche gabarit=hands ; mp4=P1b-3_StyleA_00001_.mp4 |
+| P02-1 | StyleA | `5510eac1-8ebb-47bc-9cef-0c470bd8ca7e` | 2.0 | 1233426956 | rendu | i2v length=33 runpod style=fiche gabarit=character chaine=cle ; mp4=P02-1_StyleA_00002_.mp4 ; derniere image=frame_00066_.png |
+| P03-1 | StyleA | `7d0c858c-ed89-4002-a8fc-f0aaf91e5c76` | 2.0 | 1418427261 | rendu | i2v length=33 runpod style=fiche gabarit=character chaine=cle ; mp4=P03-1_StyleA_00002_.mp4 ; derniere image=frame_00066_.png |
+| P02-1 | StyleB | `f783657d-04d4-4f81-90b5-02d69b6400d2` | 2.0 | 237297884 | rendu | i2v length=33 runpod style=reduced gabarit=character chaine=cle ; mp4=P02-1_StyleB_00002_.mp4 ; derniere image=frame_00066_.png |
+| P03-1 | StyleB | `8eae06b9-9106-47f6-830c-e17ebf3a63f6` | 2.0 | 321585581 | rendu | i2v length=33 runpod style=reduced gabarit=character chaine=cle ; mp4=P03-1_StyleB_00001_.mp4 ; derniere image=frame_00033_.png |
+| P02-2 | StyleA | `f69f3be8-cad4-4956-af2a-cd62e0d4f928` | 2.5 | 1041910012 | rendu | i2v length=41 runpod style=fiche gabarit=talking chaine=derniere image du precedent ; mp4=P02-2_StyleA_00002_.mp4 ; derniere image=frame_00082_.png |
+| P03-2 | StyleA | `0a21147b-aa1f-4a48-8077-d02f7856b40d` | 4.0 | 588622221 | rendu | i2v length=65 runpod style=fiche gabarit=talking chaine=derniere image du precedent ; mp4=P03-2_StyleA_00002_.mp4 ; derniere image=frame_00130_.png |
+| P02-2 | StyleB | `c3948ffb-7a8f-4468-913d-8e9be5b04005` | 2.5 | 2042245676 | rendu | i2v length=41 runpod style=reduced gabarit=talking chaine=derniere image du precedent ; mp4=P02-2_StyleB_00001_.mp4 ; derniere image=frame_00041_.png |
+| P03-2 | StyleB | `db6f2c2e-140e-4b60-95d3-32e6361ce19b` | 4.0 | 1689637725 | rendu | i2v length=65 runpod style=reduced gabarit=talking chaine=derniere image du precedent ; mp4=P03-2_StyleB_00001_.mp4 ; derniere image=frame_00065_.png |
+| P02-3 | StyleA | `5493e45d-b873-48e2-9c91-a876a2d70a26` | 3.0 | 633275540 | rendu | i2v length=49 runpod style=fiche gabarit=talking chaine=derniere image du precedent ; mp4=P02-3_StyleA_00002_.mp4 ; derniere image=frame_00098_.png |
+| P03-3 | StyleA | `a10f8501-7c29-4ce5-93f7-be28f0aa150d` | 2.5 | 951117283 | rendu | i2v length=41 runpod style=fiche gabarit=talking chaine=derniere image du precedent ; mp4=P03-3_StyleA_00002_.mp4 ; derniere image=frame_00082_.png |
+| P02-3 | StyleB | `753cf9f8-ef17-486a-a66b-4b65c6697c35` | 3.0 | 1646231108 | rendu | i2v length=49 runpod style=reduced gabarit=talking chaine=derniere image du precedent ; mp4=P02-3_StyleB_00001_.mp4 ; derniere image=frame_00049_.png |
+| P03-3 | StyleB | `360849ea-9f99-4eaf-8951-243aeb099e37` | 2.5 | 2131795763 | rendu | i2v length=41 runpod style=reduced gabarit=talking chaine=derniere image du precedent ; mp4=P03-3_StyleB_00001_.mp4 ; derniere image=frame_00041_.png |
+| P02-4 | StyleA | `293b8538-8525-40b0-83f0-a1b4565ba9bb` | 2.5 | 1361571099 | rendu | i2v length=41 runpod style=fiche gabarit=character chaine=derniere image du precedent ; mp4=P02-4_StyleA_00002_.mp4 ; derniere image=frame_00082_.png |
+| P03-4 | StyleA | `657e7619-cd4f-4bf4-b08d-15cf6dcbb9ce` | 3.5 | 1277693038 | rendu | i2v length=57 runpod style=fiche gabarit=character chaine=derniere image du precedent ; mp4=P03-4_StyleA_00002_.mp4 ; derniere image=frame_00114_.png |
+| P02-4 | StyleB | `5a68957b-d847-4778-b65d-bf7af65361d6` | 2.5 | 377984971 | rendu | i2v length=41 runpod style=reduced gabarit=character chaine=derniere image du precedent ; mp4=P02-4_StyleB_00001_.mp4 ; derniere image=frame_00041_.pn |
+| P03-4 | StyleB | `29894f59-0499-4756-b1ac-214560f1ef89` | 3.5 | 193492670 | rendu | i2v length=57 runpod style=reduced gabarit=character chaine=derniere image du precedent ; mp4=P03-4_StyleB_00001_.mp4 ; derniere image=frame_00057_.pn |
 
 ## Voix (ElevenLabs, phase D bis)
 
