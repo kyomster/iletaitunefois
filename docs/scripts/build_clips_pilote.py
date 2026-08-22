@@ -57,7 +57,19 @@ PRESENCE_LINE = {
     "hands": "Only the hands and arms already in the first frame move; no face, no head and no other person appears.",
     "crowd": "The crowd keeps its back to the camera: backs, hats and shawls only, no face turns toward the viewer, no eyes. They gesture and react, they do not speak. Nobody new enters the frame, no figure appears in the foreground.",
     "character": "Characters gesture and react, they do not speak. Nobody new enters the frame, no figure appears in the foreground.",
+    # 22 août 2026, demande de Guillaume : pas de synchro labiale ne veut pas dire bouches immobiles.
+    "talking": "The characters talk to each other with simple cartoon mouth movements, mouths opening and closing, not synchronized to any audio; they gesture lightly and stay in place. Nobody new enters the frame, no figure appears in the foreground.",
 }
+# Sur un clip « talking », les négatives « lip sync, mouth articulation » sont retirées.
+NEG_TALKING_RETIRE = ("lip sync", "mouth articulation")
+
+# Clips de dialogue du pilote (plans FIXE du scénario rendus en clips parlants bouclables, + un ANIMÉ où les
+# personnages échangent), essai du 22 août 2026 : (clip, bloc, durée s, subject, camera)
+TALK_CLIPS = [
+    ("P02", "2", 5.0, "the two onlookers lean toward each other and argue about a bet, one of them points toward the basket behind them", "static"),
+    ("P03", "3", 5.0, "the assistant speaks to Garnerin from the rim of the basket, Garnerin answers curtly without looking up from the folded silk", "static"),
+    ("P1b-2", "1b", 3.0, "the basket is carried forward, ropes trailing on the grass, the two assistants exchange a few words as they walk", "slow lateral tracking to the right, following the basket"),
+]
 
 # (clip, bloc, durée s, subject, camera) — fiche point 7, dans l'ordre
 CLIPS = [
@@ -79,7 +91,7 @@ CLIPS = [
     ("P5-3", "5", 2.5, "the rope gives way at once, the strands whip the air", "static"),
 ]
 
-LENGTH = {2.0: 33, 2.5: 41, 3.0: 49, 3.5: 57, 4.0: 65}  # 16 im/s, 4n+1
+LENGTH = {2.0: 33, 2.5: 41, 3.0: 49, 3.5: 57, 4.0: 65, 4.5: 73, 5.0: 81}  # 16 im/s, 4n+1
 
 SETTINGS = {"width": 1280, "height": 720, "fps": 16, "steps": 4, "steps_high": 2, "steps_low": 2,
             "cfg": 1.0, "sampler": "euler", "scheduler": "simple", "shift": 5.0,
@@ -107,13 +119,33 @@ def main():
     chain = "--chain" in sys.argv
     seed_offset = 0
     reduced = "--video-style=reduced" in sys.argv
+    talking = "--talking" in sys.argv
     for a in sys.argv[1:]:
         if a.startswith("--seed-offset="):
             seed_offset = int(a.split("=", 1)[1])  # reprise : autre tirage, meme graine de base + decalage
-    args = [a for a in sys.argv[1:] if a not in ("--chain", "--video-style=reduced") and not a.startswith("--seed-offset=")]
+    args = [a for a in sys.argv[1:] if a not in ("--chain", "--video-style=reduced", "--talking") and not a.startswith("--seed-offset=")]
     sys.argv = [sys.argv[0]] + args
     img_dir = Path(sys.argv[1])
     jobs = []
+    if talking:
+        # clips de dialogue : présence "talking", négatives sans lip sync / mouth articulation,
+        # bloc de style réduit pour B (décision du 22 août, lot 3), bloc de la fiche pour A et C
+        neg = ", ".join(x for x in (NEG_MOUVEMENT + ", " + NEG_PRESENCE).split(", ") if x not in NEG_TALKING_RETIRE)
+        for style in ("StyleA", "StyleB", "StyleC"):
+            red = reduced or style == "StyleB"
+            for clip, bloc, dur, subject, camera in TALK_CLIPS:
+                jobs.append({
+                    "name": f"{clip}_{style}", "clip": clip, "bloc": bloc, "style": style, "mode": "i2v",
+                    "duration_s": dur, "length": LENGTH[dur],
+                    "start_image": str(img_dir / style / f"{clip}_{style}.png"), "end_image": None,
+                    "seed": seed_for(f"{clip}_{style}_talk") + seed_offset, "presence": "talking",
+                    "prompt": motion_prompt(style, dur, subject, camera, "talking", red),
+                    "video_style": "reduced" if red else "fiche", "negative": neg, "settings": SETTINGS,
+                    "output": f"clips-runpod/{style}/{clip}_{style}_talk",
+                })
+        Path(sys.argv[2]).write_text(json.dumps(jobs, indent=1, ensure_ascii=False), encoding="utf-8")
+        print(f"{len(jobs)} jobs parlants écrits dans {sys.argv[2]}")
+        return
     for style in ("StyleA", "StyleB", "StyleC"):
         for i, (clip, bloc, dur, subject, camera) in enumerate(CLIPS):
             nxt = CLIPS[i + 1] if i + 1 < len(CLIPS) else None

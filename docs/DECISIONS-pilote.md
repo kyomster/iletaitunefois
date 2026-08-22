@@ -75,3 +75,11 @@ Avec le bloc de style B de la fiche, Wan 2.2 fabrique des têtes d'inkman partou
 ## 2026-08-22, 14 h 05 — Phase F : remontée au dépôt sans les clips
 
 Décision de Guillaume : commit et push des documents, des assets validés et des 54 images du pilote, **sans les mp4** (ni les séquences PNG), qui restent dans `EpisodeModernise/pilote/clips-runpod/` et `pilote/montages/`. Commit `43dfecc` sur `main`. La question du moteur (RunPod suffit‑il ?) et le choix du style restent ouverts ; Guillaume regarde les montages. Remarque consignée : le pilote est muet et sans synchronisation labiale par construction (PIPELINE §7.3 et §9.1), les plans FIXE reçoivent leur mouvement de caméra au montage final.
+
+## 2026-08-22, 14 h 15 — Pas de synchro labiale ne veut pas dire bouches immobiles ; voix du pilote
+
+Décision de Guillaume après le visionnage des montages : sur les plans de dialogue, **les bouches bougent** (animation limitée, non synchronisée), même si la série renonce au lipsync. Conséquences :
+* `PIPELINE` §6 : la ligne « they do not speak » ne vaut que pour les clips sans dialogue ; sur un plan de dialogue, ligne `talking` et négatives sans `lip sync` / `mouth articulation` (gabarit exécutable `build_clips_pilote.py --talking`).
+* `PIPELINE` §7.3 (« pas de synchronisation labiale ») reste vrai pour la synchro ; il est complété : un plan FIXE de dialogue peut devenir un **clip court bouclé** où les personnages parlent (P02 et P03 rendus en 5 s, bouclés sur 10 et 12 s). Si cette règle est retenue pour l'épisode, le ratio ANIMÉ du scénario (36,7 %) augmente, à recalculer.
+* **Audio** : une seule piste voix pour les trois styles. Les quatre répliques du pilote sont générées avec ElevenLabs v3 : voix **grave** « Guillaume – Narration and voiceover » (`ohItIVrXTBI80RrUECOD`) pour BADAUD 1 et GARNERIN, voix **claire** « Curieux REM » (`jvSOBXJ1cP2sdvT5RgUP`) pour BADAUD 2 et L'AIDE. Ce sont des voix déjà présentes sur le compte ; elles ne sont pas verrouillées pour la série tant que Guillaume ne les a pas entérinées (PIPELINE §7.3 : verrouiller les identifiants de voix dès le pilote). Solde ElevenLabs : 6 778 / 10 000 caractères consommés sur la période, +120.
+* Second pod A100 `8vem2qbtwzbw4y`, 14 h 17 → 14 h 55 UTC, ~0,9 $, 9 clips ; archive PNG `clips-runpod/_png/talk_output.tar`.

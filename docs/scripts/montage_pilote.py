@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """Montage de comparaison du pilote : les 16 clips d'un style bout à bout, plans FIXE tenus, 1280x720 16 im/s.
 
-Ordre du scénario : 1a-1..4, 1b-1..3, P02 (10 s, fixe), P03 (12 s, fixe), 4a-1..3, 4b-1..3, 5-1..3.
+Ordre du scénario : 1a-1..4, 1b-1..3, P02 (10 s), P03 (12 s), 4a-1..3, 4b-1..3, 5-1..3.
 Les mouvements de caméra des plans FIXE (travelling, zoom) se font au montage final, pas ici : on juge la continuité.
 
-Usage : python montage_pilote.py <dossier_clips> <dossier_images_2752> <style> <sortie.mp4>
-  <dossier_clips>/<style>/P1a-1_<style>.mp4 ...   <dossier_images_2752>/<style>/P02_<style>.png ...
+Depuis le 22 août 2026 (demande de Guillaume : pas de synchro labiale ne veut pas dire bouches immobiles) :
+  * si un clip « parlant » P02-talk / P03-talk existe pour le style, il remplace l'image fixe, bouclé sur la durée du plan ;
+  * si un dossier audio est donné, les répliques ElevenLabs sont posées sur P02 et P03, identiques pour les trois styles :
+    BADAUD1 à +1,0 s, BADAUD2 0,6 s après la fin de BADAUD1 ; AIDE à +1,0 s, GARNERIN 0,8 s après la fin de AIDE.
+
+Usage : python montage_pilote.py <dossier_clips> <dossier_images_2752> <style> <sortie.mp4> [<dossier_audio>]
 """
 import subprocess
 import sys
@@ -18,30 +22,55 @@ ORDRE = [("P1a-1", None), ("P1a-2", None), ("P1a-3", None), ("P1a-4", None),
          ("P4a-1", None), ("P4a-2", None), ("P4a-3", None),
          ("P4b-1", None), ("P4b-2", None), ("P4b-3", None),
          ("P5-1", None), ("P5-2", None), ("P5-3", None)]
+ENC = ["-vf", "scale=1280:720,fps=16,format=yuv420p", "-c:v", "libx264", "-preset", "fast", "-crf", "16", "-an"]
+REPLIQUES = {"P02": [("S01E01_P02_BADAUD1.mp3", 1.0, None), ("S01E01_P02_BADAUD2.mp3", 0.6, "S01E01_P02_BADAUD1.mp3")],
+             "P03": [("S01E01_P03_AIDE.mp3", 1.0, None), ("S01E01_P03_GARNERIN.mp3", 0.8, "S01E01_P03_AIDE.mp3")]}
+
+
+def duree(p):
+    return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(p)], capture_output=True, text=True).stdout.strip())
 
 
 def main():
     clips, images, style, out = Path(sys.argv[1]), Path(sys.argv[2]), sys.argv[3], Path(sys.argv[4])
+    audio = Path(sys.argv[5]) if len(sys.argv) > 5 else None
     tmp = Path(tempfile.mkdtemp(prefix="montage_"))
-    parts = []
+    parts, t, starts = [], 0.0, {}
     for name, hold in ORDRE:
+        dst = tmp / f"{name}.mp4"
+        talk = clips / style / f"{name}-talk_{style}.mp4"
         if hold is None:
-            src = clips / style / f"{name}_{style}.mp4"
-            dst = tmp / f"{name}.mp4"
-            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(src), "-vf", "scale=1280:720,fps=16,format=yuv420p",
-                            "-c:v", "libx264", "-preset", "fast", "-crf", "16", "-an", str(dst)], check=True)
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(clips / style / f"{name}_{style}.mp4"), *ENC, str(dst)], check=True)
+        elif talk.exists():  # clip parlant bouclé sur la durée du plan
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-stream_loop", "-1", "-i", str(talk), "-t", str(hold), *ENC, str(dst)], check=True)
         else:
-            src = images / style / f"{name}_{style}.png"
-            dst = tmp / f"{name}.mp4"
-            subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-t", str(hold), "-i", str(src),
-                            "-vf", "scale=1280:720,fps=16,format=yuv420p", "-c:v", "libx264", "-preset", "fast", "-crf", "16", "-an", str(dst)], check=True)
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-t", str(hold), "-i", str(images / style / f"{name}_{style}.png"), *ENC, str(dst)], check=True)
+        starts[name] = t
+        t += duree(dst)
         parts.append(dst)
     lst = tmp / "list.txt"
     lst.write_text("".join(f"file '{p.as_posix()}'\n" for p in parts), encoding="utf-8")
+    silent = tmp / "silent.mp4"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(silent)], check=True)
     out.parent.mkdir(parents=True, exist_ok=True)
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(out)], check=True)
-    dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(out)], capture_output=True, text=True).stdout.strip()
-    print(f"{out} : {float(dur):.1f} s")
+    if audio and all((audio / f).exists() for plan in REPLIQUES for f, _, _ in REPLIQUES[plan]):
+        ins, filt, labels = ["-i", str(silent)], [], []
+        i = 1
+        for plan, reps in REPLIQUES.items():
+            cursor = starts[plan]
+            for f, gap, after in reps:
+                cursor += gap
+                ms = int(cursor * 1000)
+                ins += ["-i", str(audio / f)]
+                filt.append(f"[{i}]adelay={ms}|{ms}[a{i}]"); labels.append(f"[a{i}]")
+                cursor += duree(audio / f)
+                i += 1
+        filt.append("".join(labels) + f"amix=inputs={len(labels)}:normalize=0,apad[a]")  # apad : l'audio dure autant que la vidéo
+        subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(filt), "-map", "0:v", "-map", "[a]",
+                        "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-shortest", str(out)], check=True)
+    else:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(silent), "-c", "copy", str(out)], check=True)
+    print(f"{out} : {duree(out):.1f} s ; P02 à {starts['P02']:.1f} s, P03 à {starts['P03']:.1f} s")
 
 
 if __name__ == "__main__":

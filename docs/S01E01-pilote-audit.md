@@ -308,3 +308,16 @@ Hypothèse : le bloc de style B décrit des têtes rondes blanches à yeux point
 Montages de comparaison, 69 s chacun (16 clips + P02 tenu 10 s + P03 tenu 12 s, sans mouvement de caméra) : `pilote/montages/montage_Style{A,B,C}.mp4`. Versions écartées : `clips-runpod/_flf2v/`, `_v1/`, `_v2/`. Séquences PNG master : `clips-runpod/_png/pilote_output.tar` (toutes versions ; la version finale d'un clip est la dernière série de `length` images de son dossier, voir l'index).
 
 Ce que le pilote vidéo a appris : 1) les coupes internes d'un bloc se rendent en I2V, le FLF2V morphe les cadrages ; 2) le gabarit doit dire ce qu'il y a à l'image (aucun personnage / mains / foule) ; 3) en image vers vidéo, le bloc de style ne doit pas décrire les personnages, surtout en B ; 4) une graine identique reproduit le même défaut, une reprise change la graine ; 5) Wan 2.2 de base, sans LoRA, tient le trait des trois styles sur 2 à 4 s : aucun clip ne ramollit les contours ni n'ajoute de volume. Coût : 3 lots, 96 rendus, ~2 h 10 d'A100 ≈ 3 $.
+
+
+## Lot 4 — clips parlants et voix (2026-08-22, 14 h 20 à 14 h 55 UTC, second pod A100 `8vem2qbtwzbw4y`)
+
+Demande de Guillaume : « pas de synchro labiale ne veut pas dire bouches immobiles ». Trois clips par style, ligne de présence `talking` (bouches qui s'ouvrent et se ferment, non synchronisées, gestes légers), négatives sans `lip sync` ni `mouth articulation`, bloc de style réduit pour B, 5 s (81 images) pour P02 et P03, 3 s pour 1b‑2.
+
+| Clip | A | B | C |
+|---|---|---|---|
+| P02‑talk (les badauds parient) | ✔ les deux parlent, bouches ouvertes/fermées, le rond pointe vers la nacelle | ✔ inkmen qui discutent, bouches mobiles, foule vierge derrière | ✔ dispute animée, index levé, bouches mobiles |
+| P03‑talk (l'aide et Garnerin) | ✔ Garnerin répond en parlant et gesticule, l'aide de dos s'anime | ~ Garnerin inkman parle ; l'aide beige se retourne à moitié vers la caméra (tête vierge) | ✔ Garnerin parle et gesticule sans lâcher la soie |
+| P1b‑2‑talk (les aides se parlent en portant) | ✔ de profil, bouche discrète | ✔ les deux inkmen échangent en marchant | ✔ |
+
+**Voix** (ElevenLabs `eleven_v3`, français, une seule piste pour les trois styles, `pilote/audio/`) : BADAUD 1 et GARNERIN sur la voix « Guillaume – Narration and voiceover » (grave), BADAUD 2 et L'AIDE sur « Curieux REM » (claire) ; quatre répliques du scénario à la ponctuation près, 1,0 / 1,8 / 3,4 / 0,7 s, 120 caractères. Montages parlants avec piste voix : `pilote/montages/montage_Style{A,B,C}_parlant.mp4` (P02 et P03 bouclés sur 10 et 12 s, répliques posées à +1 s).

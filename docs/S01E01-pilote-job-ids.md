@@ -106,7 +106,7 @@ Réglages : `nano_banana_pro` soumis (le serveur répond `nano_banana_2`, normal
 
 ## Clips (phase D)
 
-Pod RunPod `taqfahum2mbsen`, A100 80 Go PCIe, EU-RO-1, ComfyUI 0.33, Wan 2.2 I2V A14B fp8 + LightX2V 4 étapes, 1280x720 16 im/s. `prompt_id` ComfyUI, graine, mode. Statut `rendu` = version retenue ; `rendu_v1` / `rendu_v2` / `rendu_flf2v` = versions écartées conservées dans `clips-runpod/_v1`, `_v2`, `_flf2v`.
+Pods RunPod `taqfahum2mbsen` (48 clips, 3 lots) puis `8vem2qbtwzbw4y` (9 clips parlants), A100 80 Go PCIe, EU-RO-1, ComfyUI 0.33, Wan 2.2 I2V A14B fp8 + LightX2V 4 étapes, 1280x720 16 im/s. `prompt_id` ComfyUI, graine, mode. Statut `rendu` = version retenue ; `rendu_v1` / `rendu_v2` / `rendu_flf2v` = versions écartées conservées dans `clips-runpod/_v1`, `_v2`, `_flf2v`.
 
 | Clip | Style | prompt_id | Durée | Graine | Statut | Note |
 |---|---|---|---|---|---|---|
@@ -250,3 +250,21 @@ Pod RunPod `taqfahum2mbsen`, A100 80 Go PCIe, EU-RO-1, ComfyUI 0.33, Wan 2.2 I2V
 | P4b-3 | StyleB | `5ae89bee-fd26-4570-aea3-a3c2c4458e44` | 3.0 | 1988396768 | rendu | i2v length=49 runpod style=reduced gabarit=none ; mp4=P4b-3_StyleB_00002_.mp4 |
 | P5-2 | StyleB | `4031a02f-7826-4578-ac99-a822d1c43361` | 3.0 | 767742790 | rendu | i2v length=49 runpod style=reduced gabarit=hands ; mp4=P5-2_StyleB_00002_.mp4 |
 | P5-3 | StyleB | `82f6cefc-c69c-44b8-9207-099bca6c0a34` | 2.5 | 1634259931 | rendu | i2v length=41 runpod style=reduced gabarit=none ; mp4=P5-3_StyleB_00003_.mp4 |
+| P02-talk | StyleA | `91010d1b-fc30-4e69-a928-e98ecb7334a7` | 5.0 | 121997555 | rendu | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P02-talk_StyleA_00001_.mp4 |
+| P03-talk | StyleA | `f915e7ef-9ff1-4cbb-b523-7a49deb459f6` | 5.0 | 1523798391 | rendu | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P03-talk_StyleA_00001_.mp4 |
+| P1b-2-talk | StyleA | `92cdde94-e4b7-4414-a464-7c2c87345294` | 3.0 | 964103718 | rendu | i2v length=49 runpod style=fiche gabarit=talking ; mp4=P1b-2-talk_StyleA_00001_.mp4 |
+| P02-talk | StyleB | `a1f40b3e-2da3-4d90-a38f-bc0623762693` | 5.0 | 30538334 | rendu | i2v length=81 runpod style=reduced gabarit=talking ; mp4=P02-talk_StyleB_00001_.mp4 |
+| P03-talk | StyleB | `3757676b-be00-4672-abc6-ffcc37bb1a1b` | 5.0 | 1548166104 | rendu | i2v length=81 runpod style=reduced gabarit=talking ; mp4=P03-talk_StyleB_00001_.mp4 |
+| P1b-2-talk | StyleB | `ca923025-13d6-4947-a915-144156653e63` | 3.0 | 1071873163 | rendu | i2v length=49 runpod style=reduced gabarit=talking ; mp4=P1b-2-talk_StyleB_00001_.mp4 |
+| P02-talk | StyleC | `2a5a231c-66b0-4cef-9f66-4759fb108c50` | 5.0 | 1250765304 | rendu | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P02-talk_StyleC_00001_.mp4 |
+| P03-talk | StyleC | `f41d29e0-1b24-42bd-9e21-7e402325259d` | 5.0 | 387707006 | rendu | i2v length=81 runpod style=fiche gabarit=talking ; mp4=P03-talk_StyleC_00001_.mp4 |
+| P1b-2-talk | StyleC | `c84beb02-4179-46ae-8309-5006cd31da83` | 3.0 | 1958719279 | rendu | i2v length=49 runpod style=fiche gabarit=talking ; mp4=P1b-2-talk_StyleC_00001_.mp4 |
+
+## Voix (ElevenLabs, phase D bis)
+
+| Réplique | Modèle | voice_id | Fichier | Note |
+|---|---|---|---|---|
+| P02_BADAUD1 | eleven_v3 | `ohItIVrXTBI80RrUECOD` | `audio/S01E01_P02_BADAUD1.mp3` | voix Guillaume - Narration and voiceover (grave) ; texte : Il va se tuer, je vous dis. |
+| P02_BADAUD2 | eleven_v3 | `jvSOBXJ1cP2sdvT5RgUP` | `audio/S01E01_P02_BADAUD2.mp3` | voix Curieux REM (claire) ; texte : Dix francs qu'il ne coupe pas la corde. |
+| P03_AIDE | eleven_v3 | `jvSOBXJ1cP2sdvT5RgUP` | `audio/S01E01_P03_AIDE.mp3` | voix Curieux REM (claire) ; texte : Citoyen Garnerin, renoncez, il est encore temps. |
+| P03_GARNERIN | eleven_v3 | `ohItIVrXTBI80RrUECOD` | `audio/S01E01_P03_GARNERIN.mp3` | voix Guillaume - Narration and voiceover (grave) ; texte : Lâchez tout. |
