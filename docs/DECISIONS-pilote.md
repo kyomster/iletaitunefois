@@ -71,3 +71,7 @@ Correction appliquée (RÈGLE 4 et RÈGLE 25 : prescrire le vide en positif, nom
 ## 2026-08-22, 13 h 15 — Bloc de style vidéo réduit pour le style B (essai v3, concluant)
 
 Avec le bloc de style B de la fiche, Wan 2.2 fabrique des têtes d'inkman partout (12 clips sur 16 inutilisables, voir audit lots 1 et 2). Essai sur les 12 clips fautifs avec un bloc réduit à la facture, sans aucune description de personnage, et une graine décalée de 1 : **12 sur 12 exploitables**. Décision de Claude Code pendant le rendu, signalée : les clips B retenus portent ce bloc réduit (`video_style=reduced` dans l'index). À entériner par Guillaume : pour la vidéo, le bloc de style de la fiche n'est pas copié tel quel ; il est réduit à la facture et l'image clé porte le style. Le `PIPELINE` §6 est amendé d'une note. A et C gardent le bloc de la fiche (sauf 4b‑3 A, rendu avec le bloc réduit).
+
+## 2026-08-22, 14 h 05 — Phase F : remontée au dépôt sans les clips
+
+Décision de Guillaume : commit et push des documents, des assets validés et des 54 images du pilote, **sans les mp4** (ni les séquences PNG), qui restent dans `EpisodeModernise/pilote/clips-runpod/` et `pilote/montages/`. Commit `43dfecc` sur `main`. La question du moteur (RunPod suffit‑il ?) et le choix du style restent ouverts ; Guillaume regarde les montages. Remarque consignée : le pilote est muet et sans synchronisation labiale par construction (PIPELINE §7.3 et §9.1), les plans FIXE reçoivent leur mouvement de caméra au montage final.
