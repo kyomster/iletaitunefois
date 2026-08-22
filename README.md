@@ -20,6 +20,7 @@ assets/
 docs/
   DECISIONS-pilote.md                 les arbitrages du pilote, datés, avec leurs raisons
   S01E01-pilote-audit.md              l'audit des 54 images et des 48 clips, lot par lot
+  ETAT-DE-L-ART-dialogue-video.md     recherche du 23 août 2026 : limites de Wan 2.2 sur les dialogues, MultiTalk/InfiniteTalk, LTX-2.5, essais proposés
   S01E01-pilote-job-ids.md            media_id des références, job_id des images, prompt_id des clips
   scripts/                            build_prompts_pilote.py, build_clips_pilote.py, run_clips_runpod.py, runpod_pilote.py, montage_pilote.py, chain_dialogue_runpod.py, run_s2v_runpod.py, align_dialogue_audio.py (obsolète), analyse_montage.py
   runpod/                             les graphes ComfyUI (format API) I2V et FLF2V tels qu'exécutés
