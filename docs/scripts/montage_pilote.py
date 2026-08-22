@@ -12,6 +12,7 @@ Depuis le 22 août 2026 (demande de Guillaume : pas de synchro labiale ne veut p
 Usage : python montage_pilote.py <dossier_clips> <dossier_images_2752> <style> <sortie.mp4> [<dossier_audio>]
 """
 import json
+import os
 import subprocess
 import sys
 import tempfile
@@ -40,10 +41,12 @@ def main():
     for name, hold in ORDRE:
         dst = tmp / f"{name}.mp4"
         talk = clips / style / f"{name}-talk_{style}.mp4"
-        # sous-clips recalés sur le mouvement (align_dialogue_audio.py) s'ils existent, sinon les bruts
+        # sous-clips recalés (align_dialogue_audio.py) SEULEMENT si la variable d'environnement MONTAGE_ALIGNED=1 :
+        # le 22 août à 18 h 45, le ramassage implicite de _aligned/ a mélangé des sous-clips v2 ré-échantillonnés aux v3.
         aligned = clips / "_aligned"
-        offsets = json.load(open(aligned / f"offsets_{style}.json")) if (aligned / f"offsets_{style}.json").exists() else {}
-        subs = [(aligned / style / f"{name}-{k}_{style}.mp4") if (aligned / style / f"{name}-{k}_{style}.mp4").exists() else clips / style / f"{name}-{k}_{style}.mp4" for k in (1, 2, 3, 4)]
+        use_aligned = os.environ.get("MONTAGE_ALIGNED") == "1" and (aligned / f"offsets_{style}.json").exists()
+        offsets = json.load(open(aligned / f"offsets_{style}.json")) if use_aligned else {}
+        subs = [(aligned / style / f"{name}-{k}_{style}.mp4") if use_aligned and (aligned / style / f"{name}-{k}_{style}.mp4").exists() else clips / style / f"{name}-{k}_{style}.mp4" for k in (1, 2, 3, 4)]
         # S2V (bouche pilotée par la voix, 22 août 2026) : si P02-2s2v / P02-3s2v existent, ils remplacent les sous-clips
         # des locuteurs et la réplique démarre avec eux (décalage 0)
         for k in (2, 3):
