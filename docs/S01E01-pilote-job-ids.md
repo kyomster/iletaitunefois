@@ -106,7 +106,7 @@ Réglages : `nano_banana_pro` soumis (le serveur répond `nano_banana_2`, normal
 
 ## Clips (phase D)
 
-Pods RunPod `taqfahum2mbsen` (48 clips, A100), `8vem2qbtwzbw4y` (9 clips parlants, A100), `fpmrh7ovnt7szg` (16 sous-clips de dialogue + 1 reprise, RTX 5090), `eju7msjde2tn6s` (8 S2V + 4 reprises de continuité, RTX 5090) ; ComfyUI 0.33. Statut `rendu` = version retenue ; `rendu_v1` / `rendu_v2` / `rendu_flf2v` / `rendu_fige` = versions écartées conservées dans `clips-runpod/_v1`, `_v2`, `_flf2v`, `_fige`.
+Pods RunPod du 22 août : `taqfahum2mbsen` (48 clips, A100), `8vem2qbtwzbw4y` (9 parlants, A100), `fpmrh7ovnt7szg` (16 sous-clips + 1, RTX 5090), `eju7msjde2tn6s` (8 S2V + 4 continuité, RTX 5090), `6t4ajf75qe7gdc` (16 sous-clips v3 + 4 S2V contrechamp, A100). Statut `rendu` = version retenue ; `rendu_v1` / `rendu_v2` / `rendu_flf2v` / `rendu_fige` = versions écartées (`clips-runpod/_v1`, `_v2`, `_flf2v`, `_fige`, `_chain_v2`, `_s2v_twoshot`).
 
 | Clip | Style | prompt_id | Durée | Graine | Statut | Note |
 |---|---|---|---|---|---|---|
@@ -305,6 +305,26 @@ Pods RunPod `taqfahum2mbsen` (48 clips, A100), `8vem2qbtwzbw4y` (9 clips parlant
 | P5-2 | StyleA | `a8a9fa24-a409-4132-852a-396fbc522abe` | 3.0 | 885752577 | rendu | i2v length=49 runpod style=fiche gabarit=hands ; mp4=P5-2_StyleA_00001_.mp4 |
 | P4a-2 | StyleB | `5eafb160-90f8-477a-9d9e-3494febb6043` | 3.0 | 1360608583 | rendu | i2v length=49 runpod style=reduced gabarit=crowd ; mp4=P4a-2_StyleB_00001_.mp4 |
 | P5-2 | StyleB | `ebc28043-b436-461c-842c-d68da1b18834` | 3.0 | 767742792 | rendu | i2v length=49 runpod style=reduced gabarit=hands ; mp4=P5-2_StyleB_00001_.mp4 |
+| P02-1 | StyleA | `a37497c7-a64b-4f3b-80bf-d89f5b406193` | 2.0 | 1233426956 | rendu | i2v length=33 runpod style=fiche gabarit=character chaine=cle ; mp4=P02-1_StyleA_00001_.mp4 ; derniere image=frame_00033_.png |
+| P03-1 | StyleA | `d4e9e6b2-e067-420d-a2e5-a22d8a86aaa3` | 2.0 | 1418427261 | rendu | i2v length=33 runpod style=fiche gabarit=character chaine=cle ; mp4=P03-1_StyleA_00001_.mp4 ; derniere image=frame_00033_.png |
+| P02-1 | StyleB | `d22e5f4d-9fea-4f28-b1c4-4df257d63e2e` | 2.0 | 237297884 | rendu | i2v length=33 runpod style=reduced gabarit=character chaine=cle ; mp4=P02-1_StyleB_00001_.mp4 ; derniere image=frame_00033_.png |
+| P03-1 | StyleB | `c86f0354-c991-4922-af3b-3c9db5de31f1` | 2.0 | 321585581 | rendu | i2v length=33 runpod style=reduced gabarit=character chaine=cle ; mp4=P03-1_StyleB_00001_.mp4 ; derniere image=frame_00033_.png |
+| P02-2 | StyleA | `61a03b6c-05c1-4ed3-82f7-31102fce58ed` | 1.5 | 1041910012 | rendu | i2v length=25 runpod style=fiche gabarit=talking_solo chaine=derniere image du precedent ; mp4=P02-2_StyleA_00001_.mp4 ; derniere image=frame_00025_.p |
+| P03-2 | StyleA | `f5b65a7e-5bb8-4702-8c2f-2a57dd2f6a36` | 3.75 | 588622221 | rendu | i2v length=61 runpod style=fiche gabarit=talking_solo chaine=derniere image du precedent ; mp4=P03-2_StyleA_00001_.mp4 ; derniere image=frame_00061_.p |
+| P02-2 | StyleB | `5bf79e6e-3a84-470e-a64e-3b2ab562065e` | 1.5 | 2042245676 | rendu | i2v length=25 runpod style=reduced gabarit=talking_solo chaine=derniere image du precedent ; mp4=P02-2_StyleB_00001_.mp4 ; derniere image=frame_00025_ |
+| P03-2 | StyleB | `edba3225-ba6c-4e1e-a8fd-6e2a180b4d9b` | 3.75 | 1689637725 | rendu | i2v length=61 runpod style=reduced gabarit=talking_solo chaine=derniere image du precedent ; mp4=P03-2_StyleB_00001_.mp4 ; derniere image=frame_00061_ |
+| P02-3 | StyleA | `076d212b-e6f3-4f8f-ad52-be571274f269` | 2.25 | 633275540 | rendu | i2v length=37 runpod style=fiche gabarit=talking_solo chaine=derniere image du precedent ; mp4=P02-3_StyleA_00001_.mp4 ; derniere image=frame_00037_.p |
+| P03-3 | StyleA | `e3bf6861-c6a7-499e-9a17-fb64956362da` | 1.25 | 951117283 | rendu | i2v length=21 runpod style=fiche gabarit=talking_solo chaine=derniere image du precedent ; mp4=P03-3_StyleA_00001_.mp4 ; derniere image=frame_00021_.p |
+| P02-3 | StyleB | `e433cb06-9879-4e0d-a06a-457b23e45acf` | 2.25 | 1646231108 | rendu | i2v length=37 runpod style=reduced gabarit=talking_solo chaine=derniere image du precedent ; mp4=P02-3_StyleB_00001_.mp4 ; derniere image=frame_00037_ |
+| P03-3 | StyleB | `24be3ff5-c1d6-4a9f-b5b1-78970a39b36b` | 1.25 | 2131795763 | rendu | i2v length=21 runpod style=reduced gabarit=talking_solo chaine=derniere image du precedent ; mp4=P03-3_StyleB_00001_.mp4 ; derniere image=frame_00021_ |
+| P02-4 | StyleA | `47c547bf-5723-4906-b5c1-c00a0b7fe7a4` | 4.25 | 1361571099 | rendu | i2v length=69 runpod style=fiche gabarit=character chaine=derniere image du precedent ; mp4=P02-4_StyleA_00001_.mp4 ; derniere image=frame_00069_.png |
+| P03-4 | StyleA | `495943a8-edb9-473d-809b-6f97b64b0ee0` | 5.0 | 1277693038 | rendu | i2v length=81 runpod style=fiche gabarit=character chaine=derniere image du precedent ; mp4=P03-4_StyleA_00001_.mp4 ; derniere image=frame_00081_.png |
+| P02-4 | StyleB | `fcc38dba-4b97-481d-8bbc-10b01477b199` | 4.25 | 377984971 | rendu | i2v length=69 runpod style=reduced gabarit=character chaine=derniere image du precedent ; mp4=P02-4_StyleB_00001_.mp4 ; derniere image=frame_00069_.pn |
+| P03-4 | StyleB | `cf668359-d266-4cb5-a2c0-0583f3ee4283` | 5.0 | 193492670 | rendu | i2v length=81 runpod style=reduced gabarit=character chaine=derniere image du precedent ; mp4=P03-4_StyleB_00001_.mp4 ; derniere image=frame_00081_.pn |
+| P02as2v | StyleA | `d0179bfd-d16f-4009-971a-f706fe3f64aa` | 1.56 | 1627936685 | rendu | s2v audio=S01E01_P02_BADAUD1.mp3 length=25 steps=4 cfg=1.0 ; mp4=P02as2v_StyleA_00001_.mp4 |
+| P02bs2v | StyleA | `68a67af6-9919-49f2-8a7d-3e675c015b1e` | 2.31 | 378963293 | rendu | s2v audio=S01E01_P02_BADAUD2.mp3 length=37 steps=4 cfg=1.0 ; mp4=P02bs2v_StyleA_00001_.mp4 |
+| P02as2v | StyleB | `355cc02b-8cd9-43a6-a6ca-3bacb614c0ff` | 1.56 | 648555901 | rendu | s2v audio=S01E01_P02_BADAUD1.mp3 length=25 steps=4 cfg=1.0 ; mp4=P02as2v_StyleB_00001_.mp4 |
+| P02bs2v | StyleB | `779becbf-b20c-41ac-9dfe-ebfe28c3eb53` | 2.31 | 1362558861 | rendu | s2v audio=S01E01_P02_BADAUD2.mp3 length=37 steps=4 cfg=1.0 ; mp4=P02bs2v_StyleB_00001_.mp4 |
 
 ## Voix (ElevenLabs, phase D bis)
 

@@ -47,7 +47,7 @@ BLOCS_FOULE = {"1a", "1b", "2", "4a"}  # point 4.4
 # Correction du 22 août 2026 (audit lot 1, docs/S01E01-pilote-audit.md) : sur P02, la négative de foule
 # effaçait les visages des deux badauds nommés en style C. Elle est retirée sur ce plan, le bloc positif
 # [FOULE] suffit. P02_StyleA et P02_StyleB validés avaient été produits AVEC la négative (version 1).
-PLANS_SANS_NEG_FOULE = {"P02"}
+PLANS_SANS_NEG_FOULE = {"P02", "P02a", "P02b"}
 
 # ---------------------------------------------------------------- point 5 : blocs identité
 IDENT = {
@@ -58,6 +58,14 @@ IDENT = {
     "PARIEURS": {
         "AC": "the round onlooker wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air; the thin onlooker leaning on a cane, threadbare coat, suspicious squint",
         "B": "the round bellied onlooker inkman with a tall cylindrical top hat with a cockade on his round head, waistcoat drawn as a flat shape stretched over his belly, peremptory raised chin; the thin onlooker inkman leaning on a cane, threadbare coat, suspicious half closed dot eyes",
+    },
+    "PARIEURS_ROND": {
+        "AC": "the round onlooker wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air",
+        "B": "the round bellied onlooker inkman with a tall cylindrical top hat with a cockade on his round head, waistcoat drawn as a flat shape stretched over his belly, peremptory raised chin",
+    },
+    "PARIEURS_MAIGRE": {
+        "AC": "the thin onlooker leaning on a cane, threadbare coat, suspicious squint",
+        "B": "the thin onlooker inkman leaning on a cane, threadbare coat, suspicious half closed dot eyes",
     },
     "FOULE": {
         "AC": "a dozen Directoire crowd silhouettes, MOST OF THEM SEEN FROM BEHIND and the rest in three quarter view from behind, varied scales, NO FACE VISIBLE ON ANY FIGURE, no facial features at all: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, simplified figures less detailed than main characters",
@@ -83,6 +91,10 @@ BRIQUES = [
     ("P1b-2", "1b", "Scene: the wicker basket carried forward by assistants, ropes trailing, toward the balloon hanging above with no basket under it yet. Framing: lateral medium shot. Decor: D1. Characters: two assistants in rough jackets, crowd behind them seen from behind. Props: ONE wicker basket, ropes."),
     ("P1b-3", "1b", "Scene: the basket being lashed under the balloon, hands knotting the ropes, the balloon is directly above this basket and out of frame. Framing: close shot on the knots. Decor: D1, blurred behind, no other balloon or basket in the background. Characters: hands and forearms only. Props: ropes, wicker rim, iron ring."),
     ("P02", "2", "Scene: two Directoire onlookers in the foreground leaning toward each other to make a bet, the basket and the crowd behind them. Framing: medium close shot at chest height, slightly low angle. Decor: D1. Characters: [PARIEURS], [FOULE] far behind. Props: cane, cockaded hats."),
+    # Champ-contrechamp de P02, 22 août 2026 (décision Guillaume) : la synchro labiale S2V n'anime correctement que si le seul
+    # visage visible est celui qui parle. Deux images clés supplémentaires, une par badaud, même décor, mêmes références.
+    ("P02a", "2", "Scene: close shot on the round onlooker alone as he speaks, his hand down, his mouth clearly visible, the top hat with the tricolour cockade, the thin onlooker out of frame, the crowd and the basket far behind. Framing: close shot at shoulder height, slightly low angle. Decor: D1. Characters: [PARIEURS_ROND]. Props: cockaded hat."),
+    ("P02b", "2", "Scene: close shot on the thin onlooker alone as he answers, leaning on his cane, his mouth clearly visible, the round onlooker out of frame, the crowd and the basket far behind. Framing: close shot at shoulder height, slightly low angle. Decor: D1. Characters: [PARIEURS_MAIGRE]. Props: cane."),
     ("P03", "3", "Scene: inside the basket, Garnerin checking a large folded bundle of silk, his assistant speaking to him from the rim, the balloon is directly above this basket and out of frame. Framing: medium shot over the assistant's shoulder, the assistant in the foreground. Decor: D1 seen past the rim of the basket, no other balloon or basket in the background. Characters: [GARNERIN], [AIDE]. Props: folded silk bundle, ropes, a knife tucked at the side of the basket."),
     ("P4a-1", "4a", "Scene: the balloon tearing away from the ground, the released ropes falling back. Framing: very wide shot at crowd level, the backs of onlookers in the foreground. Decor: D1. Characters: [FOULE] from behind. Props: balloon, basket, falling ropes."),
     # Brique 4a-2 amendée le 22 août 2026 (continuité : le ballon ne doit pas « redécoller » deux fois entre 4a-1 et 4a-2).
@@ -103,7 +115,7 @@ BRIQUES = [
 REFS = {
     "P1a-1": ["D01", "Foule"], "P1a-2": ["D01", "Foule"], "P1a-3": ["D01"], "P1a-4": ["D01", "Foule"],  # 1a-2 : Foule ajoutée le 22 août 2026 (audit : dérive des figurants sans référence en A et B)
     "P1b-1": ["D01", "Foule"], "P1b-2": ["D01", "Foule"], "P1b-3": ["D01"],
-    "P02": ["D01", "Parieurs", "Foule"],
+    "P02": ["D01", "Parieurs", "Foule"], "P02a": ["D01", "Parieurs"], "P02b": ["D01", "Parieurs"],
     "P03": ["D01", "Garnerin"],
     "P4a-1": ["D01", "Foule", "Garnerin"], "P4a-2": ["D01", "Foule", "Garnerin"], "P4a-3": ["D01"],
     "P4b-1": ["D02"], "P4b-2": ["D02", "Garnerin"], "P4b-3": ["D02"],
@@ -143,7 +155,7 @@ def main():
     for style in ("StyleA", "StyleB", "StyleC"):
         for name, bloc, brique in BRIQUES:
             out.append(assemble(name, bloc, brique, style, media_ids))
-    assert len(out) == 54
+    assert len(out) == 60  # 54 + P02a/P02b x 3 styles
     Path(sys.argv[2]).write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
     if len(sys.argv) > 3:
         md = ["# S01E01 — les 54 prompts du pilote, tels que soumis", "",

@@ -59,6 +59,8 @@ PRESENCE_LINE = {
     "character": "Characters gesture and react, they do not speak. Nobody new enters the frame, no figure appears in the foreground.",
     # 22 août 2026, demande de Guillaume : pas de synchro labiale ne veut pas dire bouches immobiles.
     "talking": "The characters talk to each other with simple cartoon mouth movements, mouths opening and closing, not synchronized to any audio; they gesture lightly and stay in place. Nobody new enters the frame, no figure appears in the foreground.",
+    # 22 août 2026, 17 h 30 (Guillaume) : un seul locuteur par clip, qui parle du premier au dernier frame ; le clip dure la réplique.
+    "talking_solo": "Only ONE character speaks in this clip, continuously from the very first frame to the very last frame, his mouth opening and closing the whole time in simple cartoon mouth movements; the other character keeps his mouth firmly closed and only listens. Both stay in place. Nobody new enters the frame.",
 }
 # Sur un clip « talking », les négatives « lip sync, mouth articulation » sont retirées.
 NEG_TALKING_RETIRE = ("lip sync", "mouth articulation")
@@ -67,17 +69,18 @@ NEG_TALKING_RETIRE = ("lip sync", "mouth articulation")
 # bouches qui parlent). Chaque sous-clip part de l'image clé et Y REVIENT (FLF2V départ = fin = image clé) : le raccord
 # est invisible. (sous-clip, durée s, présence, subject). Les durées somment à celle du plan : P02 10 s, P03 12 s.
 DIALOGUE = {
+    # v3 du 22 août, 17 h 30 : durée des sous-clips parlants = durée de la réplique + 0,4 s ; le locuteur parle tout le clip.
     "P02": [
         ("P02-1", 2.0, "character", "the two onlookers stand and watch the balloon behind them in silence, both mouths closed, slight breathing, the round one adjusts his hat"),
-        ("P02-2", 2.5, "talking", "ONLY the round onlooker with the top hat speaks, his mouth opening and closing, he points toward the basket; the thin onlooker listens with his mouth firmly closed"),
-        ("P02-3", 3.0, "talking", "ONLY the thin onlooker with the cane speaks, his mouth opening and closing as he leans in; the round onlooker listens with his mouth firmly closed"),
-        ("P02-4", 2.5, "character", "both onlookers turn their eyes toward the basket in silence, mouths closed, the thin one taps his cane on the ground"),
+        ("P02-2", 1.5, "talking_solo", "the round onlooker with the top hat speaks, his mouth opening and closing from the first frame to the last, he points toward the basket; the thin onlooker with the cane listens with his mouth firmly closed"),
+        ("P02-3", 2.25, "talking_solo", "the thin onlooker with the cane speaks, his mouth opening and closing from the first frame to the last as he leans in; the round onlooker listens with his mouth firmly closed"),
+        ("P02-4", 4.25, "character", "both onlookers turn their eyes toward the basket in silence, mouths closed, the thin one taps his cane on the ground"),
     ],
     "P03": [
         ("P03-1", 2.0, "character", "Garnerin checks the folded silk in silence, the assistant watches from the rim, both mouths closed"),
-        ("P03-2", 4.0, "talking", "ONLY the assistant speaks from the rim, seen from behind, his head and shoulders moving as he talks; Garnerin keeps checking the silk with his mouth closed"),
-        ("P03-3", 2.5, "talking", "ONLY Garnerin speaks, a short curt answer, his mouth opening and closing once or twice without looking up; the assistant is silent and still"),
-        ("P03-4", 3.5, "character", "Garnerin tightens a rope in silence and the assistant steps back a little, both mouths closed"),
+        ("P03-2", 3.75, "talking_solo", "the assistant in the foreground speaks from the rim, seen from behind, his head and shoulders moving as he talks from the first frame to the last; Garnerin keeps checking the silk with his mouth firmly closed"),
+        ("P03-3", 1.25, "talking_solo", "Garnerin speaks, a short curt answer, his mouth opening and closing from the first frame to the last without looking up; the assistant is silent and still"),
+        ("P03-4", 5.0, "character", "Garnerin tightens a rope in silence and the assistant steps back a little, both mouths closed"),
     ],
 }
 
@@ -109,7 +112,7 @@ CLIPS = [
     ("P5-3", "5", 2.5, "the rope gives way at once, the strands whip the air", "static"),
 ]
 
-LENGTH = {2.0: 33, 2.5: 41, 3.0: 49, 3.5: 57, 4.0: 65, 4.5: 73, 5.0: 81}  # 16 im/s, 4n+1
+LENGTH = {1.25: 21, 1.5: 25, 2.0: 33, 2.25: 37, 2.5: 41, 3.0: 49, 3.5: 57, 3.75: 61, 4.0: 65, 4.25: 69, 4.5: 73, 5.0: 81}  # 16 im/s, 4n+1
 
 SETTINGS = {"width": 1280, "height": 720, "fps": 16, "steps": 4, "steps_high": 2, "steps_low": 2,
             "cfg": 1.0, "sampler": "euler", "scheduler": "simple", "shift": 5.0,

@@ -354,3 +354,17 @@ Coût du lot : RTX 5090 secure, 38 min, ~0,6 $. Total RunPod du jour : 3 pods, ~
 * Montages `montage_Style{A,B}_parlant_v4_s2v.mp4` (66 s) : P02 = attente 2 s + S2V badaud 1 (1,6 s) + S2V badaud 2 (2,3 s) + silence 2,5 s = 8,4 s (au lieu de 10), P03 = 2 + 3,8 + 1,3 + 3,5 = 10,6 s (au lieu de 12) : les plans de dialogue raccourcissent à la durée réelle des répliques ; à tenir à 10 / 12 s, on allonge les sous-clips de silence.
 
 Coût du lot : RTX 5090, 45 min, ~0,75 $ ; Higgsfield 8 crédits (solde 882). Total RunPod du jour : 4 pods, ~5,4 $.
+
+
+## Lot 7 — analyse de l'alignement et deux variantes de dialogue (2026-08-22, 17 h 15 à 18 h 30 UTC, pod A100 `6t4ajf75qe7gdc`)
+
+**Analyse du montage v4 (S2V sur le plan à deux)**, à la demande de Guillaume : énergie audio par demi‑seconde + transcription horodatée ElevenLabs (Scribe v1) + images à 1 et 2 i/s. L'audio est exactement là où le montage le pose (20,56 s, 22,18 s, 29,12 s, 32,96 s). Le décalage est à l'image : **S2V anime la bouche du visage le plus visible, pas celle du locuteur** — pendant la réplique de l'aide (de dos), c'est Garnerin qui articule ; dans P02, le badaud rond chuchote la main devant la bouche sur l'image clé et la bouche du maigre bouge aussi. Bandes : `pilote/_analyse/A_P03_garnerin_28-34s.jpg`, `A_P02_visages_20-24s.jpg`.
+
+**Règle posée par Guillaume** : pas besoin de contrechamp — on garde le plan à deux, mais **un clip par réplique, un seul personnage qui parle par clip**, et dans ce cas S2V n'est plus nécessaire. Deux variantes rendues pour comparaison :
+
+| Variante | Méthode | Montages |
+|---|---|---|
+| **v5 — I2V, un locuteur par clip** | sous-clips chaînés par dernière image : attente 2 s → locuteur 1 (durée réplique + 0,4 s, « speaks continuously from the first frame to the last ; the other keeps his mouth firmly closed ») → locuteur 2 → silence ; réplique posée au début du sous-clip. Sur les bandes v3 : le rond parle seul puis le maigre seul, bouches ouvertes sur toute la durée du sous-clip. | `montage_Style{A,B}_v5_i2v_un_locuteur.mp4` |
+| **v5b — S2V sur champ-contrechamp** | deux nouvelles images clés P02a (le rond seul, main baissée) et P02b (le maigre seul), S2V sur chacune avec sa réplique ; P03 : aide en I2V (de dos), Garnerin en S2V sur le plan à deux. | `montage_Style{A,B}_v5b_s2v_contrechamp.mp4` |
+
+Images P02a/P02b (8 crédits + 1 faux positif nsfw resoumis) : bouches visibles, même décor, même personnage que la fiche ; la foule de fond a disparu sur les plans rapprochés (acceptable). Coût du lot : A100, 1 h 15, ~1,7 $ ; Higgsfield 10 crédits. **Total du jour : RunPod ~7,1 $ (5 pods), Higgsfield 160 crédits (solde 872), ElevenLabs ~120 caractères + 1 transcription.**
