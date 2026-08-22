@@ -326,6 +326,63 @@ Pods RunPod du 22 août : `taqfahum2mbsen` (48 clips, A100), `8vem2qbtwzbw4y` (9
 | P02as2v | StyleB | `355cc02b-8cd9-43a6-a6ca-3bacb614c0ff` | 1.56 | 648555901 | rendu | s2v audio=S01E01_P02_BADAUD1.mp3 length=25 steps=4 cfg=1.0 ; mp4=P02as2v_StyleB_00001_.mp4 |
 | P02bs2v | StyleB | `779becbf-b20c-41ac-9dfe-ebfe28c3eb53` | 2.31 | 1362558861 | rendu | s2v audio=S01E01_P02_BADAUD2.mp3 length=37 steps=4 cfg=1.0 ; mp4=P02bs2v_StyleB_00001_.mp4 |
 
+
+## Lot 8 — images clés bouches fermées, cadrages variés, couleurs (2026-08-22/23)
+
+| Plan | Style | job_id | Statut | Note |
+|---|---|---|---|---|
+| P02 | StyleA | `4e23eead-c316-41d6-bb31-5678cd0ac64f` | telecharge | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur |
+| P02 | StyleB | `2ee546a2-fe64-46ff-8e35-6657d0fdf756` | telecharge | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur |
+| P03 | StyleA | `f82d8f48-b909-4e2a-af79-514e3fad5a48` | telecharge | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur |
+| P03 | StyleB | `c5ce8f63-f56e-4eb6-b5d7-f06d0d0f9392` | telecharge | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur |
+| P1a-4 | StyleA | `4eaff92a-da13-409d-91a0-6cb607c4dcfa` | telecharge | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur |
+| P1a-4 | StyleB | `9914de1e-13a9-4211-bf53-ee791fa4099f` | telecharge | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur |
+| P4a-1 | StyleA | `19ef1f9d-61e5-453a-befe-61ac52a304b4` | telecharge | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur |
+| P4a-1 | StyleB | `d5ef483c-557b-4396-a2d3-cde39d8b44f4` | telecharge | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur |
+| P4a-2 | StyleA | `29e5f7e0-986c-4bd6-ae19-87cde74f6ef0` | echec | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur ; failed cote serveur, resou |
+| P4a-2 | StyleB | `2bbcf2e4-e285-4107-b7a2-cc3bdc64ca88` | telecharge | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur |
+| P4b-3 | StyleA | `fbfb0cda-82aa-418e-9d4e-3112477e05f6` | telecharge | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur |
+| P4b-3 | StyleB | `6c949186-f818-4245-b670-34a85c5144e9` | telecharge | lot 8 : bouches fermees / cadrages varies / ballon mi-hauteur |
+| P4a-2 | StyleA | `53518f88-e14e-4039-9f68-0522b9a41530` | telecharge | resoumission apres failed, lot 8 |
+| P4b-3 | StyleA | `7d231b36-ae23-4a33-b6a8-2ba2263c1718` | telecharge | lot 8 v2 : lettrage D2 sur la v1, decor explicite |
+| P4a-2 | StyleA | `75a2afbc-b28d-4605-bf45-13ea2bb9894a` | telecharge | lot 8 v2 : manteau orange vif + robe sarcelle sur la v1, meme prompt |
+| P4a-2 | StyleA | `81e23ced-7d1c-4cc6-8f0a-301bf7a4f1bc` | telecharge | lot 8 v3 : couleurs des habits nommees en positif |
+
+### Clips lot 8 (pod A100 `mytvzxvlu5mo4a`, I2V ; sous-clips de dialogue chaînés par dernière image)
+
+| Clip | Style | prompt_id ComfyUI | Durée | Graine | Statut |
+|---|---|---|---|---|---|
+| P1a-4 | StyleA | `60cd6f4b-5ece-49a2-9d25-80b00bbde596` | 2.0 | 2133379394 | rendu |
+| P4a-1 | StyleA | `6583269d-f394-4a6c-859d-78a970cb8645` | 3.0 | 1184852768 | rendu |
+| P4b-3 | StyleA | `e77e7693-fb8a-406d-8d2d-5cab7ae4d283` | 3.0 | 1871566697 | rendu |
+| P4b-1 | StyleA | `a89595f5-a67e-457f-aaa9-bf66282ff01a` | 3.5 | 766038046 | rendu_v2 |
+| P1a-4 | StyleB | `e6684138-9bf3-425f-896e-a10f835a1b35` | 2.0 | 1713477771 | rendu |
+| P4a-1 | StyleB | `0c84c0a0-db70-4789-b436-263d772d3e29` | 3.0 | 1603680933 | rendu |
+| P4b-3 | StyleB | `254ce414-9df3-4861-864d-5a1e1d81a051` | 3.0 | 1988396772 | rendu |
+| P02-1 | StyleA | `c350b666-caac-4678-ae54-040e5348c775` | 2.0 | 1233426956 | rendu |
+| P03-1 | StyleA | `7abd4ebe-6348-47d5-a39e-5f6dd286c47f` | 2.0 | 1418427261 | rendu |
+| P02-1 | StyleB | `a97c3ee1-7353-442f-8bb2-cc09e18de249` | 2.0 | 237297884 | rendu |
+| P03-1 | StyleB | `fb09f9a0-1160-4092-beeb-0ddc4d8347cd` | 2.0 | 321585581 | rendu |
+| P4a-2 | StyleA | `f9f20ff7-27e6-4ccc-856c-dc336b2c1ac2` | 3.0 | 1209036030 | rendu |
+| P4a-2 | StyleB | `e88e3b13-5c1f-4a2e-8162-5dc9c934bab6` | 3.0 | 1360608585 | rendu |
+| P4b-3 | StyleA | `824376e4-31a6-4427-b67e-a787eeff0d30` | 3.0 | 1871566698 | rendu |
+| P02-2 | StyleA | `8e5e36da-93be-48a6-901d-9ee11a0dbe0c` | 1.5 | 1041910012 | rendu |
+| P03-2 | StyleA | `730e529b-8e49-4259-8cd2-6dd71f6fadff` | 3.75 | 588622221 | rendu |
+| P02-2 | StyleB | `a6a355b3-9ffc-4960-8432-1c2fdc7c567c` | 1.5 | 2042245676 | rendu |
+| P03-2 | StyleB | `2a0ef004-ea1d-41b3-b651-f830ba9fdfff` | 3.75 | 1689637725 | rendu |
+| P02-3 | StyleA | `f1c3702b-06e5-46dc-b73b-61d16f8647d2` | 2.25 | 633275540 | rendu |
+| P03-3 | StyleA | `21e6bc8a-0f33-4975-84f3-0b3553fdee39` | 1.25 | 951117283 | rendu |
+| P02-3 | StyleB | `18ddd63f-136b-4acb-8223-a6a883fc49ea` | 2.25 | 1646231108 | rendu |
+| P03-3 | StyleB | `c1400ac2-f101-49f7-8921-948584bcdafb` | 1.25 | 2131795763 | rendu |
+| P02-4 | StyleA | `8e64f8b2-6e7a-451d-bd3d-f04136fb6514` | 4.25 | 1361571099 | rendu |
+| P03-4 | StyleA | `282e0f98-1f38-48c0-a826-ff7e6eefb77d` | 5.0 | 1277693038 | rendu |
+| P02-4 | StyleB | `29e19bbe-cf70-45a0-8280-58f038767245` | 4.25 | 377984971 | rendu |
+| P03-4 | StyleB | `8918cc62-d8ca-43e6-bf7d-5ac536a06a36` | 5.0 | 193492670 | rendu |
+| P4a-2 | StyleA | `e3217483-a3b8-4b88-9e1f-6eda09d6399d` | 3.0 | 1209036031 | rendu |
+| P4a-2 | StyleA | `62841e2a-64c4-47e6-9602-e1ac35cf3aa3` | 3.0 | 1209036032 | rendu |
+
+P4b-1 A : le rendu lot 8 (`a89595f5…`) a fait surgir un homme ; la version précédente (`_v3_avant_lot8`) est conservée. P4a-2 A : trois rendus successifs (`f9f20ff7` image v1 aux couleurs réservées, `e3217483` image v2 idem, `62841e2a` image v3 retenue).
+
 ## Voix (ElevenLabs, phase D bis)
 
 | Réplique | Modèle | voice_id | Fichier | Note |

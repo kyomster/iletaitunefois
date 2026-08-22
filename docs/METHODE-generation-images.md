@@ -525,6 +525,14 @@ Sur 5‑2 et 5‑3 en style A, `Decor: D2, out of focus behind` a donné un mur,
 
 La plaque D01 montre le ballon **avec** sa nacelle ; les briques 1b demandaient qu'on porte la nacelle vers le ballon. Trois styles sur trois ont produit deux nacelles. Aucune négative ne l'aurait corrigé (RÈGLE 1). Nommer l'état voulu dans la brique, `toward the balloon hanging above with no basket under it yet` et `no other balloon or basket in the background`, a suffi sur cinq images sur cinq. Quand une brique contredit un élément de la plaque réinjectée, on écrit l'état voulu de cet élément, on ne le tait pas.
 
+## RÈGLE 30 — sur un plan rapproché de figurants, les couleurs réservées reviennent : on nomme les couleurs en positif
+
+4a‑2 en style A (« three onlookers, close shot on their backs ») a donné deux fois de suite, sur deux graines, les trois figurants en **sable, sarcelle et orange vif** — la palette des trois héros, bien que la brique ne les nomme pas et que les négatives `dominant sand / teal / vivid orange outfit` soient posées. Dès que trois figurants occupent le premier plan, le modèle leur prête les couleurs qu'il a le plus vues dans les références ; une négative n'y fait rien (RÈGLE 1). Écrire les couleurs voulues en clair, `their coats in muted brown, grey and dark green only, no bright color on any garment`, a réglé l'image au tir suivant. Complète la RÈGLE 27 (réinjecter la fiche Foule) : la fiche tient la foule de fond, pas les figurants mis en avant.
+
+## RÈGLE 31 — une image clé de dialogue se génère bouches fermées
+
+Les clés P02/P03 d'origine montraient les bouches ouvertes (on avait demandé « en train de parler »). Tout clip vidéo qui part de cette image hérite des bouches ouvertes : l'auditeur a la bouche ouverte pendant que l'autre parle, et le sous-clip d'attente « personne ne parle » montre deux bouches ouvertes. Vérifié à l'image près par extraction d'une image par seconde (audit lot 7). Depuis le lot 8, la brique d'un plan de dialogue dit `both with their mouths firmly closed in a neutral pause` ; c'est le prompt vidéo, et lui seul, qui ouvre la bouche du locuteur. Corollaire : une image clé décrit un **état de repos**, jamais l'action que le clip devra faire.
+
 ## Observations sans règle
 
 * Le **style C tient sa palette sur les plans larges** dès qu'une plaque C est réinjectée : la RÈGLE 15 décrit les planches personnages sur fond neutre, pas les plans de scène.

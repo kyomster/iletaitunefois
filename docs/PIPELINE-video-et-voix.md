@@ -427,3 +427,5 @@ RunPod : [grille tarifaire officielle](https://www.runpod.io/pricing) · [relev�
 API : [tarifs Wan 2.5, 2.6 et 2.7](https://evolink.ai/blog/wan-api-pricing-guide) · [tarifs fal.ai](https://fal.ai/pricing) · [Seedance 2.0 et BytePlus ModelArk](https://kingy.ai/news/byteplus-review-seedance-2-0-turns-byteplus-into-a-serious-ai-video-platform/) · [crédits Higgsfield](https://www.scopeful.org/blog/higgsfield-pricing-2026)
 
 ElevenLabs : [modèles de synthèse vocale](https://elevenlabs.io/docs/overview/models) · [Image and Video, liste des modèles](https://elevenlabs.io/docs/eleven-creative/playground/image-video) · [annonce Image and Video](https://elevenlabs.io/blog/introducing-elevenlabs-image-and-video)
+
+> **Vérification d'un montage (23 août 2026)** : `docs/scripts/analyse_montage.py <montage.mp4> <dossier>` extrait une image par seconde, la piste audio, la transcription ElevenLabs horodatée et une ligne de temps image ↔ mots ; un relecteur indépendant (agent, avec le scénario exact) relit la planche. C'est ainsi qu'ont été trouvés le bug de montage `_aligned` et les bouches d'auditeur ouvertes ; ce n'est pas optionnel avant de montrer un montage.

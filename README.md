@@ -21,7 +21,7 @@ docs/
   DECISIONS-pilote.md                 les arbitrages du pilote, datés, avec leurs raisons
   S01E01-pilote-audit.md              l'audit des 54 images et des 48 clips, lot par lot
   S01E01-pilote-job-ids.md            media_id des références, job_id des images, prompt_id des clips
-  scripts/                            build_prompts_pilote.py, build_clips_pilote.py, run_clips_runpod.py, runpod_pilote.py, montage_pilote.py
+  scripts/                            build_prompts_pilote.py, build_clips_pilote.py, run_clips_runpod.py, runpod_pilote.py, montage_pilote.py, chain_dialogue_runpod.py, run_s2v_runpod.py, align_dialogue_audio.py (obsolète), analyse_montage.py
   runpod/                             les graphes ComfyUI (format API) I2V et FLF2V tels qu'exécutés
   S01E01-scenario.md                  les 79 plans, le minutage, les 14 gags
   S01E01-plan-de-production.md        diagnostic, roster, tableau révisé, prompts du pilote
