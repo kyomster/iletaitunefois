@@ -1,0 +1,16 @@
+# secrets — jamais dans l'historique
+.env
+*.env
+.env.*
+
+# dossiers de travail
+_a_supprimer/
+_A_SUPPRIMER_A_LA_MAIN/
+_audit_*/
+_audit_*.zip
+_test_*/
+
+# systeme
+Thumbs.db
+desktop.ini
+.DS_Store

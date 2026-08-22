@@ -1,0 +1,17 @@
+# Les images sont versionnees en fichiers normaux, sans Git LFS.
+# On les marque binaires pour que git ne tente aucune conversion de fin de ligne
+# et n'essaie pas d'en calculer un diff textuel.
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.psd binary
+*.mp4 binary
+*.mov binary
+*.wav binary
+*.zip binary
+
+# Les documents sont du texte, normalise en LF dans le depot.
+*.md  text eol=lf
+*.txt text eol=lf
