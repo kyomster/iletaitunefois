@@ -16,6 +16,7 @@ image runpod/pytorch:1.1.0-cu1281-torch280-ubuntu2204, GPU par ordre de préfér
 Blackwell Server, RTX 5090 (ni L40S ni RTX 6000 Ada en stock en EU-RO-1 ce jour).
 """
 import json
+import os
 import sys
 import urllib.request
 from pathlib import Path
@@ -60,7 +61,7 @@ def create(name, pubkey_file, jupyter_password="pilote"):
         "gpuTypeIds": GPUS, "gpuTypePriority": "custom", "gpuCount": 1,
         "dataCenterIds": ["EU-RO-1"], "dataCenterPriority": "custom",
         "networkVolumeId": VOLUME_ID, "volumeMountPath": "/workspace",
-        "containerDiskInGb": 60, "ports": ["22/tcp", "8188/http", "8888/http"],
+        "containerDiskInGb": int(os.environ.get("DISK_GB", "60")), "ports": ["22/tcp", "8188/http", "8888/http"],
         "env": {"PUBLIC_KEY": Path(pubkey_file).read_text().strip(), "JUPYTER_PASSWORD": jupyter_password},
         "supportPublicIp": True, "interruptible": False,
     }

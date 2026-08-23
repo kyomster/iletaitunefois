@@ -383,6 +383,39 @@ Pods RunPod du 22 août : `taqfahum2mbsen` (48 clips, A100), `8vem2qbtwzbw4y` (9
 
 P4b-1 A : le rendu lot 8 (`a89595f5…`) a fait surgir un homme ; la version précédente (`_v3_avant_lot8`) est conservée. P4a-2 A : trois rendus successifs (`f9f20ff7` image v1 aux couleurs réservées, `e3217483` image v2 idem, `62841e2a` image v3 retenue).
 
+
+## Essais E1 à E4 (2026-08-23, pod A100 `vzplffsbl41u1m`)
+
+| Plan/clip | Style | Type | Modèle | job_id / prompt_id | Durée | Graine | Statut | Note |
+|---|---|---|---|---|---|---|---|---|
+| P03 | StyleA | image | nano_banana_pro | `74026b65-ec1c-40b2-be3b-ee9c7a0bf427` |  |  | telecharge | E1 : P03 v3 deux visages visibles |
+| P03 | StyleB | image | nano_banana_pro | `2bd76dda-079f-463c-b51d-66dcf75a7d44` |  |  | telecharge | E1 : P03 v3 deux visages visibles |
+| P4b-2-3s | StyleA | clip | wan2.2-i2v-a14b-fp8+lightx2v | `5839ea7e-4d85-49fe-a5b6-0f2bc40bcc01` | 3.5 | 589813755 | rendu | E2 trois samplers : 8 pas, 0-1 sans LoRA cfg 3.5, 1-4 haut LoRA 0.8, 4-8 bas LoRA 1 ; length=57 ; mp4=P4b-2-3s |
+| P5-2-3s | StyleA | clip | wan2.2-i2v-a14b-fp8+lightx2v | `49aff9c8-acd4-4d00-93b7-aaeb177ad58c` | 3.0 | 885752574 | rendu | E2 trois samplers : 8 pas, 0-1 sans LoRA cfg 3.5, 1-4 haut LoRA 0.8, 4-8 bas LoRA 1 ; length=49 ; mp4=P5-2-3s_ |
+| P02-it | StyleA | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `a4433538-8c5c-4828-b90a-810798530e32` | 7.88 | 424242 | rendu | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=197 steps=6 shift=11.0 audio_scale=1.0 ; mp4=P02-it_S |
+| P02-it | StyleB | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `e5b566a8-16ec-4645-a193-501cf397320b` | 7.88 | 424243 | soumis | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=197 steps=6 shift=11.0 audio_scale=1.0 |
+| P03-it | StyleA | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `db39177b-ced0-408d-9688-155e3024a642` | 9.16 | 424244 | soumis | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=229 steps=6 shift=11.0 audio_scale=1.0 |
+| P03-it | StyleB | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `c5430cf8-787f-4953-94e5-0b9aedf84cd4` | 9.16 | 424245 | soumis | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=229 steps=6 shift=11.0 audio_scale=1.0 |
+| P4b-2-3sb | StyleA | clip | wan2.2-i2v-a14b-fp8+lightx2v | `f31cfada-6f6e-4038-86e9-92e66808caf3` | 3.5 | 589813755 | soumis | E2 trois samplers : 8 pas, 0-1 sans LoRA cfg 2.0, 1-4 haut LoRA 0.8, 4-8 bas LoRA 1 ; length=57 |
+| P5-2-3sb | StyleA | clip | wan2.2-i2v-a14b-fp8+lightx2v | `032fd8e4-9d36-4497-a516-7ae783213b40` | 3.0 | 885752574 | soumis | E2 trois samplers : 8 pas, 0-1 sans LoRA cfg 2.0, 1-4 haut LoRA 0.8, 4-8 bas LoRA 1 ; length=49 |
+| P1a-2-ltx | StyleA | clip | ltx-2.3-22b-dev-fp8+lora-distill | `f5e1bf8e-ae00-47b5-8a67-f3a92e704417` | 3.24 | 961003707 | soumis | E3 LTX-2.3 i2v deux passes : length=81 1280x704 25 i/s |
+| P4a-3-ltx | StyleA | clip | ltx-2.3-22b-dev-fp8+lora-distill | `057d9fc4-40d2-4eeb-afc5-50b9fec926cd` | 4.2 | 79326312 | soumis | E3 LTX-2.3 i2v deux passes : length=105 1280x704 25 i/s |
+| P02-h3i2v | StyleA | clip | minimax-h3-i2v-int8+turbo | `56a79014-9b40-4825-8b60-5076496420ac` | 8.0 | 4242 | rendu | E4 minimax h3 i2v : length=192 steps=8 1344x768 24 i/s audios=0 |
+| P02-h3r2v | StyleA | clip | minimax-h3-r2v-int8+turbo | `ad36792c-ef7c-4c0d-8525-eea7e08e3884` | 8.0 | 4343 | rendu | E4 minimax h3 r2v : length=192 steps=4 1344x768 24 i/s audios=2 ; mp4=P02-h3r2v_StyleA_00001_.mp4 |
+| P1a-2-h3i2v | StyleA | clip | minimax-h3-i2v-int8+turbo | `f1cadffd-3d88-4d3a-83da-f16da9fb4588` | 3.04 | 4444 | rendu | E4 minimax h3 i2v : length=73 steps=8 1344x768 24 i/s audios=0 ; mp4=P1a-2-h3i2v_StyleA_00001_.mp4 |
+| P4a-3-h3i2v | StyleA | clip | minimax-h3-i2v-int8+turbo | `7bba7a37-efc0-4285-9d0c-aaf35088ad80` | 4.46 | 4545 | rendu | E4 minimax h3 i2v : length=107 steps=8 1344x768 24 i/s audios=0 ; mp4=P4a-3-h3i2v_StyleA_00001_.mp4 |
+| P4b-2-3sb | StyleA | clip | wan2.2-i2v-a14b-fp8+lightx2v | `5295d9bd-58e6-4c30-a22c-df139d4ceebc` | 3.5 | 589813755 | rendu | E2 trois samplers : 8 pas, 0-1 sans LoRA cfg 2.0, 1-4 haut LoRA 0.8, 4-8 bas LoRA 1 ; length=57 ; mp4=P4b-2-3s |
+| P5-2-3sb | StyleA | clip | wan2.2-i2v-a14b-fp8+lightx2v | `a4cc1d23-ede8-4c94-b4bd-6a6830a18133` | 3.0 | 885752574 | rendu | E2 trois samplers : 8 pas, 0-1 sans LoRA cfg 2.0, 1-4 haut LoRA 0.8, 4-8 bas LoRA 1 ; length=49 ; mp4=P5-2-3sb |
+| P02-it | StyleB | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `c6b900f6-9a5c-4415-b596-82fcd59b77ff` | 7.88 | 424243 | rendu | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=197 steps=6 shift=11.0 audio_scale=1.0 ; mp4=P02-it_S |
+| P03-it | StyleA | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `bd70f2e7-f977-4db2-b46b-9c8279e43718` | 9.16 | 424244 | erreur_masques | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=229 steps=6 shift=11.0 audio_scale=1.0 ; mp4=P03-it_S |
+| P03-it | StyleB | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `2996825c-55b2-46e4-8200-e88dff525c5c` | 9.16 | 424245 | erreur_masques | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=229 steps=6 shift=11.0 audio_scale=1.0 ; masques inve |
+| P1a-2-ltx | StyleA | clip | ltx-2.3-22b-dev-fp8+lora-distill | `9549b1d8-45dc-4bc9-af75-c4de93749792` | 3.24 | 961003707 | rendu | E3 LTX-2.3 i2v deux passes : length=81 1280x704 25 i/s ; mp4=P1a-2-ltx_StyleA_00001_.mp4 |
+| P4a-3-ltx | StyleA | clip | ltx-2.3-22b-dev-fp8+lora-distill | `88f8ad79-cd9e-4726-8d4d-fd88fa846260` | 4.2 | 79326312 | rendu | E3 LTX-2.3 i2v deux passes : length=105 1280x704 25 i/s ; mp4=P4a-3-ltx_StyleA_00001_.mp4 |
+| P03-it | StyleA | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `2475605e-cf1e-4a74-8281-d51be8d86c1c` | 9.16 | 424254 | rendu | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=229 steps=6 shift=11.0 audio_scale=1.0 ; mp4=P03-it_S |
+| P03-it | StyleB | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `754e9e0f-404b-4552-920f-7941730febb6` | 9.16 | 424255 | rendu | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=229 steps=6 shift=11.0 audio_scale=1.0 ; mp4=P03-it_S |
+
+Les prompt_id antérieurs au redémarrage de ComfyUI (crash au premier chargement de LTX‑2.3) ont été resoumis ; `P02-h3i2v` a été récupéré par `/view` direct après le redémarrage.
+
 ## Voix (ElevenLabs, phase D bis)
 
 | Réplique | Modèle | voice_id | Fichier | Note |

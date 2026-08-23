@@ -75,6 +75,11 @@ IDENT = {
         "AC": "an assistant in a rough jacket with rolled up sleeves, seen from behind at the edge of frame",
         "B": "an inkman assistant in a rough flat jacket, seen from behind at the edge of frame",
     },
+    # variante du 23 août 2026 (P03 v3) : l'aide de face, pour que les deux visages d'un plan de dialogue soient visibles
+    "AIDE_FACE": {
+        "AC": "an assistant in a rough jacket with rolled up sleeves, his plain honest face fully visible, short hair, calm attentive expression",
+        "B": "an inkman assistant in a rough flat jacket, his round white head fully visible with simple dot eyes and a small closed mouth",
+    },
 }
 SAME_AS_REF = "same characters as reference, same art style as reference"
 
@@ -97,7 +102,8 @@ BRIQUES = [
     # visage visible est celui qui parle. Deux images clés supplémentaires, une par badaud, même décor, mêmes références.
     ("P02a", "2", "Scene: close shot on the round onlooker alone as he speaks, his hand down, his mouth clearly visible, the top hat with the tricolour cockade, the thin onlooker out of frame, the crowd and the basket far behind. Framing: close shot at shoulder height, slightly low angle. Decor: D1. Characters: [PARIEURS_ROND]. Props: cockaded hat."),
     ("P02b", "2", "Scene: close shot on the thin onlooker alone as he answers, leaning on his cane, his mouth clearly visible, the round onlooker out of frame, the crowd and the basket far behind. Framing: close shot at shoulder height, slightly low angle. Decor: D1. Characters: [PARIEURS_MAIGRE]. Props: cane."),
-    ("P03", "3", "Scene: inside the basket, Garnerin checking a large folded bundle of silk with his mouth firmly closed, his assistant at the rim, the balloon is directly above this basket and out of frame. Framing: medium shot over the assistant's shoulder, the assistant in the foreground. Decor: D1 seen past the rim of the basket, no other balloon or basket in the background. Characters: [GARNERIN], [AIDE]. Props: folded silk bundle, ropes, a knife tucked at the side of the basket."),
+    # P03 v3 (23 août 2026) : plan à deux de profil, les deux visages visibles, pour un locuteur par clip / MultiTalk (l'aide était de dos en A, Garnerin en B)
+    ("P03", "3", "Scene: inside the basket, Garnerin on one side checking a large folded bundle of silk, his assistant on the other side holding the rim, the two men facing each other in profile, BOTH FACES FULLY VISIBLE to the camera in three quarter view, both with their mouths firmly closed, the balloon is directly above this basket and out of frame. Framing: medium two shot from the side of the basket at chest height, the two men framed left and right with clear space between them, nobody seen from behind. Decor: D1 seen past the rim of the basket, no other balloon or basket in the background. Characters: [GARNERIN], [AIDE_FACE]. Props: folded silk bundle, ropes, a knife tucked at the side of the basket."),
     ("P4a-1", "4a", "Scene: the balloon tearing away from the ground, the released ropes falling back. Framing: low angle from the ground, the balloon and the basket filling the frame as they lift off, no onlooker in the frame. Decor: D1, treetops and sky. Characters: none. Props: balloon, basket, falling ropes."),
     # Brique 4a-2 amendée le 22 août 2026 (continuité : le ballon ne doit pas « redécoller » deux fois entre 4a-1 et 4a-2).
     # 4a-2 : couleurs des habits nommées en positif le 23 août 2026 (deux tirages sur deux sortaient orange vif, sarcelle et sable : RÈGLE 4)
