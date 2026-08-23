@@ -442,3 +442,46 @@ Demande de Guillaume : « faisons les 3 tests » puis « ajoute un 4ᵉ test ave
 | E4 MiniMax H3 | style tenu, voix générées, vitesse honnête (~1 min/s) | répliques et voix non fidèles, 1344×768 | moteur intéressant pour des plans muets ou d'ambiance ; pas pour nos dialogues écrits |
 
 Coût de la nuit : pod A100 `vzplffsbl41u1m` créé 20:55 UTC le 22, terminé ~02:55 UTC le 23 : ~6 h à 1,39 $/h ≈ 8,3 $ (dont ~1 h de téléchargements et un rendu P03 perdu) ; total RunPod du pilote ≈ 18 $ (7 pods). Higgsfield : 4 crédits (solde 838,44). ElevenLabs : 2 transcriptions de contrôle.
+
+## Deuxième série d'essais (2026-08-23, journée, pod A100 `sjj6j8nk2dbqk3` + Higgsfield)
+
+Retours de Guillaume sur la première série : voiture sur P03 A ; « pourquoi une couverture ? » ; style B mal aligné ; parasites H3 en français ; LTX‑2.5 gated ; puis jeton Hugging Face fourni, « tente aussi Seedance 2.0 Mini, Wan 2.7, Veo 3.1 Lite, Kling 3.0 », et « utilise le skill du dépôt MiniMax‑H3 pour prompter correctement ».
+
+### P03 réécrit autour de l'action (v4)
+Brique, scénario, plan de production, sujets des sous‑clips et METHODE modifiés (commit `f2c4487`) : Garnerin **la main sur la corde de largage, regard vers le ballon**, l'aide au rebord qui supplie, la soie pliée **au sol**, les deux visages visibles, **bouches inkman dessinées en trait** (blocs B). Images v4 A et B rendues du premier coup (4 crédits) et validées ; copiées dans `assets/`.
+
+### E1b — InfiniteTalk sur P03 v4 (A, B) et P02 B masques tête
+* Négative enrichie (`car, cars, vehicle, carriage, modern object, anachronism, extra person`) ; masques : piste 1 (AIDE) → masque de l'aide à droite, piste 2 (GARNERIN) → masque de Garnerin à gauche (l'ordre des pistes suit l'ordre des masques).
+* **P03 v4 A** : l'aide parle 2‑5 s bouche ouverte, Garnerin main sur la corde bouche fermée, puis Garnerin dit « Lâchez tout » ; **plus de voiture**. **P03 v4 B** (audio_scale 1,6, bouches en trait) : l'aide inkman ouvre une bouche « o » pendant sa réplique, Garnerin fermé, puis Garnerin ouvre la bouche sur « Lâchez tout » ; défaut : une petite sphère claire apparaît dans la main de l'aide à 7‑8 s (hallucination).
+* **P02 B masques tête + audio_scale 2** : masques serrés sur les têtes + audio_scale 2 : les bouches inkman s'ouvrent nettement sur la réplique de chacun (le rond à 2‑3 s, le maigre à 4‑5 s) et restent fermées sinon ; c'est plus lisible que la v1 (masques tête+torse, audio_scale 1) — à confirmer à l'oreille sur E1b
+* Temps : ~30 min par plan de 9 s (4 fenêtres), ~22 min pour 8 s.
+
+### E3b — LTX‑2.5 I2V (jeton HF de Guillaume)
+* Téléchargement avec `Authorization: Bearer` (transformer int8 21,5 Go, gemma4‑12b 15,4 Go, 2 VAE, upsampler spatial dans `latent_upscale_models/`) ; graphe = template officiel réécrit en API (`run_ltx25_runpod.py`, deux passes, `LTXVDualCFGGuider`, euler_ancestral).
+* Résultat : 1a‑2 et 4a‑3 propres (le ballon monte, la foule frémit, audio d'ambiance généré) ; P02 parlé : voix françaises générées, « Il va se tuer, je vous dis » exact puis « Dis Frank qu'il ne coupe pas la corde » (même déformation de « Dix francs » que H3), et **LTX ajoute une coupe** vers 6 s (contre‑plongée derrière les badauds) malgré « single continuous shot » ; ~1 min par clip sur A100, aucun crash cette fois
+
+### E4b / E4c — MiniMax H3 : la langue et la syntaxe
+* **E4b, répliques en anglais** (prompt « timeline » de la veille) : transcription **exacte** « He is going to kill himself, I tell you. / Ten francs he does not cut the rope. », aucun parasite → les parasites de la veille venaient de la langue **et** de la syntaxe.
+* **E4c, prompts réécrits selon le skill `h3-prompt-writing` du dépôt MiniMax‑H3** (format `integrated_multimodal_description` / `overall_soundscape` / `non_diegetic_music`, locuteurs `(S1)`/`(S2)` définis par timbre, dialogue `<d>[French] …</d>`, R2V en six sections avec `<Subject n>`, `<Picture 1>`, `<Audio n>` « referenced for voice timbre ») : **plus de phrase inventée** ; « Il va se tuer, je vous dis. » exact en I2V comme en R2V ; la seconde réplique reste déformée sur le chiffre (« Dis Franck, il ne coupe pas la corde » / « Dis‑toi qu'il ne coupe pas la corde ») — H3 bute sur « Dix francs » en français (nombre + nom propre), pas sur la phrase. Règle : **toujours écrire les prompts H3 dans le format du skill, dialogue entre `<d>[French] … </d>`, locuteurs (S1)/(S2) décrits par timbre** ; épeler les nombres en toutes lettres est à essayer (« dix francs » → « dix » est déjà un mot ; le problème est peut‑être la liaison « dix‑francs‑qu'il »).
+
+### E6 — modèles fermés via Higgsfield (P02 A, 8 s, 720p, même image clé, même dialogue)
+| Modèle | Crédits | Voix | Transcription de la sortie | Remarques |
+|---|---|---|---|---|
+| **Veo 3.1 Lite** (+audio) | 12 | générées | « Il va se tuer, je vous dis. » / « D'un franc qu'il ne coupe pas la corde » | bouches alternées propres, style A tenu, le plus fluide |
+| **Wan 2.7** (start_image, `[Character n] says`) | 12 | générées | « Il va se tuer, je vous dis. Dix francs qu'il ne coupe pas la corde » — **exact** | accepte **au plus 1** référence audio ; l'essai avec 1 mp3 a **échoué côté serveur** (facturé), relancé sans référence |
+| **Kling 3.0 std** (sound on) | 16 | générées | « Il va se tuer, je vous dis. Dis Franck qu'il ne coupait pas la corde » | bouches OK, 2ᵉ réplique déformée |
+| **Seedance 2.0 Mini** (+audio) | 20 | générées | « Il va se tuer, je vous dis. Dix francs qu'il ne coupe pas la corde » — **exact** | l'essai avec 2 `audio_references` a **échoué côté serveur** (facturé), relancé sans référence |
+Aucun des quatre n'a donc été testé **avec nos voix ElevenLabs en référence** : Wan 2.7 n'en prend qu'une, Seedance a planté avec les mp3 (à retenter en wav ?). Solde Higgsfield : 736,44 (−102 crédits sur cette série, dont ~32 pour les deux échecs).
+
+### Bilan de la journée pour le dialogue
+| Méthode | Voix = les nôtres (ElevenLabs) ? | Auditeur se tait ? | Texte exact ? | Coût P02 8 s | Défauts vus |
+|---|---|---|---|---|---|
+| InfiniteTalk (E1/E1b) | **oui** | oui | oui (c'est notre audio) | ~0,5 $ (22 min A100) | hallucinations de fond possibles (voiture, sphère) ; B moins net |
+| MiniMax H3 (E4c, bon format) | non (timbre référencé seulement) | oui | presque (« Dix francs » déformé) | ~10 min A100 ≈ 0,25 $ | style tenu |
+| Veo 3.1 Lite | non | oui | presque | 12 cr ≈ 0,6 $ | — |
+| Wan 2.7 | non | oui | **oui** | 12 cr ≈ 0,6 $ | 1 seule réf audio |
+| Seedance 2.0 Mini | non | oui | **oui** | 20 cr ≈ 1 $ | plante avec nos mp3 |
+| Kling 3.0 | non | oui | non | 16 cr ≈ 0,8 $ | — |
+| LTX‑2.5 | non | ? | 1a‑2 et 4a‑3 propres (le ballon monte, la foule frémit, audio d'ambiance généré) ; P02 parlé : voix françaises générées, « Il va se tuer, je vous dis » exact puis « Dis Frank qu'il ne coupe pas la corde » (même déformation de « Dix francs » que H3), et **LTX ajoute une coupe** vers 6 s (contre‑plongée derrière les badauds) malgré « single continuous shot » ; ~1 min par clip sur A100, aucun crash cette fois | ~0,1 $ | — |
+
+Vidéos : `essais/_videos/E1b_infinitetalk_v4.mp4`, `E3b_ltx25.mp4`, `E6_modeles_fermes.mp4` (Veo, Wan 2.7, Kling, Seedance, H3 anglais), `E4c` dans `E4c_h3_francais.mp4`. Coût : pod A100 sjj6j8nk2dbqk3 (~4 h dont 40 min de téléchargements) ≈ 5,5 $ ; total RunPod du pilote ≈ 24 $ (9 pods) ; Higgsfield −106 crédits (4 + 102), solde 736,44.

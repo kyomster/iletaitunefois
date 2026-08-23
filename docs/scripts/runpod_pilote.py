@@ -26,7 +26,7 @@ REST = "https://rest.runpod.io/v1"
 GQL = "https://api.runpod.io/graphql"
 VOLUME_ID = "o6g76dr9cj"
 IMAGE = "runpod/pytorch:1.1.0-cu1281-torch280-ubuntu2204"
-GPUS = ["NVIDIA A100 80GB PCIe", "NVIDIA RTX PRO 6000 Blackwell Server Edition", "NVIDIA GeForce RTX 5090"]
+GPUS = os.environ["GPUS"].split(",") if os.environ.get("GPUS") else ["NVIDIA A100 80GB PCIe", "NVIDIA RTX PRO 6000 Blackwell Server Edition", "NVIDIA GeForce RTX 5090"]  # GPUS=... pour forcer (23 août 2026 : un pod est parti en 5090 32 Go, trop petit pour InfiniteTalk 720p + LTX-2.5)
 
 
 def key():

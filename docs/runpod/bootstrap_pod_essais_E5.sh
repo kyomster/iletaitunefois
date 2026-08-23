@@ -35,7 +35,7 @@ dlg $M/diffusion_models/ltx-2.5-22b-distilled-transformer-comfy-int8-convrot.saf
 dlg $M/text_encoders/gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors $X/text_encoders/gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors &
 dlg $M/vae/ltx-2.5-video-vae-bf16.safetensors $X/vae/ltx-2.5-video-vae-bf16.safetensors &
 dlg $M/vae/ltx-2.5-audio-vae-bf16.safetensors $X/vae/ltx-2.5-audio-vae-bf16.safetensors &
-dlg $M/latent_upscale_models/ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors $X/upscalers/ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors &
+dlg $M/latent_upscale_models/ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors $X/latent_upscale_models/ltx-2.5-latent-spatial-upscaler-x2-bf16-1.0.safetensors &
 wait
 ls -la $M/diffusion_models $M/text_encoders $M/vae $M/latent_upscale_models | awk '{print $5, $9}'
 cd /root/ComfyUI

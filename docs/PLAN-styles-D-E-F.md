@@ -2,14 +2,18 @@
 
 **23 août 2026.** Six styles supplémentaires entrent en lice, à comparer aux styles A et B, qui restent en course. Le style C reste retiré (décision du 22 août, 15 h 05).
 
-| Style | En un mot | Public visé |
-|---|---|---|
-| **D** | anime d'aventure moderne, deux registres de lumière. Cible d'ambiance : le fan film joint par Guillaume | large, 10 à 35 ans |
-| **E** | 2D graphique angulaire à fort contraste, mise en scène large et vide | large, avec un biais adulte |
-| **F** | 3D stylisé mat, personnages taillés à facettes | 8 à 16 ans |
-| **G** | 3D cartoon à formes rondes et souples, lumière chaude | familial, 6 à 12 ans |
-| **H** | 2D imprimé, encrage au pinceau, trames de demi teinte, décalage chromatique, lumières complémentaires saturées | **12 à 20 ans** |
-| **I** | roman graphique européen, ligne claire, gouache, palette sourde | **30 à 40 ans** |
+| Style | En un mot | Public visé | Sort |
+|---|---|---|---|
+| **D** | anime d'aventure moderne, deux registres de lumière. Cible d'ambiance : le fan film joint par Guillaume | large, 10 à 35 ans | **en course** |
+| ~~E~~ | 2D graphique angulaire à fort contraste | large, biais adulte | **abandonné** le 23 août |
+| ~~F~~ | 3D stylisé mat, personnages taillés à facettes | 8 à 16 ans | **abandonné** le 23 août |
+| **G** | 3D cartoon à formes rondes et souples, lumière chaude | familial et au delà, voir §4.4 | **en course** |
+| ~~H~~ | 2D imprimé, trames, décalage chromatique | 12 à 20 ans | **abandonné** le 23 août |
+| **I** | roman graphique européen, ligne claire, gouache, palette sourde | 30 à 40 ans | **en course** |
+| **J** | cinéma réaliste, prise de vue 35 mm, comédiens en costume | adulte | **en course**, ajouté le 23 août |
+| **K** | 3D de long métrage à registre adulte, proportions crédibles, étalonnage sobre | adulte | **en course**, ajouté le 23 août |
+
+**Décision du 23 août.** E, F et H sont abandonnés sur lecture de l'épreuve. Leurs images ont été supprimées du dépôt ; leurs blocs, leurs négatives et leur audit restent consignés, sections 4.2, 4.3, 4.5 de ce document et sections 3, 4, 6 de `S01E01-epreuve-styles-audit.md`, pour ne pas repayer les mêmes constats. Restent **D, G, I, J, K**, plus A et B comme point de comparaison.
 
 Ce document est le frère de `S01E01-pilote-prompts-3-styles.md`. Ce dernier n'est pas modifié : ses trois blocs sont verrouillés et se copient octet pour octet. Tout ce qui concerne D, E et F vit ici.
 
@@ -160,7 +164,11 @@ Base négative G :
 angular faceted character design, squared jaw, sharp cheekbones, hard edged planes, photorealism, photograph, live action, realistic human proportions, realistic skin pores, uncanny face, video game screenshot, 2D drawing, flat cel shading, anime, manga, extra characters.
 ```
 
-> **Point de fond sur G.** C'est le contre pied exact de F, et les deux se lisent l'un contre l'autre : même technique, 3D stylisé, parti pris de forme opposé. Les quatre premières clauses de sa négative sont mot pour mot le positif de F. G est le seul des six styles où **la troupe se transpose presque sans redessin** : Sam, SamBis, Naya et Elio sont déjà construits en formes rondes et en grosse tête sur petit corps. C'est un avantage de coût considérable à l'étape 2. Son risque propre est l'inverse : un registre trop enfantin pour un épisode dont le sujet est un homme qui coupe une corde à mille mètres au dessus de Paris.
+> **Point de fond sur G.** C'est le contre pied exact de F, et les deux se lisent l'un contre l'autre : même technique, 3D stylisé, parti pris de forme opposé. Les quatre premières clauses de sa négative sont mot pour mot le positif de F. G est le seul des six styles où **la troupe se transpose presque sans redessin** : Sam, SamBis, Naya et Elio sont déjà construits en formes rondes et en grosse tête sur petit corps. C'est un avantage de coût considérable à l'étape 2.
+>
+> **Ce que G ne risque pas, contrairement à ce que ce document affirmait d'abord.** J'avais écrit que la rondeur ferait un registre trop enfantin pour un homme qui coupe une corde à mille mètres au dessus de Paris. C'est faux, et l'épreuve le montre : le P4b-1 en style G a un vrai vertige. La rondeur d'un volume ne détermine pas le registre d'un plan ; ce qui le détermine, ce sont **la lumière, le cadrage et la palette**. Un personnage rond en contre jour dur, cadré serré, en palette désaturée, porte le drame aussi bien qu'un personnage anguleux. L'inverse est vrai aussi : un style anguleux éclairé à plat et coloré vif ne fait pas sérieux pour autant.
+>
+> La conséquence pratique est que **G n'a pas de risque propre lié à sa forme**. Son vrai point de vigilance est ailleurs : la lumière chaude et l'ambiance douce prescrites par son bloc, `gentle rim light and warm bounce light, rich saturated colour, polished and playful`. Ce sont ces clauses là qui adouciraient les plans 4 et 5, pas les volumes ronds. Elles se remplacent, pour les plans de tension, par un traitement de lumière dur, sur le modèle des deux registres du style D.
 
 ## 4.5 Style H — 2D imprimé moderne, 12 à 20 ans
 
@@ -205,6 +213,59 @@ cartoon exaggeration, oversized eyes, chibi proportions, thick uneven outline, g
 > **Point de fond sur I.** Le raisonnement : pour un adulte de 30 à 40 ans, la marque de sérieux d'une série historique n'est pas le spectacle, c'est la **retenue et la justesse documentaire**. Ligne claire, gouache, grain de papier, lumière égale, composition calme. C'est aussi le style qui sert le mieux le registre CADRE du projet, la table et les objets, et le seul qui rende crédible un ton de récit plutôt que de gag.
 >
 > Deux risques propres, opposés l'un à l'autre. D'abord la **platitude** : un style calme sur un épisode d'action peut tomber à plat aux plans 4 et 5. Ensuite la **troupe** : des proportions adultes naturalistes et des visages sans exagération sont incompatibles avec quatre personnages de dessin animé, donc I impose un redessin complet de la bible, au même titre que D et F.
+
+## 4.7 Style J — cinéma réaliste
+
+```
+live action cinema look, photographed on 35mm film, naturalistic period drama cinematography, real actors in accurate historical costume, motivated practical lighting with soft overcast daylight and deep natural falloff, shallow depth of field with creamy bokeh, fine organic film grain, subtle halation on the highlights, desaturated filmic colour grade with rich blacks and warm skin tones, photorealistic, 16:9 frame:
+```
+
+Traitement d'époque J :
+
+```
+era accurate 1797 Directoire France, authentic period costume, real fabrics with wear and dirt, period architecture and props photographed on location,
+```
+
+Base négative J :
+
+```
+illustration, drawing, painting, cartoon, anime, manga, 3D render, CGI, video game, painterly, cel shading, ink outlines, plastic skin, waxy face, over sharpened, HDR, deformed hands, extra fingers, letterbox bars, black bars, extra characters.
+```
+
+> **Point de fond sur J, et il est lourd.** J n'est pas un style d'animation, c'est l'abandon de l'animation. Ce qui tombe avec lui, dans l'ordre :
+>
+> * **La bible de la troupe.** Sam, SamBis, Naya et Elio ne sont plus des dessins mais des personnes. Les 40 assets par style, les turnarounds, les six expressions, la logique entière de la référence de production perdent leur objet. On ne fait pas un turnaround d'un comédien, on fait un casting.
+> * **Le LoRA de style.** Il sert à tenir un aplat que le modèle vidéo veut ramollir. Sur du photoréalisme, il n'y a rien à tenir : c'est le point d'attraction naturel de Wan 2.2.
+> * **Les 24 règles de `METHODE-generation-images.md`**, dont l'essentiel traite de défauts propres au dessin, moufles, contours, aplats, deux tons.
+> * **Le registre CADRE**, la table et les objets, qui suppose un espace non naturaliste.
+>
+> Ce qui est gagné en échange n'est pas nul : c'est le seul des huit styles que la chaîne vidéo rend **sans aucun effort de conformation**, et il n'a besoin d'aucune fiche de personnage pour tenir un figurant.
+>
+> Deux risques propres à surveiller : les **mains**, défaut classique du photoréalisme génératif, et le **Paris moderne** qui remonte dans les plans en plongée, d'où les clauses `modern buildings, glass towers` dans sa négative de P4b-1.
+
+## 4.8 Style K — 3D de long métrage, registre adulte
+
+```
+stylized 3D feature animation, high end computer animated film look, believable human proportions with only a light touch of caricature in the features, soft subsurface skin with fine texture and no plastic sheen, individually groomed hair, real cloth simulation with visible weave and wear, naturalistic cinematography with motivated light and long lens compression, restrained desaturated colour grade, shallow depth of field, subtle volumetric atmosphere, an adult dramatic register rather than a comic one, stylized and not photographic, 16:9 frame:
+```
+
+Traitement d'époque K :
+
+```
+era accurate 1797 Directoire France, authentic period costume in muted earth tones with real fabric weave and wear, period architecture and props,
+```
+
+Base négative K :
+
+```
+photograph, live action, real actors, broad cartoon caricature, chibi proportions, oversized head, rubbery squash and stretch, plastic sheen, waxy face, uncanny, saturated candy colours, 2D drawing, cel shading, anime, manga, letterbox bars, black bars, extra characters.
+```
+
+> **Point de fond sur K.** K est à G ce que le registre de tension est à la lumière douce : **même technique, registre adulte**. Le raisonnement suit directement la correction de la section 4.4, la forme ne fait pas le registre. Là où G caricature les volumes et chauffe la lumière, K garde des proportions crédibles, une peau à texture fine, un étalonnage sobre et une longue focale.
+>
+> K est **le point de croisement de tout ce qui a été appris** : il vise le même public que I et J, avec la technique de G, et sans l'abandon de l'animation qu'impose J. Sa négative contient explicitement `photograph, live action, real actors`, sans quoi il glisserait sur J ; et `broad cartoon caricature, oversized head`, sans quoi il retomberait sur G. **Le contrôle décisif de son audit est là** : s'il n'est distinguable ni de J ni de G, il n'existe pas.
+>
+> Avantage pratique par rapport à J : la troupe reste dessinable. Elle demande un redessin en proportions crédibles, comme D et I, mais elle reste une bible d'assets et non un casting.
 
 ---
 

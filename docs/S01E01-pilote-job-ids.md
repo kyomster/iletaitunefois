@@ -416,6 +416,31 @@ P4b-1 A : le rendu lot 8 (`a89595f5…`) a fait surgir un homme ; la version pr�
 
 Les prompt_id antérieurs au redémarrage de ComfyUI (crash au premier chargement de LTX‑2.3) ont été resoumis ; `P02-h3i2v` a été récupéré par `/view` direct après le redémarrage.
 
+
+## Deuxième série d'essais (2026-08-23, journée : P03 v4, InfiniteTalk, LTX-2.5, H3 fr, modèles fermés Higgsfield)
+
+| Plan/clip | Style | Type | Modèle | job_id / prompt_id | Durée | Graine | Statut | Note |
+|---|---|---|---|---|---|---|---|---|
+| P03 | StyleA | image | nano_banana_pro | `a9ad44a7-362b-4f23-98ed-57c8494690b4` |  |  | telecharge | P03 v4 : action = main sur la corde de largage, aide qui supplie, soie au sol ; bouches inkman en trait |
+| P03 | StyleB | image | nano_banana_pro | `9e60c6d2-d721-4aeb-9b1b-5c81f663ef21` |  |  | telecharge | P03 v4 : action = main sur la corde de largage, aide qui supplie, soie au sol ; bouches inkman en trait |
+| P02-h3i2v-en | StyleA | clip | minimax-h3-i2v-int8+turbo | `d858cce7-25f7-40ac-af5b-a30700080a43` | 8.0 | 4646 | rendu | E4 minimax h3 i2v : length=192 steps=8 1344x768 24 i/s audios=0 ; mp4=P02-h3i2v-en_StyleA_00001_.mp4 |
+| P03-it | StyleA | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `9fbef924-726a-4bca-85b6-0df9cb3d468d` | 9.16 | 525252 | rendu | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=229 steps=6 shift=11.0 audio_scale=1.0 ; mp4=P03-it_S |
+| P03-it | StyleB | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `b53b01e1-216f-4f78-9cae-c57e224ae496` | 9.16 | 525253 | rendu | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=229 steps=6 shift=11.0 audio_scale=1.6 ; mp4=P03-it_S |
+| P02-itb | StyleB | clip | wan2.1-i2v-14b-720p-fp8+infinitetalk-multi+lightx2v | `ea243c30-56e4-4851-aed0-d2972d1855a3` | 7.88 | 424253 | rendu | E1 infinitetalk multi : 2 masques, 2 pistes para, frames=197 steps=6 shift=11.0 audio_scale=2.0 ; mp4=P02-itb_ |
+| P1a-2-ltx25 | StyleA | clip | ltx-2.5-22b-distilled-int8 | `6109862f-683f-482e-9754-67fb96855f32` | 3.04 | 961003707 | rendu | E3b LTX-2.5 i2v deux passes : length=73 1280x704 24 i/s ; mp4=P1a-2-ltx25_StyleA_00001_.mp4 |
+| P4a-3-ltx25 | StyleA | clip | ltx-2.5-22b-distilled-int8 | `9452a210-2629-487d-8458-40261361dcd7` | 4.04 | 79326312 | rendu | E3b LTX-2.5 i2v deux passes : length=97 1280x704 24 i/s ; mp4=P4a-3-ltx25_StyleA_00001_.mp4 |
+| P02-ltx25 | StyleA | clip | ltx-2.5-22b-distilled-int8 | `aaad6839-9e9e-44ac-8269-720cd8841731` | 8.04 | 4242 | rendu | E3b LTX-2.5 i2v deux passes : length=193 1280x704 24 i/s ; mp4=P02-ltx25_StyleA_00001_.mp4 |
+| P02-seedance | StyleA | clip | seedance_2_0_mini | `28cd52fa-1d24-4762-926b-9e2c72afce20` | 8 |  | echec | E6 modele ferme via Higgsfield : start_image + 2 audio_references, audio natif, 8 s 720p ; 20 credits ; echec  |
+| P02-wan27 | StyleA | clip | wan2_7 | `a5b3e9d1-b249-4ffc-bdfe-2cd74be51a25` | 8 |  | echec | E6 modele ferme via Higgsfield : start_image + 2 audio_references, [Character n] says, 8 s 720p ; 12 credits ; |
+| P02-veo31lite | StyleA | clip | veo3_1_lite | `b3ca82f9-41a0-4093-8485-1a36df3e6697` | 8 |  | rendu | E6 modele ferme via Higgsfield : start_image, audio genere, 8 s ; 12 credits |
+| P02-kling30 | StyleA | clip | kling3_0 | `f70a2577-10e9-40f7-923c-a75a77ccd53f` | 8 |  | rendu | E6 modele ferme via Higgsfield : start_image, sound on, std, 8 s ; 16 credits |
+| P02-seedance | StyleA | clip | seedance_2_0_mini | `8acdfdd9-869e-4d90-b2c2-96ecf8d425f7` | 8 |  | rendu | E6 sans audio_references, voix generees ; 20 credits |
+| P02-wan27 | StyleA | clip | wan2_7 | `53e5393e-4cf5-4a86-bc6f-99866f77185a` | 8 |  | rendu | E6 sans audio_references, [Character n] says ; 12 credits |
+| P02-h3i2v-fr | StyleA | clip | minimax-h3-i2v-int8+turbo | `283b12f0-c1a9-4243-8b7d-6298315e8c00` | 8.0 | 4747 | rendu | E4 minimax h3 i2v : length=192 steps=8 1344x768 24 i/s audios=0 ; mp4=P02-h3i2v-fr_StyleA_00001_.mp4 |
+| P02-h3r2v-fr | StyleA | clip | minimax-h3-r2v-int8+turbo | `54d053ed-60b1-4227-9467-3acdd1cdd432` | 8.0 | 4848 | rendu | E4 minimax h3 r2v : length=192 steps=4 1344x768 24 i/s audios=2 ; mp4=P02-h3r2v-fr_StyleA_00001_.mp4 |
+
+Médias Higgsfield envoyés pour les modèles fermés : image P02 A 720p `021b7fd0-66fc-4192-9609-3d580d7e0ffc`, mp3 BADAUD1 `a05a933a-b565-4b0f-9ce8-7683c5e38e16`, mp3 BADAUD2 `c868fc9d-f8fa-46ed-8560-32e81dab25e1`.
+
 ## Voix (ElevenLabs, phase D bis)
 
 | Réplique | Modèle | voice_id | Fichier | Note |

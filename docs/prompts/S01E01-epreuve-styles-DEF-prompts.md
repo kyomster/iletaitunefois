@@ -166,3 +166,27 @@ hand drawn 2D illustration in a European graphic novel manner, restrained clear 
 hand drawn 2D illustration in a European graphic novel manner, restrained clear line drawing with an even thin ink contour, colour laid in flat gouache with visible paper grain and slight brush irregularity, naturalistic adult proportions and understated faces without any cartoon exaggeration, muted sophisticated palette of ochre, slate, olive and faded brick, quiet even lighting with soft ambient shadow rather than dramatic contrast, calm horizontal composition with generous air, restrained and literary rather than spectacular, 16:9 frame: era accurate historical setting, carefully observed period costume and architecture, documentary accuracy in the detail, Scene: seen from the basket, the rooftops of Paris sliding slowly below, chimney smoke streaming. Framing: very wide high angle shot, the rim of the basket in the foreground. Decor: pale morning sky above Paris, grey rooftops and chimneys shrinking far below, the park visible as a bright patch. Characters: none. Props: wicker rim, rope, folded silk bundle. Avoid: cartoon exaggeration, oversized eyes, chibi proportions, thick uneven outline, glossy digital rendering, airbrush, neon colours, oversaturation, dramatic rim light, photorealism, photograph, 3D render, CGI, live action, anime, manga, extra characters., dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin
 ```
 
+
+---
+
+# Troisième vague — styles J et K
+
+**23 août 2026.** Mêmes trois plans, mêmes briques, mêmes conditions, aucune référence réinjectée. Deux écarts propres à cette vague :
+
+1. **La clause de foule change en J et en K**, comme elle avait changé en D et pour la même raison : `NO FACE VISIBLE ON ANY FIGURE` produirait des visages effacés sur un rendu à visages crédibles. Formulation retenue : `seen from behind and thrown far out of focus by the shallow depth of field, no readable face on any background figure`. En cinéma, c'est de toute façon le procédé naturel.
+2. **La brique de P1a-3 est corrigée**, application de la RÈGLE 32 : le développement du décor est amputé de sa clause de cadrage, et `the camera tilted steeply upward` est ajouté. C'est le premier essai de la correction ; les six premières images P1a-3 avaient toutes raté la contre plongée.
+
+Coût : 6 images, **12 crédits**. Cumul de l'épreuve, **50 crédits**.
+
+## Identifiants
+
+| Index | Image | job_id |
+|---|---|---|
+| 19 | `P02_StyleJ` | `5fe7c85e-4020-49c4-8556-756dd978d486` |
+| 20 | `P1a-3_StyleJ` | `595fadb0-d639-4290-8724-0be2eba59c65` |
+| 21 | `P4b-1_StyleJ` | `74ed90a2-271b-415f-a492-e9ee65e3d28b` |
+| 22 | `P02_StyleK` | `703c4cb8-9566-4243-a0e7-1b26ed4b6f0a` |
+| 23 | `P1a-3_StyleK` | `912d624f-1a56-461d-8178-59ad980b37fd` |
+| 24 | `P4b-1_StyleK` | `c476e3b7-e739-4041-8c54-e894a35e5c09` |
+
+Les prompts complets sont reconstructibles par concaténation des blocs de `PLAN-styles-D-E-F.md` §4.7 et §4.8, du traitement d'époque, de la brique de plan et des négatives, selon la règle d'assemblage de `S01E01-pilote-prompts-3-styles.md` §1.
