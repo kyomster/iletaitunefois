@@ -4,7 +4,9 @@
 
 Deux lots. Sections 1 à 9, les six premiers styles D à I. Section 10, les deux styles réalistes J et K, ajoutés après.
 
-**Décision du 23 août** : E, F et H sont abandonnés, leurs images supprimées du dépôt. Leur audit reste ici, sections 3, 4 et 6, pour ne pas repayer les mêmes constats. Restent en course **D, G, I, J, K**.
+**Décision du 23 août, définitive** : E, F, H, puis G et I sont abandonnés, leurs images supprimées du dépôt. Leur audit reste ici, sections 3 à 7, pour ne pas repayer les mêmes constats. **Restent D, J et K.**
+
+Ce que le trio retenu a en commun, et qui n'est dans aucune case de la grille : ce sont les **trois styles à visage crédible et lumière cinématographique** du lot. D en est la version dessinée, K la version animée en volume, J la version photographiée. Les cinq écartés étaient tous des styles à forme affirmée. Le choix penche donc vers le **récit** plutôt que vers le gag graphique, et cela déborde la question du style : le scénario, les quatorze gags et le découpage ont été écrits pour l'autre registre.
 
 ---
 

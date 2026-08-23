@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
-"""Assemble les 54 prompts d'image du pilote S01E01 (plans 1 à 6, trois styles).
+"""Assemble les prompts d'image du pilote S01E01 (plans 1 à 6).
 
-Source unique des blocs : docs/S01E01-pilote-prompts-3-styles.md. Les blocs ci dessous
-en sont la copie octet pour octet ; ils ne se reformulent jamais. Seules les briques de
-plan (point 6) changent d'une image à l'autre.
+Six styles : A, B, C (verrouillés, source docs/S01E01-pilote-prompts-3-styles.md)
+et D, J, K (retenus le 23 août, source docs/PLAN-styles-D-E-F.md §4).
+Les blocs ci dessous sont la copie octet pour octet de ces deux fiches ; ils ne se
+reformulent jamais. Seules les briques de plan (point 6) changent d'une image à l'autre.
 
 Règle d'assemblage (point 1 de la fiche) :
-  [STYLE scène] + [ÉPOQUE] + [brique, blocs identité substitués]
+  [STYLE scène] + [traitement de lumière du bloc] + [ÉPOQUE] + [brique, blocs identité substitués]
   + (si un personnage est réinjecté) "same characters as reference, same art style as reference"
   + " Avoid: " + [négatives de la brique (foule sur 1a, 1b, 2, 4a)] + [base style]
   + [base personnages d'époque] + [négative universelle]
 
 Usage :
-  python build_prompts_pilote.py <media_ids.json> <sortie.json> [<sortie.md>]
+  python build_prompts_pilote.py <media_ids.json> <sortie.json> [<sortie.md>] [--styles StyleD,StyleJ]
 
-<media_ids.json> : {"D01_StyleA.png": "<media_id>", ...} (15 entrées, phase A du runbook).
+<media_ids.json> : {"D01_StyleA.png": "<media_id>", ...} (5 entrées par style, phase A du runbook).
+Sans --styles, les six styles sont assemblés, ce qui exige les 30 entrées de media_ids.
 """
 import json
 import sys
@@ -25,14 +27,51 @@ STYLE = {
     "StyleA": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading with a single hard edged shadow tone, historical period characters in desaturated muted earth tones, era accurate costumes, simplified geometric background shapes less detailed than the characters, single flat shadow tone on the background too, absolutely no photorealism, 16:9 frame:",
     "StyleB": "inkman stick figure cartoon style, large round white heads with bold black ink outline, simple dot eyes and expressive mouths, thin black stick limbs, each arm ending in a simple solid black rounded mitten hand with a small thumb and no separate fingers, flat graphic character design, simplified era accurate period costumes in muted earth tones, set against a richly illustrated animation background painted with atmospheric depth and dramatic lighting, bold graphic shapes, textured light, 16:9 frame:",
     "StyleC": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period characters with the palette shifted to muted earth tones while keeping deep teal shadows, era accurate costumes, background layout in the same crisp graphic style and less detailed than the characters, crisp and graphic not painterly, 16:9 frame:",
+    # --- styles retenus le 23 août 2026, source PLAN-styles-D-E-F.md §4.1, §4.7, §4.8 ---
+    "StyleD": "2D anime illustration, modern cinematic adventure anime style, clean thin dark brown ink linework with subtle weight variation, cel shaded characters with a soft airbrush gradient blending each shadow into its base tone, warm natural skin with a faint blush on the cheeks, adult realistic body proportions and grounded facial features, expressive eyes with a single specular highlight, hand painted background with atmospheric depth and aerial perspective, volumetric light, shallow depth of field with the background softly out of focus, fine film grain, 16:9 frame:",
+    "StyleJ": "live action cinema look, photographed on 35mm film, naturalistic period drama cinematography, real actors in accurate historical costume, motivated practical lighting with deep natural falloff, shallow depth of field with creamy bokeh, fine organic film grain, subtle halation on the highlights, desaturated filmic colour grade with rich blacks and warm skin tones, photorealistic, the image fills the entire 16:9 frame edge to edge, no black bars, 16:9 frame:",
+    "StyleK": "stylized 3D feature animation, high end computer animated film look, believable human proportions with only a light touch of caricature in the features, soft subsurface skin with fine texture and no plastic sheen, individually groomed hair, real cloth simulation with visible weave and wear, naturalistic cinematography with motivated light and long lens compression, restrained desaturated colour grade, shallow depth of field, subtle volumetric atmosphere, an adult dramatic register rather than a comic one, stylized and not photographic, 16:9 frame:",
 }
+
+# ---------------------------------------------------------------- traitements de lumière (23 août 2026)
+# Un style peut porter deux registres de lumière. Le registre dépend du BLOC du plan, jamais du tirage.
+# D : corrigé le 23 août, la clause de ciel `saturated blue sky with tall billowing cumulus clouds` est
+# RETIRÉE du registre JOUR. Elle écrasait l'aube brumeuse décrite par la plaque D01 sur les trois images
+# d'épreuve. L'heure appartient au décor, le traitement ne règle que la qualité de la lumière.
+# J et K : registre TENSION ajouté le 23 août, ils n'en avaient aucun.
+LUMIERE = {
+    "StyleD": {
+        "JOUR": "soft diffused key light, gentle contrast, clear readable midtones, luminous but restrained greens,",
+        "TENSION": "hard directional key light, a single hard edged cast shadow shape across each face, palette pulled to warm amber or to near black, strong contrast, glowing rim light along the silhouette,",
+    },
+    "StyleJ": {
+        "JOUR": "soft overcast daylight,",
+        "TENSION": "hard directional key light with deep shadow across two thirds of the frame, desaturated grade pulled to cold grey and near black, high contrast, tight framing, long lens compression,",
+    },
+    "StyleK": {
+        "JOUR": "soft overcast daylight,",
+        "TENSION": "hard directional key light with deep shadow across two thirds of every volume, desaturated grade pulled to cold grey and near black, high contrast, tight framing, no warm bounce light,",
+    },
+}
+# Blocs au sol en JOUR, blocs en l'air en TENSION (PLAN-styles-D-E-F.md §4.1).
+REGISTRE_LUMIERE = {"1a": "JOUR", "1b": "JOUR", "2": "JOUR", "3": "JOUR", "4a": "JOUR", "4b": "TENSION", "5": "TENSION"}
 
 # ---------------------------------------------------------------- point 3 : traitement d'époque
 EPOQUE = {
     "StyleA": "historical period setting in desaturated muted earth tones, dusty beige, stone grey, earth brown, softened contrast, era accurate architecture and props,",
     "StyleB": "era accurate historical setting, moody atmospheric period palette,",
     "StyleC": "era accurate historical setting, palette shifted toward muted earth tones while keeping deep teal shadows,",
+    "StyleD": "era accurate historical setting, costumes in muted earth tones, period architecture and props,",
+    "StyleJ": "era accurate 1797 Directoire France, authentic period costume, real fabrics with wear and dirt, period architecture and props photographed on location,",
+    "StyleK": "era accurate 1797 Directoire France, authentic period costume in muted earth tones with real fabric weave and wear, period architecture and props,",
 }
+
+# ---------------------------------------------------------------- styles réalistes : deux règles propres (RÈGLE 33)
+STYLES_REALISTES = {"StyleJ", "StyleK"}
+# Sur un style réaliste, un objet dont la fonction historique est de porter un signe en porte un malgré
+# la négative universelle. Les bannières de P1a-3 sont sorties brodées de lettres en J comme en K.
+CLAUSE_BANNIERES = "plain undecorated banners with no emblem and no lettering, blank fabric only"
+PLANS_A_BANNIERES = {"P1a-3"}
 
 # ---------------------------------------------------------------- point 4 : négatives
 NEG_UNIVERSELLE = "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
@@ -41,6 +80,9 @@ NEG_STYLE = {
     "StyleA": "gradient shading, soft shading, airbrush, painterly, thin delicate linework, photorealism, photograph, realistic skin texture, 3D render, CGI, live action, anime style, manga, corporate flat vector art, extra characters.",
     "StyleB": "plain round ball hands, hollow circle hands, teardrop hands, pointed armless stumps, separate fingers, realistic hands, missing hand, missing arm, realistic human anatomy, detailed face, nose, photorealism, 3D render, anime, manga, extra inkman characters.",
     "StyleC": "gradient shading, soft shading, airbrush, painterly, rendered highlights, digital painting, muddy colors, cold blue palette, violet palette, purple palette, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters.",
+    "StyleD": "flat vector art, thick uniform black outline, corporate flat design, chibi proportions, super deformed, oversized anime eyes on adult characters, moe face, photorealism, photograph, 3D render, CGI, live action, extra characters.",
+    "StyleJ": "illustration, drawing, painting, cartoon, anime, manga, 3D render, CGI, video game, painterly, cel shading, ink outlines, plastic skin, waxy face, over sharpened, HDR, deformed hands, extra fingers, modern buildings, glass towers, letterbox bars, black bars, extra characters.",
+    "StyleK": "photograph, live action, real actors, broad cartoon caricature, chibi proportions, oversized head, rubbery squash and stretch, plastic sheen, waxy face, uncanny, saturated candy colours, 2D drawing, cel shading, anime, manga, modern buildings, glass towers, letterbox bars, black bars, extra characters.",
 }
 NEG_FOULE = "readable faces, portraits, facial features, eyes, dot eyes on crowd figures, front facing figures"
 BLOCS_FOULE = {"1a", "1b", "2", "4a"}  # point 4.4
@@ -70,6 +112,11 @@ IDENT = {
     "FOULE": {
         "AC": "a dozen Directoire crowd silhouettes, MOST OF THEM SEEN FROM BEHIND and the rest in three quarter view from behind, varied scales, NO FACE VISIBLE ON ANY FIGURE, no facial features at all: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, simplified figures less detailed than main characters",
         "B": "a dozen Directoire inkman crowd silhouettes, MOST OF THEM SEEN FROM BEHIND, varied scales, plain round BLANK heads with absolutely no facial features, NO EYES, no dots, no mouths, men with tall hats and simple flat tailcoats, women with high waisted dresses and shawls, a few small inkman children, simplified figures even less detailed than the main characters",
+        # 23 août 2026 : sur J et K, la clause AC n'a pas tenu. Une dizaine de figurants nets, alignés,
+        # visages lisibles, qui posent au lieu de regarder le ballon. Le flou d'arrière plan seul n'y a rien fait.
+        # Durcie en positif, PLAN-styles-D-E-F.md §5.1. Le style D, lui, garde la clause AC : l'épreuve a
+        # montré qu'elle est sûre même sur un style à visages détaillés.
+        "JK": "a dozen Directoire crowd figures, ALL SEEN FROM BEHIND, turned toward the balloon, NO FIGURE FACING THE CAMERA, thrown out of focus by the shallow depth of field, no readable face on any background figure: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, much less detailed than the main characters",
     },
     "AIDE": {
         "AC": "an assistant in a rough jacket with rolled up sleeves, seen from behind at the edge of frame",
@@ -135,14 +182,26 @@ PERSONNAGES = {"Foule", "Garnerin", "Parieurs"}
 GEN_PARAMS = {"model": "nano_banana_pro", "aspect_ratio": "16:9", "resolution": "2k", "count": 1, "use_unlim": False}
 
 
+def variante_identite(style):
+    """Quel jeu de blocs identité s'applique. Un style sans entrée propre retombe sur AC."""
+    if style == "StyleB":
+        return "B"
+    if style in STYLES_REALISTES:
+        return "JK"
+    return "AC"
+
+
 def assemble(name, bloc, brique, style, media_ids):
-    variant = "B" if style == "StyleB" else "AC"
+    variant = variante_identite(style)
     body = brique
     for key, blocs in IDENT.items():
-        body = body.replace(f"[{key}]", blocs[variant])
+        body = body.replace(f"[{key}]", blocs.get(variant, blocs["AC"]))
     assert "[" not in body, f"substitution incomplète sur {name}"
+    if style in STYLES_REALISTES and name in PLANS_A_BANNIERES:
+        body += f" {CLAUSE_BANNIERES}."  # RÈGLE 33
     refs = REFS[name]
-    positive = f"{STYLE[style]} {EPOQUE[style]} {body}"
+    lumiere = LUMIERE.get(style, {}).get(REGISTRE_LUMIERE[bloc], "")
+    positive = " ".join(x for x in (STYLE[style], lumiere, EPOQUE[style], body) if x)
     if any(r in PERSONNAGES for r in refs):
         positive += f" {SAME_AS_REF}"
     negs = []
@@ -153,26 +212,40 @@ def assemble(name, bloc, brique, style, media_ids):
     medias = [{"role": "image_references", "value": media_ids[f"{r}_{style}.png"]} for r in refs]
     return {
         "name": f"{name}_{style}", "plan": name, "bloc": bloc, "style": style,
+        "registre_lumiere": REGISTRE_LUMIERE[bloc] if style in LUMIERE else None,
         "references": [f"{r}_{style}.png" for r in refs],
         "params": {**GEN_PARAMS, "prompt": prompt, "medias": medias},
     }
 
 
+TOUS_LES_STYLES = ("StyleA", "StyleB", "StyleC", "StyleD", "StyleJ", "StyleK")
+
+
 def main():
-    media_ids = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    styles = TOUS_LES_STYLES
+    for a in sys.argv[1:]:
+        if a.startswith("--styles"):
+            styles = tuple(a.split("=", 1)[1].split(",")) if "=" in a else styles
+    for s in styles:
+        assert s in STYLE, f"style inconnu : {s}"
+    media_ids = json.loads(Path(args[0]).read_text(encoding="utf-8"))
     out = []
-    for style in ("StyleA", "StyleB", "StyleC"):
+    for style in styles:
         for name, bloc, brique in BRIQUES:
             out.append(assemble(name, bloc, brique, style, media_ids))
-    assert len(out) == 60  # 54 + P02a/P02b x 3 styles
-    Path(sys.argv[2]).write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
-    if len(sys.argv) > 3:
-        md = ["# S01E01 — les 54 prompts du pilote, tels que soumis", "",
-              "Générés par `docs/scripts/build_prompts_pilote.py` à partir des blocs de `S01E01-pilote-prompts-3-styles.md`. Réglages : `nano_banana_pro`, 16:9, 2k, count 1. Références dans l'ordre indiqué, rôle `image_references`.", ""]
+    assert len(out) == 20 * len(styles), f"{len(out)} prompts pour {len(styles)} styles"
+    Path(args[1]).write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
+    if len(args) > 2:
+        md = [f"# S01E01 — les {len(out)} prompts du pilote, tels que soumis", "",
+              "Générés par `docs/scripts/build_prompts_pilote.py`. Blocs A, B, C repris de `S01E01-pilote-prompts-3-styles.md` ; blocs D, J, K repris de `PLAN-styles-D-E-F.md` §4. Réglages : `nano_banana_pro`, 16:9, 2k, count 1. Références dans l'ordre indiqué, rôle `image_references`.", ""]
         for e in out:
-            md += [f"## {e['name']}", "", f"Références : {', '.join(e['references'])}", "", "```", e["params"]["prompt"], "```", ""]
-        Path(sys.argv[3]).write_text("\n".join(md), encoding="utf-8", newline="\n")
-    print(f"{len(out)} prompts écrits dans {sys.argv[2]}")
+            entete = f"Références : {', '.join(e['references'])}"
+            if e["registre_lumiere"]:
+                entete += f" · registre de lumière : **{e['registre_lumiere']}**"
+            md += [f"## {e['name']}", "", entete, "", "```", e["params"]["prompt"], "```", ""]
+        Path(args[2]).write_text("\n".join(md), encoding="utf-8", newline="\n")
+    print(f"{len(out)} prompts écrits dans {args[1]} ({len(styles)} styles : {', '.join(styles)})")
 
 
 if __name__ == "__main__":

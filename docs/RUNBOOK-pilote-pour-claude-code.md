@@ -10,7 +10,7 @@
 
 Dans cet ordre, sans sauter :
 
-1. `docs/METHODE-generation-images.md` — les 24 règles. Non négociables.
+1. `docs/METHODE-generation-images.md` — les 33 règles. Non négociables.
 2. `docs/S01E01-pilote-prompts-3-styles.md` — les prompts. C'est votre matériau.
 3. `docs/PIPELINE-video-et-voix.md` — le pourquoi de la chaîne.
 4. `docs/RUNPOD-COMFYUI-mode-d-emploi.md` — seulement à la phase E.

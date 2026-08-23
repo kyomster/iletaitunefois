@@ -441,6 +441,36 @@ Les prompt_id antérieurs au redémarrage de ComfyUI (crash au premier chargemen
 
 Médias Higgsfield envoyés pour les modèles fermés : image P02 A 720p `021b7fd0-66fc-4192-9609-3d580d7e0ffc`, mp3 BADAUD1 `a05a933a-b565-4b0f-9ce8-7683c5e38e16`, mp3 BADAUD2 `c868fc9d-f8fa-46ed-8560-32e81dab25e1`.
 
+
+## E7 (2026-08-23, soir, pod RTX PRO 6000 `ssl54yh5es66oo`) — plans muets Wan 2.2 vs LTX‑2.5 vs H3
+
+| Clip | Style | Modèle | prompt_id | Durée | Graine | Statut |
+|---|---|---|---|---|---|---|
+| P1a-1-ltx25 | StyleA | ltx-2.5-22b-distilled-int8 | `095f54b1-f589-4aa9-870a-b154fe456ac6` | 2.38 | 700 | rendu |
+| P1a-1-ltx25 | StyleB | ltx-2.5-22b-distilled-int8 | `18b73a4f-76f3-4ee4-b554-0c3031061d94` | 2.38 | 701 | rendu |
+| P4a-1-ltx25 | StyleA | ltx-2.5-22b-distilled-int8 | `3012b8a6-bf38-403b-ae92-35a43954d53c` | 2.71 | 702 | rendu |
+| P4a-1-ltx25 | StyleB | ltx-2.5-22b-distilled-int8 | `a1de1eda-bea0-4b2d-9761-af9f66e0f5f8` | 2.71 | 703 | rendu |
+| P4b-1-ltx25 | StyleA | ltx-2.5-22b-distilled-int8 | `969ac69c-32a7-466d-9349-7692d2958b5c` | 3.38 | 704 | rendu |
+| P4b-1-ltx25 | StyleB | ltx-2.5-22b-distilled-int8 | `b896b6ee-6c5b-44bb-b863-c1a6f61d604a` | 3.38 | 705 | rendu |
+| P4b-3-ltx25 | StyleA | ltx-2.5-22b-distilled-int8 | `7c3ada0a-2cf7-48cc-85d7-f267b3099075` | 2.71 | 706 | rendu |
+| P4b-3-ltx25 | StyleB | ltx-2.5-22b-distilled-int8 | `17bb790e-d0b0-453a-b9ed-c18c05294a75` | 2.71 | 707 | rendu |
+| P5-2-ltx25 | StyleA | ltx-2.5-22b-distilled-int8 | `913283d2-3082-4a15-b7ab-21fadebc12cc` | 2.71 | 708 | rendu |
+| P5-2-ltx25 | StyleB | ltx-2.5-22b-distilled-int8 | `532726e6-bb9c-469c-af4d-e4bac2fb8292` | 2.71 | 709 | rendu |
+| P5-3-ltx25 | StyleA | ltx-2.5-22b-distilled-int8 | `08aebcc1-4c6a-4e37-ac42-d52ad79534c3` | 2.38 | 710 | rendu |
+| P5-3-ltx25 | StyleB | ltx-2.5-22b-distilled-int8 | `53430731-414e-4a2f-84ab-8e5c2ec67458` | 2.38 | 711 | rendu |
+| P1a-1-h3 | StyleA | minimax-h3-i2v-int8+turbo | `10652a3c-238c-41a3-adc7-831b5761e7e4` | 3.04 | 800 | rendu |
+| P1a-1-h3 | StyleB | minimax-h3-i2v-int8+turbo | `c5f7f084-2eff-40e9-84f9-0d2233216185` | 3.04 | 801 | rendu |
+| P4a-1-h3 | StyleA | minimax-h3-i2v-int8+turbo | `1124d249-f4e2-4dd8-9224-02476febe0ff` | 3.04 | 802 | rendu |
+| P4a-1-h3 | StyleB | minimax-h3-i2v-int8+turbo | `b7967034-8176-43c9-a345-a2fe6f60410c` | 3.04 | 803 | rendu |
+| P4b-1-h3 | StyleA | minimax-h3-i2v-int8+turbo | `b60b11e3-0e57-4ad2-bc46-533a225255d4` | 3.75 | 804 | rendu |
+| P4b-1-h3 | StyleB | minimax-h3-i2v-int8+turbo | `1cd63433-1518-4866-ab60-cdd50384b6eb` | 3.75 | 805 | rendu |
+| P4b-3-h3 | StyleA | minimax-h3-i2v-int8+turbo | `d3c7f740-3db1-4e1d-bfd8-2a0f67d71f0d` | 3.04 | 806 | rendu |
+| P4b-3-h3 | StyleB | minimax-h3-i2v-int8+turbo | `7e45d6bf-ea39-45bb-bbe7-b657e91daa32` | 3.04 | 807 | rendu |
+| P5-2-h3 | StyleA | minimax-h3-i2v-int8+turbo | `848b0eb0-cb13-43be-95bb-9151090ddcff` | 3.04 | 808 | rendu |
+| P5-2-h3 | StyleB | minimax-h3-i2v-int8+turbo | `2168f1b5-b82b-48bd-93f5-d0daad72649a` | 3.04 | 809 | rendu |
+| P5-3-h3 | StyleA | minimax-h3-i2v-int8+turbo | `16b20c93-fa36-4a72-8d06-ff026607d22f` | 3.04 | 810 | rendu |
+| P5-3-h3 | StyleB | minimax-h3-i2v-int8+turbo | `edc2425b-7268-4f64-9fa9-8acb4bad9cf0` | 3.04 | 811 | rendu |
+
 ## Voix (ElevenLabs, phase D bis)
 
 | Réplique | Modèle | voice_id | Fichier | Note |

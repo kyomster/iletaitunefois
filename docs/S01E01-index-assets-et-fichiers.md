@@ -112,7 +112,7 @@ Elles appartiennent à la troupe et ne doivent jamais dominer un décor, un pers
 
 # 7. Où trouver quoi
 
-* **Comment générer sans refaire les erreurs** : `docs/METHODE-generation-images.md`, 24 règles, dont deux résultats négatifs à ne pas repayer, le style C sur personnage en pied et le pouce des moufles.
+* **Comment générer sans refaire les erreurs** : `docs/METHODE-generation-images.md`, 33 règles, dont deux résultats négatifs à ne pas repayer, le style C sur personnage en pied et le pouce des moufles.
 * **Ce qu'il faut tourner** : `docs/S01E01-scenario.md` pour les 79 plans et le minutage, `docs/S01E01-plan-de-production.md` pour le tableau révisé à huit colonnes, le roster d'assets et les prompts du pilote.
 * **Comment lancer le pilote** : `docs/S01E01-pilote-prompts-3-styles.md` pour les prompts, `docs/RUNPOD-COMFYUI-mode-d-emploi.md` pour la machine.
 * **Comment fabriquer la vidéo et le son** : `docs/PIPELINE-video-et-voix.md`, qui refait le diagnostic pour une chaîne ComfyUI sur RunPod et cadre la voix ElevenLabs.

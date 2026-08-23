@@ -537,6 +537,32 @@ Les clés P02/P03 d'origine montraient les bouches ouvertes (on avait demandé �
 * **Style B (inkman)** : une tête inkman n'a de bouche que si on la dessine. Sur une clé de dialogue, écrire la bouche fermée **comme un trait** (`a closed mouth drawn as one short flat ink line`) ; sinon le modèle vidéo (InfiniteTalk) doit inventer la bouche et le mouvement ne colle pas à la voix (essai E1, P02/P03 B).
 * **L'action de la clé doit porter la réplique** : P03 v3 montrait Garnerin tendant la soie pliée à l'aide pendant « Lâchez tout » — lu comme une couverture offerte. Réécrit (v4) : main sur la corde de largage, regard vers le ballon, l'aide qui supplie, la soie au sol. Avant de figer une clé de dialogue, relire la réplique et demander « que fait-il en le disant ? ».
 
+# 22. Règles nées de l'épreuve des styles D à K (23 août 2026)
+
+Acquises sur 24 images d'épreuve, huit styles, trois plans. Détail et preuves dans `S01E01-epreuve-styles-audit.md`.
+
+## RÈGLE 32 — le développement d'un code de décor doit être amputé de sa clause de cadrage
+
+Sur P1a-3, la brique dit `Framing: low angle from the ground toward the crown of the balloon`. Faute de plaque à réinjecter dans un style neuf, le code `D1` a été développé en clair depuis `S01E01-assets-prompts-v3.4.md`, dont la description se termine par `very wide establishing shot with a slight high angle`. Le prompt portait donc deux cadrages contradictoires. **Six styles sur six ont tranché pour le plan large**, et aucun n'a produit la contre plongée demandée.
+
+Corrigé en retirant la clause de cadrage du développement et en durcissant la brique (`the camera tilted steeply upward`) : **deux styles sur deux ont donné la contre plongée** au tir suivant.
+
+Une plaque de décor **réinjectée comme image** n'impose pas son cadrage, la brique le fixe. La même plaque **décrite comme texte** l'impose. Donc : quand on développe un code de décor en clair, on en retire toute clause de cadrage, d'axe et d'échelle. C'est un cas particulier de la RÈGLE 23, et le complément exact de la RÈGLE 28, qui prescrit d'accoler la description au code sur un très gros plan : on accole la description, jamais son cadrage.
+
+## RÈGLE 33 — sur un style réaliste, un objet fait pour porter un signe en porte un, malgré la négative universelle
+
+La négative universelle anti lettrage tenait depuis 319 images, dans six styles graphiques. Elle a cédé **du premier coup** sur les deux styles réalistes, J et K : les bannières de P1a-3 sont sorties brodées de lettres et de couronnes de laurier dans les deux.
+
+La cause n'est pas la négative, c'est la vraisemblance du matériau : un fanion d'époque **est** un objet qui porte un emblème. Une négative agit sur la présence d'un élément, jamais contre ce qu'un objet est (RÈGLE 1, et troisième règle du README).
+
+Donc, dès qu'un style est réaliste ou photoréaliste, tout objet dont la fonction historique est de porter un signe — bannière, enseigne, drapeau, sceau, pièce, borne — se prescrit **en positif** : `plain undecorated banners with no emblem and no lettering, blank fabric only`.
+
+## Corollaire — une bande noire ne se corrige pas en négative
+
+`letterbox bars, black bars, cinemascope bars` figurait dans la base négative du style J. `P02_StyleJ` est sorti avec deux bandes noires latérales quand même, comme le style F sans la négative. Un cadre de cinéma **a** des bandes : c'est une structure, pas un élément. Se corrige en positif, `the image fills the entire 16:9 frame edge to edge`. Même mécanisme que le cadre dessiné du style I, où l'idiome du roman graphique ramène la case malgré `border, frame, margin`.
+
+---
+
 ## Observations sans règle
 
 * Le **style C tient sa palette sur les plans larges** dès qu'une plaque C est réinjectée : la RÈGLE 15 décrit les planches personnages sur fond neutre, pas les plans de scène.

@@ -155,3 +155,7 @@ Guillaume, après visionnage : **E4c (MiniMax H3 en français, prompt au format 
 ## 2026-08-23, soir — Correction : « Dix francs » est bien prononcé (H3 E4c, LTX‑2.5 E3b) ; c'est la transcription qui se trompe
 
 Guillaume, à l'oreille : « Dix francs » est correctement dit dans E4c et E3b. Les « Dis Franck / Dis‑toi » venaient de la **transcription ElevenLabs scribe_v1**, pas des modèles. Leçon : la transcription horodatée sert à **placer** les mots dans le temps et à repérer les phrases inventées ou manquantes, **pas à juger la prononciation d'un nombre ou d'un nom propre** ; pour ça, l'oreille humaine tranche. Le défaut « Dix francs » est clos ; aucune reformulation de réplique n'est nécessaire.
+
+## 2026-08-23, soir — E7 : LTX‑2.5 remplace Wan 2.2 sur les plans muets (proposition) ; H3 hallucine sur les muets
+
+Guillaume : « est‑il encore nécessaire de garder Wan 2.2 ? peut‑on tout basculer sur H3 ou LTX‑2.5 ? » → E7, 6 plans muets difficiles × A/B × {Wan 2.2, LTX‑2.5, H3}. Résultat (audit E7) : **LTX‑2.5 est propre sur les 12 clips** là où Wan 2.2 faisait surgir des personnages et où **H3 invente** (tête géante sur 4a‑1 B, débris sur 5‑2 A). Proposition : **tout le pilote sans Wan 2.2** — LTX‑2.5 pour les plans muets, H3 ou LTX‑2.5 pour les dialogues ; cadence 24 i/s ; audio d'ambiance généré par LTX conservé ou remplacé au montage ; le LoRA de style, s'il se fait, s'entraîne avec l'entraîneur officiel Lightricks. En attente du verdict de Guillaume sur la vidéo E7.

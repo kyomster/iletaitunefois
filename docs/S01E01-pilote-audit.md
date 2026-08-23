@@ -485,3 +485,14 @@ Aucun des quatre n'a donc été testé **avec nos voix ElevenLabs en référence
 | LTX‑2.5 | non | ? | 1a‑2 et 4a‑3 propres (le ballon monte, la foule frémit, audio d'ambiance généré) ; P02 parlé : voix françaises générées, « Il va se tuer, je vous dis » exact puis « Dis Frank qu'il ne coupe pas la corde » (même déformation de « Dix francs » que H3), et **LTX ajoute une coupe** vers 6 s (contre‑plongée derrière les badauds) malgré « single continuous shot » ; ~1 min par clip sur A100, aucun crash cette fois | ~0,1 $ | — |
 
 Vidéos : `essais/_videos/E1b_infinitetalk_v4.mp4`, `E3b_ltx25.mp4`, `E6_modeles_fermes.mp4` (Veo, Wan 2.7, Kling, Seedance, H3 anglais), `E4c` dans `E4c_h3_francais.mp4`. Coût : pod A100 sjj6j8nk2dbqk3 (~4 h dont 40 min de téléchargements) ≈ 5,5 $ ; total RunPod du pilote ≈ 24 $ (9 pods) ; Higgsfield −106 crédits (4 + 102), solde 736,44.
+
+## E7 — les plans muets les plus difficiles en Wan 2.2 | LTX‑2.5 | MiniMax H3, styles A et B (2026-08-23, soir, pod RTX PRO 6000 `ssl54yh5es66oo`)
+
+Question de Guillaume : faut‑il encore garder Wan 2.2, ou tout basculer sur H3 ou LTX‑2.5 ? Essai sur les 6 plans muets qui ont le plus résisté à Wan 2.2 (1a‑1, 4a‑1, 4b‑1, 4b‑3, 5‑2, 5‑3) × A/B, mêmes clés, sujets et caméra repris des prompts Wan, prompts courts (LTX : texte libre + négative anti‑coupe/anti‑anachronisme ; H3 : format du skill, « Nobody speaks »). 24 clips, aucune erreur ; LTX‑2.5 ≈ 1 min le clip, H3 ≈ 1,5‑3 min (RTX PRO 6000 à 2,09 $/h, seule carte disponible ; ~1 h 40 de pod ≈ 3,5 $ dont 40 min de téléchargement). Vidéo : `essais/_videos/E7_muets_wan22_ltx25_h3.mp4` (A puis B, 3 colonnes par plan).
+
+Ce que je vois sur les planches (à confirmer par Guillaume sur la vidéo) :
+* **LTX‑2.5** : propre sur les 12 — 4a‑1 B : le ballon décolle, **personne ne surgit** (là où Wan 2.2 faisait courir une foule) ; 4b‑1 A : nacelle et toits nets (Wan 2.2 fait apparaître une petite tête au rebord) ; 5‑2 A : la lame scie, les fibres sautent ; 1a‑1 B : brume et foule de dos, rien d'inventé ; cadrages et style tenus ; audio d'ambiance généré (vent, murmure).
+* **MiniMax H3** : style tenu mais **hallucine sur les plans muets** : 4a‑1 B, une tête d'inkman géante entre au premier plan et le ballon se déforme ; 5‑2 A, des débris de corde volent en l'air ; 4b‑1 A et 1a‑1 B propres. Plus lent que LTX.
+* **Wan 2.2** (référence) : les défauts connus (foule surgie 4a‑1 B, tête au rebord 4b‑1 A), le reste correct.
+
+Conclusion proposée : **LTX‑2.5 pour tous les plans muets** (vitesse, propreté, FLF2V natif, audio d'ambiance), Wan 2.2 n'est plus nécessaire ; pour les dialogues, H3 (timbre de nos voix en R2V) ou LTX‑2.5 (voix libres, parfois une coupe ajoutée) selon le choix de Guillaume. Le montage v7 peut donc être rendu entièrement sans Wan 2.2, à 24 i/s.

@@ -1,21 +1,27 @@
-# Styles D à I — plan de test
+# Styles D à K — plan de test
 
-**23 août 2026.** Six styles supplémentaires entrent en lice, à comparer aux styles A et B, qui restent en course. Le style C reste retiré (décision du 22 août, 15 h 05).
+**23 août 2026.** Huit styles supplémentaires ont été mis à l'épreuve. **Trois sont retenus : D, J et K.** Le style C reste retiré (décision du 22 août, 15 h 05) ; A et B gardent leurs pilotes complets et ne sont pas régénérés.
 
-| Style | En un mot | Public visé | Sort |
-|---|---|---|---|
-| **D** | anime d'aventure moderne, deux registres de lumière. Cible d'ambiance : le fan film joint par Guillaume | large, 10 à 35 ans | **en course** |
-| ~~E~~ | 2D graphique angulaire à fort contraste | large, biais adulte | **abandonné** le 23 août |
-| ~~F~~ | 3D stylisé mat, personnages taillés à facettes | 8 à 16 ans | **abandonné** le 23 août |
-| **G** | 3D cartoon à formes rondes et souples, lumière chaude | familial et au delà, voir §4.4 | **en course** |
-| ~~H~~ | 2D imprimé, trames, décalage chromatique | 12 à 20 ans | **abandonné** le 23 août |
-| **I** | roman graphique européen, ligne claire, gouache, palette sourde | 30 à 40 ans | **en course** |
-| **J** | cinéma réaliste, prise de vue 35 mm, comédiens en costume | adulte | **en course**, ajouté le 23 août |
-| **K** | 3D de long métrage à registre adulte, proportions crédibles, étalonnage sobre | adulte | **en course**, ajouté le 23 août |
+| Style | En un mot | Sort |
+|---|---|---|
+| **D** | anime d'aventure moderne, deux registres de lumière. Cible d'ambiance : le fan film joint par Guillaume | **retenu** |
+| ~~E~~ | 2D graphique angulaire à fort contraste | abandonné le 23 août |
+| ~~F~~ | 3D stylisé mat, personnages taillés à facettes | abandonné le 23 août |
+| ~~G~~ | 3D cartoon à formes rondes et souples, lumière chaude | abandonné le 23 août |
+| ~~H~~ | 2D imprimé, trames, décalage chromatique | abandonné le 23 août |
+| ~~I~~ | roman graphique européen, ligne claire, gouache | abandonné le 23 août |
+| **J** | cinéma réaliste, prise de vue 35 mm, comédiens en costume | **retenu** |
+| **K** | 3D de long métrage à registre adulte, proportions crédibles, étalonnage sobre | **retenu** |
 
-**Décision du 23 août.** E, F et H sont abandonnés sur lecture de l'épreuve. Leurs images ont été supprimées du dépôt ; leurs blocs, leurs négatives et leur audit restent consignés, sections 4.2, 4.3, 4.5 de ce document et sections 3, 4, 6 de `S01E01-epreuve-styles-audit.md`, pour ne pas repayer les mêmes constats. Restent **D, G, I, J, K**, plus A et B comme point de comparaison.
+**Décision du 23 août, en deux temps.** E, F et H écartés d'abord, puis G et I. **Restent D, J et K.** Les images des cinq styles écartés sont supprimées du dépôt ; leurs blocs, leurs négatives et leur audit restent consignés dans ce document et dans `S01E01-epreuve-styles-audit.md`, pour ne pas repayer les mêmes constats.
 
-Ce document est le frère de `S01E01-pilote-prompts-3-styles.md`. Ce dernier n'est pas modifié : ses trois blocs sont verrouillés et se copient octet pour octet. Tout ce qui concerne D, E et F vit ici.
+**Ce que ce trio dit du projet.** Les trois retenus sont les trois styles à **visage crédible et lumière cinématographique** du lot. D est leur version dessinée, K leur version animée en volume, J leur version photographiée. Les cinq écartés étaient tous des styles à forme affirmée, aplats, angles, rondeurs, trames. La série s'oriente donc vers un registre de **récit**, pas de gag graphique, ce qui a des conséquences au delà du style : le ton du scénario, le jeu des voix et le rythme du montage ont été écrits pour l'autre registre.
+
+**Le rang des trois selon l'audit** : K premier, J troisième, D cinquième. Aucun n'est éliminé par ses images ; ce qui les sépare vraiment est en dessous, section 6, étape 2.
+
+Ce document est le frère de `S01E01-pilote-prompts-3-styles.md`. Ce dernier n'est pas modifié : ses trois blocs sont verrouillés et se copient octet pour octet. Tout ce qui concerne D à K vit ici.
+
+État de préparation des trois retenus, poste par poste : `ETAT-DE-PREPARATION-styles-D-J-K.md`.
 
 ---
 
@@ -36,7 +42,7 @@ Un style n'est pas un prompt, c'est un jeu complet d'assets. Le dépôt compte *
 | Images clés du pilote, plans 1 à 6 | 20 |
 | **Total facturé** | **122 images, soit 244 crédits** |
 
-Six styles complets coûteraient **1 464 crédits** sur les **842** restants : c'est hors d'atteinte, et même un seul style complet représente près du tiers du solde. On ne produit donc aucun style en entier avant que le choix soit fait. Le test procède par **épreuves discriminantes successives, avec un point d'arrêt dur à chaque palier**, et l'on ne paie le palier suivant que sur ce qui a survécu au précédent.
+Huit styles complets coûteraient **1 952 crédits** sur les **842** de départ : c'est hors d'atteinte, et même un seul style complet représente près du tiers du solde. On ne produit donc aucun style en entier avant que le choix soit fait. Le test procède par **épreuves discriminantes successives, avec un point d'arrêt dur à chaque palier**, et l'on ne paie le palier suivant que sur ce qui a survécu au précédent.
 
 ---
 
@@ -50,23 +56,23 @@ Ni titre de film, ni nom de série, ni nom de réalisateur, nulle part dans un p
 
 Elle est elle même générée. Elle prouve que ce rendu est atteignable par une chaîne générative, mais son style **dérive d'un plan à l'autre** : extérieurs jour très peints, scènes de tension en contraste dur, et au moins un plan d'objet qui bascule en 3D quasi photographique. On en extrait un bloc de base et deux traitements de lumière, section 4.1, et l'on s'y tient. On ne cherche pas à reproduire le film.
 
-## 2.3 Aucune image A, B ou C ne se réinjecte dans un prompt D, E ou F
+## 2.3 Aucune image d'un style ne se réinjecte dans le prompt d'un autre
 
-RÈGLE 1 du dépôt : **la référence impose sa mise en page, et elle impose son style**. Réinjecter une plaque `D01_StyleA` dans un prompt D ramènerait le style A. Chaque nouveau style repart sans référence, et ne se constitue les siennes qu'à l'étape 3. C'est la raison pour laquelle l'épreuve de l'étape 1 se fait à sec.
+RÈGLE 1 du dépôt : **la référence impose sa mise en page, et elle impose son style**. Réinjecter une plaque `D01_StyleA` dans un prompt D ramènerait le style A. Chaque nouveau style repart sans référence, et ne se constitue les siennes qu'à l'étape 3. C'est la raison pour laquelle l'épreuve de l'étape 1 se fait à sec, et la raison pour laquelle **les images d'épreuve ne raccorderont pas avec le pilote** : elles ont été produites sans référence, les vingt du pilote en auront cinq.
 
-## 2.4 Trois règles de la méthode ne s'appliquent pas à D, E et F
+## 2.4 Trois règles de la méthode ne s'appliquent pas aux nouveaux styles
 
-Les RÈGLES **15** (le style C sur personnage en pied), **16** (le pouce des moufles) et **20** (en style B, une main qui touche un objet mange son bras) sont des résultats négatifs **propres aux styles B et C**. Elles ne portent pas sur D, E ni F. Toutes les autres, y compris la négative universelle anti lettrage et la base personnages d'époque, restent en vigueur.
+Les RÈGLES **15** (le style C sur personnage en pied), **16** (le pouce des moufles) et **20** (en style B, une main qui touche un objet mange son bras) sont des résultats négatifs **propres aux styles B et C**. Elles ne portent sur aucun des styles D à K. Toutes les autres restent en vigueur, **sauf une nuance acquise le 23 août** : sur les styles réalistes J et K, la négative universelle anti lettrage ne suffit plus, voir la RÈGLE 33.
 
 ---
 
 # 3. Nommage
 
-Convention inchangée, `<Asset>_<Style>.png`, avec `Style` valant désormais `StyleA`, `StyleB`, `StyleC`, `StyleD`, `StyleE` ou `StyleF`. Dossiers `decors/StyleD`, `personnages-episode/StyleD`, `pilote/images/StyleD`, et ainsi de suite.
+Convention inchangée, `<Asset>_<Style>.png`, avec `Style` valant `StyleA`, `StyleB`, `StyleC`, `StyleD`, `StyleJ` ou `StyleK`. Dossiers `decors/StyleD`, `personnages-episode/StyleD`, `pilote/images/StyleD`, et ainsi de suite.
 
 ---
 
-# 4. Les trois blocs de style, version plan de scène
+# 4. Les blocs de style, version plan de scène
 
 Ils se collent en tête de prompt, suivis du traitement d'époque, puis de la brique de plan, puis de `Avoid:` et des négatives. **Ils se copient octet pour octet et ne se reformulent jamais.**
 
@@ -78,11 +84,13 @@ Bloc de base, commun aux deux registres :
 2D anime illustration, modern cinematic adventure anime style, clean thin dark brown ink linework with subtle weight variation, cel shaded characters with a soft airbrush gradient blending each shadow into its base tone, warm natural skin with a faint blush on the cheeks, adult realistic body proportions and grounded facial features, expressive eyes with a single specular highlight, hand painted background with atmospheric depth and aerial perspective, volumetric light, shallow depth of field with the background softly out of focus, fine film grain, 16:9 frame:
 ```
 
-**Traitement de lumière JOUR**, sur les plans d'extérieur et de foule :
+**Traitement de lumière JOUR**, sur les plans d'extérieur et de foule. **Corrigé le 23 août** :
 
 ```
-bright daylight, saturated blue sky with tall billowing cumulus clouds, luminous greens, soft diffused key light, gentle contrast, clear readable midtones,
+soft diffused key light, gentle contrast, clear readable midtones, luminous but restrained greens,
 ```
+
+> La version d'épreuve portait `bright daylight, saturated blue sky with tall billowing cumulus clouds`. Résultat : les trois images D sont sorties en plein midi de ciel bleu, alors que le décor D1 prescrit une aube d'octobre brumeuse. **Le traitement de lumière a battu l'heure décrite par le décor.** La clause de ciel est retirée : l'heure appartient au décor, le traitement ne règle que la qualité de la lumière. C'est la même leçon que la RÈGLE 32, sous une autre forme : un bloc invariant ne doit pas décrire ce qu'une brique variable décrit déjà.
 
 **Traitement de lumière TENSION**, sur les plans dramatiques, l'aube, la brume et le vide :
 
@@ -232,11 +240,27 @@ Base négative J :
 illustration, drawing, painting, cartoon, anime, manga, 3D render, CGI, video game, painterly, cel shading, ink outlines, plastic skin, waxy face, over sharpened, HDR, deformed hands, extra fingers, letterbox bars, black bars, extra characters.
 ```
 
+**Clause de plein cadre, obligatoire sur tout prompt J.** À coller en fin de bloc de style :
+
+```
+the image fills the entire 16:9 frame edge to edge, no black bars,
+```
+
+> `letterbox bars, black bars` était déjà dans la négative, et `P02_StyleJ` est sorti avec deux bandes noires latérales quand même. Un cadre de cinéma **a** des bandes : c'est une structure, pas un élément, et une négative n'agit pas sur une structure. Corollaire de la RÈGLE 33.
+
+**Traitement de lumière TENSION**, ajouté le 23 août, sur les plans 4b, 5 et 6 :
+
+```
+hard directional key light with deep shadow across two thirds of the frame, desaturated grade pulled to cold grey and near black, high contrast, tight framing, long lens compression,
+```
+
+> J n'avait qu'un seul traitement, contrairement à D. Sur un pilote qui finit par un homme qui coupe une corde au dessus de Paris, un seul registre de lumière ne suffit pas.
+
 > **Point de fond sur J, et il est lourd.** J n'est pas un style d'animation, c'est l'abandon de l'animation. Ce qui tombe avec lui, dans l'ordre :
 >
 > * **La bible de la troupe.** Sam, SamBis, Naya et Elio ne sont plus des dessins mais des personnes. Les 40 assets par style, les turnarounds, les six expressions, la logique entière de la référence de production perdent leur objet. On ne fait pas un turnaround d'un comédien, on fait un casting.
 > * **Le LoRA de style.** Il sert à tenir un aplat que le modèle vidéo veut ramollir. Sur du photoréalisme, il n'y a rien à tenir : c'est le point d'attraction naturel de Wan 2.2.
-> * **Les 24 règles de `METHODE-generation-images.md`**, dont l'essentiel traite de défauts propres au dessin, moufles, contours, aplats, deux tons.
+> * **Les 33 règles de `METHODE-generation-images.md`**, dont l'essentiel traite de défauts propres au dessin, moufles, contours, aplats, deux tons.
 > * **Le registre CADRE**, la table et les objets, qui suppose un espace non naturaliste.
 >
 > Ce qui est gagné en échange n'est pas nul : c'est le seul des huit styles que la chaîne vidéo rend **sans aucun effort de conformation**, et il n'a besoin d'aucune fiche de personnage pour tenir un figurant.
@@ -261,6 +285,14 @@ Base négative K :
 photograph, live action, real actors, broad cartoon caricature, chibi proportions, oversized head, rubbery squash and stretch, plastic sheen, waxy face, uncanny, saturated candy colours, 2D drawing, cel shading, anime, manga, letterbox bars, black bars, extra characters.
 ```
 
+**Traitement de lumière TENSION**, ajouté le 23 août, sur les plans 4b, 5 et 6 :
+
+```
+hard directional key light with deep shadow across two thirds of every volume, desaturated grade pulled to cold grey and near black, high contrast, tight framing, no warm bounce light,
+```
+
+> Même raison qu'en J. Et c'est en K que ce traitement porte le plus : la démonstration du §8 bis de l'audit est que **la forme ne fait pas le registre, la lumière le fait**. K est précisément le style G rendu adulte par la lumière, la focale et l'étalonnage.
+
 > **Point de fond sur K.** K est à G ce que le registre de tension est à la lumière douce : **même technique, registre adulte**. Le raisonnement suit directement la correction de la section 4.4, la forme ne fait pas le registre. Là où G caricature les volumes et chauffe la lumière, K garde des proportions crédibles, une peau à texture fine, un étalonnage sobre et une longue focale.
 >
 > K est **le point de croisement de tout ce qui a été appris** : il vise le même public que I et J, avec la technique de G, et sans l'abandon de l'animation qu'impose J. Sa négative contient explicitement `photograph, live action, real actors`, sans quoi il glisserait sur J ; et `broad cartoon caricature, oversized head`, sans quoi il retomberait sur G. **Le contrôle décisif de son audit est là** : s'il n'est distinguable ni de J ni de G, il n'existe pas.
@@ -277,7 +309,25 @@ Reprises sans modification de `S01E01-pilote-prompts-3-styles.md`, sections 4.1,
 * **Base personnages d'époque**, jamais optionnelle : `dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing`
 * **Négative de foule**, sur les plans 1a, 1b, 2 et 4a **et seulement s'il n'y a aucun personnage nommé à visage dans le cadre** (RÈGLE 26) : `readable faces, portraits, facial features, eyes, dot eyes on crowd figures, front facing figures`
 
-**Question ouverte, propre à D.** En A la foule est de dos, en B elle a des têtes vierges. En D, où tous les visages sont détaillés, une foule sans visage se lit mal. Le procédé usuel du registre est la **foule en silhouette assombrie et hors mise au point**. Proposition à valider sur l'épreuve : remplacer la négative de foule par un positif D, `the crowd behind them rendered as darkened silhouettes and thrown out of focus, no facial detail on any background figure`. C'est une application directe de la RÈGLE 26, prescrire le vide en positif.
+## 5.1 La foule, tranché le 23 août
+
+**En D, on revient à la clause des styles A, B et C.** La question était ouverte : sur un style à visages détaillés, `NO FACE VISIBLE ON ANY FIGURE` risquait de reproduire les ovales de peau vides qui ont tué le style C. L'épreuve dit non. Aucun visage vide sur les 24 images, ni en D où la clause avait été remplacée par des silhouettes floues, ni dans les cinq styles où elle avait été gardée telle quelle. Et le remplacement **n'a pas pris** : la foule de `P02_StyleD` est nette et de dos, pas floue. La clause d'origine est donc sûre, et on ne garde pas une variante qui ne sert à rien.
+
+**En J et en K, elle ne suffit pas.** Les deux styles réalistes ont sorti une dizaine de figurants nets, alignés, visages lisibles, qui posent au lieu de regarder le ballon. Le flou d'arrière plan seul n'y a rien fait. La clause de foule se durcit **en positif**, sur ces deux styles uniquement :
+
+```
+the crowd behind them all seen from behind, turned toward the balloon, no figure facing the camera, thrown out of focus by the shallow depth of field
+```
+
+## 5.2 Les bannières, en positif sur J et K
+
+RÈGLE 33. Sur tout plan qui montre une bannière, une enseigne ou un drapeau, en style réaliste :
+
+```
+plain undecorated banners with no emblem and no lettering, blank fabric only
+```
+
+La négative universelle a tenu sur six styles graphiques et a cédé du premier coup sur les deux réalistes. Ce n'est pas un défaut de la négative, c'est ce qu'est un fanion d'époque.
 
 ---
 
@@ -315,16 +365,17 @@ Les quatre personnages récurrents, Sam, SamBis, Naya et Elio, en référence de
 
 **C'est la question de fond du test, et elle est plus déterminante que les décors.** Sam, SamBis, Naya et Elio sont des personnages de dessin animé simple, construits en grosse tête sur petit corps.
 
-| Style | Ce qu'il fait de la troupe | Coût de bible |
+| Style | Ce qu'il fait de la troupe | Ce que coûte l'opération |
 |---|---|---|
-| **D** | proportions adultes réalistes : incompatible, redessin complet | 40 images |
-| **E** | survit en angularisant les formes existantes | 40 images, transposition |
-| **F** | mâchoire carrée facettée : incompatible, redessin complet | 40 images |
-| **G** | déjà construite comme ça, formes rondes et grosse tête : **transposition presque directe** | 40 images, la plus sûre |
-| **H** | la technique change, pas les proportions : transposition plausible | 40 images, transposition |
-| **I** | proportions adultes naturalistes, aucune exagération : incompatible, redessin complet | 40 images |
+| **D** | proportions adultes réalistes : redessin complet, mais la troupe reste dessinée et reste une bible | 40 images, plus un arbitrage de design sur le turnaround |
+| **K** | proportions crédibles en volume : redessin complet, la troupe reste une bible d'assets | 40 images, plus le même arbitrage |
+| **J** | **la troupe cesse d'être une bible.** Quatre personnes, pas quatre dessins. On ne fait pas un turnaround d'un comédien | ce n'est plus une génération d'assets, c'est un casting, et il faut inventer comment le verrouiller |
 
-La colonne de droite compte le même nombre d'images partout, parce qu'il faut de toute façon les regénérer. Ce qui change, c'est la **probabilité qu'elles sortent justes du premier coup**, et le fait qu'un redessin impose de repartir du turnaround, donc d'un arbitrage de design, et pas d'un simple tirage. Un style qui rend de beaux décors mais qui perd la troupe est un style perdu, et il vaut mieux le savoir pour 8 crédits que pour 244.
+Les trois retenus imposent tous les trois de **redessiner la troupe**, aucun ne la transpose. Ce n'est donc plus un critère de départage entre eux, sauf pour J, où le problème change de nature.
+
+**La question à trancher à l'étape 2 est donc différente de celle prévue.** Elle n'est plus « la troupe survit elle », mais : **Sam, SamBis, Naya et Elio existent ils encore comme personnages une fois qu'ils ne sont plus des dessins simples ?** Quatre figures conçues pour la grosse tête et la couleur réservée, portées à un registre naturaliste, peuvent perdre exactement ce qui les rendait reconnaissables d'un épisode à l'autre. Les couleurs réservées elles mêmes, sable, sarcelle vif, orange vif, sont une convention de dessin animé : sur un comédien en costume ou sur un volume étalonné sobre, elles deviennent une veste, pas une signature.
+
+Un style qui rend de belles images mais qui dissout la troupe est un style perdu, et il vaut mieux le savoir pour 8 crédits que pour 244.
 
 Le bloc de style de l'épreuve est celui de la section 4, avec `on a plain flat light grey background` substitué à la clause de fond, exactement comme la fiche troupe le fait pour A, B et C. Les blocs identité des quatre personnages sont invariants et se recopient depuis `prompts/fiche-prompts-troupe-recurrente.md`.
 

@@ -30,6 +30,10 @@ STYLE = {
     "StyleA": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading with a single hard edged shadow tone, historical period characters in desaturated muted earth tones, era accurate costumes, simplified geometric background shapes less detailed than the characters, single flat shadow tone on the background too, absolutely no photorealism, 16:9 frame:",
     "StyleB": "inkman stick figure cartoon style, large round white heads with bold black ink outline, simple dot eyes and expressive mouths, thin black stick limbs, each arm ending in a simple solid black rounded mitten hand with a small thumb and no separate fingers, flat graphic character design, simplified era accurate period costumes in muted earth tones, set against a richly illustrated animation background painted with atmospheric depth and dramatic lighting, bold graphic shapes, textured light, 16:9 frame:",
     "StyleC": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period characters with the palette shifted to muted earth tones while keeping deep teal shadows, era accurate costumes, background layout in the same crisp graphic style and less detailed than the characters, crisp and graphic not painterly, 16:9 frame:",
+    # --- styles retenus le 23 août 2026, copie de PLAN-styles-D-E-F.md §4.1, §4.7, §4.8 ---
+    "StyleD": "2D anime illustration, modern cinematic adventure anime style, clean thin dark brown ink linework with subtle weight variation, cel shaded characters with a soft airbrush gradient blending each shadow into its base tone, warm natural skin with a faint blush on the cheeks, adult realistic body proportions and grounded facial features, expressive eyes with a single specular highlight, hand painted background with atmospheric depth and aerial perspective, volumetric light, shallow depth of field with the background softly out of focus, fine film grain, 16:9 frame:",
+    "StyleJ": "live action cinema look, photographed on 35mm film, naturalistic period drama cinematography, real actors in accurate historical costume, motivated practical lighting with deep natural falloff, shallow depth of field with creamy bokeh, fine organic film grain, subtle halation on the highlights, desaturated filmic colour grade with rich blacks and warm skin tones, photorealistic, the image fills the entire 16:9 frame edge to edge, no black bars, 16:9 frame:",
+    "StyleK": "stylized 3D feature animation, high end computer animated film look, believable human proportions with only a light touch of caricature in the features, soft subsurface skin with fine texture and no plastic sheen, individually groomed hair, real cloth simulation with visible weave and wear, naturalistic cinematography with motivated light and long lens compression, restrained desaturated colour grade, shallow depth of field, subtle volumetric atmosphere, an adult dramatic register rather than a comic one, stylized and not photographic, 16:9 frame:",
 }
 
 # Essai du 22 août 2026 (lot 3) : bloc de style VIDÉO réduit à la facture, sans description des personnages, pour
@@ -39,7 +43,22 @@ STYLE_REDUCED = {
     "StyleA": "flat 2D cartoon animation, bold clean outlines, flat cel shading, muted earth tones, limited animation, 16:9 frame:",
     "StyleB": "flat graphic 2D cartoon animation on a richly painted atmospheric background, textured light, muted earth tones, limited animation, 16:9 frame:",
     "StyleC": "hand drawn 2D cel animation, crisp ink outlines, flat two tone cel shading, amber and teal palette, limited animation, 16:9 frame:",
+    # 23 août 2026 : blocs réduits écrits pour D, J et K, mais NON VÉRIFIÉS.
+    # Le style B avait exigé le bloc réduit parce que le bloc complet faisait fabriquer des têtes d'inkman
+    # partout par Wan 2.2 (12 clips sur 16 inutilisables, corrigé à 12 sur 12 avec le bloc réduit).
+    # On ne sait pas si D, J et K souffrent du même défaut. À trancher sur UN clip d'essai par style,
+    # pas sur les seize. Voir ETAT-DE-PREPARATION-styles-D-J-K.md §3.3.
+    "StyleD": "2D anime animation, thin dark brown linework, soft cel shading, hand painted background, shallow depth of field, film grain, limited animation, 16:9 frame:",
+    "StyleJ": "live action 35mm period film, naturalistic cinematography, shallow depth of field, film grain, no black bars, 16:9 frame:",
+    "StyleK": "stylized 3D feature animation, restrained desaturated grade, long lens, shallow depth of field, 16:9 frame:",
 }
+
+# Styles qui exigent le bloc réduit en vidéo. B est le seul VÉRIFIÉ (lot 3, 22 août).
+STYLES_BLOC_REDUIT_OBLIGATOIRE = {"StyleB"}
+
+# Styles pour lesquels le pilote est produit. A, B, C conservés pour reproduire l'historique ;
+# D, J, K retenus le 23 août. Surchargeable par --styles=StyleD,StyleJ,StyleK.
+STYLES_DEFAUT = ("StyleA", "StyleB", "StyleC")
 
 NEG_MOUVEMENT = "photorealistic rendering, skin texture, smooth gradients, cut, scene change, camera shake, morphing, text, watermark, lip sync, mouth articulation, extra characters appearing"
 # Ajout du 22 août 2026 (premier lot : personnages et visages surgis dans des plans vides, 4 clips sur 19) :
@@ -142,10 +161,15 @@ def main():
     reduced = "--video-style=reduced" in sys.argv
     talking = "--talking" in sys.argv
     dialogue = "--dialogue" in sys.argv
+    styles = STYLES_DEFAUT
     for a in sys.argv[1:]:
         if a.startswith("--seed-offset="):
             seed_offset = int(a.split("=", 1)[1])  # reprise : autre tirage, meme graine de base + decalage
-    args = [a for a in sys.argv[1:] if a not in ("--chain", "--video-style=reduced", "--talking", "--dialogue") and not a.startswith("--seed-offset=")]
+        if a.startswith("--styles="):
+            styles = tuple(a.split("=", 1)[1].split(","))
+    for st in styles:
+        assert st in STYLE, f"style inconnu : {st}"
+    args = [a for a in sys.argv[1:] if a not in ("--chain", "--video-style=reduced", "--talking", "--dialogue") and not a.startswith("--seed-offset=") and not a.startswith("--styles=")]
     sys.argv = [sys.argv[0]] + args
     img_dir = Path(sys.argv[1])
     jobs = []
@@ -153,8 +177,8 @@ def main():
         # sous-clips par locuteur, FLF2V départ = fin = image clé, styles A et B (C retiré le 22 août)
         neg_talk = ", ".join(x for x in (NEG_MOUVEMENT + ", " + NEG_PRESENCE).split(", ") if x not in NEG_TALKING_RETIRE)
         neg_idle = NEG_MOUVEMENT + ", " + NEG_PRESENCE
-        for style in ("StyleA", "StyleB"):
-            red = reduced or style == "StyleB"
+        for style in [st for st in styles if st in ("StyleA", "StyleB")]:
+            red = reduced or style in STYLES_BLOC_REDUIT_OBLIGATOIRE
             for plan, subs in DIALOGUE.items():
                 key = str(img_dir / style / f"{plan}_{style}.png")
                 for sub, dur, pres, subject in subs:
@@ -174,8 +198,8 @@ def main():
         # clips de dialogue : présence "talking", négatives sans lip sync / mouth articulation,
         # bloc de style réduit pour B (décision du 22 août, lot 3), bloc de la fiche pour A et C
         neg = ", ".join(x for x in (NEG_MOUVEMENT + ", " + NEG_PRESENCE).split(", ") if x not in NEG_TALKING_RETIRE)
-        for style in ("StyleA", "StyleB", "StyleC"):
-            red = reduced or style == "StyleB"
+        for style in styles:
+            red = reduced or style in STYLES_BLOC_REDUIT_OBLIGATOIRE
             for clip, bloc, dur, subject, camera in TALK_CLIPS:
                 jobs.append({
                     "name": f"{clip}_{style}", "clip": clip, "bloc": bloc, "style": style, "mode": "i2v",
@@ -189,7 +213,7 @@ def main():
         Path(sys.argv[2]).write_text(json.dumps(jobs, indent=1, ensure_ascii=False), encoding="utf-8")
         print(f"{len(jobs)} jobs parlants écrits dans {sys.argv[2]}")
         return
-    for style in ("StyleA", "StyleB", "StyleC"):
+    for style in styles:
         for i, (clip, bloc, dur, subject, camera) in enumerate(CLIPS):
             nxt = CLIPS[i + 1] if i + 1 < len(CLIPS) else None
             chain_here = chain and nxt is not None and nxt[1] == bloc  # même bloc → raccord FLF2V (option)
@@ -208,7 +232,7 @@ def main():
                 "settings": SETTINGS,
                 "output": f"clips-runpod/{style}/{clip}_{style}",
             })
-    assert len(jobs) == 48
+    assert len(jobs) == len(CLIPS) * len(styles), f"{len(jobs)} clips pour {len(styles)} styles"
     missing = [j["start_image"] for j in jobs if not Path(j["start_image"]).exists()]
     missing += [j["end_image"] for j in jobs if j["end_image"] and not Path(j["end_image"]).exists()]
     if missing:

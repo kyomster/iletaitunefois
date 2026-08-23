@@ -79,3 +79,7 @@ Prérequis pour E1 : **P03 recadré** pour que les deux visages soient visibles 
 ## 5. Résultats des essais (nuit du 23 août 2026)
 
 Voir `S01E01-pilote-audit.md`, section « Essais E1 à E4 ». En deux lignes : **InfiniteTalk multi‑locuteurs marche** sur P02 A/B (l'auditeur se tait, le locuteur suit notre voix), au prix de ~22 min d'A100 par plan de 8 s ; **MiniMax H3** (ajouté à la demande de Guillaume, poids ouverts, natif ComfyUI) tient le style et parle français mais réécrit les répliques (I2V : phrase inventée ; R2V avec nos mp3 en référence : paraphrase) ; **LTX‑2.5 est gated**, LTX‑2.3 a fait tomber ComfyUI une fois (relancé en dernier dans la file, les deux clips (1a‑2 : 81 images, 4a‑3 : 105 images, 1280×704, 25 i/s) sont sortis en ~1 min chacun sans incident ; le style A tient, le ballon bouge (1a‑2 se soulève un peu trop, 4a‑3 monte et s'éloigne), LTX ajoute une piste sonore d'ambiance ; à comparer côte à côte dans `E3_ltx23_vs_wan22.mp4`) ; le **premier pas sans LoRA** de Wan 2.2 se fait à cfg 2,0, pas 3,5 (dérive de couleurs).
+
+## 6. Après la deuxième série et E7 (23 août 2026, soir)
+
+Verdict de Guillaume : **InfiniteTalk abandonné** ; **MiniMax H3 (format du skill officiel, français) et LTX‑2.5** retenus pour les dialogues ; modèles fermés acceptables ; « Dix francs » était une erreur de la transcription, pas des modèles. E7 (6 plans muets × A/B) : **LTX‑2.5 propre partout, H3 hallucine sur deux plans muets, Wan 2.2 garde ses défauts** → proposition de faire tout le pilote sans Wan 2.2 (LTX‑2.5 muets + H3/LTX‑2.5 dialogues).
