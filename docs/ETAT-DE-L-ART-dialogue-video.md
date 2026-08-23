@@ -83,3 +83,30 @@ Voir `S01E01-pilote-audit.md`, section « Essais E1 à E4 ». En deux lignes : *
 ## 6. Après la deuxième série et E7 (23 août 2026, soir)
 
 Verdict de Guillaume : **InfiniteTalk abandonné** ; **MiniMax H3 (format du skill officiel, français) et LTX‑2.5** retenus pour les dialogues ; modèles fermés acceptables ; « Dix francs » était une erreur de la transcription, pas des modèles. E7 (6 plans muets × A/B) : **LTX‑2.5 propre partout, H3 hallucine sur deux plans muets, Wan 2.2 garde ses défauts** → proposition de faire tout le pilote sans Wan 2.2 (LTX‑2.5 muets + H3/LTX‑2.5 dialogues).
+
+## 7. Voix cohérentes avec LTX‑2.5 — recherche du 23 août 2026 (soir), demandée par Guillaume
+
+Question : comment garder **les mêmes voix** d'un clip à l'autre avec LTX‑2.5 (un personnage = une voix sur tout l'épisode), « peut‑être via `LTXVSetAudioRefTokens` ? ». Trois mécanismes existent dans l'écosystème LTX ; ils ne font pas la même chose.
+
+### 7.1 Image + **notre** audio → vidéo (IA2V, « audio gelé ») — la voix est exactement la nôtre
+* Template officiel **LTX‑2.3 « Image Audio to Video »** : `LoadAudio → TrimAudioDuration → LTXVAudioVAEEncode → SetLatentNoiseMask (SolidMask à 0 = l'audio n'est jamais re‑débruité) → LTXVConcatAVLatent → sampler (euler, CFG 1, sigmas habituels)`, l'audio final étant redécodé du latent. Les lèvres suivent l'audio fourni ; aucune voix n'est générée.
+* **LTX‑2.5** : pas encore de template officiel ; Lightricks (art‑alex, discussion HF n° 44) dit « adapter le pipeline de doublage pour 2.5, bientôt » ; un utilisateur (PianodogStudios) a obtenu un lipsync correct avec la recette suivante : audio recadré à la durée → `LTXVAudioVAEEncode` → `LTXVSetAudioRefTokens` en n'utilisant **que la sortie `frozen_audio`** (masque de bruit à zéro) → le même audio gelé injecté dans les **deux** passes via `LTXVConcatAVLatent` → **euler** (pas euler_ancestral) → pas de guidance de modalité → pas de conditionnement « reference audio » → LoRA désactivés pour l'essai → CFG vidéo 1 / audio 1 → remettre l'audio original sur la sortie. Un autre utilisateur confirme que ça marche mais que 2.5 est « plus strict » et dépend de la graine.
+* Pour nous : c'est **la** voie « voix ElevenLabs verrouillées » (comme InfiniteTalk, mais avec le moteur que Guillaume a retenu). Risque à mesurer : sur un plan à deux, qui bouge la bouche quand l'audio parle ? (même question que S2V ; le prompt nomme le locuteur, à vérifier à l'image).
+
+### 7.2 Référence de voix (timbre) : `LTXVReferenceAudio` + **ID‑LoRA** — la voix est générée, mais ressemble à la référence
+* Nœud natif ComfyUI `LTXVReferenceAudio` : « encode un extrait audio de référence (~5 s) dans le conditionnement ; l'audio généré adopte les caractéristiques de voix du locuteur » ; paramètres `identity_guidance_scale` (défaut 3 ; > 0 peut déformer les visages), `start/end_percent`. Il s'emploie avec les poids **ID‑LoRA** (Aviad Dahan, Lightricks) : `ltx-2.3-id-lora-talkvid-3k.safetensors` (ou `celebvhq-3k`, 1,16 Go, miroir `Comfy-Org/ltx-2.3/split_files/loras/`). Template officiel **LTX‑2.3 « ID LoRA »** (référence audio nettoyée par MelBandRoFormer, prompt au format `[VISUAL] / [SPEECH] / [SOUNDS]`, LoRA appliqué à la première passe seulement). Entraîné sur **2.3** ; un atelier communautaire (RuneXX) l'utilise aussi sur 2.5, sans garantie.
+* Pour nous : même logique que H3 R2V (timbre référencé, texte généré) ; voix stables d'un clip à l'autre si la même référence est réinjectée.
+
+### 7.3 `LTXVSetAudioRefTokens` — ce que c'est vraiment
+Nœud du « Dub‑It » pipeline : « attache un latent audio comme jetons `ref_audio` sur le conditionnement pour le transfert d'identité de locuteur » et fournit une copie **gelée** (`frozen_audio`) qui passe inchangée en deuxième passe. Sur **2.5**, ses sorties de conditionnement positif/négatif **ne marchent pas encore** pour le lipsync sur audio fourni (même discussion HF) ; seule la sortie `frozen_audio` sert, dans la recette 7.1. Donc : oui, c'est bien ce nœud, mais pour **geler notre audio**, pas (encore) pour « référencer » une voix sur 2.5.
+
+### 7.4 Et le multi‑plan natif de 2.5
+LTX‑2.5 tient « personnage, décor, lumière et **voix** à travers les coupes » **à l'intérieur d'une même génération** (multishot). Ça ne résout pas la cohérence entre deux clips rendus séparément.
+
+### 7.5 Ce que je propose de tester (E8, ~30 min de pod, 0 crédit sauf 2 voix ElevenLabs de 5 s)
+1. **IA2V gelé sur LTX‑2.5** : P02 A et B avec notre mix ElevenLabs (pistes pré‑alignées), recette 7.1 ; on regarde si les bouches alternent correctement.
+2. **`LTXVReferenceAudio` + ID‑LoRA talkvid** sur LTX‑2.5 : P02 A avec deux références de 5 s (à générer avec les mêmes voix ElevenLabs, ~150 caractères), texte généré en français ; si 2.5 refuse le LoRA 2.3, rejouer sur le checkpoint 2.3 (déjà connu).
+3. Témoin : le P02 LTX‑2.5 « voix libres » d'E3b.
+Si 1 marche, l'épisode entier peut garder les voix ElevenLabs (et leur verrouillage d'identité) tout en étant rendu par LTX‑2.5 ; si seul 2 marche, on accepte des voix générées mais stables.
+
+Sources : https://docs.comfy.org/built-in-nodes/LTXVReferenceAudio · https://docs.ltx.io/open-source-model/integration-tools/ltx-comfy-ui-nodes · https://huggingface.co/Lightricks/LTX-2.5/discussions/44 · https://huggingface.co/RuneXX/LTX-2.3-Workflows/discussions/59 · https://github.com/ID-LoRA/ID-LoRA-LTX2.3-ComfyUI · https://huggingface.co/AviadDahan/LTX-2.3-ID-LoRA-TalkVid-3K · templates `video_ltx2_3_ia2v.json` et `video_ltx2_3_id_lora.json` (Comfy‑Org/workflow_templates).
