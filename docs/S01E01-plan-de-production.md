@@ -147,7 +147,7 @@ Type : FIXE, ANIMÉ ou POST. Registre : CADRE, ÉPOQUE ou MIXTE (le registre cho
 | 1 | a | 9 | ÉPOQUE | ANIMÉ | Aube d'octobre : brume sur les pelouses du parc Monceau, le ballon gonflé oscille dans le vent au milieu d'une foule en habits du Directoire, année 1797. | — | — (muet, musique) |
 | 1 | b | 9 | ÉPOQUE | ANIMÉ | La foule s'écarte et tourne les têtes vers la nacelle qu'on amène sous le ballon, cordages tendus. | — | — |
 | 2 |  | 10 | ÉPOQUE | FIXE | Deux badauds au premier plan, cocardes et chapeaux, la nacelle en fond. | Travelling latéral lent vers la droite, des badauds vers la nacelle | BADAUD 1 : « Il va se tuer, je vous dis. » BADAUD 2 : « Dix francs qu'il ne coupe pas la corde. » |
-| 3 |  | 12 | ÉPOQUE | FIXE | Dans la nacelle, Garnerin vérifie un gros paquet de soie plié, mâchoire serrée. | Zoom avant lent sur le paquet de soie plié | L'AIDE : « Citoyen Garnerin, renoncez, il est encore temps. » GARNERIN : « Lâchez tout. » |
+| 3 |  | 12 | ÉPOQUE | FIXE | Dans la nacelle, Garnerin, la main sur la corde de largage, regarde le ballon mâchoire serrée ; son aide, au rebord, le supplie ; le gros paquet de soie plié à leurs pieds. | Zoom avant lent sur la main de Garnerin serrant la corde | L'AIDE : « Citoyen Garnerin, renoncez, il est encore temps. » GARNERIN : « Lâchez tout. » |
 | 4 | a | 10 | ÉPOQUE | ANIMÉ | Le ballon quitte le sol, la foule bascule en arrière pour le suivre des yeux. | — | — (muet) |
 | 4 | b | 10 | ÉPOQUE | ANIMÉ | Vu d'en haut, les toits de Paris rapetissent, la foule devient une tache sombre ; le vent siffle. | — | — |
 | 5 |  | 8 | ÉPOQUE | ANIMÉ | Très gros plan : la lame tranche la corde qui retient la nacelle au ballon. | — | — (muet) |
@@ -343,11 +343,11 @@ Les personnages gesticulent et réagissent, ils ne parlent pas.
 ```
 Trait de contour net, sombre, d'épaisseur constante, fermé sur chaque forme ; aplats francs, sans texture ni grain ; palette saturée et chaude : bois miel, ocre doré, rouge brique, vert olive, crème, lumière ambrée ; trois teintes réservées aux personnages : sable, bleu sarcelle, orange vif ; fonds simplifiés en volumes géométriques, moins détaillés que les personnages ; une seule valeur d'ombre posée en aplat, sans dégradé ; poses dynamiques et gestes amples, jamais figés ; aucun rendu photographique ni volumétrique ; dessin animé 2D, format 16:9. L'ensemble est désaturé : tons terreux — brun terre, gris pierre, beige poussière —, contrastes adoucis, lumière grise, costumes et décors exacts.
 
-Scène : dans la nacelle, Garnerin vérifie un gros paquet de soie plié, mâchoire serrée ; son aide lui parle depuis le bord.
-Cadrage : plan moyen par dessus l'épaule de l'aide, l'aide visible au premier plan.
+Scène : dans la nacelle, Garnerin, la main sur la corde de largage, regarde le ballon mâchoire serrée ; son aide, au rebord, le supplie ; le paquet de soie plié à leurs pieds. (Réécrit le 23 août 2026 : l'action doit porter la réplique « Lâchez tout » ; la soie tenue à la main se lisait comme une couverture.)
+Cadrage : plan moyen à deux, de côté, Garnerin à gauche et l'aide à droite, les deux visages visibles (un locuteur par clip exige les deux visages).
 Décor : D1 · Parc Monceau au sol, aube.
 Personnages : Garnerin, aéronaute au visage résolu, redingote sombre du Directoire, cheveux noués, foulard clair au cou ; aide en veste rude, manches retroussées.
-Accessoires : paquet de soie plié, cordages, couteau glissé au flanc de la nacelle.
+Accessoires : corde de largage tendue, paquet de soie plié au sol, cordages, couteau glissé au flanc de la nacelle.
 
 Les personnages gesticulent et réagissent, ils ne parlent pas.
 ```

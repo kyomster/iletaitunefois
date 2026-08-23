@@ -53,7 +53,7 @@ PLANS_SANS_NEG_FOULE = {"P02", "P02a", "P02b"}
 IDENT = {
     "GARNERIN": {
         "AC": "Garnerin, a French aeronaut of the Directoire era, resolute determined face with a calm set jaw, dark tailcoat, hair tied back, pale scarf at the neck, period breeches and buckled shoes, upright decided posture",
-        "B": "Garnerin, an inkman stick figure character, a few ink strokes of hair tied back on his round head, simple black dot eyes with no eyebrows, resolute small mouth, wearing a dark Directoire tailcoat drawn as a simple flat shape, a pale scarf knotted at the neck, simple period shoes on his stick legs, upright decided posture",
+        "B": "Garnerin, an inkman stick figure character, a few ink strokes of hair tied back on his round head, simple black dot eyes with no eyebrows, resolute mouth drawn as one short flat ink line, closed, wearing a dark Directoire tailcoat drawn as a simple flat shape, a pale scarf knotted at the neck, simple period shoes on his stick legs, upright decided posture",
     },
     "PARIEURS": {
         "AC": "the round onlooker wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air; the thin onlooker leaning on a cane, threadbare coat, suspicious squint",
@@ -78,7 +78,7 @@ IDENT = {
     # variante du 23 août 2026 (P03 v3) : l'aide de face, pour que les deux visages d'un plan de dialogue soient visibles
     "AIDE_FACE": {
         "AC": "an assistant in a rough jacket with rolled up sleeves, his plain honest face fully visible, short hair, calm attentive expression",
-        "B": "an inkman assistant in a rough flat jacket, his round white head fully visible with simple dot eyes and a small closed mouth",
+        "B": "an inkman assistant in a rough flat jacket, his round white head fully visible with simple dot eyes and a closed mouth drawn as one short flat ink line",
     },
 }
 SAME_AS_REF = "same characters as reference, same art style as reference"
@@ -102,8 +102,8 @@ BRIQUES = [
     # visage visible est celui qui parle. Deux images clés supplémentaires, une par badaud, même décor, mêmes références.
     ("P02a", "2", "Scene: close shot on the round onlooker alone as he speaks, his hand down, his mouth clearly visible, the top hat with the tricolour cockade, the thin onlooker out of frame, the crowd and the basket far behind. Framing: close shot at shoulder height, slightly low angle. Decor: D1. Characters: [PARIEURS_ROND]. Props: cockaded hat."),
     ("P02b", "2", "Scene: close shot on the thin onlooker alone as he answers, leaning on his cane, his mouth clearly visible, the round onlooker out of frame, the crowd and the basket far behind. Framing: close shot at shoulder height, slightly low angle. Decor: D1. Characters: [PARIEURS_MAIGRE]. Props: cane."),
-    # P03 v3 (23 août 2026) : plan à deux de profil, les deux visages visibles, pour un locuteur par clip / MultiTalk (l'aide était de dos en A, Garnerin en B)
-    ("P03", "3", "Scene: inside the basket, Garnerin on one side checking a large folded bundle of silk, his assistant on the other side holding the rim, the two men facing each other in profile, BOTH FACES FULLY VISIBLE to the camera in three quarter view, both with their mouths firmly closed, the balloon is directly above this basket and out of frame. Framing: medium two shot from the side of the basket at chest height, the two men framed left and right with clear space between them, nobody seen from behind. Decor: D1 seen past the rim of the basket, no other balloon or basket in the background. Characters: [GARNERIN], [AIDE_FACE]. Props: folded silk bundle, ropes, a knife tucked at the side of the basket."),
+    # P03 v4 (23 août 2026, Guillaume) : l'action porte la réplique — Garnerin la main sur la corde de largage, l'aide qui supplie, la soie au sol ; la v3 (les deux de profil, la soie tendue) se lisait comme une couverture offerte
+    ("P03", "3", "Scene: inside the basket, Garnerin standing at the release rope, one gloved hand gripping the taut rope above his head, looking up toward the balloon with his jaw set, his assistant at the rim on the other side leaning toward him and pleading with an open hand, the folded silk bundle of the parachute lying on the floor of the basket between them, BOTH FACES FULLY VISIBLE to the camera in three quarter view, both with their mouths firmly closed, the balloon is directly above this basket and out of frame. Framing: medium two shot from the side of the basket at chest height, Garnerin on the left, the assistant on the right, clear space between them, nobody seen from behind. Decor: D1 seen past the rim of the basket, no other balloon or basket in the background. Characters: [GARNERIN], [AIDE_FACE]. Props: taut release rope, folded silk bundle on the floor, ropes, a knife tucked at the side of the basket."),
     ("P4a-1", "4a", "Scene: the balloon tearing away from the ground, the released ropes falling back. Framing: low angle from the ground, the balloon and the basket filling the frame as they lift off, no onlooker in the frame. Decor: D1, treetops and sky. Characters: none. Props: balloon, basket, falling ropes."),
     # Brique 4a-2 amendée le 22 août 2026 (continuité : le ballon ne doit pas « redécoller » deux fois entre 4a-1 et 4a-2).
     # 4a-2 : couleurs des habits nommées en positif le 23 août 2026 (deux tirages sur deux sortaient orange vif, sarcelle et sable : RÈGLE 4)

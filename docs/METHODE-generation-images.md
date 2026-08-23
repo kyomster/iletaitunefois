@@ -533,6 +533,10 @@ La plaque D01 montre le ballon **avec** sa nacelle ; les briques 1b demandaient 
 
 Les clés P02/P03 d'origine montraient les bouches ouvertes (on avait demandé « en train de parler »). Tout clip vidéo qui part de cette image hérite des bouches ouvertes : l'auditeur a la bouche ouverte pendant que l'autre parle, et le sous-clip d'attente « personne ne parle » montre deux bouches ouvertes. Vérifié à l'image près par extraction d'une image par seconde (audit lot 7). Depuis le lot 8, la brique d'un plan de dialogue dit `both with their mouths firmly closed in a neutral pause` ; c'est le prompt vidéo, et lui seul, qui ouvre la bouche du locuteur. Corollaire : une image clé décrit un **état de repos**, jamais l'action que le clip devra faire.
 
+### Corollaires (23 août 2026)
+* **Style B (inkman)** : une tête inkman n'a de bouche que si on la dessine. Sur une clé de dialogue, écrire la bouche fermée **comme un trait** (`a closed mouth drawn as one short flat ink line`) ; sinon le modèle vidéo (InfiniteTalk) doit inventer la bouche et le mouvement ne colle pas à la voix (essai E1, P02/P03 B).
+* **L'action de la clé doit porter la réplique** : P03 v3 montrait Garnerin tendant la soie pliée à l'aide pendant « Lâchez tout » — lu comme une couverture offerte. Réécrit (v4) : main sur la corde de largage, regard vers le ballon, l'aide qui supplie, la soie au sol. Avant de figer une clé de dialogue, relire la réplique et demander « que fait-il en le disant ? ».
+
 ## Observations sans règle
 
 * Le **style C tient sa palette sur les plans larges** dès qu'une plaque C est réinjectée : la RÈGLE 15 décrit les planches personnages sur fond neutre, pas les plans de scène.

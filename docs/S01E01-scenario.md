@@ -55,7 +55,7 @@ Aucun anachronisme de langage dans les scènes d'époque : paysans, badauds, pil
 |---|---|---|---|---|
 | 1 | 18 | Aube d'octobre en palette désaturée : le parc Monceau, un ballon gonflé au milieu d'une foule en habits du Directoire, année 1797. | — (muet, musique) | ANIMÉ |
 | 2 | 10 | Deux badauds au premier plan, cocardes et chapeaux, la nacelle en fond. | BADAUD 1 : « Il va se tuer, je vous dis. » BADAUD 2 : « Dix francs qu'il ne coupe pas la corde. » | FIXE |
-| 3 | 12 | Dans la nacelle, Garnerin vérifie un gros paquet de soie plié, mâchoire serrée. | L'AIDE : « Citoyen Garnerin, renoncez, il est encore temps. » GARNERIN : « Lâchez tout. » | FIXE |
+| 3 | 12 | Dans la nacelle, Garnerin, la main sur la corde de largage, regarde le ballon mâchoire serrée ; son aide, au rebord, le supplie ; le gros paquet de soie plié à leurs pieds. | L'AIDE : « Citoyen Garnerin, renoncez, il est encore temps. » GARNERIN : « Lâchez tout. » | FIXE |
 | 4 | 20 | Le ballon s'élève, les toits de Paris rapetissent, la foule devient une tache sombre ; le vent siffle. | — (muet) | ANIMÉ |
 | 5 | 8 | Très gros plan : la lame tranche la corde qui retient la nacelle au ballon. | — (muet) | ANIMÉ |
 | 6 | 13 | L'image se fige en pleine chute ; carton titre « LES DÉCOUVREURS — Nos ancêtres les Chinois ». | SAM (voix off) : « Octobre 1797 : tout Paris est venu voir un homme tomber du ciel. Mais pour savoir s'il se relèvera, il faut d'abord faire un très long détour... par la Chine. » | FIXE |

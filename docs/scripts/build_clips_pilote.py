@@ -77,10 +77,10 @@ DIALOGUE = {
         ("P02-4", 4.25, "character", "both onlookers turn their eyes toward the basket in silence, mouths closed, the thin one taps his cane on the ground"),
     ],
     "P03": [
-        ("P03-1", 2.0, "character", "Garnerin checks the folded silk in silence, the assistant watches from the rim, both mouths closed"),
-        ("P03-2", 3.75, "talking_solo", "the assistant in the foreground speaks from the rim, seen from behind, his head and shoulders moving as he talks from the first frame to the last; Garnerin keeps checking the silk with his mouth firmly closed"),
-        ("P03-3", 1.25, "talking_solo", "Garnerin speaks, a short curt answer, his mouth opening and closing from the first frame to the last without looking up; the assistant is silent and still"),
-        ("P03-4", 5.0, "character", "Garnerin tightens a rope in silence and the assistant steps back a little, both mouths closed"),
+        ("P03-1", 2.0, "character", "Garnerin grips the release rope and looks up at the balloon in silence, the assistant leans on the rim, both mouths closed"),
+        ("P03-2", 3.75, "talking_solo", "the assistant on the right speaks, pleading, his mouth and hands moving from the first frame to the last; Garnerin keeps his hand on the rope and his eyes up, mouth firmly closed"),
+        ("P03-3", 1.25, "talking_solo", "Garnerin gives a short curt order, his mouth opening and closing from the first frame to the last, eyes still on the balloon; the assistant is silent and still"),
+        ("P03-4", 5.0, "character", "Garnerin pulls the release rope in silence and the assistant steps back a little, both mouths closed"),
     ],
 }
 
@@ -88,7 +88,7 @@ DIALOGUE = {
 # personnages échangent), essai du 22 août 2026 : (clip, bloc, durée s, subject, camera)
 TALK_CLIPS = [
     ("P02", "2", 5.0, "the two onlookers lean toward each other and argue about a bet, one of them points toward the basket behind them", "static"),
-    ("P03", "3", 5.0, "the assistant speaks to Garnerin from the rim of the basket, Garnerin answers curtly without looking up from the folded silk", "static"),
+    ("P03", "3", 5.0, "the assistant pleads with Garnerin from the rim of the basket, Garnerin answers curtly with his hand on the release rope and his eyes on the balloon", "static"),
     ("P1b-2", "1b", 3.0, "the basket is carried forward, ropes trailing on the grass, the two assistants exchange a few words as they walk", "slow lateral tracking to the right, following the basket"),
 ]
 
