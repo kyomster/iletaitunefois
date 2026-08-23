@@ -22,7 +22,7 @@ docs/
   S01E01-pilote-audit.md              l'audit des 54 images et des 48 clips, lot par lot
   ETAT-DE-L-ART-dialogue-video.md     recherche du 23 août 2026 : limites de Wan 2.2 sur les dialogues, MultiTalk/InfiniteTalk, LTX-2.5, essais proposés
   S01E01-pilote-job-ids.md            media_id des références, job_id des images, prompt_id des clips
-  scripts/                            build_prompts_pilote.py, build_clips_pilote.py, run_clips_runpod.py, runpod_pilote.py, montage_pilote.py, chain_dialogue_runpod.py, run_s2v_runpod.py, align_dialogue_audio.py (obsolète), analyse_montage.py, run_infinitetalk_runpod.py, run_e2_trois_samplers.py, run_ltx23_runpod.py, run_ltx25_runpod.py, run_minimax_h3_runpod.py, comfy_ui_to_api.py
+  scripts/                            build_prompts_pilote.py, build_clips_pilote.py, run_clips_runpod.py, runpod_pilote.py, montage_pilote.py, chain_dialogue_runpod.py, run_s2v_runpod.py, align_dialogue_audio.py (obsolète), analyse_montage.py, run_infinitetalk_runpod.py, run_e2_trois_samplers.py, run_ltx23_runpod.py, run_ltx25_runpod.py, run_ltx_voix_runpod.py, run_minimax_h3_runpod.py, comfy_ui_to_api.py
   runpod/                             les graphes ComfyUI (format API) I2V et FLF2V tels qu'exécutés
   S01E01-scenario.md                  les 79 plans, le minutage, les 14 gags
   S01E01-plan-de-production.md        diagnostic, roster, tableau révisé, prompts du pilote
@@ -31,7 +31,7 @@ docs/
   RUNPOD-COMFYUI-mode-d-emploi.md     du pod vide aux 48 clips rendus
   RUNBOOK-pilote-pour-claude-code.md  le pilote, à dérouler pas à pas par un agent
   PLAN-pilote-execution.md            la répartition du travail et le budget
-  METHODE-generation-images.md        les 24 règles. À lire avant toute génération.
+  METHODE-generation-images.md        les 33 règles. À lire avant toute génération.
   S01E01-index-assets-et-fichiers.md  ce que contient chaque dossier, et le nommage
   PROMPT-MAITRE-chaine-production.md  d'une fiche épisode à la chaîne complète
   BIBLE-modernisation-v5.1.md         la méthode d'écriture et de fabrication

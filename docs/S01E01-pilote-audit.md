@@ -496,3 +496,19 @@ Ce que je vois sur les planches (à confirmer par Guillaume sur la vidéo) :
 * **Wan 2.2** (référence) : les défauts connus (foule surgie 4a‑1 B, tête au rebord 4b‑1 A), le reste correct.
 
 Conclusion proposée : **LTX‑2.5 pour tous les plans muets** (vitesse, propreté, FLF2V natif, audio d'ambiance), Wan 2.2 n'est plus nécessaire ; pour les dialogues, H3 (timbre de nos voix en R2V) ou LTX‑2.5 (voix libres, parfois une coupe ajoutée) selon le choix de Guillaume. Le montage v7 peut donc être rendu entièrement sans Wan 2.2, à 24 i/s.
+
+## E8 — voix cohérentes avec LTX‑2.5 : IA2V « audio gelé » et ID‑LoRA + LTXVReferenceAudio (2026-08-23, soir, pod A100 SXM `fkf9sa9mzl9r9b`)
+
+Demande de Guillaume : « comment avoir des voix cohérentes avec LTX‑2.5, peut‑être via LTXVSetAudioRefTokens ? » puis « lance pour qu'on teste et valide ». Recherche en ETAT § 7 ; graphes dans `docs/scripts/run_ltx_voix_runpod.py` ; bootstrap `docs/runpod/bootstrap_pod_essais_E8.sh` (LTX‑2.5 + LTX‑2.3 + ID‑LoRA talkvid). **`LTXVSetAudioRefTokens` n'existe pas dans le cœur de ComfyUI** (nœud du paquet Lightricks) : la voie officielle « audio gelé » se fait avec `LTXVAudioVAEEncode → SetLatentNoiseMask (SolidMask à 0) → LTXVConcatAVLatent` dans les deux passes, euler, CFG 1/1 — c'est le template « LTX‑2.3 Image Audio to Video » transposé sur 2.5 ; `LTXVReferenceAudio` est natif.
+
+### Résultats
+* **IA2V audio gelé, P02 A et B, P03 A (nos mix ElevenLabs pré‑alignés)** : la piste audio de sortie **est exactement la nôtre** (transcription mot pour mot, mêmes horodatages : 2,00 s et 3,70 s sur P02 ; 2,06 / 6,06 s sur P03) ; à l'image, le rond ouvre la bouche sur sa réplique et le maigre sur la sienne (A et B), l'aide sur la sienne puis Garnerin sur « Lâchez tout » (P03 A). Donc **voix verrouillées + lèvres qui suivent, sur le moteur retenu** — c'est ce qu'InfiniteTalk promettait, en ~3,5 min par plan de 8 s sur A100 et sans masque. Défaut : **P02 B : LTX ajoute une coupe vers 5‑6 s** (plan de dos sur la foule) malgré « single continuous shot, no cut » + négative ; P02 A et P03 A : pas de coupe.
+* **ID‑LoRA talkvid + `LTXVReferenceAudio` sur LTX‑2.5** (référence ElevenLabs de 6‑7 s, identity_guidance 2, LoRA et référence en première passe seulement) : **le graphe tourne sur 2.5 sans erreur** (le LoRA 2.3 s'applique) ; voix françaises générées (les deux répliques, timbre à juger à l'oreille — grave vs clair) ; **dans les deux rendus LTX ajoute une coupe vers 5‑6 s** ; une seule référence par rendu → une voix par génération (les deux personnages partagent le timbre, ou le modèle en invente un second).
+* Témoin E3b (voix libres) : déjà vu, coupe aussi.
+
+### Ce que ça établit
+1. Pour garder **les voix ElevenLabs** (et leur verrouillage d'identité) avec LTX‑2.5 : **IA2V audio gelé** — validé techniquement sur trois plans ; à généraliser après l'avis de Guillaume.
+2. Pour des voix **générées mais stables**, `LTXVReferenceAudio` + ID‑LoRA marche sur 2.5 mais une voix par rendu : utile pour un monologue, pas pour un plan à deux.
+3. **LTX‑2.5 insère une coupe vers 5‑6 s sur P02 dans 4 rendus sur 5** (multishot natif) : à tenir par le prompt (moins de « then… then… », une seule phrase d'action continue), par la négative, ou en coupant les plans de dialogue en deux rendus plus courts ; à traiter avant le montage v7.
+
+Coût : pod A100 SXM 1,59 $/h, ~1 h 15 dont 45 min de téléchargement ≈ 2 $ ; ElevenLabs 2 références (~230 caractères) ; 0 crédit Higgsfield. Vidéo : `essais/_videos/E8_voix_ltx25.mp4`.

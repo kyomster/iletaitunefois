@@ -110,3 +110,7 @@ LTX‑2.5 tient « personnage, décor, lumière et **voix** à travers les coupe
 Si 1 marche, l'épisode entier peut garder les voix ElevenLabs (et leur verrouillage d'identité) tout en étant rendu par LTX‑2.5 ; si seul 2 marche, on accepte des voix générées mais stables.
 
 Sources : https://docs.comfy.org/built-in-nodes/LTXVReferenceAudio · https://docs.ltx.io/open-source-model/integration-tools/ltx-comfy-ui-nodes · https://huggingface.co/Lightricks/LTX-2.5/discussions/44 · https://huggingface.co/RuneXX/LTX-2.3-Workflows/discussions/59 · https://github.com/ID-LoRA/ID-LoRA-LTX2.3-ComfyUI · https://huggingface.co/AviadDahan/LTX-2.3-ID-LoRA-TalkVid-3K · templates `video_ltx2_3_ia2v.json` et `video_ltx2_3_id_lora.json` (Comfy‑Org/workflow_templates).
+
+### 7.6 Résultat E8 (23 août 2026, soir)
+
+IA2V audio gelé sur LTX‑2.5 : **validé** sur P02 A/B et P03 A (piste ElevenLabs inchangée, lèvres qui suivent) ; `LTXVReferenceAudio` + ID‑LoRA : tourne sur 2.5, une voix par rendu ; `LTXVSetAudioRefTokens` absent du cœur ComfyUI (inutile ici). Point ouvert : coupe insérée par LTX‑2.5 vers 5‑6 s sur P02.

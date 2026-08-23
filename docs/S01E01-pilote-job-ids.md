@@ -471,6 +471,17 @@ Médias Higgsfield envoyés pour les modèles fermés : image P02 A 720p `021b7f
 | P5-3-h3 | StyleA | minimax-h3-i2v-int8+turbo | `16b20c93-fa36-4a72-8d06-ff026607d22f` | 3.04 | 810 | rendu |
 | P5-3-h3 | StyleB | minimax-h3-i2v-int8+turbo | `edc2425b-7268-4f64-9fa9-8acb4bad9cf0` | 3.04 | 811 | rendu |
 
+
+## E8 (2026-08-23, soir, pod A100 SXM `fkf9sa9mzl9r9b`) — voix cohérentes LTX‑2.5
+
+| Clip | Style | Modèle | prompt_id | Durée | Graine | Statut | Note |
+|---|---|---|---|---|---|---|---|
+| P02-ia2v | StyleA | ltx-2.5 | `d87e7cba-a3aa-4a3b-937b-29d71276f233` | 7.71 | 8101 | rendu | E8 ia2v : audio=P02_mix_185.wav length=185 ; mp4=P02-ia2v_StyleA_00001_.mp4 |
+| P02-ia2v | StyleB | ltx-2.5 | `b42087b5-adf2-4809-8122-6aa1c8a946f7` | 7.71 | 8102 | rendu | E8 ia2v : audio=P02_mix_185.wav length=185 ; mp4=P02-ia2v_StyleB_00001_.mp4 |
+| P03-ia2v | StyleA | ltx-2.5 | `ca4e13e9-ea71-4e00-a41f-2b2e4bdee717` | 9.04 | 8103 | rendu | E8 ia2v : audio=P03_mix_217.wav length=217 ; mp4=P03-ia2v_StyleA_00001_.mp4 |
+| P02-idlora-grave | StyleA | ltx-2.5 | `8ce78c3a-a488-4e03-ac78-4ff590ea7438` | 8.04 | 8201 | rendu | E8 idlora : audio=ref_grave.mp3 length=193 ; mp4=P02-idlora-grave_StyleA_00001_.mp4 |
+| P02-idlora-claire | StyleA | ltx-2.5 | `a0993d36-da69-46e5-a986-19eac0e65793` | 8.04 | 8202 | rendu | E8 idlora : audio=ref_claire.mp3 length=193 ; mp4=P02-idlora-claire_StyleA_00001_.mp4 |
+
 ## Voix (ElevenLabs, phase D bis)
 
 | Réplique | Modèle | voice_id | Fichier | Note |
