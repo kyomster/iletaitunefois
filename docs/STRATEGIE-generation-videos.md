@@ -68,3 +68,15 @@ tout verdict d'agent se recontrôle sur les planches avant d'être rapporté. Av
 2. Clés 1280×704 + `jobs.json` (prompt court + négative), soumission `run_ltx25_runpod.py`, CSV renseigné **au lancement**.
 3. Fetch, planches 1 i/s, `analyse_montage.py`, relecture, reprises ciblées (graine +1, prompt corrigé).
 4. Montage (`montage_pilote.py`, 24 i/s), **pod terminé** dès le rapatriement, `list` vide vérifié, coûts au journal.
+
+## 7. Amélioration à mettre en place (proposée par Guillaume, 24 août 2026) : le S3 RunPod
+
+Chaque session recommence ~40 min de téléchargements de modèles sur le disque conteneur du pod. Les volumes réseau RunPod
+exposent une **API compatible S3** (`s3api-<datacenter>.runpod.io`, clés `RUN_POD_S3_ACCESS_KEY`/`RUN_POD_S3_SECRET_KEY` du
+`.env`) : on peut **téléverser les modèles sur le volume sans GPU allumé** (aws cli / boto3 depuis la machine locale, ou un
+pod CPU), puis monter le volume sur `/workspace` et pointer `extra_model_paths.yaml` de ComfyUI dessus — bootstrap réduit à
+l'installation de ComfyUI. Même chose dans l'autre sens : écrire les sorties sur le volume et les **rapatrier par S3 sans GPU**.
+À faire avant la prochaine session de rendu : (1) agrandir ou recréer le volume (l'actuel `atelier-modeles`, EU-RO-1, est plein
+à 77 %) ; (2) y déposer LTX‑2.5 (~55 Go) par S3 ; (3) adapter le bootstrap pour lier `/workspace/models` au lieu de télécharger.
+Limite connue : l'API S3 RunPod n'existe que dans certains datacenters (EU-RO-1 en fait partie) et le débit d'upload depuis la
+machine locale devient le facteur limitant pour les gros fichiers.

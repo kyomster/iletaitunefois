@@ -59,7 +59,7 @@ def create(name, pubkey_file, jupyter_password="pilote"):
     body = {
         "name": name, "imageName": IMAGE, "cloudType": "SECURE", "computeType": "GPU",
         "gpuTypeIds": GPUS, "gpuTypePriority": "custom", "gpuCount": 1,
-        "dataCenterIds": ["EU-RO-1"], "dataCenterPriority": "custom",
+        "dataCenterIds": os.environ["DCS"].split(",") if os.environ.get("DCS") else ["EU-RO-1"], "dataCenterPriority": "custom",  # DCS=... pour élargir (24 août 2026 : EU-RO-1 sans aucune instance)
         "networkVolumeId": VOLUME_ID, "volumeMountPath": "/workspace",
         "containerDiskInGb": int(os.environ.get("DISK_GB", "60")), "ports": ["22/tcp", "8188/http", "8888/http"],
         "env": {"PUBLIC_KEY": Path(pubkey_file).read_text().strip(), "JUPYTER_PASSWORD": jupyter_password},

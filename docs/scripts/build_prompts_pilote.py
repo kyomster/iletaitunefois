@@ -73,6 +73,16 @@ STYLES_REALISTES = {"StyleJ", "StyleK"}
 CLAUSE_BANNIERES = "plain undecorated banners with no emblem and no lettering, blank fabric only"
 PLANS_A_BANNIERES = {"P1a-3"}
 
+# ---------------------------------------------------------------- durcissements de cadrage (24 août 2026)
+# Deux plans ont raté leur cadrage à l'audit du pilote, et dans les deux cas le modèle a rendu un plan
+# PLUS LARGE que demandé : P5-1 en J a donné un plan moyen de Garnerin portant un panier au lieu du très
+# gros plan sur la main, P1a-3 en K a donné le ballon au sol au lieu de la contre plongée sur la couronne.
+# `Framing: very close shot` et `low angle` ne suffisent pas seuls : on décrit ce que le cadre CONTIENT.
+CADRAGE_DURCI = {
+    "P5-1": "The frame is filled edge to edge by the hand, the forearm and the woven side of the basket seen from very close; no face, no head, no shoulders and no full body anywhere in the frame.",
+    "P1a-3": "The camera is tilted steeply upward from directly below; the crown of the balloon fills the upper half of the frame and the ground is not visible at all.",
+}
+
 # ---------------------------------------------------------------- point 4 : négatives
 NEG_UNIVERSELLE = "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
 NEG_EPOQUE = "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing"
@@ -97,17 +107,29 @@ IDENT = {
         "AC": "Garnerin, a French aeronaut of the Directoire era, resolute determined face with a calm set jaw, dark tailcoat, hair tied back, pale scarf at the neck, period breeches and buckled shoes, upright decided posture",
         "B": "Garnerin, an inkman stick figure character, a few ink strokes of hair tied back on his round head, simple black dot eyes with no eyebrows, resolute mouth drawn as one short flat ink line, closed, wearing a dark Directoire tailcoat drawn as a simple flat shape, a pale scarf knotted at the neck, simple period shoes on his stick legs, upright decided posture",
     },
+    # 23 août 2026, audit des références : le manteau du maigre est sorti en SARCELLE DÉSATURÉ en styles
+    # J et K, vert olive en D. Deux styles sur trois (RÈGLE 7) : la cause est dans le prompt, qui ne
+    # nommait aucune couleur. Les négatives `dominant teal outfit, saturated teal clothing` ne l'ont pas
+    # arrêté parce que le sarcelle sorti est désaturé : il passe sous la négative tout en étant la couleur
+    # dominante du personnage. Couleur nommée en positif, application de la RÈGLE 30 à un personnage nommé.
     "PARIEURS": {
-        "AC": "the round onlooker wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air; the thin onlooker leaning on a cane, threadbare coat, suspicious squint",
+        "AC": "the round onlooker wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air; the thin onlooker leaning on a cane, threadbare coat in muted brown and grey only, no blue and no green on any garment, suspicious squint",
         "B": "the round bellied onlooker inkman with a tall cylindrical top hat with a cockade on his round head, waistcoat drawn as a flat shape stretched over his belly, peremptory raised chin; the thin onlooker inkman leaning on a cane, threadbare coat, suspicious half closed dot eyes",
+        # 24 août 2026, audit du pilote J : la couleur nommée en positif n'a pas tenu sur le style
+        # photoréaliste, le manteau du maigre est ressorti bleu sarcelle sur P02 et brun sur P02b,
+        # soit une rupture de raccord entre deux plans qui se suivent. Sur un rendu réaliste, une
+        # veste d'ouvrier bleu passé est historiquement plausible : le référent la ramène malgré la
+        # consigne. Corollaire de la RÈGLE 34 : on décrit le MATÉRIAU et l'usure, pas la teinte.
+        "JK": "the round onlooker wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air; the thin onlooker leaning on a cane, his coat made of undyed coarse brown wool, worn thin and patched at the elbows, the colour of raw sacking and dust, no dyed fabric on him, suspicious squint",
     },
     "PARIEURS_ROND": {
         "AC": "the round onlooker wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air",
         "B": "the round bellied onlooker inkman with a tall cylindrical top hat with a cockade on his round head, waistcoat drawn as a flat shape stretched over his belly, peremptory raised chin",
     },
     "PARIEURS_MAIGRE": {
-        "AC": "the thin onlooker leaning on a cane, threadbare coat, suspicious squint",
+        "AC": "the thin onlooker leaning on a cane, threadbare coat in muted brown and grey only, no blue and no green on any garment, suspicious squint",
         "B": "the thin onlooker inkman leaning on a cane, threadbare coat, suspicious half closed dot eyes",
+        "JK": "the thin onlooker leaning on a cane, his coat made of undyed coarse brown wool, worn thin and patched at the elbows, the colour of raw sacking and dust, no dyed fabric on him, suspicious squint",
     },
     "FOULE": {
         "AC": "a dozen Directoire crowd silhouettes, MOST OF THEM SEEN FROM BEHIND and the rest in three quarter view from behind, varied scales, NO FACE VISIBLE ON ANY FIGURE, no facial features at all: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, simplified figures less detailed than main characters",
@@ -133,7 +155,11 @@ SAME_AS_REF = "same characters as reference, same art style as reference"
 # ---------------------------------------------------------------- point 6 : briques d'image (identiques dans les trois styles)
 # (nom de fichier sans style, bloc, brique)
 BRIQUES = [
-    ("P1a-1", "1a", "Scene: dawn mist drifting low over the lawns of Parc Monceau, a large inflated gas balloon swaying in the middle ground, a Directoire crowd gathered at its foot. Framing: very wide establishing shot, slight high angle. Decor: D1. Characters: [FOULE]. Props: balloon, wicker basket, ropes trailing on the grass."),
+    # 24 août 2026, essai de réinjection en style D : DEUX nacelles d'osier, une accrochée sous le ballon
+    # et une seconde posée sur l'herbe. RÈGLE 29, la plaque D01 porte déjà sa nacelle et la brique en
+    # nommait une dans les props : le modèle a produit les deux lectures. Corrigé comme 1b-2 l'avait été,
+    # en nommant l'état voulu au lieu de le taire.
+    ("P1a-1", "1a", "Scene: dawn mist drifting low over the lawns of Parc Monceau, a large inflated gas balloon swaying in the middle ground, a Directoire crowd gathered at its foot. Framing: very wide establishing shot, slight high angle. Decor: D1. Characters: [FOULE]. Props: ONE single wicker basket only, resting on the grass directly under the balloon and tied to it, no second basket and no crate anywhere in the frame, ropes trailing on the grass."),
     ("P1a-2", "1a", "Scene: the inflated balloon swaying in the wind, mooring ropes pulling taut. Framing: medium shot on the balloon. Decor: D1. Characters: a few crowd figures at the lower edge, seen from behind. Props: balloon, taut ropes, stakes."),
     ("P1a-3", "1a", "Scene: banners snapping at the top of the balloon. Framing: low angle from the ground toward the crown of the balloon. Decor: D1, sky and treetops only. Characters: none. Props: balloon crown, netting, banners."),
     # Briques 1a-4, 4a-1, 4a-2, 4b-3 et P02/P03 amendées le 22 août 2026, 19 h (audit Sonnet + Guillaume) : cadrages répétés
@@ -159,11 +185,18 @@ BRIQUES = [
     ("P4b-1", "4b", "Scene: seen from the basket, the rooftops of Paris sliding slowly below, chimney smoke streaming. Framing: very wide high angle shot, the rim of the basket in the foreground. Decor: D2. Characters: none. Props: wicker rim, rope, folded silk bundle."),
     ("P4b-2", "4b", "Scene: the wicker rim vibrating in the wind, a gloved hand tightening on it. Framing: close shot on the hand and the rim. Decor: D2, blurred sky behind. Characters: [GARNERIN], gloved hand only. Props: wicker rim, glove, rope."),
     ("P4b-3", "4b", "Scene: the whole city under the haze, much higher and farther than before, the park a small green rectangle with the crowd reduced to a dark patch in its middle. Framing: very wide high angle shot from far above, no basket and no rim in the frame. Decor: D2, the rooftops of Paris under the haze. Characters: none, no person anywhere. Props: none."),  # D2 explicité (RÈGLE 28) : la v1 du 22 août 19 h portait un « D2 » en bas à droite
-    ("P5-1", "5", "Scene: a hand taking hold of the knife tucked at the side of the basket. Framing: very close shot. Decor: D2, out of focus behind. Characters: [GARNERIN], hand only. Props: knife, wicker side, taut rope."),
+    # 24 août 2026, audit du pilote D : P5-1 est sortie avec « D2 » ECRIT EN GROSSES LETTRES sur un
+    # second ballon au fond. C'est la RÈGLE 28 mot pour mot, le code de décor devenu texte sur un très
+    # gros plan. Le défaut a une histoire : la correction du 22 août 2026 avait développé D2 en clair
+    # sur 5-2 et 5-3, et avait OUBLIÉ 5-1. En styles A, B et C ce plan est sorti correct par chance,
+    # personne ne l'a vu. Développement ajouté, plus la clause anti second ballon de 1b-3 et 5-2.
+        # P5-1 v2 (24 août 2026, Guillaume) : le bras vient de l'INTÉRIEUR de la nacelle — sur les clés précédentes il se lisait comme venant de l'extérieur, impossible
+    ("P5-1", "5", "Scene: seen from INSIDE the basket: Garnerin's arm in his dark sleeve comes from inside the basket and his hand takes hold of the knife sheathed against the inner wicker wall, the woven rim of the basket in the foreground, the taut rope rising overhead. Framing: very close shot from inside the basket. Decor: D2, the sky and the rooftops of Paris far below, out of focus beyond the rim, no other balloon and no other basket anywhere in the frame. Characters: [GARNERIN], one hand and forearm only, clearly reaching from inside the basket. Props: knife, inner wicker wall, taut rope."),
     # Briques 5-2 et 5-3 : « Decor: D2 » explicité le 22 août 2026 (en style A, sur ces très gros plans, le code D2 seul
 # donnait un mur ou un panneau « D2 » ; B et C avaient le ciel). Brique 5-2 amendée le 22 août 2026 (audit : corde déjà tranchée en A et C, RÈGLE 7/13). Version 1 :
 # "Scene: the blade sawing the taut rope, fibres springing free one by one. [...] Props: knife, rope, loose fibres."
-    ("P5-2", "5", "Scene: the blade sawing the taut rope, the rope is still in ONE piece and taut, only a few outer fibres cut and springing free one by one, the blade halfway through. Framing: very close shot at a raking angle along the rope. Decor: D2, the sky and the rooftops of Paris far below, out of focus behind. Characters: ONE hand only, Garnerin's hand in his dark sleeve, no second hand, the taut rope is fixed to the basket. Props: knife, one unbroken rope, loose fibres."),  # 5-2 : une seule main (22 août, deux manches différentes lues comme deux personnes)
+        # P5-2 v3 (24 août 2026, Guillaume) : idem — la coupe se fait depuis l'intérieur, le rebord dans le cadre
+    ("P5-2", "5", "Scene: Garnerin's arm reaching up from INSIDE the basket, over the woven rim visible at the bottom of the frame, the blade sawing the taut rope above the rim, the rope still in ONE piece and taut, only a few outer fibres cut and springing free one by one, the blade halfway through. Framing: very close shot at a raking angle along the rope, the basket rim at the bottom. Decor: D2, the sky and the rooftops of Paris far below, out of focus behind. Characters: ONE hand only, Garnerin's hand in his dark sleeve reaching from inside the basket, no second hand, the taut rope is fixed to the rim of the basket. Props: knife, one unbroken rope, loose fibres, woven rim."),  # 5-2 : une seule main (22 août, deux manches différentes lues comme deux personnes)
     ("P5-3", "5", "Scene: the rope giving way at once, the strands whipping the air. Framing: very close frontal shot on the break. Decor: D2, the sky and the rooftops of Paris far below, out of focus behind. Characters: none. Props: severed rope, whipping strands."),
 ]
 
@@ -199,6 +232,8 @@ def assemble(name, bloc, brique, style, media_ids):
     assert "[" not in body, f"substitution incomplète sur {name}"
     if style in STYLES_REALISTES and name in PLANS_A_BANNIERES:
         body += f" {CLAUSE_BANNIERES}."  # RÈGLE 33
+    if name in CADRAGE_DURCI:
+        body += f" {CADRAGE_DURCI[name]}"
     refs = REFS[name]
     lumiere = LUMIERE.get(style, {}).get(REGISTRE_LUMIERE[bloc], "")
     positive = " ".join(x for x in (STYLE[style], lumiere, EPOQUE[style], body) if x)
