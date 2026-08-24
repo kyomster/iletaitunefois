@@ -31,7 +31,7 @@ docs/
   RUNPOD-COMFYUI-mode-d-emploi.md     du pod vide aux 48 clips rendus
   RUNBOOK-pilote-pour-claude-code.md  le pilote, à dérouler pas à pas par un agent
   PLAN-pilote-execution.md            la répartition du travail et le budget
-  METHODE-generation-images.md        les 33 règles. À lire avant toute génération.
+  METHODE-generation-images.md        les 35 règles et leurs corollaires. À lire avant toute génération.
   S01E01-index-assets-et-fichiers.md  ce que contient chaque dossier, et le nommage
   PROMPT-MAITRE-chaine-production.md  d'une fiche épisode à la chaîne complète
   BIBLE-modernisation-v5.1.md         la méthode d'écriture et de fabrication
