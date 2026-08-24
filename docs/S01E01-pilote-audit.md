@@ -512,3 +512,15 @@ Demande de Guillaume : « comment avoir des voix cohérentes avec LTX‑2.5, peu
 3. **LTX‑2.5 insère une coupe vers 5‑6 s sur P02 dans 4 rendus sur 5** (multishot natif) : à tenir par le prompt (moins de « then… then… », une seule phrase d'action continue), par la négative, ou en coupant les plans de dialogue en deux rendus plus courts ; à traiter avant le montage v7.
 
 Coût : pod A100 SXM 1,59 $/h, ~1 h 15 dont 45 min de téléchargement ≈ 2 $ ; ElevenLabs 2 références (~230 caractères) ; 0 crédit Higgsfield. Vidéo : `essais/_videos/E8_voix_ltx25.mp4`.
+
+## Montage v7 — les 70 secondes en LTX‑2.5, cinq styles (2026-08-24, pods `5cbn445c5b7afq` et `az299qdupf9ybk`)
+
+Commande de Guillaume : « voix libres avec LTX‑2.5 partout, lance le montage v7 avec les styles A, B, D, J et K ; vérifie que toutes les images correspondent au script (présence, intentions, positions — ex : pour couper la corde, il faut être en dehors de la nacelle) ».
+
+**Vérification des 90 clés (18 plans × 5 styles)** : planches `pilote/_thumbs/v7/*_planche18.jpg`. D/J/K (préparés par une autre session, 20 clés chacun, P03 déjà en v4) complets et conformes ; le seul écart au script était **P5‑1/P5‑2 : le bras qui manie le couteau se lisait comme venant de l'extérieur de la nacelle** (net en D et J). Briques réécrites (« seen from INSIDE the basket », rebord au premier plan, couteau contre la paroi **intérieure**), 10 images régénérées + 2 reprises (P5‑2 A : une deuxième main ; P5‑1 B : couteau resté dehors) — 24 crédits. Fiche du plan de production corrigée.
+
+**Rendu** : 90 clips LTX‑2.5 (~1 min/clip, A100) + reprise des 10 dialogues (voir leçon), montages de 62,8 s par concaténation à 24 i/s avec l'audio propre de chaque clip (ambiances générées par LTX sur les muets, voix libres sur P02/P03) : `montages/montage_Style{A,B,D,J,K}_v7.mp4`.
+
+**Leçon majeure, payée une heure de pod** : mes premiers prompts de dialogue *décrivaient* la scène (« the man speaks in French, grave voice ») sans **citer** les répliques → les cinq montages parlaient un charabia inventé (transcriptions : « J'ai peu t'y pose dans ces bouts de panal »…). Re‑rendu avec les répliques **entre guillemets dans le prompt** (comme E3b/E4c) : les quatre répliques sont dites mot pour mot dans les cinq styles (vérifié par transcription ; « Dix francs » lu « Dis Franck » par scribe_v1 en A/B/D est l'artefact de transcription connu). **Règle : un prompt de dialogue CITE les répliques exactes entre guillemets, avec la langue et le timbre.**
+
+Restes à l'image (planches 1 i/s `pilote/_thumbs/v7/*_v7_1fps.jpg`, avant re‑rendu des dialogues) : LTX ajoute encore parfois un contrechamp dans P02 (multishot) ; en J, deux silhouettes couchées apparaissent dans la nacelle en fin de P03 v1 (re‑rendu depuis) ; à recontrôler sur les montages livrés. Coût : 2 pods A100 ~3 h ≈ 4,5 $ ; 24 crédits Higgsfield (solde ~712) ; 5 transcriptions ×2.

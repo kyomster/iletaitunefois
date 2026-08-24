@@ -260,7 +260,7 @@ hard directional key light with deep shadow across two thirds of the frame, desa
 >
 > * **La bible de la troupe.** Sam, SamBis, Naya et Elio ne sont plus des dessins mais des personnes. Les 40 assets par style, les turnarounds, les six expressions, la logique entière de la référence de production perdent leur objet. On ne fait pas un turnaround d'un comédien, on fait un casting.
 > * **Le LoRA de style.** Il sert à tenir un aplat que le modèle vidéo veut ramollir. Sur du photoréalisme, il n'y a rien à tenir : c'est le point d'attraction naturel de Wan 2.2.
-> * **Les 33 règles de `METHODE-generation-images.md`**, dont l'essentiel traite de défauts propres au dessin, moufles, contours, aplats, deux tons.
+> * **Les 35 règles de `METHODE-generation-images.md`**, dont l'essentiel traite de défauts propres au dessin, moufles, contours, aplats, deux tons.
 > * **Le registre CADRE**, la table et les objets, qui suppose un espace non naturaliste.
 >
 > Ce qui est gagné en échange n'est pas nul : c'est le seul des huit styles que la chaîne vidéo rend **sans aucun effort de conformation**, et il n'a besoin d'aucune fiche de personnage pour tenir un figurant.

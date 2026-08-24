@@ -42,7 +42,9 @@ de 32), longueurs en **8n+1** images. Modèles : transformer int8 (21,5 Go), gem
 4. **L'image clé décrit un état de repos** (RÈGLE 31) : bouches fermées sur les clés de dialogue, l'action est dans le prompt vidéo.
 5. **L'action de la clé porte la réplique** (corollaire METHODE) : relire la réplique et demander « que fait‑il en le disant ? »
    avant de figer la clé (leçon P03 v4 : main sur la corde de largage, pas la soie tendue comme une couverture).
-6. Les nombres et noms propres se jugent **à l'oreille**, pas à la transcription (scribe_v1 déforme « Dix francs »).
+6. **Un prompt de dialogue CITE les répliques exactes entre guillemets** (langue + timbre : `says in French, grave voice: "…"`).
+   Décrire la scène sans citer le texte fait inventer un charabia (payé sur les 10 premiers dialogues v7).
+7. Les nombres et noms propres se jugent **à l'oreille**, pas à la transcription (scribe_v1 déforme « Dix francs »).
 
 ## 4. La vérification (non optionnelle)
 

@@ -40,9 +40,11 @@ On peut donc lancer le pilote sans la troupe. On ne peut pas lancer l'**épisode
 
 # 3. Ce qui manque, poste par poste
 
-## 3.1 Les cinq références à réinjecter — 5 images par style, 10 crédits
+## 3.1 Les cinq références à réinjecter — **FAIT, les 15 validées le 23 août**
 
-Table §5 de `S01E01-pilote-prompts-3-styles.md`. **Aucune n'existe en D, J ni K.**
+Les quinze existent et sont validées une par une, audit dans `S01E01-references-DJK-audit.md`. Coût réel **38 crédits** au lieu de 30 : `Foule_StyleK` et `D02_StyleJ` ont demandé trois tirages chacune, pour deux défauts de structure qui ont chacun donné un corollaire de méthode.
+
+Table §5 de `S01E01-pilote-prompts-3-styles.md`, pour mémoire :
 
 | Brique | Fichier attendu | Plans qui la réinjectent |
 |---|---|---|
@@ -54,7 +56,9 @@ Table §5 de `S01E01-pilote-prompts-3-styles.md`. **Aucune n'existe en D, J ni K
 
 C'est le poste le plus structurant : **sans ces cinq plaques, les vingt plans dérivent**, c'est la RÈGLE 27 et la RÈGLE 29. Et chacune est un point d'arrêt : elle se regarde avant qu'on en dérive quoi que ce soit.
 
-**Cas particulier de J.** Une fiche `Garnerin_StyleJ` n'est pas une planche de personnage, c'est une **référence de casting** : un visage de comédien, tenu identique sur vingt plans par réinjection. Le mécanisme du dépôt fonctionne, mais l'objet change de nature, et la question de savoir ce qui verrouille l'identité d'un visage photoréaliste sur 79 plans n'a jamais été posée dans ce projet.
+**Cas particulier de J, tranché.** On se demandait ce qui verrouillerait l'identité d'un visage photoréaliste sur 79 plans. `Garnerin_StyleJ` répond : quatre vues du même comédien, même visage, même costume, en un tirage, réinjectables comme n'importe quelle fiche. **La référence de casting est une fiche de personnage**, elle n'appelle aucun dispositif nouveau. Reste à vérifier à l'étape 4 que la ressemblance tient sur vingt plans successifs, ce qu'aucune fiche seule ne prouve.
+
+**Coût de contrôle propre à J, découvert aux reprises.** Deux des trois plaques J ont porté un défaut qui vient du photoréalisme lui même, des bandes de cinéma puis des voitures et un passage piéton dans une rue de Paris. Sur les 46 décors d'un épisode, **tout plan J qui montre le sol d'une ville réelle devra être contrôlé pour l'anachronisme**. D et K n'ont pas ce coût.
 
 ## 3.2 Les images clés — 17 manquantes par style, 34 crédits
 
@@ -95,9 +99,9 @@ C'est en K que ce traitement compte le plus : la démonstration du §8 bis de l'
 
 | Poste | Par style | Trois styles |
 |---|---|---|
-| 5 références | 10 crédits | 30 |
+| 5 références | 10 crédits | **38 dépensés**, 8 de reprises |
 | 20 images clés | 40 crédits | 120 |
-| **Total images** | **50 crédits** | **150** |
+| **Total images** | | **158** |
 | 16 clips sur RunPod | 1 à 2 $ de GPU | 3 à 6 $ |
 
 **Solde réel au 23 août au soir : 694 crédits**, et non 788 comme annoncé plus haut dans la journée. Le relevé des transactions explique l'écart au crédit près :
@@ -109,7 +113,8 @@ C'est en K que ce traitement compte le plus : la démonstration du §8 bis de l'
 | Essais vidéo à 10 h 17 et 10 h 19 : Veo 3.1 Lite, Kling v3.0, deux Seedance 2.0 Mini, deux Wan 2.7, deux remboursements | −60 |
 | Styles J et K, 6 images | −12 |
 | Les 15 références D, J, K | −30 |
-| **Solde** | **694** |
+| Reprises, `Foule_StyleK` deux fois et `D02_StyleJ` deux fois | −8 |
+| **Solde au 23 août au soir** | **686** |
 
 Les 64 crédits des deux premières lignes ne viennent pas de la chaîne du pilote. **Il reste de quoi finir**, mais la marge n'est plus celle annoncée : trois pilotes à 120 crédits laissent 574 crédits, contre 506 pour l'épisode complet. **La marge est donc de 68 crédits**, ce qui ne laisse pas de place à un troisième tirage sur beaucoup de plans. Si elle se resserre encore, la réponse n'est pas de rogner sur les points d'arrêt mais de **descendre à deux pilotes** au lieu de trois.
 

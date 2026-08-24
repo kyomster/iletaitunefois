@@ -92,7 +92,9 @@ Style B : `Yuan Huangtou, an inkman stick figure character, a deposed prince, lo
 
 ## 3. Parieurs, paire — plans 2, 63
 
-Styles A et C : `the two Directoire onlookers standing side by side, full body, three quarter view, at the same scale: the round onlooker on the left wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air; the thin onlooker on the right leaning on a cane, threadbare coat, suspicious squint`
+Styles A et C : `the two Directoire onlookers standing side by side, full body, three quarter view, at the same scale: the round onlooker on the left wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air; the thin onlooker on the right leaning on a cane, threadbare coat in muted brown and grey only, no blue and no green on any garment, suspicious squint`
+
+⚠ **Couleur nommée en positif, 23 août 2026.** Sur les styles réalistes J et K, le manteau du maigre est sorti en **sarcelle désaturé** dans les deux tirages, vert olive en style D. Deux styles sur trois : la cause est dans le prompt (RÈGLE 7), qui ne nommait aucune couleur. Les négatives `dominant teal outfit, saturated teal clothing` n'y ont rien fait, le sarcelle obtenu étant désaturé : **il passe sous la négative tout en étant la couleur dominante du personnage**. C'est la RÈGLE 30 appliquée à un personnage nommé, et elle compte : le sarcelle vif appartient à Naya, et le maigre est présent aux plans 2 et 63.
 
 ⚠ Position et chapeaux verrouillés : les couvre chefs étaient inversés d'un style à l'autre, et le « haut chapeau » sortait en bicorne.
 

@@ -2,7 +2,9 @@
 
 **23 août 2026.** Point d'arrêt dur de l'étape 3. Les quinze références lues une par une en 1000 px de large, avant d'en dériver quoi que ce soit. Grille : les 13 contrôles de `METHODE-generation-images.md` §20, plus la mise en page attendue par asset.
 
-**Verdict global : 14 validables sur 15, une à reprendre.** Trois corrections de prompt à porter avant les 60 images clés.
+**Verdict global : 15 sur 15 validables**, après trois tirages sur `Foule_StyleK` et trois sur `D02_StyleJ`.
+
+**Suite donnée le 23 août au soir** : les quatre corrections sont portées, `Foule_StyleK` et `D02_StyleJ` sont régénérées, et deux règles entrent en méthode, la **34** et la **35**. Détail en section 6.
 
 ---
 
@@ -90,10 +92,25 @@ Reste à vérifier à l'étape 4 que la ressemblance tient sur vingt plans succe
 
 ---
 
-# 6. Corrections à porter avant les 60 images clés
+# 6. Corrections portées, 23 août au soir
 
-1. **Bloc identité Parieurs**, styles réalistes : nommer la couleur du manteau du maigre en positif, §1.1.
-2. **Rognage des bandes noires** en local sur `D01_StyleJ`, `D02_StyleJ` et `D01_StyleK`, avant réinjection. Une plaque avec bandes réinjectée impose ses bandes à tous les plans qui la réinjectent (RÈGLE 1).
-3. **Reprendre `Foule_StyleK`**, 2 crédits, prompt inchangé, avec en plus la négative `second row of figures, duplicated group, mirrored copy of the group`.
+1. ✔ **Bloc identité Parieurs.** Couleur du manteau du maigre nommée en positif, `threadbare coat in muted brown and grey only, no blue and no green on any garment`, dans `scripts/build_prompts_pilote.py` et dans `prompts/fiche-prompts-personnages-episode-S01E01.md`. Entre en méthode comme **RÈGLE 34**.
+2. ✔ **Bandes noires.** Script `scripts/rogner_bandes_noires.py` écrit : il détecte les bandes, rogne, recadre au plus grand 16:9 centré puis remet à l'échelle. Il ne réétire jamais la zone utile telle quelle, ce qui écraserait une image en bandes latérales de 30 %. Appliqué à `D01_StyleJ` (4 % de champ perdu) et `D01_StyleK` (7 %). Entre en méthode comme **RÈGLE 35**.
+3. ✔ **`Foule_StyleK` reprise, au troisième tirage.** Le deuxième a reproduit la duplication à l'identique malgré la négative **et** la clause positive. Le troisième a fonctionné en changeant la demande : sept figures au lieu de douze, ligne au sol prescrite, et **moitié haute de l'image déclarée vide en positif**. Entre en méthode comme corollaire de la RÈGLE 2. Coût total 6 crédits.
+4. ✔ **`D02_StyleJ` régénérée, au troisième tirage.** Le deuxième a réglé les bandes mais a sorti des **voitures, un passage piéton et des lampadaires modernes** dans la rue. Réglé en interdisant le sol en positif. Entre en méthode comme corollaire de la RÈGLE 35. Coût total 6 crédits.
+5. ✔ **`D02_StyleJ` v1 régénérée** plutôt que rognée. Ses 332 px de bandes de chaque côté imposaient un recadrage à **42 % de champ perdu**, qui supprimait l'horizon et la profondeur dont le plan 4b-3 a besoin. C'est le seuil que la RÈGLE 35 fixe désormais : au delà d'environ 15 % de perte, on régénère.
 
-Facultatif, à trancher : reprendre `Foule_StyleD` pour supprimer les deux figures de face à visage vide, et `Foule_StyleJ` pour fermer le parapluie. Ni l'un ni l'autre n'est bloquant.
+Non repris, non bloquants : les deux figures de face à visage vide de `Foule_StyleD`, et le parapluie ouvert de `Foule_StyleJ`.
+
+## 6.1 Une conséquence de la RÈGLE 34 sur les styles déjà produits
+
+La correction du bloc Parieurs porte sur la variante `AC`, partagée par les styles **A, C et D**. Le générateur produit donc désormais quatre prompts qui ne correspondent plus au fichier archivé `prompts/S01E01-pilote-prompts-assembles.md` : `P02_StyleA`, `P02_StyleC`, `P02b_StyleA` et `P02b_StyleC`. Ce sont exactement les quatre entrées où le badaud maigre apparaît. `P02a` n'est pas touché, il ne montre que le badaud rond.
+
+**Ce n'est pas une régression, c'est la correction qui remonte.** Les images A et B du pilote sont déjà produites et validées et ne seront pas régénérées ; leur manteau n'est pas sarcelle. La divergence est donc historique et voulue. Elle est notée ici pour qu'une vérification future ne la lise pas comme un bug.
+
+---
+
+# 7. Les deux règles nées de cet audit
+
+* **RÈGLE 34** — une couleur réservée passe sous sa propre négative en version désaturée. `dominant teal outfit, saturated teal clothing` vise le sarcelle vif ; un sarcelle terne satisfait la négative tout en étant la couleur dominante du personnage. Dès qu'un vêtement porte le poids visuel d'un personnage, sa couleur se nomme en positif.
+* **RÈGLE 35** — une bande noire est une structure, elle ne se corrige pas dans le prompt. Ni la négative ni la clause positive n'y font rien : un cadre de cinéma **a** des bandes. Correction en aval, avant la première réinjection, et régénération plutôt que rognage au delà de 15 % de champ perdu.

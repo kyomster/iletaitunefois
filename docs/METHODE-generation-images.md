@@ -563,6 +563,53 @@ Donc, dès qu'un style est réaliste ou photoréaliste, tout objet dont la fonct
 
 ---
 
+## RÈGLE 34 — une couleur réservée peut passer sous sa propre négative en version désaturée
+
+Le badaud maigre, dont la fiche dit seulement `threadbare coat` sans nommer de couleur, est sorti avec un **manteau sarcelle désaturé** dans les deux styles réalistes J et K, et vert olive en style D. Deux styles sur trois, donc RÈGLE 7, la cause est dans le prompt.
+
+Les négatives `dominant teal outfit, saturated teal clothing` étaient posées et n'ont rien arrêté. La raison est dans leur libellé : elles visent le sarcelle **vif** et le sarcelle **dominant en saturation**. Un sarcelle terne satisfait la négative à la lettre tout en étant la couleur dominante du vêtement, donc du personnage.
+
+Corollaire de la RÈGLE 30, étendu aux personnages nommés : **dès qu'un vêtement porte le poids visuel d'un personnage, sa couleur se nomme en positif**, `in muted brown and grey only, no blue and no green on any garment`. Ne jamais compter sur une négative de couleur réservée pour tenir un vêtement principal ; elle ne protège que contre la version saturée.
+
+## RÈGLE 35 — une bande noire est une structure, elle ne se corrige pas dans le prompt
+
+Trois plaques sur six en styles J et K sont sorties avec des bandes noires incrustées, alors que la base négative contenait `letterbox bars, black bars` **et** que le bloc de style portait la clause positive `the image fills the entire 16:9 frame edge to edge, no black bars`. Les deux ont échoué ensemble.
+
+Un cadre de cinéma **a** des bandes : c'est une propriété du référent que le style invoque, pas un élément posé dans l'image. Ni négative ni positif ne l'enlèvent, exactement comme la troisième règle du README le prédit.
+
+**La correction est en aval, jamais dans le prompt** : `docs/scripts/rogner_bandes_noires.py` détecte les bandes, rogne, recadre au plus grand 16:9 centré et remet à l'échelle. Deux points de méthode qui en découlent :
+
+* **Rogner avant la première réinjection.** Une plaque avec bandes réinjectée impose ses bandes à tous les plans qui la réinjectent (RÈGLE 1). Le rognage se fait au moment de valider la référence, pas après.
+* **Au delà d'environ 15 % de champ perdu, régénérer plutôt que rogner.** Sur `D02_StyleJ`, 332 px de bandes de chaque côté imposaient un recadrage à 42 % de perte, qui supprimait l'horizon et la profondeur dont le plan 4b-3 a besoin. Une régénération coûte 2 crédits, un décor amputé coûte un plan.
+
+---
+
+### Corollaire de la RÈGLE 2 — un groupe compté se prescrit petit, et le vide se prescrit en positif
+
+`Foule_StyleK` est sortie **deux fois** avec le groupe dupliqué, une seconde rangée identique flottant au dessus de la première. Le deuxième tirage portait pourtant la négative `second row of figures, duplicated group, mirrored copy of the group` **et** la clause positive `ONE SINGLE ROW ... in a single line, nothing above them`. Rattrapage local impossible : mesuré ligne par ligne, les deux rangées se chevauchent sans discontinuité, les corps de la rangée fantôme descendent exactement là où commencent les têtes de la vraie. Aucune ligne de coupe ne les sépare.
+
+C'est la RÈGLE 2 sous une forme non évidente : **« une douzaine de figurants en pied sur fond neutre » est une demande de grille déguisée.** Les styles A, B, C, D et J s'en tirent ; K compose en deux rangées, deux fois sur deux.
+
+Ce qui a fonctionné au troisième tirage, en changeant trois choses à la fois :
+
+* un nombre **explicite et petit**, `EXACTLY SEVEN ... no more and no less`, au lieu de douze ;
+* la ligne au sol prescrite, `standing side by side in ONE SINGLE STRAIGHT HORIZONTAL LINE, their feet all on the same ground line` ;
+* et surtout **la zone vide prescrite en positif**, `THE ENTIRE UPPER HALF OF THE IMAGE IS EMPTY FLAT GREY BACKGROUND with absolutely nothing in it`.
+
+Le troisième point est le seul qui attaque l'endroit où le défaut apparaît, plutôt que le défaut lui même. Quand un élément parasite occupe toujours la même zone, **on décrit cette zone comme vide**, on ne décrit pas l'élément comme absent.
+
+### Corollaire de la RÈGLE 35 — sur un style photoréaliste, le référent revient avec son époque
+
+`D02_StyleJ`, plan aérien des toits de Paris, est sortie au deuxième tirage avec **des voitures garées, un passage piéton, des marquages au sol et des lampadaires modernes** dans la rue au centre bas. La négative contenait `modern buildings, glass towers, cars, tarmac road`.
+
+Un aérien photoréaliste de Paris donne Paris **tel qu'il est aujourd'hui** : ce n'est pas un élément ajouté à l'image, c'est le référent. Même mécanisme que la RÈGLE 33 sur les bannières brodées et que la RÈGLE 35 sur les bandes de cinéma.
+
+Réglé au troisième tirage en interdisant **le sol lui même, en positif** : `THE GROUND IS NEVER VISIBLE, no street, no road, no pavement and no ground anywhere in the frame, only rooftops, chimneys, treetops and sky`. On ne retire pas les voitures, on retire l'endroit où elles peuvent être.
+
+**Conséquence de production** : sur les 46 décors d'un épisode en style J, tout plan qui montre le sol d'une ville réelle doit être contrôlé pour l'anachronisme. C'est un coût de vérification que D et K n'ont pas.
+
+---
+
 ## Observations sans règle
 
 * Le **style C tient sa palette sur les plans larges** dès qu'une plaque C est réinjectée : la RÈGLE 15 décrit les planches personnages sur fond neutre, pas les plans de scène.
