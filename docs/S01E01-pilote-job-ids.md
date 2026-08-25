@@ -490,3 +490,65 @@ Médias Higgsfield envoyés pour les modèles fermés : image P02 A 720p `021b7f
 | P02_BADAUD2 | eleven_v3 | `jvSOBXJ1cP2sdvT5RgUP` | `audio/S01E01_P02_BADAUD2.mp3` | voix Curieux REM (claire) ; texte : Dix francs qu'il ne coupe pas la corde. |
 | P03_AIDE | eleven_v3 | `jvSOBXJ1cP2sdvT5RgUP` | `audio/S01E01_P03_AIDE.mp3` | voix Curieux REM (claire) ; texte : Citoyen Garnerin, renoncez, il est encore temps. |
 | P03_GARNERIN | eleven_v3 | `ohItIVrXTBI80RrUECOD` | `audio/S01E01_P03_GARNERIN.mp3` | voix Guillaume - Narration and voiceover (grave) ; texte : Lâchez tout. |
+
+## Style P (2026-08-25/26) — pilote complet : 5 références, 18 clés, 18 clips
+
+Style P = le rendu « série animée moderne » des trois images d'essai retenues par Guillaume ; bloc de style récupéré tel quel sur ces générations (`show_generation_by_ids`) et versionné dans `docs/scripts/build_prompts_pilote.py`. Les cinq planches de référence sont assemblées par `docs/scripts/build_refs_pilote.py` (nouveau) puis renvoyées chez Higgsfield : les `media_id` ci‑dessous sont **réutilisables pour tout l'épisode**.
+
+### Références (planches générées, puis renvoyées comme médias)
+
+| Brique | Fichier | job_id de génération | media_id réutilisable |
+|---|---|---|---|
+| D01 | `D01_StyleP.png` | `dfa8f4b8-5a4e-4030-8e9d-794b58e75622` | `ecfa74c5-86a0-451a-a4dc-3c05fc64d979` |
+| D02 | `D02_StyleP.png` | `b4751f46-920a-4815-99a9-94de6be192de` | `4508b9b8-67fa-4522-9e3e-4b7776b14cf5` |
+| Foule | `Foule_StyleP.png` | `d15400be-923e-4e5b-a1f8-6f646eb8b7ac` | `5b59cff5-0722-4c96-87bb-3d0ffbcc779d` |
+| Garnerin | `Garnerin_StyleP.png` | `63ff1209-9c21-4b35-b9d1-7d2e0cbfbe94` | `49074359-ae1a-4edb-aaf1-9b7f33b9e2c7` |
+| Parieurs | `Parieurs_StyleP.png` | `d11b3681-8b72-4e1a-bc16-90cabca7fd8b` | `7d803edf-8a4d-4cf3-9460-7a130d8475e1` |
+
+### Images clés (nano_banana_pro, 16:9 2k, références décor + personnages réinjectées)
+
+| Clé | job_id | statut | note |
+|---|---|---|---|
+| P1a-1 | `4500a61a-099f-4c06-b4e8-6726a9db78d6` | telecharge | refs réinjectées |
+| P1a-2 | `41b78e94-fcb2-42fe-88b8-e7ef900f1d8c` | telecharge | refs réinjectées |
+| P1a-3 | `72b80adf-1f30-4f06-a17b-9bc54e46d34c` | telecharge | refs réinjectées |
+| P1a-4 | `1f981099-cba1-4917-94ee-62734cef7438` | telecharge | refs réinjectées |
+| P1b-1 | `0c8ef0a7-ab57-4f29-a2ec-9d2f0f5907bd` | telecharge | refs réinjectées |
+| P1b-2 | `88931e72-a821-4f70-b26b-7d6b435cd81e` | telecharge | refs réinjectées |
+| P1b-3 | `0d992b95-d088-4448-af24-d6e521ed8415` | telecharge | refs réinjectées |
+| P02 | `8256e8b4-904b-4641-b6dd-357b59591317` | telecharge | refs réinjectées |
+| P03 | `b18682bb-6e56-4149-b018-f568f0ef64f4` | telecharge | refs réinjectées |
+| P4a-1 | `5884d5db-d25b-48e2-88b5-0852635f069a` | telecharge | reprise v2 : enveloppe tendue (la v1 montrait un ballon dégonflé) |
+| P4a-2 | `cffbb925-6f08-43d6-8c4c-12c38559a4c1` | telecharge | refs réinjectées |
+| P4a-3 | `4ae0a14e-c807-40c0-b6f8-7800c2840999` | telecharge | refs réinjectées |
+| P4b-1 | `7a29df14-da7a-4a0d-ae0b-c5927a0ba0bb` | telecharge | refs réinjectées |
+| P4b-2 | `9f76dbb9-150c-4569-bfcd-f8dc46d27c95` | telecharge | refs réinjectées |
+| P4b-3 | `cf7b8d0a-bb3f-41e1-84d2-719ccb2b214c` | telecharge | refs réinjectées |
+| P5-1 | `2ebf884f-7b98-41d1-a1a4-ccc97a8bd23e` | telecharge | refs réinjectées |
+| P5-2 | `0401efe8-4874-4c0e-a813-07ae444cb29b` | telecharge | refs réinjectées |
+| P5-3 | `d7528b5f-d637-4ceb-bbe5-b8f89044c60f` | telecharge | refs réinjectées |
+
+### Clips (LTX‑2.5 22B distilled int8, RunPod, deux passes, 1280×704, 24 i/s, voix libres)
+
+| Clip | id ComfyUI | durée s | graine | statut | longueur |
+|---|---|---|---|---|---|
+| P1a-1 | `ede74e78-d694-43de-b2ba-e4af714c7079` | 2.38 | 9700 | rendu | 57 |
+| P1a-2 | `c69a1f74-f51f-43ac-985b-837581adf3ca` | 2.38 | 9701 | rendu | 57 |
+| P1a-3 | `78cc473d-f64e-4611-bff3-e827e60fe210` | 2.04 | 9702 | rendu | 49 |
+| P1a-4 | `5176259e-cc09-4656-9e3a-59a669285236` | 2.04 | 9703 | rendu | 49 |
+| P1b-1 | `7cbd3d2c-6bb1-476f-8826-876fbd177682` | 3.04 | 9704 | rendu | 73 |
+| P1b-2 | `f914acfa-5b58-4313-a4a2-7a4f56899a0c` | 3.04 | 9705 | rendu | 73 |
+| P1b-3 | `f96b2faf-dbf4-470d-bf77-bd7f2e550334` | 3.04 | 9706 | rendu | 73 |
+| P02 | `851a76eb-43b9-48a6-8451-30364819cbc1` | 8.04 | 9707 | rendu | 193 |
+| P03 | `2a3bd3e2-fb7c-492b-b150-a0484dde2a0a` | 9.04 | 9708 | rendu | 217 |
+| P4a-1 | `8ce4317d-92b7-4ee1-bb0b-5cdf08a94c6e` | 3.04 | 9709 | rendu | 73 |
+| P4a-2 | `e870ea56-c254-4a0c-9fa8-0b1eaad38bc0` | 3.04 | 9710 | rendu | 73 |
+| P4a-3 | `6dfe52ca-33ca-401e-a81a-31aadc59c107` | 4.04 | 9711 | rendu | 97 |
+| P4b-1 | `98102b03-ba53-43be-9d58-3d56e0195526` | 3.38 | 9712 | rendu | 81 |
+| P4b-2 | `0534485c-58b5-4fce-9149-b79ac31e4047` | 3.38 | 9713 | rendu | 81 |
+| P4b-3 | `387fba08-6c8b-474b-af01-cb0e9321a159` | 3.04 | 9714 | rendu | 73 |
+| P5-1 | `824f2d76-66ed-49ed-aa3f-bd713aa67b12` | 2.38 | 9715 | rendu | 57 |
+| P5-2 | `252da639-3d6a-49e7-869a-8232c12e147c` | 3.04 | 9716 | rendu | 73 |
+| P5-3 | `19af2a7f-956c-4131-b6ff-4fd0aae1ffe2` | 2.38 | 9717 | rendu | 57 |
+
+Montage : `montages/montage_StyleP_v7.mp4`, 62,8 s. Pod `jws14sbc01vm9b` (A100), terminé.

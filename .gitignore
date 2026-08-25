@@ -14,3 +14,7 @@ _test_*/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# caches python
+__pycache__/
+*.pyc

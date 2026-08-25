@@ -78,8 +78,11 @@ exposent une **API compatible S3** (`s3api-<datacenter>.runpod.io`, clés `RUN_P
 `.env`) : on peut **téléverser les modèles sur le volume sans GPU allumé** (aws cli / boto3 depuis la machine locale, ou un
 pod CPU), puis monter le volume sur `/workspace` et pointer `extra_model_paths.yaml` de ComfyUI dessus — bootstrap réduit à
 l'installation de ComfyUI. Même chose dans l'autre sens : écrire les sorties sur le volume et les **rapatrier par S3 sans GPU**.
-À faire avant la prochaine session de rendu : (1) agrandir ou recréer le volume (l'actuel `atelier-modeles`, EU-RO-1, est plein
-à 77 %) ; (2) y déposer LTX‑2.5 (~55 Go) par S3 ; (3) adapter le bootstrap pour lier `/workspace/models` au lieu de télécharger.
+**Fait le 25 août 2026, et mesuré le 26** : volume `atelier-modeles` (`o6g76dr9cj`, EU-RO-1) agrandi de 100 à 200 Go, LTX‑2.5
+déposé dessus (**37 Go réels** : transformer int8, encodeur Gemma, deux VAE, upsampler), bootstrap réécrit
+(`docs/runpod/bootstrap_pod_ltx25_volume.sh` : ne télécharge que ce qui manque, écrit `extra_model_paths.yaml`, lance ComfyUI
+avec `--output-directory /workspace/out`). Résultat sur le pilote style P : **pod prêt en ~2 min au lieu de ~45 min**, ~1,6 $ de
+GPU pour 18 clips au lieu de ~4 $.
 Limite connue : l'API S3 RunPod n'existe que dans certains datacenters (EU-RO-1 en fait partie) et le débit d'upload depuis la
 machine locale devient le facteur limitant pour les gros fichiers.
 
@@ -87,3 +90,9 @@ machine locale devient le facteur limitant pour les gros fichiers.
 * les **sorties de génération** (mp4, PNG master) se téléchargent depuis le volume par S3 puis se **suppriment du volume** une fois rapatriées ;
 * on **garde sur le volume tout ce qui est réutilisable** : les modèles (LTX‑2.5, encodeurs, VAE, upsampler, LoRA), les images clés 1280×704, les références, les workflows — pour que la session suivante démarre sans re‑téléchargement ;
 * avant chaque session de rendu : vérifier le contenu du volume par S3 (sans GPU), compléter ce qui manque, monter le volume sur le pod (`/workspace`) et pointer ComfyUI dessus (`extra_model_paths.yaml` ou liens symboliques) — le bootstrap ne doit plus rien télécharger de lourd.
+
+**Outil et pièges** (`docs/scripts/runpod_s3.py` — `ls`, `up`, `dl`, `rm`, `rmdir`, boto3 `signature_version="s3v4"`) :
+* **`DeleteObjects` (suppression par lot) répond 307 Temporary Redirect** sur l'API S3 RunPod → supprimer objet par objet (`rmdir` le fait) ;
+* le **redimensionnement d'un volume passe par REST** : `PATCH https://rest.runpod.io/v1/networkvolumes/{id}` avec `{"size": 200}` ; la mutation GraphQL `updateNetworkVolume` renvoie 400 ;
+* le bucket S3 **est l'id du volume**, pas son nom ;
+* l'upscaler latent se range dans `latent_upscale_models/`, pas `upscalers/` — sinon ComfyUI ne le voit pas.
