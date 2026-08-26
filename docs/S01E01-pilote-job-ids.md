@@ -552,3 +552,18 @@ Style P = le rendu « série animée moderne » des trois images d'essai retenue
 | P5-3 | `19af2a7f-956c-4131-b6ff-4fd0aae1ffe2` | 2.38 | 9717 | rendu | 57 |
 
 Montage : `montages/montage_StyleP_v7.mp4`, 62,8 s. Pod `jws14sbc01vm9b` (A100), terminé.
+
+### Reprises du 26 août 2026 (RÈGLE 37, visages de foule)
+
+| Asset | job_id de génération | media_id | note |
+|---|---|---|---|
+| Foule_StyleP v2 | `b681d57e-4bb7-486c-97b8-d7784f057d1f` | `0ce73829-e600-4209-a57a-dc20c3ae7b0f` | têtes strictement de dos, fond gris uni ; remplace `5b59cff5…` |
+| P1a-1 | `ff086062-5d00-4991-a7f2-9f60474b427d` | — | clé v2 |
+| P1a-2 | `a5779c82-e143-4cc1-809a-e2e1d3a85e01` | — | clé v2 |
+| P1a-4 | `81bbdb35-86fd-4418-8695-da174be34ba2` | — | clé v2 |
+| P1b-1 | `7c639dd2-c84a-4b31-9092-c82a55c506db` | — | clé v2 |
+| P1b-2 | `d5978a58-ff76-4d79-8e3a-662bee165bcb` | — | clé v2 |
+| P02 | `bf2e810f-c1be-4128-ab30-7ea6c4d073c1` | — | clé v2, négative anti-aplat seule |
+| P4a-2 | `a4285437-547c-4f5f-a21b-d139e9e5dae9` | — | clé v2 |
+
+Clips re-rendus sur le pod `8jp8jagqnhbmk2` (RTX PRO 6000 Blackwell), mêmes graines et mêmes longueurs qu'au premier passage : P1a-1 `2aaeae91…`, P1a-2 `86c8b9a1…`, P1a-4 `a5a69f2f…`, P1b-1 `895cb347…`, P1b-2 `66caee6d…`, P02 `566792b9…`, P4a-2 `56698edc…`.

@@ -61,8 +61,12 @@ def main():
         s3.upload_file(args[1], vol, args[2])
         print("téléversé", args[2], os.path.getsize(args[1]))
     elif cmd == "dl":
+        # download_file appelle HeadObject, que l'API S3 de RunPod refuse (403) : on lit le corps directement.
         Path(args[2]).parent.mkdir(parents=True, exist_ok=True)
-        s3.download_file(vol, args[1], args[2])
+        corps = s3.get_object(Bucket=vol, Key=args[1])["Body"]
+        with open(args[2], "wb") as f:
+            for morceau in iter(lambda: corps.read(1024 * 1024), b""):
+                f.write(morceau)
         print("téléchargé", args[2], os.path.getsize(args[2]))
     elif cmd == "rm":
         s3.delete_object(Bucket=vol, Key=args[1]); print("supprimé", args[1])

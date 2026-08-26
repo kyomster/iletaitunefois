@@ -540,3 +540,18 @@ Demande de Guillaume : « peux‑tu faire le pilote de 70 secondes en style P ? 
 **Contrôle du montage** : la continuité tient sur les 63 secondes (parc → ballon → foule → pari → refus de Garnerin → montée → vue de Paris → corde tranchée) ; pas de coupe parasite dans P02 cette fois. Réserve à signaler : **le ballon change d'aspect entre les plans lointains 4b** (rayé beige puis rayé orangé, vers 41‑44 s) — écart hérité des clés, invisible en clé isolée, visible en montage ; à corriger par une planche de référence « ballon » réinjectée sur tous les plans 4b si le style P est retenu.
 
 **Première application de la bonne pratique S3** : modèles LTX‑2.5 déposés une fois sur le volume réseau (37 Go sur `/workspace/models`, `docs/runpod/bootstrap_pod_ltx25_volume.sh`), donc **le pod démarre sans rien télécharger** ; les 18 sorties ont été écrites sur le volume, rapatriées par `docs/scripts/runpod_s3.py`, puis **supprimées du volume** ; modèles et références conservés. Coût : ~1 h de A100 ≈ 1,6 $ (contre ~45 min de téléchargement facturés à chaque pod auparavant), 46 crédits Higgsfield (5 références + 18 clés + 1 reprise).
+
+### Correction du 26 août 2026 — les figurants sortaient avec le visage noirci (RÈGLE 37)
+
+Retour de Guillaume sur le montage : « le visage des personnages est tout noir quand ils sont en fond ». Vérifié sur la planche `Foule_StyleP` puis sur les sept plans qui la réinjectent : partout où un figurant laissait voir un bout de joue, le style remplissait la zone d'un **aplat noir**, qui débordait sur les mains. Les planches A et D, avec les mêmes mots, n'ont pas le défaut — c'est la rencontre de la formulation « aucun trait de visage » avec un style à deux ou trois tons par zone qui produit le noircissement. RÈGLE 37 écrite, variante d'identité `P` ajoutée au générateur, fond neutre durci (la planche était sortie sur un ciel dégradé au lieu du gris uni de la RÈGLE 15).
+
+Reprises : **1 planche + 7 clés** (P1a-1, P1a-2, P1a-4, P1b-1, P1b-2, P02, P4a-2 — 16 crédits) et **7 clips re-rendus**. Contrôlé sur planche-contact : plus aucun visage noirci, toutes les têtes de foule strictement de dos, et les deux badauds nommés gardent leur visage sur P02 (la partie anti-aplat de la négative y est conservée alors que le reste en est retiré depuis le 22 août). Vérifié aussi que les reprises n'aggravaient pas la continuité du ballon : il reste dans la même famille que les onze plans intacts.
+
+Montage refait : `montages/montage_StyleP_v7.mp4`, 62,8 s, les quatre répliques toujours mot pour mot à la transcription.
+
+Trois enseignements d'outil, consignés parce qu'ils reviendront :
+* **un défaut de planche n'est jamais isolé** — il est multiplié par le nombre de réinjections (RÈGLE 1) : une planche à 2 crédits en a coûté 16 et sept clips ;
+* l'API S3 de RunPod refuse **`HeadObject`** (403), donc `download_file` de boto3 échoue ; `runpod_s3.py dl` lit désormais `get_object` directement ;
+* elle est adossée à un **vrai système de fichiers** : `DeleteObject` sur un dossier non vide échoue, la suppression se fait par profondeur décroissante ; `rmdir` corrigé en conséquence.
+
+Rendu : pod RTX PRO 6000 Blackwell `8jp8jagqnhbmk2`, **28 secondes par clip** (contre ~1 min sur A100), obtenu à la sixième tentative — EU-RO-1 n'avait aucune capacité pendant quinze minutes, et comme le volume et ses 37 Go de modèles y résident, attendre coûte moins cher que déménager. Pod terminé, sorties supprimées du volume.
