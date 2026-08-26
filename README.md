@@ -26,6 +26,7 @@ docs/
   runpod/                             les graphes ComfyUI (format API) I2V et FLF2V tels qu'exécutés
   S01E01-scenario.md                  les 79 plans, le minutage, les 14 gags
   SPEC-studio-v7-ecarts-avec-notre-process.md   ce que la spec du studio ne couvre pas de notre chaîne image et vidéo
+  SPEC-studio-v7-amendement-C.md      l'amendement qui ajoute à la spec les fonctionnalités manquantes
   novelcrafter/                       le roman en prose (27 000 mots, 79 scènes), le manuscrit technique, la charte de prose, les entrées de Codex, le mode d'emploi
   S01E01-plan-de-production.md        diagnostic, roster, tableau révisé, prompts du pilote
   PIPELINE-video-et-voix.md           rendu ComfyUI sur RunPod, voix ElevenLabs, montage, budget
