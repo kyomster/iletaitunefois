@@ -80,7 +80,7 @@ PLANS_A_BANNIERES = {"P1a-3"}
 # donnent deux ballons dans l'image, comme la nacelle l'avait fait le 24 août sur 1b-2.
 CLAUSE_BALLON = ("ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape "
                  "and identical stripe colours, no second balloon anywhere in the frame")
-PLANS_A_BALLON = {"P1a-1", "P1a-2", "P1a-3", "P1a-4", "P1b-1", "P1b-2", "P1b-3", "P02", "P4a-1", "P4a-2", "P4a-3"}
+PLANS_A_BALLON = {"P1a-1", "P1a-2", "P1a-3", "P1a-4", "P1b-1", "P1b-2", "P02", "P4a-1", "P4a-2", "P4a-3"}
 
 # ---------------------------------------------------------------- durcissements de cadrage (24 août 2026)
 # Deux plans ont raté leur cadrage à l'audit du pilote, et dans les deux cas le modèle a rendu un plan
@@ -90,6 +90,9 @@ PLANS_A_BALLON = {"P1a-1", "P1a-2", "P1a-3", "P1a-4", "P1b-1", "P1b-2", "P1b-3",
 CADRAGE_DURCI = {
     "P5-1": "The frame is filled edge to edge by the hand, the forearm and the woven side of the basket seen from very close; no face, no head, no shoulders and no full body anywhere in the frame.",
     "P1a-3": "The camera is tilted steeply upward from directly below; the crown of the balloon fills the upper half of the frame and the ground is not visible at all.",
+    # 26 août 2026 : avec la planche Ballon réinjectée, le plan est passé du gros plan sur trois badauds à un
+    # plan large de foule, qui répétait le cadrage de 1a-4 et de 1b-1. Le nombre et l'échelle se prescrivent.
+    "P4a-2": "EXACTLY THREE onlookers are visible and no one else, seen from close behind at shoulder height, their heads and shoulders filling the lower half of the frame; no fourth figure anywhere, no wide crowd.",
 }
 
 # ---------------------------------------------------------------- point 4 : négatives
@@ -232,7 +235,7 @@ BRIQUES = [
 # ---------------------------------------------------------------- références par plan (runbook §4.1, ordre décor puis personnages)
 REFS = {
     "P1a-1": ["D01", "Foule", "Ballon"], "P1a-2": ["D01", "Foule", "Ballon"], "P1a-3": ["D01", "Ballon"], "P1a-4": ["D01", "Foule", "Ballon"],  # 1a-2 : Foule ajoutée le 22 août 2026 (audit : dérive des figurants sans référence en A et B)
-    "P1b-1": ["D01", "Foule", "Ballon"], "P1b-2": ["D01", "Foule", "Ballon"], "P1b-3": ["D01", "Ballon"],
+    "P1b-1": ["D01", "Foule", "Ballon"], "P1b-2": ["D01", "Foule", "Ballon"], "P1b-3": ["D01"],  # 1b-3 : pas de planche Ballon, la brique le veut hors champ et la référence le faisait entrer (RÈGLE 1)
     "P02": ["D01", "Parieurs", "Foule", "Ballon"], "P02a": ["D01", "Parieurs"], "P02b": ["D01", "Parieurs"],
     "P03": ["D01", "Garnerin"],
     "P4a-1": ["D01", "Ballon"], "P4a-2": ["D01", "Foule", "Garnerin", "Ballon"], "P4a-3": ["D01", "Ballon"],  # 4a-1 : D01 seul depuis le 22 août 19 h (plus de personnage dans la brique)

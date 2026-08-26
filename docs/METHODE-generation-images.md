@@ -626,6 +626,18 @@ D'où l'étape à tenir, avant toute génération de clés :
 
 Le contrôle qui va avec est mécanique : **un élément listé en continuité sans planche associée est un défaut de préparation**, au même titre qu'un personnage à fiche sans référence (RÈGLE 27).
 
+### Corollaire de la RÈGLE 36 — une planche réinjectée fait ENTRER son sujet dans le champ
+
+La planche de ballon posée sur les onze plans qui le montrent a réglé la continuité d'un coup : même enveloppe, mêmes fuseaux, même nacelle, du plan large au plan lointain. Elle a aussi produit deux effets qu'il faut anticiper.
+
+**Un plan qui doit exclure l'objet ne reçoit pas sa planche.** La brique de 1b-3 dit `the balloon is directly above this basket and out of frame` : c'est un gros plan sur les nœuds, le ballon est hors champ par construction. Avec la planche réinjectée, le ballon est entré dans l'image. La référence ne dit pas seulement « voilà à quoi il ressemble », elle dit « il est là » (RÈGLE 1). Donc **on réinjecte une planche d'objet uniquement sur les plans où l'objet doit être visible** ; sur les autres, la description suffit et la continuité n'est pas en jeu puisqu'on ne le voit pas.
+
+**Ajouter une référence déplace le cadrage.** Le plan 4a-2, un gros plan sur trois badauds de dos, est devenu un plan large de foule dès que la planche de ballon a été ajoutée : le modèle compose pour faire tenir le nouvel objet. Le nombre et l'échelle se reprennent alors en positif, `EXACTLY THREE onlookers are visible and no one else, seen from close behind at shoulder height`, sinon la variété de cadrages du montage se perd — trois plans successifs finissent par se ressembler.
+
+Coût de la passe, à retenir pour chiffrer les suivantes : 1 planche + 11 clés + 2 reprises = 28 crédits, et 11 clips à re-rendre pour un seul objet mis en continuité.
+
+---
+
 ## RÈGLE 37 — sur un style à aplats, demander l'absence de traits donne un visage noirci : on retire la zone, pas les traits
 
 Guillaume, sur le pilote en style P : « le visage des personnages est tout noir quand ils sont en fond ». Vérifié : partout où un figurant laisse voir un bout de joue, le style P remplit la zone d'un **aplat noir** — sur la planche `Foule_StyleP` d'abord, puis sur les sept plans qui la réinjectent. Le noir déborde même sur les mains, qui sortent en brun très sombre.

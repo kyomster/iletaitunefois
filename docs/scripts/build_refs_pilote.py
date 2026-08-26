@@ -81,11 +81,15 @@ IDENT = {
 }
 # Objets de continuité : planche d'objet seul sur fond neutre, réinjectée au rang accessoires (RÈGLE 36).
 OBJETS = {
-    "Ballon": ("Scene: the object alone: a large inflated hydrogen balloon of 1797, tall rounded envelope of varnished silk "
-               "in undyed cream with evenly spaced vertical stripes in muted brick red, a wide net of ropes thrown over the "
-               "envelope, a wooden hoop below it, a round wicker basket hanging from the hoop by four ropes, mooring rope "
-               "trailing from the basket, {fond}. Framing: the whole object seen from top to bottom at the same scale, "
-               "slight low angle. Characters: none, absolutely no person anywhere in the frame."),
+    # Décrit d'après les clés déjà validées (P1a-3 au plus près), pas inventé : la planche doit ramener les plans
+    # vers le ballon qui existe déjà à l'écran, pas en imposer un nouveau.
+    "Ballon": ("Scene: the object alone: a large inflated hydrogen balloon of 1797, tall rounded envelope narrowing toward the "
+               "bottom, made of alternating vertical silk gores in dusty rose and pale sage green, each gore ending in a pointed "
+               "lancet arch at the widest part of the envelope, a diamond mesh rope net thrown over the upper half, a horizontal "
+               "rope band circling the envelope at its widest point, the suspension ropes converging below to a wooden hoop, a "
+               "round wicker basket hanging from the hoop, a mooring rope trailing from the basket, {fond}. Framing: the whole "
+               "object seen from top to bottom, centred in frame, slight low angle. Characters: none, absolutely no person "
+               "anywhere in the frame."),
 }
 CADRAGE = {"Foule": "Framing: full body group, all figures at the same scale.",
            "Garnerin": "Framing: character sheet, four full body views in a row at the same scale.",
@@ -99,7 +103,7 @@ def assemble_ref(nom, style):
         body = DECORS[nom]
         negs = [NEG_STYLE[style], NEG_EPOQUE, NEG_UNIVERSELLE]
     elif nom in OBJETS:
-        body = OBJETS[nom].format(fond=FOND)
+        body = OBJETS[nom].format(fond=fond)
         negs = [NEG_STYLE[style], NEG_EPOQUE, NEG_UNIVERSELLE]
     else:
         body = f"Scene: {IDENT[nom].get(variant, IDENT[nom]['AC'])}, {fond}. {CADRAGE[nom]}"
