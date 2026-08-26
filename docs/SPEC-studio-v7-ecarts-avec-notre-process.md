@@ -30,13 +30,13 @@ Quatorze écarts, classés. Les cinq premiers empêchent la base de détenir la 
 
 **Ce qui manque.** Deux choses. D'abord le prompt vidéo assemblé doit être un `Asset` de plein droit, avec son `promptPos`, son `promptNeg` et son empreinte, comme le prompt d'image. Ensuite **une modification de `Line.text` doit périmer tous les clips dont le prompt la cite** : il faut un lien `LineRef` entrant dans le `promptHash`. Aujourd'hui, corriger une réplique laisserait en place un clip qui dit l'ancienne, et rien ne le signalerait.
 
-## A.3 La voix générée dans le clip n'a pas de place
+## A.3 La spec ne prévoit pas la voix générée dans le clip
 
-**Ce que fait notre chaîne.** La méthode retenue le 24 août est **la voix libre générée avec l'image** par LTX-2.5 : pas de prise séparée, la voix naît dans le clip, avec l'acoustique de la scène, et les lèvres suivent. C'est précisément ce qui a fait écarter nos prises ElevenLabs, jugées « studio avec de l'écho ». Deux autres modes restent techniquement validés : l'audio gelé IA2V, qui impose notre piste ElevenLabs telle quelle, et la voix référencée par ID-LoRA, une voix par rendu.
+**Ce que fait notre chaîne.** La méthode retenue le 24 août, et validée depuis sur six montages, est **la voix libre générée avec l'image** par LTX-2.5 : pas de prise séparée, la voix naît dans le clip, avec l'acoustique de la scène, et les lèvres suivent. C'est précisément ce qui a fait écarter nos prises ElevenLabs, jugées « studio avec de l'écho ». Deux autres modes restent techniquement validés : l'audio gelé IA2V, qui impose notre piste ElevenLabs telle quelle, et la voix référencée par ID-LoRA, une voix par rendu.
 
 **Ce que prévoit la spec.** `lipSyncAutorise: false` dans le format ; « une prise par réplique, jamais un fichier fleuve » ; un `Asset` de kind `VOICE_TAKE` rattaché à une `Line` ; les 106 prises de S01E01 comme critère d'acceptation du lot 5. Le modèle suppose que le son est fabriqué à part et posé au montage.
 
-**Ce qui manque.** Un `voiceMode` déclaré par programme ou par saison — `EXTERNE`, `INTEGREE`, `GELEE` — parce que les contrôles diffèrent radicalement selon le mode : en `INTEGREE` il n'y a pas de prise à auditer, il y a un clip à transcrire ; en `GELEE` la prise existe et doit être retrouvée intacte dans le clip. En l'état, l'import de S01E01 produirait 106 prises attendues qui n'existent pas, et le lot 5 échouerait sur un critère devenu faux.
+**Ce qui manque.** Un `voiceMode` déclaré par programme ou par saison — `EXTERNE`, `INTEGREE`, `GELEE` — parce que les contrôles diffèrent radicalement selon le mode : en `INTEGREE` il n'y a pas de prise à auditer, il y a un clip à transcrire ; en `GELEE` la prise existe et doit être retrouvée intacte dans le clip. En l'état, l'import de S01E01 produirait 106 prises attendues qui n'existent pas, et le lot 5 échouerait sur un critère devenu faux. Le manque est bien du côté de la spec : notre méthode est arrêtée, c'est le modèle de données qui décrit encore la chaîne ElevenLabs d'avant le pilote.
 
 ## A.4 La conformité d'une réplique se vérifie par transcription, et ce contrôle n'existe pas
 
@@ -134,7 +134,7 @@ Les clés du chapitre 6 décrivent l'image (`resolutionImage: "2k"`, `ratio: "16
 |---|---|---|---|
 | A.1 | Graphe et moteur vidéo non modélisés | bloquant | modèle `Engine` versionné, entrant dans l'empreinte et la péremption |
 | A.2 | Prompt vidéo non stocké, dépendance `Line` → clip absente | bloquant | prompt vidéo en `Asset`, `LineRef` dans le `promptHash` |
-| A.3 | Voix générée dans le clip sans place | bloquant | `voiceMode` : `EXTERNE`, `INTEGREE`, `GELEE` |
+| A.3 | La spec ne prévoit que la prise séparée, pas la voix générée dans le clip | bloquant | `voiceMode` : `EXTERNE`, `INTEGREE`, `GELEE` |
 | A.4 | Aucun contrôle texte attendu / texte entendu | bloquant | `Transcript` + alerte d'écart, levable à l'oreille |
 | A.5 | Fichiers dérivés non modélisés | bloquant | `DerivedFile` avec source, outil, paramètres, rôle |
 | B.1 | Éléments de continuité sans planche | important | alerte calculée + roster livrant la planche |
