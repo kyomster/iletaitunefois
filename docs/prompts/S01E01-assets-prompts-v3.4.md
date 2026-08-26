@@ -396,6 +396,78 @@ Assembly rule : `[DECOR OPENER of the chosen style] + [PERIOD TREATMENT if ÉPOQ
 * **Garnerin's balloon and basket** (strict continuity, plans 1, 2, 3, 4, 5, 6, 60, 61, 62, 63) : `[PERIOD TREATMENT + STYLE OPENER], a large inflated hydrogen balloon of 1797, tall rounded envelope of varnished silk in undyed cream with evenly spaced vertical stripes in muted brick red, a wide net of ropes over the envelope, a hoop below it, a round wicker basket hanging from the hoop, alone on a plain neutral background, the whole object visible from top to bottom` — the reference that was missing from the pilot : the balloon was described in words on each shot and came out striped cream on the near shots and striped orange on the distant 4b shots. Reinject it on every shot listed above, at the props rank.
 * **La Loubère engraved plate** (plan 58) : `an original engraving plate in the style of 17th century book illustration, acrobats jumping under large parasols, readable title Du royaume de Siam, no reproduction of any existing engraving, aged paper tone`
 
+
+# 7. OBJETS DE CONTINUITÉ — descriptions canoniques
+
+Écrit le 26 août 2026, après la dérive du ballon puis de la nacelle sur le pilote. **Application de la RÈGLE 38** : un nom commun n'est pas une description. Chaque objet ci-dessous porte sa forme, sa structure, sa matière, ses couleurs nommées en positif, son détail distinctif, et ce qu'il n'a pas. Ces descriptions sont la source des planches de référence (`docs/scripts/build_refs_pilote.py`, dictionnaire `OBJETS`) et se recopient telles quelles dans les prompts qui montrent l'objet sans le réinjecter.
+
+Trois statuts : **VALIDÉ** = une planche existe et a été contrôlée ; **À GÉNÉRER** = la description est arrêtée, la planche reste à faire ; **À ARBITRER** = la description est une proposition, elle attend l'avis de Guillaume.
+
+## 7.1 Ballon de Garnerin — VALIDÉ (plans 1 à 6, 60 à 63)
+
+Grand ballon à hydrogène de 1797. **Forme** : enveloppe haute et arrondie, plus haute que large, se resserrant vers le bas en un long cône de cordes. **Structure** : fuseaux verticaux de soie assemblés bord à bord, chaque fuseau se terminant en **pointe d'arc** à l'endroit le plus large de l'enveloppe ; un filet de cordes en losanges jeté sur la moitié haute ; une bande de corde horizontale ceinturant l'enveloppe à son plus grand diamètre ; les suspentes convergent sous l'enveloppe vers un cercle de bois d'où pend la nacelle. **Matière** : soie vernie, cordage de chanvre clair, cercle de bois brut. **Couleurs** : fuseaux **alternés rose poussiéreux et vert sauge**, filet et cordages en chanvre naturel. **Détail distinctif** : l'alternance des deux couleurs et les pointes en arc à l'équateur. **Ce qu'il n'a pas** : pas de rayures orangées, pas d'enveloppe unie, pas de nacelle rectangulaire, pas de brûleur — c'est un ballon à gaz, pas une montgolfière.
+Bannières : **uniquement au plan 1a-3**, en tissu uni sans emblème ni lettrage (RÈGLE 33).
+
+## 7.2 Nacelle — VALIDÉ (plans 1 à 6, 60 à 63)
+
+**Forme** : nacelle **ronde** et profonde, plus haute que large, à fond plat. **Structure** : osier tressé en **bandes horizontales régulières** ; **rebord roulé épais entouré de corde** faisant tout le tour du haut ; quatre cordes de suspension partant du rebord aux quarts et nouées à des anneaux de fer ; deux petits sacs de lest accrochés à l'extérieur contre la paroi ; à l'intérieur, un plancher d'osier tressé, nu. **Matière** : osier naturel couleur miel, corde de chanvre, anneaux de fer forgé. **Détail distinctif** : le bourrelet de corde du rebord et les deux sacs de lest. **Ce qu'elle n'a pas** : **pas de couvercle**, pas de forme rectangulaire, pas de panneaux, pas de poignées de panier de pique-nique, pas de second panier dans le champ.
+Contenu selon le plan : le paquet de soie au sol (plans 3 à 5), le couteau dans sa gaine contre la **paroi intérieure** (plan 5-1). Rien d'autre.
+
+## 7.3 Couteau de Garnerin — À GÉNÉRER (plan 5)
+
+Couteau de marin du Directoire. **Forme** : lame droite courte et large, environ la longueur d'une main, pointe légèrement tombante. **Structure** : lame d'un seul tenant, soie prise dans un manche de bois à deux plaquettes rivetées, virole de laiton ; gaine de cuir fauve à passant, **fixée contre la paroi intérieure de la nacelle**, jamais à la ceinture. **Matière** : acier gris mat, bois sombre, laiton terni, cuir. **Détail distinctif** : la gaine de cuir plaquée sur l'osier. **Ce qu'il n'a pas** : pas de lame courbe, pas de couteau pliant, pas de poignard d'apparat, pas de garde.
+
+## 7.4 Paquet puis voilure de soie — À GÉNÉRER (plans 3 à 6, 60 à 63)
+
+Le parachute, dans ses deux états. **Paquet** (plans 3 à 5) : ballot de soie **écrue crème non teinte**, plié en un bloc bas et arrondi, ceinturé de deux sangles de toile, posé à même le plancher de la nacelle ; suspentes lovées dessus en couronne. **Voilure** (plans 6 et 60 à 63) : demi-sphère de trente-deux fuseaux de la même soie crème, un trou d'évent au sommet, les suspentes convergeant vers la nacelle sous elle. **Matière** : soie écrue mate, sangles de lin, suspentes de chanvre clair. **Détail distinctif** : la couleur crème non teinte, identique dans les deux états, qui la distingue du ballon coloré. **Ce qu'il n'a pas** : pas de couleur vive, pas de motif, pas de parachute moderne rectangulaire, pas de harnais de corps.
+
+## 7.5 Sacoche de Sam — À ARBITRER (tout l'épisode, plans 9 à 73)
+
+**Forme** : besace rectangulaire à rabat, portée en bandoulière, plus large que haute, souple et gonflée par l'usage. **Structure** : rabat couvrant les deux tiers, fermé par deux sangles à boucles de laiton ; une longue bandoulière réglable ; un soufflet sur chaque côté ; une poche plate au dos. **Matière** : cuir vieilli assoupli, coutures apparentes, laiton terni. **Couleurs** : cuir brun tabac, **couvert d'étiquettes de voyage** aux couleurs passées, collées de travers et se recouvrant. **Détail distinctif** : les étiquettes, dont la densité augmente au fil de la saison. **Ce qu'elle n'a pas** : pas de logo lisible, pas de texte lisible sur les étiquettes (RÈGLE universelle : aucun lettrage), pas de sac à dos, pas de fermeture éclair.
+
+## 7.6 Les neuf objets de la table — À ARBITRER (plans 9, 23, 29, 34, 37, 63, 64, 67, 69, 72, 73)
+
+Continuité majeure : la table se vide objet par objet, chacun revient en insert. Chaque objet est **posé seul sur le bois chaud de la table**, éclairé de la même façon, à la même échelle relative.
+
+* **Pétard** — tube de papier rouge sombre roulé serré, de la longueur d'un doigt, mèche de coton beige tressée sortant par le haut, extrémités pincées et repliées. Pas de dessin, pas d'étiquette.
+* **Carte à jouer** — carte de papier épais aux angles arrondis et usés, dos à motif géométrique rouge et crème sans texte, face montrant une figure peinte à la main dans un style Tang, encres minérales. Pas de chiffre, pas de lettre, pas d'index d'angle.
+* **Boussole** — boîtier rond de laiton de la taille d'une paume, couvercle à charnière ouvert, cadran d'ivoire jauni, aiguille d'acier bleui montée sur pivot, rose des vents gravée sans lettres. Pas de verre bombé moderne, pas de graduations chiffrées.
+* **Cerf-volant de poche** — petit losange de papier huilé translucide sur deux baguettes de bambou croisées, queue de trois nœuds de papier, bobine de fil de lin. Version réduite du hibou de papier, même famille de matière.
+* **Carré de soie** — carré de soie écrue non teinte, replié en quatre, bords laissés bruts, léger lustre. Même soie que la voilure du parachute, c'est le point de raccord de l'épisode.
+* **Allumette** — tige de bois clair fendue, tête arrondie de composition brun-rouge mate, longueur d'un doigt. Pas de boîte, pas de frottoir.
+* **Billet ancien** — rectangle de papier de mûrier fin et souple, plus grand qu'une carte, gris-beige, marqué d'un cadre imprimé et d'un sceau rouge vermillon, **aucun caractère lisible**. Bords irréguliers, plis marqués en trois.
+* **Petit soc** — soc de charrue en fonte, triangulaire, à emplanture creuse, patiné et piqué de rouille, tenant dans une main. Pas de manche, pas de bois.
+* **Fer d'attelage** — pièce de fer forgé courbe en forme de collier ouvert, section carrée martelée, deux trous de rivet aux extrémités, patine sombre. C'est le collier d'épaule des plans 28 et 29 en réduction.
+
+## 7.7 Insert mutualisé « main et sacoche » — VALIDÉ dans la fiche §5
+
+Voir §5. La description ci-dessus de la sacoche s'y applique ; seul l'objet glissé dans la besace change d'une génération à l'autre.
+
+## 7.8 Hibou de papier — À ARBITRER (plans 44, 45, 47)
+
+Grand cerf-volant chinois en forme de hibou. **Forme** : envergure de deux bras, ailes déployées horizontalement, corps trapu, tête ronde marquée de deux disques concentriques. **Structure** : armature de bambou fendu ligaturée aux croisements, papier tendu et huilé, deux barres de préhension au dos, bride à trois fils. **Matière** : papier huilé translucide, bambou clair, ligatures de lin. **Couleurs** : papier ocre pâle, motifs de plumes peints à l'encre brune, disques des yeux cernés de noir. **Détail distinctif** : les deux disques concentriques des yeux, reconnaissables de loin. **Ce qu'il n'a pas** : pas de couleur vive, pas de queue de cerf-volant occidental, pas de plastique.
+
+## 7.9 Semoir à trois rangs et soc de fonte — À ARBITRER (plans 21, 22)
+
+**Forme** : châssis de bois bas, à deux mancherons, monté sur une roue pleine à l'avant ; trois tubes descendants parallèles. **Structure** : une trémie fermée surmonte les trois tubes ; chaque tube se termine par un petit soc de fonte ouvrant le sillon ; timon d'attelage à l'avant. **Matière** : bois brut assemblé à tenons, fonte grise, ferrures rivetées. **Détail distinctif** : les trois tubes parallèles et régulièrement espacés, qui rendent l'invention lisible d'un coup d'œil. **Ce qu'il n'a pas** : pas de roue à rayons de métal, pas de peinture, pas de mécanisme visible.
+
+## 7.10 Collier d'épaule — À ARBITRER (plans 28, 29)
+
+Harnais de trait chinois. **Forme** : collier rembourré épousant les épaules de l'animal, ouvert vers le bas. **Structure** : âme de bois cintrée, garnissage de paille et de feutre, gaine de cuir cousue, deux anneaux de fer aux extrémités pour les traits. **Matière** : cuir brun, feutre gris, fer forgé. **Détail distinctif** : le rembourrage épais qui repose sur l'épaule et non sur la gorge — c'est tout le sujet du plan. **Ce qu'il n'a pas** : pas de sangle serrant le cou, pas de métal apparent sur le dessus.
+
+## 7.11 Parasols et sacs des pillards — À ARBITRER (plans 55, 56)
+
+**Parasols** : grands parasols siamois en papier huilé tendu sur baguettes de bambou rayonnantes, manche long, papier ocre uni, bord légèrement retroussé, sans motif ni lettrage. **Sacs** : besaces de toile de chanvre écrue, nouées au col par une cordelette, déformées par leur contenu, tachées de terre.
+
+## 7.12 Tablette d'Elio, carnet de Naya, carnet de terrain de Sam — À ARBITRER (permanents)
+
+* **Tablette d'Elio** — plaque rectangulaire fine à coins arrondis, dos mat, écran éteint ou montrant un aplat uni **sans interface lisible**, aucune marque, aucun logo, aucun bouton visible.
+* **Carnet de Naya** — carnet cousu à couverture souple de toile enduite bleu ardoise, coins émoussés, élastique de fermeture, tranche visible des cahiers.
+* **Carnet de terrain de Sam** — carnet cartonné brun-sable, plus petit et plus épais, couverture tachée et cornée, crayon glissé dans la reliure.
+Aucun texte lisible sur aucun des trois (négative universelle).
+
+---
+
 # 6. GENERATION COUNT PER STYLE
 
 * 2 full turnaround sheets (Garnerin, Yuan Huangtou)

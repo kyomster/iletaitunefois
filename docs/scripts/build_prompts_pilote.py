@@ -80,7 +80,14 @@ PLANS_A_BANNIERES = {"P1a-3"}
 # donnent deux ballons dans l'image, comme la nacelle l'avait fait le 24 août sur 1b-2.
 CLAUSE_BALLON = ("ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape "
                  "and identical stripe colours, no second balloon anywhere in the frame")
-PLANS_A_BALLON = {"P1a-1", "P1a-2", "P1a-3", "P1a-4", "P1b-1", "P1b-2", "P02", "P4a-1", "P4a-2", "P4a-3"}
+PLANS_A_BALLON = {"P1a-1", "P1a-2", "P1a-3", "P1a-4", "P1b-1", "P1b-2", "P02", "P4a-1", "P4a-2", "P4a-3", "P5-1", "P5-2", "P5-3"}
+# 26 août 2026, RÈGLE 36 sur le deuxième objet de continuité : la nacelle changeait de forme d'un plan à l'autre
+# (ronde à rebord épais, rectangulaire à couvercle, rectangulaire à panneaux). Planche à deux vues, extérieure et
+# intérieure, parce que la moitié des plans la montrent de l'intérieur.
+CLAUSE_NACELLE = ("ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured "
+                  "wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags "
+                  "outside; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame")
+PLANS_A_NACELLE = {"P1a-1", "P1a-2", "P1a-4", "P1b-2", "P1b-3", "P02", "P03", "P4a-1", "P4b-1", "P4b-2", "P5-1", "P5-2", "P5-3"}
 
 # ---------------------------------------------------------------- durcissements de cadrage (24 août 2026)
 # Deux plans ont raté leur cadrage à l'audit du pilote, et dans les deux cas le modèle a rendu un plan
@@ -88,7 +95,9 @@ PLANS_A_BALLON = {"P1a-1", "P1a-2", "P1a-3", "P1a-4", "P1b-1", "P1b-2", "P02", "
 # gros plan sur la main, P1a-3 en K a donné le ballon au sol au lieu de la contre plongée sur la couronne.
 # `Framing: very close shot` et `low angle` ne suffisent pas seuls : on décrit ce que le cadre CONTIENT.
 CADRAGE_DURCI = {
-    "P5-1": "The frame is filled edge to edge by the hand, the forearm and the woven side of the basket seen from very close; no face, no head, no shoulders and no full body anywhere in the frame.",
+    # 26 août 2026 : le « edge to edge » contredisait le nouveau cadrage de 5-1, qui doit suivre la corde jusqu'au
+    # ballon (RÈGLE 39). On garde ce que la clause servait vraiment à interdire : un visage, une tête, un corps.
+    "P5-1": "No face, no head, no shoulders and no full body anywhere in the frame: only the hand, the forearm, the woven side of the basket, the rope and the sky.",
     "P1a-3": "The camera is tilted steeply upward from directly below; the crown of the balloon fills the upper half of the frame and the ground is not visible at all.",
     # 26 août 2026 : avec la planche Ballon réinjectée, le plan est passé du gros plan sur trois badauds à un
     # plan large de foule, qui répétait le cadrage de 1a-4 et de 1b-1. Le nombre et l'échelle se prescrivent.
@@ -223,24 +232,24 @@ BRIQUES = [
     # sur 5-2 et 5-3, et avait OUBLIÉ 5-1. En styles A, B et C ce plan est sorti correct par chance,
     # personne ne l'a vu. Développement ajouté, plus la clause anti second ballon de 1b-3 et 5-2.
         # P5-1 v2 (24 août 2026, Guillaume) : le bras vient de l'INTÉRIEUR de la nacelle — sur les clés précédentes il se lisait comme venant de l'extérieur, impossible
-    ("P5-1", "5", "Scene: seen from INSIDE the basket: Garnerin's arm in his dark sleeve comes from inside the basket and his hand takes hold of the knife sheathed against the inner wicker wall, the woven rim of the basket in the foreground, the taut rope rising overhead. Framing: very close shot from inside the basket. Decor: D2, the sky and the rooftops of Paris far below, out of focus beyond the rim, no other balloon and no other basket anywhere in the frame. Characters: [GARNERIN], one hand and forearm only, clearly reaching from inside the basket. Props: knife, inner wicker wall, taut rope."),
+    ("P5-1", "5", "Scene: seen from INSIDE the basket: Garnerin's arm in his dark sleeve comes from inside the basket and his hand takes hold of the knife sheathed against the inner wicker wall, the woven rim of the basket in the foreground, the taut suspension rope rising from the rim and climbing out of frame toward the balloon. Framing: close shot from inside the basket, tilted slightly up so the rope is followed upward and the underside of the balloon envelope shows at the very top of the frame. Decor: D2, the sky and the rooftops of Paris far below, out of focus beyond the rim, no other balloon and no other basket anywhere in the frame. Characters: [GARNERIN], one hand and forearm only, clearly reaching from inside the basket. Props: knife, inner wicker wall, taut rope."),
     # Briques 5-2 et 5-3 : « Decor: D2 » explicité le 22 août 2026 (en style A, sur ces très gros plans, le code D2 seul
 # donnait un mur ou un panneau « D2 » ; B et C avaient le ciel). Brique 5-2 amendée le 22 août 2026 (audit : corde déjà tranchée en A et C, RÈGLE 7/13). Version 1 :
 # "Scene: the blade sawing the taut rope, fibres springing free one by one. [...] Props: knife, rope, loose fibres."
         # P5-2 v3 (24 août 2026, Guillaume) : idem — la coupe se fait depuis l'intérieur, le rebord dans le cadre
-    ("P5-2", "5", "Scene: Garnerin's arm reaching up from INSIDE the basket, over the woven rim visible at the bottom of the frame, the blade sawing the taut rope above the rim, the rope still in ONE piece and taut, only a few outer fibres cut and springing free one by one, the blade halfway through. Framing: very close shot at a raking angle along the rope, the basket rim at the bottom. Decor: D2, the sky and the rooftops of Paris far below, out of focus behind. Characters: ONE hand only, Garnerin's hand in his dark sleeve reaching from inside the basket, no second hand, the taut rope is fixed to the rim of the basket. Props: knife, one unbroken rope, loose fibres, woven rim."),  # 5-2 : une seule main (22 août, deux manches différentes lues comme deux personnes)
-    ("P5-3", "5", "Scene: the rope giving way at once, the strands whipping the air. Framing: very close frontal shot on the break. Decor: D2, the sky and the rooftops of Paris far below, out of focus behind. Characters: none. Props: severed rope, whipping strands."),
+    ("P5-2", "5", "Scene: Garnerin's arm reaching up from INSIDE the basket, over the woven rim visible at the bottom of the frame, the blade sawing the taut rope above the rim, the rope still in ONE piece and taut, only a few outer fibres cut and springing free one by one, the blade halfway through. Framing: medium close shot from inside the basket at a low angle, the woven rim running across the bottom of the frame, the single taut rope rising diagonally from the rim and reaching the wooden hoop and the underside of the balloon, both clearly visible in the upper part of the frame, so that what the blade is cutting is the ONE rope holding this basket to that balloon. Decor: D2, the sky and the rooftops of Paris far below, out of focus behind. Characters: ONE hand only, Garnerin's hand in his dark sleeve reaching from inside the basket, no second hand, the taut rope is fixed to the rim of the basket. Props: knife, one unbroken rope, loose fibres, woven rim."),  # 5-2 : une seule main (22 août, deux manches différentes lues comme deux personnes)
+    ("P5-3", "5", "Scene: the rope giving way at once, the strands whipping the air, the cut end still attached to the basket rim dropping away at the bottom of the frame while the other cut end springs upward with the balloon, which leaps away and shrinks at the top of the frame. Framing: close frontal shot on the break, wide enough to hold both the basket rim at the bottom and the balloon rising away at the top. Decor: D2, the sky and the rooftops of Paris far below, out of focus behind. Characters: none. Props: severed rope, whipping strands, basket rim, balloon rising away."),
 ]
 
 # ---------------------------------------------------------------- références par plan (runbook §4.1, ordre décor puis personnages)
 REFS = {
-    "P1a-1": ["D01", "Foule", "Ballon"], "P1a-2": ["D01", "Foule", "Ballon"], "P1a-3": ["D01", "Ballon"], "P1a-4": ["D01", "Foule", "Ballon"],  # 1a-2 : Foule ajoutée le 22 août 2026 (audit : dérive des figurants sans référence en A et B)
-    "P1b-1": ["D01", "Foule", "Ballon"], "P1b-2": ["D01", "Foule", "Ballon"], "P1b-3": ["D01"],  # 1b-3 : pas de planche Ballon, la brique le veut hors champ et la référence le faisait entrer (RÈGLE 1)
-    "P02": ["D01", "Parieurs", "Foule", "Ballon"], "P02a": ["D01", "Parieurs"], "P02b": ["D01", "Parieurs"],
-    "P03": ["D01", "Garnerin"],
-    "P4a-1": ["D01", "Ballon"], "P4a-2": ["D01", "Foule", "Garnerin", "Ballon"], "P4a-3": ["D01", "Ballon"],  # 4a-1 : D01 seul depuis le 22 août 19 h (plus de personnage dans la brique)
-    "P4b-1": ["D02"], "P4b-2": ["D02", "Garnerin"], "P4b-3": ["D02"],
-    "P5-1": ["D02", "Garnerin"], "P5-2": ["D02"], "P5-3": ["D02"],
+    "P1a-1": ["D01", "Foule", "Ballon", "Nacelle"], "P1a-2": ["D01", "Foule", "Ballon", "Nacelle"], "P1a-3": ["D01", "Ballon"], "P1a-4": ["D01", "Foule", "Ballon", "Nacelle"],  # 1a-2 : Foule ajoutée le 22 août 2026 (audit : dérive des figurants sans référence en A et B)
+    "P1b-1": ["D01", "Foule", "Ballon"], "P1b-2": ["D01", "Foule", "Ballon", "Nacelle"], "P1b-3": ["D01", "Nacelle"],  # 1b-3 : pas de planche Ballon, la brique le veut hors champ et la référence le faisait entrer (RÈGLE 1)
+    "P02": ["D01", "Parieurs", "Foule", "Ballon", "Nacelle"], "P02a": ["D01", "Parieurs"], "P02b": ["D01", "Parieurs"],
+    "P03": ["D01", "Garnerin", "Nacelle"],
+    "P4a-1": ["D01", "Ballon", "Nacelle"], "P4a-2": ["D01", "Foule", "Garnerin", "Ballon"], "P4a-3": ["D01", "Ballon"],  # 4a-1 : D01 seul depuis le 22 août 19 h (plus de personnage dans la brique)
+    "P4b-1": ["D02", "Nacelle"], "P4b-2": ["D02", "Garnerin", "Nacelle"], "P4b-3": ["D02"],  # 4b-3 : la brique exclut la nacelle du champ
+    "P5-1": ["D02", "Garnerin", "Nacelle", "Ballon"], "P5-2": ["D02", "Nacelle", "Ballon"], "P5-3": ["D02", "Nacelle", "Ballon"],
 }
 PERSONNAGES = {"Foule", "Garnerin", "Parieurs"}
 
@@ -271,6 +280,8 @@ def assemble(name, bloc, brique, style, media_ids):
         body += f" {CLAUSE_BANNIERES}."  # RÈGLE 33, élargie à tous les styles le 25 août 2026 (ornements dorés en P)
     if name in PLANS_A_BALLON and "Ballon" in REFS[name]:
         body += f" {CLAUSE_BALLON}."  # RÈGLE 36 + RÈGLE 29
+    if name in PLANS_A_NACELLE and "Nacelle" in REFS[name]:
+        body += f" {CLAUSE_NACELLE}."  # RÈGLE 36 + RÈGLE 29
     if name in CADRAGE_DURCI:
         body += f" {CADRAGE_DURCI[name]}"
     refs = REFS[name]

@@ -60,9 +60,16 @@ STYLES_BLOC_REDUIT_OBLIGATOIRE = {"StyleB"}
 # D, J, K retenus le 23 août. Surchargeable par --styles=StyleD,StyleJ,StyleK.
 STYLES_DEFAUT = ("StyleA", "StyleB", "StyleC")
 
-NEG_MOUVEMENT = "photorealistic rendering, skin texture, smooth gradients, cut, scene change, camera shake, morphing, text, watermark, lip sync, mouth articulation, extra characters appearing"
+NEG_MOUVEMENT = "photorealistic rendering, skin texture, smooth gradients, cut, scene change, camera shake, morphing, text, watermark, lip sync, mouth articulation, extra characters appearing, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising"
 # Ajout du 22 août 2026 (premier lot : personnages et visages surgis dans des plans vides, 4 clips sur 19) :
 NEG_PRESENCE = "new character entering the frame, person appearing, face appearing, giant face, ghost figure, figure emerging from the mist, hands appearing, head appearing, crowd figures turning to face the camera, dot eyes on crowd figures, faces in the crowd"
+# 26 août 2026, retour de Guillaume sur le pilote P : « une femme met un chapeau alors qu'elle a déjà quelque chose
+# sur la tête ». Le gabarit gardait les PERSONNES (« Nobody new enters the frame ») mais rien ne gardait les OBJETS.
+# Le sujet disait « hats held on with both hands » : nommer un objet déjà présent comme complément d'un verbe de
+# possession fait apparaître un SECOND exemplaire, que le modèle pose sur celui de l'image. RÈGLE 40.
+CLAUSE_OBJETS = ("Every object visible is already present in the first frame: no new object appears, nothing is taken out, "
+                 "put on, handed over or produced, and no object is duplicated.")
+NEG_OBJETS = "new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over"
 
 # Présence à l'image (22 août 2026, après le premier lot) : "none" = aucun personnage, "hands" = mains seules,
 # "crowd" ou "character" = des personnages. Elle choisit la ligne du gabarit sur les personnages, voir motion_prompt.
@@ -121,7 +128,9 @@ CLIPS = [
     ("P1b-2", "1b", 3.0, "the basket is carried forward, ropes trailing on the grass", "slow lateral tracking to the right, following the basket"),
     ("P1b-3", "1b", 3.0, "hands knot the ropes around the wicker rim", "static"),
     ("P4a-1", "4a", 3.0, "the balloon tears away from the ground, the released ropes fall back", "static"),
-    ("P4a-2", "4a", 3.0, "the crowd rocks backwards, hats held on with both hands", "static"),
+    # 26 août 2026 : « hats held on with both hands » faisait naître un second chapeau dans les mains. On décrit
+    # le déplacement de ce qui est déjà là, en désignant le chapeau comme DÉJÀ PORTÉ (RÈGLE 40).
+    ("P4a-2", "4a", 3.0, "the onlookers lean backwards to follow the balloon, each of them raising both hands to the brim of the hat he is already wearing and pressing it down onto his head; the hats never leave the heads", "static"),
     ("P4a-3", "4a", 4.0, "the balloon rises and shrinks above the trees", "very slow tilt upward, following the balloon"),
     ("P4b-1", "4b", 3.5, "the rooftops slide slowly below, chimney smoke streams sideways", "static"),
     ("P4b-2", "4b", 3.5, "the wicker rim vibrates, the gloved hand tightens on it", "static"),
@@ -147,6 +156,7 @@ def motion_prompt(style, duration, subject, camera, presence="character", reduce
         f"Duration : {duration:g} seconds at 16 frames per second.\n"
         "Limited animation cadence, holds on twos, not fluid interpolation.\n"
         f"{PRESENCE_LINE[presence]}\n"
+        f"{CLAUSE_OBJETS}\n"
         "Motion starts on the first frame, no frozen start."
     )
 

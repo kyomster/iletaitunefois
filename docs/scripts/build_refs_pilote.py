@@ -83,6 +83,17 @@ IDENT = {
 OBJETS = {
     # Décrit d'après les clés déjà validées (P1a-3 au plus près), pas inventé : la planche doit ramener les plans
     # vers le ballon qui existe déjà à l'écran, pas en imposer un nouveau.
+    # 26 août 2026 : deuxième objet de continuité. La nacelle changeait de forme d'un plan à l'autre — ronde à
+    # rebord épais, rectangulaire à couvercle, rectangulaire à panneaux. Deux vues, parce que la moitié des plans
+    # la montrent de l'intérieur : une planche extérieure seule ne tiendrait pas les plans depuis la nacelle.
+    "Nacelle": ("Scene: the object alone, shown in TWO views side by side at the same scale on the same plain background, "
+                "clearly separated: on the LEFT the basket seen from outside in three quarter view, on the RIGHT the same "
+                "basket seen from above with its interior visible. It is a deep ROUND wicker gondola of 1797, natural honey "
+                "coloured wicker woven in even horizontal bands, a THICK ROLLED RIM wrapped in rope running all the way "
+                "around the top, four suspension ropes rising from the rim at the quarters and knotted to iron rings, two "
+                "small sandbags hanging outside against the wall, a plain flat floor of woven wicker inside, nothing else "
+                "in the basket, {fond}. Framing: the two views at the same scale, the whole object visible in each. "
+                "Characters: none, absolutely no person and no hand anywhere in the frame."),
     "Ballon": ("Scene: the object alone: a large inflated hydrogen balloon of 1797, tall rounded envelope narrowing toward the "
                "bottom, made of alternating vertical silk gores in dusty rose and pale sage green, each gore ending in a pointed "
                "lancet arch at the widest part of the envelope, a diamond mesh rope net thrown over the upper half, a horizontal "

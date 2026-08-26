@@ -213,3 +213,14 @@ Guillaume : « fais la planche du ballon et refais les plans 4b ». Deux précis
 Planche `Ballon_StyleP` fabriquée **d'après les clés déjà validées** (fuseaux verticaux alternés rose poussiéreux et vert sauge, pointes en arc, filet en losanges, cercle de suspension, nacelle d'osier), pour ramener les plans vers le ballon qui existe déjà à l'écran plutôt que d'en imposer un nouveau. Réinjectée au rang accessoires sur les dix plans concernés, avec une clause anti double ballon : la plaque D01 en porte déjà un et deux références qui en montrent un en donnent deux (RÈGLE 29, comme la nacelle le 24 août).
 
 Deux effets de bord, consignés en corollaires de la RÈGLE 36 : **1b-3 a vu le ballon entrer dans le champ** alors que sa brique l'en exclut — planche retirée de ce plan ; et **4a-2 est passé du gros plan sur trois badauds au plan large**, le modèle recomposant pour loger le nouvel objet — nombre et échelle repris en positif. 28 crédits en tout, 11 clips à re-rendre.
+
+## 2026-08-26, soir — Trois défauts, trois règles : description des assets, cadrage, et objets qui n'apparaissent pas
+
+Guillaume, sur le montage en style P : un second chapeau posé sur un bonnet, une nacelle qui change de forme, une corde qu'on tranche sans savoir laquelle. Trois retours, trois causes distinctes, trois règles écrites.
+
+* **RÈGLE 38, la description des assets.** Guillaume a nommé la cause lui-même : « ça veut dire que tu n'as pas assez décrit les assets de l'épisode pour la genai d'image ». Le dépôt ne portait qu'un nom commun pour le ballon et pour la nacelle. Un asset se décrit en six points, et les douze objets de continuité de S01E01 ont désormais leur description canonique dans la fiche d'assets, chacun avec un statut (validé, à générer, à arbitrer). La bible exige maintenant cette description au roster.
+* **RÈGLE 39, le cadrage.** Un plan d'action doit montrer ce que l'action relie ; le très gros plan ne peut pas être le seul cadrage d'une séquence. Trois corollaires : la variété des cadrages est une contrainte, ajouter une référence déplace le cadrage, et le cadrage se juge sur le montage, pas sur l'image.
+* **RÈGLE 40, les prompts de mouvement.** Nommer un objet déjà présent comme complément d'un verbe de possession en crée un second. La correction est dans le gabarit, pas dans la vigilance : garde des objets sur tous les prompts, comme la garde des personnes.
+* **RÈGLE 41**, demandée ensuite : toute règle inscrite dans un script s'écrit aussi en clair, avec un tableau de correspondance. Et son revers : une règle écrite qui peut être tenue par le script doit l'être — la RÈGLE 40 le démontre, la garde des personnes existait depuis quatre jours sans équivalent pour les objets.
+
+Reste ouvert : 1b-3 et 4b-2 ont vu leur cadrage s'élargir par la réinjection de la planche (corollaire de la RÈGLE 36), à durcir au prochain passage.

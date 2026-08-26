@@ -663,6 +663,82 @@ Défaut annexe relevé sur la même planche : le fond neutre de la RÈGLE 15 est
 
 ---
 
+## RÈGLE 38 — un asset se décrit en entier : forme, structure, matière, couleurs nommées, et ce qu'il n'a pas
+
+Deux objets ont dérivé sur le même épisode, pour la même raison. Le **ballon** est sorti crème et brique, crème et olive, puis orangé. La **nacelle** est sortie ronde à rebord épais sur 1b-3, **rectangulaire avec un couvercle** sur 1b-2, rectangulaire à panneaux sur P03, ronde à bourrelet sur 4b-2. Dans les deux cas, la seule chose écrite au dépôt était un nom commun : `a large inflated gas balloon`, `ONE wicker basket`.
+
+**Un nom commun n'est pas une description.** « Nacelle d'osier » couvre une corbeille ronde, un panier à couvercle et une caisse à panneaux — les trois sont des nacelles d'osier, le modèle a raison à chaque fois. Ce n'est pas un défaut du modèle, c'est un trou dans la consigne.
+
+Un asset se décrit donc en six points, dans le dépôt, **avant** la première génération :
+
+1. **la forme d'ensemble** et sa proportion — ronde, profonde, plus haute que large ;
+2. **la structure** — comment c'est fait, comment les parties s'assemblent : osier tressé en bandes horizontales régulières, rebord roulé entouré de corde, quatre cordes de suspension aux quarts ;
+3. **la matière et son état** — osier naturel couleur miel, soie vernie, fer forgé, bois usé ;
+4. **les couleurs nommées en positif** (RÈGLE 30), jamais laissées au hasard : fuseaux verticaux alternés rose poussiéreux et vert sauge ;
+5. **le détail distinctif** qui permet de reconnaître l'objet d'un plan à l'autre — les deux sacs de lest accrochés à l'extérieur, les pointes en arc des fuseaux ;
+6. **ce que l'objet n'a pas**, dès qu'une variante plausible existe : pas de couvercle, pas de forme rectangulaire, pas de second panier.
+
+`docs/prompts/S01E01-assets-prompts-v3.4.md` §7 porte désormais ces descriptions pour tous les objets de continuité de l'épisode. Ce qui n'y est pas décrit dérivera, et ce sera prévisible.
+
+---
+
+## RÈGLE 39 — le cadrage porte le sens : un plan d'action doit montrer ce que l'action relie
+
+Guillaume, devant le montage : « à un moment il coupe la corde, mais c'est quelle corde ? ». Le scénario est pourtant sans ambiguïté — plan 5 : « la lame tranche la corde qui retient la nacelle au ballon ». À l'écran, les trois plans du bloc 5 étaient des **très gros plans** sur une corde, un rebord d'osier et des toits ; aucun ne montrait les deux extrémités de la corde. Le spectateur voit trancher, il ne voit pas ce qui se détache. L'action perd son sens, et avec elle l'ouverture.
+
+Le très gros plan est un outil de tension ; il ne peut pas être le seul cadrage d'une séquence d'action. **Au moins un plan du bloc doit tenir dans le même cadre les deux termes de la relation** — ici la nacelle en bas et le ballon en haut, reliés par la corde qu'on coupe. Corrigé ainsi : 5-2 passe en plan moyen serré depuis l'intérieur, rebord en bas, corde qui monte en diagonale jusqu'au cercle et au ballon en haut ; 5-3 s'élargit pour montrer le bout coupé qui retombe avec la nacelle pendant que le ballon bondit vers le haut.
+
+Trois corollaires de production, tous vérifiés sur ce pilote :
+
+* **la variété des cadrages est une contrainte, pas un agrément** — trois plans successifs cadrés de la même façon (1a-4, 1b-1 et 4a-2 tous en dos de foule) aplatissent la séquence ; le plan de production nomme une taille de plan par plan, elle se respecte ;
+* **ajouter une référence déplace le cadrage** (corollaire de la RÈGLE 36) : 4a-2 est passé du gros plan sur trois badauds au plan large dès qu'on y a réinjecté le ballon ; le nombre et l'échelle se reprennent alors en positif ;
+* **le cadrage se vérifie sur le montage, pas sur l'image** : un cadrage juste isolément peut être faux dans la suite des plans. C'est ce que la planche-contact à une image par seconde sert à voir.
+
+---
+
+## RÈGLE 40 — un prompt de mouvement décrit un déplacement, jamais une possession
+
+Guillaume : « une femme met un chapeau alors qu'elle a déjà quelque chose sur la tête ». Vérifié image par image : à 38 s elle porte un bonnet, à 39 s un **second chapeau apparaît dans ses mains** et vient se poser par-dessus ; l'homme de gauche fait de même sur son haut-de-forme.
+
+Le prompt de mouvement disait : `The crowd rocks backwards, hats held on with both hands`.
+
+**Le mécanisme.** L'image clé donne l'état : chapeau sur la tête, mains en bas (RÈGLE 31). Le texte, lui, nomme un objet **comme complément d'un verbe de possession** — des chapeaux tenus à deux mains. Le modèle doit satisfaire les deux : il produit donc un chapeau *dans les mains*, en plus de celui qui est *sur la tête*. Toute formule du type « tenir », « prendre », « mettre », « sortir », « donner », appliquée à un objet déjà présent dans l'image, en fabrique un second exemplaire.
+
+**La correction se fait en deux endroits.**
+
+* **Dans le sujet** : on décrit le déplacement des parties du corps, et on désigne l'objet comme **déjà là** — `each of them raising both hands to the brim of the hat he is already wearing and pressing it down onto his head; the hats never leave the heads`. Jamais « hats held ».
+* **Dans le gabarit**, pour que ça ne dépende plus de la vigilance : `build_clips_pilote.py` colle désormais sur **tous** les prompts de mouvement la clause `Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated`, avec les négatives correspondantes. C'est le pendant, pour les objets, de la garde `Nobody new enters the frame` posée le 22 août pour les personnes — cette garde existait pour les personnages depuis quatre jours, et personne n'avait vu qu'aucune ne protégeait les accessoires.
+
+Limite connue : un plan où un objet **doit** apparaître ou changer de main est incompatible avec la clause. Il se traite en le déclarant explicitement dans le sujet, et la clause se retire pour ce plan seul — comme la négative de foule est retirée sur P02.
+
+---
+
+## RÈGLE 41 — toute règle inscrite dans un script s'écrit aussi en clair dans le dépôt
+
+Demande de Guillaume, le 26 août : « consigne bien tout ce que tu mets dans le script comme règle dans un fichier MD aussi ».
+
+Les scripts d'assemblage portent des décisions de fond : quelles références se réinjectent sur quels plans, quelle clause s'ajoute à quel cadrage, quelle négative est retirée sur quel plan, quelle variante de bloc identité s'applique à quel style. Elles y sont exactes et exécutables, mais **un commentaire de code n'est pas une consigne partagée** : il ne se retrouve pas par recherche, il ne se relit pas avant d'écrire, et il disparaît de la mémoire du projet dès que le script change.
+
+Donc : **toute règle posée dans un script existe en double** — sa forme exécutable dans le script, sa forme écrite dans un document du dépôt, avec le numéro de règle cité dans le commentaire. Le commentaire dit *ce que le code fait* ; le document dit *pourquoi*, sur quelle preuve, et ce qu'il faut faire la prochaine fois.
+
+L'inverse est également vrai : une règle écrite qui pourrait être tenue par le script **doit** l'être. Une règle qui ne dépend que de la vigilance sera oubliée — la RÈGLE 40 en est la démonstration : il a fallu quatre jours et un chapeau de trop pour voir que la garde des personnes n'avait pas d'équivalent pour les objets.
+
+### État de la correspondance script ↔ document, au 26 août 2026
+
+| Règle tenue par le script | Où, dans le script | Écrite en clair |
+|---|---|---|
+| Blocs identité par famille de style (`AC`, `B`, `JK`, `P`) | `build_prompts_pilote.py`, `variante_identite` | RÈGLES 26, 34, 37 |
+| Négative de foule retirée sur P02, partie anti-aplat conservée en P | `PLANS_SANS_NEG_FOULE`, `NEG_FOULE` | RÈGLES 26 et 37 |
+| Clause de bannières sur 1a-3 | `PLANS_A_BANNIERES` | RÈGLE 33 |
+| Cadrage durci sur 5-1, 1a-3, 4a-2 | `CADRAGE_DURCI` | RÈGLES 28 et 39 |
+| Planche ballon et clause anti second ballon | `PLANS_A_BALLON`, `CLAUSE_BALLON` | RÈGLES 29 et 36 |
+| Planche nacelle et clause anti second panier | `PLANS_A_NACELLE`, `CLAUSE_NACELLE` | RÈGLES 29, 36 et 38 |
+| Ligne de présence par plan | `PRESENCE`, `PRESENCE_LINE` | RÈGLE 2 et audit du 22 août |
+| Garde des objets sur les prompts de mouvement | `CLAUSE_OBJETS`, `NEG_OBJETS` | RÈGLE 40 |
+| Citation exacte des répliques dans un prompt vidéo | `build_clips_pilote.py`, gabarit de dialogue | `STRATEGIE-generation-videos.md` §6 |
+
+---
+
 ## Observations sans règle
 
 * Le **style C tient sa palette sur les plans larges** dès qu'une plaque C est réinjectée : la RÈGLE 15 décrit les planches personnages sur fond neutre, pas les plans de scène.
