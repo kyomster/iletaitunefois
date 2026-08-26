@@ -75,6 +75,12 @@ STYLES_REALISTES = {"StyleJ", "StyleK"}
 # la négative universelle. Les bannières de P1a-3 sont sorties brodées de lettres en J comme en K.
 CLAUSE_BANNIERES = "plain undecorated banners with no emblem and no lettering, blank fabric only"
 PLANS_A_BANNIERES = {"P1a-3"}
+# 26 août 2026, RÈGLE 36 : le ballon est un élément de continuité, il se réinjecte au lieu d'être décrit.
+# La plaque D01 en porte déjà un (RÈGLE 29) : sans cette clause, deux références qui montrent un ballon
+# donnent deux ballons dans l'image, comme la nacelle l'avait fait le 24 août sur 1b-2.
+CLAUSE_BALLON = ("ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape "
+                 "and identical stripe colours, no second balloon anywhere in the frame")
+PLANS_A_BALLON = {"P1a-1", "P1a-2", "P1a-3", "P1a-4", "P1b-1", "P1b-2", "P1b-3", "P02", "P4a-1", "P4a-2", "P4a-3"}
 
 # ---------------------------------------------------------------- durcissements de cadrage (24 août 2026)
 # Deux plans ont raté leur cadrage à l'audit du pilote, et dans les deux cas le modèle a rendu un plan
@@ -225,11 +231,11 @@ BRIQUES = [
 
 # ---------------------------------------------------------------- références par plan (runbook §4.1, ordre décor puis personnages)
 REFS = {
-    "P1a-1": ["D01", "Foule"], "P1a-2": ["D01", "Foule"], "P1a-3": ["D01"], "P1a-4": ["D01", "Foule"],  # 1a-2 : Foule ajoutée le 22 août 2026 (audit : dérive des figurants sans référence en A et B)
-    "P1b-1": ["D01", "Foule"], "P1b-2": ["D01", "Foule"], "P1b-3": ["D01"],
-    "P02": ["D01", "Parieurs", "Foule"], "P02a": ["D01", "Parieurs"], "P02b": ["D01", "Parieurs"],
+    "P1a-1": ["D01", "Foule", "Ballon"], "P1a-2": ["D01", "Foule", "Ballon"], "P1a-3": ["D01", "Ballon"], "P1a-4": ["D01", "Foule", "Ballon"],  # 1a-2 : Foule ajoutée le 22 août 2026 (audit : dérive des figurants sans référence en A et B)
+    "P1b-1": ["D01", "Foule", "Ballon"], "P1b-2": ["D01", "Foule", "Ballon"], "P1b-3": ["D01", "Ballon"],
+    "P02": ["D01", "Parieurs", "Foule", "Ballon"], "P02a": ["D01", "Parieurs"], "P02b": ["D01", "Parieurs"],
     "P03": ["D01", "Garnerin"],
-    "P4a-1": ["D01"], "P4a-2": ["D01", "Foule", "Garnerin"], "P4a-3": ["D01"],  # 4a-1 : D01 seul depuis le 22 août 19 h (plus de personnage dans la brique)
+    "P4a-1": ["D01", "Ballon"], "P4a-2": ["D01", "Foule", "Garnerin", "Ballon"], "P4a-3": ["D01", "Ballon"],  # 4a-1 : D01 seul depuis le 22 août 19 h (plus de personnage dans la brique)
     "P4b-1": ["D02"], "P4b-2": ["D02", "Garnerin"], "P4b-3": ["D02"],
     "P5-1": ["D02", "Garnerin"], "P5-2": ["D02"], "P5-3": ["D02"],
 }
@@ -260,6 +266,8 @@ def assemble(name, bloc, brique, style, media_ids):
     assert "[" not in body, f"substitution incomplète sur {name}"
     if name in PLANS_A_BANNIERES:
         body += f" {CLAUSE_BANNIERES}."  # RÈGLE 33, élargie à tous les styles le 25 août 2026 (ornements dorés en P)
+    if name in PLANS_A_BALLON and "Ballon" in REFS[name]:
+        body += f" {CLAUSE_BALLON}."  # RÈGLE 36 + RÈGLE 29
     if name in CADRAGE_DURCI:
         body += f" {CADRAGE_DURCI[name]}"
     refs = REFS[name]
