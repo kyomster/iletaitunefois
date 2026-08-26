@@ -98,7 +98,23 @@ NEG_STYLE = {
     "StyleP": "paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters.",
     "StyleK": "photograph, live action, real actors, broad cartoon caricature, chibi proportions, oversized head, rubbery squash and stretch, plastic sheen, waxy face, uncanny, saturated candy colours, 2D drawing, cel shading, anime, manga, modern buildings, glass towers, letterbox bars, black bars, extra characters.",
 }
-NEG_FOULE = "readable faces, portraits, facial features, eyes, dot eyes on crowd figures, front facing figures"
+# 26 août 2026, retour de Guillaume sur le pilote P : « le visage des personnages est tout noir quand ils sont
+# en fond ». Vérifié sur la planche Foule_StyleP et sur onze clés : partout où un figurant laisse voir un bout
+# de joue, le style P remplit la zone d'un APLAT NOIR. Les styles A et D, mêmes mots, rendent une joue normale.
+# Mécanisme : demander « aucun trait de visage » à un style dont le référent est l'aplat à deux ou trois tons
+# revient à demander le ton le plus sombre. RÈGLE 37. On retire la ZONE (têtes strictement de dos) au lieu de
+# retirer les traits, et on nomme la carnation en positif.
+NEG_FOULE = {
+    "defaut": "readable faces, portraits, facial features, eyes, dot eyes on crowd figures, front facing figures",
+    "P": ("readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, "
+          "profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, "
+          "face hidden in solid shadow, silhouette head"),
+    # P02 est le plan où la négative de foule efface les visages des deux badauds nommés (correction du 22 août).
+    # En style P, on garde quand même la partie anti-aplat noir : elle ne vise pas les visages lisibles, seulement
+    # le remplissage. Sans elle, P02 est justement le plan où le défaut se voyait le plus.
+    "P_plans_nommes": ("face filled with flat black, blacked out face, head painted as a solid dark shape, "
+                       "face hidden in solid shadow, silhouette head"),
+}
 BLOCS_FOULE = {"1a", "1b", "2", "4a"}  # point 4.4
 # Correction du 22 août 2026 (audit lot 1, docs/S01E01-pilote-audit.md) : sur P02, la négative de foule
 # effaçait les visages des deux badauds nommés en style C. Elle est retirée sur ce plan, le bloc positif
@@ -143,6 +159,9 @@ IDENT = {
         # Durcie en positif, PLAN-styles-D-E-F.md §5.1. Le style D, lui, garde la clause AC : l'épreuve a
         # montré qu'elle est sûre même sur un style à visages détaillés.
         "JK": "a dozen Directoire crowd figures, ALL SEEN FROM BEHIND, turned toward the balloon, NO FIGURE FACING THE CAMERA, thrown out of focus by the shallow depth of field, no readable face on any background figure: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, much less detailed than the main characters",
+        # 26 août 2026, RÈGLE 37 : sur un style à aplats, « aucun trait de visage » se résout par le ton le plus
+        # sombre, donc par un visage noirci. On supprime la zone au lieu des traits, et on nomme la carnation.
+        "P": "a dozen Directoire crowd figures, EVERY SINGLE ONE SEEN STRICTLY FROM DIRECTLY BEHIND with the back of the head squarely toward the camera, no cheek, no jaw, no ear and no profile visible on any of them, so that no face exists anywhere in the image, turned toward the balloon; the small areas of skin that do show, a nape or a hand, are drawn in the SAME EVENLY LIT FLESH TONE as the main characters, never filled with black, never covered by shadow: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, simplified figures less detailed than the main characters",
     },
     "AIDE": {
         "AC": "an assistant in a rough jacket with rolled up sleeves, seen from behind at the edge of frame",
@@ -219,12 +238,17 @@ PERSONNAGES = {"Foule", "Garnerin", "Parieurs"}
 GEN_PARAMS = {"model": "nano_banana_pro", "aspect_ratio": "16:9", "resolution": "2k", "count": 1, "use_unlim": False}
 
 
+STYLES_APLATS = {"StyleP"}  # styles à aplats : deux ou trois tons par zone, ombres à bord dur (RÈGLE 37)
+
+
 def variante_identite(style):
     """Quel jeu de blocs identité s'applique. Un style sans entrée propre retombe sur AC."""
     if style == "StyleB":
         return "B"
     if style in STYLES_REALISTES:
         return "JK"
+    if style in STYLES_APLATS:
+        return "P"
     return "AC"
 
 
@@ -244,8 +268,11 @@ def assemble(name, bloc, brique, style, media_ids):
     if any(r in PERSONNAGES for r in refs):
         positive += f" {SAME_AS_REF}"
     negs = []
-    if bloc in BLOCS_FOULE and name not in PLANS_SANS_NEG_FOULE:
-        negs.append(NEG_FOULE)
+    if bloc in BLOCS_FOULE:
+        if name not in PLANS_SANS_NEG_FOULE:
+            negs.append(NEG_FOULE.get(variant, NEG_FOULE["defaut"]))
+        elif variant == "P":
+            negs.append(NEG_FOULE["P_plans_nommes"])
     negs += [NEG_STYLE[style], NEG_EPOQUE, NEG_UNIVERSELLE]
     prompt = f"{positive} Avoid: " + ", ".join(negs)
     medias = [{"role": "image_references", "value": media_ids[f"{r}_{style}.png"]} for r in refs]

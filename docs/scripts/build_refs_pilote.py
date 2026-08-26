@@ -25,6 +25,10 @@ sys.path.insert(0, str(Path(__file__).parent))
 from build_prompts_pilote import STYLE, EPOQUE, NEG_STYLE, NEG_EPOQUE, NEG_UNIVERSELLE, NEG_FOULE, GEN_PARAMS, variante_identite  # noqa: E402
 
 FOND = "on a plain neutral flat background, no scenery, no props other than those listed"
+# 26 août 2026 : en style P, le fond neutre est sorti en ciel dégradé sur la planche de foule (RÈGLE 15 non
+# tenue). Le fond se prescrit alors en positif, comme toute zone qu'un référent veut remplir.
+FOND_DUR = ("on ONE SINGLE FLAT UNIFORM GREY BACKGROUND filling the whole frame behind the figures, "
+            "no sky, no gradient, no horizon, no ground line, no scenery, no props other than those listed")
 
 # Décors : plaques sans aucun personnage. Le texte est celui des briques du pilote, développé.
 DECORS = {
@@ -42,6 +46,13 @@ DECORS = {
 # Personnages : blocs identité de la fiche, variante AC (styles dessinés) ou B (inkman).
 IDENT = {
     "Foule": {
+        # 26 août 2026, RÈGLE 37 : sur un style à aplats, demander l'absence de traits donne un visage noirci.
+        "P": ("a dozen Directoire crowd figures, EVERY SINGLE ONE SEEN STRICTLY FROM DIRECTLY BEHIND with the back of the head "
+              "squarely toward the camera, no cheek, no jaw, no ear and no profile visible on any of them, so that no face exists "
+              "anywhere in the image, varied scales; the small areas of skin that do show, a nape or a hand, are drawn in the SAME "
+              "EVENLY LIT FLESH TONE as the main characters, never filled with black, never covered by shadow: men in tailcoats and "
+              "tall hats, women in high waisted dresses and shawls, a few children, one closed umbrella, simplified figures less "
+              "detailed than main characters"),
         "AC": ("a dozen Directoire crowd silhouettes, MOST OF THEM SEEN FROM BEHIND and the rest in three quarter view from behind, "
                "varied scales, NO FACE VISIBLE ON ANY FIGURE, no facial features at all: men in tailcoats and tall hats, women in "
                "high waisted dresses and shawls, a few children, one closed umbrella, simplified figures less detailed than main characters"),
@@ -83,6 +94,7 @@ CADRAGE = {"Foule": "Framing: full body group, all figures at the same scale.",
 
 def assemble_ref(nom, style):
     variant = variante_identite(style)
+    fond = FOND_DUR if variant == "P" else FOND
     if nom in DECORS:
         body = DECORS[nom]
         negs = [NEG_STYLE[style], NEG_EPOQUE, NEG_UNIVERSELLE]
@@ -90,11 +102,13 @@ def assemble_ref(nom, style):
         body = OBJETS[nom].format(fond=FOND)
         negs = [NEG_STYLE[style], NEG_EPOQUE, NEG_UNIVERSELLE]
     else:
-        body = f"Scene: {IDENT[nom][variant]}, {FOND}. {CADRAGE[nom]}"
-        negs = ([NEG_FOULE] if nom == "Foule" else []) + [NEG_STYLE[style], NEG_EPOQUE, NEG_UNIVERSELLE]
+        body = f"Scene: {IDENT[nom].get(variant, IDENT[nom]['AC'])}, {fond}. {CADRAGE[nom]}"
+        negs = ([NEG_FOULE.get(variant, NEG_FOULE["defaut"])] if nom == "Foule" else []) + [NEG_STYLE[style], NEG_EPOQUE, NEG_UNIVERSELLE]
     positive = " ".join(x for x in (STYLE[style], EPOQUE[style], body) if x)
+    # 26 août 2026 : les négatives se joignent par une virgule. Collées par une espace, la négative de foule
+    # (qui ne finit pas par un point) se soudait à la négative de style : « silhouette head paper grain ».
     return {"name": f"{nom}_{style}", "reference": nom, "style": style,
-            "params": {**GEN_PARAMS, "prompt": positive + " Avoid: " + " ".join(negs)}}
+            "params": {**GEN_PARAMS, "prompt": positive + " Avoid: " + ", ".join(n.rstrip(". ") for n in negs) + "."}}
 
 
 DEFAUT = ("D01", "D02", "Foule", "Garnerin", "Parieurs", "Ballon")

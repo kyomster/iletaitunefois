@@ -626,6 +626,29 @@ D'où l'étape à tenir, avant toute génération de clés :
 
 Le contrôle qui va avec est mécanique : **un élément listé en continuité sans planche associée est un défaut de préparation**, au même titre qu'un personnage à fiche sans référence (RÈGLE 27).
 
+## RÈGLE 37 — sur un style à aplats, demander l'absence de traits donne un visage noirci : on retire la zone, pas les traits
+
+Guillaume, sur le pilote en style P : « le visage des personnages est tout noir quand ils sont en fond ». Vérifié : partout où un figurant laisse voir un bout de joue, le style P remplit la zone d'un **aplat noir** — sur la planche `Foule_StyleP` d'abord, puis sur les sept plans qui la réinjectent. Le noir déborde même sur les mains, qui sortent en brun très sombre.
+
+Les styles A et D, avec **les mêmes mots**, rendent une joue normale. Ce n'est donc pas la formulation qui est fautive dans l'absolu, c'est sa rencontre avec un référent particulier — RÈGLE 7 lue à l'envers.
+
+**Le mécanisme.** Le bloc identité disait `NO FACE VISIBLE ON ANY FIGURE, no facial features at all`, et la négative de foule listait `facial features`. Le style P se définit par « aplats, exactement deux ou trois tons par zone, ombres à bord dur ». Demander « aucun trait » à un moteur qui ne dispose que de deux ou trois tons par zone revient à lui demander **le ton le plus sombre** : il remplit. C'est la même famille que les RÈGLES 33 et 35 — le référent du style ramène sa convention, ici la silhouette noircie des figurants d'arrière plan de l'animation japonaise.
+
+**La correction, et c'est le corollaire de la RÈGLE 35 appliqué à un visage** : on ne décrit pas ce qui doit disparaître, on décrit la zone comme inexistante.
+
+* têtes **strictement de dos**, `EVERY SINGLE ONE SEEN STRICTLY FROM DIRECTLY BEHIND with the back of the head squarely toward the camera, no cheek, no jaw, no ear and no profile visible on any of them, so that no face exists anywhere in the image` — il n'y a plus de zone à remplir ;
+* la carnation **nommée en positif** et rattachée aux personnages nommés, `the small areas of skin that do show, a nape or a hand, are drawn in the SAME EVENLY LIT FLESH TONE as the main characters, never filled with black, never covered by shadow` (RÈGLE 30) ;
+* la négative vise le **remplissage**, jamais les traits : `face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head`.
+
+Sur le plan P02, où la négative de foule est retirée depuis le 22 août parce qu'elle effaçait les visages des deux badauds nommés, **seule la partie anti aplat est conservée** : elle ne vise pas les visages lisibles, uniquement le remplissage. C'est justement le plan où le défaut se voyait le plus.
+
+Deux conséquences de production :
+
+* **le style détermine la formulation du bloc identité**, pas seulement le bloc de style : `build_prompts_pilote.py` a désormais une variante `P` pour les styles à aplats, à côté de `AC`, `B` et `JK` ;
+* **un défaut de planche se paie sur tous les plans qui la réinjectent** (RÈGLE 1) : une planche fautive n'est jamais un défaut isolé, c'est un défaut multiplié par le nombre de réinjections. Ici, une planche à 2 crédits en a coûté quatorze de reprises et sept clips à refaire.
+
+Défaut annexe relevé sur la même planche : le fond neutre de la RÈGLE 15 est sorti en **ciel dégradé**. Corrigé de la même façon, en prescrivant le fond en positif — `ONE SINGLE FLAT UNIFORM GREY BACKGROUND filling the whole frame behind the figures, no sky, no gradient, no horizon`.
+
 ---
 
 ## Observations sans règle
