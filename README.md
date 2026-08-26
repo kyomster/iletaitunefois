@@ -25,6 +25,8 @@ docs/
   scripts/                            build_prompts_pilote.py, build_clips_pilote.py, run_clips_runpod.py, runpod_pilote.py, montage_pilote.py, chain_dialogue_runpod.py, run_s2v_runpod.py, align_dialogue_audio.py (obsolète), analyse_montage.py, run_infinitetalk_runpod.py, run_e2_trois_samplers.py, run_ltx23_runpod.py, run_ltx25_runpod.py, run_ltx_voix_runpod.py, run_minimax_h3_runpod.py, comfy_ui_to_api.py
   runpod/                             les graphes ComfyUI (format API) I2V et FLF2V tels qu'exécutés
   S01E01-scenario.md                  les 79 plans, le minutage, les 14 gags
+  SPEC-studio-v7-ecarts-avec-notre-process.md   ce que la spec du studio ne couvre pas de notre chaîne image et vidéo
+  novelcrafter/                       le roman en prose (27 000 mots, 79 scènes), le manuscrit technique, la charte de prose, les entrées de Codex, le mode d'emploi
   S01E01-plan-de-production.md        diagnostic, roster, tableau révisé, prompts du pilote
   PIPELINE-video-et-voix.md           rendu ComfyUI sur RunPod, voix ElevenLabs, montage, budget
   S01E01-pilote-prompts-3-styles.md   les 18 images et 16 clips du pilote, dans les trois styles
@@ -46,6 +48,7 @@ docs/
 * **Pour fabriquer les images** : `docs/METHODE-generation-images.md` d'abord, les fiches de `docs/prompts/` ensuite.
 * **Pour fabriquer la vidéo et le son** : `docs/PIPELINE-video-et-voix.md`.
 * **Pour lancer le pilote** : `docs/RUNBOOK-pilote-pour-claude-code.md`, à dérouler tel quel.
+* **Pour travailler le texte dans Novelcrafter** : `docs/novelcrafter/README-import-novelcrafter.md`. Deux manuscrits y coexistent, le roman en prose et le document de fabrication. Le second se régénère, le premier s'écrit et se vérifie.
 
 ## Où vivent les choses
 

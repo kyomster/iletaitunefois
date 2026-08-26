@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble les cinq prompts de RÉFÉRENCE du pilote (D01, D02, Foule, Garnerin, Parieurs) pour un style donné.
+"""Assemble les prompts de RÉFÉRENCE du pilote (décors, personnages, objets de continuité) pour un style donné.
 
 Ce qui manquait au dépôt : les 20 briques de plans étaient versionnées (`build_prompts_pilote.py`), pas les
 cinq planches réinjectées ensuite sur ces plans. Écrit le 25 août 2026 pour le style P, valable pour tous.
@@ -11,7 +11,11 @@ plaques de décor D1/D2 telles que décrites dans les briques du pilote.
 Règles appliquées : planches sur fond neutre (RÈGLE 15), aucun visage lisible dans la foule (RÈGLE 26),
 couleurs nommées en positif sur les personnages (RÈGLES 30 et 34), aucun texte nulle part.
 
-Usage : python build_refs_pilote.py <sortie.json> --styles=StyleP
+Objets de continuité : ajoutés le 26 août 2026 (RÈGLE 36). Tout élément qui doit être identique d'un plan à
+l'autre se met en référence ; une description recopiée ne tient pas la continuité. Le ballon du pilote en est la
+preuve : décrit avec les mêmes mots sur les 18 plans, il est sorti rayé crème de près et rayé orangé de loin.
+
+Usage : python build_refs_pilote.py <sortie.json> --styles=StyleP [--refs=D01,Ballon]
 """
 import json
 import sys
@@ -64,6 +68,14 @@ IDENT = {
               "suspicious half closed dot eyes"),
     },
 }
+# Objets de continuité : planche d'objet seul sur fond neutre, réinjectée au rang accessoires (RÈGLE 36).
+OBJETS = {
+    "Ballon": ("Scene: the object alone: a large inflated hydrogen balloon of 1797, tall rounded envelope of varnished silk "
+               "in undyed cream with evenly spaced vertical stripes in muted brick red, a wide net of ropes thrown over the "
+               "envelope, a wooden hoop below it, a round wicker basket hanging from the hoop by four ropes, mooring rope "
+               "trailing from the basket, {fond}. Framing: the whole object seen from top to bottom at the same scale, "
+               "slight low angle. Characters: none, absolutely no person anywhere in the frame."),
+}
 CADRAGE = {"Foule": "Framing: full body group, all figures at the same scale.",
            "Garnerin": "Framing: character sheet, four full body views in a row at the same scale.",
            "Parieurs": "Framing: full body pair, both at the same scale."}
@@ -74,6 +86,9 @@ def assemble_ref(nom, style):
     if nom in DECORS:
         body = DECORS[nom]
         negs = [NEG_STYLE[style], NEG_EPOQUE, NEG_UNIVERSELLE]
+    elif nom in OBJETS:
+        body = OBJETS[nom].format(fond=FOND)
+        negs = [NEG_STYLE[style], NEG_EPOQUE, NEG_UNIVERSELLE]
     else:
         body = f"Scene: {IDENT[nom][variant]}, {FOND}. {CADRAGE[nom]}"
         negs = ([NEG_FOULE] if nom == "Foule" else []) + [NEG_STYLE[style], NEG_EPOQUE, NEG_UNIVERSELLE]
@@ -82,13 +97,18 @@ def assemble_ref(nom, style):
             "params": {**GEN_PARAMS, "prompt": positive + " Avoid: " + " ".join(negs)}}
 
 
+DEFAUT = ("D01", "D02", "Foule", "Garnerin", "Parieurs", "Ballon")
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    styles = ["StyleP"]
+    styles, refs = ["StyleP"], list(DEFAUT)
     for a in sys.argv[1:]:
         if a.startswith("--styles="):
             styles = a.split("=", 1)[1].split(",")
-    out = [assemble_ref(n, s) for s in styles for n in ("D01", "D02", "Foule", "Garnerin", "Parieurs")]
+        if a.startswith("--refs="):
+            refs = a.split("=", 1)[1].split(",")
+    out = [assemble_ref(n, s) for s in styles for n in refs]
     Path(args[0]).write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
     print(f"{len(out)} prompts de référence écrits dans {args[0]} ({', '.join(styles)})")
 

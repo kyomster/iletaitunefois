@@ -608,6 +608,24 @@ Réglé au troisième tirage en interdisant **le sol lui même, en positif** : `
 
 **Conséquence de production** : sur les 46 décors d'un épisode en style J, tout plan qui montre le sol d'une ville réelle doit être contrôlé pour l'anachronisme. C'est un coût de vérification que D et K n'ont pas.
 
+## RÈGLE 36 — tout élément qui doit être identique sur plusieurs plans se met en référence, et l'identifier est une étape du process
+
+Le pilote en style P a livré un ballon **rayé beige** sur les plans 1a, 1b et 4a, et un ballon **rayé orangé** sur les plans lointains 4b. Les dix huit briques décrivaient pourtant le même objet, avec les mêmes mots, `a large inflated gas balloon`. Défaut invisible sur une clé isolée, évident dès que les plans se suivent.
+
+C'est la RÈGLE 1 lue à l'envers. Une référence impose son apparence ; **une description, même recopiée mot pour mot, ne l'impose pas**. Chaque génération réinterprète les mêmes mots, et deux réinterprétations d'un objet à forte identité visuelle ne se ressemblent que de loin. Le décor tient parce qu'il a sa plaque, les personnages tiennent parce qu'ils ont leur planche ; ce qui n'a ni plaque ni planche dérive.
+
+**Ce que ça change dans le process, et c'est le fond de la règle.** Le roster de la bible (partie II, point 3) demande déjà « les accessoires avec les objets de continuité », et l'ordre de réinjection réserve déjà un rang aux accessoires, `décor, personnages, accessoires`. Pour S01E01 la ligne existe — « Ballon, nacelle, couteau, paquet puis voilure de soie, plans 1 à 6, 60 à 63 » — et **aucune planche n'a jamais été générée pour elle**. Le manque n'était pas dans la liste, il était dans le fait que rien n'obligeait à transformer la liste en images.
+
+D'où l'étape à tenir, avant toute génération de clés :
+
+1. **Passe d'inventaire sur le tableau de plans.** Tout élément nommé dans deux plans ou plus, qui porte une identité visuelle propre — un objet manipulé, un véhicule, une machine, un animal, un vêtement remarquable, une enseigne — est candidat.
+2. **Arbitrage** : candidat retenu si sa dérive se verrait au montage. Un pavé de gravier ne se met pas en référence, un ballon si.
+3. **Une planche par élément retenu**, sur fond neutre (RÈGLE 15), fabriquée par `docs/scripts/build_refs_pilote.py` comme les décors et les personnages.
+4. **Inscription dans la bible de l'épisode**, catégorie accessoires de continuité, avec la liste des plans où l'élément apparaît — c'est là que se lit ce qui doit être identique.
+5. **Réinjection sur tous ces plans**, au rang accessoires, dans la limite de sept références par appel (arbitrer alors entre le décor et l'objet, jamais entre deux personnages nommés).
+
+Le contrôle qui va avec est mécanique : **un élément listé en continuité sans planche associée est un défaut de préparation**, au même titre qu'un personnage à fiche sans référence (RÈGLE 27).
+
 ---
 
 ## Observations sans règle

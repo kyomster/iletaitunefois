@@ -187,3 +187,15 @@ Guillaume a demandé le pilote de 70 s en **style P** (le rendu « série animé
 ## 2026-08-26 — Volume réseau : 100 → 200 Go, et 67 Gio de restes d'une autre session
 
 Pour héberger les 37 Go de modèles LTX‑2.5 en plus de l'existant, le volume `atelier-modeles` (`o6g76dr9cj`, EU‑RO‑1) est passé de **100 à 200 Go** par `PATCH https://rest.runpod.io/v1/networkvolumes/{id}` avec `{"size":200}` (le `updateNetworkVolume` GraphQL renvoie 400 — utiliser REST). Coût : ~+7 $/mois. L'inventaire S3 a montré **67 Gio sous `runpod-slim/`** (44 000 objets, restes d'entraînements de LoRA d'une autre session) plus `venv-aitk/`, `ai-toolkit/`, `datasets/` — **rien n'a été supprimé** : ce n'est pas à moi de trancher, la question est posée à Guillaume. S'il confirme, `python docs/scripts/runpod_s3.py rmdir runpod-slim/` libère de quoi revenir à 100 Go. Détail technique consigné : l'API S3 de RunPod répond **307 sur `DeleteObjects`** (suppression par lot) — `runpod_s3.py rmdir` supprime donc objet par objet.
+
+## 2026-08-26 — Les éléments de continuité passent en référence, et leur identification devient une étape du process
+
+Guillaume, après le montage en style P : « les éléments qui doivent être identiques sur les différents plans, comme le ballon, doivent être en mode référence et dans la bible de l'épisode ; identifier les choses à mettre en référence doit faire partie du process ». Acté et écrit à trois endroits, parce que la règle seule ne suffisait pas :
+
+* **RÈGLE 36** dans `METHODE-generation-images.md` : une description recopiée ne tient pas la continuité, seule une image réinjectée la tient ; la passe d'inventaire, l'arbitrage, la planche, l'inscription en bible et la réinjection sont décrits en cinq points.
+* **`BIBLE-modernisation-v5.1.md`** : l'inventaire des éléments de continuité devient une contrainte de fabrication **dès l'écriture** (5 bis), et le roster de la partie II exige désormais que chaque accessoire de continuité soit assorti de **sa planche** et de la liste des plans où il se réinjecte.
+* **`docs/scripts/build_refs_pilote.py`** : les planches d'objet sont fabriquées comme les décors et les personnages (`--refs=Ballon`), et le ballon de Garnerin rejoint les assets partagés de la fiche `S01E01-assets-prompts-v3.4.md`.
+
+Le diagnostic honnête : le roster **listait déjà** « Ballon, nacelle, couteau, paquet puis voilure de soie, plans 1 à 6, 60 à 63 » et l'ordre de réinjection **réservait déjà** un rang aux accessoires. Ce qui manquait n'était ni la liste ni la place, c'était l'obligation de transformer la liste en images. C'est maintenant un défaut de préparation contrôlable, au même titre qu'un personnage à fiche sans référence (RÈGLE 27).
+
+Reste à faire quand le style sera choisi : générer les planches des quatre objets de continuité de S01E01 (ballon, nacelle, couteau, paquet de soie) dans le style retenu et les réinjecter sur les plans 1 à 6 et 60 à 63.
