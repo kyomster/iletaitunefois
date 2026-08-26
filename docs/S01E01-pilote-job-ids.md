@@ -567,3 +567,13 @@ Montage : `montages/montage_StyleP_v7.mp4`, 62,8 s. Pod `jws14sbc01vm9b` (A100),
 | P4a-2 | `a4285437-547c-4f5f-a21b-d139e9e5dae9` | — | clé v2 |
 
 Clips re-rendus sur le pod `8jp8jagqnhbmk2` (RTX PRO 6000 Blackwell), mêmes graines et mêmes longueurs qu'au premier passage : P1a-1 `2aaeae91…`, P1a-2 `86c8b9a1…`, P1a-4 `a5a69f2f…`, P1b-1 `895cb347…`, P1b-2 `66caee6d…`, P02 `566792b9…`, P4a-2 `56698edc…`.
+
+### Planche de continuité et reprises du 26 août 2026 (RÈGLE 36, ballon)
+
+| Asset | job_id | media_id | note |
+|---|---|---|---|
+| Ballon_StyleP | `ef11d7ec-2825-4eac-92d5-d71dc5edb04b` | `d460f152-1847-4b48-8e0d-cdafa41cbbea` | planche d'objet de continuité, réutilisable aux plans 60 à 63 |
+
+Clés v3 : P1a-1 `bc4ad887…`, P1a-2 `af097159…`, P1a-3 `461b7bbe…`, P1a-4 `34337b0c…`, P1b-1 `ae9cbcdf…`, P1b-2 `1f537782…`, P02 `1efc4be5…`, P4a-1 `eed5b745…`, P4a-3 `fe6dca77…` ; reprises v3b : P1b-3 `c1b17ee6…` (sans planche ballon), P4a-2 `3811c4c3…` (cadrage à trois badauds).
+
+Clips re-rendus sur le pod `yhbipvmvlh6i5r` (A100 80 Go), mêmes graines : P1a-1 `326cc073…`, P1a-2 `c24f6a4d…`, P1a-3 `73bccc2b…`, P1a-4 `bdc55304…`, P1b-1 `03db932e…`, P1b-2 `17463b62…`, P1b-3 `7e827d6a…`, P02 `371f23c0…`, P4a-1 `ef04c38d…`, P4a-2 `1927bce4…`, P4a-3 `1248d9a3…`.

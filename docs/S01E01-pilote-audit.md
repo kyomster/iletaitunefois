@@ -555,3 +555,17 @@ Trois enseignements d'outil, consignés parce qu'ils reviendront :
 * elle est adossée à un **vrai système de fichiers** : `DeleteObject` sur un dossier non vide échoue, la suppression se fait par profondeur décroissante ; `rmdir` corrigé en conséquence.
 
 Rendu : pod RTX PRO 6000 Blackwell `8jp8jagqnhbmk2`, **28 secondes par clip** (contre ~1 min sur A100), obtenu à la sixième tentative — EU-RO-1 n'avait aucune capacité pendant quinze minutes, et comme le volume et ses 37 Go de modèles y résident, attendre coûte moins cher que déménager. Pod terminé, sorties supprimées du volume.
+
+### Le ballon en référence (26 août 2026, pod A100 `yhbipvmvlh6i5r`)
+
+Demande de Guillaume : « fais la planche du ballon et refais les plans 4b ». Deux précisions de relevé, faites avant d'agir : **le bloc 4b ne montre pas le ballon** — de 45,2 s à 55 s la caméra est dans la nacelle, rebord, main gantée, toits de Paris — et l'écart d'aspect signalé la veille est en réalité sur **P4a-3**, à 41-45 s. Les plans concernés sont donc les onze où le ballon apparaît : 1a-1 à 1a-4, 1b-1, 1b-2, P02, 4a-1, 4a-2, 4a-3, plus 1b-3 examiné puis écarté.
+
+**La planche est décrite d'après les clés déjà validées**, au plus près de `P1a-3` : fuseaux verticaux alternés rose poussiéreux et vert sauge, chaque fuseau terminé en arc, filet en losanges sur la moitié haute, cercle de suspension, nacelle d'osier, corde d'amarrage. Le but est de ramener les plans vers le ballon qui existe à l'écran, pas d'en imposer un nouveau. Réinjectée au rang accessoires, avec `CLAUSE_BALLON` contre le second ballon — la plaque D01 en porte déjà un (RÈGLE 29), et la même situation avait donné deux nacelles le 24 août sur 1b-2.
+
+**Résultat** : le même ballon du plan 1 au plan 4a-3, y compris sur les plans lointains où il virait à l'orangé. Défaut de continuité clos.
+
+**Deux effets de bord**, consignés en corollaires de la RÈGLE 36 :
+* **1b-3** a vu le ballon entrer dans le champ alors que sa brique l'en exclut explicitement (`the balloon is directly above this basket and out of frame`) — une planche d'objet ne se réinjecte que sur les plans où l'objet doit être visible ; plan repris sans elle ;
+* **4a-2** est passé du gros plan sur trois badauds au plan large de foule, le modèle recomposant pour loger le nouvel objet — nombre et échelle repris en positif (`EXACTLY THREE onlookers are visible and no one else`), sinon la variété de cadrages se perd.
+
+Coût : 1 planche + 11 clés + 2 reprises = **28 crédits**, 11 clips re-rendus (~15 min de A100), pod obtenu à la cinquième tentative. Montage refait, 62,8 s, les quatre répliques toujours mot pour mot. Pod terminé, sorties supprimées du volume.
