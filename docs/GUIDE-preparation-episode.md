@@ -135,6 +135,7 @@ RÈGLE 41 : une règle qui ne dépend que de l'attention sera oubliée. Ces clau
 - [ ] aucune action ne peut se lire de deux façons
 - [ ] les répliques sont citées mot pour mot entre guillemets
 - [ ] les gardes de gabarit sont bien collées (personnes, objets)
+- [ ] **un prompt corrigé se relit en entier** : la phrase d'action fautive est *remplacée*, pas doublée d'une correction (RÈGLE 13). Deux consignes contradictoires dans le même prompt — « hands at their sides » suivi de « hats are lifted » — et c'est l'ancienne qui gagne
 
 **Après le montage, avant de livrer**
 

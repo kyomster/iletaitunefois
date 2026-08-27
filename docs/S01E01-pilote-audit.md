@@ -603,3 +603,16 @@ Coût : 12 clés (24 crédits), 11 clips en ~18 min. Montage 62,8 s, quatre rép
 **Restes connus** : 1b-3 et 4b-2 gardent un cadrage élargi par la réinjection des planches (corollaire de la RÈGLE 36) — 4b-2 montre les jambes de Garnerin au lieu du gros plan sur la main gantée. À durcir au prochain passage.
 
 **Pour les épisodes suivants** : tout ce que ce pilote a coûté à apprendre est rassemblé dans `docs/GUIDE-preparation-episode.md`, avec la liste de contrôle à dérouler avant de générer la première image.
+
+### Vérification plan par plan du montage (27 août 2026)
+
+Contrôle demandé par Guillaume, fait sur deux images par plan à pleine résolution plutôt qu'au survol de la planche‑contact. Quatre défauts trouvés, tous corrigés.
+
+1. **La nacelle était accrochée avant d'être apportée.** Les briques se contredisaient entre elles : 1a-1 disait `ONE single wicker basket resting under the balloon and tied to it`, et 1b-2 disait `toward the balloon with no basket under it yet`. À l'écran, la nacelle pendait sous le ballon pendant onze secondes, puis deux hommes l'apportaient. Le bloc 1a et 1b-1 sont désormais **le ballon seul, amarré** — ni nacelle ni parachute avant 1b-2, conformément au scénario (« la nacelle qu'on amène sous le ballon », plan 1b).
+2. **Le parachute sortait déjà ouvert** en dôme sur P02 et 4a-3, alors qu'il doit rester replié jusqu'à 5-3. C'est le corollaire de la RÈGLE 42 pris en défaut : le nom ramène la forme la plus courante de l'objet, ici la voilure déployée. L'adjectif « replié » n'y suffisait pas. L'état fermé se prescrit désormais par **la forme** — `a long narrow vertical bundle of cream silk, no wider than a man's shoulders, tightly strapped at three points, tapering to a point` — plus une négative dédiée, `NEG_PARACHUTE_FERME`, posée sur tous les plans sauf 5-3.
+3. **Deux dérives de palette apparues sur les reprises** : 1a-2 est sorti sous un ciel bleu saturé avec un ballon rouge, et 1b-1 avec un ballon doré au lieu du rose et sauge. Sur un plan où l'objet est lointain et petit, la référence ne suffit pas : les couleurs sont maintenant nommées **dans la scène elle-même**, et la lumière d'aube rappelée en positif.
+4. **Un prompt qui se contredisait, et c'est ma faute** : en corrigeant le geste des chapeaux de 1b-1, j'ai *ajouté* « hands at their sides » sans *retirer* « hats are lifted ». Les deux consignes ont coexisté dans le même prompt et c'est l'ancienne qui a gagné. Rappel de la RÈGLE 13 ajouté à la liste de contrôle du guide : **on remplace la phrase d'action, on ne l'empile pas**.
+
+Coût de la vérification : 9 clés (18 crédits) et 8 clips, trois pods. Montage 62,8 s, quatre répliques mot pour mot.
+
+**Restes assumés**, à traiter si le style P est retenu : 1b-3 et 4b-2 gardent un cadrage élargi par la réinjection des planches — 4b-2 montre les jambes de Garnerin au lieu du gros plan sur la main gantée.

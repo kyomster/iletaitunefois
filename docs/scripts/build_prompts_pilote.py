@@ -87,15 +87,19 @@ PLANS_A_BALLON = {"P1a-1", "P1a-2", "P1a-3", "P1a-4", "P1b-1", "P1b-2", "P02", "
 CLAUSE_NACELLE = ("ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured "
                   "wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags "
                   "outside, deep enough to reach a standing man's waist and wide enough for two men to stand in it side by side, barely wider than it is deep; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame")
-PLANS_A_NACELLE = {"P1a-1", "P1a-2", "P1a-4", "P1b-2", "P1b-3", "P02", "P03", "P4a-1", "P4b-1", "P4b-2", "P5-1", "P5-2", "P5-3"}
+PLANS_A_NACELLE = {"P1b-2", "P1b-3", "P02", "P03", "P4a-1", "P4b-1", "P4b-2", "P5-1", "P5-2", "P5-3"}
 
 # 27 août 2026 : le parachute était écrit comme un paquet posé au plancher de la nacelle. Trancher la corde
 # ferait alors tomber Garnerin avec un bagage, et le plan 6 perd son sens. Il est gréé ENTRE le ballon et la
 # nacelle, replié comme un parapluie fermé — fait historique. Voir docs/S01E01-logique-ouverture-froide.md §1.
-CLAUSE_PARACHUTE = ("the folded parachute hangs BETWEEN the balloon and the basket, closed and bound like a furled umbrella, "
-                    "its lines running down to the rim of the basket and its crown roped up to the balloon; the silk is never "
-                    "a bundle lying on the floor of the basket")
-PLANS_A_PARACHUTE = {"P1b-2", "P1b-3", "P02", "P03", "P4a-1", "P4a-3", "P4b-1", "P5-1", "P5-2", "P5-3"}
+CLAUSE_PARACHUTE = ("the folded parachute hangs BETWEEN the balloon and the basket. It is STILL CLOSED: a long narrow vertical "
+                    "bundle of cream silk, no wider than a man's shoulders, tightly strapped at three points along its length and "
+                    "tapering to a point at the bottom, like a tightly furled umbrella stood on end. IT DOES NOT FORM A DOME AND "
+                    "IT IS NOT SPREAD: no canopy, no open parachute, no umbrella shape, no wide silk above the basket. Its lines "
+                    "run down to the rim of the basket and its crown is roped up to the balloon; the silk is never a bundle lying "
+                    "on the floor of the basket")
+# 5-3 est le seul plan où le parachute s'ouvre : il ne reçoit ni la clause « encore fermé » ni sa négative.
+PLANS_A_PARACHUTE = {"P1b-2", "P1b-3", "P02", "P03", "P4a-1", "P4a-3", "P4b-1", "P5-1", "P5-2"}
 
 # ---------------------------------------------------------------- durcissements de cadrage (24 août 2026)
 # Deux plans ont raté leur cadrage à l'audit du pilote, et dans les deux cas le modèle a rendu un plan
@@ -113,6 +117,9 @@ CADRAGE_DURCI = {
 }
 
 # ---------------------------------------------------------------- point 4 : négatives
+# 27 août 2026 : le nom « parachute » ramène sa forme la plus courante, le dôme ouvert (corollaire de la RÈGLE 42).
+# L'état fermé se prescrit donc par la FORME, et une négative dédiée s'ajoute sur les plans où il doit rester plié.
+NEG_PARACHUTE_FERME = "open parachute, deployed parachute, parachute canopy, dome of silk, spread umbrella, inflated silk"
 NEG_UNIVERSELLE = "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
 NEG_EPOQUE = "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing"
 NEG_STYLE = {
@@ -208,13 +215,13 @@ BRIQUES = [
     # et une seconde posée sur l'herbe. RÈGLE 29, la plaque D01 porte déjà sa nacelle et la brique en
     # nommait une dans les props : le modèle a produit les deux lectures. Corrigé comme 1b-2 l'avait été,
     # en nommant l'état voulu au lieu de le taire.
-    ("P1a-1", "1a", "Scene: dawn mist drifting low over the lawns of Parc Monceau, a large inflated gas balloon swaying in the middle ground, a Directoire crowd gathered at its foot. Framing: very wide establishing shot, slight high angle. Decor: D1. Characters: [FOULE]. Props: ONE single wicker basket only, resting on the grass directly under the balloon and tied to it, no second basket and no crate anywhere in the frame, ropes trailing on the grass."),
-    ("P1a-2", "1a", "Scene: the inflated balloon swaying in the wind, mooring ropes pulling taut. Framing: medium shot on the balloon. Decor: D1. Characters: a few crowd figures at the lower edge, seen from behind. Props: balloon, taut ropes, stakes."),
+    ("P1a-1", "1a", "Scene: dawn mist drifting low over the lawns of Parc Monceau, a large inflated gas balloon swaying in the middle ground, a Directoire crowd gathered at its foot. Framing: very wide establishing shot, slight high angle. Decor: D1. Characters: [FOULE]. Props: mooring ropes trailing on the grass and pegged down. THE BALLOON HANGS ALONE: there is NO basket and NO parachute under it yet, nothing hangs below the hoop, they are brought in later; no basket and no crate anywhere in the frame."),
+    ("P1a-2", "1a", "Scene: the inflated balloon swaying in the wind, mooring ropes pulling taut, NOTHING HANGING UNDER IT YET. Framing: medium shot on the balloon. Decor: D1. Characters: a few crowd figures at the lower edge, seen from behind. Props: balloon, taut mooring ropes, stakes. The balloon hangs alone: no basket and no parachute under the hoop."),
     ("P1a-3", "1a", "Scene: banners snapping at the top of the balloon. Framing: low angle from the ground toward the crown of the balloon. Decor: D1, sky and treetops only. Characters: none. Props: balloon crown, netting, banners."),
     # Briques 1a-4, 4a-1, 4a-2, 4b-3 et P02/P03 amendées le 22 août 2026, 19 h (audit Sonnet + Guillaume) : cadrages répétés
     # (trois très larges identiques), saut d'altitude du ballon, bouches déjà ouvertes sur les images clés de dialogue.
-    ("P1a-4", "1a", "Scene: the whole crowd turning their heads in one movement toward the wicker basket. Framing: medium shot at head height on the backs of a few onlookers, hats and bonnets filling the lower half, the basket and the balloon ropes beyond them. Decor: D1. Characters: [FOULE]. Props: basket, ropes, hats."),
-    ("P1b-1", "1b", "Scene: the crowd parting into two lines, hats lifted. Framing: wide shot at eye level, down the axis of the lane. Decor: D1. Characters: [FOULE]. Props: hats, canes."),
+    ("P1a-4", "1a", "Scene: the whole crowd turning their heads in one movement toward the balloon. Framing: medium shot at head height on the backs of a few onlookers, hats and bonnets filling the lower half, the balloon and its mooring ropes beyond them, nothing hanging under the balloon yet. Decor: D1. Characters: [FOULE]. Props: mooring ropes, hats. The balloon hangs alone: no basket and no parachute under the hoop."),
+    ("P1b-1", "1b", "Scene: the crowd stepping aside to open a clear lane down the middle of the frame, the people on each side turning to look down that lane, hands at their sides. Framing: wide shot at eye level, down the axis of the lane. Decor: D1, the balloon at the end of the lane with nothing hanging under it yet. Characters: [FOULE]. Props: hats worn on the heads, canes. No hand touches a hat. The balloon hangs alone: no basket and no parachute under the hoop."),
     # Briques 1b-2, 1b-3 et P03 amendées le 22 août 2026 (décision Guillaume, audit : la plaque D01 impose un ballon
 # avec sa nacelle, d'où deux nacelles à l'image). Version 1 : sans la clause « balloon hanging above / no other basket ».
     ("P1b-2", "1b", "Scene: two assistants carrying the wicker basket forward toward the balloon hanging above with nothing under it yet, a third assistant walking beside them carrying THE FOLDED PARACHUTE, a long bound bundle of cream silk closed like a furled umbrella, ropes trailing behind them. Framing: lateral medium shot. Decor: D1. Characters: three assistants in rough jackets, crowd behind them seen from behind. Props: ONE wicker basket, ONE folded parachute, ropes."),
@@ -251,7 +258,9 @@ BRIQUES = [
 
 # ---------------------------------------------------------------- références par plan (runbook §4.1, ordre décor puis personnages)
 REFS = {
-    "P1a-1": ["D01", "Foule", "Ballon", "Nacelle"], "P1a-2": ["D01", "Foule", "Ballon", "Nacelle"], "P1a-3": ["D01", "Ballon"], "P1a-4": ["D01", "Foule", "Ballon", "Nacelle"],  # 1a-2 : Foule ajoutée le 22 août 2026 (audit : dérive des figurants sans référence en A et B)
+    # 27 août 2026 : le bloc 1a montrait la nacelle DÉJÀ accrochée alors qu'on l'apporte au plan 1b-2. Ni nacelle ni
+    # parachute avant 1b-2 : le ballon y est seul, amarré (voir S01E01-logique-ouverture-froide.md §4).
+    "P1a-1": ["D01", "Foule", "Ballon"], "P1a-2": ["D01", "Foule", "Ballon"], "P1a-3": ["D01", "Ballon"], "P1a-4": ["D01", "Foule", "Ballon"],  # 1a-2 : Foule ajoutée le 22 août 2026 (audit : dérive des figurants sans référence en A et B)
     "P1b-1": ["D01", "Foule", "Ballon"], "P1b-2": ["D01", "Foule", "Ballon", "Nacelle"], "P1b-3": ["D01", "Nacelle"],  # 1b-3 : pas de planche Ballon, la brique le veut hors champ et la référence le faisait entrer (RÈGLE 1)
     "P02": ["D01", "Parieurs", "Foule", "Ballon", "Nacelle"], "P02a": ["D01", "Parieurs"], "P02b": ["D01", "Parieurs"],
     "P03": ["D01", "Garnerin", "Nacelle"],
@@ -305,6 +314,8 @@ def assemble(name, bloc, brique, style, media_ids):
             negs.append(NEG_FOULE.get(variant, NEG_FOULE["defaut"]))
         elif variant == "P":
             negs.append(NEG_FOULE["P_plans_nommes"])
+    if name in PLANS_A_PARACHUTE:
+        negs.append(NEG_PARACHUTE_FERME)  # corollaire RÈGLE 42 : le nom ramène le dôme ouvert
     negs += [NEG_STYLE[style], NEG_EPOQUE, NEG_UNIVERSELLE]
     prompt = f"{positive} Avoid: " + ", ".join(negs)
     medias = [{"role": "image_references", "value": media_ids[f"{r}_{style}.png"]} for r in refs]
