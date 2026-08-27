@@ -146,8 +146,9 @@ INTERDITS · Sarcelle sur le manteau, visage lisible dans la foule, seconde cann
 
 LIEU · Intérieur de la nacelle, encore au sol dans le parc, même aube.
 CAMÉRA · De côté, hauteur poitrine, à 2 m du flanc sud de la nacelle : plan moyen à deux.
-CADRE · GARNERIN À GAUCHE, debout, main droite gantée serrant la corde de largage au dessus de sa tête, regard levé vers le ballon, mâchoire posée, bouche fermée. L'AIDE À DROITE, au rebord, penché vers lui, main ouverte qui supplie, visage entièrement visible de trois quarts, bouche fermée. Entre eux, au plancher : le paquet de soie plié. Le couteau glissé dans le tressage du flanc GAUCHE. Le parc D1 au fond, par dessus le rebord.
+CADRE · GARNERIN À GAUCHE, debout, main droite gantée serrant la corde de largage au dessus de sa tête, regard levé vers le ballon, mâchoire posée, bouche fermée. L'AIDE À DROITE, DEBOUT AU SOL À L'EXTÉRIEUR DE LA NACELLE, les deux mains sur le rebord, penché vers lui, main ouverte qui supplie, visage entièrement visible de trois quarts, bouche fermée. Le parachute replié, ceinturé comme un parapluie fermé, est SUSPENDU ENTRE LE BALLON ET LA NACELLE, ses suspentes descendant au rebord (correction factuelle du 27 août 2026, voir `S01E01-logique-ouverture-froide.md` §1 : un paquet posé au plancher rendait la coupe du plan 5 mortelle et le plan 6 illisible). Le couteau glissé dans le tressage du flanc GAUCHE. Le parc D1 au fond, par dessus le rebord.
 HORS CADRE · Le ballon, directement au dessus. La foule, derrière la caméra.
+DESTINATAIRE DE L'ORDRE · « Lâchez tout » s'adresse à l'équipe au sol : deux amarres tendues entrent au bas du cadre, tenues par des mains d'équipage au bord de l'image. Elles retombent au plan 4a-1.
 RACCORDS · La corde tenue ici est celle que la lame tranche aux plans 5 et 60. Le couteau, la soie et leurs places reviennent aux plans 4b, 5, 61. L'aide ne remonte plus à bord ensuite.
 INTERDITS · Second ballon ou seconde nacelle au fond, bouche ouverte, personne vu de dos.
 
@@ -168,7 +169,7 @@ INTERDITS · Le ballon ne « redécolle » jamais deux fois ; aucun personnage d
 
 LIEU · En vol, flanc de la nacelle, très haut au dessus de Paris.
 CAMÉRA · Très gros plan en angle rasant le long de la corde.
-CADRE · UNE seule main, celle de Garnerin dans sa manche sombre, scie la corde ENCORE ENTIÈRE et tendue ; quelques fibres externes sautent une à une, la lame à mi chemin. La corde part du rebord d'osier, bord bas, vers le ballon, bord haut. Ciel et toits D2 flous derrière.
+CADRE · UNE seule main, celle de Garnerin dans sa manche sombre, scie la corde ENCORE ENTIÈRE et tendue ; quelques fibres externes sautent une à une, la lame à mi chemin. La corde tranchée est celle qui lie LE SOMMET DU PARACHUTE REPLIÉ au ballon : dans le cadre, de bas en haut, le rebord d'osier, les suspentes, le parachute fermé, puis LA corde, puis le ballon. Ciel et toits D2 flous derrière.
 HORS CADRE · Le visage de Garnerin, le reste de la nacelle, le ballon.
 ACTION · Va et vient court de la lame, fibres qui jaillissent, vibration de la corde. La corde NE cède PAS dans ce plan.
 RACCORDS · Le plan 60 reprend ce geste à l'identique et va jusqu'à la rupture ; l'image figée du plan 6 est tirée de cette chute.

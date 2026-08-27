@@ -713,6 +713,16 @@ Limite connue : un plan où un objet **doit** apparaître ou changer de main est
 
 ---
 
+### Corollaire de la RÈGLE 40 — quand deux actions différentes donnent la même image, aucune formulation ne les sépare : on change l'action
+
+La garde des objets a bien empêché un second chapeau d'**apparaître**, et pourtant les badauds continuaient de sembler poser un chapeau sur leur tête. Parce que **le geste lui-même est ambigu** : une main posée sur un chapeau, c'est *tenir son chapeau contre le vent* **et** *poser un chapeau*, ce sont exactement les mêmes images. Aucun prompt ne peut trancher entre deux lectures d'une même posture.
+
+L'ambiguïté était dans l'écriture : le scénario dit « mains aux chapeaux ». La correction n'est donc ni dans la négative ni dans le sujet, elle est **dans l'action** — les badauds mettent désormais **une main en visière au dessus des yeux, paume vers le bas**, sans jamais toucher leur chapeau. Le sens est le même, l'image est univoque.
+
+Règle de production qui en découle : devant un défaut d'action qui résiste à deux reformulations, **arrêter de reformuler et changer le geste**. Chercher une action qui ne ressemble à rien d'autre.
+
+---
+
 ## RÈGLE 41 — toute règle inscrite dans un script s'écrit aussi en clair dans le dépôt
 
 Demande de Guillaume, le 26 août : « consigne bien tout ce que tu mets dans le script comme règle dans un fichier MD aussi ».

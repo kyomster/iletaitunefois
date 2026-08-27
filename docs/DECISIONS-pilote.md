@@ -224,3 +224,15 @@ Guillaume, sur le montage en style P : un second chapeau posé sur un bonnet, un
 * **RÈGLE 41**, demandée ensuite : toute règle inscrite dans un script s'écrit aussi en clair, avec un tableau de correspondance. Et son revers : une règle écrite qui peut être tenue par le script doit l'être — la RÈGLE 40 le démontre, la garde des personnes existait depuis quatre jours sans équivalent pour les objets.
 
 Reste ouvert : 1b-3 et 4b-2 ont vu leur cadrage s'élargir par la réinjection de la planche (corollaire de la RÈGLE 36), à durcir au prochain passage.
+
+## 2026-08-27 — La logique de l'ouverture froide : le parachute n'était pas gréé, l'aide était à bord, l'ordre n'avait personne à qui parler
+
+Guillaume : « quand il dit *lâchez tout* y'a plus de nacelle, puis après on revoit le ballon avec la nacelle. Il y a des incohérences de scénario. Réfléchis à la logique complète de la scène et de qui fait quoi. » Analyse complète dans `docs/S01E01-logique-ouverture-froide.md`. Sept incohérences, dont une **dans le scénario lui-même**.
+
+**Le fond.** Le scénario écrivait le parachute comme « le gros paquet de soie plié à leurs pieds » et faisait partir la corde « du rebord d'osier vers le ballon ». Tel quel, trancher cette corde fait tomber Garnerin **avec un bagage** : le plan 6 — « pour savoir s'il se relèvera » — ne veut plus rien dire. La chaîne réelle, et historique, est ballon → **corde** → parachute replié → suspentes → nacelle. Correction appliquée aux briques, au scénario, à la fiche de production et à la fiche d'assets, **signalée comme correction factuelle en attente du feu vert de Guillaume** : elle ne touche ni le texte dit, ni les durées, ni l'ordre des plans, ni les gags.
+
+**Qui fait quoi**, désormais écrit noir sur blanc : Garnerin dans la nacelle et il n'en redescend pas ; **l'aide reste dehors**, au sol, mains au rebord — le scénario le disait déjà, l'image le contredisait ; l'équipe au sol tient les amarres et **c'est à elle que s'adresse « Lâchez tout »**, donc deux amarres tenues entrent maintenant dans le cadre du plan 3 et retombent au plan 4a-1 ; et **Garnerin est visible dans la nacelle au décollage**, parce que le laisser hors champ faisait disparaître le protagoniste pendant vingt secondes — c'est exactement le « y'a plus de nacelle » du retour.
+
+**Les chapeaux**, enfin : la garde des objets empêchait bien un second chapeau d'apparaître, mais le geste « main sur le chapeau » est intrinsèquement ambigu — tenir et poser donnent la même image. Corollaire de la RÈGLE 40 : quand deux actions produisent la même image, on change l'action. Les badauds mettent une main en visière.
+
+**L'échelle de la nacelle** rejoint sa description canonique : profonde jusqu'à la taille d'un homme, deux hommes debout côte à côte. La forme tenait depuis la planche, les proportions non.

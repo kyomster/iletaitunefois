@@ -125,7 +125,7 @@
 | Les neuf objets : pétard, carte à jouer, boussole, cerf volant de poche, carré de soie, allumette, billet ancien, petit soc, fer d'attelage | Continuité majeure : la table se vide objet par objet (plans 9, 23, 29, 34, 37, 63, 64, 67, 69, 72, 73) |
 | Insert mutualisé « main et sacoche » | Une seule image, objet interchangeable, réutilisée à chaque retour d'objet |
 | Tablette d'Elio ; carnet de Naya ; carnet de terrain de Sam | Permanents |
-| Ballon, nacelle, couteau, paquet puis voilure de soie | Plans 1 à 6, 60 à 63 |
+| Ballon, nacelle, couteau, parachute replié puis voilure ouverte | Plans 1 à 6, 60 à 63 — descriptions canoniques en `prompts/S01E01-assets-prompts-v3.4.md` §7 ; le parachute est **gréé entre le ballon et la nacelle**, jamais posé au plancher |
 | Hibou de papier | Plans 44, 45, 47 : même objet, continuité stricte |
 | Parasols et sacs des pillards | 55, 56 |
 | Semoir à trois rangs et soc de fonte | 21, 22 |
@@ -147,7 +147,7 @@ Type : FIXE, ANIMÉ ou POST. Registre : CADRE, ÉPOQUE ou MIXTE (le registre cho
 | 1 | a | 9 | ÉPOQUE | ANIMÉ | Aube d'octobre : brume sur les pelouses du parc Monceau, le ballon gonflé oscille dans le vent au milieu d'une foule en habits du Directoire, année 1797. | — | — (muet, musique) |
 | 1 | b | 9 | ÉPOQUE | ANIMÉ | La foule s'écarte et tourne les têtes vers la nacelle qu'on amène sous le ballon, cordages tendus. | — | — |
 | 2 |  | 10 | ÉPOQUE | FIXE | Deux badauds au premier plan, cocardes et chapeaux, la nacelle en fond. | Travelling latéral lent vers la droite, des badauds vers la nacelle | BADAUD 1 : « Il va se tuer, je vous dis. » BADAUD 2 : « Dix francs qu'il ne coupe pas la corde. » |
-| 3 |  | 12 | ÉPOQUE | FIXE | Dans la nacelle, Garnerin, la main sur la corde de largage, regarde le ballon mâchoire serrée ; son aide, au rebord, le supplie ; le gros paquet de soie plié à leurs pieds. | Zoom avant lent sur la main de Garnerin serrant la corde | L'AIDE : « Citoyen Garnerin, renoncez, il est encore temps. » GARNERIN : « Lâchez tout. » |
+| 3 |  | 12 | ÉPOQUE | FIXE | Dans la nacelle, Garnerin, la main sur la corde de largage, regarde le ballon mâchoire serrée ; son aide, **au sol à l'extérieur**, le supplie ; le parachute replié **suspendu entre le ballon et la nacelle** (correction du 27 août 2026). | Zoom avant lent sur la main de Garnerin serrant la corde | L'AIDE : « Citoyen Garnerin, renoncez, il est encore temps. » GARNERIN : « Lâchez tout. » |
 | 4 | a | 10 | ÉPOQUE | ANIMÉ | Le ballon quitte le sol, la foule bascule en arrière pour le suivre des yeux. | — | — (muet) |
 | 4 | b | 10 | ÉPOQUE | ANIMÉ | Vu d'en haut, les toits de Paris rapetissent, la foule devient une tache sombre ; le vent siffle. | — | — |
 | 5 |  | 8 | ÉPOQUE | ANIMÉ | Très gros plan : la lame tranche la corde qui retient la nacelle au ballon. | — | — (muet) |

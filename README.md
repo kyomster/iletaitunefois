@@ -25,6 +25,7 @@ docs/
   scripts/                            build_prompts_pilote.py, build_clips_pilote.py, run_clips_runpod.py, runpod_pilote.py, montage_pilote.py, chain_dialogue_runpod.py, run_s2v_runpod.py, align_dialogue_audio.py (obsolète), analyse_montage.py, run_infinitetalk_runpod.py, run_e2_trois_samplers.py, run_ltx23_runpod.py, run_ltx25_runpod.py, run_ltx_voix_runpod.py, run_minimax_h3_runpod.py, comfy_ui_to_api.py
   runpod/                             les graphes ComfyUI (format API) I2V et FLF2V tels qu'exécutés
   S01E01-scenario.md                  les 79 plans, le minutage, les 14 gags
+  S01E01-logique-ouverture-froide.md  la chaîne physique de la scène d'ouverture, qui fait quoi, les incohérences corrigées
   SPEC-studio-v7-ecarts-avec-notre-process.md   ce que la spec du studio ne couvre pas de notre chaîne image et vidéo
   SPEC-studio-v7-amendement-C.md      l'amendement qui ajoute à la spec les fonctionnalités manquantes
   novelcrafter/                       le roman en prose (27 000 mots, 79 scènes), le manuscrit technique, la charte de prose, les entrées de Codex, le mode d'emploi
