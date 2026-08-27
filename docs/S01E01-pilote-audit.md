@@ -583,3 +583,23 @@ Coût : 1 planche + 11 clés + 2 reprises = **28 crédits**, 11 clips re-rendus 
 Coût : 1 planche + 13 clés = 28 crédits, 14 clips re-rendus en ~13 min. Montage 62,8 s, quatre répliques toujours mot pour mot, pod terminé, sorties supprimées du volume.
 
 **Deux restes, à traiter au prochain passage** — c'est le corollaire connu de la RÈGLE 36, la réinjection d'une planche élargit le cadrage : **1b-3** est passé du gros plan sur les nœuds à un plan de la nacelle entière, et **4b-2** montre les jambes de Garnerin dans la nacelle au lieu du gros plan sur la main gantée et le rebord. Les deux se corrigent par une clause de cadrage durci, comme 4a-2.
+
+### La scène remise d'aplomb (27 août 2026, pod A100 `q7s7f1i2q22l4p`)
+
+Trois retours de Guillaume, dont le dernier remonte à la racine : « il y a des incohérences de scénario, réfléchis à la logique complète de la scène et de qui fait quoi ». Analyse complète dans `docs/S01E01-logique-ouverture-froide.md`.
+
+**L'incohérence de fond était dans le scénario.** Le parachute y était « le gros paquet de soie plié à leurs pieds » et la corde partait « du rebord d'osier vers le ballon ». Tel quel, trancher cette corde fait tomber Garnerin **avec un bagage** — et le plan 6, « pour savoir s'il se relèvera », perd son sens. La chaîne réelle, et historique, est **ballon → corde → parachute replié → suspentes → nacelle**. Corrigé dans les briques, le scénario, la fiche de production et la fiche d'assets.
+
+**Et le mot manquait.** Guillaume : « ça sert à rien de décrire le parachute sans écrire le mot parachute, non ? ». La brique disait `folded bundle of undyed cream coloured raw silk` — le mot *parachute* avait été retiré le 25 août en appliquant la RÈGLE 30 sur les couleurs nommées. Le modèle a dessiné du linge plié, très exactement ce qu'on lui demandait. **RÈGLE 42** : on nomme l'objet, puis on le décrit ; l'état se prescrit par l'adjectif, jamais en cachant le nom.
+
+**Qui fait quoi**, corrigé à l'image : l'aide **au sol, hors de la nacelle** (le scénario le disait déjà) ; **deux amarres tenues** entrent dans le cadre du plan 3, elles retombent au 4a-1 — l'ordre « lâchez tout » a enfin un destinataire ; **Garnerin visible dans la nacelle au décollage**, au lieu de disparaître vingt secondes ; le sol visible au plan 3, pour que la nacelle ne semble pas déjà voler.
+
+**Les chapeaux**, enfin réglés en changeant le geste : main en visière au dessus des yeux, plus aucun contact avec le chapeau. La garde des objets empêchait un second chapeau d'apparaître mais pas le geste d'être ambigu — corollaire de la RÈGLE 40.
+
+**Un défaut de tirage** : P5-3 est d'abord sorti en **triptyque**, image étroite au centre et bandes floues sur les côtés. Repris avec un cadrage prescrit en positif (`ONE SINGLE WIDE IMAGE THAT FILLS THE ENTIRE 16:9 FRAME EDGE TO EDGE`) et les négatives correspondantes.
+
+Coût : 12 clés (24 crédits), 11 clips en ~18 min. Montage 62,8 s, quatre répliques mot pour mot. Pod terminé, sorties supprimées du volume.
+
+**Restes connus** : 1b-3 et 4b-2 gardent un cadrage élargi par la réinjection des planches (corollaire de la RÈGLE 36) — 4b-2 montre les jambes de Garnerin au lieu du gros plan sur la main gantée. À durcir au prochain passage.
+
+**Pour les épisodes suivants** : tout ce que ce pilote a coûté à apprendre est rassemblé dans `docs/GUIDE-preparation-episode.md`, avec la liste de contrôle à dérouler avant de générer la première image.

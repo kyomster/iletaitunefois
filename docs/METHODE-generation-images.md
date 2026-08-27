@@ -723,6 +723,22 @@ Règle de production qui en découle : devant un défaut d'action qui résiste �
 
 ---
 
+## RÈGLE 42 — on nomme l'objet par son nom, puis on le décrit : une description sans le nom n'est pas un objet
+
+Guillaume, en lisant les briques corrigées : « ça sert à rien de décrire le parachute sans écrire le mot parachute, non ? ». Exactement.
+
+La brique du plan 3 disait `the folded bundle of undyed cream coloured raw silk of the parachute`, puis, le 25 août, en appliquant la RÈGLE 30 sur les couleurs nommées en positif, elle a été réécrite en `the folded bundle of undyed cream coloured raw silk` — **le mot parachute a disparu**. Résultat à l'écran : du linge plié. Le modèle a dessiné exactement ce qu'on lui demandait, un ballot de soie écrue, parce que plus rien ne lui disait ce que cet objet **est**.
+
+**Le nom porte la fonction et la structure ; la description porte l'apparence ; l'adjectif porte l'état.** Un modèle d'image sait ce qu'est un parachute de 1797 gréé sous un ballon — il sait sa forme fuselée quand il est replié, ses suspentes, sa couronne. Aucune périphrase ne lui rend ce savoir. Écrire `a folded bundle of raw silk` revient à décrire une voiture comme « un volume de tôle sur quatre disques » : le modèle produira un objet, pas *l'*objet.
+
+**Corollaire, et c'est là que l'erreur s'était glissée : on ne retire jamais le nom pour contrôler l'état.** Le mot avait été écarté par crainte d'un parachute déployé au lieu d'un parachute plié. L'état se prescrit par l'adjectif — `the folded parachute, closed and bound like a furled umbrella` — pas en cachant le nom. Même chose pour une voilure qui doit rester fermée, un couteau qui doit rester dans sa gaine, un livre qui doit rester clos.
+
+C'est le pendant de la RÈGLE 38 : **elle exige de décrire l'objet en entier, celle-ci exige de le nommer.** Les deux ensemble donnent la formule d'un asset : `[nom exact], [forme], [structure], [matière], [couleurs en positif], [échelle], [ce qu'il n'a pas]`.
+
+Vérification mécanique, applicable à toute brique : **si on retire du prompt tous les adjectifs et toutes les subordonnées, il doit rester une liste de noms d'objets identifiables.** Si ce qui reste est « bundle », « shape », « piece », il manque un nom.
+
+---
+
 ## RÈGLE 41 — toute règle inscrite dans un script s'écrit aussi en clair dans le dépôt
 
 Demande de Guillaume, le 26 août : « consigne bien tout ce que tu mets dans le script comme règle dans un fichier MD aussi ».

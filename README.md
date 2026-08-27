@@ -47,6 +47,7 @@ docs/
 * **Pour savoir ce qu'on tourne** : `docs/S01E01-scenario.md`, puis `docs/S01E01-plan-de-production.md`.
 * **Pour comprendre ce qu'on a** : `docs/S01E01-index-assets-et-fichiers.md`.
 * **Pour écrire un nouvel épisode** : `docs/PROMPT-MAITRE-chaine-production.md`, qui s'appuie sur `docs/BIBLE-modernisation-v5.1.md`.
+* **Pour préparer un épisode** : `docs/GUIDE-preparation-episode.md` — la porte d'entrée, à dérouler avant de générer la première image ; il contient la liste de contrôle.
 * **Pour fabriquer les images** : `docs/METHODE-generation-images.md` d'abord, les fiches de `docs/prompts/` ensuite.
 * **Pour fabriquer la vidéo et le son** : `docs/PIPELINE-video-et-voix.md`.
 * **Pour lancer le pilote** : `docs/RUNBOOK-pilote-pour-claude-code.md`, à dérouler tel quel.
