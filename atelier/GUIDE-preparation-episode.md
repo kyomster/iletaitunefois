@@ -146,6 +146,10 @@ RÈGLE 41 : une règle qui ne dépend que de l'attention sera oubliée. Ces clau
 
 ---
 
+## §7 bis. Studio, avant les briques
+
+Depuis le 29 août 2026, la vérité de l'épisode est dans **Studio** (`atelier/STUDIO.md`). Avant d'écrire une brique : `get_context(show, episode)` pour la bible et les apprentissages à ne pas retenter, `get_format` avant tout calcul, `next(show)` pour l'action à faire. Les plans et répliques, les faits sourcés et leurs plans, les contrats de continuité (promesses, questions, états des objets) se saisissent dans Studio — `check` et `continuity_check` doivent être propres avant de générer la première image. Un refus de Studio se corrige dans la donnée, jamais en le contournant.
+
 ## §8. Où vivent les règles
 
 `atelier/METHODE-generation-images.md` porte les 42 règles numérotées et leurs corollaires, chacune avec sa preuve. `atelier/STRATEGIE-video.md` porte la chaîne vidéo et les règles de prompt de mouvement. `ecriture/METHODE-ecriture.md` et `iletaitunefois/serie/BIBLE-Les-Decouvreurs.md` porte ce qui contraint l'écriture dès le scénario. `iletaitunefois/S01E01/logique-ouverture-froide.md` est le modèle de ce que §1 demande pour une séquence d'action. Ce guide est la porte d'entrée : il ne remplace aucun des quatre, il dit dans quel ordre s'en servir.

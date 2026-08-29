@@ -1,0 +1,163 @@
+[
+ {
+  "outil": "upsert_prose_rule",
+  "args": {
+   "scope": "SHOW",
+   "show": "il-etait-une-fois",
+   "lang": "fr",
+   "active": true,
+   "sourceRef": "iletaitunefois/serie/CHARTE-prose.md@b490f92#4-5",
+   "category": "CONTRAINTE_SERIE",
+   "key": "mots-de-fabrication",
+   "title": "Aucun mot de fabrication ne survit dans la prose",
+   "explanation": "Le manuscrit ne dit jamais plan, cadre, raccord, contrechamp, caméra, plongée, gros plan, vignette, clip, image clé, décor, D1…D4, interdits, animé, fixe, désaturé, saturé, palette, style, registre : la consigne technique devient une sensation.",
+   "fixHint": "Remplacer la consigne par ce que le lecteur voit ou ressent : « On voyait tout le parc d'un coup » pour un plan très large, « Il n'y avait plus au monde que cette main et cette corde » pour un gros plan.",
+   "detector": {
+    "type": "mots",
+    "valeurs": [
+     "hors cadre",
+     "contrechamp",
+     "contre plongée",
+     "gros plan",
+     "image clé",
+     "raccord",
+     "caméra",
+     "vignette",
+     "clip",
+     "désaturé",
+     "palette",
+     "registre"
+    ],
+    "casse": false
+   },
+   "weight": 3,
+   "severity": "ERREUR",
+   "applyOrder": 5,
+   "examples": {
+    "mauvais": "Gros plan sur la main qui serre la corde.",
+    "bon": "Il n'y avait plus au monde que cette main et cette corde."
+   }
+  }
+ },
+ {
+  "outil": "upsert_prose_rule",
+  "args": {
+   "scope": "SHOW",
+   "show": "il-etait-une-fois",
+   "lang": "fr",
+   "active": true,
+   "sourceRef": "iletaitunefois/serie/CHARTE-prose.md@b490f92#4-5",
+   "category": "CONTRAINTE_SERIE",
+   "key": "anachronisme-parachute",
+   "title": "Personne ne prononce « parachute » avant que Lenormand ne forge le mot",
+   "explanation": "Zéro anachronisme de langage dans les scènes d'époque : en 1797 on dit citoyen et on compte en francs ; le mot parachute n'existe qu'à partir de 1785 et dans la bouche de ceux qui le connaissent.",
+   "fixHint": "Dans une scène antérieure à 1785, nommer l'objet par sa forme (la voilure, la toile, les chapeaux de paille).",
+   "severity": "ERREUR",
+   "applyOrder": 5
+  }
+ },
+ {
+  "outil": "upsert_prose_rule",
+  "args": {
+   "scope": "SHOW",
+   "show": "il-etait-une-fois",
+   "lang": "fr",
+   "active": true,
+   "sourceRef": "iletaitunefois/serie/CHARTE-prose.md@b490f92#4-5",
+   "category": "CONTRAINTE_SERIE",
+   "key": "couleurs-reservees",
+   "title": "Sable, sarcelle et orange vif appartiennent à la troupe",
+   "explanation": "Un vêtement d'époque n'est jamais de ces trois couleurs ; on écrit la matière : laine écrue, chanvre, toile à sac, soie crème.",
+   "fixHint": "Remplacer la couleur réservée par une matière ou une teinte d'époque.",
+   "severity": "ATTENTION",
+   "applyOrder": 5
+  }
+ },
+ {
+  "outil": "upsert_prose_rule",
+  "args": {
+   "scope": "SHOW",
+   "show": "il-etait-une-fois",
+   "lang": "fr",
+   "active": true,
+   "sourceRef": "iletaitunefois/serie/CHARTE-prose.md@b490f92#4-5",
+   "category": "CONTRAINTE_SERIE",
+   "key": "et-puis",
+   "title": "Chaîne mais/donc : jamais « et puis » entre deux étapes",
+   "explanation": "Chaque étape du récit est reliée à la précédente par mais ou donc, jamais par simple juxtaposition.",
+   "fixHint": "Réécrire la transition avec la conséquence (donc) ou l'opposition (mais) qui la justifie.",
+   "detector": {
+    "type": "connecteur",
+    "interdits": [
+     "et puis"
+    ],
+    "autorises": [
+     "mais",
+     "donc"
+    ]
+   },
+   "weight": 2,
+   "severity": "ERREUR",
+   "applyOrder": 10
+  }
+ },
+ {
+  "outil": "upsert_prose_rule",
+  "args": {
+   "scope": "SHOW",
+   "show": "il-etait-une-fois",
+   "lang": "fr",
+   "active": true,
+   "sourceRef": "iletaitunefois/serie/CHARTE-prose.md@b490f92#4-5",
+   "category": "TYPOGRAPHIE",
+   "key": "guillemets-francais",
+   "title": "Guillemets français, jamais droits",
+   "explanation": "Le texte dit est cité entre « et » ; les guillemets droits sont une trace de fabrication.",
+   "fixHint": "Remplacer \" par « » avec espaces insécables.",
+   "detector": {
+    "type": "typographie",
+    "sous_type": "guillemets_droits"
+   },
+   "weight": 1,
+   "severity": "ATTENTION",
+   "applyOrder": 60
+  }
+ },
+ {
+  "outil": "upsert_prose_rule",
+  "args": {
+   "scope": "SHOW",
+   "show": "il-etait-une-fois",
+   "lang": "fr",
+   "active": true,
+   "sourceRef": "iletaitunefois/serie/CHARTE-prose.md@b490f92#4-5",
+   "category": "JUGEMENT",
+   "key": "bible-de-plateau-invisible",
+   "title": "La bible de plateau est invisible mais respectée",
+   "explanation": "Naya à gauche, Elio à droite, Sam au fond ; la porte côté Naya, la fenêtre et la sacoche côté Elio ; Sam sans barbe et sans lunette, pansement main droite ; la table porte exactement les objets non rangés ; une seule nacelle. On l'écrit en mouvement, jamais en notice.",
+   "fixHint": "Vérifier la géographie et le compte des objets à chaque retour dans la pièce.",
+   "severity": "ATTENTION",
+   "applyOrder": 50
+  }
+ },
+ {
+  "outil": "upsert_voice_sample",
+  "args": {
+   "show": "il-etait-une-fois",
+   "label": "prose S01E01 — ouverture froide",
+   "lang": "fr",
+   "sample": "**L'aube sur le parc**\n\nLa brume ne s'était pas encore décidée à partir.\n\nElle traînait au ras des pelouses du parc Monceau, en nappes basses qui dérivaient lentement vers l'est, s'ouvraient sur un banc de pierre, se refermaient dessus, recouvraient une souche et la rendaient. Octobre avait vidé les arbres. Il ne restait des bosquets que des branches noires et propres, dessinées une à une contre le ciel blanc, et l'allée de gravier clair qui montait tout droit vers les colonnes du fond, là où les fabriques fermaient la perspective avec cette solennité de théâtre que les jardins du siècle se donnaient sans rire.\n\nAu milieu de la pelouse, dans l'axe exact de l'allée, il y avait le ballon.\n\nIl était énorme et il était calme, ou presque. Beige et bleu gris par bandes larges, gonflé à craquer, il pesait sur le paysage comme une chose qui n'a rien à y faire. Il oscillait d'un côté puis de l'autre, au gré d'un vent qu'on ne sentait pas au sol. À chaque mouvement les cordes d'amarrage se tendaient jusqu'à vibrer, rendaient un son grave et court, puis mollissaient d'un coup, et les piquets grinçaient dans la terre humide. Sous lui, posée dans l'herbe et attachée court, une nacelle d'osier attendait. Une seule. Il n'y en aurait pas d'autre de tout le jour.\n\nLa foule était venue quand même, malgré l'heure et malgré le froid.\n\nUne douzaine de silhouettes en manteaux sombres se tenaient sur l'allée, entre le portail et la pelouse, immobiles, toutes tournées dans le même sens. On ne voyait d'elles que des dos, des nuques rouges de froid, des chapeaux hauts, une main qui remontait un col, une autre qui tenait un chapeau contre une cuisse. Personne ne parlait plus. Le gravier avait cessé de crisser. Il n'y avait plus au monde que le froissement énorme de la toile là haut, le grincement patient des piquets, et quelque part vers l'est un oiseau qui n'avait pas compris qu'on attendait quelque chose.\n\nLe soleil finit par se lever derrière les arbres nus.\n\nIl posa sur toute la scène une lumière rasante, sans un gramme de chaleur, qui allongea les ombres jusqu'à l'autre bout de l'allée et fit briller la rosée sur les manches. La couleur avait quitté ce matin là. Il ne restait que des gris, des bruns lavés, du blanc de brume, et cette masse pâle au milieu qui tirait sur ses cordes comme un animal qui veut partir.\n\n***\n\n**Dix francs**\n\nAu bord de la foule, du côté du portail, deux hommes se faisaient face et n'étaient d'accord sur rien.\n\nLe premier était rond. Rond de partout, du",
+   "sourceRef": "iletaitunefois/S01E01/novelcrafter/S01E01-prose-novelcrafter.md@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_voice_sample",
+  "args": {
+   "show": "il-etait-une-fois",
+   "label": "prose S01E01 — le cadre",
+   "lang": "fr",
+   "sample": "**Une aiguille qui se décide**\n\nLa voix repartit avant que personne eût le temps de reprendre son souffle.\n\n« Donc la liste continue : la boussole — décrite en 1088, un siècle d'avance seulement, celle là —, le cardan, les écluses, le gouvernail... »\n\nIl y eut d'abord une aiguille, seule, énorme, posée sur son pivot au milieu d'un cadran de cuivre où l'on n'avait gravé ni lettre, ni chiffre, ni la moindre marque. Elle oscilla. Elle partit trop loin d'un côté, revint en dépassant de l'autre, hésita une dernière fois sur un frémissement à peine visible, et s'arrêta enfin dans une direction qu'elle avait trouvée toute seule et dont plus rien au monde ne la détournerait. Le cuivre luisait doucement autour d'elle.\n\nPuis des anneaux. Trois cercles de métal emboîtés les uns dans les autres, chacun libre de tourner sur son axe, et au centre un petit brûleur d'huile. On bascula l'ensemble d'un côté, puis de l'autre, on le fit rouler franchement : les anneaux suivirent le mouvement en glissant les uns contre les autres avec un chuintement de bon ajustage, et le brûleur, lui, ne bougea pas. Il resta horizontal, obstinément horizontal, sa flamme droite, comme si le reste du monde ne le regardait pas.\n\nPuis de l'eau qui montait entre deux murs. Une barque tenait dans un bassin étroit, prise entre deux portes de bois massif, et l'eau entrait par en dessous en tournant sur elle même. Le niveau grimpa le long des pierres en laissant sous lui une frange sombre, et la barque grimpa avec, lentement, sans une secousse, jusqu'à se retrouver à la hauteur de l'amont. La porte du fond s'ouvrit alors sur un canal calme, et rien de tout cela n'avait demandé plus d'efforts que d'ouvrir une vanne.\n\nPuis on passa sous la ligne d'eau, à l'arrière d'une jonque, là où le courant filait en longues stries vertes. Un gouvernail y descendait dans l'axe, une planche large accrochée droit à l'étambot, et il pivota d'un quart de tour. L'eau se coucha contre lui. Toute la masse du bateau obéit.\n\nUne autre voix, venue de la pièce, tomba par dessus les images comme une pierre dans un seau.\n\n« Et la vapeur ? »\n\nLa réponse ne se fit pas attendre, et elle avait le sourire dedans.\n\n« Déjà sortie de la liste. Bien essayé. »\n\n***\n\n**Les tours de bambou**\n\nLe jour était voilé et la lumière tombait sans ombre, d'un blanc mou qui écrasait tout.\n\n« Ajoutez le forage profond, au Sichuan, dès le IIᵉ siècle avant notre ère : des tours de bambou pour puiser la saumure... et déjà le pétrole. »\n\nElles se dressaie",
+   "sourceRef": "iletaitunefois/S01E01/novelcrafter/S01E01-prose-novelcrafter.md@b490f92"
+  }
+ }
+]

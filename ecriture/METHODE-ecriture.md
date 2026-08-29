@@ -6,7 +6,7 @@ Partie générique de la bible d'écriture et de fabrication (v5.1), séparée l
 
 ## 0. Hiérarchie des sources — LA règle avant toutes les autres
 
-1. **La fiche épisode dit QUOI raconter.** Son « Découpage séquentiel » est la **colonne vertébrale du scénario** : toutes ses séquences doivent être couvertes, dans le même ordre, aux seules exceptions qu'impose le dispositif de la série. Un épisode qui traite douze sujets donne un scénario qui traite douze sujets. **Ne jamais réduire un épisode inventaire à un seul de ses fils.**
+1. **La fiche épisode dit QUOI raconter.** Pour *Il était une fois*, c'est le corpus `iletaitunefois/fiches_verifie/` — la fiche vérifiée **et son audit** (`_audit/`), qui seul porte les sources ; on écrit sur l'état de l'audit à sa dernière passe, pas sur la fiche d'un jour antérieur (S01E01 a dû être révisé pour trois corrections du 7 août). Son « Découpage séquentiel » est la **colonne vertébrale du scénario** : toutes ses séquences doivent être couvertes, dans le même ordre, aux seules exceptions qu'impose le dispositif de la série. Un épisode qui traite douze sujets donne un scénario qui traite douze sujets. **Ne jamais réduire un épisode inventaire à un seul de ses fils.**
 2. **La bible de la série dit COMMENT le raconter** : structure, dispositif, registres, toujours/jamais.
 3. **Les corrections de la fiche épisode sont la matière première des scènes de vérification.** Tout ce qui figure entre crochets *[l'épisode dit : ...]*, dans « Faits énoncés », « Réserves sur la source » et « Ce que l'on sait depuis » doit être traité : joué à l'écran ou explicitement noté hors périmètre en tête de scénario.
 4. **En cas de conflit entre les fiches, ne jamais trancher en silence** : signaler le conflit et proposer l'arbitrage.

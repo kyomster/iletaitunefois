@@ -1,0 +1,62 @@
+# Audit — S01E15-1 La chaise
+
+> **Fiche source** : `fiches/objets/S01E15-1_chaise.md` · **Fiche vérifiée** : `fiches_verifie/objets/S01E15-1_chaise.md` · **Vérifiée le** : 2026-08-06
+> **Série** : Il était une fois… ces drôles d'objets · **Épisode** S01E15, sujet 1/3
+
+## Bilan
+
+| Faits contrôlés | ✅ confirmés | ⚠️ imprécis | ❌ erronés | 🕰️ dépassés | ❓ non tranchés |
+|---|---|---|---|---|---|
+| 18 | 8 | 4 | 3 | 3 | 0 |
+
+## Corrections appliquées
+
+| # | Section | Énoncé de la fiche source | Statut | État 2026 | Source | Confiance |
+|---|---|---|---|---|---|---|
+| 1 | Histoire · Faits | Anatomie de la chaise : piétement, dossier, assise | ✅ | Exact, **et le vocabulaire de métier est plus riche** : une chaise sans dossier est un **tabouret**, avec accoudoirs un **fauteuil**, et **le mot « chaise » est une déformation de « chaire »** — le siège du maître, d'où *chaire* d'église et *chaire* universitaire. **Le même mot a donné le meuble ordinaire et le siège du pouvoir** | Étymologie ; vocabulaire du meuble | Haute |
+| 2 | Histoire · Faits | En Égypte, une des toutes premières chaises : fibre végétale, bois sculpté, pierres précieuses | ✅ | Exact : les chaises et tabourets égyptiens sont attestés **dès le IIIᵉ millénaire av. J.-C.**, et **le trône doré de Toutankhamon en est le témoin le plus célèbre**. **La hauteur du siège y est déjà un signe de rang** — plus on est haut, plus on est grand | Mobilier funéraire égyptien | Haute |
+| 3 | Histoire · Faits | Les Égyptiens s'assoient à même le sol, seuls les riches ont des chaises | ✅ | **Exact, et c'est le fait le plus important du sujet, qu'il énonce sans le développer** : **pendant la plus grande partie de l'histoire humaine, s'asseoir sur un siège surélevé a été un privilège**, non un usage. **Le monde entier s'asseyait par terre, accroupi ou en tailleur** | Anthropologie de la posture | Haute |
+| 4 | Histoire · Faits | Le klismos, chaise des philosophes grecs pour donner leurs cours | ⚠️ | **L'objet est exact, son usage l'est moins.** Le **klismos**, avec son **dossier recourbé et ses pieds en sabre**, est bien grec et **c'est le premier siège connu dont le dossier épouse la courbure du dos** — une intuition ergonomique de vingt-cinq siècles d'avance. **Mais c'est un meuble domestique**, très souvent représenté **occupé par des femmes** sur les vases ; **l'enseignement grec se donnait volontiers debout ou en marchant** — l'école d'Aristote s'appelait *péripatéticienne* pour cette raison | Iconographie céramique grecque | Haute |
+| 5 | Faits · Depuis | Le klismos comme objet ancien | 🕰️ | **Il est revenu, et c'est pourquoi il nous paraît moderne.** Le klismos a été **redécouvert par le néoclassicisme de la fin du XVIIIᵉ siècle**, copié d'après les vases grecs, et **il est à l'origine des chaises Directoire et Empire**. **Quand Maestro le trouve « moderne », il reconnaît en réalité un meuble de 1800 qui copiait un meuble de −450** | Histoire du mobilier néoclassique | Haute |
+| 6 | Histoire · Faits · Dates | En Chine, au IIᵉ siècle, il n'y a pas de chaise : les meubles sont bas et l'on s'assoit au sol | ✅ | **Exact — et la coïncidence avec le personnage choisi par l'épisode est extraordinaire.** La Chine s'assied effectivement au sol jusqu'à la fin de l'Antiquité, **et c'est précisément l'empereur Ling des Han, celui que met en scène le sujet, à qui les sources attribuent l'introduction du siège surélevé** : passionné de modes étrangères, **il adopte le *hu chuang*, le « lit barbare » — un tabouret pliant venu d'Asie centrale — et toute la cour l'imite**. **Le sujet fait confisquer une chaise par l'empereur qui a réellement importé la chaise en Chine** | Sources historiques des Han postérieurs ; historiographie du mobilier chinois | Haute |
+| 7 | Faits · Depuis | La Chine sans chaise | 🕰️ | **Et la transition complète a pris huit siècles.** Du tabouret pliant de l'époque Han, on passe aux **sièges hauts généralisés sous les Song, aux Xᵉ-XIIIᵉ siècles**. **La Chine est la seule grande civilisation d'Asie orientale à être passée du sol à la chaise** — **le Japon et la Corée ne l'ont pas fait**, et s'asseoir au sol y reste la norme traditionnelle | Historiographie du mobilier chinois | Haute |
+| 8 | Histoire · Faits | Au XVIIᵉ siècle, assises et dossiers de tapisserie et de velours ; certaines chaises s'adaptent aux modes vestimentaires | ✅ | **Exact, et l'exemple est savoureux** : on a conçu des sièges **sans accoudoirs, ou à dossier très bas**, pour laisser passer **les vertugadins puis les paniers** — ces armatures qui élargissaient les robes de plusieurs dizaines de centimètres. **Le meuble a dû s'adapter à un vêtement, et non l'inverse** | Histoire du mobilier français | Haute |
+| 9 | Histoire · Faits | Au XIXᵉ siècle, la chaise cesse d'être un symbole de pouvoir : tous les foyers en ont | ✅ | Exact, **et la démocratisation de l'assise est l'un des changements matériels les plus profonds du siècle**, au même titre que l'éclairage ou le linge | Histoire de la culture matérielle | Haute |
+| 10 | Histoire · Faits · Dates | Michael Thonet et la chaise numéro quatorze : six pièces de bois, dix vis, deux écrous | ✅ | **Exact au boulon près, et il manque la date et le procédé** : la **chaise n° 14 est créée à Vienne en 1859**, en **bois de hêtre cintré à la vapeur** — procédé que **Thonet avait breveté en 1856**. **C'est le premier meuble industriel de l'histoire** | Historiographie Thonet | Haute |
+| 11 | Faits · Depuis | Le gain de temps, d'espace et d'argent | 🕰️ | **Le sujet ouvre sur un meuble en kit et ne voit pas qu'il en raconte l'invention.** **On fait tenir trente-six chaises n° 14 démontées dans un mètre cube** — d'où un transport maritime dérisoire, et une diffusion mondiale. **Le meuble à monter soi-même a été inventé en 1859, un siècle avant les enseignes qui l'ont popularisé**, et **il s'en est vendu plusieurs dizaines de millions avant 1930**. **La notice qui désespère Maestro au début du sujet est l'héritière directe de l'homme qu'il rencontre à la fin** | Idem | Haute |
+| 12 | Histoire · Faits · Dates | « Dans les années 1960, une pénurie de caoutchouc oblige à utiliser nylon et polyester » | ❌ | **La cause est fausse et les matériaux ne sont pas les bons.** La chaise en plastique ne naît pas d'une pénurie mais **de l'essor de la pétrochimie d'après-guerre** — **le polypropylène est mis au point en 1954** et vaut un prix Nobel de chimie en 1963. Les chaises emblématiques de la période sont en **polyester renforcé de fibre de verre** puis en **polypropylène** ; **la seule grande pénurie de caoutchouc du siècle est celle de 1942**, et elle a produit du **caoutchouc de synthèse**, pas des chaises | Histoire des polymères ; design du XXᵉ siècle | Haute |
+| 13 | Faits · Depuis | La chaise en plastique | 🕰️ | **Et le sujet manque l'objet le plus produit de l'histoire du mobilier** : la **chaise monobloc de jardin**, moulée d'une seule pièce en polypropylène, apparue au début des **années 1970**. **Elle est fabriquée par centaines de millions d'exemplaires, sur tous les continents, sans auteur reconnu ni marque** — c'est probablement **le meuble le plus répandu au monde**, et personne ne sait qui l'a dessiné | Histoire du design industriel | Haute |
+| 14 | Faits | Dans les années 2000, la technologie permet aux designers d'exprimer leur créativité | ⚠️ | Formule vague. **Ce qui a réellement changé, c'est le calcul** : **la simulation par éléments finis permet de placer la matière exactement là où elle travaille**, d'où des piétements ajourés et des coques évidées impossibles à dessiner à la main. **La chaise contemporaine n'est pas plus créative : elle est calculée** | Conception assistée par ordinateur | Haute |
+| 15 | Histoire · Faits | La chaise ergonomique réglable en plus de cent cinquante positions | ✅ | Exact quant à l'existence de sièges à réglages multiples — **mais le chiffre est un argument commercial** : on additionne les combinaisons de hauteur, d'inclinaison, de profondeur et d'accoudoirs. **Ce qui compte réellement est le soutien lombaire et la possibilité de bouger** | Documentation des fabricants | Moyenne |
+| 16 | Faits | L'assise orientée vers le bas favorise la circulation sanguine | ⚠️ | **Le fait est réel, l'explication est incomplète.** Une **assise inclinée vers l'avant** ouvre l'angle entre le tronc et les cuisses, ce qui **maintient la courbure lombaire naturelle** et **réduit la compression sous la cuisse**. **C'est le principe des sièges assis-genoux, apparus vers 1979** — mais **l'effet principal est postural, pas circulatoire** | Ergonomie de l'assise | Haute |
+| 17 | Faits · Depuis | La chaise ergonomique comme solution au mal de dos | ❌ | **Le consensus s'est déplacé : le problème n'est pas la chaise, c'est la durée.** Aucun réglage ne compense **l'immobilité prolongée**, et **le temps passé assis est associé à des risques accrus indépendamment de l'activité physique par ailleurs**. **La meilleure position est la suivante** : **il n'existe pas de bonne posture, il n'existe que le changement de posture**. La règle qu'on enseigne aujourd'hui est de **se lever toutes les demi-heures**, non d'acheter un meilleur siège | Littérature sur la sédentarité | Haute |
+| 18 | Faits · Depuis | — | ⚠️ | **Le sujet ne dit pas que s'asseoir sur une chaise n'a rien de naturel.** Dans une grande partie du monde, **la position accroupie de repos reste la posture ordinaire**, et **elle entretient la mobilité de la cheville et de la hanche que la chaise fait perdre**. **La chaise n'est pas un progrès sur le sol : c'est un choix culturel qui a un coût articulaire** | Anthropologie et physiologie de la posture | Moyenne |
+
+### Propagation
+
+- Les corrections #4 et #5 (usage du klismos, revival néoclassique) touchent `Histoire complète`, `Faits énoncés`, `Dates clefs`.
+- Les corrections #6 et #7 (l'empereur Ling importe le siège, généralisation sous les Song) touchent `Sujet`, `Histoire complète`, `Faits énoncés`, `Ce que l'on sait depuis`.
+- Les corrections #10 et #11 (1859, cintrage breveté en 1856, trente-six chaises au mètre cube) touchent `Sujet`, `Histoire complète`, `Faits énoncés`, `Dates clefs`, `Ce que l'on sait depuis`.
+- La correction #12 (pas de pénurie de caoutchouc, polypropylène de 1954) touche `Histoire complète`, `Faits énoncés`, `Dates clefs`.
+- Les corrections #13, #17 et #18 (chaise monobloc, sédentarité, position accroupie) alimentent `Pistes de réemploi` et `Ce que l'on sait depuis`.
+- Les sections `Personnages`, `Découpage séquentiel`, `Gags`, `Répliques marquantes`, `Réserves sur la source` et `Procédés narratifs & ton` sont **recopiées à l'identique**.
+
+## Non tranché
+
+- Aucun point n'est resté douteux sur ce sujet.
+
+## Apports 2026
+
+- **« Chaise » est une déformation de « chaire »** : le même mot a donné le meuble ordinaire et le siège du pouvoir.
+- **Le klismos est le premier siège dont le dossier épouse la courbure du dos** ; **c'est un meuble domestique, souvent occupé par des femmes**, et **il nous paraît moderne parce que le néoclassicisme l'a recopié vers 1800**.
+- **L'empereur Ling des Han, que met en scène le sujet, est celui à qui les sources attribuent l'introduction du siège surélevé en Chine**, par le tabouret pliant venu d'Asie centrale.
+- **La chaise ne se généralise en Chine que sous les Song** ; **le Japon et la Corée n'ont jamais fait cette transition**.
+- **Des sièges du XVIIIᵉ siècle ont été conçus pour laisser passer les paniers des robes** : le meuble s'est adapté au vêtement.
+- **La chaise n° 14 est de 1859, en hêtre cintré à la vapeur, procédé breveté en 1856** ; **trente-six chaises démontées tiennent dans un mètre cube**. **Le meuble en kit a été inventé un siècle avant les enseignes qui l'ont popularisé.**
+- **La chaise en plastique ne vient pas d'une pénurie de caoutchouc mais de la pétrochimie d'après-guerre** — polypropylène, 1954.
+- **La chaise monobloc de jardin, née au début des années 1970, est probablement le meuble le plus répandu au monde** — et son auteur est inconnu.
+- **Le problème n'est pas la chaise mais la durée** : **il n'existe pas de bonne posture, seulement le changement de posture**.
+
+## Recherches effectuées
+
+- `Emperor Ling of Han hu chuang folding stool introduced chairs China; Thonet No 14 1859 six pieces flat pack 36 chairs cubic metre; Robert Hinchliffe 1761 Sheffield cast steel scissors; James Dewar 1892 vacuum flask Reinhold Burger 1903 patent`

@@ -1,0 +1,69 @@
+# Audit — S01E14-1 Le pantalon
+
+> **Fiche source** : `fiches/objets/S01E14-1_pantalon.md` · **Fiche vérifiée** : `fiches_verifie/objets/S01E14-1_pantalon.md` · **Vérifiée le** : 2026-08-06
+> **Série** : Il était une fois… ces drôles d'objets · **Épisode** S01E14, sujet 1/3
+
+## Bilan
+
+| Faits contrôlés | ✅ confirmés | ⚠️ imprécis | ❌ erronés | 🕰️ dépassés | ❓ non tranchés |
+|---|---|---|---|---|---|
+| 22 | 10 | 6 | 3 | 3 | 0 |
+
+## Corrections appliquées
+
+| # | Section | Énoncé de la fiche source | Statut | État 2026 | Source | Confiance |
+|---|---|---|---|---|---|---|
+| 1 | Histoire · Faits | Le pantalon répond d'abord à une fonction ; pantalons de métier ; le pantalon de pompier est ignifugé | ✅ | Exact, **avec une nuance de vocabulaire** : un vêtement de pompier n'est pas « incombustible » mais **retardateur de flamme et thermorésistant** — fibres aramides qui **ne fondent pas et carbonisent sans propager la flamme**. **Rien n'est incombustible ; on gagne des secondes, et ces secondes suffisent** | Normes de tenues d'intervention | Haute |
+| 2 | Histoire · Faits · Dates | « Au Néolithique, l'invention du pantalon est liée à la domestication du cheval » | ⚠️ | **Le lien est juste, la date l'est moins depuis 2021.** Une étude de génomique publiée cette année-là a montré que **la lignée de tous les chevaux domestiques actuels vient des steppes de la basse Volga et du Don et se répand à partir d'environ 2200 av. J.-C.**, donc **à l'âge du bronze et non au Néolithique**. Les tentatives antérieures — dont **Botaï, vers 3500 av. J.-C.** — n'ont pas laissé de descendance domestique. **Le cheval qu'on monte et le pantalon apparaissent donc à peu près en même temps, et bien plus tard qu'on ne le disait** | Librado *et al.*, *Nature*, 2021 | Haute |
+| 3 | Histoire · Faits | Le plus ancien pantalon complet, en Chine, vieux d'au moins trois mille ans, sans couture à l'arrière | ✅ | **Exact, et la trouvaille est remarquable.** Les pantalons de laine du **cimetière de Yanghai, dans le bassin de Tourfan, au Xinjiang**, sont datés d'environ **3 000 à 3 300 ans**. **Leur entrejambe n'est pas coupé : il est tissé d'une pièce, en une large pièce en escalier** qui donne l'aisance nécessaire à cheval sans coudre là où ça frotte. **Le vêtement a été tissé à la forme, pas taillé** — une conception que la coupe moderne a perdue | Cimetière de Yanghai ; publications 2014 et suivantes | Haute |
+| 4 | Histoire · Faits | Les Celtes portent des braies ; les Germains des pantalons à pieds | ✅ | Exact — **et le mot est resté** : le latin ***bracae*** est un emprunt au gaulois, qui a donné **« braies », puis « braguette »**, et **la province romaine de Gaule narbonnaise fut un temps surnommée *Gallia Braccata*, la Gaule en pantalon** | Étymologie ; toponymie romaine | Haute |
+| 5 | Histoire · Faits · Depuis | Pour les Romains, « les pantalons, c'est pour les barbares » | 🕰️ | **Exact — et la fin de l'histoire est savoureuse : les Romains s'y sont mis.** À force de recruter des cavaliers du Nord, **l'armée romaine adopte le pantalon aux IIIᵉ-IVᵉ siècles**, au point que **des édits impériaux de 397 et 399 interdisent d'en porter dans la Ville**, sous peine de bannissement. **On légifère contre un vêtement quand il est déjà partout** — c'est exactement ce qui arrivera aux femmes quinze siècles plus tard | Code théodosien, édits de 397 et 399 | Haute |
+| 6 | Histoire · Faits · Dates | Au XVᵉ siècle, l'empereur Ming occupe le Vietnam et impose le pantalon aux femmes | ✅ | Exact, **et l'occupation est datable** : la **domination Ming sur le Đại Việt dure de 1407 à 1427**, avec une politique explicite d'assimilation vestimentaire et culturelle | Historiographie vietnamienne | Haute |
+| 7 | Histoire · Faits · Dates | En 1665, Lê Uyên Thông ordonne le retour à la jupe ; Minh Mạng l'interdira de nouveau | ⚠️ | **La chaîne est exacte, il manque la dernière date et une étape.** L'édit de **1665** rétablit bien la jupe ; **au XVIIIᵉ siècle un seigneur du Sud impose de nouveau le pantalon** — c'est de cette réforme vestimentaire que descend l'áo dài — ; et **Minh Mạng tranche en 1828 en proscrivant la jupe**. **Trois siècles, quatre revirements, et jamais une femme consultée** : la réplique de l'épisode est le meilleur résumé du sujet | Édits vietnamiens de 1665 et 1828 | Haute |
+| 8 | Histoire · Faits · Dates | Au Xᵉ siècle, les hauts-de-chausses s'accrochent au pourpoint par des lacets | ⚠️ | **Trop tôt de trois à quatre siècles.** Les **chausses** existent, mais **le pourpoint et son laçage par « aiguillettes » sont caractéristiques des XIVᵉ-XVᵉ siècles** — c'est le moment où le vêtement masculin se scinde nettement en haut ajusté et bas moulant | Histoire du costume médiéval | Haute |
+| 9 | Histoire · Faits · Dates | Le pantalon apparaît en Europe au XVIᵉ siècle, et avec lui les premières braguettes | ⚠️ | **La braguette est plus ancienne que le pantalon qu'on lui associe** : la **braguette rembourrée apparaît au XVᵉ siècle et culmine vers les années 1540**, sur les chausses, **avant de disparaître à la fin du siècle**. **Elle n'est pas née avec le pantalon : elle est morte avant lui** | Histoire du costume Renaissance | Haute |
+| 10 | Histoire · Faits · Dates · Depuis | Le kilt est porté dans l'armée écossaise depuis le XVIᵉ siècle | ⚠️ | **Le vêtement est du XVIᵉ siècle, l'uniforme est du XVIIIᵉ** — les régiments des Highlands le portent à partir des années 1740-1750. **Et l'épisode manque le retournement** : après la défaite de Culloden, **une loi de 1746 a interdit le costume des Highlands aux civils**, sous peine de déportation, **en exemptant les soldats de l'armée britannique**. **Interdiction levée en 1782.** **Le kilt a été proscrit puis transformé en emblème militaire par ceux qui l'avaient proscrit** | *Dress Act* de 1746, abrogé en 1782 | Haute |
+| 11 | Histoire · Faits | Le ringrave, jupe-culotte prisée sous Louis XIV | ✅ | Exact : la **rhingrave** est en vogue **des années 1650 aux années 1670**, si ample qu'on pouvait y voir une jupe. **Le vêtement masculin le plus jupe de l'histoire européenne a été porté par la cour la plus virile qui soit** | Histoire du costume de cour | Haute |
+| 12 | Histoire · Faits | Au XVIIᵉ siècle, les nobles portent la culotte et les bas ; en 1789 les révolutionnaires portent le pantalon | ✅ | **Exact, et c'est le meilleur exemple de vêtement politique de la série** : ***sans-culotte* est une insulte retournée en drapeau**. **Ce n'est pas le pantalon qui définit le révolutionnaire, c'est l'absence de culotte** — la désignation se fait par le négatif | Historiographie révolutionnaire | Haute |
+| 13 | Histoire · Faits · Dates | C'est sous Napoléon III que le pantalon devient le vêtement masculin le plus porté | ⚠️ | **Une génération trop tard.** Le pantalon long s'impose dans la garde-robe masculine européenne **dès les années 1810-1820**, porté par le dandysme anglais et la simplification post-révolutionnaire ; **sous le Second Empire, l'affaire est réglée depuis trente ans**. **Napoléon III hérite d'une victoire, il ne la remporte pas** | Histoire du costume masculin | Haute |
+| 14 | Histoire · Faits | Ouvrières et paysannes portent le pantalon pour les travaux pénibles | ✅ | Exact, **et c'est une clé de lecture** : l'interdit visait les femmes des villes et des classes moyennes, **pas celles dont on avait besoin qu'elles travaillent**. **La règle n'a jamais été appliquée aux mines ni aux champs** | Histoire du travail féminin | Haute |
+| 15 | Histoire · Faits · Dates | « Une loi du 17 novembre 1800 interdit aux femmes de porter le pantalon » | ❌ | **Ni la date, ni la nature du texte.** Il s'agit d'une **ordonnance du préfet de police de Paris du 7 novembre 1800 — 16 brumaire an IX** —, donc **un texte de police municipale applicable à Paris**, et non d'une loi nationale. Elle **impose une autorisation préalable** pour qu'une femme s'habille en homme. **Le fond de l'épisode est exact ; le texte qu'il cite n'a ni la portée ni la date qu'il lui donne** | Ordonnance de la préfecture de police, 16 brumaire an IX | Haute |
+| 16 | Histoire · Faits · Depuis | L'autorisation exceptionnelle pour métier spécial | 🕰️ | **Le dispositif a un nom, un formulaire et des célébrités.** On l'appelait la **« permission de travestissement »**, délivrée par la préfecture, **renouvelable tous les six mois** et subordonnée à un certificat médical. **La peintre Rosa Bonheur en a obtenu une**, pour pouvoir travailler dans les abattoirs et les foires aux bestiaux — **elle a dû la faire renouveler pendant des décennies**. **George Sand, elle, s'en passait** | Historiographie de la permission de travestissement | Haute |
+| 17 | Faits · Dates · Depuis | La loi et le sport | 🕰️ | **L'ordonnance a été amendée deux fois, et pour des raisons d'objets — ce qui la rend encore plus parlante.** Des circulaires de **1892 puis de 1909** autorisent le port du pantalon **« si la femme tient par la main un guidon de bicyclette »**, puis **les rênes d'un cheval**. **Le droit au pantalon a d'abord été un droit accordé à une machine** : c'est le vélo qui a fissuré l'interdit, exactement comme le raconte la fiche du vélo | Circulaires de 1892 et 1909 | Haute |
+| 18 | Faits · Depuis | L'interdiction aujourd'hui | ❌ | **Le texte n'a été formellement écarté qu'en 2013** — plus de deux siècles après. Longtemps signalé comme tombé en désuétude mais jamais abrogé, **il a fait l'objet en janvier 2013 d'une déclaration officielle constatant son incompatibilité avec les principes constitutionnels d'égalité**, à la suite d'une question parlementaire. **L'épisode s'arrête à l'émancipation par le sport et manque la chute : le texte a survécu au droit de vote des femmes de trente-neuf ans** | Réponse ministérielle, janvier 2013 | Haute |
+| 19 | Faits | Le sport ouvre le pantalon aux femmes : aviatrices, golfeuses, cyclistes, skieuses | ✅ | Exact, **et le mécanisme est toujours le même** : **on tolère le pantalon là où la jupe est dangereuse ou ridicule**, puis la tolérance déborde | Histoire du sport féminin | Haute |
+| 20 | Faits · Depuis | — | ⚠️ | **Trois dates manquent au XXᵉ siècle, et elles sont célèbres.** **Marlene Dietrich impose le costume-pantalon au cinéma dans les années 1930** ; **Yves Saint Laurent crée son smoking pour femme en 1966** ; et **les sénatrices américaines n'ont été autorisées à siéger en pantalon qu'en 1993**. **L'interdit n'était pas qu'une survivance française** | Histoire de la mode ; règlement du Sénat américain, 1993 | Haute |
+| 21 | Faits | Le pantalon permet de monter à cheval, aux hommes comme aux femmes | ✅ | Exact, **et la correction que le personnage impose à Maestro est historiquement fondée** : **les femmes montaient en amazone précisément parce que le pantalon leur était refusé** — une position moins sûre, qui a coûté des chutes et des vies | Histoire de l'équitation | Haute |
+| 22 | Faits | Porter le pantalon a beaucoup servi à l'émancipation des femmes | ✅ | Exact, **et l'expression française le dit sans qu'on y prenne garde** : ***porter la culotte*** signifie commander. **La langue avait tranché la question bien avant le droit** | Lexicographie | Haute |
+
+### Propagation
+
+- La correction #2 (domestication du cheval vers 2200 av. J.-C.) touche `Histoire complète`, `Faits énoncés`, `Dates clefs`.
+- La correction #5 (les Romains adoptent le pantalon, édits de 397 et 399) alimente `Faits énoncés`, `Pistes de réemploi`, `Ce que l'on sait depuis`.
+- Les corrections #7, #8, #9, #10 et #13 (1828, chronologie du pourpoint, braguette, *Dress Act*, années 1810-1820) touchent `Histoire complète`, `Faits énoncés`, `Dates clefs`.
+- Les corrections #15, #16, #17 et #18 (7 novembre 1800, ordonnance de police, permissions de travestissement, 1892, 1909, 2013) touchent `Sujet`, `Histoire complète`, `Faits énoncés`, `Dates clefs`, `Ce que l'on sait depuis`.
+- La correction #20 (Dietrich, 1966, 1993) alimente `Pistes de réemploi` et `Ce que l'on sait depuis`.
+- Les sections `Personnages`, `Découpage séquentiel`, `Gags`, `Répliques marquantes`, `Réserves sur la source` et `Procédés narratifs & ton` sont **recopiées à l'identique**.
+
+## Non tranché
+
+- Aucun point n'est resté douteux sur ce sujet.
+
+## Apports 2026
+
+- **La lignée de tous les chevaux domestiques actuels part des steppes de la Volga vers 2200 av. J.-C.** : le cheval monté et le pantalon sont contemporains, à l'âge du bronze.
+- **Les plus anciens pantalons sont ceux de Yanghai, au Xinjiang, vieux de 3 000 à 3 300 ans** : **leur entrejambe est tissé d'une pièce, pas coupé**.
+- **Le latin *bracae* est un emprunt au gaulois** ; la Gaule narbonnaise fut surnommée *Gallia Braccata*.
+- **Les Romains ont fini par adopter le pantalon** : **édits de 397 et 399 interdisant d'en porter dans la Ville**, preuve qu'il y était partout.
+- **Domination Ming sur le Vietnam : 1407-1427** ; **édit de 1665** rétablissant la jupe ; **Minh Mạng la proscrit en 1828**.
+- **La braguette rembourrée culmine vers 1540 et disparaît avant le pantalon.**
+- **Le *Dress Act* de 1746 interdit le costume des Highlands aux civils, en exemptant les soldats** ; abrogé en 1782.
+- **Le texte français est une ordonnance du préfet de police de Paris du 7 novembre 1800**, non une loi.
+- **La « permission de travestissement » était renouvelable tous les six mois** ; **Rosa Bonheur en a obtenu une**.
+- **Des circulaires de 1892 et 1909 autorisent le pantalon si la femme tient un guidon de bicyclette, puis les rênes d'un cheval.**
+- **Le texte n'a été officiellement écarté qu'en janvier 2013.**
+- **Les sénatrices américaines n'ont pu siéger en pantalon qu'en 1993.**
+
+## Recherches effectuées
+
+- `ordonnance préfecture police 26 brumaire an IX 1800 femmes pantalon abrogée 2013; Yanghai trousers 3000 years oldest Xinjiang; Lyda Newman patent 1898 hairbrush age; Gorongosa tuskless elephants Science 2021`

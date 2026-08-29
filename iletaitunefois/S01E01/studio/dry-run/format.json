@@ -1,0 +1,71 @@
+[
+ {
+  "outil": "set_format",
+  "args": {
+   "scope": "SHOW",
+   "show": "il-etait-une-fois",
+   "values": {
+    "langue": "fr",
+    "dureeEpisodeSec": 1260,
+    "dureeEpisodeToleranceSec": 60,
+    "debitMotsParMinuteMin": 85,
+    "debitMotsParMinuteMax": 95,
+    "budgetMotsTolerance": 0.05,
+    "registres": [
+     "CADRE",
+     "EPOQUE",
+     "MIXTE"
+    ],
+    "kinds": [
+     "FIXE",
+     "ANIME",
+     "POST"
+    ],
+    "voiceMode": "INTEGREE",
+    "ratioAnimeMax": 0.4,
+    "blocAnimeMaxSec": 10,
+    "refsMaxParPrompt": 7,
+    "image": {
+     "engine": "nano_banana_pro",
+     "ratio": "16:9",
+     "resolution": "2k"
+    },
+    "video": {
+     "engineCode": "ltx-2.5-i2v-2passes",
+     "imagesParSeconde": 24,
+     "resolution": [
+      1280,
+      704
+     ],
+     "longueurFormule": "8n+1",
+     "dureeClipMaxSec": 10,
+     "passes": 2
+    }
+   },
+   "sourceRef": "ecriture/METHODE-ecriture.md@b490f92#5-et-5bis"
+  }
+ },
+ {
+  "outil": "set_format",
+  "args": {
+   "scope": "SEASON",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "values": {
+    "objectionElioAvantSec": 180,
+    "gelsParEpisode": [
+     3,
+     6
+    ],
+    "gagsParEpisode": [
+     10,
+     15
+    ],
+    "styleRetenu": "StyleP",
+    "muetMinSec": 480,
+    "muetMaxSec": 720
+   },
+   "sourceRef": "iletaitunefois/serie/BIBLE-Les-Decouvreurs.md@b490f92"
+  }
+ }
+]

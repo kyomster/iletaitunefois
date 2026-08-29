@@ -1,0 +1,1222 @@
+[
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 1,
+   "durationSec": 18,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "L'aube sur le parc — LIEU · Parc Monceau, aube d'octobre 1797, brume basse, palette désaturée. CADRE · L'allée de gravier monte du bord bas vers le fond. Le ballon gonflé au centre d'une pelouse dans l'axe, cordes tendues vers des piquets, LA nacelle posée dans l'herbe sous lui, attachée. La foule (une douzaine) sur l'allée au premier plan, dos caméra, tournée vers le ballon. Fabriques et colonnade ferment le fond, bosquets nus de part et d'autre, nappes de brume sur les pelouses. ACTION · Le ballon oscille lentement dans le vent, les cordes se tendent et mollissent, la brume dérive de gauche à droite, quelques chapeaux bougent dans la foule. Personne n'entre ni ne sort du cadre.",
+   "locationCode": "D1",
+   "cameraMove": "Très large, au sud de l'allée, légère plongée depuis 4 m, axe plein nord.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 9 s · Aube d'octobre : brume sur les pelouses du parc Monceau, le ballon gonflé oscille dans le vent au milieu d'une foule en habits du Directoire, année 1797. | b · 9 s · La foule s'écarte et tourne les têtes vers la nacelle qu'on amène sous le ballon, cordages tendus.\nRACCORDS · Fonde la géographie de toute l'ouverture ; le plan 2 se joue au bord sud de cette même foule.\nINTERDITS · Seconde nacelle ou caisse, visage lisible, couleur réservée, figurant de face.\nHORS CADRE · Rien d'essentiel ; le soleil levant est à l'est, hors champ droite, lumière rasante.",
+   "sceneAnneeDebut": 1797,
+   "sceneAnneeFin": 1797,
+   "scenePrecision": "ANNEE"
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 2,
+   "durationSec": 10,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Le pari des badauds — LIEU · Même allée, bord sud de la foule, même aube. CADRE · Le rond À GAUCHE, chapeau haut à cocarde, gilet tendu sur le ventre, penché vers son voisin, bouche fermée. Le maigre À DROITE, appuyé sur sa canne main droite, manteau de laine écrue brune usée et rapiécée, œil méfiant, bouche fermée. Ils se regardent. Derrière eux, la foule floue de dos, puis la nacelle et le bas du ballon au fond centre.",
+   "locationCode": "D1",
+   "cameraMove": "Travelling latéral lent vers la droite, des badauds vers la nacelle",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 10 s · Deux badauds au premier plan, cocardes et chapeaux, la nacelle en fond.\nRACCORDS · Mêmes deux hommes, mêmes places et mêmes costumes qu'au plan 64. Clés de champ contrechamp P02a (le rond seul, bouche visible) et P02b (le maigre seul, bouche visible) pour la synchro labiale.\nINTERDITS · Sarcelle sur le manteau, visage lisible dans la foule, seconde canne, second chapeau à cocarde.\nHORS CADRE · Le sommet du ballon, coupé par le bord haut.",
+   "sceneAnneeDebut": 1797,
+   "sceneAnneeFin": 1797,
+   "scenePrecision": "ANNEE"
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 3,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "La dispute de la nacelle — LIEU · Intérieur de la nacelle, encore au sol dans le parc, même aube. CADRE · GARNERIN À GAUCHE, debout, main droite gantée serrant la corde de largage au dessus de sa tête, regard levé vers le ballon, mâchoire posée, bouche fermée. L'AIDE À DROITE, DEBOUT AU SOL À L'EXTÉRIEUR DE LA NACELLE, les deux mains sur le rebord, penché vers lui, main ouverte qui supplie, visage entièrement visible de trois quarts, bouche fermée. Le parachute replié, ceinturé comme un parapluie fermé, est SUSPENDU ENTRE LE BALLON ET LA NACELLE, ses suspentes descendant au rebord (correction factuelle du 27 août 2026, voir `iletaitunefois/S01E01/logique-ouverture-froide.md` §1 : un paquet posé au plancher rendait la coupe du plan 5 mortelle et le plan 6 illisible). Le couteau glissé dans le tressage du flanc GAUCHE. Le parc D1 au fond, par dessus le rebord.",
+   "locationCode": "D1",
+   "cameraMove": "Zoom avant lent sur la main de Garnerin serrant la corde",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 12 s · Dans la nacelle, Garnerin, la main sur la corde de largage, regarde le ballon mâchoire serrée ; son aide, **au sol à l'extérieur**, le supplie ; le parachute replié **suspendu entre le ballon et la nacelle** (correction du 27 août 2026).\nRACCORDS · La corde tenue ici est celle que la lame tranche aux plans 5 et 61. Le couteau, la soie et leurs places reviennent aux plans 4b, 5, 61. L'aide ne remonte plus à bord ensuite.\nINTERDITS · Second ballon ou seconde nacelle au fond, bouche ouverte, personne vu de dos.\nHORS CADRE · Le ballon, directement au dessus. La foule, derrière la caméra.",
+   "sceneAnneeDebut": 1797,
+   "sceneAnneeFin": 1797,
+   "scenePrecision": "ANNEE"
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 4,
+   "durationSec": 20,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "L'ascension — LIEU · Du parc au ciel de Paris : le plan se découpe en 4a (sol) et 4b (vol).",
+   "locationCode": "D2",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 10 s · Le ballon quitte le sol, la foule bascule en arrière pour le suivre des yeux. | b · 10 s · Vu d'en haut, les toits de Paris rapetissent, la foule devient une tache sombre ; le vent siffle.\nRACCORDS · La taille du ballon décroît strictement d'un sous plan à l'autre ; le paquet de soie de 4b-1 est celui du plan 3 ; la main gantée est la droite, celle du pansement n'existe pas ici (Garnerin, pas Sam).\nINTERDITS · Le ballon ne « redécolle » jamais deux fois ; aucun personnage dans 4a-1, 4a-3, 4b-1, 4b-3.",
+   "sceneAnneeDebut": 1797,
+   "sceneAnneeFin": 1797,
+   "scenePrecision": "ANNEE"
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 5,
+   "durationSec": 8,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "La lame sur la corde — LIEU · En vol, flanc de la nacelle, très haut au dessus de Paris. CADRE · UNE seule main, celle de Garnerin dans sa manche sombre, scie la corde ENCORE ENTIÈRE et tendue ; quelques fibres externes sautent une à une, la lame à mi chemin. La corde tranchée est celle qui lie LE SOMMET DU PARACHUTE REPLIÉ au ballon : dans le cadre, de bas en haut, le rebord d'osier, les suspentes, le parachute fermé, puis LA corde, puis le ballon. Ciel et toits D2 flous derrière. ACTION · Va et vient court de la lame, fibres qui jaillissent, vibration de la corde. La corde NE cède PAS dans ce plan.",
+   "locationCode": "D2",
+   "cameraMove": "Très gros plan en angle rasant le long de la corde.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · — · 8 s · Très gros plan : la lame tranche la corde qui retient la nacelle au ballon.\nRACCORDS · Le plan 61 reprend ce geste à l'identique et va jusqu'à la rupture ; l'image figée du plan 6 est tirée de cette chute.\nINTERDITS · Corde déjà tranchée, seconde main, mur ou intérieur derrière, code « D2 » lisible.\nHORS CADRE · Le visage de Garnerin, le reste de la nacelle, le ballon.",
+   "sceneAnneeDebut": 1797,
+   "sceneAnneeFin": 1797,
+   "scenePrecision": "ANNEE"
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 6,
+   "durationSec": 13,
+   "kind": "POST",
+   "register": "MIXTE",
+   "synopsis": "Le carton titre — LIEU · Plein ciel, image figée en pleine chute. CADRE · Dernière image du dernier clip du plan 5, figée : la corde rompue fouette l'air, torons ouverts, ciel et toits D2 flous derrière. Carton titre posé AU MONTAGE : « LES DÉCOUVREURS — Nos ancêtres les Chinois ».",
+   "cameraMove": "Source : dernière image du plan 5 ; traitement : figement, incrustation du carton titre",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : POST) · REGISTRE · MIXTE\nBLOCS · — · 13 s · L'image se fige en pleine chute ; carton titre « LES DÉCOUVREURS — Nos ancêtres les Chinois ».\nPOST · Source : dernière image du plan 5 ; traitement : figement, incrustation du carton titre\nRACCORDS · Voix off de Sam par dessus ; le silence de l'image porte le suspens jusqu'au plan 61."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 7,
+   "durationSec": 13,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Le cadre avant l'arrivée — LIEU · Pièce du cadre, couleurs saturées, fin de journée. CADRE · NAYA À GAUCHE, penchée sur son carnet, griffonne. ELIO À DROITE, pianote sur sa tablette posée. Entre eux, la table : deux tasses fument côté Naya, théière. LA PLACE DE SAM, au centre fond, est VIDE, sa chaise inoccupée. Porte fermée bord gauche, écran mural éteint fond gauche, étagères fond droit, fenêtre bord droit sur le soir.",
+   "locationCode": "D3",
+   "cameraMove": "Panoramique lent vers la droite, de Naya à Elio",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 13 s · Intérieur du cadre en couleurs saturées : Naya griffonne, Elio pianote, deux tasses fument sur la grande table.\nRACCORDS · Les tasses fumantes annoncent le thé du plan 8 ; la table est NUE, aucun objet.\nINTERDITS · Sacoche visible, troisième tasse servie, table encombrée.\nHORS CADRE · Sam, pas encore arrivé."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 8,
+   "durationSec": 18,
+   "kind": "ANIME",
+   "register": "CADRE",
+   "synopsis": "L'arrivée de Sam — LIEU · Pièce du cadre. CADRE · La porte bord GAUCHE s'ouvre en coup de vent : SAM entre par la gauche, transi, chapeau à large bord, veste sable, SACOCHE GIVRÉE en bandoulière épaule droite, PANSEMENT NEUF sur la main droite. Naya (gauche) et Elio (droite) tournent la tête vers lui. Buée à la porte. ACTION · Entrée, trois pas vers sa place au fond centre, il pose la sacoche givrée sur la table à sa gauche (droite écran), tend la main vers la tasse que Naya pousse vers lui.",
+   "locationCode": "D3",
+   "cameraMove": "Même frontale large, légèrement recentrée vers la porte.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · CADRE\nBLOCS · a · 9 s · La porte s'ouvre en coup de vent : Sam entre, transi, sacoche givrée à l'épaule, et secoue sa veste sable. | b · 9 s · Il s'avance vers la table en gesticulant, pansement visible sur la main droite, et se laisse tomber sur sa chaise.\nRACCORDS · Le givre de la sacoche est le gag verrouillé ; il aura fondu dès le plan 9. Le pansement main droite reste visible tout l'épisode.\nINTERDITS · Lunettes, sacoche sans givre à CE plan, entrée par la droite."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 9,
+   "durationSec": 12,
+   "kind": "ANIME",
+   "register": "CADRE",
+   "synopsis": "La cascade des neuf objets — LIEU · Pièce du cadre, la table. CADRE · Les mains de Sam (pansement à droite) retournent la sacoche couverte d'étiquettes ; NEUF objets déferlent et s'immobilisent en désordre lisible : pétard, carte à jouer, boussole, cerf volant de poche, carré de soie plié, allumette, billet ancien, petit soc de charrue, fer d'attelage miniature. La sacoche vide reste à DROITE écran. ACTION · Bascule de la sacoche, cascade, deux objets roulent puis s'arrêtent. Rien ne tombe de la table.",
+   "locationCode": "D3",
+   "cameraMove": "Plongée modérée sur la table depuis la place de Sam, cadrant le plateau.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · CADRE\nBLOCS · a · 6 s · Sam retourne sa sacoche couverte d'étiquettes : les premiers objets déferlent sur la table. | b · 6 s · La cascade continue — pétard, carte à jouer, boussole, cerf volant de poche, carré de soie, allumette, billet ancien, petit soc, fer d'attelage ; la boussole roule jusqu'au bord, une main la rattrape.\nRACCORDS · Ces neuf objets, ni plus ni moins, sont l'état de table de référence jusqu'au plan 23. Le registre de la bible fait foi ensuite.\nINTERDITS · Dixième objet, étrier, lunettes, objet coupé par le bord."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 10,
+   "durationSec": 10,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Naya découvre le butin — LIEU · Pièce du cadre. CADRE · NAYA penchée en avant sur le fouillis, yeux écarquillés, crayon suspendu en main droite, boucles en avant. Premier plan bas : trois ou quatre objets flous (boussole, soie, pétard). Fond flou : l'écran éteint.",
+   "locationCode": "D3",
+   "cameraMove": "Panoramique lent vers le bas, du visage de Naya vers le fouillis d'objets",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 10 s · Naya penchée sur le fouillis, yeux écarquillés, crayon suspendu.\nRACCORDS · Contrechamp naturel du plan 11 ; les objets flous correspondent à la disposition du plan 9.\nINTERDITS · Bouche ouverte sur la clé, Sam ou Elio net dans le fond."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 11,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Le défi d'Elio — LIEU · Pièce du cadre. CADRE · ELIO, moue de défi sous la casquette orange, bras croisés, tablette posée devant lui, dossier de chaise visible. Premier plan bas : deux objets flous. Fond flou : la fenêtre, bord droit.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur Elio",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Contrechamp sur Elio, moue de défi sous la casquette orange.\nRACCORDS · Symétrique exact du plan 10, même hauteur, même distance.\nINTERDITS · Tablette levée (le premier gel n'arrive qu'au plan 15), bouche ouverte."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 12,
+   "durationSec": 15,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Montage Tang — LIEU · Récit d'époque désaturé, Chine des Tang. Deux vignettes (décor D4). ACTION · V1 : tremblement des flammes, vapeur. V2 : une carte se pose, une lampe vacille.",
+   "locationCode": "D4",
+   "cameraMove": "2 images (fours et porcelaine ; joueurs de cartes) ; zoom avant lent sur chacune",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 15 s · Bref montage : fours de potiers, vases de porcelaine translucide, joueurs de cartes sous les Tang.\nRACCORDS · La carte à jouer posée ici est du même dessin que l'objet sur la table du cadre.\nINTERDITS · Lettrage sur les cartes, couleur réservée, visage de face."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 13,
+   "durationSec": 17,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Le manifeste de Sam — LIEU · Pièce du cadre. CADRE · SAM debout au centre fond, bras écartés AU DESSUS de la table couverte des neuf objets, ton de manifeste, bouche fermée sur la clé. Amorces de dos flou : l'épaule de Naya bord gauche, la casquette d'Elio bord droit. Sacoche vide à droite écran.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom arrière lent, de la table couverte d'objets à Sam bras écartés",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 17 s · Sam écarte les bras devant la table couverte d'objets, ton de manifeste.\nRACCORDS · Table à neuf objets, conforme au plan 9.\nINTERDITS · Lunettes, table partiellement vidée."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 14,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "La question du jour — LIEU · Pièce du cadre. CADRE · NAYA À GAUCHE lève son crayon, carnet ouvert. ELIO À DROITE, bras croisés. Entre eux, la longueur de la table et les neuf objets premier plan flou.",
+   "locationCode": "D3",
+   "cameraMove": "Panoramique lent vers la droite, de Naya à Elio",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Naya lève son crayon : la question du jour ; Elio croise les bras.\nRACCORDS · Ce cadrage « deux enfants face à Sam » resservira aux plans 49 et 79 ; mêmes places.\nINTERDITS · Les deux enfants du même côté de la table."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 15,
+   "durationSec": 15,
+   "kind": "POST",
+   "register": "MIXTE",
+   "synopsis": "La règle du jeu, premier gel — LIEU · Pièce du cadre, plan signature du gel. CADRE · ELIO passe au premier plan DROIT, en couleurs saturées, tablette levée main droite. TOUT LE RESTE FIGE EN GRIS : la table, les neuf objets, Sam au fond centre bras encore ouverts, Naya à gauche. Puis retour couleurs sur la fin du plan.",
+   "locationCode": "D3",
+   "cameraMove": "Source : image FIXE de la table du cadre ; traitement : désaturation du fond, Elio conservé en couleurs, retour couleurs en fin de plan",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : POST) · REGISTRE · MIXTE\nBLOCS · — · 15 s · Elio lève sa tablette, la table passe en gris figé : plan signature du gel, puis retour couleurs.\nPOST · Source : image FIXE de la table du cadre ; traitement : désaturation du fond, Elio conservé en couleurs, retour couleurs en fin de plan\nRACCORDS · Premier des cinq gels (15, 25, 27, 34, 52) : même position d'Elio, même geste, à chaque fois.\nINTERDITS · Elio désaturé, fond resté en couleurs."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 16,
+   "durationSec": 22,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Les inventeurs animaux — LIEU · Récit, montage nature en trois vignettes, pleine lumière. ACTION · Un geste précis et bouclable par vignette : nouer, frapper, frapper.",
+   "locationCode": "D5",
+   "cameraMove": "3 images (oiseau ; singe ; loutre) ; zoom avant lent sur chacune",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 22 s · Montage nature — un oiseau tisserand noue son nid, un singe casse une noix avec une pierre, une loutre sur le dos ouvre un coquillage.\nINTERDITS · Être humain, outil manufacturé, décor bâti."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 17,
+   "durationSec": 20,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Silex, feu, visages — LIEU · Récit, préhistoire, nuit et pénombre, silhouettes. ACTION · Percussion, naissance de la flamme, lumière qui monte sur les visages.",
+   "locationCode": "D6",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 10 s · Silhouettes préhistoriques : un éclat de silex jaillit sous le percuteur. | b · 10 s · Une flamme prend dans la nuit, des visages s'éclairent lentement.\nRACCORDS · La flamme annonce le feu des alchimistes du plan 71, écho voulu.\nINTERDITS · Visage lisible, vêtement cousu, paysage diurne."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 18,
+   "durationSec": 17,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "3,3 millions d'années — LIEU · Pièce du cadre. CADRE · ELIO consulte sa tablette POSÉE À PLAT, sans la lever : pas de gel, presque poli. Sam amorce floue bord gauche. Table à neuf objets premier plan flou.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur la tablette posée à plat",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 17 s · Elio consulte sa tablette posée à plat, sans figer, presque poli.\nRACCORDS · Contraste voulu avec les gels : ici la correction est douce.\nINTERDITS · Tablette levée, fond gelé gris."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 19,
+   "durationSec": 24,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Le réchauffement et les foyers — LIEU · Récit, grand montage. ACTION · Recul de glace, croissance accélérée, allumage des vignettes une à une.",
+   "locationCode": "D7",
+   "cameraMove": "2 images (glaciers et pousses ; planisphère aux vignettes) ; zoom arrière lent sur le planisphère",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 24 s · Grand montage : les glaciers reculent, des pousses percent, sept vignettes s'allument sur un planisphère stylisé — blé, riz, millets, maïs, tubercules.\nINTERDITS · Lettrage sur le planisphère, frontières modernes, plus de huit vignettes."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 20,
+   "durationSec": 15,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "La vieille chanson — LIEU · Pièce du cadre. CADRE · NAYA fronce les sourcils, carnet ouvert, crayon posé sur la page. Objets flous premier plan bas.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur Naya",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 15 s · Naya fronce les sourcils, carnet ouvert.\nINTERDITS · Bouche ouverte, Sam net au fond."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 21,
+   "durationSec": 24,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Semeur et semoir — LIEU · Récit, champs des Royaumes combattants, vent, lumière franche. CADRE · À GAUCHE, un paysan sème à la volée, nuage de graines rabattu par le vent sur lui. À DROITE, un second pousse un semoir de bois à TROIS rangs derrière un soc de fonte : trois sillons impeccables et parallèles derrière lui. Les deux avancent vers la droite. ACTION · Geste ample du semeur contre avancée régulière du semoir ; le vent emporte les graines du premier.",
+   "locationCode": "D8",
+   "cameraMove": "Plan large latéral, la ligne des champs traversant le cadre.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 8 s · Champs des Royaumes combattants : le premier paysan sème à la volée dans le vent, nuage de graines. | b · 8 s · L'autre paysan pousse un semoir de bois à trois rangs derrière un soc de fonte ; sillons impeccables. | c · 8 s · Plan large des deux parcelles côte à côte ; le premier s'arrête, bouche ouverte.\nRACCORDS · Ces deux hommes se retrouvent face à face au plan 22, mêmes costumes.\nINTERDITS · Quatrième sillon, animal de trait (le semoir est poussé), couleur réservée."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 22,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Trois rangs d'un coup — LIEU · Même champ. CADRE · LE SEMEUR À GAUCHE, couvert de graines jusque dans les cheveux, dépité. LE SEMOIRIER À DROITE, appuyé sur son semoir, satisfait. Bouches fermées sur la clé. Les trois sillons filent au fond.",
+   "locationCode": "D8",
+   "cameraMove": "Travelling latéral lent vers la gauche, du paysan couvert de graines au semoir",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 12 s · Les deux paysans face à face, l'un couvert de graines, l'autre appuyé sur son semoir.\nRACCORDS · Costumes et outils identiques au plan 21.\nINTERDITS · Bouches ouvertes, sillons absents du fond."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 23,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Premier objet rangé — LIEU · Pièce du cadre, insert sur la table. CADRE · La main droite de Sam (pansement visible) déplace LE PETIT SOC du centre vers la sacoche ouverte à DROITE écran. Les huit autres objets restent en place, nets.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur la sacoche ouverte",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Insert — le petit soc quitte la table et rejoint la sacoche.\nRACCORDS · Premier des inserts « objet rangé » : tous partagent ce cadrage, ce sens gauche vers droite et cette main au pansement.\nINTERDITS · Autre objet déplacé, sacoche à gauche."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 24,
+   "durationSec": 11,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "La cervoise de trop — LIEU · Pièce du cadre. CADRE · SAM s'emballe, index droit levé, l'autre main arrondie autour d'une chope imaginaire qu'il lève comme un verre. Bord DROIT du cadre : la tablette d'Elio se LÈVE en amorce, annonce du gel.",
+   "locationCode": "D3",
+   "cameraMove": "Panoramique lent vers la droite, de Sam à Elio",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 11 s · Sam s'emballe, l'index levé, une chope imaginaire levée comme un verre ; Elio lève déjà sa tablette.\nRACCORDS · Enchaîne directement sur le gel du plan 25.\nINTERDITS · Vraie chope dans la main, tablette déjà en plein cadre."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 25,
+   "durationSec": 19,
+   "kind": "POST",
+   "register": "MIXTE",
+   "synopsis": "Gel de la cervoise et du cognac — LIEU · Gel : brasserie antique figée. CADRE · ELIO premier plan DROIT en couleurs vives, tablette levée. Fond gris figé : une brasserie antique, jarres, cuves fumantes arrêtées net, un brasseur de dos pétrifié en plein geste ; sur un banc au fond, un petit alambic de cuivre à bec courbe, figé lui aussi.",
+   "locationCode": "D9",
+   "cameraMove": "Source : image ÉPOQUE « brasserie antique » à générer ; traitement : désaturation totale, incrustation d'Elio en couleurs (portrait FIXE dédié, réutilisable pour tous les gels)",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : POST) · REGISTRE · MIXTE\nBLOCS · — · 19 s · GEL : Elio en couleurs vives devant une brasserie antique figée en gris, un petit alambic de cuivre sur un banc au fond.\nPOST · Source : image ÉPOQUE « brasserie antique » à générer ; traitement : désaturation totale, incrustation d'Elio en couleurs (portrait FIXE dédié, réutilisable pour tous les gels)\nRACCORDS · Même géométrie de gel que le plan 15.\nINTERDITS · Fumée en mouvement dans la zone grise, lettrage d'enseigne."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 26,
+   "durationSec": 18,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "L'attelage antique — LIEU · Récit, route antique, jour. CADRE · Un attelage antique tire une charrette chargée, de GAUCHE à DROITE : joug et sangles bien visibles sur le poitrail et les épaules du cheval. Un conducteur marche au flanc, vu de profil. ACTION · Traction régulière, roues qui tournent, poussière basse.",
+   "locationCode": "D10",
+   "cameraMove": "Travelling latéral lent le long de l'attelage, du poitrail vers la charge",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 18 s · Un attelage antique tire une charrette, jougs et sangles bien visibles sur le poitrail.\nRACCORDS · C'est CETTE image que le gel du plan 27 fige : même cadrage exactement.\nINTERDITS · Sangle écrasant la gorge (le récit dit l'inverse), galop."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 27,
+   "durationSec": 12,
+   "kind": "POST",
+   "register": "MIXTE",
+   "synopsis": "Gel du cheval étranglé — LIEU · Gel sur l'image du plan 26. CADRE · ELIO premier plan DROIT en couleurs, tablette levée ; l'attelage du plan 26 figé en gris derrière, MÊME cadrage, roue arrêtée, poussière suspendue.",
+   "locationCode": "D10",
+   "cameraMove": "Source : image du plan 26 ; traitement : désaturation totale, incrustation d'Elio en couleurs",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : POST) · REGISTRE · MIXTE\nBLOCS · — · 12 s · GEL : Elio fige l'attelage en gris, tablette levée.\nPOST · Source : image du plan 26 ; traitement : désaturation totale, incrustation d'Elio en couleurs\nRACCORDS · Reprise stricte du cadre 26 : c'est le même plan, gelé.\nINTERDITS · Cadrage différent du plan 26."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 28,
+   "durationSec": 18,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Le collier d'épaule — LIEU · Pièce du cadre. CADRE · SAM s'incline brièvement puis pointe la main gauche vers L'ÉCRAN MURAL, fond gauche, où s'affiche un collier d'épaule rembourré, dessiné plein cadre écran, SANS aucun texte. Naya amorce bord gauche.",
+   "locationCode": "D3",
+   "cameraMove": "Travelling latéral lent vers la droite, de Sam vers l'écran mural",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 18 s · Sam s'incline, puis pointe l'écran où apparaît un collier d'épaule rembourré.\nRACCORDS · L'écran mural sert ici pour la première fois ; il resservira au plan 54.\nINTERDITS · Texte ou cote sur l'écran, écran à droite."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 29,
+   "durationSec": 20,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Le cheval promu général — LIEU · Récit, cour de ferme han, jour.",
+   "locationCode": "D11",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 10 s · Le charretier han passe le collier d'épaule à son cheval. | b · 10 s · Le cheval se rengorge comme un général, la lourde charrette s'ébranle sans effort.\nRACCORDS · Sens de marche gauche droite, comme au plan 26 : la progression technique va toujours vers la droite.\nINTERDITS · Cheval efflanqué, charge qui peine, deuxième cheval."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 30,
+   "durationSec": 20,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Monter sans étrier — LIEU · Récit, cour antique, jour. Gag en deux temps. CADRE · Plans moyens latéraux, sol dégagé, AUCUN étrier visible nulle part.",
+   "locationCode": "D12",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 10 s · Un cavalier antique prend son élan, saute vers sa monture... et glisse de l'autre côté (gag). | b · 10 s · Un second cavalier se fait hisser par deux serviteurs, dignité en berne.\nINTERDITS · Étrier, selle moderne, chute violente (c'est un gag, pas un accident)."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 31,
+   "durationSec": 15,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Le carnet de terrain — LIEU · Pièce du cadre. CADRE · SAM feuillette son carnet de terrain à deux mains, pansement visible, ton honnête, regard bas sur les pages puis relevé. Table à sept objets premier plan flou (soc et fer déjà rangés, allumette encore là).",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur le carnet de terrain",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 15 s · Sam feuillette son carnet de terrain, honnête.\nINTERDITS · Lunettes pour lire, carnet de Naya à la place du sien."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 32,
+   "durationSec": 22,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Les Avars au galop — LIEU · Récit, steppe, lumière dorée, poussière. CADRE · Des cavaliers avars traversent de GAUCHE à DROITE au galop, ÉTRIERS LUISANTS bien visibles sous les bottes, arcs au dos, poussière d'or ; l'horizon d'Europe, ligne de collines pâles, ferme le fond DROIT. ACTION · Galop soutenu, crinières, poussière ; aucun cavalier ne regarde la caméra.",
+   "locationCode": "D13",
+   "cameraMove": "Plan large latéral au galop, travelling.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 8 s · La steppe au galop : cavaliers avars en ligne, étriers luisants. | b · 8 s · La poussière dorée monte, la horde file. | c · 6 s · L'horizon de l'Europe se dessine au loin.\nRACCORDS · Le sens gauche droite dit le voyage vers l'Europe, cohérent avec les plans 26 et 29.\nINTERDITS · Armure de chevalier (elle n'arrive qu'au plan 34), visage de face."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 33,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "L'envolée de Sam — LIEU · Pièce du cadre. CADRE · SAM se lève à moitié de sa chaise, bras droit déployé vers le haut, ton de grande fresque ; bord DROIT : la tablette d'Elio se lève en amorce.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom arrière lent, de Sam au cercle du cadre",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Sam se lève à moitié, bras déployé, ton de grande fresque ; Elio lève sa tablette.\nRACCORDS · Même mécanique d'annonce que le plan 24 : l'amorce de tablette précède toujours un gel.\nINTERDITS · Sam entièrement debout (il est à mi chemin, c'est le gag)."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 34,
+   "durationSec": 15,
+   "kind": "POST",
+   "register": "MIXTE",
+   "synopsis": "Gel de la chevalerie — LIEU · Gel. CADRE · ELIO premier plan DROIT en couleurs, tablette levée ; derrière lui, figé en gris, UN CHEVALIER EN ARMURE complet, lance et écu SANS emblème, à cheval, étriers visibles.",
+   "locationCode": "D22",
+   "cameraMove": "Source : image ÉPOQUE « chevalier en armure » à générer ; traitement : désaturation, incrustation d'Elio en couleurs",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : POST) · REGISTRE · MIXTE\nBLOCS · — · 15 s · GEL : un chevalier en armure figé en gris derrière Elio.\nPOST · Source : image ÉPOQUE « chevalier en armure » à générer ; traitement : désaturation, incrustation d'Elio en couleurs\nINTERDITS · Insert d'objet, héraldique sur l'écu, lettrage."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 35,
+   "durationSec": 22,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "La liste continue — LIEU · Récit, montage en quatre vignettes techniques, fonds sobres. ACTION · Un mouvement simple et bouclable par vignette.",
+   "locationCode": "D14",
+   "cameraMove": "4 images (boussole ; cardan ; écluse ; gouvernail) ; zoom avant lent sur chacune",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 22 s · Montage : aiguille de boussole qui pivote, cardan, écluse, gouvernail d'étambot sous une jonque.\nINTERDITS · Caractères sur le cadran, vapeur (sortie de la liste), personnage."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 36,
+   "durationSec": 14,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Le forage du Sichuan — LIEU · Récit, Sichuan, IIᵉ siècle avant notre ère, jour voilé. CADRE · Hautes tours de forage en bambou, câbles plongeant dans des puits ; au premier plan droit, une flamme de gaz naturel brûle sous un bassin de saumure fumant ; ouvriers petits au pied des tours, de dos. ACTION · Balancier d'un câble, vapeur du bassin, flamme stable.",
+   "locationCode": "D15",
+   "cameraMove": "Panoramique vertical lent, du sommet des tours de bambou vers le puits",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 14 s · Le Sichuan : hautes tours de bambou, câbles qui plongent dans des puits ; une flamme de gaz brûle près d'un bassin de saumure.\nINTERDITS · Derrick métallique, visage lisible."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 37,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "L'allumette rangée — LIEU · Pièce du cadre, insert table, cadrage du plan 23. CADRE · La main au pansement déplace L'ALLUMETTE du centre vers la sacoche à droite. Restent nets sur la table : carte, boussole, cerf volant, soie, billet, pétard.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur la sacoche ouverte",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Insert — l'allumette quitte la table pour la sacoche.\nINTERDITS · Flamme (l'allumette est éteinte, objet de collection), autre objet déplacé."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 38,
+   "durationSec": 26,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Les fourmis des vergers — LIEU · Récit, vergers d'agrumes du sud, 304, jour clair. ACTION · File de fourmis continue, chenille saisie, feuillage qui respire.",
+   "locationCode": "D16",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 9 s · Au marché du sud, des paysans achètent des nids de fourmis. | b · 9 s · Ils tendent des tiges de bambou d'arbre en arbre dans le verger d'agrumes. | c · 8 s · Colonnes de fourmis en patrouille sur les tiges ; une chenille happée.\nINTERDITS · Fourmis géantes, coccinelle (c'est l'Europe de 1888, hors champ)."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 39,
+   "durationSec": 32,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Les bœufs de fer — LIEU · Récit muet, fleuve Jaune en crue, vers 1060, ciel chargé. Le plus long ANIMÉ de l'épisode : 32 s, séquence en cinq temps.",
+   "locationCode": "D17",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 8 s · Le fleuve Jaune en crue : les bœufs de fonte disparaissent sous l'eau boueuse. | b · 8 s · Le moine Huaibing fait charger deux barges de terre ; les cordes se tendent vers le fond. | c · 8 s · On vide la terre des barges, pelletée après pelletée. | d · 8 s · Les barges remontent et arrachent les bœufs du fond, cris de joie sur la rive.\nRACCORDS · Aucune parole : la musique porte tout ; le principe est redessiné par Naya au plan 40.\nINTERDITS · Grue, treuil, machine : la flottaison seule."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 40,
+   "durationSec": 13,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Le principe redessiné — LIEU · Pièce du cadre. CADRE · NAYA soufflée, redessine dans son carnet le principe : deux barges, cordes, bœuf — un CROQUIS enfantin SANS texte, en cours de tracé. Crayon en main droite.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur la page du carnet de Naya",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 13 s · Naya, soufflée, redessine le principe dans son carnet.\nINTERDITS · Mots ou chiffres sur la page, schéma d'ingénieur."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 41,
+   "durationSec": 20,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Le premier cerf volant — LIEU · Récit, colline venteuse, Vᵉ siècle avant notre ère, jour venté. CADRE · Trois artisans au sommet, de dos et de profil, font monter un GRAND OISEAU de bois et de soie au bout d'un fil ; l'oiseau occupe le tiers haut, le fil bien lisible entre les mains et le ciel ; herbes couchées par le vent. ACTION · L'oiseau prend le vent, plonge, se rattrape, monte ; le fil se tend.",
+   "locationCode": "D18",
+   "cameraMove": "Plan large en contre plongée depuis le bas de pente.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 10 s · Colline venteuse, Vᵉ siècle avant notre ère : des artisans assemblent le grand oiseau de bois et de soie. | b · 10 s · L'oiseau monte au bout de son fil et tient dans le vent.\nRACCORDS · La silhouette d'oiseau annonce le hibou des plans 44 à 47 et le cerf volant des plans 75 et 80.\nINTERDITS · Cerf volant losange moderne, enfant (ce sont des artisans), visage de face."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 42,
+   "durationSec": 20,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Les messages de Taicheng — LIEU · Récit, remparts de Taicheng assiégés, 549, jour gris de siège. CADRE · Des cerfs volants s'élèvent depuis le chemin de ronde, chacun emportant un ROULEAU attaché (rouleaux muets, SANS caractères visibles) ; en bas au fond, les lignes ennemies d'où montent des volées de flèches qui plafonnent sous les cerfs volants ; défenseurs de dos au parapet. ACTION · Ascension des cerfs volants, flèches qui montent et retombent, vent de travers.",
+   "locationCode": "D19",
+   "cameraMove": "Plan large depuis l'intérieur des remparts, parapet au premier plan bas.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 10 s · Remparts assiégés : des cerfs volants s'élèvent, emportant des rouleaux. | b · 10 s · Des flèches montent des lignes ennemies ; les cerfs volants filent vers l'horizon.\nINTERDITS · Caractères lisibles sur les rouleaux, sang, cerf volant touché."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 43,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "La question qui bascule — LIEU · Pièce du cadre. CADRE · NAYA, doigt levé, regard vers Sam hors cadre gauche ; carnet ouvert sous l'autre main. Bouche fermée sur la clé.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom arrière lent, de Naya au cercle du cadre",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Naya, doigt levé, la question qui fait basculer le chapitre.\nRACCORDS · Cette question ouvre le chapitre du vol humain : le montage enchaîne directement sur la tour de Ye.\nINTERDITS · Bouche ouverte, Elio dans le cadre."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 44,
+   "durationSec": 22,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "La tour du Phénix d'or — LIEU · Récit, Ye, 559, jour blafard. CADRE · LA TOUR domine la ville minuscule ; au sommet, L'EMPEREUR GAO YANG, silhouette riche et raide, entouré de gardes ; on ATTACHE un prisonnier maigre et digne, YUAN HUANGTOU, à un IMMENSE HIBOU DE PAPIER aux ailes déployées, plus large que trois hommes ; cordes aux poignets et à la taille. ACTION · Les gardes serrent les liens, le vent soulève déjà le bord des ailes, Yuan Huangtou regarde droit devant, calme.",
+   "locationCode": "D20",
+   "cameraMove": "Zoom avant lent sur les mains liées aux montants du hibou",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 22 s · Ye, 559 : la tour du Phénix d'or dressée sur la ville ; l'empereur Gao Yang au sommet ; un prisonnier maigre et digne attaché à un immense hibou de papier.\nRACCORDS · Le hibou est celui des plans 45 à 47 et de la surimpression du plan 75 ; sa silhouette doit rester identique.\nINTERDITS · Sourire de l'empereur (raideur, pas cruauté grimaçante), foule en liesse, visage de garde lisible."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 45,
+   "durationSec": 30,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Le vol — LIEU · Récit muet, le ciel de Ye. 30 s, séquence en quatre temps, musique seule.",
+   "locationCode": "D20",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 10 s · Le hibou décroche de la tour, pique vers le sol, la cour hurle. | b · 10 s · Le vent le prend, il frôle les remparts. | c · 10 s · Il plane sur la ville minuscule et se pose rudement sur une longue voie.\nRACCORDS · Le trajet total dit « près de 2,5 km » : la ville doit défiler. La longue voie du T4 est celle où les gardes le relèvent au plan 47.\nINTERDITS · Battement d'ailes (il plane, il ne vole pas), chute mortelle, foule au point d'atterrissage."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 46,
+   "durationSec": 14,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Vu du sol — LIEU · Récit, une rue de Ye, même moment. CADRE · Des passants au premier plan, DE DOS ou de trois quarts arrière, lèvent la tête, bouches ouvertes de stupeur (aucun visage détaillé) ; dans le ciel pâle, LA SILHOUETTE homme et hibou passe lentement, petite et nette. ACTION · La silhouette traverse le cadre de droite à gauche ; les têtes suivent.",
+   "locationCode": "D20",
+   "cameraMove": "Panoramique lent le long des visages levés",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 14 s · Vu du sol : des passants lèvent la tête, bouche ouverte, vers la silhouette qui plane dans le ciel pâle.\nINTERDITS · Visage lisible au premier plan, silhouette trop grosse (elle est haute et loin)."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 47,
+   "durationSec": 14,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Le prix du vol — LIEU · Récit, fin du vol, trois micro plans enchaînés.",
+   "locationCode": "D20",
+   "cameraMove": "2 images (les gardes l'encadrent ; la porte close et le hibou dans l'arbre) ; zoom avant lent sur chacune",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 14 s · Des gardes le relèvent ; une porte de cachot se referme ; le hibou de papier reste accroché à un arbre.\nRACCORDS · L'arbre au hibou est l'image mélancolique que la surimpression du plan 75 rappellera.\nINTERDITS · Violence explicite, sang, hibou détruit au sol."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 48,
+   "durationSec": 19,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Treize siècles et demi — LIEU · Récit, Angleterre et Allemagne, 1894 et 1891, deux images, ciels d'après-midi. ACTION · Zoom avant lent sur chaque image, dans l'ordre : l'homme suspendu, puis Lilienthal.",
+   "locationCode": "D34",
+   "cameraMove": "2 images (Pirbright, 1894 ; Lilienthal, 1891) ; zoom avant lent sur chacune",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 19 s · Montage : le train de cerfs-volants Levitor et son homme suspendu à quinze mètres au-dessus du camp de Pirbright ; Lilienthal suspendu sous son planeur de toile, au ras d'une colline.\nRACCORDS · Ferme le chapitre du vol ouvert au plan 41 ; enchaîne sur le silence du cadre (plan 49). Le hibou de papier du plan 47 n'apparaît pas.\nINTERDITS · Avion à moteur, hélice, lettrage sur les toiles, visage lisible, cerf volant en forme d'animal.",
+   "sceneAnneeDebut": 1891,
+   "sceneAnneeFin": 1894,
+   "scenePrecision": "ANNEE"
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 49,
+   "durationSec": 14,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Le silence du cadre — LIEU · Pièce du cadre. CADRE · Silence : NAYA À GAUCHE a REFERMÉ son carnet, mains posées dessus ; ELIO À DROITE, tablette posée, regard bas. La table entre eux, six objets restants premier plan flou (carte, boussole, cerf volant, soie, billet, pétard).",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur Naya et son carnet refermé",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 14 s · Silence ; Naya a refermé son carnet.\nRACCORDS · Le poids de ce silence est rappelé par Sam : « elle pèsera dans la morale du jour » — écho au plan 75.\nINTERDITS · Sourire, gel, tablette levée."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 50,
+   "durationSec": 22,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Le pont de bambou — LIEU · Récit, gorge du Sichuan, Iᵉʳ siècle, jour, brume de fond de gorge. CADRE · UN PONT DE CÂBLES DE BAMBOU tendu en travers du vide, tablier de lattes ; DES PORTEURS chargés de ballots s'y engagent de GAUCHE à DROITE, le tablier ONDULE sous leurs pas ; parois abruptes, rivière fine tout en bas. ACTION · Ondulation du tablier au rythme des pas, balancement des ballots, brume qui monte.",
+   "locationCode": "D21",
+   "cameraMove": "Plan large de trois quarts, la gorge traversant le cadre en diagonale.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 8 s · Gorge du Sichuan : le pont de câbles de bambou tendu en travers du vide. | b · 8 s · Des porteurs chargés s'y engagent. | c · 6 s · Le tablier ondule sous leurs pas, le vide dessous.\nRACCORDS · Le gel du plan 53 opposera à ce pont un pont de chaînes de fer.\nINTERDITS · Chaînes métalliques ici, chute, corde qui casse (ça, c'est la question de Naya au plan 54)."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 51,
+   "durationSec": 14,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Ça ne tiendra jamais — LIEU · Même gorge, au bord. CADRE · LE SCEPTIQUE À GAUCHE, bras croisés, l'AUTRE À DROITE ; derrière eux, net au fond, LE PORTEUR traverse tranquillement le pont. Bouches fermées sur la clé.",
+   "locationCode": "D21",
+   "cameraMove": "Travelling latéral lent vers la droite, des badauds au porteur qui traverse",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 14 s · Deux badauds au bord de la gorge ; le porteur traverse tranquillement derrière eux.\nRACCORDS · Gag miroir des badauds parieurs de 1797 : même mécanique du sceptique démenti, mille sept cents ans plus tôt.\nINTERDITS · Bouches ouvertes, pont vide au fond."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 52,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Cinq siècles ! — LIEU · Pièce du cadre. CADRE · SAM grandiose, bras levé, buste en avant ; bord DROIT, la tablette d'Elio se lève en amorce.",
+   "locationCode": "D3",
+   "cameraMove": "Panoramique lent vers la droite, de Sam à Elio",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Sam, grandiose ; Elio lève sa tablette.\nRACCORDS · Troisième annonce de gel, mécanique des plans 24 et 33.\nINTERDITS · Sam debout complet, gel déjà déclenché."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 53,
+   "durationSec": 17,
+   "kind": "POST",
+   "register": "MIXTE",
+   "synopsis": "Gel des cinq siècles — LIEU · Gel. CADRE · ELIO premier plan DROIT en couleurs, tablette levée ; derrière, figé en gris, UN PONT DE CHAÎNES DE FER à tablier de bois au dessus d'un détroit, haubans de fer nets (aucun pylône moderne, dessin d'époque 1826).",
+   "locationCode": "D23",
+   "cameraMove": "Source : image ÉPOQUE « pont de chaînes de fer » à générer ; traitement : désaturation, incrustation d'Elio en couleurs",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : POST) · REGISTRE · MIXTE\nBLOCS · — · 17 s · GEL : un pont de chaînes de fer figé en gris derrière Elio.\nPOST · Source : image ÉPOQUE « pont de chaînes de fer » à générer ; traitement : désaturation, incrustation d'Elio en couleurs\nINTERDITS · Pont suspendu à câbles d'acier XXᵉ, voitures, lettrage."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 54,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Et si la corde casse ? — LIEU · Pièce du cadre. CADRE · NAYA fixe l'écran, une main CRISPÉE sur son carnet ; profil trois quarts vers la gauche. L'image du pont, muette, sur l'écran mural.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur l'écran mural où s'affiche le pont",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Naya fixe le pont à l'écran, une main crispée sur son carnet.\nRACCORDS · La question lance le chapitre parachute : la soie sur la table devient le sujet.\nINTERDITS · Écran éteint, texte à l'écran."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 55,
+   "durationSec": 22,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "La légende de Shun — LIEU · Récit, Chine légendaire, NUIT, un grenier en flammes. CADRE · Depuis le toit, UN JEUNE HOMME saute dans le vide, freiné par DEUX GRANDS CHAPEAUX CONIQUES tenus à bout de bras ; trajectoire lisible, il ROULE au sol et SE RELÈVE, silhouette sur le brasier. ACTION · Saut, descente freinée, roulade, relevé : quatre temps propres.",
+   "locationCode": "D24",
+   "cameraMove": "Plan large nocturne, le grenier à droite, flammes hautes.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 8 s · Chine légendaire : le grenier en flammes dans la nuit, le jeune homme cerné au sommet. | b · 8 s · Il saute, freiné par les deux grands chapeaux coniques. | c · 6 s · Il roule dans la poussière et se relève dans les étincelles.\nRACCORDS · Premier maillon de la chaîne du parachute : chapeaux, puis parasols (55), puis cadre rigide (59), puis soie (61).\nINTERDITS · Cape de héros, flammes léchant le sauteur, atterrissage debout."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 56,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Les pillards au butin — LIEU · Récit, Chine des Song, NUIT, toit d'une tour. CADRE · DEUX PILLARDS accroupis au faîte : LE PETIT À GAUCHE, sacs de butin en bandoulière, DEUX GRANDS PARASOLS à la main ; LE GRAND À DROITE, les mains vides, dépité. Bouches fermées sur la clé.",
+   "locationCode": "D25",
+   "cameraMove": "Panoramique lent vers le bas, du toit de la tour à la ruelle",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 12 s · Chine des Song, nuit : deux pillards sur le toit d'une tour, sacs de butin et grands parasols.\nRACCORDS · Le petit est celui qui saute au plan 57 ; les parasols et les sacs doivent se retrouver identiques.\nINTERDITS · Bouches ouvertes, lune énorme, troisième homme."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 57,
+   "durationSec": 14,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Le saut du pillard — LIEU · Même tour, même nuit. Gag muet. CADRE ET ACTION · LE PETIT saute avec parasols ET sacs, descend en se balançant, atterrit EN DOUCEUR dans une CHARRETTE DE PAILLE au pied de la tour ; tout en haut, LE GRAND gesticule, silhouette furieuse contre le ciel.",
+   "locationCode": "D25",
+   "cameraMove": "Plan large latéral prenant toute la hauteur de la tour.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 7 s · Le premier pillard saute avec parasols et sacs. | b · 7 s · Atterrissage en douceur dans une charrette de paille ; l'autre gesticule tout en haut.\nRACCORDS · La charrette de paille amortit : écho burlesque de la roulade de Shun.\nINTERDITS · Parasol retourné, chute manquée, garde alerté."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 58,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Le vieux volume — LIEU · Pièce du cadre. CADRE · SAM très sûr de lui BRANDIT UN VIEUX VOLUME relié, couverture SANS titre lisible ; bord DROIT, tablette d'Elio levée en amorce.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur le volume brandi",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Sam, très sûr de lui, brandit un vieux volume ; Elio lève sa tablette.\nRACCORDS · Le volume est celui dont la page s'affiche au plan 59.\nINTERDITS · Titre lisible sur la couverture (le lettrage n'arrive qu'à l'insert monté du plan 59)."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 59,
+   "durationSec": 18,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "La page du Siam — LIEU · Pièce du cadre, insert plein cadre. CADRE · LA PAGE GRAVÉE du livre de La Loubère plein cadre : planche d'ACROBATES SIAMOIS suspendus sous de GRANDS PARASOLS, gravure au trait. **Le lettrage de la page de titre est posé AU MONTAGE**, comme le carton du plan 6 : l'image générée est la planche gravée SANS texte.",
+   "locationCode": "D3",
+   "cameraMove": "Panoramique lent vers le bas sur la planche gravée",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 18 s · Insert : la page gravée du livre de Simon de La Loubère, planche d'acrobates sous de grands parasols.\nRACCORDS · Naya lit la page à voix haute : c'est le seul texte « lu » de l'épisode, et il vit dans la piste son plus l'incrust.\nINTERDITS · Texte généré dans l'image, couleur (gravure monochrome)."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 60,
+   "durationSec": 20,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Lenormand — LIEU · Récit, Montpellier, 1783, jour. Deux temps plus une chute d'image.",
+   "locationCode": "D26",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 10 s · Montpellier : Lenormand saute d'un arbre avec deux parasols et atterrit dans un potager. | b · 10 s · Devant une foule, il descend lentement de la tour de l'observatoire sous un grand cadre de toile ; une plume trace un mot neuf.\nRACCORDS · Le cadre rigide du T2 est l'objet dont le plan 61 dit qu'il « ne s'emporte pas sous un ballon ».\nINTERDITS · Mot lisible sur le papier, parachute hémisphérique moderne au T2."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 61,
+   "durationSec": 14,
+   "kind": "POST",
+   "register": "EPOQUE",
+   "synopsis": "Retour à la corde — LIEU · En vol au dessus du parc, 1797 : RACCORD EXACT avec le plan 5. CADRE · Même cadrage que le plan 5, même lame, même corde : cette fois la lame VA JUSQU'AU BOUT, la corde CÈDE, la nacelle DÉCROCHE d'un coup ; en bas, minuscule, la foule pousse UN SEUL cri (mouvement de foule, pas de son direct). ACTION · Sciage, rupture nette, chute amorcée, torons qui fouettent.",
+   "locationCode": "D2",
+   "cameraMove": "Source : réutilisation du clip du plan 5, remonté tel quel ; aucun nouveau rendu (le cri de la foule est au mixage son)",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : POST) · REGISTRE · ÉPOQUE\nBLOCS · — · 14 s · Raccord exact avec le plan 5 : la lame tranche la corde, la nacelle décroche, la foule pousse un seul cri.\nPOST · Source : réutilisation du clip du plan 5, remonté tel quel ; aucun nouveau rendu (le cri de la foule est au mixage son)\nRACCORDS · Reprend le plan 5 image pour image avant de le dépasser ; enchaîne sur l'intérieur de voilure du plan 62.\nINTERDITS · Nouveau cadrage, seconde main, ballon dans le champ après la rupture.",
+   "sceneAnneeDebut": 1797,
+   "sceneAnneeFin": 1797,
+   "scenePrecision": "ANNEE"
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 62,
+   "durationSec": 10,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "La corolle — LIEU · En chute, INTÉRIEUR de la voilure. CADRE ET ACTION · LA SOIE JAILLIT du paquet et S'ÉPANOUIT en corolle blanche au dessus de la caméra, les cordages se tendent en étoile, la lumière traverse la soie ; le bleu du ciel aux bords.",
+   "locationCode": "D2",
+   "cameraMove": "Plein cadre vers le haut, depuis l'intérieur du paquet.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · — · 10 s · Vue depuis l'intérieur de la voilure : la soie jaillit du paquet et s'épanouit en corolle blanche, les cordages chantent.\nRACCORDS · La soie est celle pliée depuis le plan 3 ; sa blancheur répond au carré de soie posé sur la table du cadre.\nINTERDITS · Ciel de nuit, déchirure, motif sur la soie.",
+   "sceneAnneeDebut": 1797,
+   "sceneAnneeFin": 1797,
+   "scenePrecision": "ANNEE"
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 63,
+   "durationSec": 28,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "La descente et le verdict — LIEU · Récit muet, du ciel à l'allée du parc, 28 s, séquence en quatre temps.",
+   "locationCode": "D1",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 10 s · La descente balance violemment de gauche à droite, la foule retient son souffle. | b · 9 s · Atterrissage brutal dans une allée, roulade, la voilure le recouvre. | c · 9 s · Il en émerge en boitant, bras levés, la foule explose.\nRACCORDS · L'allée du T3 est l'allée principale de la bible ; la boiterie prépare « il boite » du plan 64.\nINTERDITS · Atterrissage debout, voilure qui disparaît, visage lisible dans la foule.",
+   "sceneAnneeDebut": 1797,
+   "sceneAnneeFin": 1797,
+   "scenePrecision": "ANNEE"
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 64,
+   "durationSec": 16,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Le pari payé — LIEU · Parc, bord de l'allée, minutes après l'atterrissage. CADRE · LE MAIGRE À DROITE TEND LA MAIN, paume ouverte ; LE ROND À GAUCHE PAIE, pièces au creux de la main ; derrière eux, la foule encore agitée autour de la voilure affalée au fond. Bouches fermées sur la clé. INSERT au cadre ensuite : LA SOIE et LE CERF VOLANT DE POCHE rejoignent la sacoche, cadrage du plan 23, deux objets d'un coup.",
+   "locationCode": "D1",
+   "cameraMove": "Zoom avant lent sur les mains qui échangent les pièces",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 16 s · Les deux badauds de l'ouverture ; l'un paie, l'autre encaisse.\nRACCORDS · Mêmes badauds, mêmes places, mêmes costumes qu'au plan 2 : la boucle de l'ouverture se ferme.\nINTERDITS · Places inversées, manteau sarcelle, billets (des pièces, en 1797).",
+   "sceneAnneeDebut": 1797,
+   "sceneAnneeFin": 1797,
+   "scenePrecision": "ANNEE"
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 65,
+   "durationSec": 19,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Quatre objets — LIEU · Pièce du cadre. CADRE · SUR LA TABLE, EXACTEMENT QUATRE OBJETS alignés : la carte à jouer, le billet, la boussole, le pétard. LA MAIN D'ELIO les COMPTE du doigt, un à un, depuis la droite. INSERT enchaîné : LA BOUSSOLE rejoint la sacoche.",
+   "locationCode": "D3",
+   "cameraMove": "Travelling latéral lent vers la droite, le long des quatre derniers objets",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 19 s · Sur la table, il ne reste que la carte, le billet, la boussole et le pétard ; Elio les compte du doigt.\nRACCORDS · Le compte de quatre valide le registre de la bible ; après l'insert il en reste TROIS.\nINTERDITS · Cinquième objet, soie ou cerf volant encore visibles."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 66,
+   "durationSec": 21,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "De l'argile au papier — LIEU · Récit, montage en trois vignettes.",
+   "locationCode": "D29",
+   "cameraMove": "3 images (argile ; hiéroglyphes ; atelier du papier) ; zoom avant lent sur chacune",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 21 s · Montage : tablette d'argile d'Uruk, hiéroglyphes peints, puis un atelier han où l'on presse la pâte à papier et lève des feuilles claires.\nRACCORDS · La feuille levée annonce armure (66), billet (67) et livre (68).\nINTERDITS · Alphabet latin, caractères nets et lisibles (texture, pas écriture)."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 67,
+   "durationSec": 18,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "L'armure de papier — LIEU · Récit, chemin de ronde d'un rempart, jour. CADRE · LA SENTINELLE À GAUCHE, ravie, bras légèrement écartés, porte une CUIRASSE DE FEUILLES PLIÉES en écailles ; LE GÉNÉRAL ADVERSE À DROITE, riche armure sombre, PALPE la cuirasse à deux mains, sourcils hauts. Bouches fermées sur la clé.",
+   "locationCode": "D27",
+   "cameraMove": "Travelling latéral lent vers la gauche, le long du chemin de ronde",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 18 s · Saynète sur un rempart : un général adverse palpe la cuirasse de feuilles pliées d'une sentinelle ravie.\nRACCORDS · Trois flèches fichées dans la cuirasse, aucune n'a percé : le détail illustre la réplique.\nINTERDITS · Sang, flèche plantée dans la chair, caractères sur les feuilles."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 68,
+   "durationSec": 14,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Les faux monnayeurs — LIEU · Récit, ruelle des Song, tombée du jour. CADRE · DEUX COMPÈRES accroupis au premier plan, une LIASSE DE BILLETS entre eux ; au FOND de la ruelle, une PATROUILLE passe, hallebardes contre l'épaule, sans les voir ; les compères se figent puis ENTERRENT la liasse au pied du mur. INSERT au cadre : LE BILLET rejoint la sacoche.",
+   "locationCode": "D28",
+   "cameraMove": "Zoom avant lent sur la liasse que l'on enterre",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 14 s · Saynète dans une ruelle : deux compères, une liasse de billets entre eux ; une patrouille passe au fond ; ils enterrent la liasse.\nRACCORDS · Après l'insert restent DEUX objets : la carte et le pétard.\nINTERDITS · Billets aux motifs lisibles, patrouille qui les repère."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 69,
+   "durationSec": 22,
+   "kind": "FIXE",
+   "register": "EPOQUE",
+   "synopsis": "Le Sutra et Bi Sheng — LIEU · Récit, deux temps.",
+   "locationCode": "D30",
+   "cameraMove": "2 images ; travelling latéral lent le long du rouleau, puis zoom avant lent sur les casiers",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : FIXE) · REGISTRE · ÉPOQUE\nBLOCS · — · 22 s · Un rouleau imprimé se déroule — le Sutra du diamant — puis l'atelier de Bi Sheng : des milliers de petits caractères de terre cuite alignés dans des casiers, une plaque composée à la cire.\nRACCORDS · Les casiers innombrables illustrent « des milliers, là où notre alphabet en demande 26 ».\nINTERDITS · Caractère assez gros pour être lisible, presse à vis (Gutenberg est hors champ)."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 70,
+   "durationSec": 23,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Aucun miracle — LIEU · Pièce du cadre. CADRE · ELIO, tablette POSÉE, sourcil levé, presque déçu que tout soit vrai ; SAM répond CARNET EN MAIN. INSERT enchaîné : LA CARTE À JOUER rejoint la sacoche.",
+   "locationCode": "D3",
+   "cameraMove": "Panoramique lent vers la gauche, d'Elio à Sam",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 23 s · Elio, tablette posée, sourcil levé ; Sam répond carnet en main.\nRACCORDS · Après l'insert reste UN objet : le pétard, seul sur la table — l'image du plan 73.\nINTERDITS · Gel, tablette levée."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 71,
+   "durationSec": 20,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "Les alchimistes — LIEU · Récit, cave d'alchimistes, nuit, lueurs de fourneaux. CADRE · Cornues, alambics, jarres ; DEUX SAVANTS penchés sur un creuset ; une DÉTONATION sourde les rejette en arrière, FUMÉE, les jarres TREMBLENT ; ils se redressent COUVERTS DE SUIE, sourcils roussis, ahuris (gag noir). ACTION · Préparation, éclair, souffle, suie : quatre temps.",
+   "locationCode": "D31",
+   "cameraMove": "Plan moyen, l'établi traversant le cadre.",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 10 s · Fourneaux d'alchimistes : cornues, fumées, gestes précautionneux. | b · 10 s · La détonation fait trembler les jarres ; deux savants couverts de suie.\nRACCORDS · La paire propre puis couverte de suie suit la RÈGLE 22 : version propre d'abord, suie dérivée.\nINTERDITS · Explosion destructrice, blessure, flamme verte fantaisiste."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 72,
+   "durationSec": 20,
+   "kind": "ANIME",
+   "register": "EPOQUE",
+   "synopsis": "De la fête à la guerre — LIEU · Récit, un ciel de nouvel an qui devient champ de bataille. CADRE ET ACTION · Des FUSÉES DE FÊTE montent et fleurissent dans un ciel de nuit au dessus de lampions ; PAR FONDU, les mêmes traînées deviennent des FLÈCHES DE FEU rasantes, puis des bouches de CANONS et des FUSILS crachant sur un champ de bataille enfumé, silhouettes sans visages.",
+   "locationCode": "D32",
+   "cameraMove": "Fondu entre 71a et 71b réalisé au montage",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · ÉPOQUE\nBLOCS · a · 10 s · Fusées de fête dans un ciel de nouvel an. | b · 10 s · Flèches de feu, canons et fusils sur un champ de bataille.\nRACCORDS · Le fondu EST le propos : même objet, deux usages ; aucune coupe franche.\nINTERDITS · Sang, cadavre, drapeau identifiable, visage."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 73,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Le dernier objet — LIEU · Pièce du cadre. CADRE · LE PÉTARD, SEUL au centre de la table nue ; SAM le REGARDE SANS LE PRENDRE, mains posées de part et d'autre ; la sacoche ouverte attend à droite. Elio amorce bord droit.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur le pétard, dernier objet de la table",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Le pétard, dernier objet sur la table ; Sam le regarde sans le prendre.\nRACCORDS · Le vide autour de l'objet est le sujet : huit places libres.\nINTERDITS · Autre objet, main sur le pétard (pas encore)."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 74,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Rangé sans fierté — LIEU · Pièce du cadre. CADRE ET ACTION · SAM range LENTEMENT le pétard dans la sacoche (geste gauche vers droite, cadrage des inserts), puis REFERME LA SACOCHE À DEMI, le rabat posé sans boucler. Regard bas.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur la sacoche qui se referme",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Sam range lentement le pétard, referme la sacoche à demi.\nRACCORDS · La sacoche à demi fermée reste ainsi jusqu'au plan 79, où Sam en sort le flacon.\nINTERDITS · Sacoche bouclée, geste vif."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 75,
+   "durationSec": 18,
+   "kind": "POST",
+   "register": "MIXTE",
+   "synopsis": "Les deux images — LIEU · Surimpression, hors registre : le pont entre époque et présent. CADRE · En fondu superposé : LA SILHOUETTE du prince volant sous son hibou de papier, grise, plane à gauche ; UN CERF VOLANT D'ENFANT d'aujourd'hui, couleurs vives, monte à droite dans un parc ensoleillé, l'enfant de dos en bas du cadre. ACTION · Les deux vols glissent l'un vers l'autre sans se toucher ; la surimpression s'équilibre puis bascule côté présent.",
+   "locationCode": "D33",
+   "cameraMove": "Sources : 2 images FIXE à générer (le prince sous son hibou, registre ÉPOQUE ; le cerf volant dans un parc actuel, registre CADRE) ; traitement : surimpression croisée au montage",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : POST) · REGISTRE · MIXTE\nBLOCS · — · 18 s · Surimpression : la silhouette du prince volant sous son hibou de papier... et un petit cerf volant de fête, aujourd'hui, dans un parc ensoleillé.\nPOST · Sources : 2 images FIXE à générer (le prince sous son hibou, registre ÉPOQUE ; le cerf volant dans un parc actuel, registre CADRE) ; traitement : surimpression croisée au montage\nRACCORDS · Reprend la silhouette exacte du plan 45 T3 ; le cerf volant moderne annonce celui du plan 80.\nINTERDITS · Les deux images au même traitement (l'une grise, l'autre vive), visage de l'enfant."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 76,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "La page de Naya — LIEU · Pièce du cadre, insert. CADRE ET ACTION · LA PAGE S'ÉCRIT sous son crayon : la main de Naya trace une ligne dont on voit le GESTE, pas les mots — l'écriture est une texture cursive ILLISIBLE, c'est sa voix qui dit le texte. Coin de table, ombre des boucles.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur la page du carnet qui s'écrit",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Insert sur le carnet de Naya : la page s'écrit sous son crayon.\nINTERDITS · Mots lisibles (règle anti lettrage), écriture d'adulte."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 77,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "La morale de Sam — LIEU · Pièce du cadre. CADRE · SAM, doux, CHAPEAU REPOUSSÉ EN ARRIÈRE, sans aucun triomphe ; mains ouvertes posées sur la table ; fond doux, hors focale.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant très lent sur Sam",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Sam, doux, chapeau repoussé en arrière, sans aucun triomphe.\nRACCORDS · Arbitrage du 22 août appliqué : aucune lunette, nulle part.\nINTERDITS · Lunettes remontées (ancienne description), sourire large, geste."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 78,
+   "durationSec": 12,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "La table vide — LIEU · Pièce du cadre. CADRE · ELIO contemple LA TABLE VIDE, tablette BAISSÉE posée sur ses genoux, petit sourire honnête ; la sacoche à demi fermée au fond droite ; Sam amorce floue au fond centre.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom arrière lent, d'Elio à la table vide",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 12 s · Elio contemple la table vide, tablette baissée, petit sourire honnête.\nRACCORDS · Table rigoureusement nue : le registre est soldé.\nINTERDITS · Objet oublié sur la table, tablette levée."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 79,
+   "durationSec": 14,
+   "kind": "FIXE",
+   "register": "CADRE",
+   "synopsis": "Le flacon teaser — LIEU · Pièce du cadre. CADRE ET ACTION · SAM sort de la sacoche À DEMI FERMÉE un PETIT FLACON DE VERRE au liquide clair, le tient à hauteur des yeux ; NAYA (gauche) et ELIO (droite) SE PENCHENT D'UN MÊME MOUVEMENT vers le centre, symétriques.",
+   "locationCode": "D3",
+   "cameraMove": "Zoom avant lent sur le flacon de verre",
+   "boardNote": "TYPE SCÉNARIO · FIXE (plan de production : FIXE) · REGISTRE · CADRE\nBLOCS · — · 14 s · Sam sort de sa sacoche un petit flacon de verre au liquide clair ; Naya et Elio se penchent d'un même mouvement.\nRACCORDS · Le flacon est le teaser de l'épisode suivant ; il RETOURNE dans la sacoche hors champ avant le plan 80.\nINTERDITS · Étiquette sur le flacon, liquide coloré."
+  }
+ },
+ {
+  "outil": "upsert_plan",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "number": 80,
+   "durationSec": 10,
+   "kind": "ANIME",
+   "register": "CADRE",
+   "synopsis": "Le cerf volant du soir — LIEU · Pièce du cadre, dernier plan. CADRE ET ACTION · LA SACOCHE FERMÉE, bouclée cette fois, seule sur la table nue, premier plan gauche ; PAR LA FENÊTRE bord DROIT, dans le ciel du soir orangé, UN CERF VOLANT monte lentement ; la pièce s'assombrit doucement ; FONDU au noir.",
+   "locationCode": "D3",
+   "cameraMove": "Fondu final réalisé au montage",
+   "boardNote": "TYPE SCÉNARIO · ANIMÉ (plan de production : ANIMÉ) · REGISTRE · CADRE\nBLOCS · — · 10 s · La sacoche fermée sur la table ; par la fenêtre du cadre, un cerf volant monte dans le soir.\nRACCORDS · Le cerf volant est celui, vif, du plan 75 : dernier écho du premier vol. La sacoche bouclée clôt le jeu ouvert au plan 9.\nINTERDITS · Personnage dans le cadre, lumière de plein jour, sacoche ouverte."
+  }
+ }
+]

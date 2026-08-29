@@ -1,0 +1,1289 @@
+[
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "ouverture-froide",
+   "role": "OUVERTURE_FROIDE",
+   "ordre": 1,
+   "planFrom": 1,
+   "planTo": 6,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage — Ouverture froide : parc Monceau, 1797"
+  }
+ },
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "cadre",
+   "role": "CADRE",
+   "ordre": 2,
+   "planFrom": 7,
+   "planTo": 15,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage — Le cadre : la sacoche renversée"
+  }
+ },
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "premiers-inventeurs",
+   "role": "CORPS",
+   "ordre": 3,
+   "planFrom": 16,
+   "planTo": 18,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage"
+  }
+ },
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "agriculture",
+   "role": "CORPS",
+   "ordre": 4,
+   "planFrom": 19,
+   "planTo": 25,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage"
+  }
+ },
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "harnais",
+   "role": "CORPS",
+   "ordre": 5,
+   "planFrom": 26,
+   "planTo": 29,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage"
+  }
+ },
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "etrier",
+   "role": "CORPS",
+   "ordre": 6,
+   "planFrom": 30,
+   "planTo": 34,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage"
+  }
+ },
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "liste-verifiee",
+   "role": "CORPS",
+   "ordre": 7,
+   "planFrom": 35,
+   "planTo": 40,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage — Boussole, forage, fourmis, bœufs de fer"
+  }
+ },
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "vol",
+   "role": "CORPS",
+   "ordre": 8,
+   "planFrom": 41,
+   "planTo": 49,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage — Le vol"
+  }
+ },
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "pont-suspendu",
+   "role": "CORPS",
+   "ordre": 9,
+   "planFrom": 50,
+   "planTo": 53,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage"
+  }
+ },
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "parachute",
+   "role": "RETOUR_EPREUVE",
+   "ordre": 10,
+   "planFrom": 54,
+   "planTo": 64,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage — Le parachute : Shun, pillards, Siam, Lenormand, verdict de Garnerin (plans 61 à 64 = retour à l'épreuve publique)"
+  }
+ },
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "papier",
+   "role": "CORPS",
+   "ordre": 11,
+   "planFrom": 65,
+   "planTo": 70,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage"
+  }
+ },
+ {
+  "outil": "upsert_narrative_beat",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "code": "armes-et-morale",
+   "role": "CLOTURE",
+   "ordre": 12,
+   "planFrom": 71,
+   "planTo": 80,
+   "sourceRef": "iletaitunefois/S01E01/scenario.md@b490f92#minutage — scenario.md#minutage — Poudre, fusées, chute en deux temps, teaser"
+  }
+ },
+ {
+  "outil": "upsert_promesse",
+  "args": {
+   "show": "il-etait-une-fois",
+   "key": "pari-des-badauds",
+   "label": "Dix francs qu'il ne coupe pas la corde — le pari des badauds",
+   "kind": "ANNONCE",
+   "portee": "EPISODE",
+   "episode": "S01E01",
+   "plantedEpisode": "S01E01",
+   "plantedPlan": 2,
+   "status": "PLANTEE",
+   "note": "Planté au plan 2 (BADAUD 2 : « Dix francs qu'il ne coupe pas la corde. »), payé au plan 64 (BADAUD 2 : « Mes dix francs. » BADAUD 1 : « Il a coupé... et il marche. »).",
+   "sourceRef": "scenario.md, plans 2 et 64@b490f92"
+  }
+ },
+ {
+  "outil": "set_promesse_paiement",
+  "args": {
+   "show": "il-etait-une-fois",
+   "key": "pari-des-badauds",
+   "portee": "EPISODE",
+   "porteeEpisode": "S01E01",
+   "episode": "S01E01",
+   "plan": 64
+  }
+ },
+ {
+  "outil": "upsert_promesse",
+  "args": {
+   "show": "il-etait-une-fois",
+   "key": "teaser-flacon",
+   "label": "Un flacon qui a sauvé des millions de mères — teaser de S01E02",
+   "kind": "TEASER",
+   "portee": "SERIE",
+   "plantedEpisode": "S01E01",
+   "plantedPlan": 79,
+   "status": "PLANTEE",
+   "note": "Plan 79 : Sam sort un petit flacon de verre au liquide clair ; « mais ça, c'est pour la prochaine fois ». Paiement attendu au début de S01E02.",
+   "sourceRef": "scenario.md, plan 79@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_open_question",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "garnerin-se-relevera",
+   "label": "Un homme tombe du ciel : se relèvera-t-il ?",
+   "askedPlan": 6,
+   "status": "POSEE",
+   "sourceRef": "scenario.md, plans 6 et 64@b490f92"
+  }
+ },
+ {
+  "outil": "answer_open_question",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "garnerin-se-relevera",
+   "plan": 64
+  }
+ },
+ {
+  "outil": "upsert_state_scale",
+  "args": {
+   "show": "il-etait-une-fois",
+   "kind": "POSSESSION",
+   "ordre": [
+    "sur-la-table",
+    "rangee"
+   ],
+   "monotone": "CROISSANT",
+   "portee": "EPISODE",
+   "usageMinimum": "rangee",
+   "sourceRef": "serie/BIBLE-Les-Decouvreurs.md §2 gabarit B, liant 2 : un objet ne retourne dans la sacoche qu'une fois vérifié@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petit-soc-de-charrue",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "sur-la-table",
+   "fromPlan": 9,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petit-soc-de-charrue",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "rangee",
+   "fromPlan": 23,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:fer-d-attelage-miniature",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "sur-la-table",
+   "fromPlan": 9,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:fer-d-attelage-miniature",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "rangee",
+   "fromPlan": 29,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:allumette",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "sur-la-table",
+   "fromPlan": 9,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:allumette",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "rangee",
+   "fromPlan": 37,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carre-de-soie",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "sur-la-table",
+   "fromPlan": 9,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carre-de-soie",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "rangee",
+   "fromPlan": 64,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:cerf-volant-de-poche",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "sur-la-table",
+   "fromPlan": 9,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:cerf-volant-de-poche",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "rangee",
+   "fromPlan": 64,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:boussole",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "sur-la-table",
+   "fromPlan": 9,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:boussole",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "rangee",
+   "fromPlan": 65,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:billet-ancien",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "sur-la-table",
+   "fromPlan": 9,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:billet-ancien",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "rangee",
+   "fromPlan": 68,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carte-a-jouer",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "sur-la-table",
+   "fromPlan": 9,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carte-a-jouer",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "rangee",
+   "fromPlan": 70,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petard",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "sur-la-table",
+   "fromPlan": 9,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_fact",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petard",
+   "kind": "POSSESSION",
+   "key": "table",
+   "value": "rangee",
+   "fromPlan": 74,
+   "sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)@b490f92"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petit-soc-de-charrue",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 23,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 23@b490f92 — huit objets restent en place après le soc"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:fer-d-attelage-miniature",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 23,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 23@b490f92 — huit objets restent en place après le soc"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:allumette",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 23,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 23@b490f92 — huit objets restent en place après le soc"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carre-de-soie",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 23,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 23@b490f92 — huit objets restent en place après le soc"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:cerf-volant-de-poche",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 23,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 23@b490f92 — huit objets restent en place après le soc"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:boussole",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 23,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 23@b490f92 — huit objets restent en place après le soc"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:billet-ancien",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 23,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 23@b490f92 — huit objets restent en place après le soc"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carte-a-jouer",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 23,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 23@b490f92 — huit objets restent en place après le soc"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petard",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 23,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 23@b490f92 — huit objets restent en place après le soc"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petit-soc-de-charrue",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 31,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 31@b490f92 — table à sept objets : soc et fer rangés, allumette encore là"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:fer-d-attelage-miniature",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 31,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 31@b490f92 — table à sept objets : soc et fer rangés, allumette encore là"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:allumette",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 31,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 31@b490f92 — table à sept objets : soc et fer rangés, allumette encore là"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carre-de-soie",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 31,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 31@b490f92 — table à sept objets : soc et fer rangés, allumette encore là"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:cerf-volant-de-poche",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 31,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 31@b490f92 — table à sept objets : soc et fer rangés, allumette encore là"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:boussole",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 31,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 31@b490f92 — table à sept objets : soc et fer rangés, allumette encore là"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:billet-ancien",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 31,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 31@b490f92 — table à sept objets : soc et fer rangés, allumette encore là"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carte-a-jouer",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 31,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 31@b490f92 — table à sept objets : soc et fer rangés, allumette encore là"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petard",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 31,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 31@b490f92 — table à sept objets : soc et fer rangés, allumette encore là"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petit-soc-de-charrue",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 37,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 37@b490f92 — restent carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:fer-d-attelage-miniature",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 37,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 37@b490f92 — restent carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:allumette",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 37,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 37@b490f92 — restent carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carre-de-soie",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 37,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 37@b490f92 — restent carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:cerf-volant-de-poche",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 37,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 37@b490f92 — restent carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:boussole",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 37,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 37@b490f92 — restent carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:billet-ancien",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 37,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 37@b490f92 — restent carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carte-a-jouer",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 37,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 37@b490f92 — restent carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petard",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 37,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 37@b490f92 — restent carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petit-soc-de-charrue",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 49,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 49@b490f92 — six objets restants : carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:fer-d-attelage-miniature",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 49,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 49@b490f92 — six objets restants : carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:allumette",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 49,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 49@b490f92 — six objets restants : carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carre-de-soie",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 49,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 49@b490f92 — six objets restants : carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:cerf-volant-de-poche",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 49,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 49@b490f92 — six objets restants : carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:boussole",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 49,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 49@b490f92 — six objets restants : carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:billet-ancien",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 49,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 49@b490f92 — six objets restants : carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carte-a-jouer",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 49,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 49@b490f92 — six objets restants : carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petard",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 49,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 49@b490f92 — six objets restants : carte, boussole, cerf volant, soie, billet, pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petit-soc-de-charrue",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 65,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 65@b490f92 — « Quatre objets » : carte, billet, boussole, pétard ; puis la boussole rentre"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:fer-d-attelage-miniature",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 65,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 65@b490f92 — « Quatre objets » : carte, billet, boussole, pétard ; puis la boussole rentre"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:allumette",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 65,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 65@b490f92 — « Quatre objets » : carte, billet, boussole, pétard ; puis la boussole rentre"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carre-de-soie",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 65,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 65@b490f92 — « Quatre objets » : carte, billet, boussole, pétard ; puis la boussole rentre"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:cerf-volant-de-poche",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 65,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 65@b490f92 — « Quatre objets » : carte, billet, boussole, pétard ; puis la boussole rentre"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:boussole",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 65,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 65@b490f92 — « Quatre objets » : carte, billet, boussole, pétard ; puis la boussole rentre"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:billet-ancien",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 65,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 65@b490f92 — « Quatre objets » : carte, billet, boussole, pétard ; puis la boussole rentre"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carte-a-jouer",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 65,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 65@b490f92 — « Quatre objets » : carte, billet, boussole, pétard ; puis la boussole rentre"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petard",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 65,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 65@b490f92 — « Quatre objets » : carte, billet, boussole, pétard ; puis la boussole rentre"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petit-soc-de-charrue",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 73,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 73@b490f92 — « Il en reste un » : le pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:fer-d-attelage-miniature",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 73,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 73@b490f92 — « Il en reste un » : le pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:allumette",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 73,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 73@b490f92 — « Il en reste un » : le pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carre-de-soie",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 73,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 73@b490f92 — « Il en reste un » : le pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:cerf-volant-de-poche",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 73,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 73@b490f92 — « Il en reste un » : le pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:boussole",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 73,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 73@b490f92 — « Il en reste un » : le pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:billet-ancien",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 73,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 73@b490f92 — « Il en reste un » : le pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carte-a-jouer",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 73,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 73@b490f92 — « Il en reste un » : le pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petard",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 73,
+   "requiert": "sur-la-table",
+   "sourceRef": "scenario.md, plan 73@b490f92 — « Il en reste un » : le pétard"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petit-soc-de-charrue",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 78,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 78@b490f92 — « La table est vide »"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:fer-d-attelage-miniature",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 78,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 78@b490f92 — « La table est vide »"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:allumette",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 78,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 78@b490f92 — « La table est vide »"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carre-de-soie",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 78,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 78@b490f92 — « La table est vide »"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:cerf-volant-de-poche",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 78,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 78@b490f92 — « La table est vide »"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:boussole",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 78,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 78@b490f92 — « La table est vide »"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:billet-ancien",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 78,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 78@b490f92 — « La table est vide »"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:carte-a-jouer",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 78,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 78@b490f92 — « La table est vide »"
+  }
+ },
+ {
+  "outil": "upsert_state_usage",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "subject": "objet:petard",
+   "kind": "POSSESSION",
+   "key": "table",
+   "plan": 78,
+   "requiert": "rangee",
+   "sourceRef": "scenario.md, plan 78@b490f92 — « La table est vide »"
+  }
+ }
+]

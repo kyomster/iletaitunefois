@@ -1,0 +1,1322 @@
+[
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 2,
+   "order": 0,
+   "speaker": "BADAUD 1",
+   "text": "Il va se tuer, je vous dis.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 2,
+   "order": 1,
+   "speaker": "BADAUD 2",
+   "text": "Dix francs qu'il ne coupe pas la corde.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 3,
+   "order": 0,
+   "speaker": "L'AIDE",
+   "text": "Citoyen Garnerin, renoncez, il est encore temps.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 3,
+   "order": 1,
+   "speaker": "GARNERIN",
+   "text": "Lâchez tout.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 6,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Octobre 1797 : tout Paris est venu voir un homme tomber du ciel. Mais pour savoir s'il se relèvera, il faut d'abord faire un très long détour... par la Chine.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 7,
+   "order": 0,
+   "speaker": "NAYA",
+   "text": "Il n'est jamais en retard. J'espère qu'il ne lui est rien arrivé.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 7,
+   "order": 1,
+   "speaker": "ELIO",
+   "text": "Lui ? Il est solide comme un roc. Je parie qu'il arrive avec une histoire impossible.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 8,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Quelle circulation ! Quel froid ! Quelle... enfin, regardez ma sacoche : de la glace ! Et cette éraflure, cadeau du verglas. Un thé bien chaud, quelqu'un ? Merci. Où j'en étais, déjà ? Ah oui : nulle part, je viens d'arriver.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 9,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Le butin du jour.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 10,
+   "order": 0,
+   "speaker": "NAYA",
+   "text": "C'est quoi, tout ça ?",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 10,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Neuf objets... et une seule origine.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 11,
+   "order": 0,
+   "speaker": "ELIO",
+   "text": "Moi, je préfère qu'on parle des cowboys. Et pan pan !",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 11,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Pan pan ? Parfait : le fusil, la poudre, le canon — chinois, chinois, chinois.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 12,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "La porcelaine de ton saloon ? Maîtrisée huit à dix siècles avant l'Europe — Meissen n'en percera le secret qu'en 1708. Et les cartes à jouer du poker : cinq siècles avant tout le monde.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 13,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Tout ce qui nous entoure semble évident. Mais il a fallu des milliers d'années d'efforts et d'ingéniosité pour en arriver là. Donc cette série racontera les découvreurs et leurs découvertes. Barbant ? C'est le plus passionnant de tous les romans.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 14,
+   "order": 0,
+   "speaker": "NAYA",
+   "text": "Alors qui a trouvé quoi en premier ?",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 14,
+   "order": 1,
+   "speaker": "ELIO",
+   "text": "Et surtout : des preuves. Objet par objet. C'est même pas vrai, la moitié de ce qu'on raconte.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 15,
+   "order": 0,
+   "speaker": "ELIO",
+   "text": "La règle : chaque objet vérifié retourne dans la sacoche. S'il en reste un sur la table à la fin, tu as perdu.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 15,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Tenu. Donc commençons par le commencement. Le tout premier inventeur.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 16,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Les premiers inventeurs n'étaient sans doute pas des hommes. Les oiseaux bâtissent, les singes cassent, les loutres martèlent. Le hasard aide souvent ; le génie, c'est de le remarquer.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 17,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Donc viennent le premier outil, la première arme, le premier feu. Trois inventions qui n'ont pas d'inventeur connu... et qui portent toutes les autres.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 18,
+   "order": 0,
+   "speaker": "ELIO",
+   "text": "Détail : les plus vieux outils taillés ont 3,3 millions d'années. Avant même le genre humain.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 18,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Donc les premiers tailleurs de pierre n'étaient pas encore des hommes. Belle leçon de modestie pour ouvrir une série sur le génie.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 19,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Puis le climat se réchauffe, il y a environ douze mille ans. Donc, un peu partout, on cesse de courir après la nourriture : on la fait pousser. Pas une découverte : sept ou huit, indépendantes — dont deux en Chine, le riz au sud, les millets au nord.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 20,
+   "order": 0,
+   "speaker": "NAYA",
+   "text": "On m'avait dit : c'est parce que le gibier manquait.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 20,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Vieille chanson. Le vrai moteur, c'est le climat. Et retiens ceci : la Chine n'a pas reçu l'agriculture — elle en est un berceau.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 21,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Donc les Chinois la perfectionnent : culture en ligne, sarclage, soc de charrue en fonte, et bientôt le semoir à rangs multiples.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 22,
+   "order": 0,
+   "speaker": "PAYSAN 1",
+   "text": "Trois rangs d'un coup ? Et droits, en plus !",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 22,
+   "order": 1,
+   "speaker": "PAYSAN 2",
+   "text": "Droits comme la parole du juge. À toi les oiseaux, à moi la récolte.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 23,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "L'Europe attendra le semoir de Jethro Tull... en 1701. Deux mille ans, vous vous rendez compte ? Premier objet vérifié, premier objet rangé.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 24,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Et la cervoise des Gaulois ? Et le cognac ! On brassait, on distillait en Chine bien avant !",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 24,
+   "order": 1,
+   "speaker": "ELIO",
+   "text": "Gel.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 25,
+   "order": 0,
+   "speaker": "ELIO",
+   "text": "Vérifié : on brassait en Chine très tôt, c'est vrai. Mais la bière est née avant en Mésopotamie et en Égypte — et l'alambic, lui, est arabe, trois siècles plus tôt.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 25,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "...Donc la cervoise et le cognac sortent de la liste. Personne n'est parfait — pas même mes Chinois.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 26,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "L'agriculture mène à l'attelage. Et là, une histoire célèbre : le harnais antique, à ce qu'on racontait partout, étranglait le cheval...",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 27,
+   "order": 0,
+   "speaker": "ELIO",
+   "text": "On racontait faux. L'expérience l'a réfuté en 1977 : l'attelage antique tirait sur le poitrail et les épaules. Le cheval respirait très bien.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 28,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Donc je corrige : pas de cheval étranglé. Mais le collier d'épaule chinois reste une vraie avancée : la charge augmente — sans le fameux \"dix fois plus\" des vieux livres —, et l'Europe l'adopte trois à cinq siècles plus tard.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 29,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Donc voilà le cheval promu bête de trait... avec le panache en plus. Deuxième objet rangé.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 30,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Atteler ne suffit pas : il faut monter. Ni les Égyptiens, ni les Grecs, ni les Romains ne connaissaient l'étrier. Monter à cheval était un sport de voltige... ou de domestiques.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 31,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Et les Chinois ? Longtemps, on leur a prêté des étriers de métal du temps des Grecs. Mon carnet dit : premier étrier attesté en 302, première paire en 415. Tardif... mais décisif.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 32,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Donc, en 567, les Avars le portent jusqu'en Europe : les plus vieux étriers du continent sortent de leurs tombes.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 33,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Et voilà comment l'étrier chinois fit naître la chevalerie d'Occident !",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 33,
+   "order": 1,
+   "speaker": "ELIO",
+   "text": "Gel.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 34,
+   "order": 0,
+   "speaker": "ELIO",
+   "text": "Trop simple : les historiens ont conclu que ce rôle était très surestimé.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 34,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Exact. L'étrier aide le cavalier ; il ne fabrique pas une société. Donc je range mon envolée... et l'étrier dans la sacoche.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 35,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Donc la liste continue : la boussole — décrite en 1088, un siècle d'avance seulement, celle là —, le système décimal — sans le zéro, lui, qui est indien —, le cardan, les écluses, le gouvernail...",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 35,
+   "order": 1,
+   "speaker": "ELIO",
+   "text": "Et la vapeur ?",
+   "voiceOff": true,
+   "didascalie": "off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 35,
+   "order": 2,
+   "speaker": "SAM",
+   "text": "Déjà sortie de la liste. Bien essayé.",
+   "voiceOff": true,
+   "didascalie": "off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 36,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Ajoutez le forage profond, au Sichuan, dès le IIᵉ siècle avant notre ère : des tours de bambou pour puiser la saumure... et déjà le pétrole.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 37,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "L'allumette ? En 577, des dames de cour assiégées enduisent des bâtonnets de soufre. La moderne attendra 1827 : douze siècles et demi d'écart. Objet rangé.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 38,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "En 304, seize siècles avant l'Occident, un lettré décrit la lutte biologique : des fourmis achetées au marché pour garder les vergers, des ponts de bambou pour leurs rondes. L'Europe y viendra en 1888... avec une coccinelle.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 40,
+   "order": 0,
+   "speaker": "NAYA",
+   "text": "Donc il soulève des bœufs de fer... en vidant de la terre ?",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 40,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Par la seule flottaison, vers 1060. Mille ans plus tard, on ne renfloue toujours pas autrement.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 41,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Mais tout ne se joue pas au sol. Dès le Vᵉ siècle avant notre ère, les Chinois font tenir des ailes dans le vent : le cerf volant.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 42,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "On racontait la scène mille ans trop tôt ; la chronique la date de 549 de notre ère, au siège de Taicheng. Donc je la remets à sa place : des assiégés confient au vent leurs appels au secours.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 43,
+   "order": 0,
+   "speaker": "NAYA",
+   "text": "Si le vent porte un message... il peut porter quelqu'un ?",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 43,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Quelqu'un l'a prouvé. Mais pas de son plein gré.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 44,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "En 559, l'empereur Gao Yang \"libère\" ses prisonniers du haut d'une tour, à sa manière. Ce jour, le prisonnier s'appelle Yuan Huangtou, fils d'un empereur déchu.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 47,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Il plane près de 2,5 kilomètres et se pose vivant : le premier homme volant de l'humanité. Mais son vol ne le libère pas — il meurt en captivité peu après.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 48,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Treize siècles et demi plus tard, le 27 juin 1894, au camp de Pirbright, le cerf-volant de Baden-Powell soulève un homme à quinze mètres. Mais Lilienthal, lui, plane déjà sous ses ailes depuis 1891 : deux mille vols, jusqu'à sa chute en 1896.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 49,
+   "order": 0,
+   "speaker": "NAYA",
+   "text": "Donc le premier vol humain... est une exécution.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 49,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "La chronique le raconte ainsi, et les historiens la citent. Gardez cette histoire en tête : elle pèsera dans la morale du jour.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 50,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Franchir le vide, maintenant. Le pont suspendu vient bien de Chine : les câbles de bambou du Sichuan, décrits dès le Iᵉʳ siècle de notre ère.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 51,
+   "order": 0,
+   "speaker": "LE BADAUD",
+   "text": "Ça ne tiendra jamais. Ça ne tiendra jamais, je te dis.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 51,
+   "order": 1,
+   "speaker": "L'AUTRE",
+   "text": "Il est passé.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 51,
+   "order": 2,
+   "speaker": "LE BADAUD",
+   "text": "...C'est bien ce que je disais.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 52,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Deux mille ans avant l'Occident ! Et il lui faudra cinq siècles de plus pour l'égaler !",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 52,
+   "order": 1,
+   "speaker": "ELIO",
+   "text": "Gel.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 53,
+   "order": 0,
+   "speaker": "ELIO",
+   "text": "Faux : premier pont de fer occidental en 1801, le pont de Menai en 1826. 25 ans, pas 500.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 53,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Donc l'Occident rattrape parfois très vite. C'est aussi ça, l'histoire des techniques : des avances, des dégradés... et des sprints.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 54,
+   "order": 0,
+   "speaker": "NAYA",
+   "text": "Et si la corde casse ?",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 54,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Alors il faut apprendre à tomber sans mourir. Donc : notre morceau de soie.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 55,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "La plus vieille histoire vient du Shiji : le souverain légendaire Shun échappe à un grenier en feu, accroché à deux chapeaux de paille. Ça s'est passé ainsi ? Rien ne le prouve : c'est une légende. Mais quelle légende !",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 56,
+   "order": 0,
+   "speaker": "PILLARD 1",
+   "text": "C'est moi qui saute avec le butin : je suis le plus léger.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 56,
+   "order": 1,
+   "speaker": "PILLARD 2",
+   "text": "Alors moi, je fais quoi ?",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 58,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Ensuite, un ambassadeur de France voit tout cela en Chine, et son récit file droit vers l'Europe.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 58,
+   "order": 1,
+   "speaker": "ELIO",
+   "text": "Gel. Montre la page de titre.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 59,
+   "order": 0,
+   "speaker": "NAYA",
+   "text": "\"Du royaume de Siam\"... Siam ? Ce n'est pas la Chine !",
+   "voiceOff": false,
+   "didascalie": "lisant"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 59,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Exact, je corrige : l'envoyé s'appelle La Loubère, et ses acrobates sautent à Ayutthaya. Donc l'idée a voyagé en Asie, mais la page qui traverse l'Europe vient du Siam.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 60,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Donc, en France, le jeune Lenormand essaie : d'abord d'un arbre, puis, en 1783, de la tour de l'observatoire — premier saut public attesté. En 1785, il forge le mot : parachute.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 61,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Mais son cadre rigide ne s'emporte pas sous un ballon. Donc nous revoilà en 1797, à la verticale du parc Monceau — sous un ballon à hydrogène, pas une montgolfière : vérifié.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 64,
+   "order": 0,
+   "speaker": "BADAUD 2",
+   "text": "Mes dix francs.",
+   "voiceOff": false,
+   "didascalie": "tendant la main"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 64,
+   "order": 1,
+   "speaker": "BADAUD 1",
+   "text": "Il a coupé... et il marche. Enfin, il boite.",
+   "voiceOff": false,
+   "didascalie": "payant"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 64,
+   "order": 2,
+   "speaker": "SAM",
+   "text": "Une entorse pour tout dommage. Donc le verdict est rendu : on peut tomber du ciel et se relever. Deux objets rangés d'un coup.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 65,
+   "order": 0,
+   "speaker": "ELIO",
+   "text": "Quatre objets.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 65,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Donc accélérons — la boussole est déjà vérifiée, elle rentre. Et presque tout le reste tient dans une feuille : la voilure de Garnerin est en soie, la soie coûte un champ... le support du pauvre, lui, va conquérir le monde.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 66,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "L'écriture naît sur l'argile d'Uruk il y a cinq mille quatre cents ans, presque en même temps que les hiéroglyphes. Mais le papier est chinois : deux siècles avant notre ère — et en 105, un intendant nommé Cai Lun le perfectionne et le fait adopter par la cour.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 67,
+   "order": 0,
+   "speaker": "LA SENTINELLE",
+   "text": "Trois flèches arrêtées, général, et mes épaules ne pèsent plus rien.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 67,
+   "order": 1,
+   "speaker": "LE GÉNÉRAL",
+   "text": "Légère... et cent hommes armés pour le prix de dix. J'échange vos cuirasses contre les miennes.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 67,
+   "order": 2,
+   "speaker": "SAM",
+   "text": "L'armure de papier vaut surtout par son prix : le métal reste le métal.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 68,
+   "order": 0,
+   "speaker": "COMPÈRE 1",
+   "text": "Du simple papier ! On peut en faire autant qu'on veut. Riches, on va être riches.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 68,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Le vrai billet naît au Sichuan vers 1023. Mais la contrefaçon, elle, est punie de mort.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 69,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Donc le papier appelle l'imprimerie : en 868, le plus ancien livre imprimé complet qui nous soit parvenu ; vers 1045, Bi Sheng grave des caractères mobiles en terre cuite — des milliers, là où notre alphabet en demande 26.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 70,
+   "order": 0,
+   "speaker": "ELIO",
+   "text": "Et ensuite, l'imprimerie apparaît en Europe... comme par miracle ?",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 70,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Aucun miracle documenté : les historiens parlent d'inventions convergentes. Et entre les deux, un maillon coréen : le Jikji, imprimé en 1377, soixante ans avant Gutenberg — dont la presse est un système à part. La carte à jouer, elle, rentre au bercail.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 71,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Mais tout n'est pas rose dans la sacoche. En cherchant un élixir de longue vie, les alchimistes trouvent la poudre : de quoi raccourcir celle des hommes.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 72,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Les fusées naissent pour la fête. Donc, fatalement, quelqu'un les tourne vers la guerre : lances de feu, canons, fusils. Encore quelques siècles, et tout cela atteindra l'Occident.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 73,
+   "order": 0,
+   "speaker": "ELIO",
+   "text": "Il en reste un.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 73,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Je sais. Ce dernier, je le range sans fierté.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 74,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Le même peuple a inventé le semoir et le canon, le billet et la poudre. Donc l'invention ne choisit pas : c'est nous qui choisissons.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 75,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Le premier vol humain fut une exécution ; le même cerf volant fait rire nos parcs. Tout le chemin des inventions tient entre ces deux images.",
+   "voiceOff": true,
+   "didascalie": "voix off"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 76,
+   "order": 0,
+   "speaker": "NAYA",
+   "text": "Regarder, voir, ça ne suffit pas. Il faut observer, comparer, déduire. C'est ça, la science.",
+   "voiceOff": false,
+   "didascalie": "en écrivant"
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 77,
+   "order": 0,
+   "speaker": "SAM",
+   "text": "Les inventions peuvent et doivent signifier progrès, et non pas agression. S'il le veut, l'homme saura être utile, bienfaisant, et parfois même génial.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 78,
+   "order": 0,
+   "speaker": "ELIO",
+   "text": "La table est vide. Tu as gagné... grâce aux corrections.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 78,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Donc nous avons gagné ensemble. Vérifier, ce n'est pas perdre : c'est ça, découvrir.",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 79,
+   "order": 0,
+   "speaker": "NAYA",
+   "text": "Et ça ?",
+   "voiceOff": false
+  }
+ },
+ {
+  "outil": "upsert_line",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 79,
+   "order": 1,
+   "speaker": "SAM",
+   "text": "Un flacon qui a sauvé des millions de mères... mais ça, c'est pour la prochaine fois.",
+   "voiceOff": false
+  }
+ }
+]

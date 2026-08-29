@@ -24,7 +24,7 @@ LIEU · Même allée, bord sud de la foule, même aube.
 CAMÉRA · Plan rapproché poitrine, légère contre plongée, à 2 m des badauds, axe nord.
 CADRE · Le rond À GAUCHE, chapeau haut à cocarde, gilet tendu sur le ventre, penché vers son voisin, bouche fermée. Le maigre À DROITE, appuyé sur sa canne main droite, manteau de laine écrue brune usée et rapiécée, œil méfiant, bouche fermée. Ils se regardent. Derrière eux, la foule floue de dos, puis la nacelle et le bas du ballon au fond centre.
 HORS CADRE · Le sommet du ballon, coupé par le bord haut.
-RACCORDS · Mêmes deux hommes, mêmes places et mêmes costumes qu'au plan 63. Clés de champ contrechamp P02a (le rond seul, bouche visible) et P02b (le maigre seul, bouche visible) pour la synchro labiale.
+RACCORDS · Mêmes deux hommes, mêmes places et mêmes costumes qu'au plan 64. Clés de champ contrechamp P02a (le rond seul, bouche visible) et P02b (le maigre seul, bouche visible) pour la synchro labiale.
 INTERDITS · Sarcelle sur le manteau, visage lisible dans la foule, seconde canne, second chapeau à cocarde.
 
 ***
@@ -35,9 +35,10 @@ INTERDITS · Sarcelle sur le manteau, visage lisible dans la foule, seconde cann
 
 LIEU · Intérieur de la nacelle, encore au sol dans le parc, même aube.
 CAMÉRA · De côté, hauteur poitrine, à 2 m du flanc sud de la nacelle : plan moyen à deux.
-CADRE · GARNERIN À GAUCHE, debout, main droite gantée serrant la corde de largage au dessus de sa tête, regard levé vers le ballon, mâchoire posée, bouche fermée. L'AIDE À DROITE, au rebord, penché vers lui, main ouverte qui supplie, visage entièrement visible de trois quarts, bouche fermée. Entre eux, au plancher : le paquet de soie plié. Le couteau glissé dans le tressage du flanc GAUCHE. Le parc D1 au fond, par dessus le rebord.
+CADRE · GARNERIN À GAUCHE, debout, main droite gantée serrant la corde de largage au dessus de sa tête, regard levé vers le ballon, mâchoire posée, bouche fermée. L'AIDE À DROITE, DEBOUT AU SOL À L'EXTÉRIEUR DE LA NACELLE, les deux mains sur le rebord, penché vers lui, main ouverte qui supplie, visage entièrement visible de trois quarts, bouche fermée. Le parachute replié, ceinturé comme un parapluie fermé, est SUSPENDU ENTRE LE BALLON ET LA NACELLE, ses suspentes descendant au rebord (correction factuelle du 27 août 2026, voir `iletaitunefois/S01E01/logique-ouverture-froide.md` §1 : un paquet posé au plancher rendait la coupe du plan 5 mortelle et le plan 6 illisible). Le couteau glissé dans le tressage du flanc GAUCHE. Le parc D1 au fond, par dessus le rebord.
 HORS CADRE · Le ballon, directement au dessus. La foule, derrière la caméra.
-RACCORDS · La corde tenue ici est celle que la lame tranche aux plans 5 et 60. Le couteau, la soie et leurs places reviennent aux plans 4b, 5, 61. L'aide ne remonte plus à bord ensuite.
+DESTINATAIRE DE L'ORDRE · « Lâchez tout » s'adresse à l'équipe au sol : deux amarres tendues entrent au bas du cadre, tenues par des mains d'équipage au bord de l'image. Elles retombent au plan 4a-1.
+RACCORDS · La corde tenue ici est celle que la lame tranche aux plans 5 et 61. Le couteau, la soie et leurs places reviennent aux plans 4b, 5, 61. L'aide ne remonte plus à bord ensuite.
 INTERDITS · Second ballon ou seconde nacelle au fond, bouche ouverte, personne vu de dos.
 
 ***
@@ -61,10 +62,10 @@ INTERDITS · Le ballon ne « redécolle » jamais deux fois ; aucun personnage d
 
 LIEU · En vol, flanc de la nacelle, très haut au dessus de Paris.
 CAMÉRA · Très gros plan en angle rasant le long de la corde.
-CADRE · UNE seule main, celle de Garnerin dans sa manche sombre, scie la corde ENCORE ENTIÈRE et tendue ; quelques fibres externes sautent une à une, la lame à mi chemin. La corde part du rebord d'osier, bord bas, vers le ballon, bord haut. Ciel et toits D2 flous derrière.
+CADRE · UNE seule main, celle de Garnerin dans sa manche sombre, scie la corde ENCORE ENTIÈRE et tendue ; quelques fibres externes sautent une à une, la lame à mi chemin. La corde tranchée est celle qui lie LE SOMMET DU PARACHUTE REPLIÉ au ballon : dans le cadre, de bas en haut, le rebord d'osier, les suspentes, le parachute fermé, puis LA corde, puis le ballon. Ciel et toits D2 flous derrière.
 HORS CADRE · Le visage de Garnerin, le reste de la nacelle, le ballon.
 ACTION · Va et vient court de la lame, fibres qui jaillissent, vibration de la corde. La corde NE cède PAS dans ce plan.
-RACCORDS · Le plan 60 reprend ce geste à l'identique et va jusqu'à la rupture ; l'image figée du plan 6 est tirée de cette chute.
+RACCORDS · Le plan 61 reprend ce geste à l'identique et va jusqu'à la rupture ; l'image figée du plan 6 est tirée de cette chute.
 INTERDITS · Corde déjà tranchée, seconde main, mur ou intérieur derrière, code « D2 » lisible.
 
 ***
@@ -76,7 +77,7 @@ INTERDITS · Corde déjà tranchée, seconde main, mur ou intérieur derrière, 
 LIEU · Plein ciel, image figée en pleine chute.
 CADRE · Dernière image du dernier clip du plan 5, figée : la corde rompue fouette l'air, torons ouverts, ciel et toits D2 flous derrière. Carton titre posé AU MONTAGE : « LES DÉCOUVREURS — Nos ancêtres les Chinois ».
 FABRICATION · Ce plan ne se génère pas : POST pur, aucune image à produire.
-RACCORDS · Voix off de Sam par dessus ; le silence de l'image porte le suspens jusqu'au plan 60.
+RACCORDS · Voix off de Sam par dessus ; le silence de l'image porte le suspens jusqu'au plan 61.
 
 ## Le cadre — la sacoche renversée — plans 7 à 15
 
@@ -175,7 +176,7 @@ INTERDITS · Lunettes, table partiellement vidée.
 LIEU · Pièce du cadre.
 CAMÉRA · Plan à deux depuis la place de Sam, cadrant les deux enfants de face, la table en premier plan bas.
 CADRE · NAYA À GAUCHE lève son crayon, carnet ouvert. ELIO À DROITE, bras croisés. Entre eux, la longueur de la table et les neuf objets premier plan flou.
-RACCORDS · Ce cadrage « deux enfants face à Sam » resservira aux plans 48 et 78 ; mêmes places.
+RACCORDS · Ce cadrage « deux enfants face à Sam » resservira aux plans 49 et 79 ; mêmes places.
 INTERDITS · Les deux enfants du même côté de la table.
 
 ***
@@ -211,7 +212,7 @@ INTERDITS · Être humain, outil manufacturé, décor bâti.
 LIEU · Récit, préhistoire, nuit et pénombre, silhouettes.
 V1 · Deux mains en silhouette : un éclat de silex jaillit, étincelle de pierre. V2 · Une flamme prend dans la nuit sur un foyer de brindilles, plein cadre. V3 · Des visages s'éclairent en cercle autour du feu, traits simplifiés par la nuit, AUCUN visage détaillé.
 ACTION · Percussion, naissance de la flamme, lumière qui monte sur les visages.
-RACCORDS · La flamme annonce le feu des alchimistes du plan 70, écho voulu.
+RACCORDS · La flamme annonce le feu des alchimistes du plan 71, écho voulu.
 INTERDITS · Visage lisible, vêtement cousu, paysage diurne.
 
 ***
@@ -287,24 +288,24 @@ INTERDITS · Autre objet déplacé, sacoche à gauche.
 
 ***
 
-**Plan 24 — La cervoise de trop · FIXE, 10 s**
+**Plan 24 — La cervoise de trop · FIXE, 11 s**
 
-**Texte dit (verrouillé)** : SAM : « Et la cervoise des Gaulois ? On brassait en Chine bien avant ! » ELIO : « Gel. »
+**Texte dit (verrouillé)** : SAM : « Et la cervoise des Gaulois ? Et le cognac ! On brassait, on distillait en Chine bien avant ! » ELIO : « Gel. »
 
 LIEU · Pièce du cadre.
 CAMÉRA · Frontale sur Sam, plan rapproché taille.
-CADRE · SAM s'emballe, index droit levé, l'autre main arrondie autour d'une chope imaginaire. Bord DROIT du cadre : la tablette d'Elio se LÈVE en amorce, annonce du gel.
+CADRE · SAM s'emballe, index droit levé, l'autre main arrondie autour d'une chope imaginaire qu'il lève comme un verre. Bord DROIT du cadre : la tablette d'Elio se LÈVE en amorce, annonce du gel.
 RACCORDS · Enchaîne directement sur le gel du plan 25.
 INTERDITS · Vraie chope dans la main, tablette déjà en plein cadre.
 
 ***
 
-**Plan 25 — Gel de la cervoise · FIXE, 16 s**
+**Plan 25 — Gel de la cervoise et du cognac · FIXE, 19 s**
 
-**Texte dit (verrouillé)** : ELIO : « Vérifié : on brassait en Chine très tôt, c'est vrai. Mais la bière est née avant en Mésopotamie et en Égypte. » SAM : « ...Donc la cervoise sort de la liste. Personne n'est parfait — pas même mes Chinois. »
+**Texte dit (verrouillé)** : ELIO : « Vérifié : on brassait en Chine très tôt, c'est vrai. Mais la bière est née avant en Mésopotamie et en Égypte — et l'alambic, lui, est arabe, trois siècles plus tôt. » SAM : « ...Donc la cervoise et le cognac sortent de la liste. Personne n'est parfait — pas même mes Chinois. »
 
 LIEU · Gel : brasserie antique figée.
-CADRE · ELIO premier plan DROIT en couleurs vives, tablette levée. Fond gris figé : une brasserie antique, jarres, cuves fumantes arrêtées net, un brasseur de dos pétrifié en plein geste.
+CADRE · ELIO premier plan DROIT en couleurs vives, tablette levée. Fond gris figé : une brasserie antique, jarres, cuves fumantes arrêtées net, un brasseur de dos pétrifié en plein geste ; sur un banc au fond, un petit alambic de cuivre à bec courbe, figé lui aussi.
 RACCORDS · Même géométrie de gel que le plan 15.
 INTERDITS · Fumée en mouvement dans la zone grise, lettrage d'enseigne.
 
@@ -341,7 +342,7 @@ INTERDITS · Cadrage différent du plan 26.
 LIEU · Pièce du cadre.
 CAMÉRA · Plan moyen sur Sam, axe légèrement décalé vers la GAUCHE du cadre.
 CADRE · SAM s'incline brièvement puis pointe la main gauche vers L'ÉCRAN MURAL, fond gauche, où s'affiche un collier d'épaule rembourré, dessiné plein cadre écran, SANS aucun texte. Naya amorce bord gauche.
-RACCORDS · L'écran mural sert ici pour la première fois ; il resservira au plan 53.
+RACCORDS · L'écran mural sert ici pour la première fois ; il resservira au plan 54.
 INTERDITS · Texte ou cote sur l'écran, écran à droite.
 
 ***
@@ -375,7 +376,7 @@ INTERDITS · Étrier, selle moderne, chute violente (c'est un gag, pas un accide
 
 LIEU · Pièce du cadre.
 CAMÉRA · Plan rapproché frontal sur Sam.
-CADRE · SAM feuillette son carnet de terrain à deux mains, pansement visible, ton honnête, regard bas sur les pages puis relevé. Table à six objets premier plan flou (soc et fer déjà rangés, allumette encore là).
+CADRE · SAM feuillette son carnet de terrain à deux mains, pansement visible, ton honnête, regard bas sur les pages puis relevé. Table à sept objets premier plan flou (soc et fer déjà rangés, allumette encore là).
 INTERDITS · Lunettes pour lire, carnet de Naya à la place du sien.
 
 ***
@@ -417,7 +418,7 @@ INTERDITS · Insert d'objet, héraldique sur l'écu, lettrage.
 
 **Plan 35 — La liste continue · ANIMÉ, 22 s**
 
-**Texte dit (verrouillé)** : SAM (voix off) : « Donc la liste continue : la boussole — décrite en 1088, un siècle d'avance seulement, celle là —, le cardan, les écluses, le gouvernail... » ELIO (off) : « Et la vapeur ? » SAM (off) : « Déjà sortie de la liste. Bien essayé. »
+**Texte dit (verrouillé)** : SAM (voix off) : « Donc la liste continue : la boussole — décrite en 1088, un siècle d'avance seulement, celle là —, le système décimal — sans le zéro, lui, qui est indien —, le cardan, les écluses, le gouvernail... » ELIO (off) : « Et la vapeur ? » SAM (off) : « Déjà sortie de la liste. Bien essayé. »
 
 LIEU · Récit, montage en quatre vignettes techniques, fonds sobres.
 V1 · Une aiguille de boussole pivote et se fixe (gros plan plein cadre, cadran SANS caractères). V2 · Un cardan tourne, anneaux emboîtés, un brûleur reste horizontal (gros plan). V3 · Une écluse se remplit, une barque monte entre deux portes de bois (plan moyen). V4 · Un gouvernail d'étambot sous l'arrière d'une jonque, l'eau file (plan moyen sous la ligne de flottaison esquissée).
@@ -478,7 +479,7 @@ CAMÉRA · Plan rapproché sur Naya, depuis la droite de la table.
 CADRE · NAYA soufflée, redessine dans son carnet le principe : deux barges, cordes, bœuf — un CROQUIS enfantin SANS texte, en cours de tracé. Crayon en main droite.
 INTERDITS · Mots ou chiffres sur la page, schéma d'ingénieur.
 
-## Le vol — plans 41 à 48
+## Le vol — plans 41 à 49
 
 **Plan 41 — Le premier cerf volant · ANIMÉ, 20 s**
 
@@ -488,7 +489,7 @@ LIEU · Récit, colline venteuse, Vᵉ siècle avant notre ère, jour venté.
 CAMÉRA · Plan large en contre plongée depuis le bas de pente.
 CADRE · Trois artisans au sommet, de dos et de profil, font monter un GRAND OISEAU de bois et de soie au bout d'un fil ; l'oiseau occupe le tiers haut, le fil bien lisible entre les mains et le ciel ; herbes couchées par le vent.
 ACTION · L'oiseau prend le vent, plonge, se rattrape, monte ; le fil se tend.
-RACCORDS · La silhouette d'oiseau annonce le hibou des plans 44 à 47 et le cerf volant des plans 74 et 79.
+RACCORDS · La silhouette d'oiseau annonce le hibou des plans 44 à 47 et le cerf volant des plans 75 et 80.
 INTERDITS · Cerf volant losange moderne, enfant (ce sont des artisans), visage de face.
 
 ***
@@ -525,7 +526,7 @@ LIEU · Récit, Ye, 559, jour blafard.
 CAMÉRA · Plan large en contre plongée depuis le pied de la tour, puis plan moyen au sommet.
 CADRE · LA TOUR domine la ville minuscule ; au sommet, L'EMPEREUR GAO YANG, silhouette riche et raide, entouré de gardes ; on ATTACHE un prisonnier maigre et digne, YUAN HUANGTOU, à un IMMENSE HIBOU DE PAPIER aux ailes déployées, plus large que trois hommes ; cordes aux poignets et à la taille.
 ACTION · Les gardes serrent les liens, le vent soulève déjà le bord des ailes, Yuan Huangtou regarde droit devant, calme.
-RACCORDS · Le hibou est celui des plans 45 à 47 et de la surimpression du plan 74 ; sa silhouette doit rester identique.
+RACCORDS · Le hibou est celui des plans 45 à 47 et de la surimpression du plan 75 ; sa silhouette doit rester identique.
 INTERDITS · Sourire de l'empereur (raideur, pas cruauté grimaçante), foule en liesse, visage de garde lisible.
 
 ***
@@ -564,24 +565,37 @@ LIEU · Récit, fin du vol, trois micro plans enchaînés.
 T1 · Deux GARDES relèvent Yuan Huangtou sur la longue voie, sans brutalité, un de chaque côté (plan moyen).
 T2 · Une PORTE DE CACHOT en bois bardé se referme, barre posée, obscurité derrière (gros plan frontal).
 T3 · LE HIBOU DE PAPIER, abandonné, reste accroché de travers dans un arbre nu, une aile pliée (plan moyen, vent léger).
-RACCORDS · L'arbre au hibou est l'image mélancolique que la surimpression du plan 74 rappellera.
+RACCORDS · L'arbre au hibou est l'image mélancolique que la surimpression du plan 75 rappellera.
 INTERDITS · Violence explicite, sang, hibou détruit au sol.
 
 ***
 
-**Plan 48 — Le silence du cadre · FIXE, 14 s**
+**Plan 48 — Treize siècles et demi · FIXE, 19 s**
+
+**Texte dit (verrouillé)** : SAM (voix off) : « Treize siècles et demi plus tard, le 27 juin 1894, au camp de Pirbright, le cerf-volant de Baden-Powell soulève un homme à quinze mètres. Mais Lilienthal, lui, plane déjà sous ses ailes depuis 1891 : deux mille vols, jusqu'à sa chute en 1896. »
+
+LIEU · Récit, Angleterre et Allemagne, 1894 et 1891, deux images, ciels d'après-midi.
+V1 · Le camp de Pirbright : une plaine rase, quelques tentes ; LE LEVITOR, un train de grands cerfs-volants hexagonaux de toile claire, tient au bout d'un câble tendu ; sous le dernier, UN HOMME en uniforme est assis sur une simple planche à quinze mètres du sol, petit et net, des soldats au sol de dos tiennent le câble (plan large, légère contre plongée).
+V2 · Une colline d'herbe rase ; LILIENTHAL suspendu sous son planeur de toile et de saules, deux ailes tendues en éventail, jambes pendantes, au ras de la pente, chapeau sur la tête (plan moyen, de profil, ciel pâle derrière).
+ACTION · Zoom avant lent sur chaque image, dans l'ordre : l'homme suspendu, puis Lilienthal.
+RACCORDS · Ferme le chapitre du vol ouvert au plan 41 ; enchaîne sur le silence du cadre (plan 49). Le hibou de papier du plan 47 n'apparaît pas.
+INTERDITS · Avion à moteur, hélice, lettrage sur les toiles, visage lisible, cerf volant en forme d'animal.
+
+***
+
+**Plan 49 — Le silence du cadre · FIXE, 14 s**
 
 **Texte dit (verrouillé)** : NAYA : « Donc le premier vol humain... est une exécution. » SAM : « La chronique le raconte ainsi, et les historiens la citent. Gardez cette histoire en tête : elle pèsera dans la morale du jour. »
 
 LIEU · Pièce du cadre.
 CAMÉRA · Plan à deux depuis la place de Sam, cadrage du plan 14.
 CADRE · Silence : NAYA À GAUCHE a REFERMÉ son carnet, mains posées dessus ; ELIO À DROITE, tablette posée, regard bas. La table entre eux, six objets restants premier plan flou (carte, boussole, cerf volant, soie, billet, pétard).
-RACCORDS · Le poids de ce silence est rappelé par Sam : « elle pèsera dans la morale du jour » — écho au plan 74.
+RACCORDS · Le poids de ce silence est rappelé par Sam : « elle pèsera dans la morale du jour » — écho au plan 75.
 INTERDITS · Sourire, gel, tablette levée.
 
-## Le pont suspendu — plans 49 à 52
+## Le pont suspendu — plans 50 à 53
 
-**Plan 49 — Le pont de bambou · ANIMÉ, 22 s**
+**Plan 50 — Le pont de bambou · ANIMÉ, 22 s**
 
 **Texte dit (verrouillé)** : SAM (voix off) : « Franchir le vide, maintenant. Le pont suspendu vient bien de Chine : les câbles de bambou du Sichuan, décrits dès le Iᵉʳ siècle de notre ère. »
 
@@ -589,12 +603,12 @@ LIEU · Récit, gorge du Sichuan, Iᵉʳ siècle, jour, brume de fond de gorge.
 CAMÉRA · Plan large de trois quarts, la gorge traversant le cadre en diagonale.
 CADRE · UN PONT DE CÂBLES DE BAMBOU tendu en travers du vide, tablier de lattes ; DES PORTEURS chargés de ballots s'y engagent de GAUCHE à DROITE, le tablier ONDULE sous leurs pas ; parois abruptes, rivière fine tout en bas.
 ACTION · Ondulation du tablier au rythme des pas, balancement des ballots, brume qui monte.
-RACCORDS · Le gel du plan 52 opposera à ce pont un pont de chaînes de fer.
-INTERDITS · Chaînes métalliques ici, chute, corde qui casse (ça, c'est la question de Naya au plan 53).
+RACCORDS · Le gel du plan 53 opposera à ce pont un pont de chaînes de fer.
+INTERDITS · Chaînes métalliques ici, chute, corde qui casse (ça, c'est la question de Naya au plan 54).
 
 ***
 
-**Plan 50 — Ça ne tiendra jamais · FIXE, 14 s**
+**Plan 51 — Ça ne tiendra jamais · FIXE, 14 s**
 
 **Texte dit (verrouillé)** : LE BADAUD : « Ça ne tiendra jamais. Ça ne tiendra jamais, je te dis. » L'AUTRE : « Il est passé. » LE BADAUD : « ...C'est bien ce que je disais. »
 
@@ -606,7 +620,7 @@ INTERDITS · Bouches ouvertes, pont vide au fond.
 
 ***
 
-**Plan 51 — Cinq siècles ! · FIXE, 12 s**
+**Plan 52 — Cinq siècles ! · FIXE, 12 s**
 
 **Texte dit (verrouillé)** : SAM : « Deux mille ans avant l'Occident ! Et il lui faudra cinq siècles de plus pour l'égaler ! » ELIO : « Gel. »
 
@@ -617,7 +631,7 @@ INTERDITS · Sam debout complet, gel déjà déclenché.
 
 ***
 
-**Plan 52 — Gel des cinq siècles · FIXE, 17 s**
+**Plan 53 — Gel des cinq siècles · FIXE, 17 s**
 
 **Texte dit (verrouillé)** : ELIO : « Faux : premier pont de fer occidental en 1801, le pont de Menai en 1826. 25 ans, pas 500. » SAM : « Donc l'Occident rattrape parfois très vite. C'est aussi ça, l'histoire des techniques : des avances, des dégradés... et des sprints. »
 
@@ -627,9 +641,9 @@ INTERDITS · Pont suspendu à câbles d'acier XXᵉ, voitures, lettrage.
 
 # Acte III — Le verdict et la morale
 
-## Le parachute — plans 53 à 63
+## Le parachute — plans 54 à 64
 
-**Plan 53 — Et si la corde casse ? · FIXE, 12 s**
+**Plan 54 — Et si la corde casse ? · FIXE, 12 s**
 
 **Texte dit (verrouillé)** : NAYA : « Et si la corde casse ? » SAM : « Alors il faut apprendre à tomber sans mourir. Donc : notre morceau de soie. »
 
@@ -641,7 +655,7 @@ INTERDITS · Écran éteint, texte à l'écran.
 
 ***
 
-**Plan 54 — La légende de Shun · ANIMÉ, 22 s**
+**Plan 55 — La légende de Shun · ANIMÉ, 22 s**
 
 **Texte dit (verrouillé)** : SAM (voix off) : « La plus vieille histoire vient du Shiji : le souverain légendaire Shun échappe à un grenier en feu, accroché à deux chapeaux de paille. Ça s'est passé ainsi ? Rien ne le prouve : c'est une légende. Mais quelle légende ! »
 
@@ -654,19 +668,19 @@ INTERDITS · Cape de héros, flammes léchant le sauteur, atterrissage debout.
 
 ***
 
-**Plan 55 — Les pillards au butin · FIXE, 12 s**
+**Plan 56 — Les pillards au butin · FIXE, 12 s**
 
 **Texte dit (verrouillé)** : PILLARD 1 : « C'est moi qui saute avec le butin : je suis le plus léger. » PILLARD 2 : « Alors moi, je fais quoi ? »
 
 LIEU · Récit, Chine des Song, NUIT, toit d'une tour.
 CAMÉRA · Plan moyen sur le toit, ciel de nuit.
 CADRE · DEUX PILLARDS accroupis au faîte : LE PETIT À GAUCHE, sacs de butin en bandoulière, DEUX GRANDS PARASOLS à la main ; LE GRAND À DROITE, les mains vides, dépité. Bouches fermées sur la clé.
-RACCORDS · Le petit est celui qui saute au plan 56 ; les parasols et les sacs doivent se retrouver identiques.
+RACCORDS · Le petit est celui qui saute au plan 57 ; les parasols et les sacs doivent se retrouver identiques.
 INTERDITS · Bouches ouvertes, lune énorme, troisième homme.
 
 ***
 
-**Plan 56 — Le saut du pillard · ANIMÉ, 14 s**
+**Plan 57 — Le saut du pillard · ANIMÉ, 14 s**
 
 **Texte dit (verrouillé)** : — (muet, gag)
 
@@ -678,18 +692,18 @@ INTERDITS · Parasol retourné, chute manquée, garde alerté.
 
 ***
 
-**Plan 57 — Le vieux volume · FIXE, 12 s**
+**Plan 58 — Le vieux volume · FIXE, 12 s**
 
 **Texte dit (verrouillé)** : SAM : « Ensuite, un ambassadeur de France voit tout cela en Chine, et son récit file droit vers l'Europe. » ELIO : « Gel. Montre la page de titre. »
 
 LIEU · Pièce du cadre.
 CADRE · SAM très sûr de lui BRANDIT UN VIEUX VOLUME relié, couverture SANS titre lisible ; bord DROIT, tablette d'Elio levée en amorce.
-RACCORDS · Le volume est celui dont la page s'affiche au plan 58.
-INTERDITS · Titre lisible sur la couverture (le lettrage n'arrive qu'à l'insert monté du plan 58).
+RACCORDS · Le volume est celui dont la page s'affiche au plan 59.
+INTERDITS · Titre lisible sur la couverture (le lettrage n'arrive qu'à l'insert monté du plan 59).
 
 ***
 
-**Plan 58 — La page du Siam · FIXE, 18 s**
+**Plan 59 — La page du Siam · FIXE, 18 s**
 
 **Texte dit (verrouillé)** : NAYA (lisant) : « "Du royaume de Siam"... Siam ? Ce n'est pas la Chine ! » SAM : « Exact, je corrige : l'envoyé s'appelle La Loubère, et ses acrobates sautent à Ayutthaya. Donc l'idée a voyagé en Asie, mais la page qui traverse l'Europe vient du Siam. »
 
@@ -700,7 +714,7 @@ INTERDITS · Texte généré dans l'image, couleur (gravure monochrome).
 
 ***
 
-**Plan 59 — Lenormand · ANIMÉ, 20 s**
+**Plan 60 — Lenormand · ANIMÉ, 20 s**
 
 **Texte dit (verrouillé)** : SAM (voix off) : « Donc, en France, le jeune Lenormand essaie : d'abord d'un arbre, puis, en 1783, de la tour de l'observatoire — premier saut public attesté. En 1785, il forge le mot : parachute. »
 
@@ -708,24 +722,24 @@ LIEU · Récit, Montpellier, 1783, jour. Deux temps plus une chute d'image.
 T1 · LENORMAND, jeune, saute d'un ARBRE de jardin avec deux parasols, atterrit assis dans un POTAGER, choux écrasés (plan moyen, gag doux).
 T2 · Devant une petite FOULE, il descend LENTEMENT de la TOUR DE L'OBSERVATOIRE sous un GRAND CADRE RIGIDE tendu de toile, jambes pédalant un peu (plan large en contre plongée).
 T3 · Gros plan : UNE PLUME trace un mot neuf sur un papier — le geste d'écrire, la page inclinée, LE MOT ILLISIBLE à l'image (règle anti lettrage), c'est la voix off qui le dit : « parachute ».
-RACCORDS · Le cadre rigide du T2 est l'objet dont le plan 60 dit qu'il « ne s'emporte pas sous un ballon ».
+RACCORDS · Le cadre rigide du T2 est l'objet dont le plan 61 dit qu'il « ne s'emporte pas sous un ballon ».
 INTERDITS · Mot lisible sur le papier, parachute hémisphérique moderne au T2.
 
 ***
 
-**Plan 60 — Retour à la corde · ANIMÉ, 14 s**
+**Plan 61 — Retour à la corde · ANIMÉ, 14 s**
 
 **Texte dit (verrouillé)** : SAM (voix off) : « Mais son cadre rigide ne s'emporte pas sous un ballon. Donc nous revoilà en 1797, à la verticale du parc Monceau — sous un ballon à hydrogène, pas une montgolfière : vérifié. »
 
 LIEU · En vol au dessus du parc, 1797 : RACCORD EXACT avec le plan 5.
 CADRE · Même cadrage que le plan 5, même lame, même corde : cette fois la lame VA JUSQU'AU BOUT, la corde CÈDE, la nacelle DÉCROCHE d'un coup ; en bas, minuscule, la foule pousse UN SEUL cri (mouvement de foule, pas de son direct).
 ACTION · Sciage, rupture nette, chute amorcée, torons qui fouettent.
-RACCORDS · Reprend le plan 5 image pour image avant de le dépasser ; enchaîne sur l'intérieur de voilure du plan 61.
+RACCORDS · Reprend le plan 5 image pour image avant de le dépasser ; enchaîne sur l'intérieur de voilure du plan 62.
 INTERDITS · Nouveau cadrage, seconde main, ballon dans le champ après la rupture.
 
 ***
 
-**Plan 61 — La corolle · ANIMÉ, 10 s**
+**Plan 62 — La corolle · ANIMÉ, 10 s**
 
 **Texte dit (verrouillé)** : — (muet)
 
@@ -737,7 +751,7 @@ INTERDITS · Ciel de nuit, déchirure, motif sur la soie.
 
 ***
 
-**Plan 62 — La descente et le verdict · ANIMÉ, 28 s**
+**Plan 63 — La descente et le verdict · ANIMÉ, 28 s**
 
 **Texte dit (verrouillé)** : — (muet, musique)
 
@@ -746,12 +760,12 @@ T1 · LA DESCENTE BALANCE violemment de gauche à droite sous la corolle, Paris 
 T2 · La foule, VUE DE DOS au sol, retient son souffle, immobile (plan moyen).
 T3 · ATTERRISSAGE BRUTAL dans une allée : impact, ROULADE, la voilure le RECOUVRE entièrement (plan large au sol).
 T4 · Il ÉMERGE de la soie EN BOITANT, bras levés ; la foule EXPLOSE, chapeaux en l'air (plan large, la foule enfin de trois quarts, aucun visage détaillé).
-RACCORDS · L'allée du T3 est l'allée principale de la bible ; la boiterie prépare « il boite » du plan 63.
+RACCORDS · L'allée du T3 est l'allée principale de la bible ; la boiterie prépare « il boite » du plan 64.
 INTERDITS · Atterrissage debout, voilure qui disparaît, visage lisible dans la foule.
 
 ***
 
-**Plan 63 — Le pari payé · FIXE, 16 s**
+**Plan 64 — Le pari payé · FIXE, 16 s**
 
 **Texte dit (verrouillé)** : BADAUD 2 (tendant la main) : « Mes dix francs. » BADAUD 1 (payant) : « Il a coupé... et il marche. Enfin, il boite. » SAM (voix off) : « Une entorse pour tout dommage. Donc le verdict est rendu : on peut tomber du ciel et se relever. Deux objets rangés d'un coup. »
 
@@ -761,9 +775,9 @@ CADRE · LE MAIGRE À DROITE TEND LA MAIN, paume ouverte ; LE ROND À GAUCHE PAI
 RACCORDS · Mêmes badauds, mêmes places, mêmes costumes qu'au plan 2 : la boucle de l'ouverture se ferme.
 INTERDITS · Places inversées, manteau sarcelle, billets (des pièces, en 1797).
 
-## Le papier — plans 64 à 69
+## Le papier — plans 65 à 70
 
-**Plan 64 — Quatre objets · FIXE, 19 s**
+**Plan 65 — Quatre objets · FIXE, 19 s**
 
 **Texte dit (verrouillé)** : ELIO : « Quatre objets. » SAM : « Donc accélérons — la boussole est déjà vérifiée, elle rentre. Et presque tout le reste tient dans une feuille : la voilure de Garnerin est en soie, la soie coûte un champ... le support du pauvre, lui, va conquérir le monde. »
 
@@ -775,7 +789,7 @@ INTERDITS · Cinquième objet, soie ou cerf volant encore visibles.
 
 ***
 
-**Plan 65 — De l'argile au papier · ANIMÉ, 21 s**
+**Plan 66 — De l'argile au papier · ANIMÉ, 21 s**
 
 **Texte dit (verrouillé)** : SAM (voix off) : « L'écriture naît sur l'argile d'Uruk il y a cinq mille quatre cents ans, presque en même temps que les hiéroglyphes. Mais le papier est chinois : deux siècles avant notre ère — et en 105, un intendant nommé Cai Lun le perfectionne et le fait adopter par la cour. »
 
@@ -788,7 +802,7 @@ INTERDITS · Alphabet latin, caractères nets et lisibles (texture, pas écritur
 
 ***
 
-**Plan 66 — L'armure de papier · FIXE, 18 s**
+**Plan 67 — L'armure de papier · FIXE, 18 s**
 
 **Texte dit (verrouillé)** : LA SENTINELLE : « Trois flèches arrêtées, général, et mes épaules ne pèsent plus rien. » LE GÉNÉRAL : « Légère... et cent hommes armés pour le prix de dix. J'échange vos cuirasses contre les miennes. » SAM (voix off) : « L'armure de papier vaut surtout par son prix : le métal reste le métal. »
 
@@ -800,7 +814,7 @@ INTERDITS · Sang, flèche plantée dans la chair, caractères sur les feuilles.
 
 ***
 
-**Plan 67 — Les faux monnayeurs · FIXE, 14 s**
+**Plan 68 — Les faux monnayeurs · FIXE, 14 s**
 
 **Texte dit (verrouillé)** : COMPÈRE 1 : « Du simple papier ! On peut en faire autant qu'on veut. Riches, on va être riches. » SAM (voix off) : « Le vrai billet naît au Sichuan vers 1023. Mais la contrefaçon, elle, est punie de mort. »
 
@@ -812,7 +826,7 @@ INTERDITS · Billets aux motifs lisibles, patrouille qui les repère.
 
 ***
 
-**Plan 68 — Le Sutra et Bi Sheng · ANIMÉ, 22 s**
+**Plan 69 — Le Sutra et Bi Sheng · ANIMÉ, 22 s**
 
 **Texte dit (verrouillé)** : SAM (voix off) : « Donc le papier appelle l'imprimerie : en 868, le plus ancien livre imprimé complet qui nous soit parvenu ; vers 1045, Bi Sheng grave des caractères mobiles en terre cuite — des milliers, là où notre alphabet en demande 26. »
 
@@ -824,19 +838,19 @@ INTERDITS · Caractère assez gros pour être lisible, presse à vis (Gutenberg 
 
 ***
 
-**Plan 69 — Aucun miracle · FIXE, 23 s**
+**Plan 70 — Aucun miracle · FIXE, 23 s**
 
 **Texte dit (verrouillé)** : ELIO : « Et ensuite, l'imprimerie apparaît en Europe... comme par miracle ? » SAM : « Aucun miracle documenté : les historiens parlent d'inventions convergentes. Et entre les deux, un maillon coréen : le Jikji, imprimé en 1377, soixante ans avant Gutenberg — dont la presse est un système à part. La carte à jouer, elle, rentre au bercail. »
 
 LIEU · Pièce du cadre.
 CAMÉRA · Plan à deux : Elio à droite, Sam au centre fond, cadrage légèrement décalé droite.
 CADRE · ELIO, tablette POSÉE, sourcil levé, presque déçu que tout soit vrai ; SAM répond CARNET EN MAIN. INSERT enchaîné : LA CARTE À JOUER rejoint la sacoche.
-RACCORDS · Après l'insert reste UN objet : le pétard, seul sur la table — l'image du plan 72.
+RACCORDS · Après l'insert reste UN objet : le pétard, seul sur la table — l'image du plan 73.
 INTERDITS · Gel, tablette levée.
 
-## Les armes et la morale — plans 70 à 79
+## Les armes et la morale — plans 71 à 80
 
-**Plan 70 — Les alchimistes · ANIMÉ, 20 s**
+**Plan 71 — Les alchimistes · ANIMÉ, 20 s**
 
 **Texte dit (verrouillé)** : SAM (voix off) : « Mais tout n'est pas rose dans la sacoche. En cherchant un élixir de longue vie, les alchimistes trouvent la poudre : de quoi raccourcir celle des hommes. »
 
@@ -849,7 +863,7 @@ INTERDITS · Explosion destructrice, blessure, flamme verte fantaisiste.
 
 ***
 
-**Plan 71 — De la fête à la guerre · ANIMÉ, 20 s**
+**Plan 72 — De la fête à la guerre · ANIMÉ, 20 s**
 
 **Texte dit (verrouillé)** : SAM (voix off) : « Les fusées naissent pour la fête. Donc, fatalement, quelqu'un les tourne vers la guerre : lances de feu, canons, fusils. Encore quelques siècles, et tout cela atteindra l'Occident. »
 
@@ -861,7 +875,7 @@ INTERDITS · Sang, cadavre, drapeau identifiable, visage.
 
 ***
 
-**Plan 72 — Le dernier objet · FIXE, 12 s**
+**Plan 73 — Le dernier objet · FIXE, 12 s**
 
 **Texte dit (verrouillé)** : ELIO : « Il en reste un. » SAM : « Je sais. Ce dernier, je le range sans fierté. »
 
@@ -873,31 +887,31 @@ INTERDITS · Autre objet, main sur le pétard (pas encore).
 
 ***
 
-**Plan 73 — Rangé sans fierté · FIXE, 12 s**
+**Plan 74 — Rangé sans fierté · FIXE, 12 s**
 
 **Texte dit (verrouillé)** : SAM : « Le même peuple a inventé le semoir et le canon, le billet et la poudre. Donc l'invention ne choisit pas : c'est nous qui choisissons. »
 
 LIEU · Pièce du cadre.
-CAMÉRA · Même axe que le plan 72, à peine plus serré.
+CAMÉRA · Même axe que le plan 73, à peine plus serré.
 CADRE ET ACTION · SAM range LENTEMENT le pétard dans la sacoche (geste gauche vers droite, cadrage des inserts), puis REFERME LA SACOCHE À DEMI, le rabat posé sans boucler. Regard bas.
-RACCORDS · La sacoche à demi fermée reste ainsi jusqu'au plan 78, où Sam en sort le flacon.
+RACCORDS · La sacoche à demi fermée reste ainsi jusqu'au plan 79, où Sam en sort le flacon.
 INTERDITS · Sacoche bouclée, geste vif.
 
 ***
 
-**Plan 74 — Les deux images · ANIMÉ, 18 s**
+**Plan 75 — Les deux images · ANIMÉ, 18 s**
 
 **Texte dit (verrouillé)** : SAM (voix off) : « Le premier vol humain fut une exécution ; le même cerf volant fait rire nos parcs. Tout le chemin des inventions tient entre ces deux images. »
 
 LIEU · Surimpression, hors registre : le pont entre époque et présent.
 CADRE · En fondu superposé : LA SILHOUETTE du prince volant sous son hibou de papier, grise, plane à gauche ; UN CERF VOLANT D'ENFANT d'aujourd'hui, couleurs vives, monte à droite dans un parc ensoleillé, l'enfant de dos en bas du cadre.
 ACTION · Les deux vols glissent l'un vers l'autre sans se toucher ; la surimpression s'équilibre puis bascule côté présent.
-RACCORDS · Reprend la silhouette exacte du plan 45 T3 ; le cerf volant moderne annonce celui du plan 79.
+RACCORDS · Reprend la silhouette exacte du plan 45 T3 ; le cerf volant moderne annonce celui du plan 80.
 INTERDITS · Les deux images au même traitement (l'une grise, l'autre vive), visage de l'enfant.
 
 ***
 
-**Plan 75 — La page de Naya · FIXE, 12 s**
+**Plan 76 — La page de Naya · FIXE, 12 s**
 
 **Texte dit (verrouillé)** : NAYA (en écrivant) : « Regarder, voir, ça ne suffit pas. Il faut observer, comparer, déduire. C'est ça, la science. »
 
@@ -908,7 +922,7 @@ INTERDITS · Mots lisibles (règle anti lettrage), écriture d'adulte.
 
 ***
 
-**Plan 76 — La morale de Sam · FIXE, 12 s**
+**Plan 77 — La morale de Sam · FIXE, 12 s**
 
 **Texte dit (verrouillé)** : SAM : « Les inventions peuvent et doivent signifier progrès, et non pas agression. S'il le veut, l'homme saura être utile, bienfaisant, et parfois même génial. »
 
@@ -920,7 +934,7 @@ INTERDITS · Lunettes remontées (ancienne description), sourire large, geste.
 
 ***
 
-**Plan 77 — La table vide · FIXE, 12 s**
+**Plan 78 — La table vide · FIXE, 12 s**
 
 **Texte dit (verrouillé)** : ELIO : « La table est vide. Tu as gagné... grâce aux corrections. » SAM : « Donc nous avons gagné ensemble. Vérifier, ce n'est pas perdre : c'est ça, découvrir. »
 
@@ -932,26 +946,26 @@ INTERDITS · Objet oublié sur la table, tablette levée.
 
 ***
 
-**Plan 78 — Le flacon teaser · FIXE, 14 s**
+**Plan 79 — Le flacon teaser · FIXE, 14 s**
 
 **Texte dit (verrouillé)** : NAYA : « Et ça ? » SAM : « Un flacon qui a sauvé des millions de mères... mais ça, c'est pour la prochaine fois. »
 
 LIEU · Pièce du cadre.
 CAMÉRA · Plan à deux enfants cadrage du plan 14, Sam au centre.
 CADRE ET ACTION · SAM sort de la sacoche À DEMI FERMÉE un PETIT FLACON DE VERRE au liquide clair, le tient à hauteur des yeux ; NAYA (gauche) et ELIO (droite) SE PENCHENT D'UN MÊME MOUVEMENT vers le centre, symétriques.
-RACCORDS · Le flacon est le teaser de l'épisode suivant ; il RETOURNE dans la sacoche hors champ avant le plan 79.
+RACCORDS · Le flacon est le teaser de l'épisode suivant ; il RETOURNE dans la sacoche hors champ avant le plan 80.
 INTERDITS · Étiquette sur le flacon, liquide coloré.
 
 ***
 
-**Plan 79 — Le cerf volant du soir · ANIMÉ, 10 s**
+**Plan 80 — Le cerf volant du soir · ANIMÉ, 10 s**
 
 **Texte dit (verrouillé)** : — (muet, fin)
 
 LIEU · Pièce du cadre, dernier plan.
 CAMÉRA · Plan moyen bas, la table en premier plan.
 CADRE ET ACTION · LA SACOCHE FERMÉE, bouclée cette fois, seule sur la table nue, premier plan gauche ; PAR LA FENÊTRE bord DROIT, dans le ciel du soir orangé, UN CERF VOLANT monte lentement ; la pièce s'assombrit doucement ; FONDU au noir.
-RACCORDS · Le cerf volant est celui, vif, du plan 74 : dernier écho du premier vol. La sacoche bouclée clôt le jeu ouvert au plan 9.
+RACCORDS · Le cerf volant est celui, vif, du plan 75 : dernier écho du premier vol. La sacoche bouclée clôt le jeu ouvert au plan 9.
 INTERDITS · Personnage dans le cadre, lumière de plein jour, sacoche ouverte.
 
 ---

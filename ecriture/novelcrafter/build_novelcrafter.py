@@ -51,7 +51,7 @@ FIN_DECOUPAGE = "## Minutage récapitulatif"
 ACTES = [
     (1, "Acte I — L'épreuve et la règle du jeu"),
     (16, "Acte II — L'inventaire"),
-    (53, "Acte III — Le verdict et la morale"),
+    (54, "Acte III — Le verdict et la morale"),
 ]
 
 RE_SEQUENCE = re.compile(r"^### (.+)$")
@@ -175,7 +175,7 @@ def verifier(source: str, manuscrit: str, sequences: list[Sequence]) -> list[str
         anomalies.append(f"{nb_scenes} scènes produites pour {nb_plans} plans")
 
     numeros = [p.numero for s in sequences for p in s.plans]
-    if numeros != list(range(1, 80)):
+    if numeros != list(range(1, nb_plans + 1)):
         anomalies.append(f"la numérotation des plans n'est pas 1 à {nb_plans} dans l'ordre")
 
     for ligne in manuscrit.split("\n"):

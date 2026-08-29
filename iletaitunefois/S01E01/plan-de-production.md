@@ -116,6 +116,7 @@
 | D31 · Fourneaux d'alchimie | 71 | — |
 | D32 · Ciel de fête, champ de bataille | 72 | — |
 | D33 · Parc actuel ensoleillé (source du POST 75) | 75 | — |
+| D34 · Camp de Pirbright, 1894, et colline de Lilienthal, 1891 (deux vignettes) | 48 | — |
 
 ### Accessoires (objets manipulés, montrés en insert ou porteurs de continuité)
 

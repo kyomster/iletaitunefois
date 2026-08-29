@@ -1,0 +1,44 @@
+{
+  "_note": "Saisies humaines sur les faits de l'audit (clé = passe.numéro de la table « Corrections appliquées »). `periodes` : années astronomiques signées lues dans le texte de la correction, à valider en session VERIFICATION_FAITS. `plans` : plans du scénario révisé (80 plans) où le fait est cité — seuls les faits VERIFIE sont rattachés. `exclus` : lignes à ne pas importer, avec la raison.",
+  "exclus": {
+    "1.48": "Date « 27 janvier 1894 » issue d'un blog de brevets, source proscrite ; remplacée par la correction 2.55 (27 juin 1894).",
+    "1.1": "Remarque de cadrage sur l'inventaire de Needham/Temple, pas un fait ponctuel : reste en note de l'audit."
+  },
+  "periodes": {
+    "1.3": {"debut": 1712, "fin": 1712, "precision": "ANNEE", "libelle": "Newcomen, 1712"},
+    "1.5": {"debut": -475, "fin": -101, "precision": "SIECLE", "libelle": "Royaumes combattants puis Han (IIe s. av. n. è.)"},
+    "1.7": {"debut": 1977, "fin": 1977, "precision": "ANNEE", "libelle": "réfutation expérimentale de Spruytte, 1977"},
+    "1.8": {"debut": 401, "fin": 1200, "precision": "SIECLE", "libelle": "Ve siècle en Chine, IXe-XIIe en Europe"},
+    "1.9": {"debut": 302, "fin": 415, "precision": "ANNEE", "libelle": "étrier de Changsha (302), paire de Feng Sufu (415)"},
+    "1.10": {"debut": 567, "fin": 568, "precision": "ANNEE", "libelle": "installation des Avars, 567-568"},
+    "1.11": {"debut": 304, "fin": 304, "precision": "ANNEE", "libelle": "Nanfang caomu zhuang, 304"},
+    "1.12": {"debut": 549, "fin": 549, "precision": "ANNEE", "libelle": "siège de Taicheng, 549"},
+    "1.13": {"debut": 559, "fin": 559, "precision": "ANNEE", "libelle": "vol de Yuan Huangtou, 559"},
+    "1.14": {"debut": 65, "fin": 100, "precision": "ANNEE", "libelle": "Livre des Han antérieurs, rédigé entre 65 et 100"},
+    "1.15": {"debut": -2200, "fin": -2200, "precision": "MILLENAIRE", "libelle": "Shun, date traditionnelle vers 2200 av. n. è."},
+    "1.16": {"debut": 1797, "fin": 1797, "precision": "ANNEE", "libelle": "22 octobre 1797"},
+    "1.17": {"debut": -3400, "fin": -3200, "precision": "SIECLE", "libelle": "Uruk IV, vers 3400-3200 av. n. è."},
+    "1.18": {"debut": -176, "fin": 105, "precision": "ANNEE", "libelle": "Fangmatan (176-141 av. n. è.) à Cai Lun (105)"},
+    "1.19": {"debut": 859, "fin": 873, "precision": "ANNEE", "libelle": "règne de Tang Yizong"},
+    "1.20": {"debut": 1023, "fin": 1024, "precision": "ANNEE", "libelle": "jiaozi du Sichuan, 1023-1024"},
+    "1.21": {"debut": 868, "fin": 868, "precision": "ANNEE", "libelle": "11 mai 868"},
+    "1.22": {"debut": 1041, "fin": 1048, "precision": "ANNEE", "libelle": "Bi Sheng, 1041-1048"},
+    "1.23": {"debut": 1716, "fin": 1716, "precision": "ANNEE", "libelle": "dictionnaire de Kangxi, 1716"},
+    "1.44": {"debut": 1064, "fin": 1066, "precision": "ANNEE", "libelle": "renflouage de Huaibing, 1064-1066"},
+    "1.52": {"debut": 801, "fin": 873, "precision": "ANNEE", "libelle": "al-Kindī, vers 801-873"},
+    "1.53": {"debut": -475, "fin": -475, "precision": "DECENNIE", "libelle": "baguettes à calculer, vers 475 av. n. è."},
+    "2.53": {"debut": 1801, "fin": 1826, "precision": "ANNEE", "libelle": "Jacob's Creek 1801, Annonay 1822, Menai 1826"},
+    "2.55": {"debut": 1894, "fin": 1894, "precision": "ANNEE", "libelle": "27 juin 1894, Pirbright"},
+    "2.56": {"debut": 1891, "fin": 1896, "precision": "ANNEE", "libelle": "Lilienthal, vols de 1891 à sa mort en 1896"},
+    "2.57": {"debut": 1088, "fin": 1190, "precision": "ANNEE", "libelle": "Shen Kuo 1088 à Neckam vers 1190"},
+    "2.58": {"debut": 1377, "fin": 1377, "precision": "ANNEE", "libelle": "Jikji, 1377"}
+  },
+  "plans": {
+    "1.2": [12], "1.3": [35], "1.4": [19], "1.5": [21, 22, 23], "1.6": [24, 25], "1.7": [26, 27], "1.8": [28, 29],
+    "1.9": [30, 31], "1.10": [32, 33, 34], "1.11": [38], "1.12": [41, 42], "1.13": [43, 44, 45, 46, 47],
+    "1.14": [50, 51, 52, 53], "1.15": [54, 55], "1.16": [1, 2, 3, 4, 5, 6, 60, 61, 62, 63, 64],
+    "1.17": [65], "1.18": [65], "1.19": [67], "1.20": [68], "1.21": [69], "1.22": [69], "1.23": [69], "1.24": [70],
+    "1.44": [39], "1.52": [24, 25], "1.53": [35],
+    "2.52": [57, 58], "2.53": [52, 53], "2.55": [48], "2.56": [48], "2.57": [35], "2.58": [70], "2.59": [19]
+  }
+}

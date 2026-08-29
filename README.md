@@ -5,7 +5,7 @@ Ce dépôt contient tout ce qu'il faut pour créer une série animée générée
 ```
 ecriture/          la méthode d'écriture générique : fiche épisode → scénario → plan de production ; import Novelcrafter
 styles/            17 styles : STYLE.md, style.json (blocs verrouillés, copiés tels quels), exemples validés
-atelier/           GUIDE de préparation, METHODE d'images (42 règles), STRATEGIE vidéo (LTX-2.5), RUNPOD, scripts, moteurs écartés, spec studio
+atelier/           GUIDE de préparation, METHODE d'images (42 règles), STRATEGIE vidéo (LTX-2.5), RUNPOD, STUDIO (le serveur MCP), scripts, moteurs écartés, spec studio
 iletaitunefois/    la série : bible, troupe, S01E01 (scénario, plan de production, briques, planches, clés, audit, décisions)
 ```
 
@@ -17,6 +17,7 @@ iletaitunefois/    la série : bible, troupe, S01E01 (scénario, plan de product
 * **Fabriquer les images** : `atelier/METHODE-generation-images.md` d'abord ; les briques de l'épisode ensuite (modèle : `iletaitunefois/S01E01/prompts/briques_pilote.py`).
 * **Fabriquer la vidéo et le son** : `atelier/STRATEGIE-video.md`, puis `atelier/RUNPOD.md` pour le rendu.
 * **Continuer *Les Découvreurs*** : `iletaitunefois/README.md`.
+* **Travailler avec Studio**, le serveur MCP qui détient la vérité des séries depuis le 29 août 2026 : `atelier/STUDIO.md` — `get_context` avant d'agir, `next()` pour savoir quoi faire.
 
 ## Les trois règles qui coûtent le plus cher quand on les oublie
 
@@ -26,7 +27,7 @@ iletaitunefois/    la série : bible, troupe, S01E01 (scénario, plan de product
 
 ## Où vivent les choses
 
-Le dépôt est la **source et la destination de l'information validée** : tout ce qui est appris s'y écrit au moment où c'est acquis, dans le dossier générique (`ecriture/`, `styles/`, `atelier/`) ou dans celui de la série. Le répertoire de travail (`C:\Users\kyoms\Downloads\EpisodeModernise`) garde le brut, le suivi et les mp4. Les blocs de style, les briques et les gardes ne se reformulent jamais : ils se copient, et un prompt corrigé se réécrit en entier.
+Ce que Studio modélise (plans, répliques, faits, bible, apprentissages, styles, contrats, décisions) se corrige **dans Studio** ; le dépôt garde le reste — planches, clés, clips, graphes, scripts, corpus — et tout ce qui est appris s'y écrit au moment où c'est acquis, dans le dossier générique (`ecriture/`, `styles/`, `atelier/`) ou dans celui de la série. Le répertoire de travail (`C:\Users\kyoms\Downloads\EpisodeModernise`) garde le brut, le suivi et les mp4. Les blocs de style, les briques et les gardes ne se reformulent jamais : ils se copient, et un prompt corrigé se réécrit en entier.
 
 Nommage des images : `<Asset>_<Style>.png`, `Style` valant `StyleA` … `StyleP`. Le fichier au nom canonique est toujours la version validée la plus récente.
 

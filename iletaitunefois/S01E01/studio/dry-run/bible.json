@@ -1,0 +1,190 @@
+[
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "NARRATION",
+   "key": "serie.pitch",
+   "title": "La série en une phrase",
+   "body": "Un aventurier pose sur la table un ou plusieurs objets rapportés du terrain ; trois personnages reconstituent l'histoire qui les explique, en se disputant la version des faits, et le récit doit être prouvé pour être cru.\n\n**La thèse, retournée** : la série d'origine racontait « le génie que personne n'a cru » et pliait parfois les faits pour servir cette thèse. La version moderne applique l'épreuve publique au narrateur : le récit est contesté, vérifié, corrigé en direct. La devise du corpus reste la boussole :\n\n> « Regarder, voir ne suffit pas. Il faut observer, comparer, déduire. C'est cela la science. »",
+   "enforceable": false,
+   "affectsPrompt": true,
+   "severity": "ATTENTION",
+   "sourceRef": "iletaitunefois/serie/BIBLE-Les-Decouvreurs.md@b490f92#1"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "NARRATION",
+   "key": "gabarits",
+   "title": "Deux gabarits de structure — et comment choisir",
+   "body": "**Test de sélection** : la fiche épisode a un héros central identifiable → gabarit A. La fiche épisode est un catalogue de sujets (comme S01E01, « épisode inaugural et manifeste ») → gabarit B. Cas ambigu → demander avant d'écrire.\n\n### Gabarit A — l'épisode biographique (cas général)\n\n| Temps (sur 20 à 22 min) | Beat |\n|---|---|\n| 0:00 à 1:30 | **Ouverture froide : l'épreuve publique** du savant du jour. Coupe avant le verdict |\n| 1:30 à 3:00 | **Le cadre.** L'objet posé, la question décisive de Naya, l'objection d'Elio (impérativement avant 3:00) |\n| 3:00 à 6:00 | **La préhistoire du sujet** : trois à six précurseurs ratés, catalogue accéléré et largement muet |\n| 6:00 à 9:00 | **L'enfance et la vocation** : le conflit fondateur (un père, un maître, une institution) |\n| 9:00 à 16:00 | **Le travail** : essais, échecs, alliés, rivaux, comédie domestique. Cœur des séquences muettes |\n| 16:00 à 19:30 | **Retour à l'épreuve publique**, cette fois jusqu'au verdict |\n| 19:30 à 22:00 | **Postérité et chute en deux temps** : l'apport, puis le coût. Jamais triomphale |\n\nL'étage historique du gabarit A (généré par épisode, dialogues joués) : **le savant du jour** (faillible, jamais joué par un enfant du cercle), **le mentor** qui donne sans contrepartie (son dilemme est écrit), **le rival narrateur concurrent** (capitule avec élégance, jamais humilié), **l'institution et l'intime** (le non du début ; la comédie domestique).\n\n### Gabarit B — l'épisode inventaire ou manifeste\n\nLa colonne vertébrale est le découpage séquentiel de la fiche épisode, chapitre par chapitre. Trois liants obligatoires pour que l'inventaire tienne :\n\n1. **L'épreuve publique en boucle** : choisir dans le corpus de l'épisode la saynète la plus « procès public » (démonstration, pari, foule sceptique), l'ouvrir à froid coupée avant le verdict, et n'en donner le verdict qu'au chapitre correspondant.\n2. **Un fil d'objets** : Sam renverse sa sacoche — un objet par grand chapitre. Règle de jeu posée par Elio : un objet ne retourne dans la sacoche qu'une fois vérifié ; s'il en reste un à la fin, Sam a perdu. La table qui se vide rythme l'épisode et matérialise la vérification.\n3. **Des chapitres chaînés** : chaque chapitre s'enchaîne au précédent par une conséquence ou une opposition (chaîne mais/donc), jamais par simple juxtaposition.\n\nLes deux exceptions au découpage source qu'impose le dispositif : l'ouverture froide déplace l'épreuve publique en tête, et la morale reste en clôture.",
+   "enforceable": false,
+   "affectsPrompt": false,
+   "severity": "ATTENTION",
+   "sourceRef": "iletaitunefois/serie/BIBLE-Les-Decouvreurs.md@b490f92#2"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "NARRATION",
+   "key": "dispositif.verification",
+   "title": "Le dispositif de vérification",
+   "body": "* **Le gel d'Elio** : quand le récit embellit, Elio brandit sa tablette, l'image se fige en gris, Sam doit prouver ou corriger. **Trois à six gels par épisode**, réservés aux corrections lourdes de la fiche (celles qui changent une scène ou une thèse). Elio a souvent de bonnes raisons de douter ; l'épisode doit le convaincre, jamais le ridiculiser. Les gels sont des plans POST : fond figé et désaturé issu du plan précédent, Elio incrusté en couleurs.\n* **L'autocorrection de Sam** pour les corrections légères (dates, noms, chiffres) : il consulte son carnet, corrige, continue. Alterner gels et autocorrections pour éviter la mécanique.\n* **Le tic de méthode de Sam**, hérité du conteur d'origine, sur les récits invérifiables : « Belle histoire. Rien ne le prouve : c'est une légende. Mais quelle légende ! »\n* **Narration partagée et contestable** : Sam n'a pas le monopole. Le rival, l'intime, l'institution donnent leur version dans leurs propres répliques, et l'épisode tranche entre les versions. L'argument d'autorité perd toujours, y compris celui de Sam.\n* Une fois par saison, un épisode assume une **correction frontale du canon** (exemple prioritaire : Henri le Navigateur et la traite).",
+   "enforceable": false,
+   "affectsPrompt": false,
+   "severity": "ATTENTION",
+   "sourceRef": "iletaitunefois/serie/BIBLE-Les-Decouvreurs.md@b490f92#3"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "ECRITURE",
+   "key": "ecriture.regles-serie",
+   "title": "Règles d'écriture propres à la série",
+   "body": "1. **Chaîne mais/donc** et **zéro anachronisme de langage** : règles générales, `ecriture/METHODE-ecriture.md` §0.\n2. **Registres par zone** : cadre vif et joueur ; récit dominé par la voix off de Sam en conteur (il s'exclame, s'interrompt, se répond, perd le fil : « Où j'en étais, déjà ? ») ; saynètes en comédie par le bas — pillards, badauds, faux monnayeurs, paysans, cuisiniers — jamais de héros dans les gags.\n3. **La mort est montrée** quand elle fait partie de l'histoire, sobre et muette, sans adoucissement.\n4. **La chute est en deux temps** (l'apport, puis le coût) et la fin **jamais triomphale**. La morale du corpus peut être reprise verbatim : « Les inventions peuvent et doivent signifier progrès, et non pas agression. S'il le veut, l'homme saura être utile, bienfaisant, et parfois même génial. »\n5. **Teaser de fin** : Sam sort de sa sacoche l'objet du prochain épisode, une phrase, rideau.\n6. **Dix à quinze gags par épisode**, listés en fin de document.\n7. **Objection d'Elio avant 3:00.** Non négociable.",
+   "value": {
+    "secondes": 180
+   },
+   "enforceable": false,
+   "affectsPrompt": false,
+   "severity": "ATTENTION",
+   "sourceRef": "iletaitunefois/serie/BIBLE-Les-Decouvreurs.md@b490f92#4"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "PERSONNAGES",
+   "key": "cast.troupe",
+   "title": "Le cast",
+   "body": "**Trois récurrents, pas un de plus** : Sam (conteur aventurier, **sans barbe**, silhouette chapeau à large bord + veste sable + sacoche à étiquettes, et **aucune lunette, nulle part**), Naya (la question décisive, boucles + sweat bleu sarcelle + carnet), Elio (le contradicteur, casquette orange + tablette qui fige). Les enfants ont des doubles dans le récit (Naya : élève, apprentie ; Elio : le sceptique historique) ; Sam y descend en seconds rôles. L'entourage historique est généré par épisode, sans continuité de visage, avec ses propres dialogues joués. Palette : cadre saturé, Histoire désaturée, enfants du cercle en couleurs vives sur fond désaturé. Les couleurs réservées de la troupe ne dominent jamais un décor ni un personnage d'époque : **sable** pour Sam, **sarcelle vif** pour Naya, **orange vif** pour Elio.\n\nSam Bis (le chasseur de trésor contemporain de la fiche troupe) est une incarnation de Sam selon l'époque, pas un quatrième récurrent. La troupe d'origine du corpus (Maestro, Psy, Pierrot, Pierrette, Minus, le Teigneux, le Gros — `../fiches_verifie/_bible-personnages.md`) est remplacée ; sa règle de réincarnation n'est pas reprise. Le détail est dans `troupe-recurrente.md` ; les prompts de la troupe existent en styles A, B et C (`troupe-prompts-styles-ABC.md`, exemples dans `styles/*/exemples/troupe/`) et sont **à refaire en style P**.",
+   "enforceable": false,
+   "affectsPrompt": true,
+   "severity": "ERREUR",
+   "sourceRef": "iletaitunefois/serie/BIBLE-Les-Decouvreurs.md@b490f92#8"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "ECRITURE",
+   "key": "toujours-jamais",
+   "title": "Toujours / jamais",
+   "body": "**Toujours** : ouvrir à froid sur l'épreuve publique · un ou des objets sortis de la sacoche comme point de départ · une objection d'Elio avant 3:00 · couvrir toutes les séquences du découpage source · un allié qui donne sans contrepartie · 8 à 12 min de séquences muettes écrites comme des scènes · la mort montrée quand elle fait partie de l'histoire · une chute en deux temps, jamais triomphale · chaque affirmation chiffrée sourcée dans la fiche épisode · toutes les corrections de l'audit traitées.\n\n**Jamais** : un savant seul contre le monde sans allié ni maître · une découverte présentée comme un éclair de génie · un sceptique ridiculisé · une réussite sans épreuve publique · une fin qui célèbre sans réserve · un fait plié pour servir la thèse · un épisode inventaire réduit à un seul de ses sujets · un conflit de sources tranché en silence · un dialogue d'origine recopié.",
+   "enforceable": false,
+   "affectsPrompt": false,
+   "severity": "ERREUR",
+   "sourceRef": "iletaitunefois/serie/BIBLE-Les-Decouvreurs.md@b490f92#9"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "PRODUCTION",
+   "key": "production.contraintes-ia",
+   "title": "Contraintes de production IA",
+   "body": "1. Trois récurrents seulement ; chacun défini par trois marqueurs de silhouette et un objet totem, lisibles en ombre chinoise.\n2. Dialogues joués concentrés dans le cadre et dans de courtes saynètes ; récit dominé par la voix off de Sam et l'image muette.\n3. Personnages d'époque jetables : générés par épisode, liberté visuelle totale, aucune contrainte de continuité — sauf les paires et personnages à continuité, qui gardent leur fiche le temps de leurs plans.\n4. Palette bicolore structurelle : cadre saturé, Histoire désaturée.\n5. Dérivés : capsules verticales de 60 à 90 s découpées dans les séquences muettes ; jamais de version amputée du récit.\n6. **Voix et bouches** (décision du 23 août 2026, qui remplace l'ancien « pas de synchronisation labiale ») : sur les plans de dialogue, la voix et la bouche sont générées **avec l'image** par LTX-2.5, voix libres au timbre nommé dans le prompt ; les répliques se citent mot pour mot. Les enregistrements ElevenLabs des personnages restent la **référence de timbre**. Détail : `S01E01/son-et-voix.md` et `atelier/STRATEGIE-video.md`.",
+   "enforceable": false,
+   "affectsPrompt": true,
+   "severity": "ATTENTION",
+   "sourceRef": "iletaitunefois/serie/BIBLE-Les-Decouvreurs.md@b490f92#10"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "METHODE",
+   "key": "methode.0",
+   "title": "Hiérarchie des sources — LA règle avant toutes les autres",
+   "body": "1. **La fiche épisode dit QUOI raconter.** Son « Découpage séquentiel » est la **colonne vertébrale du scénario** : toutes ses séquences doivent être couvertes, dans le même ordre, aux seules exceptions qu'impose le dispositif de la série. Un épisode qui traite douze sujets donne un scénario qui traite douze sujets. **Ne jamais réduire un épisode inventaire à un seul de ses fils.**\n2. **La bible de la série dit COMMENT le raconter** : structure, dispositif, registres, toujours/jamais.\n3. **Les corrections de la fiche épisode sont la matière première des scènes de vérification.** Tout ce qui figure entre crochets *[l'épisode dit : ...]*, dans « Faits énoncés », « Réserves sur la source » et « Ce que l'on sait depuis » doit être traité : joué à l'écran ou explicitement noté hors périmètre en tête de scénario.\n4. **En cas de conflit entre les fiches, ne jamais trancher en silence** : signaler le conflit et proposer l'arbitrage.\n5. **Le pipeline complet tient en deux étapes** : Étape A, l'écriture — fiche épisode + bible + fiche personnages donnent le **scénario** (points 5 à 7). Étape B, la fabrication — le scénario donne le **plan de production** en six sections (point 11). Aucun autre document n'est requis.\n6. **Ne jamais reproduire les dialogues de l'épisode d'origine** quand la série adapte un corpus existant. Seuls les courts motifs déjà cités dans la fiche épisode (refrains, devise, morale) peuvent être repris tels quels ; tout le reste est réécrit dans l'esprit.\n\nDeux règles d'écriture valent pour toute série et se vérifient par script (point 7) :\n\n* **Chaîne mais/donc** : chaque étape du récit est reliée à la précédente par « mais » ou « donc », jamais par « et puis ». La chaîne est **explicitée et numérotée en tête de scénario**, avec renvoi aux numéros de plans.\n* **Zéro anachronisme de langage** dans les scènes d'époque : pas de mot, d'unité, d'objet ou de notion postérieurs à la scène jouée (exemple canonique : personne ne prononce « parachute » avant que Lenormand ne forge le mot en 1785).",
+   "enforceable": false,
+   "affectsPrompt": false,
+   "severity": "ATTENTION",
+   "sourceRef": "ecriture/METHODE-ecriture.md@b490f92#0"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "METHODE",
+   "key": "methode.5",
+   "title": "Calibrage chiffré (mesuré sur le corpus — à respecter, pas à estimer)",
+   "body": "| Paramètre | Valeur cible | Note |\n|---|---|---|\n| Durée utile hors générique | **20 à 22 min** (1 200 à 1 320 s) | Somme exacte des durées de plans, calculée |\n| Nombre de plans | **70 à 95** | Durée moyenne 12 à 18 s ; plans muets jusqu'à 30 s |\n| Débit de parole | **85 à 95 mots par minute** sur la durée totale | ~1 800 à 2 100 mots prononcés pour 20 min : une série de voix off et de silences, pas de bavardage |\n| Séquences muettes ou en voix off seule | **8 à 12 min** | Écrites comme des scènes, pas comme des transitions ; découpables en capsules verticales de 60 à 90 s |\n| Répartition | Cadre ~4 à 5 min, récit ~15 à 17 min | Le récit a ses décors, ses figurants et ses dialogues joués |\n| Part de la voix off du conteur | De l'ordre des deux tiers des répliques | Fidèle au déséquilibre du corpus d'origine |\n\nLes seuils propres à une série (objection avant 3:00, nombre de gels…) sont dans sa bible.",
+   "enforceable": false,
+   "affectsPrompt": false,
+   "severity": "ATTENTION",
+   "sourceRef": "ecriture/METHODE-ecriture.md@b490f92#5"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "METHODE",
+   "key": "methode.5bis",
+   "title": "Contraintes de fabrication — à respecter dès l'écriture",
+   "body": "Le scénario doit sortir directement exécutable par la chaîne de génération. Ces règles s'appliquent au moment d'écrire le tableau de plans, pas après coup.\n\n**Trois types de plans** :\n* **FIXE** : une image clé générée ; peut porter un **mouvement de caméra de montage** (panoramique lent, zoom avant lent, zoom arrière lent, travelling latéral — préciser le sens) ; un plan de montage basculé en FIXE peut enchaîner plusieurs images fixes (une génération par vignette).\n* **ANIMÉ** : un rendu vidéo. **Dix secondes maximum par bloc** : tout plan ANIMÉ plus long est découpé dès l'écriture en blocs a, b, c de 8 à 10 secondes, chacun avec sa propre description, chaque bloc démarrant sur la dernière image du précédent ; le texte dit reste attaché au plan entier et se cale au montage.\n* **POST** : effet fabriqué au montage, jamais généré — désaturation, figement, surimpression, fondu, carton de titre ou de texte, raccord exact réutilisant un fichier déjà rendu. Chaque plan POST indique sa source (image ou clip à générer, ou fichier réutilisé) et le traitement à appliquer.\n\n**Ratio économique** : **40 pour cent maximum de la durée totale en ANIMÉ**, mesuré au script. Réserver l'ANIMÉ aux plans dont le mouvement fait le sens : une lame qui tranche, une voilure qui s'ouvre, un vol, une chute, une course, une crue, un gag dont la chute est un mouvement, un plan muet porté par l'image. Écrire en FIXE avec mouvement de caméra : les réactions et contemplations sans déplacement, les inserts et détails d'objets, les montages de vignettes, les états et décors d'établissement.\n\n**Registre par plan** : CADRE, ÉPOQUE ou MIXTE (gels, surimpressions, cartons). Le registre détermine laquelle des formules de style de la fiche personnages s'applique, octet pour octet.\n\n**Écriture des descriptions visuelles** : chaque plan référence un décor nommé et des personnages nommés ; varier tailles et angles ; ne pas rouvrir chaque séquence sur le même plan large ; ne jamais mélanger deux registres dans un même plan (un insert du cadre au milieu d'une saynète d'époque se fabrique au montage et se signale) ; **mots bannis partout** : « enfant », « kid », « childlike », mentions d'âge (remplacer par la stature et les proportions) ; aucun nom de studio, de marque ou d'œuvre existante.\n\n**La chaîne physique de chaque scène et qui fait quoi** s'écrivent avant le découpage (guide de préparation §1) : où est chacun, ce qui relie quoi à quoi, à qui s'adresse chaque ordre. Une action dont l'objet n'est pas nommé ne se dessine pas ; une scène dont la chaîne physique n'est pas écrite se contredit d'un plan à l'autre.\n\n**Inventaire des éléments de continuité** : tout élément qui doit être **identique d'un plan à l'autre** — objet manipulé, véhicule, machine, animal, vêtement remarquable — se relève au moment d'écrire le tableau de plans, se liste dans le roster avec ses plans, **et reçoit une planche de référence** réinjectée sur chacun de ces plans, exactement comme un décor ou un personnage. Une description recopiée ne tient pas la continuité : seule une image réinjectée la tient (RÈGLE 36 de la méthode d'images). Un élément listé en continuité sans planche est un défaut de préparation, pas un détail de fabrication.\n\n**Règle du livrable complet** : quand un protocole aval liste des sections de sortie (diagnostic, formules, roster, tableau, prompts, alertes...), le document rendu les contient **toutes, rédigées**. Un renvoi vers une autre fiche ne vaut pas livrable ; toute section reportée est une décision explicite, consignée en ALERTES, jamais silencieuse.\n\n**Compte des générations** : la chaîne est image vers vidéo. **Chaque bloc ANIMÉ consomme une image de départ** générée avec le même mécanisme de cohérence. Total d'images clés = plans FIXE + vignettes des montages + sources POST + une image de départ par bloc ANIMÉ.\n\n**Plan d'ouverture** : le tout premier plan de l'épisode est toujours ANIMÉ. Jamais un mouvement de caméra sur image fixe en ouverture : il annoncerait un diaporama.\n\n**Livraison par étapes** : tout livrable de prompts commence par la première séquence seulement (pilote de format), soumise à validation avant de produire le reste.\n\n**Zone verrouillée pour l'étape de production** : le texte dit (mot pour mot, ponctuation comprise), la chaîne mais/donc, les faits vérifiés, les gags, la durée totale et le minutage, l'ordre et la numérotation des plans, les fiches personnages. Toute contrainte technique qui exigerait d'y toucher se signale en ALERTES et se laisse à l'arbitrage humain : le scénario gagne toujours.\n\n**Sur les plans de dialogue**, depuis le pilote : la voix et la bouche sont générées **dans le même rendu** que l'image (moteur omni-modal, `atelier/STRATEGIE-video.md`). Le scénario écrit donc chaque réplique pour être **citée mot pour mot dans le prompt vidéo** ; une réplique qui ne tient pas en huit à dix secondes de clip se coupe dès l'écriture.",
+   "value": {
+    "secondes": 10
+   },
+   "enforceable": false,
+   "affectsPrompt": true,
+   "severity": "ERREUR",
+   "sourceRef": "ecriture/METHODE-ecriture.md@b490f92#5-bis"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "METHODE",
+   "key": "methode.6",
+   "title": "Format de sortie obligatoire du scénario",
+   "body": "Un fichier Markdown contenant, dans cet ordre :\n\n1. **Titre et paramètres** (durée calculée, format).\n2. **Parti pris** : gabarit choisi et pourquoi, liants retenus, tout conflit de sources signalé.\n3. **Corrections du canon appliquées** : liste des corrections de la fiche épisode et où chacune est jouée ; celles laissées hors périmètre, avec raison.\n4. **Chaîne narrative** numérotée en mais/donc avec renvois aux plans.\n5. **Légende** FIXE/ANIMÉ et rappel des identifiants personnages.\n6. **Le tableau de plans**, un seul tableau, une ligne par plan (et par bloc pour les plans ANIMÉ découpés), huit colonnes exactement : **N° | Bloc | Durée (s) | Registre | Type | Description visuelle (une phrase) | Mouvement caméra | Texte dit** (locuteur en capitales, « — (muet, musique) » pour les plans muets, texte porté par le plan entier et non par ses blocs). Type = FIXE, ANIMÉ ou POST ; Registre = CADRE, ÉPOQUE ou MIXTE ; la colonne Bloc reste vide hors découpage ; la colonne Mouvement caméra porte le mouvement de montage des plans FIXE concernés et la source des plans POST.\n7. **Minutage récapitulatif** par séquence (plans, timecodes calculés, chapitre du découpage source correspondant), total exact, et **liste des gags**.",
+   "enforceable": false,
+   "affectsPrompt": false,
+   "severity": "ATTENTION",
+   "sourceRef": "ecriture/METHODE-ecriture.md@b490f92#6"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "METHODE",
+   "key": "methode.7",
+   "title": "Vérifications obligatoires avant livraison (par script, jamais à l'estime)",
+   "body": "* Somme exacte des durées et recalcul des timecodes du récapitulatif.\n* Décompte des mots prononcés et débit en mots/min, comparé à la cible 85 à 95.\n* Part du muet et de la voix off seule (cible 8 à 12 min).\n* Zéro « et puis » entre les étapes ; chaîne mais/donc complète.\n* Les seuils de la bible de la série (objection avant 3:00…).\n* Liste de contrôle : chaque séquence du découpage source est couverte ; chaque correction entre crochets est traitée ou déclarée hors périmètre.\n* Aucun dialogue repris verbatim de l'épisode d'origine (hors motifs autorisés).\n* Ratio ANIMÉ inférieur ou égal à 40 pour cent de la durée totale.\n* Aucun bloc ANIMÉ au delà de 10 secondes ; la somme des blocs égale la durée du plan.\n* Chaque plan POST indique sa source et son traitement ; chaque plan FIXE basculé porte son mouvement de caméra.\n* Mots bannis absents des descriptions ; aucun nom de marque, de studio ou d'œuvre.\n* Toutes les sections exigées par le protocole aval sont présentes et rédigées dans le livrable (aucun renvoi).\n* Le compte d'images inclut une image de départ par bloc ANIMÉ.\n* Le premier plan de l'épisode est ANIMÉ.",
+   "enforceable": false,
+   "affectsPrompt": false,
+   "severity": "ERREUR",
+   "sourceRef": "ecriture/METHODE-ecriture.md@b490f92#7"
+  }
+ },
+ {
+  "outil": "upsert_bible_entry",
+  "args": {
+   "show": "il-etait-une-fois",
+   "category": "METHODE",
+   "key": "methode.11",
+   "title": "Du scénario au plan de production",
+   "body": "Rôle : directeur technique de production. **On convertit, on ne réécrit pas** : la zone verrouillée du point 5 bis s'applique intégralement. Règle de dernier recours : en cas de conflit entre le scénario et une contrainte technique, **le scénario gagne** ; le conflit se signale en ALERTES et l'humain tranche.\n\n### Le livrable — six sections, dans cet ordre, toutes rédigées\n\n1. **Diagnostic.** Ratio ANIMÉ avant et après correction ; plans basculés ; plans découpés et blocs résultants ; plans reclassés POST ; nombre de générations vidéo (**une par bloc ANIMÉ**) et d'images clés (**plans FIXE + vignettes des montages basculés + sources POST + une image de départ par bloc ANIMÉ**) ; estimation de coût.\n2. **Les formules de style**, recopiées **dans le livrable même**, octet pour octet — un renvoi ne vaut pas livrable. Depuis la bibliothèque de styles, c'est le `style.json` du style retenu.\n3. **Le roster d'assets** : quatre listes sans doublon, déduites des descriptions visuelles. Personnages récurrents avec les vues nécessaires ; personnages d'époque avec le nombre de plans où chacun apparaît (**fiche à partir de trois plans** ; en deçà, génération à la volée — mais toute paire ou tout personnage à continuité garde sa référence le temps de ses plans) ; décors avec la liste des plans rattachés (**signaler plus de deux plans consécutifs sur le même décor**) ; accessoires avec les objets de continuité, **chacun assorti de sa description canonique complète, de sa planche de référence et de la liste des plans où il se réinjecte** — un nom commun n'est pas une description : nom, forme, structure, matière, couleurs nommées en positif, échelle par rapport au corps humain, et ce que l'objet n'a pas (RÈGLES 38 et 42). Chaque personnage à fiche reçoit sa **phrase figée**, copiée telle quelle dans les prompts.\n4. **Le tableau révisé** à huit colonnes (point 6), après application des quatre corrections : rééquilibrage sous 40 pour cent selon les critères du point 5 bis ; découpage de tout ANIMÉ en blocs de 10 s maximum avec description propre et continuité ; reclassement POST avec source et traitement ; mouvement de caméra sur chaque FIXE basculé.\n5. **Les prompts** — livrés par étapes : **la première séquence seule d'abord** (pilote de format), le reste après validation humaine. Un prompt d'image par plan et par bloc ; un prompt de mouvement par bloc ANIMÉ. Les gabarits exécutables sont ceux de l'atelier : `assembler_prompts.py` (image clé : Scene / Framing / Decor / Characters / Props, blocs identité substitués, clauses, `Avoid:`) et `assembler_clips.py` (mouvement : une seule action continue, caméra nommée, présence, garde des objets, répliques citées). Contraintes sur tous les prompts : sept références d'image maximum par appel, dans l'ordre décor, personnages, accessoires ; varier taille et angle à chaque coupe interne ; le plan par dessus l'épaule exige un personnage nommé visible au premier plan et reste interdit sur un plan d'objet ou de décor vide ; ne pas rouvrir chaque séquence sur le même plan large ; mots bannis et interdiction des noms de studio, marque ou œuvre.\n6. **Alertes.** Tout ce qui a été repéré et volontairement laissé en l'état parce que le corriger toucherait la zone verrouillée — un point par ligne, avec numéro de plan et raison. Y consigner aussi toute section reportée, tout arbitrage à valider sur le pilote, et toute mutualisation d'assets décidée (portraits de gel, inserts réutilisables).\n\n### Vérifications avant de rendre le plan de production\n\nEn plus de celles du point 7 : texte dit intact à la ponctuation près ; durée totale et minutage inchangés ; chaque bloc ANIMÉ de 10 s ou moins et somme des blocs égale à la durée du plan ; ratio ANIMÉ sous 40 pour cent ; premier plan ANIMÉ ; chaque FIXE basculé avec son mouvement ; chaque POST avec sa source ; chaque plan référençant un décor et des personnages du roster ; formules identiques octet pour octet dans tous les prompts d'un même registre ; aucun mot banni, aucune marque ; **les six sections présentes et rédigées**. Si une case ne peut pas être cochée : corriger d'abord, ne pas rendre.\n\nEnsuite, avant la première image : `atelier/GUIDE-preparation-episode.md`.",
+   "enforceable": false,
+   "affectsPrompt": true,
+   "severity": "ATTENTION",
+   "sourceRef": "ecriture/METHODE-ecriture.md@b490f92#11"
+  }
+ }
+]
