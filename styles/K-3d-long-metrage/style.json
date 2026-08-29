@@ -1,0 +1,21 @@
+{
+ "code": "StyleK",
+ "lettre": "K",
+ "nom": "3D de long métrage, registre adulte",
+ "dossier": "K-3d-long-metrage",
+ "famille": "3D stylisée, proportions crédibles",
+ "variante_identite": "JK",
+ "retenu_pour": [],
+ "scene": "stylized 3D feature animation, high end computer animated film look, believable human proportions with only a light touch of caricature in the features, soft subsurface skin with fine texture and no plastic sheen, individually groomed hair, real cloth simulation with visible weave and wear, naturalistic cinematography with motivated light and long lens compression, restrained desaturated colour grade, shallow depth of field, subtle volumetric atmosphere, an adult dramatic register rather than a comic one, stylized and not photographic, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate 1797 Directoire France, authentic period costume in muted earth tones with real fabric weave and wear, period architecture and props,",
+ "negative": "photograph, live action, real actors, broad cartoon caricature, chibi proportions, oversized head, rubbery squash and stretch, plastic sheen, waxy face, uncanny, saturated candy colours, 2D drawing, cel shading, anime, manga, modern buildings, glass towers, letterbox bars, black bars, extra characters.",
+ "lumiere": {
+  "JOUR": "soft overcast daylight,",
+  "TENSION": "hard directional key light with deep shadow across two thirds of every volume, desaturated grade pulled to cold grey and near black, high contrast, tight framing, no warm bounce light,"
+ },
+ "clip": "stylized 3D feature animation, restrained desaturated grade, long lens, shallow depth of field, 16:9 frame:",
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

@@ -1,0 +1,18 @@
+{
+ "code": "StyleDb",
+ "lettre": "Db",
+ "nom": "Anime affûté (D sans grain ni aérographe)",
+ "dossier": "Db-anime-affute",
+ "famille": "anime, ombre à bord dur",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "2D anime illustration, contemporary cinematic anime style, crisp thin dark ink linework with confident weight variation, cel shaded characters with ONE hard edged shadow shape and one bright highlight, no airbrush softness anywhere, clean skin with strong colour separation, adult realistic body proportions and grounded facial features, sharp expressive eyes with a crisp specular highlight, graphic painted background with crisp edges and clearly separated planes, strong directional light, deep contrast with rich blacks, one saturated accent colour carried by the lighting only, shallow depth of field, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate historical setting, costumes in muted earth tones, period architecture and props,",
+ "negative": "soft airbrush gradient, blended shading, film grain, hazy atmosphere, washed out pastel palette, muted low contrast, watercolour wash, flat vector art, thick uniform black outline, chibi proportions, oversized anime eyes on adult characters, moe face, photorealism, photograph, 3D render, CGI, live action, extra characters.",
+ "lumiere": null,
+ "clip": null,
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

@@ -1,0 +1,21 @@
+{
+ "code": "StyleJ",
+ "lettre": "J",
+ "nom": "Cinéma réaliste 35 mm",
+ "dossier": "J-cinema-realiste",
+ "famille": "photoréaliste, prise de vue réelle",
+ "variante_identite": "JK",
+ "retenu_pour": [],
+ "scene": "live action cinema look, photographed on 35mm film, naturalistic period drama cinematography, real actors in accurate historical costume, motivated practical lighting with deep natural falloff, shallow depth of field with creamy bokeh, fine organic film grain, subtle halation on the highlights, desaturated filmic colour grade with rich blacks and warm skin tones, photorealistic, the image fills the entire 16:9 frame edge to edge, no black bars, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate 1797 Directoire France, authentic period costume, real fabrics with wear and dirt, period architecture and props photographed on location,",
+ "negative": "illustration, drawing, painting, cartoon, anime, manga, 3D render, CGI, video game, painterly, cel shading, ink outlines, plastic skin, waxy face, over sharpened, HDR, deformed hands, extra fingers, modern buildings, glass towers, letterbox bars, black bars, extra characters.",
+ "lumiere": {
+  "JOUR": "soft overcast daylight,",
+  "TENSION": "hard directional key light with deep shadow across two thirds of the frame, desaturated grade pulled to cold grey and near black, high contrast, tight framing, long lens compression,"
+ },
+ "clip": "live action 35mm period film, naturalistic cinematography, shallow depth of field, film grain, no black bars, 16:9 frame:",
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

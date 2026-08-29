@@ -1,0 +1,18 @@
+{
+ "code": "StyleH",
+ "lettre": "H",
+ "nom": "2D imprimé moderne",
+ "dossier": "H-2d-imprime-moderne",
+ "famille": "trames, texture d'impression, lumière colorée",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "stylized 2D animation with a modern printed comic energy, confident brush inked linework of varying weight, painted colour with visible dry brush and canvas texture, halftone dot screens inside the shadows, a subtle chromatic offset along the edges as if the print were slightly misregistered, bold saturated palette with strong complementary rim lights in magenta and cyan against warm mid tones, dynamic diagonal staging with forced perspective, dramatic depth of field, graphic energy over realism, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate historical setting, period costume and architecture kept accurate but pushed graphic and high contrast, muted earth tones in the fabrics with the saturated colour carried entirely by the light,",
+ "negative": "flat vector art, clean digital gradients, smooth airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, cute mascot design, muddy colours, low contrast, extra characters.",
+ "lumiere": null,
+ "clip": null,
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

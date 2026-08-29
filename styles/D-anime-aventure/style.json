@@ -1,0 +1,21 @@
+{
+ "code": "StyleD",
+ "lettre": "D",
+ "nom": "Anime d'aventure moderne",
+ "dossier": "D-anime-aventure",
+ "famille": "anime cinématographique, ombrage adouci",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "2D anime illustration, modern cinematic adventure anime style, clean thin dark brown ink linework with subtle weight variation, cel shaded characters with a soft airbrush gradient blending each shadow into its base tone, warm natural skin with a faint blush on the cheeks, adult realistic body proportions and grounded facial features, expressive eyes with a single specular highlight, hand painted background with atmospheric depth and aerial perspective, volumetric light, shallow depth of field with the background softly out of focus, fine film grain, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate historical setting, costumes in muted earth tones, period architecture and props,",
+ "negative": "flat vector art, thick uniform black outline, corporate flat design, chibi proportions, super deformed, oversized anime eyes on adult characters, moe face, photorealism, photograph, 3D render, CGI, live action, extra characters.",
+ "lumiere": {
+  "JOUR": "soft diffused key light, gentle contrast, clear readable midtones, luminous but restrained greens,",
+  "TENSION": "hard directional key light, a single hard edged cast shadow shape across each face, palette pulled to warm amber or to near black, strong contrast, glowing rim light along the silhouette,"
+ },
+ "clip": "2D anime animation, thin dark brown linework, soft cel shading, hand painted background, shallow depth of field, film grain, limited animation, 16:9 frame:",
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

@@ -1,0 +1,18 @@
+{
+ "code": "StyleC",
+ "lettre": "C",
+ "nom": "Cel animation années 90",
+ "dossier": "C-cel-annees-90",
+ "famille": "cel deux tons, contour pinceau",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period characters with the palette shifted to muted earth tones while keeping deep teal shadows, era accurate costumes, background layout in the same crisp graphic style and less detailed than the characters, crisp and graphic not painterly, 16:9 frame:",
+ "personnage": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, warm saturated palette of amber ochre and burnt orange with deep teal blue shadows, crisp and graphic not painterly, on a plain flat light warm background:",
+ "personnage_epoque": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period character with the palette shifted to muted earth tones while keeping deep teal shadows, era accurate costume, crisp and graphic not painterly, on a plain flat light warm background:",
+ "epoque": "era accurate historical setting, palette shifted toward muted earth tones while keeping deep teal shadows,",
+ "negative": "gradient shading, soft shading, airbrush, painterly, rendered highlights, digital painting, muddy colors, cold blue palette, violet palette, purple palette, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters.",
+ "lumiere": null,
+ "clip": "hand drawn 2D cel animation, crisp ink outlines, flat two tone cel shading, amber and teal palette, limited animation, 16:9 frame:",
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

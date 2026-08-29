@@ -1,0 +1,20 @@
+{
+ "code": "StyleG",
+ "lettre": "G",
+ "nom": "3D cartoon à formes rondes",
+ "dossier": "G-3d-cartoon-rond",
+ "famille": "3D, long métrage familial",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "stylized 3D cartoon animation, feature animation look, appealing rounded character design built from soft bouncy volumes with no sharp angles anywhere, large expressive eyes, generous head on a compact body, smooth clean surfaces with a soft matte finish, gentle rim light and warm bounce light, rich saturated colour, shallow depth of field, cinematic lighting with soft shadows, polished and playful, absolutely not photorealistic, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate historical setting, costumes simplified into big readable shapes in muted earth tones, period architecture rounded and slightly caricatured,",
+ "negative": "angular faceted character design, squared jaw, sharp cheekbones, hard edged planes, photorealism, photograph, live action, realistic human proportions, realistic skin pores, uncanny face, video game screenshot, 2D drawing, flat cel shading, anime, manga, extra characters.",
+ "lumiere": {
+  "TENSION": "hard directional key light, deep shadow on two thirds of every volume, desaturated palette pulled to cold grey and near black, high contrast, tight framing, no warm bounce light"
+ },
+ "clip": null,
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

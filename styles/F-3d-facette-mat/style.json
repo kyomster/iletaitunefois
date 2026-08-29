@@ -1,0 +1,18 @@
+{
+ "code": "StyleF",
+ "lettre": "F",
+ "nom": "3D stylisé facetté mat",
+ "dossier": "F-3d-facette-mat",
+ "famille": "3D, marionnette",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "stylized 3D computer animation, characters carved from angular faceted planes with a strong squared jaw and sharp cheekbones, matte non reflective surfaces everywhere, visible woven cloth texture and hand painted texture on every material, skin rendered as matte painted surface with a slight dry brush grain and no specular sheen, cinematic three point lighting with soft shadows, moderate depth of field, physically staged sets with real volume and fine dust in the air, deliberately non photorealistic, the look of an animated puppet rather than a person, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate historical setting, muted earth toned costumes with visible fabric weave, period architecture built as real volumes with weathered surfaces,",
+ "negative": "photorealism, photograph, live action, realistic human skin, subsurface scattering, glossy specular highlights, plastic sheen, wax figure, uncanny realistic face, video game screenshot, 2D drawing, flat cel shading, anime, manga, extra characters.",
+ "lumiere": null,
+ "clip": null,
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

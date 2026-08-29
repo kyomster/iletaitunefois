@@ -1,0 +1,18 @@
+{
+ "code": "StyleE",
+ "lettre": "E",
+ "nom": "2D graphique angulaire",
+ "dossier": "E-2d-graphique-angulaire",
+ "famille": "aplats sans contour, formes anguleuses",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "hand drawn 2D animation in a bold graphic poster style, strongly angular geometric character design built from sharp straight edged planes and decisive silhouettes, faces reduced to a few deliberate shapes with minimal interior detail, no outline on most colour areas and a thin dark accent line only where two shapes must be separated, flat colour fills with one hard edged shadow shape and no blending, dramatic high contrast lighting, restrained palette of three or four colours in the whole image, wide horizontal staging with large areas of empty space, background painted in flat gouache washes with visible dry brush texture, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate historical setting, restrained palette of dusty ochre, stone grey and deep ink blue, period architecture reduced to flat geometric masses,",
+ "negative": "thick uniform outline around every shape, rounded soft character design, gradient shading, soft shading, airbrush, painterly rendering, cluttered background, busy small detail, many colours, photorealism, photograph, 3D render, CGI, live action, anime, manga, extra characters.",
+ "lumiere": null,
+ "clip": null,
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

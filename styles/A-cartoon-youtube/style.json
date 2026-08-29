@@ -1,0 +1,18 @@
+{
+ "code": "StyleA",
+ "lettre": "A",
+ "nom": "Cartoon YouTube",
+ "dossier": "A-cartoon-youtube",
+ "famille": "aplats, contour épais",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading with a single hard edged shadow tone, historical period characters in desaturated muted earth tones, era accurate costumes, simplified geometric background shapes less detailed than the characters, single flat shadow tone on the background too, absolutely no photorealism, 16:9 frame:",
+ "personnage": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, bright saturated colors, flat cel shading with a single hard edged shadow tone, absolutely no photorealism, on a plain flat light grey background:",
+ "personnage_epoque": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading with a single hard edged shadow tone, historical period character in desaturated muted earth tones, era accurate costume, absolutely no photorealism, on a plain flat light grey background:",
+ "epoque": "historical period setting in desaturated muted earth tones, dusty beige, stone grey, earth brown, softened contrast, era accurate architecture and props,",
+ "negative": "gradient shading, soft shading, airbrush, painterly, thin delicate linework, photorealism, photograph, realistic skin texture, 3D render, CGI, live action, anime style, manga, corporate flat vector art, extra characters.",
+ "lumiere": null,
+ "clip": "flat 2D cartoon animation, bold clean outlines, flat cel shading, muted earth tones, limited animation, 16:9 frame:",
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

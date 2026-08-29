@@ -1,0 +1,18 @@
+{
+ "code": "StyleM",
+ "lettre": "M",
+ "nom": "2D de série moderne à lumière numérique",
+ "dossier": "M-2d-lumiere-numerique",
+ "famille": "aplats, contre-jour coloré",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "2D animated series look, modern streaming animation, flat graphic character drawing with clean confident linework and simple decorative shapes, flat colour fills with ONE crisp shadow shape, but lit digitally: coloured rim light along the silhouettes, tinted shadows, soft glow around light sources, decorative flat background shapes in layered planes, confident limited palette, everything drawn and coloured cleanly with no surface texture of any kind, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate historical setting, costumes in muted earth tones, period architecture and props,",
+ "negative": "paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, thick uniform black outline, extra characters.",
+ "lumiere": null,
+ "clip": null,
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

@@ -1,0 +1,18 @@
+{
+ "code": "StyleL",
+ "lettre": "L",
+ "nom": "Peinture animée hybride",
+ "dossier": "L-peinture-animee",
+ "famille": "3D finie à la peinture visible",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "hybrid painted animation, three dimensional staged forms finished with visible hand painted brush texture on every surface, thick expressive paint strokes catching the light, bold graphic silhouettes, desaturated smoky base palette pierced by one or two saturated accent colours carried by the lighting only, hard rim light along the silhouettes, deep shadow, cinematic wide staging with strong depth, subtle canvas grain in the paint, painterly and deliberate, never a clean digital gradient, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate 1797 Directoire France, period costume in muted earth tones with worn fabric, period architecture and props,",
+ "negative": "clean digital gradients, smooth airbrush, flat vector art, cel shading with uniform fills, photorealism, photograph, live action, video game screenshot, chibi proportions, cute mascot design, muddy colours, low contrast, anime, manga, extra characters.",
+ "lumiere": null,
+ "clip": null,
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

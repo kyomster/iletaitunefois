@@ -1,0 +1,18 @@
+{
+ "code": "StyleO",
+ "lettre": "O",
+ "nom": "3D à ombrage toon dur",
+ "dossier": "O-3d-toon-dur",
+ "famille": "3D, cel shading deux tons, contour net",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "3D animated feature look with hard toon shading, sculpted volumes rendered with crisp two step cel shading and a clean dark contour line, appealing stylised character design with believable proportions, deliberate graphic silhouettes, strong key light and a coloured bounce, deep saturated shadow, clean matte surfaces with no photographic texture, staged like a modern animated feature with clear depth, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate 1797 Directoire France, period costume in muted earth tones with visible fabric weave, period architecture and props,",
+ "negative": "paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, soft airbrush gradient, photorealism, photograph, live action, realistic skin pores, video game screenshot, chibi proportions, extra characters.",
+ "lumiere": null,
+ "clip": null,
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

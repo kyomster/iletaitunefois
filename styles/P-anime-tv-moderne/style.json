@@ -1,0 +1,20 @@
+{
+ "code": "StyleP",
+ "lettre": "P",
+ "nom": "Anime TV moderne",
+ "dossier": "P-anime-tv-moderne",
+ "famille": "aplats à deux ou trois tons, contour constant, compositing de lumière",
+ "variante_identite": "P",
+ "retenu_pour": [
+  "iletaitunefois"
+ ],
+ "scene": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate historical setting, costumes in muted earth tones, period architecture and props,",
+ "negative": "paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters.",
+ "lumiere": null,
+ "clip": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones.",
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

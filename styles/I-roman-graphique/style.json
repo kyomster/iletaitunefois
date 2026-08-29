@@ -1,0 +1,18 @@
+{
+ "code": "StyleI",
+ "lettre": "I",
+ "nom": "Roman graphique européen",
+ "dossier": "I-roman-graphique",
+ "famille": "ligne claire, gouache, grain de papier",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "hand drawn 2D illustration in a European graphic novel manner, restrained clear line drawing with an even thin ink contour, colour laid in flat gouache with visible paper grain and slight brush irregularity, naturalistic adult proportions and understated faces without any cartoon exaggeration, muted sophisticated palette of ochre, slate, olive and faded brick, quiet even lighting with soft ambient shadow rather than dramatic contrast, calm horizontal composition with generous air, restrained and literary rather than spectacular, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate historical setting, carefully observed period costume and architecture, documentary accuracy in the detail,",
+ "negative": "cartoon exaggeration, oversized eyes, chibi proportions, thick uneven outline, glossy digital rendering, airbrush, neon colours, oversaturation, dramatic rim light, photorealism, photograph, 3D render, CGI, live action, anime, manga, extra characters.",
+ "lumiere": null,
+ "clip": null,
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}

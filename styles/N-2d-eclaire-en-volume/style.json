@@ -1,0 +1,18 @@
+{
+ "code": "StyleN",
+ "lettre": "N",
+ "nom": "Dessin 2D éclairé en volume",
+ "dossier": "N-2d-eclaire-en-volume",
+ "famille": "2D plat, passe de lumière volumétrique",
+ "variante_identite": "AC",
+ "retenu_pour": [],
+ "scene": "hand drawn 2D characters lit in three dimensions, feature animation technique: flat drawn characters with clean ink lines and flat colour, over which a full volumetric lighting pass is applied — soft cast shadows wrapping the forms, warm bounce light, specular sheen on cloth and leather, believable falloff into darkness, painted background with real depth and aerial perspective, the drawing stays a drawing while the light behaves like cinema light, smooth clean surfaces, 16:9 frame:",
+ "personnage": null,
+ "personnage_epoque": null,
+ "epoque": "era accurate historical setting, costumes in muted earth tones, period architecture and props,",
+ "negative": "paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, flat unlit look, photorealism, photograph, live action, video game screenshot, chibi proportions, thick uniform black outline, extra characters.",
+ "lumiere": null,
+ "clip": null,
+ "neg_epoque": "dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing",
+ "neg_universelle": "text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin"
+}
