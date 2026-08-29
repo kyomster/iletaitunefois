@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Vérifie le manuscrit narratif docs/novelcrafter/S01E01-prose-novelcrafter.md.
+Vérifie le manuscrit narratif iletaitunefois/S01E01/novelcrafter/S01E01-prose-novelcrafter.md.
 
 Ce manuscrit est ÉCRIT, pas généré : aucun script ne peut le refabriquer. Il
 n'existe donc qu'un seul filet de sécurité, celui ci. À lancer après toute
@@ -15,7 +15,7 @@ CE QU'IL CONTRÔLE
   6. aucun tiret court, règle typographique de la maison ;
   7. la longueur des scènes, pour repérer un creux.
 
-  python docs/scripts/verifier_prose_novelcrafter.py
+  python ecriture/novelcrafter/verifier_prose_novelcrafter.py
 """
 
 from __future__ import annotations
@@ -26,8 +26,8 @@ import sys
 from pathlib import Path
 
 RACINE = Path(__file__).resolve().parents[2]
-SCENARIO = RACINE / "docs" / "S01E01-scenario.md"
-PROSE = RACINE / "docs" / "novelcrafter" / "S01E01-prose-novelcrafter.md"
+SCENARIO = RACINE / "iletaitunefois" / "S01E01" / "scenario.md"
+PROSE = RACINE / "iletaitunefois" / "S01E01" / "novelcrafter" / "S01E01-prose-novelcrafter.md"
 
 MOTS_BANNIS = [
     "plan", "cadre", "hors cadre", "raccord", "contrechamp", "caméra",

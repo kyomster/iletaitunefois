@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Convertit docs/S01E01-scenario.md en un manuscrit importable dans Novelcrafter.
+Convertit iletaitunefois/S01E01/scenario.md en un manuscrit importable dans Novelcrafter.
 
 CE QUE NOVELCRAFTER SAIT LIRE, et rien d'autre :
   * titre de niveau 1  -> un ACTE
@@ -26,8 +26,8 @@ lisible dans la carte de scene de la vue Plan.
 ZONE VERROUILLEE. Le texte dit n'est jamais reformate ni reindente : le
 script le recopie a l'octet pres et verifie l'empreinte a la sortie.
 
-  python docs/scripts/build_novelcrafter.py
-  python docs/scripts/build_novelcrafter.py --verifier
+  python ecriture/novelcrafter/build_novelcrafter.py
+  python ecriture/novelcrafter/build_novelcrafter.py --verifier
 """
 
 from __future__ import annotations
@@ -38,8 +38,8 @@ import sys
 from pathlib import Path
 
 RACINE = Path(__file__).resolve().parents[2]
-SOURCE = RACINE / "docs" / "S01E01-scenario.md"
-SORTIE = RACINE / "docs" / "novelcrafter" / "S01E01-manuscrit-novelcrafter.md"
+SOURCE = RACINE / "iletaitunefois" / "S01E01" / "scenario.md"
+SORTIE = RACINE / "iletaitunefois" / "S01E01" / "novelcrafter" / "S01E01-manuscrit-novelcrafter.md"
 
 DEBUT_DECOUPAGE = "## Découpage détaillé"
 FIN_DECOUPAGE = "## Minutage récapitulatif"

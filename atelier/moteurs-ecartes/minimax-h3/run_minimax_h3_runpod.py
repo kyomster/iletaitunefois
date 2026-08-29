@@ -18,8 +18,8 @@ import os
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
-from run_clips_runpod import http, upload_image, _set_job_id  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+from comfy_client import http, upload_image, _set_job_id  # noqa: E402
 
 M = {"i2v": "minimax_h3_fl2va_pruned_int8_convrot.safetensors", "r2v": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
      "clip": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors", "vae": "minimax_h3_video_vae_fp16.safetensors", "avae": "minimax_h3_audio_vae_fp32.safetensors",

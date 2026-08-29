@@ -6,7 +6,7 @@
 >
 > **Mouvements de caméra complétés, 22 août 2026.** Les 36 plans FIXE dont la colonne portait un tiret ont reçu leur mouvement de montage, sens précisé, conformément au point 5 bis de la bible. Aucun plan FIXE n'est plus sans mouvement.
 >
-> **Chaîne de rendu, 22 août 2026.** Le rendu vidéo passe hors de Higgsfield, sur ComfyUI hébergé chez RunPod. Les prompts de mouvement de la section 5 ci dessous sont écrits pour un moteur produisant des coupes internes et **sont périmés** : le gabarit de remplacement, un clip continu par coupe, est au point 6 de `PIPELINE-video-et-voix.md`. Les images clés restent sur Nano Banana Pro.
+> **Chaîne de rendu, 22 août 2026.** Le rendu vidéo passe hors de Higgsfield, sur ComfyUI hébergé chez RunPod. Les prompts de mouvement de la section 5 ci dessous sont écrits pour un moteur produisant des coupes internes et **sont périmés** : le gabarit de remplacement, un clip continu par coupe, est au point 6 de `atelier/STRATEGIE-video.md`. Les images clés restent sur Nano Banana Pro.
 
 
 
@@ -24,7 +24,7 @@
 | Plans basculés ANIMÉ vers FIXE (avec mouvement de caméra) | — | **11** : plans 12, 16, 19, 26, 35, 36, 44, 46, 47, 65, 68 (le plan 1, d'abord basculé, est repassé en ANIMÉ : voir ALERTES) |
 | Plans reclassés POST | — | **8** : plans 6, 15, 25, 27, 34, 52, 60, 74 (dont 2 venus d'ANIMÉ : 60 et 74) |
 | Plans ANIMÉ découpés | — | **21 plans en 51 blocs**, tous de 10 s ou moins |
-| Générations vidéo | ~37 rendus dont certains de 20 à 32 s (hors capacité des modèles) | **54 blocs de 6 à 10 s**, réexplosés en **189 clips de 2,5 s** par la chaîne ComfyUI, voir `PIPELINE-video-et-voix.md` |
+| Générations vidéo | ~37 rendus dont certains de 20 à 32 s (hors capacité des modèles) | **54 blocs de 6 à 10 s**, réexplosés en **189 clips de 2,5 s** par la chaîne ComfyUI, voir `atelier/STRATEGIE-video.md` |
 | Générations image | — | **~118 images clés** : 47 plans FIXE, 11 vignettes supplémentaires des montages basculés, ~6 images sources des plans POST, et **54 images de départ, une par bloc ANIMÉ** (la chaîne est image vers vidéo : chaque rendu vidéo part d'une image clé générée avec le même mécanisme de cohérence) |
 | Estimation de coût | vidéo dominante et irréaliste (blocs trop longs) | 54 rendus vidéo de 6 à 10 s et ~118 images clés ; la vidéo reste le poste dominant, réduite d'environ un tiers ; plus aucun appel au delà de 10 s |
 
@@ -125,7 +125,7 @@
 | Les neuf objets : pétard, carte à jouer, boussole, cerf volant de poche, carré de soie, allumette, billet ancien, petit soc, fer d'attelage | Continuité majeure : la table se vide objet par objet (plans 9, 23, 29, 34, 37, 63, 64, 67, 69, 72, 73) |
 | Insert mutualisé « main et sacoche » | Une seule image, objet interchangeable, réutilisée à chaque retour d'objet |
 | Tablette d'Elio ; carnet de Naya ; carnet de terrain de Sam | Permanents |
-| Ballon, nacelle, couteau, parachute replié puis voilure ouverte | Plans 1 à 6, 60 à 63 — descriptions canoniques en `prompts/S01E01-assets-prompts-v3.4.md` §7 ; le parachute est **gréé entre le ballon et la nacelle**, jamais posé au plancher |
+| Ballon, nacelle, couteau, parachute replié puis voilure ouverte | Plans 1 à 6, 60 à 63 — descriptions canoniques en `iletaitunefois/S01E01/prompts/assets-et-objets.md` §7 ; le parachute est **gréé entre le ballon et la nacelle**, jamais posé au plancher |
 | Hibou de papier | Plans 44, 45, 47 : même objet, continuité stricte |
 | Parasols et sacs des pillards | 55, 56 |
 | Semoir à trois rangs et soc de fonte | 21, 22 |
@@ -458,7 +458,7 @@ Traitement : figement de l'image ; incrustation du carton titre « LES DÉCOUVRE
 
 * **Arbitrage du plan 8 rendu le 22 août 2026** : la réplique devient « ...regardez ma sacoche : de la glace ! ». Les plans 8a et 8b sont débloqués.
 * **Durées révisées et mouvements de caméra complétés le 22 août 2026**, voir les notes en tête de document.
-* **Section 5 périmée** : gabarit de mouvement remplacé, voir `PIPELINE-video-et-voix.md`.
+* **Section 5 périmée** : gabarit de mouvement remplacé, voir `atelier/STRATEGIE-video.md`.
 
 * **Plan 1 repassé en ANIMÉ** (blocs 1a et 1b de 9 s) : première image de la série, un panoramique sur image fixe y annoncerait un diaporama. **Compensation : le plan 47 est basculé en FIXE** (2 images, zoom avant lent) — ses blocs de 7 s étaient déjà sous la fourchette, et le plan décrit un état final, la captivité, plus qu'une action ; la fermeture de la porte se lit très bien en deux images. Ratio final : 476 s soit 38,9 pour cent.
 * **Plan 26 : arbitrage à valider sur le pilote.** Un attelage censé tirer, figé avec un simple travelling, risque de se voir. Laissé en FIXE ; à tester en priorité, et à repasser en ANIMÉ (2 blocs de 9 s) si le rendu trahit l'immobilité.

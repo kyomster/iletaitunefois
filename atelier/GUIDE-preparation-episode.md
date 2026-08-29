@@ -2,7 +2,7 @@
 
 Écrit le 27 août 2026, à la demande de Guillaume : « fais en sorte que tous ces soucis n'existent pas dans les épisodes suivants, consigne toutes les informations et guide ».
 
-Ce guide rassemble, dans l'ordre où on s'en sert, ce que le pilote de S01E01 a coûté à apprendre. Chaque point renvoie à la règle qui le fonde dans `METHODE-generation-images.md` et porte la preuve qui l'a produit. **Il se déroule avant de générer la première image d'un épisode**, pas après.
+Ce guide rassemble, dans l'ordre où on s'en sert, ce que le pilote de S01E01 a coûté à apprendre. Chaque point renvoie à la règle qui le fonde dans `atelier/METHODE-generation-images.md` et porte la preuve qui l'a produit. **Il se déroule avant de générer la première image d'un épisode**, pas après.
 
 Les six défauts du pilote, et ce qui les aurait tous évités :
 
@@ -68,7 +68,7 @@ Un asset se décrit en **sept points**, dans le dépôt, avant la première gén
 
 **Ne jamais retirer le nom pour contrôler l'état.** Le parachute avait été réécrit en `folded bundle of undyed cream coloured raw silk` pour nommer les couleurs en positif : le modèle a dessiné du linge plié, parce que plus rien ne lui disait ce que c'était. **Le nom porte la fonction et la structure, l'adjectif porte l'état** : on écrit `the folded parachute, closed and bound like a furled umbrella`, jamais une périphrase qui cache le nom.
 
-Toutes les descriptions de S01E01 sont dans `prompts/S01E01-assets-prompts-v3.4.md` §7, chacune avec un statut : **validé**, **à générer**, **à arbitrer**.
+Toutes les descriptions de S01E01 sont dans `iletaitunefois/S01E01/prompts/assets-et-objets.md` §7, chacune avec un statut : **validé**, **à générer**, **à arbitrer**.
 
 ---
 
@@ -98,13 +98,13 @@ RÈGLE 41 : une règle qui ne dépend que de l'attention sera oubliée. Ces clau
 
 | Garde | Ce qu'elle empêche | Où |
 |---|---|---|
-| `Nobody new enters the frame` | un figurant qui surgit dans un plan vide | `build_clips_pilote.py`, ligne de présence |
-| `Every object visible is already present in the first frame` | un second chapeau, un objet qui se matérialise | `build_clips_pilote.py`, `CLAUSE_OBJETS` |
-| `ONE single … only, exactly the one shown in the reference` | un deuxième ballon, une deuxième nacelle | `build_prompts_pilote.py`, clauses d'objet |
-| citation exacte des répliques entre guillemets | un dialogue en charabia inventé | prompts vidéo, `STRATEGIE-generation-videos.md` §6 |
+| `Nobody new enters the frame` | un figurant qui surgit dans un plan vide | `assembler_clips.py`, ligne de présence |
+| `Every object visible is already present in the first frame` | un second chapeau, un objet qui se matérialise | `assembler_clips.py`, `CLAUSE_OBJETS` |
+| `ONE single … only, exactly the one shown in the reference` | un deuxième ballon, une deuxième nacelle | `assembler_prompts.py`, clauses d'objet |
+| citation exacte des répliques entre guillemets | un dialogue en charabia inventé | prompts vidéo, `atelier/STRATEGIE-video.md` §6 |
 | négative anti aplat noir sur les styles à aplats | des visages de foule remplis de noir | `NEG_FOULE` variante P |
 
-**Toute règle posée dans un script est aussi écrite en clair dans le dépôt**, avec le numéro de règle cité en commentaire (RÈGLE 41), et le tableau de correspondance est tenu à jour dans `METHODE-generation-images.md`.
+**Toute règle posée dans un script est aussi écrite en clair dans le dépôt**, avec le numéro de règle cité en commentaire (RÈGLE 41), et le tableau de correspondance est tenu à jour dans `atelier/METHODE-generation-images.md`.
 
 ---
 
@@ -148,4 +148,4 @@ RÈGLE 41 : une règle qui ne dépend que de l'attention sera oubliée. Ces clau
 
 ## §8. Où vivent les règles
 
-`METHODE-generation-images.md` porte les 42 règles numérotées et leurs corollaires, chacune avec sa preuve. `STRATEGIE-generation-videos.md` porte la chaîne vidéo et les règles de prompt de mouvement. `BIBLE-modernisation-v5.1.md` porte ce qui contraint l'écriture dès le scénario. `S01E01-logique-ouverture-froide.md` est le modèle de ce que §1 demande pour une séquence d'action. Ce guide est la porte d'entrée : il ne remplace aucun des quatre, il dit dans quel ordre s'en servir.
+`atelier/METHODE-generation-images.md` porte les 42 règles numérotées et leurs corollaires, chacune avec sa preuve. `atelier/STRATEGIE-video.md` porte la chaîne vidéo et les règles de prompt de mouvement. `ecriture/METHODE-ecriture.md` et `iletaitunefois/serie/BIBLE-Les-Decouvreurs.md` porte ce qui contraint l'écriture dès le scénario. `iletaitunefois/S01E01/logique-ouverture-froide.md` est le modèle de ce que §1 demande pour une séquence d'action. Ce guide est la porte d'entrée : il ne remplace aucun des quatre, il dit dans quel ordre s'en servir.

@@ -20,7 +20,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from run_clips_runpod import http, upload_image, _set_job_id  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "moteurs-ecartes" / "ltx23"))
+from comfy_client import http, upload_image, _set_job_id  # noqa: E402
 from run_ltx25_runpod import api_prompt_ltx25  # noqa: E402
 from run_ltx23_runpod import api_prompt_ltx, CKPT  # noqa: E402
 

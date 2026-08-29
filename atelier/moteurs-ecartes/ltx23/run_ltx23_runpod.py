@@ -18,8 +18,8 @@ import os
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
-from run_clips_runpod import http, upload_image, _set_job_id  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+from comfy_client import http, upload_image, _set_job_id  # noqa: E402
 
 CKPT = "ltx-2.3-22b-dev-fp8.safetensors"
 LORA = "ltx_2.3_22b_distilled_1.1_lora_dynamic_fro09_avg_rank_111_bf16.safetensors"

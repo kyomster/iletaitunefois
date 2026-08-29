@@ -18,8 +18,8 @@ import json
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
-from run_clips_runpod import http, upload_image, _set_job_id  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+from comfy_client import http, upload_image, _set_job_id  # noqa: E402
 
 M = {"wan": "Wan2_1-I2V-14B-720P_fp8_e4m3fn.safetensors", "infinitetalk": "Wan2_1-InfiniteTalk-Multi_fp16.safetensors",
      "t5": "umt5-xxl-enc-fp8_e4m3fn.safetensors", "vae": "Wan2_1_VAE_bf16.safetensors", "clip_vision": "clip_vision_h.safetensors",

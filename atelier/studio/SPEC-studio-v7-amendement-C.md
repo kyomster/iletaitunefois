@@ -7,7 +7,7 @@ Rédigé le 26 août 2026.
 
 Motif : la v7 et ses deux amendements modélisent très bien un scénario, ses faits, sa prose et ses voix. Ils modélisent mal ce qui produit réellement les images et les clips. Cet amendement corrige ce déséquilibre à partir de ce que la chaîne fait sur S01E01, où quatre moteurs vidéo ont été essayés, six montages de pilote produits et trente six règles de méthode d'images écrites.
 
-Source des constats : `docs/SPEC-studio-v7-ecarts-avec-notre-process.md`.
+Source des constats : `SPEC-studio-v7-ecarts.md`.
 
 | Écart constaté | Traité en |
 |---|---|

@@ -1,4 +1,6 @@
-# Importer S01E01 dans Novelcrafter
+# Importer un épisode dans Novelcrafter
+
+Mode d'emploi générique, écrit sur S01E01 des *Découvreurs* (les manuscrits sont dans `iletaitunefois/S01E01/novelcrafter/`).
 
 **25 août 2026.**
 
@@ -19,8 +21,8 @@ Les autres fichiers :
 |---|---|
 | `S01E01-codex-novelcrafter.md` | Ne s'importe pas. 19 entrées de Codex prêtes à coller à la main. |
 | `CHARTE-prose-S01E01.md` | La voix du roman, en sept sections. À relire avant d'écrire une scène. |
-| `../scripts/build_novelcrafter.py` | Régénère le manuscrit **technique** depuis le scénario. |
-| `../scripts/verifier_prose_novelcrafter.py` | Contrôle le manuscrit **narratif**. |
+| `build_novelcrafter.py` | Régénère le manuscrit **technique** depuis le scénario. |
+| `verifier_prose_novelcrafter.py` | Contrôle le manuscrit **narratif**. |
 
 ---
 
@@ -75,7 +77,7 @@ Chaque scène s'ouvre sur son **titre en gras**, court, sans le mot plan ni num�
 **Le roman est écrit, pas généré.** Aucun script ne peut le refabriquer : si vous l'éditez, la seule sécurité est le vérificateur.
 
 ```
-python docs/scripts/verifier_prose_novelcrafter.py
+python ecriture/novelcrafter/verifier_prose_novelcrafter.py
 ```
 
 Il contrôle les 106 répliques, leur ordre, la charpente, l'absence de jargon, l'absence de tiret court, et signale les scènes trop courtes. Il rend un code d'erreur si quelque chose cloche.
@@ -83,7 +85,7 @@ Il contrôle les 106 répliques, leur ordre, la charpente, l'absence de jargon, 
 Le manuscrit technique, lui, se régénère :
 
 ```
-python docs/scripts/build_novelcrafter.py
+python ecriture/novelcrafter/build_novelcrafter.py
 ```
 
 ---

@@ -8,6 +8,7 @@ LTX génère aussi l'audio (dialogue si le prompt le dit). Image pré-redimensio
 
 jobs : [{"name","clip","style","image","prompt","negative","seed","length" (8n+1),"width","height","fps"}]
 Usage : python run_ltx25_runpod.py submit <url_comfy> <index_csv> <jobs.json> [noms]
+  jobs.json : sortie de assembler_clips.py, ou iletaitunefois/S01E01/prompts/clips-StyleP.json
 """
 import csv
 import datetime
@@ -17,7 +18,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from run_clips_runpod import http, upload_image, _set_job_id  # noqa: E402
+from comfy_client import http, upload_image, _set_job_id  # noqa: E402
 
 UNET = "ltx-2.5-22b-distilled-transformer-comfy-int8-convrot.safetensors"
 TE = "gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors"

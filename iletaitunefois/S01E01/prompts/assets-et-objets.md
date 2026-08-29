@@ -399,7 +399,7 @@ Assembly rule : `[DECOR OPENER of the chosen style] + [PERIOD TREATMENT if ÉPOQ
 
 # 7. OBJETS DE CONTINUITÉ — descriptions canoniques
 
-Écrit le 26 août 2026, après la dérive du ballon puis de la nacelle sur le pilote. **Application de la RÈGLE 38** : un nom commun n'est pas une description. Chaque objet ci-dessous porte sa forme, sa structure, sa matière, ses couleurs nommées en positif, son détail distinctif, et ce qu'il n'a pas. Ces descriptions sont la source des planches de référence (`docs/scripts/build_refs_pilote.py`, dictionnaire `OBJETS`) et se recopient telles quelles dans les prompts qui montrent l'objet sans le réinjecter.
+Écrit le 26 août 2026, après la dérive du ballon puis de la nacelle sur le pilote. **Application de la RÈGLE 38** : un nom commun n'est pas une description. Chaque objet ci-dessous porte sa forme, sa structure, sa matière, ses couleurs nommées en positif, son détail distinctif, et ce qu'il n'a pas. Ces descriptions sont la source des planches de référence (`atelier/scripts/assembler_refs.py`, dictionnaire `OBJETS`) et se recopient telles quelles dans les prompts qui montrent l'objet sans le réinjecter.
 
 Trois statuts : **VALIDÉ** = une planche existe et a été contrôlée ; **À GÉNÉRER** = la description est arrêtée, la planche reste à faire ; **À ARBITRER** = la description est une proposition, elle attend l'avis de Guillaume.
 

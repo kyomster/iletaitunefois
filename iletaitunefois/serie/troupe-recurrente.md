@@ -6,7 +6,7 @@ Sam, Sam Bis, Naya, Elio. Ces quatre personnages traversent tous les épisodes.
 
 Un prompt complet est la concaténation `bloc de style` + `bloc identité` + `bloc de cadrage` + `Avoid:` + `négatives du personnage` + `négatives de cadrage` + `base négative du style` + **`négative universelle`**.
 
-Pour les personnages d'époque de l'épisode 1, voir `fiche-prompts-personnages-episode-S01E01.md`.
+Pour les personnages d'époque de l'épisode 1, voir `iletaitunefois/S01E01/prompts/personnages-episode.md`.
 
 **Réglages** : `nano_banana_pro`, 16:9, 2K, une image par requête, négatif en fin de prompt après `Avoid:`.
 

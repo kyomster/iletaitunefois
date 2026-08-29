@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Soumet les jobs vidéo du pilote à un ComfyUI (pod RunPod) par son API HTTP, et rapatrie les résultats.
 
-Graphes (docs/RUNPOD-COMFYUI-mode-d-emploi.md §5 et §6, valeurs du workflow de référence lightx2v) :
+Graphes (atelier/moteurs-ecartes/VERDICTS.md, Wan 2.2, valeurs du workflow de référence lightx2v) :
   UNETLoader(high) -> LoraLoaderModelOnly(LightX2V high) -> ModelSamplingSD3(shift 5) -> KSamplerAdvanced(steps 4, 0->2, add_noise)
   UNETLoader(low)  -> LoraLoaderModelOnly(LightX2V low)  -> ModelSamplingSD3(shift 5) -> KSamplerAdvanced(steps 4, 2->4, no noise)
   CLIPLoader(umt5 fp8, wan) -> CLIPTextEncode x2 ; VAELoader(wan 2.1)

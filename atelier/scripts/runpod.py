@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """Pilotage minimal de RunPod pour le pilote S01E01 (API REST v1 + GraphQL pour les ports).
 
-La clé est lue dans C:/Git/iletaitunefois/.env (RUN_POD) et n'est jamais affichée.
+La clé est lue dans le `.env` à la racine du dépôt (RUN_POD) et n'est jamais affichée.
 
 Usage :
-  python runpod_pilote.py create <nom> <cle_publique_ssh_fichier> [jupyter_password]
-  python runpod_pilote.py status <podId>
-  python runpod_pilote.py ports  <podId>          # ip:port SSH public, URL proxy ComfyUI
-  python runpod_pilote.py stop   <podId>
-  python runpod_pilote.py terminate <podId>
-  python runpod_pilote.py list
+  python runpod.py create <nom> <cle_publique_ssh_fichier> [jupyter_password]
+  python runpod.py status <podId>
+  python runpod.py ports  <podId>          # ip:port SSH public, URL proxy ComfyUI
+  python runpod.py stop   <podId>
+  python runpod.py terminate <podId>
+  python runpod.py list
 
 Choix posés le 22 août 2026 (DECISIONS-pilote.md) : volume réseau existant `atelier-modeles` (o6g76dr9cj, EU-RO-1),
 image runpod/pytorch:1.1.0-cu1281-torch280-ubuntu2204, GPU par ordre de préférence A100 80 Go PCIe, RTX PRO 6000
@@ -21,7 +21,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
-ENV = Path(r"C:/Git/iletaitunefois/.env")
+ENV = Path(__file__).resolve().parents[2] / ".env"
 REST = "https://rest.runpod.io/v1"
 GQL = "https://api.runpod.io/graphql"
 VOLUME_ID = "o6g76dr9cj"

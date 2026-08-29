@@ -493,7 +493,7 @@ Médias Higgsfield envoyés pour les modèles fermés : image P02 A 720p `021b7f
 
 ## Style P (2026-08-25/26) — pilote complet : 5 références, 18 clés, 18 clips
 
-Style P = le rendu « série animée moderne » des trois images d'essai retenues par Guillaume ; bloc de style récupéré tel quel sur ces générations (`show_generation_by_ids`) et versionné dans `docs/scripts/build_prompts_pilote.py`. Les cinq planches de référence sont assemblées par `docs/scripts/build_refs_pilote.py` (nouveau) puis renvoyées chez Higgsfield : les `media_id` ci‑dessous sont **réutilisables pour tout l'épisode**.
+Style P = le rendu « série animée moderne » des trois images d'essai retenues par Guillaume ; bloc de style récupéré tel quel sur ces générations (`show_generation_by_ids`) et versionné dans `atelier/scripts/assembler_prompts.py`. Les cinq planches de référence sont assemblées par `atelier/scripts/assembler_refs.py` (nouveau) puis renvoyées chez Higgsfield : les `media_id` ci‑dessous sont **réutilisables pour tout l'épisode**.
 
 ### Références (planches générées, puis renvoyées comme médias)
 

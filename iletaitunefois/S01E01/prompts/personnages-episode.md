@@ -2,7 +2,7 @@
 
 **Version 2, 8 août 2026.** Corrigée après l'audit visuel des 235 images. Les changements sont signalés par ⚠ et sont obligatoires.
 
-Onze personnages ou groupes d'époque à planche dédiée, plus dix figures au fil de l'eau. Pour la troupe récurrente, voir `fiche-prompts-troupe-recurrente.md`.
+Onze personnages ou groupes d'époque à planche dédiée, plus dix figures au fil de l'eau. Pour la troupe récurrente, voir `iletaitunefois/serie/troupe-recurrente.md`.
 
 Un prompt complet est la concaténation `bloc de style` + `bloc identité` + `bloc de cadrage` + `Avoid:` + `négatives d'époque` + `base négative du style` + **`négative universelle`**.
 

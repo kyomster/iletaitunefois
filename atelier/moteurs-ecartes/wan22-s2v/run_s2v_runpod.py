@@ -22,8 +22,8 @@ import sys
 import urllib.request
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
-from run_clips_runpod import http, upload_image, _set_job_id  # noqa: E402
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+from comfy_client import http, upload_image, _set_job_id  # noqa: E402
 
 S2V = {"unet": "wan2.2_s2v_14B_fp8_scaled.safetensors", "lora": "wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors",
        "clip": "umt5_xxl_fp8_e4m3fn_scaled.safetensors", "vae": "wan_2.1_vae.safetensors", "audio_enc": "wav2vec2_large_english_fp16.safetensors"}

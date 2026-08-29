@@ -2,7 +2,7 @@
 
 **25 août 2026.** Ce fichier **ne s'importe pas**. Novelcrafter n'importe qu'un manuscrit ; le Codex se saisit à la main, une entrée à la fois. Chaque bloc ci dessous est prêt à coller : le **Nom** va dans le champ de nom, les **Alias** dans le champ d'alias, et le corps dans la description.
 
-Tout vient de la bible de plateau de `docs/S01E01-scenario.md`, section « Bible de plateau — la géographie permanente ». **Cette bible reste la source ; ce fichier en est une copie de commodité.** Si la bible change, ce fichier change avec elle.
+Tout vient de la bible de plateau de `../scenario.md`, section « Bible de plateau — la géographie permanente ». **Cette bible reste la source ; ce fichier en est une copie de commodité.** Si la bible change, ce fichier change avec elle.
 
 **Pourquoi saisir le Codex.** Les alias déclenchent le suivi automatique : dès qu'une scène dit « Naya » ou « la sacoche », Novelcrafter attache l'entrée et la donne au modèle quand vous générez ou réécrivez. Sans Codex, chaque scène repart sans mémoire du plateau, et les erreurs de géographie reviennent.
 

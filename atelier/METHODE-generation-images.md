@@ -507,7 +507,7 @@ Deux contraintes de l'environnement, apprises à la dure :
 
 # 21. Règles nées du pilote S01E01 (22 août 2026)
 
-Acquises sur les 54 images clés des plans 1 à 6, trois styles, 73 jobs. Détail et preuves dans `S01E01-pilote-audit.md`.
+Acquises sur les 54 images clés des plans 1 à 6, trois styles, 73 jobs. Détail et preuves dans `iletaitunefois/S01E01/pilote/AUDIT.md`.
 
 ## RÈGLE 26 — une négative de foule ne se pose jamais sur un plan où un personnage nommé montre son visage
 
@@ -543,7 +543,7 @@ Acquises sur 24 images d'épreuve, huit styles, trois plans. Détail et preuves 
 
 ## RÈGLE 32 — le développement d'un code de décor doit être amputé de sa clause de cadrage
 
-Sur P1a-3, la brique dit `Framing: low angle from the ground toward the crown of the balloon`. Faute de plaque à réinjecter dans un style neuf, le code `D1` a été développé en clair depuis `S01E01-assets-prompts-v3.4.md`, dont la description se termine par `very wide establishing shot with a slight high angle`. Le prompt portait donc deux cadrages contradictoires. **Six styles sur six ont tranché pour le plan large**, et aucun n'a produit la contre plongée demandée.
+Sur P1a-3, la brique dit `Framing: low angle from the ground toward the crown of the balloon`. Faute de plaque à réinjecter dans un style neuf, le code `D1` a été développé en clair depuis `assets-et-objets.md`, dont la description se termine par `very wide establishing shot with a slight high angle`. Le prompt portait donc deux cadrages contradictoires. **Six styles sur six ont tranché pour le plan large**, et aucun n'a produit la contre plongée demandée.
 
 Corrigé en retirant la clause de cadrage du développement et en durcissant la brique (`the camera tilted steeply upward`) : **deux styles sur deux ont donné la contre plongée** au tir suivant.
 
@@ -577,7 +577,7 @@ Trois plaques sur six en styles J et K sont sorties avec des bandes noires incru
 
 Un cadre de cinéma **a** des bandes : c'est une propriété du référent que le style invoque, pas un élément posé dans l'image. Ni négative ni positif ne l'enlèvent, exactement comme la troisième règle du README le prédit.
 
-**La correction est en aval, jamais dans le prompt** : `docs/scripts/rogner_bandes_noires.py` détecte les bandes, rogne, recadre au plus grand 16:9 centré et remet à l'échelle. Deux points de méthode qui en découlent :
+**La correction est en aval, jamais dans le prompt** : `atelier/scripts/rogner_bandes_noires.py` détecte les bandes, rogne, recadre au plus grand 16:9 centré et remet à l'échelle. Deux points de méthode qui en découlent :
 
 * **Rogner avant la première réinjection.** Une plaque avec bandes réinjectée impose ses bandes à tous les plans qui la réinjectent (RÈGLE 1). Le rognage se fait au moment de valider la référence, pas après.
 * **Au delà d'environ 15 % de champ perdu, régénérer plutôt que rogner.** Sur `D02_StyleJ`, 332 px de bandes de chaque côté imposaient un recadrage à 42 % de perte, qui supprimait l'horizon et la profondeur dont le plan 4b-3 a besoin. Une régénération coûte 2 crédits, un décor amputé coûte un plan.
@@ -620,7 +620,7 @@ D'où l'étape à tenir, avant toute génération de clés :
 
 1. **Passe d'inventaire sur le tableau de plans.** Tout élément nommé dans deux plans ou plus, qui porte une identité visuelle propre — un objet manipulé, un véhicule, une machine, un animal, un vêtement remarquable, une enseigne — est candidat.
 2. **Arbitrage** : candidat retenu si sa dérive se verrait au montage. Un pavé de gravier ne se met pas en référence, un ballon si.
-3. **Une planche par élément retenu**, sur fond neutre (RÈGLE 15), fabriquée par `docs/scripts/build_refs_pilote.py` comme les décors et les personnages.
+3. **Une planche par élément retenu**, sur fond neutre (RÈGLE 15), fabriquée par `atelier/scripts/assembler_refs.py` comme les décors et les personnages.
 4. **Inscription dans la bible de l'épisode**, catégorie accessoires de continuité, avec la liste des plans où l'élément apparaît — c'est là que se lit ce qui doit être identique.
 5. **Réinjection sur tous ces plans**, au rang accessoires, dans la limite de sept références par appel (arbitrer alors entre le décor et l'objet, jamais entre deux personnages nommés).
 
@@ -656,7 +656,7 @@ Sur le plan P02, où la négative de foule est retirée depuis le 22 août parce
 
 Deux conséquences de production :
 
-* **le style détermine la formulation du bloc identité**, pas seulement le bloc de style : `build_prompts_pilote.py` a désormais une variante `P` pour les styles à aplats, à côté de `AC`, `B` et `JK` ;
+* **le style détermine la formulation du bloc identité**, pas seulement le bloc de style : `assembler_prompts.py` a désormais une variante `P` pour les styles à aplats, à côté de `AC`, `B` et `JK` ;
 * **un défaut de planche se paie sur tous les plans qui la réinjectent** (RÈGLE 1) : une planche fautive n'est jamais un défaut isolé, c'est un défaut multiplié par le nombre de réinjections. Ici, une planche à 2 crédits en a coûté quatorze de reprises et sept clips à refaire.
 
 Défaut annexe relevé sur la même planche : le fond neutre de la RÈGLE 15 est sorti en **ciel dégradé**. Corrigé de la même façon, en prescrivant le fond en positif — `ONE SINGLE FLAT UNIFORM GREY BACKGROUND filling the whole frame behind the figures, no sky, no gradient, no horizon`.
@@ -678,7 +678,7 @@ Un asset se décrit donc en six points, dans le dépôt, **avant** la première 
 5. **le détail distinctif** qui permet de reconnaître l'objet d'un plan à l'autre — les deux sacs de lest accrochés à l'extérieur, les pointes en arc des fuseaux ;
 6. **ce que l'objet n'a pas**, dès qu'une variante plausible existe : pas de couvercle, pas de forme rectangulaire, pas de second panier.
 
-`docs/prompts/S01E01-assets-prompts-v3.4.md` §7 porte désormais ces descriptions pour tous les objets de continuité de l'épisode. Ce qui n'y est pas décrit dérivera, et ce sera prévisible.
+`iletaitunefois/S01E01/prompts/assets-et-objets.md` §7 porte désormais ces descriptions pour tous les objets de continuité de l'épisode. Ce qui n'y est pas décrit dérivera, et ce sera prévisible.
 
 ---
 
@@ -707,7 +707,7 @@ Le prompt de mouvement disait : `The crowd rocks backwards, hats held on with bo
 **La correction se fait en deux endroits.**
 
 * **Dans le sujet** : on décrit le déplacement des parties du corps, et on désigne l'objet comme **déjà là** — `each of them raising both hands to the brim of the hat he is already wearing and pressing it down onto his head; the hats never leave the heads`. Jamais « hats held ».
-* **Dans le gabarit**, pour que ça ne dépende plus de la vigilance : `build_clips_pilote.py` colle désormais sur **tous** les prompts de mouvement la clause `Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated`, avec les négatives correspondantes. C'est le pendant, pour les objets, de la garde `Nobody new enters the frame` posée le 22 août pour les personnes — cette garde existait pour les personnages depuis quatre jours, et personne n'avait vu qu'aucune ne protégeait les accessoires.
+* **Dans le gabarit**, pour que ça ne dépende plus de la vigilance : `assembler_clips.py` colle désormais sur **tous** les prompts de mouvement la clause `Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated`, avec les négatives correspondantes. C'est le pendant, pour les objets, de la garde `Nobody new enters the frame` posée le 22 août pour les personnes — cette garde existait pour les personnages depuis quatre jours, et personne n'avait vu qu'aucune ne protégeait les accessoires.
 
 Limite connue : un plan où un objet **doit** apparaître ou changer de main est incompatible avec la clause. Il se traite en le déclarant explicitement dans le sujet, et la clause se retire pour ce plan seul — comme la négative de foule est retirée sur P02.
 
@@ -753,7 +753,7 @@ L'inverse est également vrai : une règle écrite qui pourrait être tenue par 
 
 | Règle tenue par le script | Où, dans le script | Écrite en clair |
 |---|---|---|
-| Blocs identité par famille de style (`AC`, `B`, `JK`, `P`) | `build_prompts_pilote.py`, `variante_identite` | RÈGLES 26, 34, 37 |
+| Blocs identité par famille de style (`AC`, `B`, `JK`, `P`) | `assembler_prompts.py`, `variante_identite` | RÈGLES 26, 34, 37 |
 | Négative de foule retirée sur P02, partie anti-aplat conservée en P | `PLANS_SANS_NEG_FOULE`, `NEG_FOULE` | RÈGLES 26 et 37 |
 | Clause de bannières sur 1a-3 | `PLANS_A_BANNIERES` | RÈGLE 33 |
 | Cadrage durci sur 5-1, 1a-3, 4a-2 | `CADRAGE_DURCI` | RÈGLES 28 et 39 |
@@ -761,7 +761,7 @@ L'inverse est également vrai : une règle écrite qui pourrait être tenue par 
 | Planche nacelle et clause anti second panier | `PLANS_A_NACELLE`, `CLAUSE_NACELLE` | RÈGLES 29, 36 et 38 |
 | Ligne de présence par plan | `PRESENCE`, `PRESENCE_LINE` | RÈGLE 2 et audit du 22 août |
 | Garde des objets sur les prompts de mouvement | `CLAUSE_OBJETS`, `NEG_OBJETS` | RÈGLE 40 |
-| Citation exacte des répliques dans un prompt vidéo | `build_clips_pilote.py`, gabarit de dialogue | `STRATEGIE-generation-videos.md` §6 |
+| Citation exacte des répliques dans un prompt vidéo | `assembler_clips.py`, gabarit de dialogue | `atelier/STRATEGIE-video.md` §6 |
 
 ---
 
