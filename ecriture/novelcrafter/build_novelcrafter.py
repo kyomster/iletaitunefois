@@ -17,7 +17,7 @@ CE QU'IL REFUSE OU DIGERE MAL, et que ce script retire donc du manuscrit :
 CARTOGRAPHIE RETENUE (arbitrage du 25 aout 2026)
   3 actes  = les trois mouvements du recit
   12 chapitres = les douze sequences du decoupage
-  79 scenes = les 79 plans, separes par « *** »
+  une scène par plan, séparées par « *** » (le nombre de plans est lu dans le scénario)
 
 Le titre du plan ne peut pas rester un titre : il deviendrait invisible.
 Il devient donc la PREMIERE LIGNE EN GRAS de la scene, ce qui le rend
@@ -171,14 +171,12 @@ def verifier(source: str, manuscrit: str, sequences: list[Sequence]) -> list[str
         anomalies.append(f"{nb_actes} actes au lieu de 3")
     if nb_chapitres != 12:
         anomalies.append(f"{nb_chapitres} chapitres au lieu de 12")
-    if nb_plans != 79:
-        anomalies.append(f"{nb_plans} plans lus au lieu de 79")
-    if nb_scenes != 79:
-        anomalies.append(f"{nb_scenes} scènes produites au lieu de 79")
+    if nb_scenes != nb_plans:
+        anomalies.append(f"{nb_scenes} scènes produites pour {nb_plans} plans")
 
     numeros = [p.numero for s in sequences for p in s.plans]
     if numeros != list(range(1, 80)):
-        anomalies.append("la numérotation des plans n'est pas 1 à 79 dans l'ordre")
+        anomalies.append(f"la numérotation des plans n'est pas 1 à {nb_plans} dans l'ordre")
 
     for ligne in manuscrit.split("\n"):
         if re.match(r"^#{3,} ", ligne):

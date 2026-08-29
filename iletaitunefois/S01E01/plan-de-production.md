@@ -22,7 +22,7 @@
 | Durée totale | 1 224 s | **1 319 s soit 21 min 59** — révision des durées du 22 août, puis révision du 29 août (plan 48 ajouté, +23 s), voir les notes en tête du scénario |
 | Part ANIMÉ | 714 s soit 58,3 % | **476 s soit 36.1 %** (cible : 40 % maximum) |
 | Plans basculés ANIMÉ vers FIXE (avec mouvement de caméra) | — | **11** : plans 12, 16, 19, 26, 35, 36, 44, 46, 47, 66, 69 (le plan 1, d'abord basculé, est repassé en ANIMÉ : voir ALERTES) |
-| Plans reclassés POST | — | **8** : plans 6, 15, 25, 27, 34, 53, 61, 75 (dont 2 venus d'ANIMÉ : 60 et 74) |
+| Plans reclassés POST | — | **8** : plans 6, 15, 25, 27, 34, 53, 61, 75 (dont 2 venus d'ANIMÉ : 61 et 75) |
 | Plans ANIMÉ découpés | — | **21 plans en 51 blocs**, tous de 10 s ou moins |
 | Générations vidéo | ~37 rendus dont certains de 20 à 32 s (hors capacité des modèles) | **54 blocs de 6 à 10 s**, réexplosés en **189 clips de 2,5 s** par la chaîne ComfyUI, voir `atelier/STRATEGIE-video.md` |
 | Générations image | — | **~120 images clés** : 48 plans FIXE (dont le plan 48 ajouté le 29 août, deux vignettes), 11 vignettes supplémentaires des montages basculés, ~6 images sources des plans POST, et **54 images de départ, une par bloc ANIMÉ** (la chaîne est image vers vidéo : chaque rendu vidéo part d'une image clé générée avec le même mécanisme de cohérence) |
@@ -83,9 +83,9 @@
 
 | Décor | Plans | Signalement |
 |---|---|---|
-| D1 · Parc Monceau au sol, aube | 1, 2, 3, 62, 63 | **1 à 3 consécutifs** |
-| D2 · Ciel de Paris (ballon, voilure) | 4, 5, 61 (+ réemploi au 60) | — |
-| D3 · Le cadre (intérieur, grande table) | 7 à 15, 18, 20, 23, 24, 28, 31, 33, 37, 40, 43, 48, 51, 53, 57, 58, 64, 69, 72, 73, 75 à 79 | **7 à 15 et 75 à 79 consécutifs** |
+| D1 · Parc Monceau au sol, aube | 1, 2, 3, 63, 64 | **1 à 3 consécutifs** |
+| D2 · Ciel de Paris (ballon, voilure) | 4, 5, 62 (+ réemploi au 61) | — |
+| D3 · Le cadre (intérieur, grande table) | 7 à 15, 18, 20, 23, 24, 28, 31, 33, 37, 40, 43, 49, 52, 54, 58, 59, 65, 70, 73, 74, 76 à 80 | **7 à 15 et 76 à 80 consécutifs** |
 | D4 · Ateliers et table de jeu des Tang | 12 | — |
 | D5 · Nature (trois vignettes) | 16 | — |
 | D6 · Campement préhistorique nocturne | 17 | — |
@@ -103,19 +103,19 @@
 | D18 · Colline venteuse | 41 | — |
 | D19 · Remparts de Taicheng | 42 | — |
 | D20 · Ye : tour du Phénix d'or et ville | 44, 45, 46, 47 | **consécutifs** |
-| D21 · Gorge du Sichuan (pont de bambou) | 49, 50 | — |
+| D21 · Gorge du Sichuan (pont de bambou) | 50, 51 | — |
 | D22 · Chevalier en armure (source du gel 34) | 34 | — |
-| D23 · Pont de chaînes de fer (source du gel 53) | 52 | — |
-| D24 · Grenier en flammes | 54 | — |
-| D25 · Tour des Song et ruelle | 55, 56 | — |
-| D26 · Montpellier (arbre, potager, tour de l'observatoire) | 59 | — |
-| D27 · Rempart aux armures | 66 | — |
-| D28 · Ruelle aux billets | 67 | — |
-| D29 · Vignettes de l'écrit (argile, hiéroglyphes, atelier du papier) | 65 | — |
-| D30 · Rouleau imprimé et atelier de Bi Sheng | 68 | — |
-| D31 · Fourneaux d'alchimie | 70 | — |
-| D32 · Ciel de fête, champ de bataille | 71 | — |
-| D33 · Parc actuel ensoleillé (source du POST 75) | 74 | — |
+| D23 · Pont de chaînes de fer (source du gel 53) | 53 | — |
+| D24 · Grenier en flammes | 55 | — |
+| D25 · Tour des Song et ruelle | 56, 57 | — |
+| D26 · Montpellier (arbre, potager, tour de l'observatoire) | 60 | — |
+| D27 · Rempart aux armures | 67 | — |
+| D28 · Ruelle aux billets | 68 | — |
+| D29 · Vignettes de l'écrit (argile, hiéroglyphes, atelier du papier) | 66 | — |
+| D30 · Rouleau imprimé et atelier de Bi Sheng | 69 | — |
+| D31 · Fourneaux d'alchimie | 71 | — |
+| D32 · Ciel de fête, champ de bataille | 72 | — |
+| D33 · Parc actuel ensoleillé (source du POST 75) | 75 | — |
 
 ### Accessoires (objets manipulés, montrés en insert ou porteurs de continuité)
 
@@ -127,14 +127,14 @@
 | Tablette d'Elio ; carnet de Naya ; carnet de terrain de Sam | Permanents |
 | Ballon, nacelle, couteau, parachute replié puis voilure ouverte | Plans 1 à 6, 61 à 64 — descriptions canoniques en `iletaitunefois/S01E01/prompts/assets-et-objets.md` §7 ; le parachute est **gréé entre le ballon et la nacelle**, jamais posé au plancher |
 | Hibou de papier | Plans 44, 45, 47 : même objet, continuité stricte |
-| Parasols et sacs des pillards | 55, 56 |
+| Parasols et sacs des pillards | 56, 57 |
 | Semoir à trois rangs et soc de fonte | 21, 22 |
 | Collier d'épaule | 28, 29 |
 | Nids de fourmis et tiges de bambou | 38 |
 | Barges, cordes, bœufs de fonte | 39 |
-| Livre de La Loubère | 57, 58 |
-| Cuirasse de papier ; liasse de billets ; caractères de terre cuite et rouleau du Sutra | 66 ; 67 ; 68 |
-| Flacon de verre (teaser) | 78 |
+| Livre de La Loubère | 58, 59 |
+| Cuirasse de papier ; liasse de billets ; caractères de terre cuite et rouleau du Sutra | 67 ; 68 ; 69 |
+| Flacon de verre (teaser) | 79 |
 
 ---
 

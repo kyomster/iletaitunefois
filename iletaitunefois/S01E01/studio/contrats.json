@@ -1,0 +1,66 @@
+{
+  "_note": "Contrats de continuité de S01E01, SAISIS d'après le scénario révisé du 29 août 2026 (80 plans) — jamais extraits automatiquement. Chaque entrée cite sa source dans le scénario. Les propositions non validées par Guillaume sont sous `propositions` et ne sont pas envoyées.",
+  "beats": [
+    {"code": "ouverture-froide", "role": "OUVERTURE_FROIDE", "ordre": 1, "planFrom": 1, "planTo": 6, "sourceRef": "scenario.md#minutage — Ouverture froide : parc Monceau, 1797"},
+    {"code": "cadre", "role": "CADRE", "ordre": 2, "planFrom": 7, "planTo": 15, "sourceRef": "scenario.md#minutage — Le cadre : la sacoche renversée"},
+    {"code": "premiers-inventeurs", "role": "CORPS", "ordre": 3, "planFrom": 16, "planTo": 18, "sourceRef": "scenario.md#minutage"},
+    {"code": "agriculture", "role": "CORPS", "ordre": 4, "planFrom": 19, "planTo": 25, "sourceRef": "scenario.md#minutage"},
+    {"code": "harnais", "role": "CORPS", "ordre": 5, "planFrom": 26, "planTo": 29, "sourceRef": "scenario.md#minutage"},
+    {"code": "etrier", "role": "CORPS", "ordre": 6, "planFrom": 30, "planTo": 34, "sourceRef": "scenario.md#minutage"},
+    {"code": "liste-verifiee", "role": "CORPS", "ordre": 7, "planFrom": 35, "planTo": 40, "sourceRef": "scenario.md#minutage — Boussole, forage, fourmis, bœufs de fer"},
+    {"code": "vol", "role": "CORPS", "ordre": 8, "planFrom": 41, "planTo": 49, "sourceRef": "scenario.md#minutage — Le vol"},
+    {"code": "pont-suspendu", "role": "CORPS", "ordre": 9, "planFrom": 50, "planTo": 53, "sourceRef": "scenario.md#minutage"},
+    {"code": "parachute", "role": "RETOUR_EPREUVE", "ordre": 10, "planFrom": 54, "planTo": 64, "sourceRef": "scenario.md#minutage — Le parachute : Shun, pillards, Siam, Lenormand, verdict de Garnerin (plans 61 à 64 = retour à l'épreuve publique)"},
+    {"code": "papier", "role": "CORPS", "ordre": 11, "planFrom": 65, "planTo": 70, "sourceRef": "scenario.md#minutage"},
+    {"code": "armes-et-morale", "role": "CLOTURE", "ordre": 12, "planFrom": 71, "planTo": 80, "sourceRef": "scenario.md#minutage — Poudre, fusées, chute en deux temps, teaser"}
+  ],
+  "promesses": [
+    {"key": "pari-des-badauds", "label": "Dix francs qu'il ne coupe pas la corde — le pari des badauds", "kind": "ANNONCE", "portee": "EPISODE", "episode": "S01E01",
+     "plantedEpisode": "S01E01", "plantedPlan": 2, "paiement": {"episode": "S01E01", "plan": 64},
+     "note": "Planté au plan 2 (BADAUD 2 : « Dix francs qu'il ne coupe pas la corde. »), payé au plan 64 (BADAUD 2 : « Mes dix francs. » BADAUD 1 : « Il a coupé... et il marche. »).",
+     "sourceRef": "scenario.md, plans 2 et 64"},
+    {"key": "teaser-flacon", "label": "Un flacon qui a sauvé des millions de mères — teaser de S01E02", "kind": "TEASER", "portee": "SERIE",
+     "plantedEpisode": "S01E01", "plantedPlan": 79, "status": "PLANTEE",
+     "note": "Plan 79 : Sam sort un petit flacon de verre au liquide clair ; « mais ça, c'est pour la prochaine fois ». Paiement attendu au début de S01E02.",
+     "sourceRef": "scenario.md, plan 79"}
+  ],
+  "questions": [
+    {"key": "garnerin-se-relevera", "label": "Un homme tombe du ciel : se relèvera-t-il ?", "askedPlan": 6, "reponse": 64,
+     "note": "Posée par la voix off de Sam au plan 6 (« pour savoir s'il se relèvera, il faut d'abord faire un très long détour... par la Chine »), répondue au plan 64 (« on peut tomber du ciel et se relever »).",
+     "sourceRef": "scenario.md, plans 6 et 64"}
+  ],
+  "echelles": [
+    {"kind": "POSSESSION", "ordre": ["sur-la-table", "rangee"], "monotone": "CROISSANT", "portee": "EPISODE", "usageMinimum": "rangee",
+     "sourceRef": "serie/BIBLE-Les-Decouvreurs.md §2 gabarit B, liant 2 : un objet ne retourne dans la sacoche qu'une fois vérifié"}
+  ],
+  "objets": [
+    {"slug": "petit-soc-de-charrue", "range": 23},
+    {"slug": "fer-d-attelage-miniature", "range": 29},
+    {"slug": "allumette", "range": 37},
+    {"slug": "carre-de-soie", "range": 64},
+    {"slug": "cerf-volant-de-poche", "range": 64},
+    {"slug": "boussole", "range": 65},
+    {"slug": "billet-ancien", "range": 68},
+    {"slug": "carte-a-jouer", "range": 70},
+    {"slug": "petard", "range": 74}
+  ],
+  "objets_sur_table_depuis": 9,
+  "objets_sourceRef": "scenario.md, « Le registre des neuf objets » (versés au plan 9)",
+  "emplois": [
+    {"plan": 23, "attendu": "huit objets restent en place après le soc", "sourceRef": "scenario.md, plan 23"},
+    {"plan": 31, "attendu": "table à sept objets : soc et fer rangés, allumette encore là", "sourceRef": "scenario.md, plan 31"},
+    {"plan": 37, "attendu": "restent carte, boussole, cerf volant, soie, billet, pétard", "sourceRef": "scenario.md, plan 37"},
+    {"plan": 49, "attendu": "six objets restants : carte, boussole, cerf volant, soie, billet, pétard", "sourceRef": "scenario.md, plan 49"},
+    {"plan": 65, "attendu": "« Quatre objets » : carte, billet, boussole, pétard ; puis la boussole rentre", "sourceRef": "scenario.md, plan 65"},
+    {"plan": 73, "attendu": "« Il en reste un » : le pétard", "sourceRef": "scenario.md, plan 73"},
+    {"plan": 78, "attendu": "« La table est vide »", "sourceRef": "scenario.md, plan 78"}
+  ],
+  "alerte_etrier": "Au plan 34, la réplique verrouillée de Sam dit « je range... l'étrier dans la sacoche » alors que l'étrier n'est pas l'un des neuf objets et que le fer d'attelage est déjà rangé au 29. Traitement retenu en attendant l'arbitrage : rien ne quitte la table au plan 34. À porter en session ARBITRAGE.",
+  "propositions": {
+    "conviction-elio": {
+      "kind": "CONVICTION", "ordre": ["sceptique", "ebranle", "convaincu"], "monotone": "CROISSANT", "portee": "SERIE",
+      "etats": [{"plan": 11, "value": "sceptique", "note": "« Moi, je préfère qu'on parle des cowboys »"}, {"plan": 53, "value": "ebranle", "note": "après le cinquième gel, ses objections sont toutes vérifiées"}, {"plan": 78, "value": "convaincu", "note": "« La table est vide. Tu as gagné... grâce aux corrections. »"}],
+      "aValider": "échelle et jalons proposés par Claude, non validés par Guillaume — non envoyés"
+    }
+  }
+}
