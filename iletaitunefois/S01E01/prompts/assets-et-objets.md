@@ -6,7 +6,7 @@ Replaces v3.3. Change from v3.3 : the glasses question is settled — Sam has no
 
 **RULING — Sam and glasses (settled)** : Sam has no glasses anywhere in the series : not worn, not on his forehead, not held in hand, not pulled from the satchel, not lying on the table. No prompt of any plan may contain glasses near Sam, and `glasses, eyeglasses, goggles, sunglasses, any eyewear` stays in the Avoid base of every Sam image. Consequences on the S01E01 production plan :
 
-* **Plan 76** : the visual description « lunettes remontées sur le front » is dropped (descriptions are not part of the locked zone). Replacement suggestion : Sam doux, chapeau repoussé en arrière, sans aucun triomphe.
+* **Plan 77** : the visual description « lunettes remontées sur le front » is dropped (descriptions are not part of the locked zone). Replacement suggestion : Sam doux, chapeau repoussé en arrière, sans aucun triomphe.
 * **Roster, permanent props** : remove « lunettes de Sam » from the accessory list ; the field notebook stays.
 * **ALERTE still open, needs an arbitration on the locked text** : the spoken line of plan 8 is locked and says « ...regardez mes lunettes : de la glace ! ». With no glasses on screen this line contradicts the image. Two possible fixes, both touching one word of the locked zone : « regardez mon chapeau : de la glace ! » (keeps the frost gag, transfers it to the hat, which is already the mode marker of the character) or « regardez ma sacoche : de la glace ! » (transfers it to the totem prop). Until this arbitration is made, plans 8a and 8b cannot be generated ; every other plan is unaffected.
 
@@ -65,7 +65,7 @@ richly illustrated animation background plate, painted with atmospheric depth an
 
 Rules shared by all 33 prompts : reserved colors stay banned as dominant tones on any period character (sand, vivid teal, vivid orange) ; the reference sheets are generated on a neutral background, validated, then reinjected on every plan of their scenes with `same character as reference, same art style as reference`. In Style B every period character follows the locked inkman rules of the bible : round white head, dot eyes, stick limbs, solid black rounded mitten hands with a small thumb ; their distinction from the heroes comes from muted earth tone costumes and period markers, never from a different drawing style.
 
-## 2.1 GARNERIN (plans 3, 4, 62 ; clip of plan 5 reused at plan 60) — full turnaround sheet
+## 2.1 GARNERIN (plans 3, 4, 63 ; clip of plan 5 reused at plan 61) — full turnaround sheet
 
 **Style A**
 
@@ -105,7 +105,7 @@ inkman stick figure cartoon style, large round white head with bold black ink ou
 hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period character with the palette shifted to muted earth tones, era accurate costume, animation model sheet on plain light warm background, crisp and graphic not painterly: Yuan Huangtou, a deposed prince of 6th century China, thin and dignified, long worn tunic, loose untied hair, gaunt face with a noble bearing and calm gaze, optional rope bindings at the wrists, full body turnaround: front view, three quarter view, side profile, back view, same scale, same character in every view. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters.
 ```
 
-## 2.3 BETTING ONLOOKERS, pair (plans 2, 63) — single reference image, kept for both scenes
+## 2.3 BETTING ONLOOKERS, pair (plans 2, 64) — single reference image, kept for both scenes
 
 Identity, shared by the three prompts : `two Directoire onlookers standing side by side, full body, three quarter view, same scale: a round onlooker with a tall cockade hat, waistcoat tight over his belly, peremptory self assured air; a thin onlooker leaning on a cane, threadbare coat, suspicious squint`
 
@@ -149,7 +149,7 @@ inkman stick figure cartoon style, large round white heads with bold black ink o
 hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period characters with the palette shifted to muted earth tones, era accurate costumes, animation reference sheet on plain light warm background, crisp and graphic not painterly: two Chinese farmers of the Warring States period standing side by side, full body, three quarter view, same scale: one farmer covered in scattered seeds, straw hat, simple tunic, baffled expression; one farmer at a wooden three row seed drill, cloth apron, tied sleeves, quiet pride. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters.
 ```
 
-## 2.5 LOOTERS, pair (plans 55, 56)
+## 2.5 LOOTERS, pair (plans 56, 57)
 
 Identity : `two Song dynasty looters standing side by side, full body, three quarter view, same scale: a stocky looter holding two large parasols, tight dark clothes, overconfident grin; a thin looter with loot sacks, nervous shifty eyes`
 
@@ -171,7 +171,7 @@ inkman stick figure cartoon style, large round white heads with bold black ink o
 hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period characters with the palette shifted to muted earth tones, era accurate costumes, animation reference sheet on plain light warm background, crisp and graphic not painterly: two Song dynasty looters standing side by side, full body, three quarter view, same scale: a stocky looter holding two large parasols, tight dark clothes, overconfident grin; a thin looter with loot sacks, nervous shifty eyes. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters.
 ```
 
-## 2.6 BRIDGE PORTERS (plans 49, 50)
+## 2.6 BRIDGE PORTERS (plans 50, 51)
 
 Identity : `two Sichuan porters, full body, three quarter view, one slightly behind the other, loaded with tall baskets, carrying poles, rope sandals, worn cloth clothes, calm assured stride`
 
@@ -215,7 +215,7 @@ inkman stick figure cartoon style, large round white head with bold black ink ou
 hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period character with the palette shifted to muted earth tones, era accurate costume, animation reference sheet on plain light warm background, crisp and graphic not painterly: the monk Huaibing, a Song dynasty Buddhist monk, full body, three quarter view, simple plain robe, shaved head, serene face, calm gestures, quiet authority. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters.
 ```
 
-## 2.8 LENORMAND (plan 59, blocks a and b)
+## 2.8 LENORMAND (plan 60, blocks a and b)
 
 Identity : `Lenormand, a young tousled French scientist of the 18th century, full body, three quarter view, light period coat, undone jabot, anxious enthusiasm, holding two large closed parasols`
 
@@ -237,7 +237,7 @@ inkman stick figure cartoon style, large round white head with bold black ink ou
 hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period character with the palette shifted to muted earth tones, era accurate costume, animation reference sheet on plain light warm background, crisp and graphic not painterly: Lenormand, a young tousled French scientist of the 18th century, full body, three quarter view, light period coat, undone jabot, anxious enthusiasm, holding two large closed parasols. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters.
 ```
 
-## 2.9 TAOIST ALCHEMISTS, pair (plan 70) — generate a clean version, then a soot covered version
+## 2.9 TAOIST ALCHEMISTS, pair (plan 71) — generate a clean version, then a soot covered version
 
 Identity : `two Taoist alchemists standing side by side, full body, three quarter view, same scale: an old alchemist with a long thin grey beard, dark robe, cautious gestures, holding a glass retort with both hands; a young assistant in a light robe, rolled sleeves, worried look`. Soot version : append `, both covered in black soot, hair blown upward, dazed expressions` and generate a second image with the clean sheet as reference.
 
@@ -281,7 +281,7 @@ inkman stick figure cartoon style, large round white head with bold black ink ou
 hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period character with the palette shifted to muted earth tones, era accurate costume, animation reference sheet on plain light warm background, crisp and graphic not painterly: a Han dynasty carter, full body, three quarter view, stocky build, short crossed tunic, cloth trousers, flat hat, satisfied craftsman smile, holding a padded shoulder collar in both hands. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters.
 ```
 
-## 2.11 DIRECTOIRE CROWD, reusable reference (plans 1, 2, 4, 62, 63)
+## 2.11 DIRECTOIRE CROWD, reusable reference (plans 1, 2, 4, 63, 64)
 
 Identity : `a dozen Directoire crowd silhouettes seen from behind and in three quarter view, varied scales, no readable faces: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, one closed umbrella, simplified figures less detailed than main characters`
 
@@ -312,19 +312,19 @@ These figures appear once ; they are described inside the scene prompt and inher
 * **Ancient riders** (plan 30) : `Greco Roman riders in short tunics, bare legs, riding without stirrups, nervous mounts`
 * **Avar horsemen** (plan 32) : `Avar horsemen in caftans and felt caps, bows slung across their backs, gleaming iron stirrups`
 * **Passersby of Ye** (plan 46) : `6th century Chinese passersby in simple tunics, heads raised, mouths open`
-* **Bridge onlookers** (plan 50) : `two Sichuan onlookers in cloth tunics, one peremptory, one placid`
-* **Shun** (plan 54) : `a vigorous legendary young man, plain archaic tunic, two large conical straw hats strapped to his arms`
-* **Sentry and general** (plan 66) : `a delighted sentry wearing a pale cuirass of folded paper sheets; an enemy general in dark metal armor, eyebrows raised with interest`
-* **Counterfeiters** (plan 67) : `two accomplices in patched tunics, greedy furtive faces, leaning toward each other`
+* **Bridge onlookers** (plan 51) : `two Sichuan onlookers in cloth tunics, one peremptory, one placid`
+* **Shun** (plan 55) : `a vigorous legendary young man, plain archaic tunic, two large conical straw hats strapped to his arms`
+* **Sentry and general** (plan 67) : `a delighted sentry wearing a pale cuirass of folded paper sheets; an enemy general in dark metal armor, eyebrows raised with interest`
+* **Counterfeiters** (plan 68) : `two accomplices in patched tunics, greedy furtive faces, leaning toward each other`
 * **Knight in armor** (gel source, plan 34, decor D22) : `a western medieval knight in plate armor on horseback, raised lance, banner`
 
 # 4. DECORS D1 TO D33 — scene descriptions (style independent)
 
 Assembly rule : `[DECOR OPENER of the chosen style] + [PERIOD TREATMENT if ÉPOQUE register] + scene description + [decor Avoid base of the style]`. All decors are ÉPOQUE register except D3 and D33 (CADRE register : no period treatment). Multi vignette decors (D4, D5, D7, D14, D16, D29, D30, D32) : one generation per vignette, keeping the same opener.
 
-**D1 · Parc Monceau at dawn** (plans 1, 2, 3, 62, 63) : `October dawn 1797, low mist over the lawns of Parc Monceau, pale gravel paths, dark groves, a large inflated gas balloon swaying in the middle ground, ropes trailing on the grass, wicker basket nearby, very wide establishing shot with a slight high angle`
+**D1 · Parc Monceau at dawn** (plans 1, 2, 3, 63, 64) : `October dawn 1797, low mist over the lawns of Parc Monceau, pale gravel paths, dark groves, a large inflated gas balloon swaying in the middle ground, ropes trailing on the grass, wicker basket nearby, very wide establishing shot with a slight high angle`
 
-**D2 · Sky above Paris** (plans 4, 5, 61 ; reused at 60) : `pale morning sky above Paris, grey rooftops and chimneys shrinking far below, the park visible as a bright patch, aerial high angle view`
+**D2 · Sky above Paris** (plans 4, 5, 62 ; reused at 60) : `pale morning sky above Paris, grey rooftops and chimneys shrinking far below, the park visible as a bright patch, aerial high angle view`
 
 **D3 · The frame interior — CADRE register** (all CADRE plans) : `a warm timeless interior, large honey wood table at the center, mismatched chairs, a big wall screen, a window opening on evening light, shelves loaded with travel objects, frontal wide shot at table height`
 
@@ -362,39 +362,39 @@ Assembly rule : `[DECOR OPENER of the chosen style] + [PERIOD TREATMENT if ÉPOQ
 
 **D20 · Ye, Golden Phoenix tower** (plans 44 to 47) : `the city of Ye in 559, the Golden Phoenix tower rising above packed rooftops, a long straight avenue below, scattered trees, wide aerial view with the tower at the left third`
 
-**D21 · Sichuan gorge, bamboo bridge** (plans 49, 50) : `a deep Sichuan gorge, sheer rock walls, a white river far below, a bamboo cable bridge stretched across the void with a slat deck, lateral wide shot with the drop clearly readable under the bridge`
+**D21 · Sichuan gorge, bamboo bridge** (plans 50, 51) : `a deep Sichuan gorge, sheer rock walls, a white river far below, a bamboo cable bridge stretched across the void with a slat deck, lateral wide shot with the drop clearly readable under the bridge`
 
 **D22 · Knight in armor, gel source 34** (single image with character) : `a western medieval knight in plate armor on horseback, raised lance, banner, sober caparison, plain moorland background, medium shot in slight low angle`
 
 **D23 · Iron chain bridge, gel source 52** : `an early 19th century suspension bridge with iron chains, stone piers, a straight deck above a strait, slight low angle wide shot from the shore`
 
-**D24 · Burning granary** (plan 54) : `legendary China at night, a tall wooden granary ringed by flames, showers of sparks, dusty ground far below, two large conical straw hats as props, low angle wide shot with the granary top readable`
+**D24 · Burning granary** (plan 55) : `legendary China at night, a tall wooden granary ringed by flames, showers of sparks, dusty ground far below, two large conical straw hats as props, low angle wide shot with the granary top readable`
 
-**D25 · Song tower and alley** (plans 55, 56) : `a Song dynasty city at night, a tall tower with an upturned roof, an alley below, a straw cart parked at its foot, lanterns, vertical composition from roof to alley`
+**D25 · Song tower and alley** (plans 56, 57) : `a Song dynasty city at night, a tall tower with an upturned roof, an alley below, a straw cart parked at its foot, lanterns, vertical composition from roof to alley`
 
-**D26 · Montpellier** (plan 59, two plates) : plate 1 `18th century Montpellier, a big tree leaning over a kitchen garden laid out in squares, wide shot` · plate 2 `the observatory tower rising above the rooftops, a small square at its foot, wide shot` · props : `two large parasols, a big stretched canvas frame, a quill and inkwell for the insert`
+**D26 · Montpellier** (plan 60, two plates) : plate 1 `18th century Montpellier, a big tree leaning over a kitchen garden laid out in squares, wide shot` · plate 2 `the observatory tower rising above the rooftops, a small square at its foot, wide shot` · props : `two large parasols, a big stretched canvas frame, a quill and inkwell for the insert`
 
-**D27 · Wall walk with armors** (plan 66) : `a Chinese wall walk at early morning, crenellations, weapon racks, a pale cuirass of folded paper sheets with three stuck arrows, a dark metal armor beside it, medium shot along the wall walk`
+**D27 · Wall walk with armors** (plan 67) : `a Chinese wall walk at early morning, crenellations, weapon racks, a pale cuirass of folded paper sheets with three stuck arrows, a dark metal armor beside it, medium shot along the wall walk`
 
-**D28 · Alley of the banknotes** (plan 67) : `a narrow Sichuan alley around 1023, blind walls, dirt ground, a dark corner in the foreground, a lit far end where a patrol lantern passes, a bundle of old banknotes and a freshly dug hole, medium shot down the axis of the alley`
+**D28 · Alley of the banknotes** (plan 68) : `a narrow Sichuan alley around 1023, blind walls, dirt ground, a dark corner in the foreground, a lit far end where a patrol lantern passes, a bundle of old banknotes and a freshly dug hole, medium shot down the axis of the alley`
 
-**D29 · Vignettes of writing** (plan 65, three vignettes) : vignette 1 `an Uruk clay tablet covered in cuneiform signs, a stylus beside it, close shot` · vignette 2 `a frieze of painted hieroglyphs on a pale wall, muted pigments, close shot` · vignette 3 `a Han dynasty paper workshop, a pulp vat, a screen frame being lifted, pale sheets drying on lines, medium shot`
+**D29 · Vignettes of writing** (plan 66, three vignettes) : vignette 1 `an Uruk clay tablet covered in cuneiform signs, a stylus beside it, close shot` · vignette 2 `a frieze of painted hieroglyphs on a pale wall, muted pigments, close shot` · vignette 3 `a Han dynasty paper workshop, a pulp vat, a screen frame being lifted, pale sheets drying on lines, medium shot`
 
-**D30 · Printed scroll and Bi Sheng workshop** (plan 68, two images) : image 1 `a long printed scroll unrolled on a table, crisp columns of characters, an ornate frontispiece, original design evoking an ancient printed sutra without reproducing any existing work, close lateral shot` · image 2 `the workshop of Bi Sheng, wooden cases holding thousands of small clay type characters, a wax composition plate on the bench, a small brazier, medium high angle shot on the cases`
+**D30 · Printed scroll and Bi Sheng workshop** (plan 69, two images) : image 1 `a long printed scroll unrolled on a table, crisp columns of characters, an ornate frontispiece, original design evoking an ancient printed sutra without reproducing any existing work, close lateral shot` · image 2 `the workshop of Bi Sheng, wooden cases holding thousands of small clay type characters, a wax composition plate on the bench, a small brazier, medium high angle shot on the cases`
 
-**D31 · Alchemy furnaces** (plan 70) : `a Taoist alchemy laboratory, brick furnaces, glass and clay retorts, slow drifting smoke, jars lined on shelves, a bellows and sealed pots, wide shot at bench height`
+**D31 · Alchemy furnaces** (plan 71) : `a Taoist alchemy laboratory, brick furnaces, glass and clay retorts, slow drifting smoke, jars lined on shelves, a bellows and sealed pots, wide shot at bench height`
 
-**D32 · Festival sky, battlefield** (plan 71, two images) : image 1 `a new year night sky above Chinese rooftops, festival rockets blooming in bright bursts, very wide shot` · image 2 `a battlefield at dusk, fire lances, primitive cannon mouths, low smoke, no wounded visible, family friendly, very wide shot`
+**D32 · Festival sky, battlefield** (plan 72, two images) : image 1 `a new year night sky above Chinese rooftops, festival rockets blooming in bright bursts, very wide shot` · image 2 `a battlefield at dusk, fire lances, primitive cannon mouths, low smoke, no wounded visible, family friendly, very wide shot`
 
-**D33 · Present day sunny park, POST 74 source — CADRE register** : `a present day park in full sunlight, bright lawn, round trees, a small colorful festival kite high in the blue sky, its line running out of frame, distant unidentifiable silhouettes optional, gentle low angle wide shot toward the kite`
+**D33 · Present day sunny park, POST 75 source — CADRE register** : `a present day park in full sunlight, bright lawn, round trees, a small colorful festival kite high in the blue sky, its line running out of frame, distant unidentifiable silhouettes optional, gentle low angle wide shot toward the kite`
 
 # 5. SHARED ASSET IMAGES (mutualized, English)
 
-* **Hand and satchel insert** (CADRE register, reused at plans 23, 29, 34, 37, 63, 64, 67, 69, 72, 73) : `[STYLE OPENER of the chosen style], close up insert on a warm wooden table: Sam's hand slipping an object into the open aged leather satchel covered with travel labels, the object interchangeable between generations, 16:9 frame` — in Style B the hand is an inkman hand : small round black hand on a thin stick wrist.
-* **Elio gel portrait** (reused for plans 15, 25, 27, 34, 52) : generate once from the validated Style bible turnaround of the chosen style, full vivid colors, tablet raised, neutral background, background removed at compositing.
+* **Hand and satchel insert** (CADRE register, reused at plans 23, 29, 34, 37, 64, 65, 68, 70, 73, 74) : `[STYLE OPENER of the chosen style], close up insert on a warm wooden table: Sam's hand slipping an object into the open aged leather satchel covered with travel labels, the object interchangeable between generations, 16:9 frame` — in Style B the hand is an inkman hand : small round black hand on a thin stick wrist.
+* **Elio gel portrait** (reused for plans 15, 25, 27, 34, 53) : generate once from the validated Style bible turnaround of the chosen style, full vivid colors, tablet raised, neutral background, background removed at compositing.
 * **Paper owl kite** (strict continuity, plans 44, 45, 47) : `[PERIOD TREATMENT + STYLE OPENER], a huge kite shaped like an owl, bamboo frame, stretched paper, spread wings, grip bars, alone on a plain neutral background`
-* **Garnerin's balloon and basket** (strict continuity, plans 1, 2, 3, 4, 5, 6, 60, 61, 62, 63) : `[PERIOD TREATMENT + STYLE OPENER], a large inflated hydrogen balloon of 1797, tall rounded envelope of varnished silk in undyed cream with evenly spaced vertical stripes in muted brick red, a wide net of ropes over the envelope, a hoop below it, a round wicker basket hanging from the hoop, alone on a plain neutral background, the whole object visible from top to bottom` — the reference that was missing from the pilot : the balloon was described in words on each shot and came out striped cream on the near shots and striped orange on the distant 4b shots. Reinject it on every shot listed above, at the props rank.
-* **La Loubère engraved plate** (plan 58) : `an original engraving plate in the style of 17th century book illustration, acrobats jumping under large parasols, readable title Du royaume de Siam, no reproduction of any existing engraving, aged paper tone`
+* **Garnerin's balloon and basket** (strict continuity, plans 1, 2, 3, 4, 5, 6, 61, 62, 63, 64) : `[PERIOD TREATMENT + STYLE OPENER], a large inflated hydrogen balloon of 1797, tall rounded envelope of varnished silk in undyed cream with evenly spaced vertical stripes in muted brick red, a wide net of ropes over the envelope, a hoop below it, a round wicker basket hanging from the hoop, alone on a plain neutral background, the whole object visible from top to bottom` — the reference that was missing from the pilot : the balloon was described in words on each shot and came out striped cream on the near shots and striped orange on the distant 4b shots. Reinject it on every shot listed above, at the props rank.
+* **La Loubère engraved plate** (plan 59) : `an original engraving plate in the style of 17th century book illustration, acrobats jumping under large parasols, readable title Du royaume de Siam, no reproduction of any existing engraving, aged paper tone`
 
 
 # 7. OBJETS DE CONTINUITÉ — descriptions canoniques
@@ -403,12 +403,12 @@ Assembly rule : `[DECOR OPENER of the chosen style] + [PERIOD TREATMENT if ÉPOQ
 
 Trois statuts : **VALIDÉ** = une planche existe et a été contrôlée ; **À GÉNÉRER** = la description est arrêtée, la planche reste à faire ; **À ARBITRER** = la description est une proposition, elle attend l'avis de Guillaume.
 
-## 7.1 Ballon de Garnerin — VALIDÉ (plans 1 à 6, 60 à 63)
+## 7.1 Ballon de Garnerin — VALIDÉ (plans 1 à 6, 61 à 64)
 
 Grand ballon à hydrogène de 1797. **Forme** : enveloppe haute et arrondie, plus haute que large, se resserrant vers le bas en un long cône de cordes. **Structure** : fuseaux verticaux de soie assemblés bord à bord, chaque fuseau se terminant en **pointe d'arc** à l'endroit le plus large de l'enveloppe ; un filet de cordes en losanges jeté sur la moitié haute ; une bande de corde horizontale ceinturant l'enveloppe à son plus grand diamètre ; les suspentes convergent sous l'enveloppe vers un cercle de bois d'où pend la nacelle. **Matière** : soie vernie, cordage de chanvre clair, cercle de bois brut. **Couleurs** : fuseaux **alternés rose poussiéreux et vert sauge**, filet et cordages en chanvre naturel. **Détail distinctif** : l'alternance des deux couleurs et les pointes en arc à l'équateur. **Ce qu'il n'a pas** : pas de rayures orangées, pas d'enveloppe unie, pas de nacelle rectangulaire, pas de brûleur — c'est un ballon à gaz, pas une montgolfière.
 Bannières : **uniquement au plan 1a-3**, en tissu uni sans emblème ni lettrage (RÈGLE 33).
 
-## 7.2 Nacelle — VALIDÉ (plans 1 à 6, 60 à 63)
+## 7.2 Nacelle — VALIDÉ (plans 1 à 6, 61 à 64)
 
 **Forme** : nacelle **ronde** et profonde, plus haute que large, à fond plat. **Structure** : osier tressé en **bandes horizontales régulières** ; **rebord roulé épais entouré de corde** faisant tout le tour du haut ; quatre cordes de suspension partant du rebord aux quarts et nouées à des anneaux de fer ; deux petits sacs de lest accrochés à l'extérieur contre la paroi ; à l'intérieur, un plancher d'osier tressé, nu. **Matière** : osier naturel couleur miel, corde de chanvre, anneaux de fer forgé. **Échelle** : profonde jusqu'à la taille d'un homme debout, deux hommes peuvent s'y tenir côte à côte, à peine plus large que profonde. **Détail distinctif** : le bourrelet de corde du rebord et les deux sacs de lest. **Ce qu'elle n'a pas** : **pas de couvercle**, pas de forme rectangulaire, pas de panneaux, pas de poignées de panier de pique-nique, pas de second panier dans le champ.
 Contenu selon le plan : le paquet de soie au sol (plans 3 à 5), le couteau dans sa gaine contre la **paroi intérieure** (plan 5-1). Rien d'autre.
@@ -417,15 +417,15 @@ Contenu selon le plan : le paquet de soie au sol (plans 3 à 5), le couteau dans
 
 Couteau de marin du Directoire. **Forme** : lame droite courte et large, environ la longueur d'une main, pointe légèrement tombante. **Structure** : lame d'un seul tenant, soie prise dans un manche de bois à deux plaquettes rivetées, virole de laiton ; gaine de cuir fauve à passant, **fixée contre la paroi intérieure de la nacelle**, jamais à la ceinture. **Matière** : acier gris mat, bois sombre, laiton terni, cuir. **Détail distinctif** : la gaine de cuir plaquée sur l'osier. **Ce qu'il n'a pas** : pas de lame courbe, pas de couteau pliant, pas de poignard d'apparat, pas de garde.
 
-## 7.4 Paquet puis voilure de soie — À GÉNÉRER (plans 3 à 6, 60 à 63)
+## 7.4 Paquet puis voilure de soie — À GÉNÉRER (plans 3 à 6, 61 à 64)
 
-Le parachute, dans ses deux états. **Replié** (plans 1b à 5) : fuseau de soie **écrue crème non teinte**, plié et ceinturé de deux sangles de toile comme un parapluie fermé, **suspendu entre le ballon et la nacelle** — jamais posé au plancher ; sa couronne est reliée au ballon par UNE corde, ses suspentes descendent au rebord de la nacelle. **Voilure** (plans 6 et 60 à 63) : demi-sphère de trente-deux fuseaux de la même soie crème, un trou d'évent au sommet, les suspentes convergeant vers la nacelle sous elle. **Matière** : soie écrue mate, sangles de lin, suspentes de chanvre clair. **Détail distinctif** : la couleur crème non teinte, identique dans les deux états, qui la distingue du ballon coloré. **Ce qu'il n'a pas** : pas de couleur vive, pas de motif, pas de parachute moderne rectangulaire, pas de harnais de corps.
+Le parachute, dans ses deux états. **Replié** (plans 1b à 5) : fuseau de soie **écrue crème non teinte**, plié et ceinturé de deux sangles de toile comme un parapluie fermé, **suspendu entre le ballon et la nacelle** — jamais posé au plancher ; sa couronne est reliée au ballon par UNE corde, ses suspentes descendent au rebord de la nacelle. **Voilure** (plans 6 et 61 à 64) : demi-sphère de trente-deux fuseaux de la même soie crème, un trou d'évent au sommet, les suspentes convergeant vers la nacelle sous elle. **Matière** : soie écrue mate, sangles de lin, suspentes de chanvre clair. **Détail distinctif** : la couleur crème non teinte, identique dans les deux états, qui la distingue du ballon coloré. **Ce qu'il n'a pas** : pas de couleur vive, pas de motif, pas de parachute moderne rectangulaire, pas de harnais de corps.
 
-## 7.5 Sacoche de Sam — À ARBITRER (tout l'épisode, plans 9 à 73)
+## 7.5 Sacoche de Sam — À ARBITRER (tout l'épisode, plans 9 à 74)
 
 **Forme** : besace rectangulaire à rabat, portée en bandoulière, plus large que haute, souple et gonflée par l'usage. **Structure** : rabat couvrant les deux tiers, fermé par deux sangles à boucles de laiton ; une longue bandoulière réglable ; un soufflet sur chaque côté ; une poche plate au dos. **Matière** : cuir vieilli assoupli, coutures apparentes, laiton terni. **Couleurs** : cuir brun tabac, **couvert d'étiquettes de voyage** aux couleurs passées, collées de travers et se recouvrant. **Détail distinctif** : les étiquettes, dont la densité augmente au fil de la saison. **Ce qu'elle n'a pas** : pas de logo lisible, pas de texte lisible sur les étiquettes (RÈGLE universelle : aucun lettrage), pas de sac à dos, pas de fermeture éclair.
 
-## 7.6 Les neuf objets de la table — À ARBITRER (plans 9, 23, 29, 34, 37, 63, 64, 67, 69, 72, 73)
+## 7.6 Les neuf objets de la table — À ARBITRER (plans 9, 23, 29, 34, 37, 64, 65, 68, 70, 73, 74)
 
 Continuité majeure : la table se vide objet par objet, chacun revient en insert. Chaque objet est **posé seul sur le bois chaud de la table**, éclairé de la même façon, à la même échelle relative.
 
@@ -455,7 +455,7 @@ Grand cerf-volant chinois en forme de hibou. **Forme** : envergure de deux bras,
 
 Harnais de trait chinois. **Forme** : collier rembourré épousant les épaules de l'animal, ouvert vers le bas. **Structure** : âme de bois cintrée, garnissage de paille et de feutre, gaine de cuir cousue, deux anneaux de fer aux extrémités pour les traits. **Matière** : cuir brun, feutre gris, fer forgé. **Détail distinctif** : le rembourrage épais qui repose sur l'épaule et non sur la gorge — c'est tout le sujet du plan. **Ce qu'il n'a pas** : pas de sangle serrant le cou, pas de métal apparent sur le dessus.
 
-## 7.11 Parasols et sacs des pillards — À ARBITRER (plans 55, 56)
+## 7.11 Parasols et sacs des pillards — À ARBITRER (plans 56, 57)
 
 **Parasols** : grands parasols siamois en papier huilé tendu sur baguettes de bambou rayonnantes, manche long, papier ocre uni, bord légèrement retroussé, sans motif ni lettrage. **Sacs** : besaces de toile de chanvre écrue, nouées au col par une cordelette, déformées par leur contenu, tachées de terre.
 

@@ -26,7 +26,7 @@ Géographie invariante :
 * Naya est assise à l'extrémité ouest, **gauche de l'écran**, de trois quarts droite, carnet devant elle, crayon en main droite.
 * Elio est assis à l'extrémité est, **droite de l'écran**, de trois quarts gauche, tablette translucide devant lui ou levée en main droite.
 * La porte est dans le mur ouest, **bord gauche du cadre**. Sam entre toujours par la gauche.
-* La fenêtre est dans le mur est, **bord droit du cadre**. C'est par elle qu'on voit le cerf volant du soir au plan 79.
+* La fenêtre est dans le mur est, **bord droit du cadre**. C'est par elle qu'on voit le cerf volant du soir au plan 80.
 * Le grand écran mural occupe le fond **gauche**. Quand Sam pointe l'écran, il pointe vers la gauche.
 * Les étagères d'objets de voyage occupent le fond **droit**. Théière et tasses vivent sur la table, côté Naya.
 
@@ -82,7 +82,7 @@ Sa sacoche est son totem. Elle est posée sur la table à sa gauche, donc à dro
 
 Assise à l'extrémité ouest de la table, **gauche de l'écran**, de trois quarts droite. Boucles volumineuses, sweat **bleu sarcelle**, carnet devant elle, crayon en main droite.
 
-Fonction dramatique : elle pose la question du jour et elle note. Sa page revient au plan 75.
+Fonction dramatique : elle pose la question du jour et elle note. Sa page revient au plan 76.
 
 ## Elio
 
@@ -102,7 +102,7 @@ Fonction dramatique : le vérificateur. Il impose la règle du jeu au plan 15, e
 
 Parc Monceau, octobre 1797. Saute d'un ballon à hydrogène sous une voilure de soie. Place fixe dans la nacelle : **à gauche**, debout, main droite gantée sur la corde de largage.
 
-Il tranche la corde au plan 5 ; le verdict est différé jusqu'au plan 62. Parle en « citoyen » et compte en francs.
+Il tranche la corde au plan 5 ; le verdict est différé jusqu'au plan 63. Parle en « citoyen » et compte en francs.
 
 ## L'aide de Garnerin
 
@@ -116,14 +116,14 @@ Plan 3 uniquement à bord. **À droite** dans la nacelle, penché vers Garnerin,
 **Type** : Character
 **Alias** : badaud rond, BADAUD 1, le rond
 
-Bord sud de la foule, **à gauche** au premier plan. Chapeau haut à cocarde tricolore, gilet tendu sur le ventre. Il parie que Garnerin va se tuer. Mêmes place et costume aux plans 2 et 63.
+Bord sud de la foule, **à gauche** au premier plan. Chapeau haut à cocarde tricolore, gilet tendu sur le ventre. Il parie que Garnerin va se tuer. Mêmes place et costume aux plans 2 et 64.
 
 ## Le badaud maigre
 
 **Type** : Character
 **Alias** : badaud maigre, BADAUD 2, le maigre
 
-Bord sud de la foule, **à droite** au premier plan. Canne en main droite, **manteau de laine écrue brune, non teinte, usée et rapiécée**, couleur de toile à sac et de poussière. Il parie dix francs que Garnerin ne coupe pas la corde. Mêmes place et costume aux plans 2 et 63.
+Bord sud de la foule, **à droite** au premier plan. Canne en main droite, **manteau de laine écrue brune, non teinte, usée et rapiécée**, couleur de toile à sac et de poussière. Il parie dix francs que Garnerin ne coupe pas la corde. Mêmes place et costume aux plans 2 et 64.
 
 **Note de fabrication** : la matière est prescrite, jamais la teinte. Nommer une couleur laisse revenir le sarcelle réservé de Naya.
 
@@ -152,28 +152,28 @@ Règle posée par Elio au plan 15 : **chaque objet vérifié retourne dans la sa
 * petit soc de charrue, rangé au plan 23
 * fer d'attelage miniature, rangé au plan 29
 * allumette, rangée au plan 37
-* carré de soie, rangé au plan 63
-* cerf volant de poche, rangé au plan 63
-* boussole, rangée au plan 64
-* billet ancien, rangé au plan 67
-* carte à jouer, rangée au plan 69
-* pétard, rangé au plan 73
+* carré de soie, rangé au plan 64
+* cerf volant de poche, rangé au plan 64
+* boussole, rangée au plan 65
+* billet ancien, rangé au plan 68
+* carte à jouer, rangée au plan 70
+* pétard, rangé au plan 74
 
-**Point ouvert, à arbitrer.** Au plan 34, la réplique verrouillée de Sam dit « je range... l'étrier dans la sacoche », mais l'étrier n'est pas l'un des neuf objets et le fer d'attelage est déjà rangé au plan 29. Le compte du plan 64, « Quatre objets », n'est juste que si le plan 34 ne range **rien** physiquement. Traitement retenu en attendant : au plan 34, aucun objet ne quitte la table, la phrase est rhétorique.
+**Point ouvert, à arbitrer.** Au plan 34, la réplique verrouillée de Sam dit « je range... l'étrier dans la sacoche », mais l'étrier n'est pas l'un des neuf objets et le fer d'attelage est déjà rangé au plan 29. Le compte du plan 65, « Quatre objets », n'est juste que si le plan 34 ne range **rien** physiquement. Traitement retenu en attendant : au plan 34, aucun objet ne quitte la table, la phrase est rhétorique.
 
 ## Le couteau de la nacelle
 
 **Type** : Item
 **Alias** : le couteau, la lame
 
-Glissé dans le tressage du **flanc gauche** de la nacelle, côté Garnerin. Tranche la corde de largage aux plans 5 et 60.
+Glissé dans le tressage du **flanc gauche** de la nacelle, côté Garnerin. Tranche la corde de largage aux plans 5 et 61.
 
 ## Le paquet de soie
 
 **Type** : Item
 **Alias** : la soie, le paquet de soie, la voilure
 
-Plié au plancher de la nacelle, entre les deux hommes au plan 3, puis aux pieds de Garnerin. S'ouvre en corolle au plan 61.
+Plié au plancher de la nacelle, entre les deux hommes au plan 3, puis aux pieds de Garnerin. S'ouvre en corolle au plan 62.
 
 **Note de fabrication** : soie écrue crème, matière nommée, jamais une teinte libre.
 
@@ -201,7 +201,7 @@ Vrais sur les 79 plans :
 * Le pansement est sur la main **droite** de Sam.
 * Les couleurs réservées ne débordent jamais sur l'époque.
 * Toute image clé de dialogue se génère **bouches fermées** ; seules les clés de champ contrechamp destinées à la synchro labiale montrent la bouche du locuteur ouverte.
-* **Aucun texte dans l'image, jamais**, sauf le carton titre du plan 6 et la page de titre du plan 58, tous deux posés au montage.
+* **Aucun texte dans l'image, jamais**, sauf le carton titre du plan 6 et la page de titre du plan 59, tous deux posés au montage.
 * Il n'existe qu'**une seule nacelle** dans tout l'épisode.
 * Aucun anachronisme de langage : paysans, badauds, pillards et soldats parlent une langue neutre et datée ; les scènes de 1797 disent « citoyen » et comptent en francs ; **personne ne prononce le mot parachute avant que Lenormand ne le forge à l'écran**.
 
@@ -212,7 +212,7 @@ Vrais sur les 79 plans :
 
 Chaque étape est reliée à la suivante par « mais » ou par « donc », jamais par « et puis ». C'est le test de tenue du récit : une étape qui ne se relie que par « et puis » est une étape à couper.
 
-Trois fils tiennent l'inventaire : l'épreuve publique en boucle, ouverte au plan 1 et refermée au plan 62 ; le jeu de la sacoche, qui vide la table ; la vérification comme dispositif, par les gels d'Elio et les autocorrections de Sam.
+Trois fils tiennent l'inventaire : l'épreuve publique en boucle, ouverte au plan 1 et refermée au plan 63 ; le jeu de la sacoche, qui vide la table ; la vérification comme dispositif, par les gels d'Elio et les autocorrections de Sam.
 
 ## Le tic de méthode
 
@@ -221,4 +221,4 @@ Trois fils tiennent l'inventaire : l'épreuve publique en boucle, ouverte au pla
 
 Formule de Sam, héritée du conteur d'origine, employée chaque fois qu'une source est belle mais non prouvée : « Belle histoire. Rien ne le prouve : c'est une légende. Mais quelle légende ! »
 
-Elle sert notamment sur la légende de Shun, au plan 54.
+Elle sert notamment sur la légende de Shun, au plan 55.

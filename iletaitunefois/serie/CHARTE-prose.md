@@ -62,7 +62,7 @@ La consigne technique devient une sensation :
 | Bouche fermée | Rien : c'est une consigne d'image, elle ne concerne pas le lecteur |
 | Gel d'Elio, tout fige en gris | Elio lève sa tablette et **le récit s'arrête net**, la phrase se casse, on revient à la table |
 
-**Le gel d'Elio se traduit en rythme, jamais en effet spécial.** La scène d'époque s'interrompt au milieu d'un geste, la narration revient dans la pièce, et Elio pose son objection. Cinq fois dans l'épisode : scènes 15, 25, 27, 34, 52.
+**Le gel d'Elio se traduit en rythme, jamais en effet spécial.** La scène d'époque s'interrompt au milieu d'un geste, la narration revient dans la pièce, et Elio pose son objection. Cinq fois dans l'épisode : scènes 15, 25, 27, 34, 53.
 
 ---
 

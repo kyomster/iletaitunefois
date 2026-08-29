@@ -2,7 +2,7 @@
 
 **Version 2, 8 août 2026.** Corrigée après l'audit visuel des 235 images. Les changements par rapport à la v1 sont signalés par ⚠ et sont tous obligatoires : ce sont eux qui empêchent les défauts constatés de se reproduire.
 
-Sam, Sam Bis, Naya, Elio. Ces quatre personnages traversent tous les épisodes.
+Sam, Naya, Elio — trois récurrents, pas un de plus (bible §8) ; Sam Bis est l'incarnation contemporaine de Sam, même personnage, même voix. Ces trois personnages traversent tous les épisodes.
 
 Un prompt complet est la concaténation `bloc de style` + `bloc identité` + `bloc de cadrage` + `Avoid:` + `négatives du personnage` + `négatives de cadrage` + `base négative du style` + **`négative universelle`**.
 

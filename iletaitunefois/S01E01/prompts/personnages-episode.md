@@ -72,7 +72,7 @@ dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit
 
 Chaque planche est générée sur fond neutre, **regardée et validée**, puis réinjectée sur tous les plans de ses scènes avec `same character as reference, same art style as reference`.
 
-## 1. Garnerin — plans 3, 4, 62 ; clip du 5 réutilisé au 60
+## 1. Garnerin — plans 3, 4, 63 ; clip du 5 réutilisé au 61
 
 Styles A et C : `Garnerin, a French aeronaut of the Directoire era, resolute determined face with a calm set jaw, dark tailcoat, hair tied back, pale scarf at the neck, period breeches and buckled shoes, upright decided posture`
 
@@ -90,11 +90,11 @@ Styles A et C : `Yuan Huangtou, a deposed prince of 6th century China, thin and 
 
 Style B : `Yuan Huangtou, an inkman stick figure character, a deposed prince, long loose untied hair drawn as flowing ink strokes around his round head, calm quiet dot eyes, dignified straight posture despite a thin drooping silhouette, a long worn tunic drawn as one simple flat shape, bare wrists`
 
-## 3. Parieurs, paire — plans 2, 63
+## 3. Parieurs, paire — plans 2, 64
 
 Styles A et C : `the two Directoire onlookers standing side by side, full body, three quarter view, at the same scale: the round onlooker on the left wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air; the thin onlooker on the right leaning on a cane, threadbare coat in muted brown and grey only, no blue and no green on any garment, suspicious squint`
 
-⚠ **Couleur nommée en positif, 23 août 2026.** Sur les styles réalistes J et K, le manteau du maigre est sorti en **sarcelle désaturé** dans les deux tirages, vert olive en style D. Deux styles sur trois : la cause est dans le prompt (RÈGLE 7), qui ne nommait aucune couleur. Les négatives `dominant teal outfit, saturated teal clothing` n'y ont rien fait, le sarcelle obtenu étant désaturé : **il passe sous la négative tout en étant la couleur dominante du personnage**. C'est la RÈGLE 30 appliquée à un personnage nommé, et elle compte : le sarcelle vif appartient à Naya, et le maigre est présent aux plans 2 et 63.
+⚠ **Couleur nommée en positif, 23 août 2026.** Sur les styles réalistes J et K, le manteau du maigre est sorti en **sarcelle désaturé** dans les deux tirages, vert olive en style D. Deux styles sur trois : la cause est dans le prompt (RÈGLE 7), qui ne nommait aucune couleur. Les négatives `dominant teal outfit, saturated teal clothing` n'y ont rien fait, le sarcelle obtenu étant désaturé : **il passe sous la négative tout en étant la couleur dominante du personnage**. C'est la RÈGLE 30 appliquée à un personnage nommé, et elle compte : le sarcelle vif appartient à Naya, et le maigre est présent aux plans 2 et 64.
 
 ⚠ Position et chapeaux verrouillés : les couvre chefs étaient inversés d'un style à l'autre, et le « haut chapeau » sortait en bicorne.
 
@@ -108,13 +108,13 @@ Styles A et C : `the two Chinese farmers of the Warring States period standing s
 
 Style B : `the two Chinese farmer inkman characters of the Warring States period standing side by side, full body, three quarter view, at the same scale: one farmer inkman speckled with scattered seed dots, wide conical straw hat on his round head, simple tunic in muted brown, baffled open mouth, both mitten hands visible; one farmer inkman standing at a wooden three row seed drill, cloth apron in muted grey brown, quiet proud smile, both mitten hands visible`
 
-## 5. Pilleurs, paire — plans 55, 56
+## 5. Pilleurs, paire — plans 56, 57
 
 Styles A et C : `the two Song dynasty looters standing side by side, full body, three quarter view, at the same scale: a stocky looter holding two large parasols, tight dark clothes, overconfident grin; a thin looter with loot sacks, nervous shifty eyes`
 
 Style B : `the two Song dynasty looter inkman characters standing side by side, full body, three quarter view, at the same scale: a stocky looter inkman holding two large parasols in his mitten hands, tight dark clothes drawn as flat shapes, overconfident grin; a thin looter inkman with loot sacks, nervous shifty dot eyes`
 
-## 6. Porteurs du pont — plans 49, 50
+## 6. Porteurs du pont — plans 50, 51
 
 Styles A et C : `the two Sichuan porters, full body, three quarter view, one slightly behind the other, each carrying a TALL basket loaded high on his back with shoulder straps, plus a carrying pole across the shoulders, rope sandals, worn cloth clothes in muted earth tones, calm assured stride`
 
@@ -130,7 +130,7 @@ Styles A et C : `the monk Huaibing, a Song dynasty Buddhist monk, full body, thr
 
 Style B : `the monk Huaibing as an inkman stick figure character, a Song dynasty Buddhist monk, full body, three quarter view, bare round shaved head, serene curved closed eyes, gentle small smile, a simple plain robe drawn as one flat shape, calm open gesture, both mitten hands clearly visible with their small thumb`
 
-## 8. Lenormand — plan 59
+## 8. Lenormand — plan 60
 
 Styles A et C : `Lenormand, a young tousled French scientist of the 18th century, full body, three quarter view, PALE CREAM period coat, undone jabot, anxious enthusiasm, holding TWO large closed parasols, one in each hand, both parasols clearly visible`
 
@@ -140,7 +140,7 @@ Style B : `Lenormand as a young inkman stick figure character, an 18th century F
 
 ⚠ `both mitten hands attached to his arms` : sa planche B avait une moufle flottante détachée du corps et des ombrelles sans porteur.
 
-## 9. Alchimistes taoïstes, paire — plan 70
+## 9. Alchimistes taoïstes, paire — plan 71
 
 Version propre, styles A et C : `the two Taoist alchemists standing side by side, full body, three quarter view, at the same scale: an old alchemist with a long thin grey beard, dark robe, cautious pose, holding a glass retort with both hands; a young assistant in a light robe, rolled sleeves, worried look`
 
@@ -162,7 +162,7 @@ Styles A et C : `a Han dynasty carter, full body, three quarter view, stocky bui
 
 Style B : `a Han dynasty carter as an inkman stick figure character, full body, three quarter view, a slightly rounded stocky body shape, short crossed tunic drawn flat, flat hat on his round head, satisfied craftsman smile, holding a padded shoulder collar with both mitten hands, each mitten hand clearly showing its small thumb`
 
-## 11. Foule Directoire — plans 1, 2, 4, 62, 63
+## 11. Foule Directoire — plans 1, 2, 4, 63, 64
 
 Styles A et C : `a dozen Directoire crowd silhouettes, MOST OF THEM SEEN FROM BEHIND and the rest in three quarter view from behind, varied scales, NO FACE VISIBLE ON ANY FIGURE, no facial features at all: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, one closed umbrella, simplified figures less detailed than main characters`
 
