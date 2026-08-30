@@ -6,7 +6,7 @@ Ce qui est propre à l'épisode. La chaîne (LTX-2.5 voix libres, Eleven Music, 
 
 ## 1. Ce qu'il y a à dire
 
-2 031 mots entre guillemets, tous attribués (comptage par blancs, celui de Studio) ; environ 11 200 caractères ; débit moyen 92.4 mots par minute, dans la fourchette 85 à 95 de la méthode.
+2 031 mots entre guillemets, tous attribués (comptage par blancs) ; environ 11 200 caractères ; débit moyen 92.4 mots par minute, dans la fourchette 85 à 95 de la méthode.
 
 | Locuteur | Répliques | Mots | Part | Plans |
 |---|---|---|---|---|

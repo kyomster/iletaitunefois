@@ -30,7 +30,6 @@ iletaitunefois/
       identifiants.md             media_id et job_id Higgsfield
     novelcrafter/                 le roman en prose, le manuscrit technique, le codex
     donnees/                      LA VÉRITÉ : plans, répliques, décors, faits, personnages, continuité, assets, contrats, attendus, décisions, etat.json
-    studio/                       trace de l'essai Studio (29-30 août 2026), abandonné
 ```
 
 ## Où en est S01E01

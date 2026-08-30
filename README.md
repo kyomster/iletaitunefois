@@ -5,7 +5,7 @@ Ce dépôt contient tout ce qu'il faut pour créer une série animée générée
 ```
 ecriture/          la méthode d'écriture générique : fiche épisode → scénario → plan de production ; import Novelcrafter
 styles/            17 styles : STYLE.md, style.json (blocs verrouillés, copiés tels quels), exemples validés
-atelier/           GUIDE de préparation, METHODE d'images (42 règles), STRATEGIE vidéo (LTX-2.5), RUNPOD, STUDIO (le serveur MCP), scripts, moteurs écartés, spec studio
+atelier/           GUIDE de préparation, METHODE d'images (42 règles), STRATEGIE vidéo (LTX-2.5), RUNPOD, scripts, moteurs écartés, spec studio
 iletaitunefois/    la série : bible, troupe, S01E01 (scénario, plan de production, briques, planches, clés, audit, décisions)
 ```
 

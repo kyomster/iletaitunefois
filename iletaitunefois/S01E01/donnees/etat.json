@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "resume": "Style P retenu ; pilote (plans 1 à 6) rendu et vérifié ; scénario révisé le 29 août (80 plans, 21 min 59) en attente de la signature de Guillaume ; couche de données créée le 30 août, les markdown sont désormais générés. Studio (serveur MCP) abandonné le 30 août : tout est local.",
+  "resume": "Style P retenu ; pilote (plans 1 à 6) rendu et vérifié ; scénario révisé le 29 août (80 plans, 21 min 59) en attente de la signature de Guillaume ; couche de données créée le 30 août, les markdown sont désormais générés. Tout est local, dans le dépôt.",
   "ouvert": [
     "Signature de Guillaume sur la révision du 29 août (plans 24, 25, 35, 48 et leurs répliques en statut « propose »)",
     "Planches du couteau et du parachute à générer, puis à rattacher (continuite/couteau, continuite/parachute)",

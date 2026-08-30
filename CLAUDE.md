@@ -52,4 +52,3 @@ fin de session → mettre à jour donnees/etat.json (où on en est, ce qui est o
 * Écrire un épisode : `ecriture/METHODE-ecriture.md` ; la série : `iletaitunefois/serie/BIBLE-Les-Decouvreurs.md` ; le corpus source : `iletaitunefois/fiches_verifie/` (la fiche **et son audit**, à la dernière passe).
 * Préparer une séquence : `atelier/GUIDE-preparation-episode.md` ; images : `atelier/METHODE-generation-images.md` ; vidéo et son : `atelier/STRATEGIE-video.md` ; rendu : `atelier/RUNPOD.md`.
 * Scripts : `atelier/scripts/` — `donnees.py` (la couche), `rendre.py`, `doctor.py`, `contexte.py`, `assembler_*.py` (prompts), `run_ltx25_runpod.py`, `runpod.py`, `runpod_s3.py`, `analyse_montage.py`.
-* Studio (serveur MCP essayé les 29-30 août 2026) est abandonné : `atelier/STUDIO.md` en garde la trace.

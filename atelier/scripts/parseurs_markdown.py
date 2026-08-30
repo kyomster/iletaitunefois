@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Parseurs purs du dépôt vers des structures Python, pour l'import dans Studio.
+"""Parseurs purs des markdown de S01E01 vers des structures Python (ils ont servi à l'extraction du 30 août 2026 ; extraire.py).
 
 Rien n'est complété de mémoire : chaque fonction rend ce que le document dit, et laisse nul ce qu'il ne dit pas.
 `python studio_sources.py --verifier` imprime les comptages (plans, durée, répliques, mots, décors, locuteurs, règles)
@@ -16,6 +16,9 @@ Sources lues (S01E01 des Découvreurs, série « Il était une fois ») :
   iletaitunefois/S01E01/pilote/DECISIONS.md         décisions en vigueur et remplacées
   iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_….audit.md   faits sourcés (tableau des corrections)
   styles/*/style.json                               via bibliotheque.charger_styles()
+
+Depuis que les documents sont générés par rendre.py, la source de vérité est iletaitunefois/S01E01/donnees/ : ces
+parseurs ne servent plus qu'à relire un markdown rédigé (bible, méthode, verdicts, décisions, audit du corpus).
 """
 import json
 import re

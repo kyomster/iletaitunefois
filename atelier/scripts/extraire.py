@@ -2,7 +2,8 @@
 """Extraction UNIQUE (30 août 2026) des markdown de S01E01 vers la couche de données.
 
 Après cette extraction, les markdown sont générés par rendre.py et ne s'éditent plus. Le script reste dans le
-dépôt comme trace de ce qui a été extrait d'où ; il ne doit plus être relancé sur des fichiers générés.
+dépôt comme trace de ce qui a été extrait d'où ; il ne doit plus être relancé (ses fichiers d'entrée de saisie,
+`S01E01/studio/`, ne sont plus dans l'arbre — commit ef40741 de l'historique).
 
 Ce qu'il produit :
   scenario.json     les blocs du scénario (texte verbatim, séquences, plans, minutage), dans l'ordre
@@ -21,12 +22,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import donnees as D  # noqa: E402
-import studio_sources as S  # noqa: E402
+import parseurs_markdown as S  # noqa: E402
 from bibliotheque import charger_briques, charger_styles  # noqa: E402
 
 VALIDE_SCENARIO = "2026-08-22"   # les 79 plans d'origine, arbitrés par Guillaume ; la révision du 29 août est « propose »
 PLANS_REVISES = {24, 25, 35, 48}
-STUDIO = S.EP / "studio"
+STUDIO = S.EP / "studio"   # dossier de saisies du 29-30 août 2026, supprimé depuis : dans l'historique git (commit ef40741)
 
 
 # ---------------------------------------------------------------- scénario

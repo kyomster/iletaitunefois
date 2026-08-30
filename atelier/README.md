@@ -1,6 +1,6 @@
 # Atelier — comment on fabrique les images et la vidéo
 
-Tout ce qui est **indépendant de la série et du style** : la méthode d'images, la stratégie vidéo, le mode d'emploi RunPod, les scripts, les moteurs essayés puis écartés, et la spécification du studio à industrialiser. Une nouvelle série y puise sans rien réécrire ; ce qu'elle apporte de nouveau s'y consigne au moment où c'est acquis.
+Tout ce qui est **indépendant de la série et du style** : la méthode d'images, la stratégie vidéo, le mode d'emploi RunPod, les scripts, et les moteurs essayés puis écartés. Une nouvelle série y puise sans rien réécrire ; ce qu'elle apporte de nouveau s'y consigne au moment où c'est acquis.
 
 ```
 atelier/
@@ -11,7 +11,6 @@ atelier/
   scripts/                       les outils, génériques : ils lisent styles/*/style.json et un module de briques de série
   runpod/                        les bootstraps de pod (LTX-2.5 sur volume ; avec ID-LoRA pour le mode référencé)
   moteurs-ecartes/               Wan 2.2, S2V, InfiniteTalk, MiniMax H3, LTX-2.3 : scripts exécutables + VERDICTS.md
-  studio/                        la spec du studio v7, l'analyse d'écarts et l'amendement C
 ```
 
 ## Le parcours d'un épisode, en six pas

@@ -99,7 +99,7 @@ def rendre_son(plans, reps):
         if b["type"] == "texte":
             out.append(b["md"])
         elif b["type"] == "comptage":
-            out.append(f"{tot_m // 1000} {tot_m % 1000:03d} mots entre guillemets, tous attribués (comptage par blancs, celui de Studio) ; environ {round(tot_c, -2) // 1000} {round(tot_c, -2) % 1000:03d} caractères ; débit moyen {tot_m / (total / 60):.1f} mots par minute, dans la fourchette 85 à 95 de la méthode.".replace(".", ",", 0))
+            out.append(f"{tot_m // 1000} {tot_m % 1000:03d} mots entre guillemets, tous attribués (comptage par blancs) ; environ {round(tot_c, -2) // 1000} {round(tot_c, -2) % 1000:03d} caractères ; débit moyen {tot_m / (total / 60):.1f} mots par minute, dans la fourchette 85 à 95 de la méthode.".replace(".", ",", 0))
         elif b["type"] == "locuteurs":
             lignes = ["| Locuteur | Répliques | Mots | Part | Plans |", "|---|---|---|---|---|"]
             for k in sorted(par, key=lambda k: -par[k]["mots"]):
