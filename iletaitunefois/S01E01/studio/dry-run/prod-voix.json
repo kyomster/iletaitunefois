@@ -1,0 +1,66 @@
+[
+ {
+  "outil": "upsert_voice",
+  "args": {
+   "show": "il-etait-une-fois",
+   "code": "V-grave",
+   "label": "Voix grave de référence (P1 rond péremptoire, P3 grave autoritaire)",
+   "provider": "elevenlabs",
+   "providerVoiceId": "ohItIVrXTBI80RrUECOD",
+   "model": "eleven_v3",
+   "settings": {
+    "usage": "référence de timbre en mode INTEGREE (voix libres LTX-2.5) ; enregistrement des quatre répliques du pilote",
+    "verrouillee_par_guillaume": false
+   },
+   "sourceRef": "iletaitunefois/S01E01/son-et-voix.md@9efb0e5#2"
+  }
+ },
+ {
+  "outil": "assign_voice",
+  "args": {
+   "show": "il-etait-une-fois",
+   "speaker": "BADAUD 1",
+   "code": "V-grave"
+  }
+ },
+ {
+  "outil": "assign_voice",
+  "args": {
+   "show": "il-etait-une-fois",
+   "speaker": "GARNERIN",
+   "code": "V-grave"
+  }
+ },
+ {
+  "outil": "upsert_voice",
+  "args": {
+   "show": "il-etait-une-fois",
+   "code": "V-claire",
+   "label": "Voix claire de référence (P2 maigre méfiant, P4 jeune clair)",
+   "provider": "elevenlabs",
+   "providerVoiceId": "jvSOBXJ1cP2sdvT5RgUP",
+   "model": "eleven_v3",
+   "settings": {
+    "usage": "référence de timbre en mode INTEGREE (voix libres LTX-2.5) ; enregistrement des quatre répliques du pilote",
+    "verrouillee_par_guillaume": false
+   },
+   "sourceRef": "iletaitunefois/S01E01/son-et-voix.md@9efb0e5#2"
+  }
+ },
+ {
+  "outil": "assign_voice",
+  "args": {
+   "show": "il-etait-une-fois",
+   "speaker": "BADAUD 2",
+   "code": "V-claire"
+  }
+ },
+ {
+  "outil": "assign_voice",
+  "args": {
+   "show": "il-etait-une-fois",
+   "speaker": "L'AIDE",
+   "code": "V-claire"
+  }
+ }
+]

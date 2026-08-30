@@ -1,0 +1,627 @@
+[
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "ballon",
+   "label": "Ballon de Garnerin",
+   "kind": "OBJET",
+   "planNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    61,
+    62,
+    63,
+    64
+   ],
+   "note": "§7.1 VALIDÉ — planche Ballon_StyleP — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "nacelle",
+   "label": "Nacelle",
+   "kind": "OBJET",
+   "planNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    61,
+    62,
+    63,
+    64
+   ],
+   "note": "§7.2 VALIDÉ — planche Nacelle_StyleP à deux vues — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "couteau",
+   "label": "Couteau de Garnerin",
+   "kind": "OBJET",
+   "planNumbers": [
+    3,
+    5,
+    61
+   ],
+   "note": "§7.3 À GÉNÉRER — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "parachute",
+   "label": "Parachute : fuseau replié puis voilure ouverte",
+   "kind": "OBJET",
+   "planNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    61,
+    62,
+    63,
+    64
+   ],
+   "note": "§7.4 À GÉNÉRER — gréé entre le ballon et la nacelle, jamais au plancher — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "sacoche-de-sam",
+   "label": "Sacoche de Sam",
+   "kind": "OBJET",
+   "planNumbers": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37,
+    40,
+    43,
+    49,
+    52,
+    54,
+    58,
+    59,
+    65,
+    70,
+    73,
+    74,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "note": "§7.5 À ARBITRER — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "hibou-de-papier",
+   "label": "Hibou de papier (cerf-volant de Yuan Huangtou)",
+   "kind": "OBJET",
+   "planNumbers": [
+    44,
+    45,
+    47,
+    75
+   ],
+   "note": "§7.8 À ARBITRER — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "semoir",
+   "label": "Semoir à trois rangs et soc de fonte",
+   "kind": "MACHINE",
+   "planNumbers": [
+    21,
+    22
+   ],
+   "note": "§7.9 À ARBITRER — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "collier-d-epaule",
+   "label": "Collier d'épaule",
+   "kind": "OBJET",
+   "planNumbers": [
+    28,
+    29
+   ],
+   "note": "§7.10 À ARBITRER — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "parasols-et-sacs",
+   "label": "Parasols et sacs des pillards",
+   "kind": "OBJET",
+   "planNumbers": [
+    56,
+    57
+   ],
+   "note": "§7.11 À ARBITRER — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "tablette-d-elio",
+   "label": "Tablette d'Elio",
+   "kind": "OBJET",
+   "planNumbers": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37,
+    40,
+    43,
+    49,
+    52,
+    54,
+    58,
+    59,
+    65,
+    70,
+    73,
+    74,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "note": "§7.12 À ARBITRER — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "carnet-de-naya",
+   "label": "Carnet de Naya",
+   "kind": "OBJET",
+   "planNumbers": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37,
+    40,
+    43,
+    49,
+    52,
+    54,
+    58,
+    59,
+    65,
+    70,
+    73,
+    74,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "note": "§7.12 À ARBITRER — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "carnet-de-sam",
+   "label": "Carnet de terrain de Sam",
+   "kind": "OBJET",
+   "planNumbers": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37,
+    40,
+    43,
+    49,
+    52,
+    54,
+    58,
+    59,
+    65,
+    70,
+    73,
+    74,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "note": "§7.12 À ARBITRER — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "objet-petit-soc-de-charrue",
+   "label": "petit soc de charrue",
+   "kind": "OBJET",
+   "planNumbers": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23
+   ],
+   "note": "§7.6 À ARBITRER — un des neuf objets de la table — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "objet-fer-d-attelage-miniature",
+   "label": "fer d attelage miniature",
+   "kind": "OBJET",
+   "planNumbers": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28
+   ],
+   "note": "§7.6 À ARBITRER — un des neuf objets de la table — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "objet-allumette",
+   "label": "allumette",
+   "kind": "OBJET",
+   "planNumbers": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37
+   ],
+   "note": "§7.6 À ARBITRER — un des neuf objets de la table — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "objet-carre-de-soie",
+   "label": "carre de soie",
+   "kind": "OBJET",
+   "planNumbers": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37,
+    40,
+    43,
+    49,
+    52,
+    54,
+    58,
+    59
+   ],
+   "note": "§7.6 À ARBITRER — un des neuf objets de la table — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "objet-cerf-volant-de-poche",
+   "label": "cerf volant de poche",
+   "kind": "OBJET",
+   "planNumbers": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37,
+    40,
+    43,
+    49,
+    52,
+    54,
+    58,
+    59
+   ],
+   "note": "§7.6 À ARBITRER — un des neuf objets de la table — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "objet-boussole",
+   "label": "boussole",
+   "kind": "OBJET",
+   "planNumbers": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37,
+    40,
+    43,
+    49,
+    52,
+    54,
+    58,
+    59,
+    65
+   ],
+   "note": "§7.6 À ARBITRER — un des neuf objets de la table — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "objet-billet-ancien",
+   "label": "billet ancien",
+   "kind": "OBJET",
+   "planNumbers": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37,
+    40,
+    43,
+    49,
+    52,
+    54,
+    58,
+    59,
+    65
+   ],
+   "note": "§7.6 À ARBITRER — un des neuf objets de la table — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "objet-carte-a-jouer",
+   "label": "carte a jouer",
+   "kind": "OBJET",
+   "planNumbers": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37,
+    40,
+    43,
+    49,
+    52,
+    54,
+    58,
+    59,
+    65,
+    70
+   ],
+   "note": "§7.6 À ARBITRER — un des neuf objets de la table — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ },
+ {
+  "outil": "upsert_continuity_item",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "key": "objet-petard",
+   "label": "petard",
+   "kind": "OBJET",
+   "planNumbers": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37,
+    40,
+    43,
+    49,
+    52,
+    54,
+    58,
+    59,
+    65,
+    70,
+    73,
+    74
+   ],
+   "note": "§7.6 À ARBITRER — un des neuf objets de la table — iletaitunefois/S01E01/prompts/assets-et-objets.md@9efb0e5#7"
+  }
+ }
+]

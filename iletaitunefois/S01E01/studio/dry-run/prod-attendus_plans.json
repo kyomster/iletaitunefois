@@ -1,0 +1,338 @@
+[
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 1,
+   "order": 0,
+   "kind": "PRESENCE",
+   "text": "Foule Directoire strictement de dos, aucun visage lisible, carnations claires (pas d'aplat noir)",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 1,
+   "order": 1,
+   "kind": "ACCESSOIRE",
+   "text": "Bloc 1a : le ballon seul, amarré ; ni nacelle ni parachute sous le cerceau",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 1,
+   "order": 2,
+   "kind": "ACCESSOIRE",
+   "text": "Bloc 1b : la nacelle ronde à rebord roulé et le parachute replié (fuseau de soie crème ceinturé) apportés par les aides, puis gréés au rebord",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 1,
+   "order": 3,
+   "kind": "ACCESSOIRE",
+   "text": "Un seul ballon, fuseaux rose poussiéreux et vert sauge, filet en losanges — identique à la planche Ballon",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 1,
+   "order": 4,
+   "kind": "ACTION",
+   "text": "Personne ne porte la main à un chapeau ; aucun chapeau n'apparaît dans les mains",
+   "critical": false
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 1,
+   "order": 5,
+   "kind": "CADRAGE",
+   "text": "Plans 1a-1 très large, 1a-3 contre-plongée sur la couronne, 1a-4 dos à hauteur de tête, 1b-3 gros plan sur les nœuds",
+   "critical": false
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 2,
+   "order": 0,
+   "kind": "POSITION",
+   "text": "Le badaud rond à GAUCHE, le maigre à DROITE, penchés l'un vers l'autre",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 2,
+   "order": 1,
+   "kind": "ACCESSOIRE",
+   "text": "Un seul chapeau à cocarde tricolore sur le rond ; une seule canne, dans la main droite du maigre",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 2,
+   "order": 2,
+   "kind": "PRESENCE",
+   "text": "Derrière eux : la foule de dos, puis le ballon avec le parachute replié et la nacelle posée dans l'herbe, beaucoup plus grands que les hommes",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 2,
+   "order": 3,
+   "kind": "INTENTION",
+   "text": "Sur la clé, bouches fermées ; dans le clip, chacun parle sur sa réplique, l'autre écoute bouche fermée",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 2,
+   "order": 4,
+   "kind": "ACCESSOIRE",
+   "text": "Manteau du maigre en laine écrue brune, aucune couleur réservée (sable, sarcelle, orange)",
+   "critical": false
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 3,
+   "order": 0,
+   "kind": "POSITION",
+   "text": "Garnerin DANS la nacelle à gauche ; l'aide DEBOUT AU SOL, hors de la nacelle, à droite, mains sur le rebord — la pelouse visible derrière",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 3,
+   "order": 1,
+   "kind": "ACCESSOIRE",
+   "text": "Le parachute replié SUSPENDU entre le ballon (hors champ) et la nacelle, jamais posé au plancher ; couteau glissé contre la paroi intérieure",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 3,
+   "order": 2,
+   "kind": "PRESENCE",
+   "text": "Deux amarres tendues entrent dans le cadre, tenues par des mains d'équipe : le destinataire de « Lâchez tout »",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 3,
+   "order": 3,
+   "kind": "INTENTION",
+   "text": "Garnerin la main gantée sur la corde de largage, regard levé, mâchoire serrée ; l'aide supplie, main ouverte",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 3,
+   "order": 4,
+   "kind": "PRESENCE",
+   "text": "Les deux visages entièrement visibles, de trois quarts",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 4,
+   "order": 0,
+   "kind": "PRESENCE",
+   "text": "Bloc 4a-1 : Garnerin visible dans la nacelle au décollage, tête et épaules au-dessus du rebord",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 4,
+   "order": 1,
+   "kind": "ACTION",
+   "text": "Les amarres lâchées retombent sur l'herbe ; le ballon s'arrache puis rétrécit au-dessus des cimes (4a-3), toujours le même ballon",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 4,
+   "order": 2,
+   "kind": "ACTION",
+   "text": "Bloc 4a-2 : exactement trois badauds de dos, une main plate en visière au-dessus des yeux, jamais au chapeau",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 4,
+   "order": 3,
+   "kind": "ACCESSOIRE",
+   "text": "Le gréement complet visible en 4a-3 : ballon, parachute replié, nacelle, d'un seul tenant",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 4,
+   "order": 4,
+   "kind": "CADRAGE",
+   "text": "Bloc 4b : vue depuis la nacelle (rebord au premier plan), main gantée sur le rebord, puis Paris sous la brume sans rebord",
+   "critical": false
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 5,
+   "order": 0,
+   "kind": "POSITION",
+   "text": "Le bras et le couteau viennent de L'INTÉRIEUR de la nacelle, rebord d'osier au premier plan",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 5,
+   "order": 1,
+   "kind": "CADRAGE",
+   "text": "Le plan 5-2 tient dans le même cadre le rebord, les suspentes, le parachute replié et LA corde unique qui monte au ballon : on voit ce qui est coupé",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 5,
+   "order": 2,
+   "kind": "ACTION",
+   "text": "5-2 : la corde encore en UN morceau, quelques fibres qui sautent, la lame à mi-chemin ; 5-3 : la corde a cédé, le ballon bondit, le parachute s'ouvre en dôme et la nacelle pend dessous",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 5,
+   "order": 3,
+   "kind": "ACCESSOIRE",
+   "text": "Une seule main (celle de Garnerin, manche sombre), un seul couteau, une seule corde",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 5,
+   "order": 4,
+   "kind": "CADRAGE",
+   "text": "5-3 : une seule image pleine largeur 16:9, ni triptyque ni bandes latérales",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 6,
+   "order": 0,
+   "kind": "CADRAGE",
+   "text": "Image figée tirée du plan 5 en pleine chute ; carton titre posé au montage, aucun texte généré",
+   "critical": true
+  }
+ },
+ {
+  "outil": "upsert_plan_expectation",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 6,
+   "order": 1,
+   "kind": "PRESENCE",
+   "text": "Aucun personnage nouveau ; le ciel et les toits de Paris D2 derrière",
+   "critical": false
+  }
+ }
+]

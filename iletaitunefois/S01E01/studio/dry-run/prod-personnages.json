@@ -1,0 +1,1817 @@
+[
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "SHOW",
+   "show": "il-etait-une-fois",
+   "name": "Sam",
+   "nature": "FICTION",
+   "recurring": true,
+   "ageLabel": "mid thirties",
+   "reservedColor": "sable",
+   "totem": "sacoche à étiquettes",
+   "canonSheet": {
+    "_defaut": "Sam, an original cartoon character in the classic 1930s pulp explorer archetype, a charismatic energetic man in his mid thirties, no eyewear, wide brim sand colored felt fedora with a dark ribbon band clearly visible in every view, worn tilted, short dark brown tousled hair showing under the hat, light stubble, strong jaw, warm confident face with an adventurous half smile and one raised eyebrow, worn sand colored canvas explorer jacket with sleeves pushed up to the elbows, open collar khaki shirt clearly distinct from the jacket underneath, wide brown leather belt with a square buckle, a large aged brown leather satchel worn on a strap across the chest hanging at his hip, its flap covered with colorful travel labels visible in every view, dark cargo trousers, brown hiking boots, both arms and both hands visible",
+    "inkman": "Sam, an inkman stick figure character with a large round white head outlined in bold black ink, simple black dot eyes, expressive cartoon mouth, thin black stick arms and legs, both arms and both mitten hands visible in every view, each arm ending in a simple solid black rounded mitten hand with a small thumb and no separate fingers, solid black simple boots on his stick legs, wearing a wide brim sand colored explorer fedora with a dark band clearly visible in every view, an open sand colored utility jacket with a raised collar, a dark brown leather satchel worn across his body, cheerful confident adventurous expression",
+    "incarnation-contemporaine": "Sam, an original cartoon character, a modern day treasure hunter and field archaeologist in his mid thirties, no hat, no eyewear, dark brown tousled wavy hair, short trimmed stubble beard, warm intelligent face with a wry curious half smile and expressive raised eyebrows, faded indigo blue button up field shirt worn open at the collar with the sleeves rolled up to the forearms, soft olive green scarf loosely knotted around his neck, a wide brown leather strap running diagonally across his chest holding an aged sand colored canvas and leather satchel at his hip, brown leather belt, sand colored chino trousers, worn brown desert boots, both arms and both hands visible",
+    "incarnation-contemporaine-inkman": "Sam, an inkman stick figure character with a large round white head outlined in bold black ink, no hat, a few loose ink strokes of dark tousled hair on top of his round head, simple black dot eyes, expressive cartoon mouth, thin black stick arms and legs, both arms and both mitten hands visible in every view, each arm ending in a simple solid black rounded mitten hand with a small thumb and no separate fingers, solid black simple boots on his stick legs, wearing a faded indigo blue field shirt with the sleeves rolled up, a soft olive green scarf knotted around his neck, a brown leather strap across his body holding a sand colored satchel at his hip, sand colored trousers, curious determined expression",
+    "marqueurs": "chapeau à large bord, veste sable, sacoche à étiquettes ; sans barbe, aucune lunette nulle part ; pansement du jour sur la main droite",
+    "negatives": "whip, coiled rope, bullwhip, revolver, gun, glasses, eyeglasses, goggles, sunglasses, any eyewear, full beard, elderly man, walking stick, staff, cane"
+   },
+   "sourceRef": "iletaitunefois/serie/troupe-recurrente.md@9efb0e5#C"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "SHOW",
+   "show": "il-etait-une-fois",
+   "name": "Naya",
+   "nature": "FICTION",
+   "recurring": true,
+   "ageLabel": "10 ans",
+   "reservedColor": "sarcelle vif",
+   "totem": "carnet",
+   "canonSheet": {
+    "_defaut": "Naya, a cartoon character, a girl aged 10, big voluminous curly dark brown hair drawn as a cloud of many individually defined springy curls with visible highlights and separated locks, warm brown bright curious eyes, oversized vivid teal sweatshirt with long sleeves hanging down over her hands, dark navy leggings, small worn notebook and pencil in hand, blue and white sneakers",
+    "inkman": "Naya, an inkman stick figure character with a large round white head outlined in bold black ink, a big cloud of voluminous curly dark hair drawn as many separate loose black ink strokes with visible gaps between the locks, simple black dot eyes, expressive cartoon mouth, thin black stick arms and legs, each arm ending in a simple solid black rounded mitten hand with a small thumb and no separate fingers, solid black simple shoes on her stick legs, wearing an oversized vivid teal sweatshirt with sleeves hanging past her hands, holding a small worn notebook, curious eager expression",
+    "marqueurs": "boucles volumineuses, sweat sarcelle, carnet",
+    "negatives": "flat solid black hair silhouette, hair drawn as one solid shape, solid black hair mass, bare legs, straight hair, pigtails, school uniform, pastel colors on her outfit, teenager proportions"
+   },
+   "sourceRef": "iletaitunefois/serie/troupe-recurrente.md@9efb0e5#C"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "SHOW",
+   "show": "il-etait-une-fois",
+   "name": "Elio",
+   "nature": "FICTION",
+   "recurring": true,
+   "ageLabel": "12 ans",
+   "reservedColor": "orange vif",
+   "totem": "tablette",
+   "canonSheet": {
+    "_defaut": "Elio, a cartoon character, a likeable boy aged 12, open curious face, relaxed eyebrows, warm friendly half smile, playful and cheeky but never hostile, one eyebrow lifted in gentle amused doubt, flat brim cap in a solid vivid orange worn forward at all times, short dark hair visible at the sides, dark track jacket with two contrasting light side stripes visible on both sleeves in every view, translucent glowing tablet held raised at head height in one hand, dark trousers, high top sneakers",
+    "inkman": "Elio, an inkman stick figure character with a large round white head outlined in bold black ink, simple black dot eyes, open curious relaxed expression, gentle amused half smile, never hostile, thin black stick arms and legs, each arm ending in a simple solid black rounded mitten hand with a small thumb and no separate fingers, solid black simple sneakers on his stick legs, wearing a flat brim cap in solid vivid orange sitting on his round head worn forward, a simple dark track jacket with two light side stripes, holding a small translucent glowing tablet raised at head height in every view",
+    "marqueurs": "casquette orange visière avant, deux bandes, tablette translucide levée à hauteur de tête",
+    "negatives": "angry scowl, frowning glare, villain expression, mean face, sharp pointed angry eyebrows, sneer, smirk of contempt, backwards cap, removed cap, floating cap, bare head, glasses, smartphone, missing tablet"
+   },
+   "sourceRef": "iletaitunefois/serie/troupe-recurrente.md@9efb0e5#C"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Garnerin",
+   "nature": "HISTORIQUE",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "Garnerin, a French aeronaut of the Directoire era, resolute determined face with a calm set jaw, dark tailcoat, hair tied back, pale scarf at the neck, period breeches and buckled shoes, upright decided posture",
+    "inkman": "Garnerin, an inkman stick figure character, a few ink strokes of hair tied back on his round head, simple black dot eyes with no eyebrows, resolute mouth drawn as one short flat ink line, closed, wearing a dark Directoire tailcoat drawn as a simple flat shape, a pale scarf knotted at the neck, simple period shoes on his stick legs, upright decided posture",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period character with the palette shifted to muted earth tones, era accurate costume, animation model sheet on plain light warm background, crisp and graphic not painterly: Garnerin, a French aeronaut of the Directoire era, resolute determined face, clenched jaw, dark tailcoat, hair tied back, pale scarf at the neck, period breeches and buckled shoes, upright decided posture, full body turnaround: front view, three quarter view, side profile, back view, same scale, same character in every view. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters."
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 3,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 4,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 5,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 61,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 63,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "GARNERIN",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "L'aide de Garnerin",
+   "nature": "FICTION",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "an assistant in a rough jacket with rolled up sleeves, seen from behind at the edge of frame",
+    "inkman": "an inkman assistant in a rough flat jacket, seen from behind at the edge of frame",
+    "de-face": "an assistant in a rough jacket with rolled up sleeves, his plain honest face fully visible, short hair, calm attentive expression"
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 3,
+   "characterId": "<id>",
+   "role": "fiction"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "L'AIDE",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Le badaud rond",
+   "nature": "FICTION",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "the round onlooker wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air",
+    "inkman": "the round bellied onlooker inkman with a tall cylindrical top hat with a cockade on his round head, waistcoat drawn as a flat shape stretched over his belly, peremptory raised chin",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period characters with the palette shifted to muted earth tones, era accurate costumes, animation reference sheet on plain light warm background, crisp and graphic not painterly: two Directoire onlookers standing side by side, full body, three quarter view, same scale: a round onlooker with a tall cockade hat, waistcoat tight over his belly, peremptory self assured air; a thin onlooker leaning on a cane, threadbare coat, suspicious squint. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters."
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 2,
+   "characterId": "<id>",
+   "role": "fiction"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 64,
+   "characterId": "<id>",
+   "role": "fiction"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "BADAUD 1",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Le badaud maigre",
+   "nature": "FICTION",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "the thin onlooker leaning on a cane, threadbare coat in muted brown and grey only, no blue and no green on any garment, suspicious squint",
+    "inkman": "the thin onlooker inkman leaning on a cane, threadbare coat, suspicious half closed dot eyes",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period characters with the palette shifted to muted earth tones, era accurate costumes, animation reference sheet on plain light warm background, crisp and graphic not painterly: two Directoire onlookers standing side by side, full body, three quarter view, same scale: a round onlooker with a tall cockade hat, waistcoat tight over his belly, peremptory self assured air; a thin onlooker leaning on a cane, threadbare coat, suspicious squint. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters.",
+    "realiste": "the thin onlooker leaning on a cane, his coat made of undyed coarse brown wool, worn thin and patched at the elbows, the colour of raw sacking and dust, no dyed fabric on him, suspicious squint"
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 2,
+   "characterId": "<id>",
+   "role": "fiction"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 64,
+   "characterId": "<id>",
+   "role": "fiction"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "BADAUD 2",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Foule Directoire",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "a dozen Directoire crowd silhouettes, MOST OF THEM SEEN FROM BEHIND and the rest in three quarter view from behind, varied scales, NO FACE VISIBLE ON ANY FIGURE, no facial features at all: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, simplified figures less detailed than main characters",
+    "inkman": "a dozen Directoire inkman crowd silhouettes, MOST OF THEM SEEN FROM BEHIND, varied scales, plain round BLANK heads with absolutely no facial features, NO EYES, no dots, no mouths, men with tall hats and simple flat tailcoats, women with high waisted dresses and shawls, a few small inkman children, simplified figures even less detailed than the main characters",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, historical period figures with the palette shifted to muted earth tones, era accurate costumes, crowd reference sheet on plain light warm background, crisp and graphic not painterly: a dozen Directoire crowd silhouettes seen from behind and in three quarter view, varied scales, no readable faces: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, one closed umbrella, simplified figures less detailed than main characters. Avoid: readable faces, portraits, painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art.",
+    "realiste": "a dozen Directoire crowd figures, ALL SEEN FROM BEHIND, turned toward the balloon, NO FIGURE FACING THE CAMERA, thrown out of focus by the shallow depth of field, no readable face on any background figure: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, much less detailed than the main characters",
+    "aplats": "a dozen Directoire crowd figures, EVERY SINGLE ONE SEEN STRICTLY FROM DIRECTLY BEHIND with the back of the head squarely toward the camera, no cheek, no jaw, no ear and no profile visible on any of them, so that no face exists anywhere in the image, turned toward the balloon; the small areas of skin that do show, a nape or a hand, are drawn in the SAME EVENLY LIT FLESH TONE as the main characters, never filled with black, never covered by shadow: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, simplified figures less detailed than the main characters"
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 1,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 2,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 4,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 63,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 64,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Yuan Huangtou",
+   "nature": "HISTORIQUE",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading, historical period character in desaturated muted earth tones, era accurate costume, absolutely no photorealism, character model sheet on plain light grey background: Yuan Huangtou, a deposed prince of 6th century China, thin and dignified, long worn tunic, loose untied hair, gaunt face with a noble bearing and calm gaze, optional rope bindings at the wrists, full body turnaround: front view, three quarter view, side profile, back view, same scale, same character in every view, flat even lighting. Avoid: dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, realistic skin texture, 3D render, CGI, live action, anime style, manga, corporate flat vector art, extra characters.",
+    "inkman": "inkman stick figure cartoon style, large round white head with bold black ink outline, simple dot eyes and expressive mouth, thin black stick limbs, each arm ending in a simple solid black rounded mitten hand with a small thumb, flat graphic character design, simplified era accurate period costume in muted earth tones, character model sheet on plain light neutral background: Yuan Huangtou, an inkman stick figure character, a deposed prince, long loose untied hair drawn as flowing ink strokes around his round head, calm quiet dot eyes, dignified straight posture despite a thin drooping silhouette, a long worn tunic drawn as one simple flat shape, optional rope bindings at the wrists, full body turnaround: front view, three quarter view, side profile, back view, same scale, same character in every view. Avoid: plain round ball hands, hollow circle hands, separate fingers, realistic hands, realistic human anatomy, detailed face, nose, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, 3D render, anime, manga, extra inkman characters.",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period character with the palette shifted to muted earth tones, era accurate costume, animation model sheet on plain light warm background, crisp and graphic not painterly: Yuan Huangtou, a deposed prince of 6th century China, thin and dignified, long worn tunic, loose untied hair, gaunt face with a noble bearing and calm gaze, optional rope bindings at the wrists, full body turnaround: front view, three quarter view, side profile, back view, same scale, same character in every view. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters."
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 44,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 45,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 47,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Fermiers au semoir",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading, historical period characters in desaturated muted earth tones, era accurate costumes, absolutely no photorealism, character reference sheet on plain light grey background: two Chinese farmers of the Warring States period standing side by side, full body, three quarter view, same scale: one farmer covered in scattered seeds, straw hat, simple tunic, baffled expression; one farmer at a wooden three row seed drill, cloth apron, tied sleeves, quiet pride, flat even lighting. Avoid: dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, realistic skin texture, 3D render, CGI, live action, anime style, manga, corporate flat vector art, extra characters.",
+    "inkman": "inkman stick figure cartoon style, large round white heads with bold black ink outline, simple dot eyes and expressive mouths, thin black stick limbs, each arm ending in a simple solid black rounded mitten hand with a small thumb, flat graphic character design, simplified era accurate period costumes in muted earth tones, character reference sheet on plain light neutral background: two Chinese farmer inkman characters of the Warring States period standing side by side, full body, three quarter view, same scale: one farmer inkman speckled with scattered seed dots, wide conical straw hat on his round head, simple tunic, baffled open mouth; one farmer inkman standing at a wooden three row seed drill, cloth apron, quiet proud smile. Avoid: plain round ball hands, hollow circle hands, separate fingers, realistic hands, realistic human anatomy, detailed faces, noses, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, 3D render, anime, manga, extra inkman characters.",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period characters with the palette shifted to muted earth tones, era accurate costumes, animation reference sheet on plain light warm background, crisp and graphic not painterly: two Chinese farmers of the Warring States period standing side by side, full body, three quarter view, same scale: one farmer covered in scattered seeds, straw hat, simple tunic, baffled expression; one farmer at a wooden three row seed drill, cloth apron, tied sleeves, quiet pride. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters."
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 21,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 22,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "PAYSAN 1",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "PAYSAN 2",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Pillards",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading, historical period characters in desaturated muted earth tones, era accurate costumes, absolutely no photorealism, character reference sheet on plain light grey background: two Song dynasty looters standing side by side, full body, three quarter view, same scale: a stocky looter holding two large parasols, tight dark clothes, overconfident grin; a thin looter with loot sacks, nervous shifty eyes, flat even lighting. Avoid: dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, realistic skin texture, 3D render, CGI, live action, anime style, manga, corporate flat vector art, extra characters.",
+    "inkman": "inkman stick figure cartoon style, large round white heads with bold black ink outline, simple dot eyes and expressive mouths, thin black stick limbs, each arm ending in a simple solid black rounded mitten hand with a small thumb, flat graphic character design, simplified era accurate period costumes in muted earth tones, character reference sheet on plain light neutral background: two Song dynasty looter inkman characters standing side by side, full body, three quarter view, same scale: a stocky looter inkman holding two large parasols, tight dark clothes drawn as flat shapes, overconfident grin; a thin looter inkman with loot sacks, nervous shifty dot eyes. Avoid: plain round ball hands, hollow circle hands, separate fingers, realistic hands, realistic human anatomy, detailed faces, noses, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, 3D render, anime, manga, extra inkman characters.",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period characters with the palette shifted to muted earth tones, era accurate costumes, animation reference sheet on plain light warm background, crisp and graphic not painterly: two Song dynasty looters standing side by side, full body, three quarter view, same scale: a stocky looter holding two large parasols, tight dark clothes, overconfident grin; a thin looter with loot sacks, nervous shifty eyes. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters."
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 56,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 57,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "PILLARD 1",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "PILLARD 2",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Porteurs du pont",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading, historical period characters in desaturated muted earth tones, era accurate costumes, absolutely no photorealism, character reference sheet on plain light grey background: two Sichuan porters, full body, three quarter view, one slightly behind the other, loaded with tall baskets, carrying poles, rope sandals, worn cloth clothes, calm assured stride, flat even lighting. Avoid: dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, realistic skin texture, 3D render, CGI, live action, anime style, manga, corporate flat vector art, extra characters.",
+    "inkman": "inkman stick figure cartoon style, large round white heads with bold black ink outline, simple dot eyes and expressive mouths, thin black stick limbs, each arm ending in a simple solid black rounded mitten hand with a small thumb, flat graphic character design, simplified era accurate period costumes in muted earth tones, character reference sheet on plain light neutral background: two Sichuan porter inkman characters, full body, three quarter view, one slightly behind the other, loaded with tall baskets hanging from carrying poles across their shoulders, worn cloth clothes drawn as flat shapes, simple strap sandals on their stick legs, calm assured stride. Avoid: plain round ball hands, hollow circle hands, separate fingers, realistic hands, realistic human anatomy, detailed faces, noses, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, 3D render, anime, manga, extra inkman characters.",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period characters with the palette shifted to muted earth tones, era accurate costumes, animation reference sheet on plain light warm background, crisp and graphic not painterly: two Sichuan porters, full body, three quarter view, one slightly behind the other, loaded with tall baskets, carrying poles, rope sandals, worn cloth clothes, calm assured stride. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters."
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 50,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 51,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Badauds du pont",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "two Sichuan onlookers in cloth tunics, one peremptory, one placid"
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 51,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "LE BADAUD",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "L'AUTRE",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Moine Huaibing",
+   "nature": "HISTORIQUE",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading, historical period character in desaturated muted earth tones, era accurate costume, absolutely no photorealism, character reference sheet on plain light grey background: the monk Huaibing, a Song dynasty Buddhist monk, full body, three quarter view, simple plain robe, shaved head, serene face, calm gestures, quiet authority, flat even lighting. Avoid: dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, realistic skin texture, 3D render, CGI, live action, anime style, manga, corporate flat vector art, extra characters.",
+    "inkman": "inkman stick figure cartoon style, large round white head with bold black ink outline, simple dot eyes and expressive mouth, thin black stick limbs, each arm ending in a simple solid black rounded mitten hand with a small thumb, flat graphic character design, simplified era accurate period costume in muted earth tones, character reference sheet on plain light neutral background: the monk Huaibing as an inkman stick figure character, a Song dynasty Buddhist monk, full body, three quarter view, bare round shaved head, serene curved closed eyes, gentle small smile, a simple plain robe drawn as one flat shape, calm open gesture, quiet authority. Avoid: plain round ball hands, hollow circle hands, separate fingers, realistic hands, realistic human anatomy, detailed face, nose, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, 3D render, anime, manga, extra inkman characters.",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period character with the palette shifted to muted earth tones, era accurate costume, animation reference sheet on plain light warm background, crisp and graphic not painterly: the monk Huaibing, a Song dynasty Buddhist monk, full body, three quarter view, simple plain robe, shaved head, serene face, calm gestures, quiet authority. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters."
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 39,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Lenormand",
+   "nature": "HISTORIQUE",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading, historical period character in desaturated muted earth tones, era accurate costume, absolutely no photorealism, character reference sheet on plain light grey background: Lenormand, a young tousled French scientist of the 18th century, full body, three quarter view, light period coat, undone jabot, anxious enthusiasm, holding two large closed parasols, flat even lighting. Avoid: dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, realistic skin texture, 3D render, CGI, live action, anime style, manga, corporate flat vector art, extra characters.",
+    "inkman": "inkman stick figure cartoon style, large round white head with bold black ink outline, simple dot eyes and expressive mouth, thin black stick limbs, each arm ending in a simple solid black rounded mitten hand with a small thumb, flat graphic character design, simplified era accurate period costume in muted earth tones, character reference sheet on plain light neutral background: Lenormand as a young inkman stick figure character, an 18th century French scientist, full body, three quarter view, tousled ink stroke hair on his round head, wide anxious enthusiastic dot eyes, a light period coat drawn flat with an undone jabot, holding two large closed parasols in his mitten hands. Avoid: plain round ball hands, hollow circle hands, separate fingers, realistic hands, realistic human anatomy, detailed face, nose, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, 3D render, anime, manga, extra inkman characters.",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period character with the palette shifted to muted earth tones, era accurate costume, animation reference sheet on plain light warm background, crisp and graphic not painterly: Lenormand, a young tousled French scientist of the 18th century, full body, three quarter view, light period coat, undone jabot, anxious enthusiasm, holding two large closed parasols. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters."
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 60,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Alchimistes taoïstes",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading, historical period characters in desaturated muted earth tones, era accurate costumes, absolutely no photorealism, character reference sheet on plain light grey background: two Taoist alchemists standing side by side, full body, three quarter view, same scale: an old alchemist with a long thin grey beard, dark robe, cautious gestures, holding a glass retort with both hands; a young assistant in a light robe, rolled sleeves, worried look, flat even lighting. Avoid: dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, realistic skin texture, 3D render, CGI, live action, anime style, manga, corporate flat vector art, extra characters.",
+    "inkman": "inkman stick figure cartoon style, large round white heads with bold black ink outline, simple dot eyes and expressive mouths, thin black stick limbs, each arm ending in a simple solid black rounded mitten hand with a small thumb, flat graphic character design, simplified era accurate period costumes in muted earth tones, character reference sheet on plain light neutral background: two Taoist alchemist inkman characters standing side by side, full body, three quarter view, same scale: an old alchemist inkman with a long thin grey beard drawn as loose ink strokes, dark robe drawn as one flat shape, cautious pose, holding a glass retort with both mitten hands; a young assistant inkman in a light robe, rolled sleeves, worried tilted eyebrow strokes. Avoid: plain round ball hands, hollow circle hands, separate fingers, realistic hands, realistic human anatomy, detailed faces, noses, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, 3D render, anime, manga, extra inkman characters.",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period characters with the palette shifted to muted earth tones, era accurate costumes, animation reference sheet on plain light warm background, crisp and graphic not painterly: two Taoist alchemists standing side by side, full body, three quarter view, same scale: an old alchemist with a long thin grey beard, dark robe, cautious gestures, holding a glass retort with both hands; a young assistant in a light robe, rolled sleeves, worried look. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters."
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 71,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Charretier Han",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "2D cartoon illustration, youtube animation style, vibrant flat design, bold thick clean outlines, simple stylized character design, exaggerated expressive face, flat cel shading, historical period character in desaturated muted earth tones, era accurate costume, absolutely no photorealism, character reference sheet on plain light grey background: a Han dynasty carter, full body, three quarter view, stocky build, short crossed tunic, cloth trousers, flat hat, satisfied craftsman smile, holding a padded shoulder collar in both hands, flat even lighting. Avoid: dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, realistic skin texture, 3D render, CGI, live action, anime style, manga, corporate flat vector art, extra characters.",
+    "inkman": "inkman stick figure cartoon style, large round white head with bold black ink outline, simple dot eyes and expressive mouth, thin black stick limbs, each arm ending in a simple solid black rounded mitten hand with a small thumb, flat graphic character design, simplified era accurate period costume in muted earth tones, character reference sheet on plain light neutral background: a Han dynasty carter as an inkman stick figure character, full body, three quarter view, a slightly rounded stocky body shape, short crossed tunic drawn flat, flat hat on his round head, satisfied craftsman smile, holding a padded shoulder collar in both mitten hands. Avoid: plain round ball hands, hollow circle hands, separate fingers, realistic hands, realistic human anatomy, detailed face, nose, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, 3D render, anime, manga, extra inkman characters.",
+    "cel-2d": "hand drawn traditional 2D cel animation, classic 1990s action adventure cartoon series style, crisp bold black ink outlines with tapered brush weight, clean flat cel shaded color fills with exactly two tones per area and hard edged shadows, appealing shape driven character design, historical period character with the palette shifted to muted earth tones, era accurate costume, animation reference sheet on plain light warm background, crisp and graphic not painterly: a Han dynasty carter, full body, three quarter view, stocky build, short crossed tunic, cloth trousers, flat hat, satisfied craftsman smile, holding a padded shoulder collar in both hands. Avoid: painterly texture, muddy dark colors, soft airbrush shading, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, photorealism, photograph, 3D render, CGI, live action, anime, manga, flat vector art, extra characters."
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 29,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Shun",
+   "nature": "HISTORIQUE",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "a vigorous legendary young man, plain archaic tunic, two large conical straw hats strapped to his arms"
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 55,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "La sentinelle et le général",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "a delighted sentry wearing a pale cuirass of folded paper sheets; an enemy general in dark metal armor, eyebrows raised with interest"
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 67,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "LA SENTINELLE",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "LE GÉNÉRAL",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Compères faux-monnayeurs",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "two accomplices in patched tunics, greedy furtive faces, leaning toward each other"
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 68,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "COMPÈRE 1",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Empereur Gao Yang",
+   "nature": "HISTORIQUE",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "an emperor in a sumptuous dark and gold robe, imperial headdress, cruel amused smile, leaning on the parapet"
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 44,
+   "characterId": "<id>",
+   "role": "historique"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Cavaliers antiques sans étrier",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "Greco Roman riders in short tunics, bare legs, riding without stirrups, nervous mounts"
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 30,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Cavaliers avars",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "Avar horsemen in caftans and felt caps, bows slung across their backs, gleaming iron stirrups"
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 32,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_character",
+  "args": {
+   "scope": "EPISODE",
+   "show": "il-etait-une-fois",
+   "season": 1,
+   "episode": "S01E01",
+   "name": "Passants de Ye",
+   "nature": "FIGURANT",
+   "recurring": false,
+   "canonSheet": {
+    "_defaut": "6th century Chinese passersby in simple tunics, heads raised, mouths open"
+   },
+   "sourceRef": "iletaitunefois/S01E01/prompts/personnages-episode.md@9efb0e5 ; iletaitunefois/S01E01/prompts/briques_pilote.py@9efb0e5#IDENT"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 46,
+   "characterId": "<id>",
+   "role": "figurant"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "SAM",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 6,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 8,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 9,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 10,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 11,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 12,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 13,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 15,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 16,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 17,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 18,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 19,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 20,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 21,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 23,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 24,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 25,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 26,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 28,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 29,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 30,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 31,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 32,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 33,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 34,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 35,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 36,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 37,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 38,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 40,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 41,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 42,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 43,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 44,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 47,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 48,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 49,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 50,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 52,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 53,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 54,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 55,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 58,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 59,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 60,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 61,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 64,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 65,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 66,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 67,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 68,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 69,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 70,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 71,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 72,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 73,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 74,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 75,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 77,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 78,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 79,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "NAYA",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 7,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 10,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 14,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 20,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 40,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 43,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 49,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 54,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 59,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 76,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 79,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "upsert_speaker",
+  "args": {
+   "show": "il-etait-une-fois",
+   "name": "ELIO",
+   "characterId": "<id>"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 7,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 11,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 14,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 15,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 18,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 24,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 25,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 27,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 33,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 34,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 35,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 52,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 53,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 58,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 65,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 70,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 73,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ },
+ {
+  "outil": "link_plan_character",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "plan": 78,
+   "characterId": "<id>",
+   "role": "troupe"
+  }
+ }
+]

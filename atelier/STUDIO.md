@@ -62,6 +62,10 @@ Rien n'est complété de mémoire : une donnée absente reste nulle et sort dans
 * `speech_check` signale, ne bloque pas ; « Dix francs » lu « Dis Franck » est un artefact de transcription connu.
 * Codes `check` normaux pendant un import partiel : `CONT_QUESTION_OUVERTURE_SANS_REPONSE` (avant la réponse), `CONT_PROMESSE_NON_PAYEE` ; résiduel permanent : `CONT_PROMESSE_TEASER_ATTENTE_EPISODE`.
 
-## Pas encore appelable (nos objets de l'Amendement C)
+## Seconde vague (30 août 2026) — les outils de l'Amendement C sont livrés
 
-Médias et stockage, lots de production, chaîne de rendu (`Engine`, transcription, `speech_check`), continuité visuelle (`upsert_continuity_item`, `upsert_plan_expectation`), troupe en cascade, chaîne son. Jusqu'à leur arrivée, le dépôt reste la vérité pour les planches, les clés, les clips, les graphes et les voix ; `atelier/studio/SPEC-studio-v7-amendement-C.md` dit ce qu'on attend.
+115 outils. `atelier/scripts/studio_import_prod.py` a versé, dans cet ordre : **moteurs** (`upsert_engine` : Nano Banana Pro et LTX-2.5 deux passes RETENUS avec le graphe verbatim ; audio gelé, voix référencée, MiniMax H3 CANDIDATS ; Wan 2.2 I2V/FLF2V/S2V, InfiniteTalk, LTX-2.3, API fermées ÉCARTÉS avec leur motif) ; **personnages** (Sam, Naya, Elio à la portée SHOW avec fiche canon par famille de style — `_defaut`, `inkman`, `cel-2d`, `realiste`, `aplats` — et 21 personnages d'épisode, historiques liés à leur fait, crédités aux plans, locuteurs rattachés) ; **continuité visuelle** (21 éléments, planches Ballon et Nacelle rattachées ; couteau et parachute sans planche : `prepare_batch` refusera les plans 1 à 6 tant qu'elles n'existent pas) ; **assets** (7 planches, 20 clés, 18 clips en style P avec leur prompt tel qu'envoyé, leurs références réinjectées et, pour P02/P03, les répliques citées par leur adresse `S01E01/plan-2/ligne-0`) ; **attendus** des plans 1 à 6 ; **voix** (les deux voix ElevenLabs de référence) ; **musique et effets** ; **épreuve comparative** du pilote, avec une session CHOIX_STYLE à clore pour `close_trial`.
+
+Toujours dans le dépôt : les fichiers eux-mêmes (planches, clés, clips, montages) tant qu'un lot n'a pas été préparé pour les archiver par `store_media_*` ; la saisie des attendus des plans 7 à 80 ; le casting des huit voix ; les planches du couteau et du parachute.
+
+Manques constatés côté serveur : pas d'`unlink_fact` (un lien fait → plan erroné ne se retire pas), les réponses de `upsert_sfx_cue` et `upsert_character` ne rendent pas l'identifiant sous une clé stable (on relit les listes).

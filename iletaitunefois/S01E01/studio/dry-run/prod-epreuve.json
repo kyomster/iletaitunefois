@@ -1,0 +1,81 @@
+[
+ {
+  "outil": "upsert_trial",
+  "args": {
+   "show": "il-etait-une-fois",
+   "episode": "S01E01",
+   "label": "Pilote S01E01 — plans 1 à 6, six styles, quatre moteurs",
+   "question": "Quel style pour la série, quel moteur vidéo, quelle méthode de dialogue ? Tranché par Guillaume : style P (29 août), LTX-2.5 voix libres (24 août).",
+   "planNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "arms": [
+    {
+     "style": "A",
+     "moteur": "wan22-i2v-a14b",
+     "montage": "montage_StyleA.mp4",
+     "date": "2026-08-22"
+    },
+    {
+     "style": "B",
+     "moteur": "wan22-i2v-a14b",
+     "montage": "montage_StyleB.mp4",
+     "date": "2026-08-22"
+    },
+    {
+     "style": "C",
+     "moteur": "wan22-i2v-a14b",
+     "montage": "montage_StyleC.mp4",
+     "date": "2026-08-22"
+    },
+    {
+     "style": "A",
+     "moteur": "ltx-2.5-i2v-2passes",
+     "montage": "montage_StyleA_v7.mp4",
+     "date": "2026-08-24"
+    },
+    {
+     "style": "B",
+     "moteur": "ltx-2.5-i2v-2passes",
+     "montage": "montage_StyleB_v7.mp4",
+     "date": "2026-08-24"
+    },
+    {
+     "style": "D",
+     "moteur": "ltx-2.5-i2v-2passes",
+     "montage": "montage_StyleD_v7.mp4",
+     "date": "2026-08-24"
+    },
+    {
+     "style": "J",
+     "moteur": "ltx-2.5-i2v-2passes",
+     "montage": "montage_StyleJ_v7.mp4",
+     "date": "2026-08-24"
+    },
+    {
+     "style": "K",
+     "moteur": "ltx-2.5-i2v-2passes",
+     "montage": "montage_StyleK_v7.mp4",
+     "date": "2026-08-24"
+    },
+    {
+     "style": "P",
+     "moteur": "ltx-2.5-i2v-2passes",
+     "montage": "montage_StyleP_v7.mp4",
+     "date": "2026-08-27",
+     "retenu": true
+    }
+   ],
+   "artifacts": {
+    "montages": "Downloads/EpisodeModernise/pilote/montages/",
+    "audit": "iletaitunefois/S01E01/pilote/AUDIT.md@9efb0e5",
+    "decisions": "iletaitunefois/S01E01/pilote/DECISIONS.md@9efb0e5"
+   }
+  }
+ }
+]
