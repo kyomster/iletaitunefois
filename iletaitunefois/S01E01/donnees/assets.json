@@ -1,0 +1,1199 @@
+{
+ "elements": [
+  {
+   "adresse": "asset/D01",
+   "slug": "D01",
+   "genre": "REFERENCE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the location only, empty of people: October dawn 1797, low mist lying over the lawns of Parc Monceau, pale gravel paths, dark groves of trees, a large inflated gas balloon swaying in the middle ground, mooring ropes trailing on the grass, a wicker basket set down beside it, stone follies and low buildings in the distance. Framing: wide establishing shot at eye level. Characters: none, absolutely no person anywhere in the frame. Props: balloon, netting, wicker basket, ropes. Avoid: paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin.",
+   "negatif": null,
+   "plans": [
+    1,
+    2,
+    3,
+    4,
+    61,
+    62,
+    63,
+    64
+   ],
+   "references": [],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/references/D01_StyleP.png",
+   "media_id_higgsfield": "ecfa74c5-86a0-451a-a4dc-3c05fc64d979",
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "c059cd5f4c9fbd4c"
+  },
+  {
+   "adresse": "asset/D02",
+   "slug": "D02",
+   "genre": "REFERENCE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the location only, empty of people, seen from high in the air: pale morning sky over Paris, grey slate rooftops and smoking chimneys far below, straight streets, the park visible as a bright green patch, light haze thickening toward the horizon. Framing: very wide high angle plate. Characters: none, absolutely no person anywhere in the frame. Props: rooftops, chimneys. Avoid: paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin.",
+   "negatif": null,
+   "plans": [
+    4,
+    5,
+    6,
+    61
+   ],
+   "references": [],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/references/D02_StyleP.png",
+   "media_id_higgsfield": "4508b9b8-67fa-4522-9e3e-4b7776b14cf5",
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "73b1708ca2a84cbc"
+  },
+  {
+   "adresse": "asset/Foule",
+   "slug": "Foule",
+   "genre": "REFERENCE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: a dozen Directoire crowd figures, EVERY SINGLE ONE SEEN STRICTLY FROM DIRECTLY BEHIND with the back of the head squarely toward the camera, no cheek, no jaw, no ear and no profile visible on any of them, so that no face exists anywhere in the image, varied scales; the small areas of skin that do show, a nape or a hand, are drawn in the SAME EVENLY LIT FLESH TONE as the main characters, never filled with black, never covered by shadow: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, one closed umbrella, simplified figures less detailed than main characters, on ONE SINGLE FLAT UNIFORM GREY BACKGROUND filling the whole frame behind the figures, no sky, no gradient, no horizon, no ground line, no scenery, no props other than those listed. Framing: full body group, all figures at the same scale. Avoid: readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin.",
+   "negatif": null,
+   "plans": [
+    1,
+    2,
+    4,
+    63,
+    64
+   ],
+   "references": [],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/references/Foule_StyleP.png",
+   "media_id_higgsfield": "0ce73829-e600-4209-a57a-dc20c3ae7b0f",
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "2756201388454e7f"
+  },
+  {
+   "adresse": "asset/Garnerin",
+   "slug": "Garnerin",
+   "genre": "REFERENCE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: Garnerin, a French aeronaut of the Directoire era, resolute determined face with a calm set jaw, dark tailcoat, hair tied back, pale scarf at the neck, period breeches and buckled shoes, upright decided posture, shown in four views at the same scale: front, three quarter, profile and back, on ONE SINGLE FLAT UNIFORM GREY BACKGROUND filling the whole frame behind the figures, no sky, no gradient, no horizon, no ground line, no scenery, no props other than those listed. Framing: character sheet, four full body views in a row at the same scale. Avoid: paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin.",
+   "negatif": null,
+   "plans": [
+    3,
+    4,
+    5,
+    61,
+    63
+   ],
+   "references": [],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/references/Garnerin_StyleP.png",
+   "media_id_higgsfield": "49074359-ae1a-4edb-aaf1-9b7f33b9e2c7",
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "3e9bc558a5dd1c31"
+  },
+  {
+   "adresse": "asset/Parieurs",
+   "slug": "Parieurs",
+   "genre": "REFERENCE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the two Directoire onlookers standing side by side, full body, three quarter view, at the same scale: the round onlooker on the left wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air; the thin onlooker on the right leaning on a cane, threadbare coat in muted brown and grey only, no blue and no green on any garment, suspicious squint, on ONE SINGLE FLAT UNIFORM GREY BACKGROUND filling the whole frame behind the figures, no sky, no gradient, no horizon, no ground line, no scenery, no props other than those listed. Framing: full body pair, both at the same scale. Avoid: paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin.",
+   "negatif": null,
+   "plans": [
+    2,
+    64
+   ],
+   "references": [],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/references/Parieurs_StyleP.png",
+   "media_id_higgsfield": "7d803edf-8a4d-4cf3-9460-7a130d8475e1",
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "cbafb02a6ddf34c7"
+  },
+  {
+   "adresse": "asset/Ballon",
+   "slug": "Ballon",
+   "genre": "REFERENCE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the object alone: a large inflated hydrogen balloon of 1797, tall rounded envelope narrowing toward the bottom, made of alternating vertical silk gores in dusty rose and pale sage green, each gore ending in a pointed lancet arch at the widest part of the envelope, a diamond mesh rope net thrown over the upper half, a horizontal rope band circling the envelope at its widest point, the suspension ropes converging below to a wooden hoop, a round wicker basket hanging from the hoop, a mooring rope trailing from the basket, on ONE SINGLE FLAT UNIFORM GREY BACKGROUND filling the whole frame behind the figures, no sky, no gradient, no horizon, no ground line, no scenery, no props other than those listed. Framing: the whole object seen from top to bottom, centred in frame, slight low angle. Characters: none, absolutely no person anywhere in the frame. Avoid: paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin.",
+   "negatif": null,
+   "plans": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    61,
+    62,
+    63,
+    64
+   ],
+   "references": [],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/references/Ballon_StyleP.png",
+   "media_id_higgsfield": "d460f152-1847-4b48-8e0d-cdafa41cbbea",
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "e67865ab6fd658da"
+  },
+  {
+   "adresse": "asset/Nacelle",
+   "slug": "Nacelle",
+   "genre": "REFERENCE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the object alone, shown in TWO views side by side at the same scale on the same plain background, clearly separated: on the LEFT the basket seen from outside in three quarter view, on the RIGHT the same basket seen from above with its interior visible. It is a deep ROUND wicker gondola of 1797, natural honey coloured wicker woven in even horizontal bands, a THICK ROLLED RIM wrapped in rope running all the way around the top, four suspension ropes rising from the rim at the quarters and knotted to iron rings, two small sandbags hanging outside against the wall, a plain flat floor of woven wicker inside, nothing else in the basket, on ONE SINGLE FLAT UNIFORM GREY BACKGROUND filling the whole frame behind the figures, no sky, no gradient, no horizon, no ground line, no scenery, no props other than those listed. Framing: the two views at the same scale, the whole object visible in each. Characters: none, absolutely no person and no hand anywhere in the frame. Avoid: paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin.",
+   "negatif": null,
+   "plans": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    61,
+    62,
+    63,
+    64
+   ],
+   "references": [],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/references/Nacelle_StyleP.png",
+   "media_id_higgsfield": "f61c7277-5b3f-467c-8bb3-c3ed47656389",
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "db3b1b1e9d03e97f"
+  },
+  {
+   "adresse": "asset/P1a-1",
+   "slug": "P1a-1",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: dawn mist drifting low over the lawns of Parc Monceau, a large inflated gas balloon swaying in the middle ground, a Directoire crowd gathered at its foot. Framing: very wide establishing shot, slight high angle. Decor: D1. Characters: a dozen Directoire crowd figures, EVERY SINGLE ONE SEEN STRICTLY FROM DIRECTLY BEHIND with the back of the head squarely toward the camera, no cheek, no jaw, no ear and no profile visible on any of them, so that no face exists anywhere in the image, turned toward the balloon; the small areas of skin that do show, a nape or a hand, are drawn in the SAME EVENLY LIT FLESH TONE as the main characters, never filled with black, never covered by shadow: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, simplified figures less detailed than the main characters. Props: mooring ropes trailing on the grass and pegged down. THE BALLOON HANGS ALONE: there is NO basket and NO parachute under it yet, nothing hangs below the hoop, they are brought in later; no basket and no crate anywhere in the frame. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. same characters as reference, same art style as reference",
+   "negatif": "readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Foule",
+    "asset/Ballon"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P1a-1_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "9f92c03474c7ea59"
+  },
+  {
+   "adresse": "asset/P1a-2",
+   "slug": "P1a-2",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the inflated balloon swaying in the wind at dawn, its envelope made of alternating vertical gores in DUSTY ROSE and PALE SAGE GREEN under a diamond rope net, mooring ropes pulling taut, NOTHING HANGING UNDER IT YET. Framing: medium shot on the balloon. Decor: D1, October dawn, low mist over the lawns, pale peach and grey sky, soft hazy light, no blue sky, no midday sun. Characters: a few crowd figures at the lower edge, seen from behind. Props: balloon, taut mooring ropes, stakes. The balloon hangs alone: no basket and no parachute under the hoop. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. same characters as reference, same art style as reference",
+   "negatif": "readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Foule",
+    "asset/Ballon"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P1a-2_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "32ae106ca6acf2aa"
+  },
+  {
+   "adresse": "asset/P1a-3",
+   "slug": "P1a-3",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: banners snapping at the top of the balloon. Framing: low angle from the ground toward the crown of the balloon. Decor: D1, sky and treetops only. Characters: none. Props: balloon crown, netting, banners. plain undecorated banners with no emblem and no lettering, blank fabric only. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. The camera is tilted steeply upward from directly below; the crown of the balloon fills the upper half of the frame and the ground is not visible at all.",
+   "negatif": "readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Ballon"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P1a-3_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "eab1d10e8bb68dd2"
+  },
+  {
+   "adresse": "asset/P1a-4",
+   "slug": "P1a-4",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the whole crowd turning their heads in one movement toward the balloon. Framing: medium shot at head height on the backs of a few onlookers, hats and bonnets filling the lower half, the balloon and its mooring ropes beyond them, nothing hanging under the balloon yet. Decor: D1. Characters: a dozen Directoire crowd figures, EVERY SINGLE ONE SEEN STRICTLY FROM DIRECTLY BEHIND with the back of the head squarely toward the camera, no cheek, no jaw, no ear and no profile visible on any of them, so that no face exists anywhere in the image, turned toward the balloon; the small areas of skin that do show, a nape or a hand, are drawn in the SAME EVENLY LIT FLESH TONE as the main characters, never filled with black, never covered by shadow: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, simplified figures less detailed than the main characters. Props: mooring ropes, hats. The balloon hangs alone: no basket and no parachute under the hoop. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. same characters as reference, same art style as reference",
+   "negatif": "readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Foule",
+    "asset/Ballon"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P1a-4_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "09321ae05f800438"
+  },
+  {
+   "adresse": "asset/P1b-1",
+   "slug": "P1b-1",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the crowd stepping aside to open a clear lane down the middle of the frame, the people on each side turning to look down that lane, hands at their sides. Framing: wide shot at eye level, down the axis of the lane. Decor: D1, October dawn, low mist, at the end of the lane the balloon, its envelope made of alternating vertical gores in DUSTY ROSE and PALE SAGE GREEN under a diamond rope net, with nothing hanging under it yet. Characters: a dozen Directoire crowd figures, EVERY SINGLE ONE SEEN STRICTLY FROM DIRECTLY BEHIND with the back of the head squarely toward the camera, no cheek, no jaw, no ear and no profile visible on any of them, so that no face exists anywhere in the image, turned toward the balloon; the small areas of skin that do show, a nape or a hand, are drawn in the SAME EVENLY LIT FLESH TONE as the main characters, never filled with black, never covered by shadow: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, simplified figures less detailed than the main characters. Props: hats worn on the heads, canes. No hand touches a hat. The balloon hangs alone: no basket and no parachute under the hoop. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. same characters as reference, same art style as reference",
+   "negatif": "readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Foule",
+    "asset/Ballon"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P1b-1_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "6db695dd1db34d0c"
+  },
+  {
+   "adresse": "asset/P1b-2",
+   "slug": "P1b-2",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: two assistants carrying the wicker basket forward toward the balloon hanging above with nothing under it yet, a third assistant walking beside them carrying THE FOLDED PARACHUTE, a long bound bundle of cream silk closed like a furled umbrella, ropes trailing behind them. Framing: lateral medium shot. Decor: D1. Characters: three assistants in rough jackets, crowd behind them seen from behind. Props: ONE wicker basket, ONE folded parachute, ropes. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags outside, deep enough to reach a standing man's waist and wide enough for two men to stand in it side by side, barely wider than it is deep; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame. the folded parachute hangs BETWEEN the balloon and the basket. It is STILL CLOSED: a long narrow vertical bundle of cream silk, no wider than a man's shoulders, tightly strapped at three points along its length and tapering to a point at the bottom, like a tightly furled umbrella stood on end. IT DOES NOT FORM A DOME AND IT IS NOT SPREAD: no canopy, no open parachute, no umbrella shape, no wide silk above the basket. Its lines run down to the rim of the basket and its crown is roped up to the balloon; the silk is never a bundle lying on the floor of the basket. same characters as reference, same art style as reference",
+   "negatif": "readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, open parachute, deployed parachute, parachute canopy, dome of silk, spread umbrella, inflated silk, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Foule",
+    "asset/Ballon",
+    "asset/Nacelle"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P1b-2_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "d45ac7f89defbd14"
+  },
+  {
+   "adresse": "asset/P1b-3",
+   "slug": "P1b-3",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the rig being tied together, hands knotting the parachute lines to the iron rings of the basket rim, THE FOLDED PARACHUTE hanging just above the rim as a long bound bundle of cream silk closed like a furled umbrella, its crown roped up toward the balloon which is out of frame above. Framing: close shot on the knotting hands, the rim across the bottom, the lower end of the folded parachute filling the upper part of the frame. Decor: D1, blurred behind, no other balloon or basket in the background. Characters: hands and forearms only. Props: parachute lines, folded parachute, wicker rim, iron rings. ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags outside, deep enough to reach a standing man's waist and wide enough for two men to stand in it side by side, barely wider than it is deep; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame. the folded parachute hangs BETWEEN the balloon and the basket. It is STILL CLOSED: a long narrow vertical bundle of cream silk, no wider than a man's shoulders, tightly strapped at three points along its length and tapering to a point at the bottom, like a tightly furled umbrella stood on end. IT DOES NOT FORM A DOME AND IT IS NOT SPREAD: no canopy, no open parachute, no umbrella shape, no wide silk above the basket. Its lines run down to the rim of the basket and its crown is roped up to the balloon; the silk is never a bundle lying on the floor of the basket.",
+   "negatif": "readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, open parachute, deployed parachute, parachute canopy, dome of silk, spread umbrella, inflated silk, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Nacelle"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P1b-3_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "f3de979810e4ae2a"
+  },
+  {
+   "adresse": "asset/P02",
+   "slug": "P02",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: two Directoire onlookers in the foreground leaning toward each other to make a bet, both with their mouths firmly closed in a neutral pause, hands down, behind them the whole rig at rest, MUCH LARGER THAN THE MEN: the balloon towering over the lawn, THE FOLDED PARACHUTE hanging under it as a long narrow closed bundle, and the basket under the parachute resting on the grass, with the crowd around it. Framing: medium close shot at chest height, slightly low angle. Decor: D1. Characters: the round onlooker wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air; the thin onlooker leaning on a cane, threadbare coat in muted brown and grey only, no blue and no green on any garment, suspicious squint, a dozen Directoire crowd figures, EVERY SINGLE ONE SEEN STRICTLY FROM DIRECTLY BEHIND with the back of the head squarely toward the camera, no cheek, no jaw, no ear and no profile visible on any of them, so that no face exists anywhere in the image, turned toward the balloon; the small areas of skin that do show, a nape or a hand, are drawn in the SAME EVENLY LIT FLESH TONE as the main characters, never filled with black, never covered by shadow: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, simplified figures less detailed than the main characters far behind. Props: cane, cockaded hats. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags outside, deep enough to reach a standing man's waist and wide enough for two men to stand in it side by side, barely wider than it is deep; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame. the folded parachute hangs BETWEEN the balloon and the basket. It is STILL CLOSED: a long narrow vertical bundle of cream silk, no wider than a man's shoulders, tightly strapped at three points along its length and tapering to a point at the bottom, like a tightly furled umbrella stood on end. IT DOES NOT FORM A DOME AND IT IS NOT SPREAD: no canopy, no open parachute, no umbrella shape, no wide silk above the basket. Its lines run down to the rim of the basket and its crown is roped up to the balloon; the silk is never a bundle lying on the floor of the basket. same characters as reference, same art style as reference",
+   "negatif": "face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, open parachute, deployed parachute, parachute canopy, dome of silk, spread umbrella, inflated silk, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    2
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Parieurs",
+    "asset/Foule",
+    "asset/Ballon",
+    "asset/Nacelle"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P02_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "13f7d679cdb4b34e"
+  },
+  {
+   "adresse": "asset/P02a",
+   "slug": "P02a",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: close shot on the round onlooker alone as he speaks, his hand down, his mouth clearly visible, the top hat with the tricolour cockade, the thin onlooker out of frame, the crowd and the basket far behind. Framing: close shot at shoulder height, slightly low angle. Decor: D1. Characters: the round onlooker wearing a tall cylindrical top hat with a tricolour cockade pinned on it, waistcoat tight over his belly, peremptory self assured air. Props: cockaded hat. same characters as reference, same art style as reference",
+   "negatif": "face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    2
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Parieurs"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": null,
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "propose",
+   "_note": "clé de réserve (champ-contrechamp), jamais générée en P",
+   "empreinte": "a43f52fe58d625a2"
+  },
+  {
+   "adresse": "asset/P02b",
+   "slug": "P02b",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: close shot on the thin onlooker alone as he answers, leaning on his cane, his mouth clearly visible, the round onlooker out of frame, the crowd and the basket far behind. Framing: close shot at shoulder height, slightly low angle. Decor: D1. Characters: the thin onlooker leaning on a cane, threadbare coat in muted brown and grey only, no blue and no green on any garment, suspicious squint. Props: cane. same characters as reference, same art style as reference",
+   "negatif": "face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    2
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Parieurs"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": null,
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "propose",
+   "_note": "clé de réserve (champ-contrechamp), jamais générée en P",
+   "empreinte": "212a9dc04d6fbbe5"
+  },
+  {
+   "adresse": "asset/P03",
+   "slug": "P03",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: inside the basket, Garnerin standing at the release rope, one gloved hand gripping the taut rope above his head, looking up toward the balloon with his jaw set, his assistant STANDING ON THE GRASS OUTSIDE THE BASKET on the other side, both hands on the outer rim, leaning in and pleading with one open hand, the basket wall between them, BOTH FACES FULLY VISIBLE to the camera in three quarter view, both with their mouths firmly closed, the balloon is directly above this basket and out of frame. Framing: medium two shot from the side at chest height, Garnerin on the left inside the basket, the assistant on the right outside it standing on the ground, the lawn and the mist clearly visible behind them so the basket is plainly still on the ground, two taut mooring ropes entering the bottom of the frame and held by crew hands at the very edge of the image. Decor: D1 seen past the rim of the basket, no other balloon or basket in the background. Characters: Garnerin, a French aeronaut of the Directoire era, resolute determined face with a calm set jaw, dark tailcoat, hair tied back, pale scarf at the neck, period breeches and buckled shoes, upright decided posture, an assistant in a rough jacket with rolled up sleeves, his plain honest face fully visible, short hair, calm attentive expression. Props: taut release rope, THE FOLDED PARACHUTE hanging above the basket as a bound bundle of cream silk closed like a furled umbrella, its lines coming down to the rim, mooring ropes held by crew hands, a knife tucked at the side of the basket. ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags outside, deep enough to reach a standing man's waist and wide enough for two men to stand in it side by side, barely wider than it is deep; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame. the folded parachute hangs BETWEEN the balloon and the basket. It is STILL CLOSED: a long narrow vertical bundle of cream silk, no wider than a man's shoulders, tightly strapped at three points along its length and tapering to a point at the bottom, like a tightly furled umbrella stood on end. IT DOES NOT FORM A DOME AND IT IS NOT SPREAD: no canopy, no open parachute, no umbrella shape, no wide silk above the basket. Its lines run down to the rim of the basket and its crown is roped up to the balloon; the silk is never a bundle lying on the floor of the basket. same characters as reference, same art style as reference",
+   "negatif": "open parachute, deployed parachute, parachute canopy, dome of silk, spread umbrella, inflated silk, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    3
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Garnerin",
+    "asset/Nacelle"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P03_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "6200a04008d28185"
+  },
+  {
+   "adresse": "asset/P4a-1",
+   "slug": "P4a-1",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the balloon tearing away from the ground, the released mooring ropes falling back to the grass, GARNERIN VISIBLE IN THE BASKET, head and shoulders above the rim, one hand on the rim, looking up. Framing: low angle from the ground, the balloon, the folded parachute and the basket filling the frame as they lift off, no onlooker in the frame. Decor: D1, treetops and sky. Characters: Garnerin, a French aeronaut of the Directoire era, resolute determined face with a calm set jaw, dark tailcoat, hair tied back, pale scarf at the neck, period breeches and buckled shoes, upright decided posture, head and shoulders only, inside the basket. Props: balloon, folded parachute, basket, falling mooring ropes. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags outside, deep enough to reach a standing man's waist and wide enough for two men to stand in it side by side, barely wider than it is deep; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame. the folded parachute hangs BETWEEN the balloon and the basket. It is STILL CLOSED: a long narrow vertical bundle of cream silk, no wider than a man's shoulders, tightly strapped at three points along its length and tapering to a point at the bottom, like a tightly furled umbrella stood on end. IT DOES NOT FORM A DOME AND IT IS NOT SPREAD: no canopy, no open parachute, no umbrella shape, no wide silk above the basket. Its lines run down to the rim of the basket and its crown is roped up to the balloon; the silk is never a bundle lying on the floor of the basket.",
+   "negatif": "readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, open parachute, deployed parachute, parachute canopy, dome of silk, spread umbrella, inflated silk, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Ballon",
+    "asset/Nacelle"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P4a-1_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "4f87e493a29576aa"
+  },
+  {
+   "adresse": "asset/P4a-2",
+   "slug": "P4a-2",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: three onlookers rocking backwards to follow the balloon with their eyes, each shading their eyes with ONE FLAT HAND held above the eyebrows like a visor, palm down, no hand touching any hat, their coats in muted brown, grey and dark green only, no bright color on any garment, the balloon just above the treetops, still large, rising away. Framing: close shot on the backs and shoulders of three onlookers, low angle. Decor: D1. Characters: a dozen Directoire crowd figures, EVERY SINGLE ONE SEEN STRICTLY FROM DIRECTLY BEHIND with the back of the head squarely toward the camera, no cheek, no jaw, no ear and no profile visible on any of them, so that no face exists anywhere in the image, turned toward the balloon; the small areas of skin that do show, a nape or a hand, are drawn in the SAME EVENLY LIT FLESH TONE as the main characters, never filled with black, never covered by shadow: men in tailcoats and tall hats, women in high waisted dresses and shawls, a few children, simplified figures less detailed than the main characters. Props: hats, shawls. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. EXACTLY THREE onlookers are visible and no one else, seen from close behind at shoulder height, their heads and shoulders filling the lower half of the frame; no fourth figure anywhere, no wide crowd. same characters as reference, same art style as reference",
+   "negatif": "readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Foule",
+    "asset/Garnerin",
+    "asset/Ballon"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P4a-2_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "4f513b72d35b2c2e"
+  },
+  {
+   "adresse": "asset/P4a-3",
+   "slug": "P4a-3",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the balloon rising and shrinking above the trees, the whole rig visible in one piece: the balloon on top, the folded parachute hanging below it as a long narrow closed bundle, the basket hanging below the parachute. Framing: wide low angle shot. Decor: D1, treetops and sky. Characters: none. Props: balloon, folded parachute, basket, trailing rope. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. the folded parachute hangs BETWEEN the balloon and the basket. It is STILL CLOSED: a long narrow vertical bundle of cream silk, no wider than a man's shoulders, tightly strapped at three points along its length and tapering to a point at the bottom, like a tightly furled umbrella stood on end. IT DOES NOT FORM A DOME AND IT IS NOT SPREAD: no canopy, no open parachute, no umbrella shape, no wide silk above the basket. Its lines run down to the rim of the basket and its crown is roped up to the balloon; the silk is never a bundle lying on the floor of the basket.",
+   "negatif": "readable faces, portraits, recognisable face on a crowd figure, front facing figure, three quarter face, profile face on a crowd figure, face filled with flat black, blacked out face, head painted as a solid dark shape, face hidden in solid shadow, silhouette head, open parachute, deployed parachute, parachute canopy, dome of silk, spread umbrella, inflated silk, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/D01",
+    "asset/Ballon"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P4a-3_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "cc5cf1d428c23132"
+  },
+  {
+   "adresse": "asset/P4b-1",
+   "slug": "P4b-1",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: seen from the basket, the rooftops of Paris sliding slowly below, chimney smoke streaming. Framing: very wide high angle shot, the rim of the basket in the foreground. Decor: D2. Characters: none. Props: wicker rim, the parachute lines rising from the rim and leaving the top of the frame. ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags outside, deep enough to reach a standing man's waist and wide enough for two men to stand in it side by side, barely wider than it is deep; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame. the folded parachute hangs BETWEEN the balloon and the basket. It is STILL CLOSED: a long narrow vertical bundle of cream silk, no wider than a man's shoulders, tightly strapped at three points along its length and tapering to a point at the bottom, like a tightly furled umbrella stood on end. IT DOES NOT FORM A DOME AND IT IS NOT SPREAD: no canopy, no open parachute, no umbrella shape, no wide silk above the basket. Its lines run down to the rim of the basket and its crown is roped up to the balloon; the silk is never a bundle lying on the floor of the basket.",
+   "negatif": "open parachute, deployed parachute, parachute canopy, dome of silk, spread umbrella, inflated silk, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/D02",
+    "asset/Nacelle"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P4b-1_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "ec96965c85d3a273"
+  },
+  {
+   "adresse": "asset/P4b-2",
+   "slug": "P4b-2",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the wicker rim vibrating in the wind, a gloved hand tightening on it. Framing: close shot on the hand and the rim. Decor: D2, blurred sky behind. Characters: Garnerin, a French aeronaut of the Directoire era, resolute determined face with a calm set jaw, dark tailcoat, hair tied back, pale scarf at the neck, period breeches and buckled shoes, upright decided posture, gloved hand only. Props: wicker rim, glove, rope. ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags outside, deep enough to reach a standing man's waist and wide enough for two men to stand in it side by side, barely wider than it is deep; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame. same characters as reference, same art style as reference",
+   "negatif": "paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/D02",
+    "asset/Garnerin",
+    "asset/Nacelle"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P4b-2_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "12f44c9323b14dca"
+  },
+  {
+   "adresse": "asset/P4b-3",
+   "slug": "P4b-3",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the whole city under the haze, much higher and farther than before, the park a small green rectangle with the crowd reduced to a dark patch in its middle. Framing: very wide high angle shot from far above, no basket and no rim in the frame. Decor: D2, the rooftops of Paris under the haze. Characters: none, no person anywhere. Props: none.",
+   "negatif": "paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/D02"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P4b-3_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "402d1143b40f237c"
+  },
+  {
+   "adresse": "asset/P5-1",
+   "slug": "P5-1",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: seen from INSIDE the basket: Garnerin's arm in his dark sleeve comes from inside the basket and his hand takes hold of the knife sheathed against the inner wicker wall, the woven rim of the basket in the foreground, the parachute lines rising from the rim to the closed folded parachute just above, and above it the single taut rope that ties the parachute crown to the balloon. Framing: close shot from inside the basket, tilted up so the eye follows the lines to the folded parachute and to the rope above it, the underside of the balloon showing at the very top of the frame. Decor: D2, the sky and the rooftops of Paris far below, out of focus beyond the rim, no other balloon and no other basket anywhere in the frame. Characters: Garnerin, a French aeronaut of the Directoire era, resolute determined face with a calm set jaw, dark tailcoat, hair tied back, pale scarf at the neck, period breeches and buckled shoes, upright decided posture, one hand and forearm only, clearly reaching from inside the basket. Props: knife, inner wicker wall, taut rope. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags outside, deep enough to reach a standing man's waist and wide enough for two men to stand in it side by side, barely wider than it is deep; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame. the folded parachute hangs BETWEEN the balloon and the basket. It is STILL CLOSED: a long narrow vertical bundle of cream silk, no wider than a man's shoulders, tightly strapped at three points along its length and tapering to a point at the bottom, like a tightly furled umbrella stood on end. IT DOES NOT FORM A DOME AND IT IS NOT SPREAD: no canopy, no open parachute, no umbrella shape, no wide silk above the basket. Its lines run down to the rim of the basket and its crown is roped up to the balloon; the silk is never a bundle lying on the floor of the basket. No face, no head, no shoulders and no full body anywhere in the frame: only the hand, the forearm, the woven side of the basket, the rope and the sky. same characters as reference, same art style as reference",
+   "negatif": "open parachute, deployed parachute, parachute canopy, dome of silk, spread umbrella, inflated silk, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    5
+   ],
+   "references": [
+    "asset/D02",
+    "asset/Garnerin",
+    "asset/Nacelle",
+    "asset/Ballon"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P5-1_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "d790ad8d9be0450e"
+  },
+  {
+   "adresse": "asset/P5-2",
+   "slug": "P5-2",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: Garnerin's arm reaching up from INSIDE the basket, over the woven rim visible at the bottom of the frame, the blade sawing the single taut rope that ties the crown of the folded parachute to the balloon, the rope still in ONE piece and taut, only a few outer fibres cut and springing free one by one, the blade halfway through. Framing: medium close shot from inside the basket at a low angle, the woven rim running across the bottom of the frame, the closed folded parachute hanging just above the basket and, above it, the single taut rope reaching the balloon, all three clearly visible in the same frame, so that what the blade is cutting is the ONE rope holding the parachute, and the basket under it, to that balloon. Decor: D2, the sky and the rooftops of Paris far below, out of focus behind. Characters: ONE hand only, Garnerin's hand in his dark sleeve reaching from inside the basket, no second hand, the taut rope is fixed to the rim of the basket. Props: knife, one unbroken rope, the folded parachute, loose fibres, woven rim. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags outside, deep enough to reach a standing man's waist and wide enough for two men to stand in it side by side, barely wider than it is deep; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame. the folded parachute hangs BETWEEN the balloon and the basket. It is STILL CLOSED: a long narrow vertical bundle of cream silk, no wider than a man's shoulders, tightly strapped at three points along its length and tapering to a point at the bottom, like a tightly furled umbrella stood on end. IT DOES NOT FORM A DOME AND IT IS NOT SPREAD: no canopy, no open parachute, no umbrella shape, no wide silk above the basket. Its lines run down to the rim of the basket and its crown is roped up to the balloon; the silk is never a bundle lying on the floor of the basket.",
+   "negatif": "open parachute, deployed parachute, parachute canopy, dome of silk, spread umbrella, inflated silk, paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    5
+   ],
+   "references": [
+    "asset/D02",
+    "asset/Nacelle",
+    "asset/Ballon"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P5-2_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "b15dc279e5bcd561"
+  },
+  {
+   "adresse": "asset/P5-3",
+   "slug": "P5-3",
+   "genre": "IMAGE_CLE",
+   "style": "StyleP",
+   "moteur": "nano-banana-pro",
+   "prompt": "modern anime television series look, clean black outlines of even weight, flat cel shading with exactly two or three tones per area and crisp hard shadow edges, appealing simple character shapes with clear expressive eyes and instantly readable silhouettes, bright clean saturated palette, digitally composited light: soft bloom around the highlights, smoothly graded sky, gentle light haze, background art painted more richly and in more detail than the characters, staged for limited animation with strong clear key poses, no surface texture of any kind, 16:9 frame: era accurate historical setting, costumes in muted earth tones, period architecture and props, Scene: the rope has given way, the cut strands whipping the air, the balloon leaping away and shrinking at the top of the frame while below it the parachute has opened into a wide dome of cream silk and the wicker basket hangs under the dome on its lines, falling. Framing: ONE SINGLE WIDE IMAGE THAT FILLS THE ENTIRE 16:9 FRAME EDGE TO EDGE, no vertical bands, no panels, no split screen, no blurred borders: a single continuous sky across the whole width, the balloon high at the top, the open parachute and the basket in the middle, the rooftops of Paris far below across the bottom. Decor: D2, the rooftops of Paris far below, out of focus behind. Characters: none. Props: severed rope, whipping strands, the open parachute dome, the wicker basket hanging under it, balloon rising away. ONE single gas balloon only, exactly the one shown in the balloon reference, identical envelope shape and identical stripe colours, no second balloon anywhere in the frame. ONE single wicker basket only, exactly the one shown in the basket reference: round, deep, honey coloured wicker in even horizontal bands, thick rope wrapped rim, four suspension ropes at the quarters, sandbags outside, deep enough to reach a standing man's waist and wide enough for two men to stand in it side by side, barely wider than it is deep; no second basket, no crate, no rectangular hamper and no lid anywhere in the frame.",
+   "negatif": "paper grain, canvas texture, halftone dots, visible brush strokes, print texture, film grain, painterly rendering, gradient shading on the characters, soft airbrush, photorealism, photograph, 3D render, CGI, live action, chibi proportions, oversized anime eyes on adult characters, moe face, extra characters, dominant sand colored outfit, dominant teal outfit, dominant vivid orange outfit, saturated orange clothing, saturated teal clothing, text, title, caption, lettering, words, letters, labels, annotations, role labels, view labels, color swatches, palette chips, size chart, watermark, signature, border, frame, margin",
+   "plans": [
+    5
+   ],
+   "references": [
+    "asset/D02",
+    "asset/Nacelle",
+    "asset/Ballon"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "iletaitunefois/S01E01/assets/cles/P5-3_StyleP.png",
+   "media_id_higgsfield": null,
+   "graine": null,
+   "longueur": null,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "a162c428e369fd5d"
+  },
+  {
+   "adresse": "asset/clip-P1a-1",
+   "slug": "clip-P1a-1",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The mist drifts slowly across the lawns, the crowd sways gently at the foot of the balloon. Camera: static. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/P1a-1"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P1a-1_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9700,
+   "longueur": 57,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "f0b83506695e49f7"
+  },
+  {
+   "adresse": "asset/clip-P1a-2",
+   "slug": "clip-P1a-2",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The balloon sways in the wind, the mooring ropes pull taut and slacken. Camera: static. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/P1a-2"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P1a-2_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9701,
+   "longueur": 57,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "378a298eacb6faad"
+  },
+  {
+   "adresse": "asset/clip-P1a-3",
+   "slug": "clip-P1a-3",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The banners snap in the wind at the crown of the balloon. Camera: static. Nobody new enters the frame. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/P1a-3"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P1a-3_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9702,
+   "longueur": 49,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "df5fd2a577eae97e"
+  },
+  {
+   "adresse": "asset/clip-P1a-4",
+   "slug": "clip-P1a-4",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The crowd turns their heads in one movement toward the basket. Camera: static. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/P1a-4"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P1a-4_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9703,
+   "longueur": 49,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "f530a95d0a01288a"
+  },
+  {
+   "adresse": "asset/clip-P1b-1",
+   "slug": "clip-P1b-1",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The two lines of people step further apart and the lane between them opens wider, everyone keeping their hands down at their sides and their hats on their heads; no arm is raised and no hand goes near a hat. Camera: static. Nobody new enters the frame. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, raised arm, hand near a hat, hat lifted off the head",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/P1b-1"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P1b-1_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9704,
+   "longueur": 73,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "737555b9edf7f484"
+  },
+  {
+   "adresse": "asset/clip-P1b-2",
+   "slug": "clip-P1b-2",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The basket is carried forward, ropes trailing on the grass. Camera: slow lateral tracking to the right, following the basket. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/P1b-2"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P1b-2_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9705,
+   "longueur": 73,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "a7419216435c2f20"
+  },
+  {
+   "adresse": "asset/clip-P1b-3",
+   "slug": "clip-P1b-3",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. Hands knot the ropes around the wicker rim. Camera: static. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    1
+   ],
+   "references": [
+    "asset/P1b-3"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P1b-3_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9706,
+   "longueur": 73,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "dd810b9acbc6bea9"
+  },
+  {
+   "adresse": "asset/clip-P02",
+   "slug": "clip-P02",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. historical Paris park 1797, a crowd watching a hot air balloon. Two onlookers in the foreground talk, static camera, single continuous shot, no cut. First both watch in silence. Then the stout man on the left with the cockade on his hat says in French, grave voice: \"Il va se tuer, je vous dis.\" while the thin man on the right listens with his mouth closed. Then the thin man on the right answers in French, clear voice: \"Dix francs qu'il ne coupe pas la corde.\" while the stout man listens with his mouth closed. Then both look back up at the balloon, silent. Ambient: distant crowd murmur, light wind, no music. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    2
+   ],
+   "references": [
+    "asset/P02"
+   ],
+   "lignes_citees": [
+    "S01E01/plan-2/ligne-0",
+    "S01E01/plan-2/ligne-1"
+   ],
+   "empreintes_citees": {
+    "S01E01/plan-2/ligne-0": "75d521030a0a4dc3",
+    "S01E01/plan-2/ligne-1": "2e5d012e0d98f394"
+   },
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P02_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9707,
+   "longueur": 193,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "6713b90828ef6975"
+  },
+  {
+   "adresse": "asset/clip-P03",
+   "slug": "clip-P03",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. inside a wicker balloon basket above a park. Static camera, single continuous shot, no cut. Garnerin on the left grips the release rope and looks up. The assistant on the right pleads in French, clear worried voice: \"Citoyen Garnerin, renoncez, il est encore temps.\" while Garnerin keeps his mouth closed. Then Garnerin answers in French, grave firm voice: \"Lâchez tout.\" while the assistant falls silent. Ambient: wind and distant crowd far below, no music. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    3
+   ],
+   "references": [
+    "asset/P03"
+   ],
+   "lignes_citees": [
+    "S01E01/plan-3/ligne-0",
+    "S01E01/plan-3/ligne-1"
+   ],
+   "empreintes_citees": {
+    "S01E01/plan-3/ligne-0": "69b1e5a1bbad090f",
+    "S01E01/plan-3/ligne-1": "bc3711a734982c0b"
+   },
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P03_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9708,
+   "longueur": 217,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "c2ced4c12cd75233"
+  },
+  {
+   "adresse": "asset/clip-P4a-1",
+   "slug": "clip-P4a-1",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The rig rises steadily: balloon, folded parachute and basket together, Garnerin motionless in the basket, the mooring ropes falling back onto the grass. The balloon tears away from the ground, the released ropes fall back. The balloon lifts off the ground and climbs steadily. Camera: static. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/P4a-1"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P4a-1_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9709,
+   "longueur": 73,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "be10fef1694891cf"
+  },
+  {
+   "adresse": "asset/clip-P4a-2",
+   "slug": "clip-P4a-2",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The three onlookers lean backwards to follow the balloon with their eyes, each keeping one flat hand held above the eyebrows like a visor, palm down; no hand ever touches a hat. Camera: static. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/P4a-2"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P4a-2_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9710,
+   "longueur": 73,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "4a5716eb853e057b"
+  },
+  {
+   "adresse": "asset/clip-P4a-3",
+   "slug": "clip-P4a-3",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The balloon rises and shrinks above the trees. Camera: very slow tilt upward, following the balloon. Nobody new enters the frame. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/P4a-3"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P4a-3_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9711,
+   "longueur": 97,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "40683595ab33ee7a"
+  },
+  {
+   "adresse": "asset/clip-P4b-1",
+   "slug": "clip-P4b-1",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The rooftops slide slowly below, chimney smoke streams sideways. Camera: static. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/P4b-1"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P4b-1_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9712,
+   "longueur": 81,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "f26db9ccee92dcb2"
+  },
+  {
+   "adresse": "asset/clip-P4b-2",
+   "slug": "clip-P4b-2",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The wicker rim vibrates, the gloved hand tightens on it. Camera: static. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/P4b-2"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P4b-2_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9713,
+   "longueur": 81,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "b0a55c207b71eea5"
+  },
+  {
+   "adresse": "asset/clip-P4b-3",
+   "slug": "clip-P4b-3",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The haze drifts over the city, the dark patch of the crowd stays still. Camera: very slow zoom out. Nobody new enters the frame. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change",
+   "plans": [
+    4
+   ],
+   "references": [
+    "asset/P4b-3"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P4b-3_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9714,
+   "longueur": 73,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "4ddd240b7472117b"
+  },
+  {
+   "adresse": "asset/clip-P5-1",
+   "slug": "clip-P5-1",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The hand takes hold of the knife. Camera: static. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    5
+   ],
+   "references": [
+    "asset/P5-1"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P5-1_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9715,
+   "longueur": 57,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "48a5b78a5ea29899"
+  },
+  {
+   "adresse": "asset/clip-P5-2",
+   "slug": "clip-P5-2",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The blade saws the rope, fibres spring free one by one. Camera: static. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    5
+   ],
+   "references": [
+    "asset/P5-2"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P5-2_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9716,
+   "longueur": 73,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "0b3f441b83d6b898"
+  },
+  {
+   "adresse": "asset/clip-P5-3",
+   "slug": "clip-P5-3",
+   "genre": "CLIP_VIDEO",
+   "style": "StyleP",
+   "moteur": "ltx-2.5-i2v-2passes",
+   "prompt": "modern anime television series look, clean black outlines, flat cel shading with hard shadow edges, bright clean palette, soft bloom, richly painted background, muted earth tones. Single continuous shot, no cut. The cut cords whip, the balloon climbs away and shrinks, the open parachute sways gently and the basket swings under it. The rope gives way at once, the strands whip the air. Camera: static. Nobody new enters the frame. Every object visible is already present in the first frame: no new object appears, nothing is taken out, put on, handed over or produced, and no object is duplicated. Ambient sound only: wind and distant murmur, no speech, no music.",
+   "negatif": "blurry, low quality, jpeg artifacts, text, watermark, subtitles, extra people, new characters, deformed hands, car, vehicle, carriage, modern object, anachronism, camera cut, scene change, new object appearing, second hat, a hat above another hat, duplicated prop, object materialising, object handed over",
+   "plans": [
+    5
+   ],
+   "references": [
+    "asset/P5-3"
+   ],
+   "lignes_citees": [],
+   "empreintes_citees": {},
+   "fichier": "Downloads/EpisodeModernise/pilote/clips-runpod/StyleP/P5-3_StyleP.mp4 (hors dépôt)",
+   "media_id_higgsfield": null,
+   "graine": 9717,
+   "longueur": 57,
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-27",
+   "empreinte": "738d12616d419e54"
+  }
+ ]
+}

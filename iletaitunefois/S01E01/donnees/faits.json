@@ -1,0 +1,1100 @@
+{
+ "exclus": {
+  "1.48": "Date « 27 janvier 1894 » issue d'un blog de brevets, source proscrite ; remplacée par la correction 2.55 (27 juin 1894).",
+  "1.1": "Remarque de cadrage sur l'inventaire de Needham/Temple, pas un fait ponctuel : reste en note de l'audit."
+ },
+ "elements": [
+  {
+   "adresse": "fait/1.2",
+   "cle": "1.2",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« Chinois ont découvert la porcelaine mille sept cents ans avant les autres »",
+   "etat_2026": "Proto-porcelaine dès les Han orientaux (Iᵉʳ-IIIᵉ s.), porcelaine dure sous les Tang (VIIᵉ-Xᵉ s.) ; l'Europe n'en perce le secret qu'en 1708 à Meissen (Böttger et Tschirnhaus) : huit à dix siècles d'écart",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Meissen porcelain, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Meissen_porcelain"
+    },
+    {
+     "titre": "SFO Museum, *Birth of Meissen Porcelain",
+     "url": "https://www.sfomuseum.org/exhibitions/evolution-royal-vision-birth-meissen-porcelain"
+    }
+   ],
+   "periode": null,
+   "plans": [
+    12
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "c66780b4c5705667"
+  },
+  {
+   "adresse": "fait/1.3",
+   "cle": "1.3",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« la **machine à vapeur** » dans la liste des trouvailles chinoises",
+   "etat_2026": "La machine à vapeur est européenne : Papin, Savery, Newcomen (1712), Watt. L'attribution vient d'une lecture forcée de Needham par Temple, qui assimile la soufflerie à piston à double effet et la roue hydraulique aux « éléments essentiels » d'une machine à vapeur",
+   "statut_audit": "errone",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Steam Power in China*, Springer",
+     "url": "https://link.springer.com/rwe/10.1007/978-94-007-7747-7_10159"
+    },
+    {
+     "titre": "critique de Temple, Chris Crawford, *Chinese Technological Superiority",
+     "url": "https://www.erasmatazz.com/library/the-mind/history-of-thinking/themes/chinese-technological-super.html"
+    }
+   ],
+   "periode": {
+    "debut": 1712,
+    "fin": 1712,
+    "precision": "ANNEE",
+    "libelle": "Newcomen, 1712"
+   },
+   "plans": [
+    35
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "759463efdf8b6504"
+  },
+  {
+   "adresse": "fait/1.4",
+   "cle": "1.4",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« les **grands animaux, base de nourriture, se font plus rares**, l'homme **découvre l'agriculture** »",
+   "etat_2026": "L'agriculture apparaît indépendamment dans une dizaine de foyers (Croissant fertile v. 9500 av. n. è., Yangzi pour le riz, fleuve Jaune pour le millet, Mésoamérique, Andes, Nouvelle-Guinée, Sahel), au sortir de la dernière glaciation. La raréfaction du grand gibier est une hypothèse parmi d'autres, pas le moteur reconnu",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Révolution néolithique, Wikipédia",
+     "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_n%C3%A9olithique"
+    },
+    {
+     "titre": "Hominidés, *Les premiers agriculteurs",
+     "url": "https://www.hominides.com/articles/les-premiers-agriculteurs-2/"
+    }
+   ],
+   "periode": null,
+   "plans": [
+    19
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "5eb4f17e15b2aa3d"
+  },
+  {
+   "adresse": "fait/1.5",
+   "cle": "1.5",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« Dès le **VIᵉ siècle avant notre ère** […] **semoir à rangs multiples** »",
+   "etat_2026": "Culture en ligne, sarclage intensif et soc de charrue en fonte attestés dès les Royaumes combattants (Vᵉ-IIIᵉ s. av. n. è.) ; le semoir à rangs multiples est une machine de l'époque Han (IIᵉ s. av. n. è.). L'Europe n'adopte le semoir mécanique qu'avec Jethro Tull en 1701",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Semoir, Wikipédia",
+     "url": "https://fr.wikipedia.org/wiki/Semoir"
+    },
+    {
+     "titre": "Jethro Tull (agronome)",
+     "url": "https://fr.wikipedia.org/wiki/Jethro_Tull_(agronome)"
+    },
+    {
+     "titre": "Histoire de la métallurgie en Chine",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_m%C3%A9tallurgie_en_Chine"
+    }
+   ],
+   "periode": {
+    "debut": -475,
+    "fin": -101,
+    "precision": "SIECLE",
+    "libelle": "Royaumes combattants puis Han (IIe s. av. n. è.)"
+   },
+   "plans": [
+    21,
+    22,
+    23
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "1276afeb980c0fa0"
+  },
+  {
+   "adresse": "fait/1.6",
+   "cle": "1.6",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« La **cervoise des Gaulois** était connue des Chinois **quinze cents ans plus tôt** »",
+   "etat_2026": "Boisson fermentée de riz, miel et aubépine à Jiahu v. 7000 av. n. è. ; brasserie de millet et d'orge à Mijiaya (Shaanxi) v. 3400-2900 av. n. è. La bière n'est pas d'origine chinoise (Mésopotamie et Égypte dès le IVᵉ millénaire), et la cervoise celtique est attestée par la malterie d'Eberdingen-Hochdorf, v. 600-400 av. n. è.",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Wang et al., « Revealing a 5,000-y-old beer recipe in China », *PNAS* 113-23, 2016",
+     "url": "https://www.pnas.org/content/113/23/6444"
+    },
+    {
+     "titre": "Stika, « Traces of a possible Celtic brewery in Eberdingen-Hochdorf », *Veget Hist Archaeobot",
+     "url": "https://link.springer.com/article/10.1007/BF00189437"
+    }
+   ],
+   "periode": null,
+   "plans": [
+    24,
+    25
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "d4fd329b0232e088"
+  },
+  {
+   "adresse": "fait/1.7",
+   "cle": "1.7",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« Le **harnais classique, à garrot, comprimait la gorge du cheval** »",
+   "etat_2026": "Thèse de Lefebvre des Noëttes (1931), réfutée dès 1977 par les reconstitutions expérimentales de Jean Spruytte : des Noëttes avait fabriqué un harnais imaginaire en combinant un joug de garrot et un collier de gorge appartenant à deux systèmes distincts. Les attelages antiques faisaient porter la traction sur les épaules ou le poitrail et étaient efficaces",
+   "statut_audit": "errone",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Spruytte, *Études expérimentales sur l'attelage*, 1977, compte rendu Persée",
+     "url": "https://www.persee.fr/doc/remmm_0035-1474_1978_num_25_1_1819"
+    },
+    {
+     "titre": "« La faiblesse de l'attelage antique : la fin d'un mythe ? », *L'Antiquité classique* 48, 1979",
+     "url": "https://www.persee.fr/doc/antiq_0770-2817_1979_num_48_1_1938"
+    }
+   ],
+   "periode": {
+    "debut": 1977,
+    "fin": 1977,
+    "precision": "ANNEE",
+    "libelle": "réfutation expérimentale de Spruytte, 1977"
+   },
+   "plans": [
+    26,
+    27
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "a295b9c2e0634059"
+  },
+  {
+   "adresse": "fait/1.8",
+   "cle": "1.8",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« **harnais à collier** […] **dix fois plus lourdes** […] **mille ans à l'Occident** »",
+   "etat_2026": "Le collier d'épaule apparaît en Chine vers le Vᵉ siècle, est figuré à Dunhuang sous les Tang, gagne l'Europe au IXᵉ-Xᵉ siècle avec les attelages carolingiens et s'y généralise au XIIᵉ : trois à cinq siècles d'écart. Le gain de traction est réel, mais le facteur « dix » vient des expériences discréditées de Lefebvre des Noëttes",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Collier d'épaule, Wikipédia",
+     "url": "https://fr.wikipedia.org/wiki/Collier_d'%C3%A9paule"
+    },
+    {
+     "titre": "Encyclopædia Universalis, « Collier d'épaule »",
+     "url": "https://www.universalis.fr/encyclopedie/collier-d-epaule/"
+    }
+   ],
+   "periode": {
+    "debut": 401,
+    "fin": 1200,
+    "precision": "SIECLE",
+    "libelle": "Ve siècle en Chine, IXe-XIIe en Europe"
+   },
+   "plans": [
+    28,
+    29
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "319e1859366581f1"
+  },
+  {
+   "adresse": "fait/1.9",
+   "cle": "1.9",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« les Chinois avaient **deux mille ans d'avance** sur la **fonte des métaux** et disposaient d'**étriers en métal** »",
+   "etat_2026": "La fonte de fer est maîtrisée en Chine dès le IVᵉ-Vᵉ s. av. n. è. et n'apparaît en Europe qu'à la fin du XIVᵉ : environ dix-huit siècles. L'étrier est en revanche tardif — étrier de montoir unique sur une figurine de Changsha datée de 302, première paire directement datée dans la tombe de Feng Sufu (415, Liaoning), arceau de bois de mûrier plaqué de bronze doré et de fer laqué. Les Chinois n'avaient pas d'étriers du temps des Grecs et des Romains",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Histoire de la métallurgie en Chine",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_la_m%C3%A9tallurgie_en_Chine"
+    },
+    {
+     "titre": "Tomb of Feng Sufu / étrier, Baidu Encyclopédie (angl.)",
+     "url": "https://baike.baidu.com/en/item/Stirrup/1418090"
+    }
+   ],
+   "periode": {
+    "debut": 302,
+    "fin": 415,
+    "precision": "ANNEE",
+    "libelle": "étrier de Changsha (302), paire de Feng Sufu (415)"
+   },
+   "plans": [
+    30,
+    31
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "1dadf48fee9c601a"
+  },
+  {
+   "adresse": "fait/1.10",
+   "cle": "1.10",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« L'**étrier chinois permit l'avènement de la chevalerie en Occident**, via les **Avars** »",
+   "etat_2026": "Les Avars introduisent bien l'étrier en Europe lors de leur installation dans le bassin des Carpates en 567-568, et les plus anciens étriers d'Europe viennent de leurs sépultures. Mais le lien de cause à effet avec la naissance de la chevalerie est la thèse de Lynn White (1962) : la « grande controverse de l'étrier » a conclu qu'il en avait largement surestimé le rôle",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Great Stirrup Controversy",
+     "url": "https://en.wikipedia.org/wiki/Great_Stirrup_Controversy"
+    },
+    {
+     "titre": "Histoire de la Transylvanie*, « L'époque avare (567-827) »",
+     "url": "https://mek.oszk.hu/02100/02114/html/34.html"
+    }
+   ],
+   "periode": {
+    "debut": 567,
+    "fin": 568,
+    "precision": "ANNEE",
+    "libelle": "installation des Avars, 567-568"
+   },
+   "plans": [
+    32,
+    33,
+    34
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "0fbede857f6032ee"
+  },
+  {
+   "adresse": "fait/1.11",
+   "cle": "1.11",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« Au **IIIᵉ siècle**, **seize siècles avant l'Occident** […] **contrôle biologique des insectes** »",
+   "etat_2026": "La plus ancienne mention connue est le *Nanfang caomu zhuang* de Ji Han, daté de 304 (IVᵉ siècle) : les vergers d'agrumes du sud de la Chine achètent des nids de fourmis tisserandes *Oecophylla smaragdina* et relient les arbres par des tiges de bambou. Le premier grand succès occidental est l'introduction de la coccinelle vedalia en Californie en 1888-1889 — l'écart de seize siècles est juste",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Oecophylla smaragdina",
+     "url": "https://en.wikipedia.org/wiki/Oecophylla_smaragdina"
+    },
+    {
+     "titre": "UC IPM, *Vedalia",
+     "url": "https://ipm.ucanr.edu/natural-enemies/vedalia/"
+    }
+   ],
+   "periode": {
+    "debut": 304,
+    "fin": 304,
+    "precision": "ANNEE",
+    "libelle": "Nanfang caomu zhuang, 304"
+   },
+   "plans": [
+    38
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "6c29ef62f816788d"
+  },
+  {
+   "adresse": "fait/1.12",
+   "cle": "1.12",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« Dès le **Vᵉ siècle avant notre ère** […] lors du **siège d'une grande ville**, les assiégés l'utilisèrent »",
+   "etat_2026": "Le cerf-volant est bien attesté en Chine dès le Vᵉ s. av. n. è. (Mozi, Lu Ban). Mais l'épisode du siège où les assiégés lancent des cerfs-volants porteurs de messages pour appeler du secours est daté de 549 de notre ère, lors du siège de Taicheng (Nankin) : mille ans plus tard",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Office du tourisme de Pékin, « Légende des cerfs-volants »",
+     "url": "https://french.visitbeijing.com.cn/article/47DZ7zuu9RK"
+    }
+   ],
+   "periode": {
+    "debut": 549,
+    "fin": 549,
+    "precision": "ANNEE",
+    "libelle": "siège de Taicheng, 549"
+   },
+   "plans": [
+    41,
+    42
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "58fc30157e4d35b0"
+  },
+  {
+   "adresse": "fait/1.13",
+   "cle": "1.13",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« Le **jeune prince Huang**, libéré […] par le **méchant empereur Tao Yang** […] **quelques kilomètres** »",
+   "etat_2026": "Le prisonnier volant est Yuan Huangtou, fils de l'empereur déchu Yuan Lang des Wei du Nord ; l'empereur est Gao Yang, l'empereur Wenxuan des Qi du Nord. Le vol a lieu en 559, depuis la tour du Phénix d'or de Ye (env. 33 m) : accroché à un cerf-volant en forme de hibou de papier, il franchit les murailles et se pose à la Voie pourpre, à environ 2,5 km. Seul survivant de l'expérience, il meurt de faim en captivité peu après. L'écart avec Baden-Powell est de 1 335 ans",
+   "statut_audit": "errone",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Yuan Huangtou",
+     "url": "https://en.wikipedia.org/wiki/Yuan_Huangtou"
+    },
+    {
+     "titre": "Man-lifting kite",
+     "url": "https://en.wikipedia.org/wiki/Man-lifting_kite"
+    }
+   ],
+   "periode": {
+    "debut": 559,
+    "fin": 559,
+    "precision": "ANNEE",
+    "libelle": "vol de Yuan Huangtou, 559"
+   },
+   "plans": [
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "0f1f6a4dfb516fec"
+  },
+  {
+   "adresse": "fait/1.14",
+   "cle": "1.14",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« le **pont Dandan, au Sichuan, au IIIᵉ siècle avant notre ère** »",
+   "etat_2026": "Les ponts suspendus à câbles de bambou sont une spécialité du Sichuan et du Yunnan, mais les plus anciennes mentions écrites remontent au *Livre des Han antérieurs* (rédigé entre 65 et 100 de notre ère). Le pont Anlan de Dujiangyan, souvent rattaché aux travaux d'irrigation du IIIᵉ s. av. n. è., n'est attesté comme ouvrage qu'avant les Song et a été reconstruit sans cesse ; aucun « pont Dandan » n'est identifiable. Des ponts suspendus sont par ailleurs attestés très tôt dans l'Himalaya et l'Hindou Kouch",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Encyclopedia.com, « Bridge Technology »",
+     "url": "https://www.encyclopedia.com/history/news-wires-white-papers-and-books/bridge-technology"
+    },
+    {
+     "titre": "Bridging Continents and Centuries* (2023)",
+     "url": "https://www.researchgate.net/publication/375005230"
+    }
+   ],
+   "periode": {
+    "debut": 65,
+    "fin": 100,
+    "precision": "ANNEE",
+    "libelle": "Livre des Han antérieurs, rédigé entre 65 et 100"
+   },
+   "plans": [
+    50,
+    51,
+    52,
+    53
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "780bbd1dc77d04c2"
+  },
+  {
+   "adresse": "fait/1.15",
+   "cle": "1.15",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« un **futur empereur de la dynastie Xia**, **trois mille ans avant notre ère** » / « c'est De Vinci qui le premier pensa au parachute »",
+   "etat_2026": "Le récit vient du *Shiji* de Sima Qian : l'empereur légendaire Shun échappe à un grenier en flammes accroché à deux grands chapeaux de paille coniques. Shun est un souverain légendaire traditionnellement daté des environs de 2200 av. n. è. et il précède les Xia, fondés par son successeur Yu vers 2070 av. n. è. Côté européen, le plus ancien dessin de parachute connu n'est pas de Léonard mais d'un manuscrit italien anonyme des années 1470 ; le croquis du Codex Atlanticus date de 1485 environ",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Britannica, *Leonardo da Vinci's parachute",
+     "url": "https://www.britannica.com/topic/Leonardo-da-Vincis-parachute-1704849"
+    },
+    {
+     "titre": "Sima Qian, *Shiji* (récit de Shun)",
+     "url": "https://en.wikipedia.org/wiki/Sima_Qian"
+    }
+   ],
+   "periode": {
+    "debut": -2200,
+    "fin": -2200,
+    "precision": "MILLENAIRE",
+    "libelle": "Shun, date traditionnelle vers 2200 av. n. è."
+   },
+   "plans": [
+    54,
+    55
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "03c17e585d3902c0"
+  },
+  {
+   "adresse": "fait/1.16",
+   "cle": "1.16",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« **Garnerin** : sauter d'un ballon à **sept à huit cents mètres** » ; « un de leurs ballons » (Montgolfier)",
+   "etat_2026": "André-Jacques Garnerin réalise le premier saut en parachute de l'histoire le 22 octobre 1797 au-dessus du parc Monceau, à Paris, depuis un ballon gonflé à l'hydrogène — et non une montgolfière à air chaud — largué vers 1 000 mètres, sous une voilure de soie de 7 mètres de diamètre ; il s'en tire avec une entorse à la cheville",
+   "statut_audit": "imprecis",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Herodote.net, « 22 octobre 1797 »",
+     "url": "https://www.herodote.net/22_octobre_1797-evenement-17971022.php"
+    },
+    {
+     "titre": "IRSEM, fiche du 22 octobre 1797",
+     "url": "https://www.irsem.fr/storage/file_manager_files/2025/03/22-octobre-1797-garnerin.pdf"
+    }
+   ],
+   "periode": {
+    "debut": 1797,
+    "fin": 1797,
+    "precision": "ANNEE",
+    "libelle": "22 octobre 1797"
+   },
+   "plans": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    61,
+    62,
+    63,
+    64
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "8e76a3080db385ba"
+  },
+  {
+   "adresse": "fait/1.17",
+   "cle": "1.17",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« **tablettes d'argile de l'époque sumérienne**, il y a **six mille ans** ; **plus tard vinrent les papyrus** »",
+   "etat_2026": "Les plus anciennes tablettes inscrites viennent d'Uruk et datent de la période Uruk IV, v. 3400-3200 av. n. è. : environ 5 400 ans. Les hiéroglyphes égyptiens apparaissent presque en même temps, v. 3250 av. n. è. : le papyrus ne succède pas à l'argile, il lui est contemporain",
+   "statut_audit": "imprecis",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Débuts de l'écriture en Mésopotamie",
+     "url": "https://fr.wikipedia.org/wiki/D%C3%A9buts_de_l'%C3%A9criture_en_M%C3%A9sopotamie"
+    },
+    {
+     "titre": "BnF Essentiels, « Naissance, vie et mort du cunéiforme »",
+     "url": "https://essentiels.bnf.fr/fr/livres-et-ecritures/les-systemes-ecriture/4ab92041-e146-4582-b101-2d12bf3502b3-ecritures-en-mesopotamie"
+    }
+   ],
+   "periode": {
+    "debut": -3400,
+    "fin": -3200,
+    "precision": "SIECLE",
+    "libelle": "Uruk IV, vers 3400-3200 av. n. è."
+   },
+   "plans": [
+    65
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "f13576f40ed85451"
+  },
+  {
+   "adresse": "fait/1.18",
+   "cle": "1.18",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« l'**Europe ne le connaîtra qu'au XIIIᵉ siècle**, **quinze siècles après** »",
+   "etat_2026": "Le papier chinois est attesté au IIᵉ s. av. n. è. — carte sur papier de chanvre de Fangmatan (Gansu), 176-141 av. n. è. —, Cai Lun n'ayant en 105 que perfectionné et fait adopter le procédé. En Europe le papier arrive par al-Andalus : Xàtiva dès le XIᵉ-XIIᵉ s., Sicile en 1102, premiers moulins chrétiens à Fabriano en 1276, Troyes en 1348 : douze à quatorze siècles selon le point de comparaison",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Histoire du papier, Wikipédia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_du_papier"
+    },
+    {
+     "titre": "L'Atelier du Papetier, chronologie",
+     "url": "https://latelierdupapetier.fr/wp-content/uploads/2017/06/Chronologie-de-lhistoire-du-papier.pdf"
+    }
+   ],
+   "periode": {
+    "debut": -176,
+    "fin": 105,
+    "precision": "ANNEE",
+    "libelle": "Fangmatan (176-141 av. n. è.) à Cai Lun (105)"
+   },
+   "plans": [
+    65
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "61da47ae5191dd9c"
+  },
+  {
+   "adresse": "fait/1.19",
+   "cle": "1.19",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« **armures de papier**, \"au moins aussi résistantes\" »",
+   "etat_2026": "L'armure de papier (*zhijia*) est bien attestée : apparue sous le règne de Tang Yizong (859-873), attribuée à Shang Suiyi, faite de feuilles pliées sur une à trois pouces d'épaisseur, en usage jusqu'aux Qing — trente mille exemplaires équipent des archers Song assiégés au Shaanxi. Elle arrête efficacement les flèches, ne rouille pas et durcit sous la pluie, mais c'était surtout un équipement bon marché : elle ne surpasse pas l'armure de métal",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "« Practically Invulnerable » : Chinese Paper Armor*, Hand Papermaking",
+     "url": "https://www.handpapermaking.org/magazine-articles/practically-invulnerable-chinese-paper-armor"
+    }
+   ],
+   "periode": {
+    "debut": 859,
+    "fin": 873,
+    "precision": "ANNEE",
+    "libelle": "règne de Tang Yizong"
+   },
+   "plans": [
+    67
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "b770a554e9e3f9b7"
+  },
+  {
+   "adresse": "fait/1.20",
+   "cle": "1.20",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« **Vers 810, les Chinois introduisent le papier-monnaie** »",
+   "etat_2026": "Ce qui apparaît en 806-820, sous l'empereur Tang Xianzong, est le *feiqian*, la « monnaie volante » : des lettres de change, sans cours légal. Le premier véritable papier-monnaie est le *jiaozi*, billet privé apparu au Sichuan vers 1023 et repris par l'État en 1024, sous les Song du Nord. La contrefaçon y était effectivement passible de mort. L'Europe attend le premier billet de banque de la Stockholms Banco de Johan Palmstruch, en 1661",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Jiaozi (monnaie), Wikipédia",
+     "url": "https://fr.wikipedia.org/wiki/Jiaozi_(monnaie)"
+    },
+    {
+     "titre": "ChinaKnowledge, *feiqian",
+     "url": "http://www.chinaknowledge.de/History/Terms/feiqian.html"
+    },
+    {
+     "titre": "Citéco, « Le premier billet de banque européen »",
+     "url": "https://www.citeco.fr/en/first-european-banknote"
+    }
+   ],
+   "periode": {
+    "debut": 1023,
+    "fin": 1024,
+    "precision": "ANNEE",
+    "libelle": "jiaozi du Sichuan, 1023-1024"
+   },
+   "plans": [
+    68
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "5169de46f3f9b37a"
+  },
+  {
+   "adresse": "fait/1.21",
+   "cle": "1.21",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« En **868** paraît le **premier livre imprimé sur papier, le Sutra du diamant** »",
+   "etat_2026": "Le Sutra du diamant du 11 mai 868, retrouvé dans les grottes de Mogao à Dunhuang et conservé à la British Library, est le plus ancien livre imprimé **complet et daté** connu — un rouleau de près de 5 mètres tiré de planches gravées. Des impressions xylographiques plus anciennes existent : le *Mugujeonggwang daedaranigyeong* coréen, antérieur à 751, et le *Hyakumantō darani* japonais, imprimé entre 764 et 770",
+   "statut_audit": "imprecis",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Sūtra du Diamant, Wikipédia",
+     "url": "https://fr.wikipedia.org/wiki/S%C5%ABtra_du_Diamant"
+    },
+    {
+     "titre": "Hyakumantō Darani",
+     "url": "https://en.wikipedia.org/wiki/Hyakumant%C5%8D_Darani"
+    },
+    {
+     "titre": "The Great Dharani Sutra",
+     "url": "https://en.wikipedia.org/wiki/The_Great_Dharani_Sutra"
+    }
+   ],
+   "periode": {
+    "debut": 868,
+    "fin": 868,
+    "precision": "ANNEE",
+    "libelle": "11 mai 868"
+   },
+   "plans": [
+    69
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "d5893d290bd1bb85"
+  },
+  {
+   "adresse": "fait/1.22",
+   "cle": "1.22",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« un Chinois, **Bi Xiang**, invente les **caractères mobiles** »",
+   "etat_2026": "L'inventeur est Bi Sheng (v. 990-1051), artisan des Song, qui met au point entre 1041 et 1048 des caractères gravés dans l'argile puis cuits, assemblés sur une plaque enduite de résine, de cire et de cendre de papier ; le procédé nous est connu par le *Mengxi bitan* de Shen Kuo",
+   "statut_audit": "errone",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Bi Sheng, Wikimonde",
+     "url": "https://wikimonde.com/article/Bi_Sheng"
+    },
+    {
+     "titre": "Citéco, « Première utilisation de caractères d'imprimerie mobiles »",
+     "url": "https://www.citeco.fr/10000-years-history-economics/antiquity-to-middle-ages/first-use-of-movable-type-made-in-terra-cotta"
+    }
+   ],
+   "periode": {
+    "debut": 1041,
+    "fin": 1048,
+    "precision": "ANNEE",
+    "libelle": "Bi Sheng, 1041-1048"
+   },
+   "plans": [
+    69
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "5a817a2829c2792f"
+  },
+  {
+   "adresse": "fait/1.23",
+   "cle": "1.23",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« jusqu'à **quatre cent mille** [caractères] **en Chine** »",
+   "etat_2026": "Le dictionnaire de Kangxi (1716) recense 47 035 caractères (49 030 variantes comprises), le *Zhonghua Zihai* (1994) 85 568, l'inventaire Unihan approchait les 100 000 formes en 2008, hapax et variantes compris. Bi Sheng travaillait avec environ trois mille caractères courants, en plusieurs exemplaires ; deux à quatre mille suffisent à lire la presse",
+   "statut_audit": "errone",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Dictionnaire de caractères de Kangxi",
+     "url": "https://fr.wikipedia.org/wiki/Dictionnaire_de_caract%C3%A8res_de_Kangxi"
+    },
+    {
+     "titre": "Dictionnaire de sinogrammes",
+     "url": "https://fr.wikipedia.org/wiki/Dictionnaire_de_sinogrammes"
+    }
+   ],
+   "periode": {
+    "debut": 1716,
+    "fin": 1716,
+    "precision": "ANNEE",
+    "libelle": "dictionnaire de Kangxi, 1716"
+   },
+   "plans": [
+    69
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "65993b620af79ac8"
+  },
+  {
+   "adresse": "fait/1.24",
+   "cle": "1.24",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« Les **conquêtes mongoles** […] \"comme par miracle, l'imprimerie ne va pas tarder à apparaître\" »",
+   "etat_2026": "L'impression xylographique et les caractères mobiles sont bien antérieurs en Chine et en Corée, et les échanges eurasiatiques ouverts par les Mongols rendent une transmission plausible — mais elle n'a jamais été démontrée. Ce que Gutenberg met au point vers 1450 est un système distinct : presse à vis, poinçon, matrice et moule à fondre, alliage plomb-étain-antimoine, encre grasse",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Histoire de l'imprimerie en Extrême-Orient",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_l'imprimerie_en_Extr%C3%AAme-Orient"
+    },
+    {
+     "titre": "BnF Essentiels, « Les impressions en caractères mobiles »",
+     "url": "https://essentiels.bnf.fr/fr/focus/2e39f8ef-08e9-4a5f-8190-3636b3464fd8-impressions-en-caracteres-mobiles"
+    }
+   ],
+   "periode": null,
+   "plans": [
+    70
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "9066505daa3788ce"
+  },
+  {
+   "adresse": "fait/1.44",
+   "cle": "1.44",
+   "section_audit": "Dates clefs",
+   "enonce_episode": "« XIᵉ s. \\| Technique chinoise de récupération des objets immergés »",
+   "etat_2026": "« Vers 1064-1066 \\| Le moine Huaibing renfloue les bœufs de fer du pont de Pujin (Puzhou) par le principe de flottaison »",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "China Steel Construction Society, *Yongji Yellow River Iron Cows",
+     "url": "http://www.ssmuseum.net/en/learn.aspx?type=50&id=169"
+    }
+   ],
+   "periode": {
+    "debut": 1064,
+    "fin": 1066,
+    "precision": "ANNEE",
+    "libelle": "renflouage de Huaibing, 1064-1066"
+   },
+   "plans": [
+    39
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "ed95a8a6d735999c"
+  },
+  {
+   "adresse": "fait/1.52",
+   "cle": "1.52",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« Et le cognac » dans la liste des antériorités chinoises (05:22)",
+   "etat_2026": "**Point non tranché résolu le 2026-08-07.** **L'antériorité chinoise n'est pas établie : elle est réfutée.** **La distillation du vin est attestée dans des travaux arabes attribués à al-Kindī, vers 801-873**, et **des recettes d'*aqua ardens* — l'éthanol — apparaissent dans plusieurs textes latins dès le XIIᵉ siècle**. **Du côté chinois, les preuves archéologiques ne remontent qu'aux dynasties Song du Sud et Jin** : **un alambic mis au jour sur le site de Qinglong, dans le Hebei, est daté du XIIᵉ siècle**, et **les boissons distillées ne deviennent courantes que sous les Yuan**, aux XIIIᵉ-XIVᵉ siècles. **L'antériorité est arabe, de trois siècles environ.** *(La réplique « Et le cognac, ça vous étonne, hein ? » est préservée telle quelle dans `Gags`.)*",
+   "statut_audit": "errone",
+   "confiance": "Haute",
+   "sources": [
+    {
+     "titre": "Histoire de la distillation : attestations arabes du IXᵉ siècle, *aqua ardens* latine du XIIᵉ, alambic de Qinglong (Hebei), XIIᵉ siècle",
+     "url": null
+    }
+   ],
+   "periode": {
+    "debut": 801,
+    "fin": 873,
+    "precision": "ANNEE",
+    "libelle": "al-Kindī, vers 801-873"
+   },
+   "plans": [
+    24,
+    25
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "6d6659d44ff986af"
+  },
+  {
+   "adresse": "fait/1.53",
+   "cle": "1.53",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« le système décimal » dans la liste des antériorités chinoises",
+   "etat_2026": "**Point non tranché résolu le 2026-08-07.** **L'antériorité est confirmée, avec une réserve décisive.** **Les baguettes à calculer chinoises constituent un véritable système de numération positionnelle décimale, avec des chiffres de 1 à 9, depuis la période des Royaumes combattants — vers 475 avant notre ère — et jusqu'au XVIᵉ siècle.** **Mais elles n'ont pas de symbole pour le zéro** : elles laissent un espace vide, les mathématiciens chinois comprenant parfaitement le zéro et les nombres négatifs sans leur donner de signe. **Le système qui s'est imposé dans le monde est le système indien, transmis par le monde arabe, précisément parce qu'il a fait du zéro un chiffre à part entière.** L'antériorité chinoise porte donc sur le principe positionnel, non sur la notation qui a gagné.",
+   "statut_audit": "imprecis",
+   "confiance": "Haute",
+   "sources": [
+    {
+     "titre": "Documentation de référence sur les baguettes à calculer chinoises : système positionnel des Royaumes combattants, absence de symbole du zéro",
+     "url": null
+    }
+   ],
+   "periode": {
+    "debut": -475,
+    "fin": -475,
+    "precision": "DECENNIE",
+    "libelle": "baguettes à calculer, vers 475 av. n. è."
+   },
+   "plans": [
+    35
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "4e42d96a06cba89b"
+  },
+  {
+   "adresse": "fait/2.52",
+   "cle": "2.52",
+   "section_audit": "Histoire complète",
+   "enonce_episode": "« L'ambassadeur de France présent lors d'une démonstration ultérieure consigne le fait par écrit » ; « Voilà l'invention du parachute, venue en droite ligne de Chine »",
+   "etat_2026": "Le témoignage diplomatique qui circule en Europe existe, mais il ne vient pas de Chine : c'est celui de **Simon de La Loubère**, envoyé de Louis XIV au royaume de **Siam**, qui décrit des acrobates du royaume d'Ayutthaya sautant avec de grands parasols — récit dont les histoires du parachute retiennent qu'il a influencé les développements européens ultérieurs. La filiation est siamoise, non chinoise. Et l'invention n'est pas de Garnerin : **Louis-Sébastien Lenormand** réalise le premier saut public attesté en **1783** et forge le mot « parachute » en **1785** ; l'apport propre de Garnerin en 1797 est la voilure de soie **sans armature**.",
+   "statut_audit": "errone",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Wikipedia EN, *Parachute* (sections *Pre-modern era* et *Modern parachute*)",
+     "url": "https://en.wikipedia.org/wiki/Parachute"
+    }
+   ],
+   "periode": null,
+   "plans": [
+    57,
+    58
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "00b9d9f360cd4c84"
+  },
+  {
+   "adresse": "fait/2.53",
+   "cle": "2.53",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« il faudra **deux mille ans à l'Occident** pour découvrir la technique » [du pont suspendu] et « cinq siècles de plus pour atteindre ce niveau de perfection »",
+   "etat_2026": "L'ordre de grandeur de deux millénaires tient, mais l'Occident n'a pas mis « cinq siècles de plus » à perfectionner : le premier pont suspendu à chaînes de fer du monde occidental est le pont de **Jacob's Creek**, bâti par **James Finley** en Pennsylvanie en **1801** et breveté en **1808** ; le pont de **Menai** suit en **1826**, et Marc Seguin monte le premier pont à câbles de fil à Annonay en **1822**. La mise au point occidentale s'étale sur vingt-cinq ans. Hors d'Europe, des ponts à chaînes de fer sont attestés bien plus tôt : un pont du haut Yangzi au VIIᵉ siècle, les **huit ponts de Thangtong Gyalpo** dans l'est du Bhoutan en **1433**, le pont de **Luding** en **1703** (100 m, onze chaînes).",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Wikipedia EN, *Suspension bridge*, *Simple suspension bridge",
+     "url": "https://en.wikipedia.org/wiki/Suspension_bridge"
+    },
+    {
+     "titre": "https://en.wikipedia.org/wiki/Simple_suspension_bridge",
+     "url": null
+    }
+   ],
+   "periode": {
+    "debut": 1801,
+    "fin": 1826,
+    "precision": "ANNEE",
+    "libelle": "Jacob's Creek 1801, Annonay 1822, Menai 1826"
+   },
+   "plans": [
+    52,
+    53
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "42139fa63ec466b1"
+  },
+  {
+   "adresse": "fait/2.55",
+   "cle": "2.55",
+   "section_audit": "Dates clefs",
+   "enonce_episode": "« 27 janvier 1894 \\| À Pirbright, B. F. S. Baden-Powell soulève un homme à une quinzaine de mètres »",
+   "etat_2026": "La date de janvier retenue en première passe provient d'un blog de collectionneurs de brevets, source proscrite comme source unique par le référentiel (§5). Les synthèses de référence sur les cerfs-volants porteurs donnent le **27 juin 1894** : au camp de Pirbright, le *Levitor* de Baden-Powell soulève un homme à **quinze mètres**, et il dépasse **régulièrement trente mètres** avant la fin de l'année. Lawrence Hargrave se soulève de son côté à cinq mètres à Stanwell Park le **12 novembre 1894**.",
+   "statut_audit": "imprecis",
+   "confiance": "moyenne",
+   "sources": [
+    {
+     "titre": "Wikipedia EN, *Man-lifting kite",
+     "url": "https://en.wikipedia.org/wiki/Man-lifting_kite"
+    }
+   ],
+   "periode": {
+    "debut": 1894,
+    "fin": 1894,
+    "precision": "ANNEE",
+    "libelle": "27 juin 1894, Pirbright"
+   },
+   "plans": [
+    48
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "8160ea868cbe6173"
+  },
+  {
+   "adresse": "fait/2.56",
+   "cle": "2.56",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« C'est en 1894 que, pour la première fois, Baden-Powell vole à l'aide d'un cerf-volant… **Otto Lilienthal ouvre lui aussi le chemin à l'aviation** »",
+   "etat_2026": "L'ordre de l'épisode est inversé : Lilienthal ne suit pas Baden-Powell, il le précède. Il vole en planeur **depuis 1891** avec le Derwitzer et effectue **plus de deux mille vols** jusqu'à sa chute du 9 août 1896, dont il meurt environ trente-six heures plus tard. Le cerf-volant porteur de 1894 est un rameau latéral de l'histoire du vol, pas son point de départ.",
+   "statut_audit": "imprecis",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Wikipedia EN, *Otto Lilienthal",
+     "url": "https://en.wikipedia.org/wiki/Otto_Lilienthal"
+    }
+   ],
+   "periode": {
+    "debut": 1891,
+    "fin": 1896,
+    "precision": "ANNEE",
+    "libelle": "Lilienthal, vols de 1891 à sa mort en 1896"
+   },
+   "plans": [
+    48
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "db24e05639627a1f"
+  },
+  {
+   "adresse": "fait/2.57",
+   "cle": "2.57",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« Ils ont trouvé **mille à deux mille ans avant les autres** : … la **boussole**, … l'**horloge mécanique**, … les **fusées** »",
+   "etat_2026": "Lève le point 4 de « Non tranché » pour trois objets de la liste, dont l'avance est **très inférieure** à ce que dit l'épisode. **Boussole** : aiguille aimantée décrite par Shen Kuo en 1088, usage maritime chez Zhu Yu en 1111-1117 ; première description occidentale par Alexander Neckam vers 1190 — environ un siècle. **Horloge à échappement** : Yi Xing et Liang Lingzan régulent une horloge astronomique en 721, Su Song érige sa tour en 1088 ; l'échappement à verge et foliot apparaît en Europe vers 1275, Robertus Anglicus décrivant en 1271 des tentatives d'horloge purement mécanique — deux à cinq siècles. **Fusées** : documentation solide en Chine au XIIIᵉ siècle (1232), première apparition européenne à la bataille de **Chioggia en 1380** — environ un siècle et demi. La **transmission par chaîne** est en revanche pleinement confirmée : la tour de Su Song (1088) porte le premier entraînement par chaîne sans fin connu.",
+   "statut_audit": "imprecis",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Wikipedia EN, *History of the compass*, *History of timekeeping devices*, *History of rockets",
+     "url": "https://en.wikipedia.org/wiki/History_of_the_compass"
+    },
+    {
+     "titre": "https://en.wikipedia.org/wiki/History_of_timekeeping_devices",
+     "url": null
+    },
+    {
+     "titre": "https://en.wikipedia.org/wiki/History_of_rockets",
+     "url": null
+    }
+   ],
+   "periode": {
+    "debut": 1088,
+    "fin": 1190,
+    "precision": "ANNEE",
+    "libelle": "Shen Kuo 1088 à Neckam vers 1190"
+   },
+   "plans": [
+    35
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "d5253c14bec9c453"
+  },
+  {
+   "adresse": "fait/2.58",
+   "cle": "2.58",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« Les **conquêtes mongoles** portent la technique aux frontières de l'Empire germanique, où \"comme par miracle, l'imprimerie ne va pas tarder à apparaître\" »",
+   "etat_2026": "Complète la correction 24 par le maillon coréen, absent de l'épisode : le plus ancien livre conservé imprimé en **caractères métalliques mobiles** est le ***Jikji***, imprimé en **1377**, soit soixante ans avant la presse de Gutenberg (vers 1440). Sur la transmission, Joseph P. McDermott souligne l'absence de preuve documentaire et les historiens parlent d'évolution convergente.",
+   "statut_audit": "imprecis",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Wikipedia EN, *History of printing",
+     "url": "https://en.wikipedia.org/wiki/History_of_printing"
+    }
+   ],
+   "periode": {
+    "debut": 1377,
+    "fin": 1377,
+    "precision": "ANNEE",
+    "libelle": "Jikji, 1377"
+   },
+   "plans": [
+    70
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "86b42c10a63d658d"
+  },
+  {
+   "adresse": "fait/2.59",
+   "cle": "2.59",
+   "section_audit": "Faits énoncés",
+   "enonce_episode": "« Alors que les **grands animaux, base de nourriture, se font plus rares**, l'homme **découvre l'agriculture** »",
+   "etat_2026": "Chiffre la correction 4. Sept à huit foyers indépendants sont reconnus, avec des dates désormais précises : Croissant fertile il y a **10 000 à 9 000 ans**, **riz du Yangzi entre 13 500 et 8 200 ans avant le présent**, **millets du nord de la Chine vers 8 000 ans**, Nouvelle-Guinée 9 000-6 000 BP, Mexique central 5 000-4 000 BP, hautes terres éthiopiennes, Sahel, Afrique de l'Ouest. Le facteur déclenchant retenu est le réchauffement rapide de la fin du **Dryas récent** et l'entrée dans l'Holocène il y a environ **11 700 ans**, non la raréfaction du gros gibier.",
+   "statut_audit": "imprecis",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Wikipedia EN, *Neolithic Revolution",
+     "url": "https://en.wikipedia.org/wiki/Neolithic_Revolution"
+    }
+   ],
+   "periode": null,
+   "plans": [
+    19
+   ],
+   "statut": "valide",
+   "valide_par": "audit du corpus (4-7 août 2026)",
+   "valide_le": "2026-08-07",
+   "source": "iletaitunefois/fiches_verifie/_audit/decouvreurs/S01E01_nos-ancetres-les-chinois.audit.md",
+   "empreinte": "69d9bb943462d297"
+  },
+  {
+   "adresse": "fait/lenormand-1783",
+   "cle": "lenormand-1783",
+   "section_audit": "Faits énoncés (extrait de 2.52)",
+   "enonce_episode": "« c'est De Vinci qui le premier pensa au parachute »",
+   "etat_2026": "Louis-Sébastien Lenormand effectue le premier saut public attesté en parachute en 1783, à Montpellier, et forge le mot « parachute » en 1785 ; l'apport propre de Garnerin, le 22 octobre 1797, est la voilure de soie sans armature.",
+   "statut_audit": "imprecis",
+   "confiance": "haute",
+   "sources": [
+    {
+     "titre": "Wikipedia EN, Parachute",
+     "url": "https://en.wikipedia.org/wiki/Parachute"
+    }
+   ],
+   "periode": {
+    "debut": 1783,
+    "fin": 1785,
+    "precision": "ANNEE",
+    "libelle": "1783, mot forgé en 1785"
+   },
+   "plans": [
+    60
+   ],
+   "statut": "propose",
+   "_note": "saisi le 30 août 2026 pour dater le personnage Lenormand",
+   "source": "fiche vérifiée S01E01, ligne 117",
+   "empreinte": "a898dded64e4280a"
+  }
+ ]
+}

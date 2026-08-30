@@ -1,6 +1,6 @@
 # Il était une fois — *Les Découvreurs*
 
-Le programme est **« Il était une fois », version 2026** ; sa **saison 1 est *Les Découvreurs*** (26 épisodes du corpus d'origine), en style **P, anime TV moderne** (choix du 29 août 2026). Depuis le 29 août, la vérité de la série (plans, répliques, faits, bible, contrats, décisions) est détenue par **Studio**, le serveur MCP (`atelier/STUDIO.md`) ; ce dossier garde ce que Studio ne modélise pas encore et le corpus source.
+Le programme est **« Il était une fois », version 2026** ; sa **saison 1 est *Les Découvreurs*** (26 épisodes du corpus d'origine), en style **P, anime TV moderne** (choix du 29 août 2026). La vérité de l'épisode est la **couche de données** `S01E01/donnees/*.json` (voir `CLAUDE.md`) ; `scenario.md`, `plan-de-production.md` et `son-et-voix.md` en sont générés et ne s'éditent pas à la main.
 
 ```
 iletaitunefois/
@@ -29,14 +29,15 @@ iletaitunefois/
       DECISIONS.md                les décisions en vigueur et celles qu'elles ont remplacées
       identifiants.md             media_id et job_id Higgsfield
     novelcrafter/                 le roman en prose, le manuscrit technique, le codex
-    studio/                       import Studio : contrats.json, lieux.json, faits.json (saisies), journal.jsonl, rapport.md
+    donnees/                      LA VÉRITÉ : plans, répliques, décors, faits, personnages, continuité, assets, contrats, attendus, décisions, etat.json
+    studio/                       trace de l'essai Studio (29-30 août 2026), abandonné
 ```
 
 ## Où en est S01E01
 
 * **Pilote (plans 1 à 6)** : livré en style P, 62,8 s, vérifié plan par plan. Restes : cadrage de 1b-3 et 4b-2, huit objets à arbitrer, voix sur la longueur. Voir `S01E01/pilote/AUDIT.md`.
 * **Scénario révisé le 29 août 2026** d'après l'audit du corpus (cognac, système décimal, Baden-Powell et Lilienthal au plan 48) : **80 plans, 21 min 59**, 107 répliques, 92 mots/min ; 54 blocs ANIMÉ (476 s, 36,1 %), 48 FIXE, 8 POST. La prose Novelcrafter n'a pas encore son chapitre 48.
-* **Studio** : S01E01 importé (structure, format, 17 styles, bible, 61 apprentissages, 27 décisions, 16 locuteurs, 34 décors, 80 plans, 107 répliques, 40 faits sourcés reliés à leurs plans, contrats de continuité, règles de prose). Plans 7 à 80 à préparer avec `atelier/GUIDE-preparation-episode.md` et la boucle `next()` de Studio.
+* **Couche de données créée le 30 août 2026** : 80 plans, 107 répliques, 34 décors, 34 faits sourcés, 24 personnages, 21 éléments de continuité, 45 assets, contrats, 27 décisions, 55 règles. `python atelier/scripts/doctor.py` dit ce qui manque ; `contexte.py` dit où on en est. Plans 7 à 80 à préparer avec `atelier/GUIDE-preparation-episode.md`.
 * **Troupe** : Sam, Elio et Naya à générer en style P avant la première séquence de cadre (plan 7).
 
 ## Comment on continue

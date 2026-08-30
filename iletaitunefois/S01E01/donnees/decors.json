@@ -1,0 +1,523 @@
+{
+ "plan_decor": {
+  "12": "D4",
+  "6": null,
+  "61": "D2"
+ },
+ "elements": [
+  {
+   "adresse": "decor/D1",
+   "code": "D1",
+   "nom": "Parc Monceau au sol, aube",
+   "plans": [
+    1,
+    2,
+    3,
+    63,
+    64
+   ],
+   "plans_texte": "1, 2, 3, 63, 64",
+   "signalement": "**1 à 3 consécutifs**",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "epoque": {
+    "eraDebutAnnee": 1797,
+    "eraFinAnnee": 1797,
+    "eraPrecision": "ANNEE"
+   },
+   "epoque_source": "scenario.md, plan 1, LIEU · Parc Monceau, aube d'octobre 1797",
+   "empreinte": "172f7df2ffdde315"
+  },
+  {
+   "adresse": "decor/D2",
+   "code": "D2",
+   "nom": "Ciel de Paris (ballon, voilure)",
+   "plans": [
+    4,
+    5,
+    61,
+    62
+   ],
+   "plans_texte": "4, 5, 62 (+ réemploi au 61)",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "epoque": {
+    "eraDebutAnnee": 1797,
+    "eraFinAnnee": 1797,
+    "eraPrecision": "ANNEE"
+   },
+   "epoque_source": "scenario.md, plans 4b et 5, même journée",
+   "empreinte": "a6845b02c02e54ec"
+  },
+  {
+   "adresse": "decor/D3",
+   "code": "D3",
+   "nom": "Le cadre (intérieur, grande table)",
+   "plans": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    23,
+    24,
+    28,
+    31,
+    33,
+    37,
+    40,
+    43,
+    49,
+    52,
+    54,
+    58,
+    59,
+    65,
+    70,
+    73,
+    74,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "plans_texte": "7 à 15, 18, 20, 23, 24, 28, 31, 33, 37, 40, 43, 49, 52, 54, 58, 59, 65, 70, 73, 74, 76 à 80",
+   "signalement": "**7 à 15 et 76 à 80 consécutifs**",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "bf074ef694567567"
+  },
+  {
+   "adresse": "decor/D4",
+   "code": "D4",
+   "nom": "Ateliers et table de jeu des Tang",
+   "plans": [
+    12
+   ],
+   "plans_texte": "12",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "f5a13b7e03612a62"
+  },
+  {
+   "adresse": "decor/D5",
+   "code": "D5",
+   "nom": "Nature (trois vignettes)",
+   "plans": [
+    16
+   ],
+   "plans_texte": "16",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "f17b0abd441b3733"
+  },
+  {
+   "adresse": "decor/D6",
+   "code": "D6",
+   "nom": "Campement préhistorique nocturne",
+   "plans": [
+    17
+   ],
+   "plans_texte": "17",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "a8e7d53784071f93"
+  },
+  {
+   "adresse": "decor/D7",
+   "code": "D7",
+   "nom": "Dégel et planisphère stylisé",
+   "plans": [
+    19
+   ],
+   "plans_texte": "19",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "6eb4a583094dfee8"
+  },
+  {
+   "adresse": "decor/D8",
+   "code": "D8",
+   "nom": "Champs des Royaumes combattants",
+   "plans": [
+    21,
+    22
+   ],
+   "plans_texte": "21, 22",
+   "signalement": "**consécutifs (quatre lignes avec blocs)**",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "0096f812f50dd7d5"
+  },
+  {
+   "adresse": "decor/D9",
+   "code": "D9",
+   "nom": "Brasserie antique (source du gel 25)",
+   "plans": [
+    25
+   ],
+   "plans_texte": "25",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "f470011a3dcff50e"
+  },
+  {
+   "adresse": "decor/D10",
+   "code": "D10",
+   "nom": "Route antique (attelage)",
+   "plans": [
+    26,
+    27
+   ],
+   "plans_texte": "26, 27",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "1210cb3acdb701b2"
+  },
+  {
+   "adresse": "decor/D11",
+   "code": "D11",
+   "nom": "Route han (charretier)",
+   "plans": [
+    29
+   ],
+   "plans_texte": "29",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "c6af915dc4967907"
+  },
+  {
+   "adresse": "decor/D12",
+   "code": "D12",
+   "nom": "Cour équestre antique",
+   "plans": [
+    30
+   ],
+   "plans_texte": "30",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "4caf173958fea6e9"
+  },
+  {
+   "adresse": "decor/D13",
+   "code": "D13",
+   "nom": "Steppe",
+   "plans": [
+    32
+   ],
+   "plans_texte": "32",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "ee826a09d47f640a"
+  },
+  {
+   "adresse": "decor/D14",
+   "code": "D14",
+   "nom": "Vignettes techniques (boussole, cardan, écluse, gouvernail)",
+   "plans": [
+    35
+   ],
+   "plans_texte": "35",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "ccf63ca85d0dfcf5"
+  },
+  {
+   "adresse": "decor/D15",
+   "code": "D15",
+   "nom": "Puits du Sichuan",
+   "plans": [
+    36
+   ],
+   "plans_texte": "36",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "epoque_a_saisir": "plan 36, LIEU · Sichuan, IIe siècle avant notre ère — à saisir : -200 / -101, SIECLE",
+   "empreinte": "9ac5d359cd9a010b"
+  },
+  {
+   "adresse": "decor/D16",
+   "code": "D16",
+   "nom": "Marché et verger d'agrumes",
+   "plans": [
+    38
+   ],
+   "plans_texte": "38",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "epoque_a_saisir": "plan 38, LIEU · vergers, 304 — à saisir : 304 / 304, ANNEE",
+   "empreinte": "630a9ac61eb513c7"
+  },
+  {
+   "adresse": "decor/D17",
+   "code": "D17",
+   "nom": "Fleuve Jaune en crue",
+   "plans": [
+    39
+   ],
+   "plans_texte": "39",
+   "signalement": "**quatre blocs consécutifs**",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "epoque_a_saisir": "plan 39, LIEU · fleuve Jaune, vers 1060 — à saisir : 1060 / 1069, DECENNIE",
+   "empreinte": "87e09daef75f9978"
+  },
+  {
+   "adresse": "decor/D18",
+   "code": "D18",
+   "nom": "Colline venteuse",
+   "plans": [
+    41
+   ],
+   "plans_texte": "41",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "epoque_a_saisir": "plan 41, LIEU · colline, Ve siècle avant notre ère — à saisir : -500 / -401, SIECLE",
+   "empreinte": "4c650de62660e7a2"
+  },
+  {
+   "adresse": "decor/D19",
+   "code": "D19",
+   "nom": "Remparts de Taicheng",
+   "plans": [
+    42
+   ],
+   "plans_texte": "42",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "epoque_a_saisir": "plan 42, LIEU · Taicheng, 549 — à saisir : 549 / 549, ANNEE",
+   "empreinte": "d324f851ae8eae39"
+  },
+  {
+   "adresse": "decor/D20",
+   "code": "D20",
+   "nom": "Ye : tour du Phénix d'or et ville",
+   "plans": [
+    44,
+    45,
+    46,
+    47
+   ],
+   "plans_texte": "44, 45, 46, 47",
+   "signalement": "**consécutifs**",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "epoque_a_saisir": "plan 44, LIEU · Ye, 559 — à saisir : 559 / 559, ANNEE",
+   "empreinte": "ff7631376904ef7f"
+  },
+  {
+   "adresse": "decor/D21",
+   "code": "D21",
+   "nom": "Gorge du Sichuan (pont de bambou)",
+   "plans": [
+    50,
+    51
+   ],
+   "plans_texte": "50, 51",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "epoque_a_saisir": "plan 50, LIEU · gorge du Sichuan, Ier siècle — à saisir : 1 / 100, SIECLE",
+   "empreinte": "75439d9edfecf413"
+  },
+  {
+   "adresse": "decor/D22",
+   "code": "D22",
+   "nom": "Chevalier en armure (source du gel 34)",
+   "plans": [
+    34
+   ],
+   "plans_texte": "34",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "4e0b9fd1b4449c91"
+  },
+  {
+   "adresse": "decor/D23",
+   "code": "D23",
+   "nom": "Pont de chaînes de fer (source du gel 53)",
+   "plans": [
+    53
+   ],
+   "plans_texte": "53",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "e69b3ecb7b115a57"
+  },
+  {
+   "adresse": "decor/D24",
+   "code": "D24",
+   "nom": "Grenier en flammes",
+   "plans": [
+    55
+   ],
+   "plans_texte": "55",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "35472f6092915652"
+  },
+  {
+   "adresse": "decor/D25",
+   "code": "D25",
+   "nom": "Tour des Song et ruelle",
+   "plans": [
+    56,
+    57
+   ],
+   "plans_texte": "56, 57",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "a10a2fecb3bb9d01"
+  },
+  {
+   "adresse": "decor/D26",
+   "code": "D26",
+   "nom": "Montpellier (arbre, potager, tour de l'observatoire)",
+   "plans": [
+    60
+   ],
+   "plans_texte": "60",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "epoque_a_saisir": "plan 60, LIEU · Montpellier, 1783 — à saisir : 1783 / 1783, ANNEE",
+   "empreinte": "9fc3ad663578ca76"
+  },
+  {
+   "adresse": "decor/D27",
+   "code": "D27",
+   "nom": "Rempart aux armures",
+   "plans": [
+    67
+   ],
+   "plans_texte": "67",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "67f6d414bbb36283"
+  },
+  {
+   "adresse": "decor/D28",
+   "code": "D28",
+   "nom": "Ruelle aux billets",
+   "plans": [
+    68
+   ],
+   "plans_texte": "68",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "b88860a3c90f7853"
+  },
+  {
+   "adresse": "decor/D29",
+   "code": "D29",
+   "nom": "Vignettes de l'écrit (argile, hiéroglyphes, atelier du papier)",
+   "plans": [
+    66
+   ],
+   "plans_texte": "66",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "ce43dc056522c617"
+  },
+  {
+   "adresse": "decor/D30",
+   "code": "D30",
+   "nom": "Rouleau imprimé et atelier de Bi Sheng",
+   "plans": [
+    69
+   ],
+   "plans_texte": "69",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "1f6ae33cd3452db7"
+  },
+  {
+   "adresse": "decor/D31",
+   "code": "D31",
+   "nom": "Fourneaux d'alchimie",
+   "plans": [
+    71
+   ],
+   "plans_texte": "71",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "c8bb8a604277e45e"
+  },
+  {
+   "adresse": "decor/D32",
+   "code": "D32",
+   "nom": "Ciel de fête, champ de bataille",
+   "plans": [
+    72
+   ],
+   "plans_texte": "72",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "65eb12fc45a9e62e"
+  },
+  {
+   "adresse": "decor/D33",
+   "code": "D33",
+   "nom": "Parc actuel ensoleillé (source du POST 75)",
+   "plans": [
+    75
+   ],
+   "plans_texte": "75",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "empreinte": "4cff97cdffbf84f6"
+  },
+  {
+   "adresse": "decor/D34",
+   "code": "D34",
+   "nom": "Camp de Pirbright, 1894, et colline de Lilienthal, 1891 (deux vignettes)",
+   "plans": [
+    48
+   ],
+   "plans_texte": "48",
+   "signalement": "—",
+   "statut": "valide",
+   "valide_le": "2026-08-22",
+   "epoque": {
+    "eraDebutAnnee": 1891,
+    "eraFinAnnee": 1894,
+    "eraPrecision": "ANNEE"
+   },
+   "epoque_source": "scenario.md, plan 48, LIEU · 1894 et 1891",
+   "empreinte": "f4f57cfbc6d2796a"
+  }
+ ]
+}

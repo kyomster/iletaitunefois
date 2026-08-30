@@ -111,7 +111,7 @@ Versés sur la table au plan 9, rangés un à un. La table doit montrer, à chaq
 
 ---
 
-## Découpage détaillé — les 79 plans
+## Découpage détaillé — les 80 plans
 
 **24 août 2026.** La colonne « Description visuelle » du tableau d'origine est remplacée par une fiche complète par plan : lieu, caméra, contenu du cadre, hors cadre, action à animer, raccords, interdits. **Le texte dit est la zone verrouillée, repris à l'octet près du tableau d'origine** ; durées et types sont inchangés. Gauche et droite s'entendent à l'écran. Toute fiche s'appuie sur la bible de plateau ci dessus et ne peut la contredire.
 
@@ -963,7 +963,6 @@ INTERDITS · Personnage dans le cadre, lumière de plein jour, sacoche ouverte.
 | Le parachute | 54 à 64 | 14:42 à 17:40 | Shun, pillards, Siam, Lenormand, verdict de Garnerin |
 | Le papier | 65 à 70 | 17:40 à 19:37 | Écriture, armures, billets, imprimerie, Jikji |
 | Les armes et la morale | 71 à 80 | 19:37 à 21:59 | Poudre, fusées, chute en deux temps, teaser |
-
 
 **Total : 80 plans, 1 319 secondes soit 21 min 59 s hors générique.**
 

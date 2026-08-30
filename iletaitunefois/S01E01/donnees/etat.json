@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-30",
+  "resume": "Style P retenu ; pilote (plans 1 à 6) rendu et vérifié ; scénario révisé le 29 août (80 plans, 21 min 59) en attente de la signature de Guillaume ; couche de données créée le 30 août, les markdown sont désormais générés. Studio (serveur MCP) abandonné le 30 août : tout est local.",
+  "ouvert": [
+    "Signature de Guillaume sur la révision du 29 août (plans 24, 25, 35, 48 et leurs répliques en statut « propose »)",
+    "Planches du couteau et du parachute à générer, puis à rattacher (continuite/couteau, continuite/parachute)",
+    "Troupe Sam / Naya / Elio à générer en style P",
+    "Cadrage de 1b-3 et 4b-2 à durcir",
+    "Huit objets de continuité « à arbitrer » (assets-et-objets.md §7), échelle de conviction d'Elio, époques de huit décors",
+    "Prose Novelcrafter : chapitre 48 à écrire, renumérotation",
+    "Casting des huit voix : identifiants ElevenLabs à fournir par Guillaume",
+    "Attendus des plans 7 à 80 à saisir avec les briques de chaque séquence"
+  ],
+  "prochaine_etape": "préparer la séquence suivante (plans 7 à 15, le cadre) avec atelier/GUIDE-preparation-episode.md",
+  "prochaine_etape_detail": "chaîne physique de la pièce du cadre, inventaire de continuité (sacoche, tablette, carnets, les neuf objets), descriptions canoniques, troupe en P, puis briques"
+}

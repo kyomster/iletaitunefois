@@ -1,4 +1,8 @@
-# Studio — travailler avec le socle qui détient la vérité
+# Studio — le serveur MCP essayé les 29 et 30 août 2026, puis abandonné
+
+> **Abandonné le 30 août 2026 (décision de Guillaume) : tout est local, dans le dépôt.** La vérité est la couche de données `iletaitunefois/S01E01/donnees/*.json` (voir `CLAUDE.md`), les contrôles sont `atelier/scripts/doctor.py`. Ce document et les scripts `studio_*.py` restent comme trace de ce qui a été fait et de ce que le modèle de Studio avait de bon — tout a été repris en local. Le serveur n'est plus enregistré dans Claude Code.
+
+# Ce que c'était
 
 Depuis le 29 août 2026, la création est assistée par **Studio**, un serveur MCP qui détient la vérité des séries (programmes, saisons, épisodes, plans, répliques, faits, bible, apprentissages, styles, contrats de continuité, décisions, sessions de validation). Son contrat pour un agent est `C:\Users\kyoms\Desktop\EpisodeMerdenizeApp\docs\MCP-contrat-agent.md` ; ce document dit comment **nous** l'utilisons et ce qui reste dans le dépôt.
 

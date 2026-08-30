@@ -1,0 +1,3944 @@
+{
+ "episode": {
+  "code": "S01E01",
+  "titre": "Nos ancêtres les Chinois",
+  "saison": 1,
+  "programme": "Il était une fois",
+  "gabarit": "B"
+ },
+ "elements": [
+  {
+   "adresse": "S01E01/plan-1",
+   "numero": 1,
+   "titre": "L'aube sur le parc",
+   "type_scenario": "ANIMÉ",
+   "duree": 18,
+   "sequence": "Ouverture froide — parc Monceau, 1797",
+   "fiche": [
+    [
+     "LIEU",
+     "Parc Monceau, aube d'octobre 1797, brume basse, palette désaturée."
+    ],
+    [
+     "CAMÉRA",
+     "Très large, au sud de l'allée, légère plongée depuis 4 m, axe plein nord."
+    ],
+    [
+     "CADRE",
+     "L'allée de gravier monte du bord bas vers le fond. Le ballon gonflé au centre d'une pelouse dans l'axe, cordes tendues vers des piquets, LA nacelle posée dans l'herbe sous lui, attachée. La foule (une douzaine) sur l'allée au premier plan, dos caméra, tournée vers le ballon. Fabriques et colonnade ferment le fond, bosquets nus de part et d'autre, nappes de brume sur les pelouses."
+    ],
+    [
+     "HORS CADRE",
+     "Rien d'essentiel ; le soleil levant est à l'est, hors champ droite, lumière rasante."
+    ],
+    [
+     "ACTION",
+     "Le ballon oscille lentement dans le vent, les cordes se tendent et mollissent, la brume dérive de gauche à droite, quelques chapeaux bougent dans la foule. Personne n'entre ni ne sort du cadre."
+    ],
+    [
+     "RACCORDS",
+     "Fonde la géographie de toute l'ouverture ; le plan 2 se joue au bord sud de cette même foule."
+    ],
+    [
+     "INTERDITS",
+     "Seconde nacelle ou caisse, visage lisible, couleur réservée, figurant de face."
+    ]
+   ],
+   "muet": "— (muet, musique)",
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 9,
+     "description": "Aube d'octobre : brume sur les pelouses du parc Monceau, le ballon gonflé oscille dans le vent au milieu d'une foule en habits du Directoire, année 1797.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 9,
+     "description": "La foule s'écarte et tourne les têtes vers la nacelle qu'on amène sous le ballon, cordages tendus.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": "— (muet, musique)",
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "f82777c4f6edb52b"
+  },
+  {
+   "adresse": "S01E01/plan-2",
+   "numero": 2,
+   "titre": "Le pari des badauds",
+   "type_scenario": "FIXE",
+   "duree": 10,
+   "sequence": "Ouverture froide — parc Monceau, 1797",
+   "fiche": [
+    [
+     "LIEU",
+     "Même allée, bord sud de la foule, même aube."
+    ],
+    [
+     "CAMÉRA",
+     "Plan rapproché poitrine, légère contre plongée, à 2 m des badauds, axe nord."
+    ],
+    [
+     "CADRE",
+     "Le rond À GAUCHE, chapeau haut à cocarde, gilet tendu sur le ventre, penché vers son voisin, bouche fermée. Le maigre À DROITE, appuyé sur sa canne main droite, manteau de laine écrue brune usée et rapiécée, œil méfiant, bouche fermée. Ils se regardent. Derrière eux, la foule floue de dos, puis la nacelle et le bas du ballon au fond centre."
+    ],
+    [
+     "HORS CADRE",
+     "Le sommet du ballon, coupé par le bord haut."
+    ],
+    [
+     "RACCORDS",
+     "Mêmes deux hommes, mêmes places et mêmes costumes qu'au plan 64. Clés de champ contrechamp P02a (le rond seul, bouche visible) et P02b (le maigre seul, bouche visible) pour la synchro labiale."
+    ],
+    [
+     "INTERDITS",
+     "Sarcelle sur le manteau, visage lisible dans la foule, seconde canne, second chapeau à cocarde."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 10,
+     "description": "Deux badauds au premier plan, cocardes et chapeaux, la nacelle en fond.",
+     "mouvement": "Travelling latéral lent vers la droite, des badauds vers la nacelle"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "1fb3a9e088d0e763"
+  },
+  {
+   "adresse": "S01E01/plan-3",
+   "numero": 3,
+   "titre": "La dispute de la nacelle",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Ouverture froide — parc Monceau, 1797",
+   "fiche": [
+    [
+     "LIEU",
+     "Intérieur de la nacelle, encore au sol dans le parc, même aube."
+    ],
+    [
+     "CAMÉRA",
+     "De côté, hauteur poitrine, à 2 m du flanc sud de la nacelle : plan moyen à deux."
+    ],
+    [
+     "CADRE",
+     "GARNERIN À GAUCHE, debout, main droite gantée serrant la corde de largage au dessus de sa tête, regard levé vers le ballon, mâchoire posée, bouche fermée. L'AIDE À DROITE, DEBOUT AU SOL À L'EXTÉRIEUR DE LA NACELLE, les deux mains sur le rebord, penché vers lui, main ouverte qui supplie, visage entièrement visible de trois quarts, bouche fermée. Le parachute replié, ceinturé comme un parapluie fermé, est SUSPENDU ENTRE LE BALLON ET LA NACELLE, ses suspentes descendant au rebord (correction factuelle du 27 août 2026, voir `iletaitunefois/S01E01/logique-ouverture-froide.md` §1 : un paquet posé au plancher rendait la coupe du plan 5 mortelle et le plan 6 illisible). Le couteau glissé dans le tressage du flanc GAUCHE. Le parc D1 au fond, par dessus le rebord."
+    ],
+    [
+     "HORS CADRE",
+     "Le ballon, directement au dessus. La foule, derrière la caméra."
+    ],
+    [
+     null,
+     "DESTINATAIRE DE L'ORDRE · « Lâchez tout » s'adresse à l'équipe au sol : deux amarres tendues entrent au bas du cadre, tenues par des mains d'équipage au bord de l'image. Elles retombent au plan 4a-1."
+    ],
+    [
+     "RACCORDS",
+     "La corde tenue ici est celle que la lame tranche aux plans 5 et 61. Le couteau, la soie et leurs places reviennent aux plans 4b, 5, 61. L'aide ne remonte plus à bord ensuite."
+    ],
+    [
+     "INTERDITS",
+     "Second ballon ou seconde nacelle au fond, bouche ouverte, personne vu de dos."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Dans la nacelle, Garnerin, la main sur la corde de largage, regarde le ballon mâchoire serrée ; son aide, **au sol à l'extérieur**, le supplie ; le parachute replié **suspendu entre le ballon et la nacelle** (correction du 27 août 2026).",
+     "mouvement": "Zoom avant lent sur la main de Garnerin serrant la corde"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "a4c7512ccab2162f"
+  },
+  {
+   "adresse": "S01E01/plan-4",
+   "numero": 4,
+   "titre": "L'ascension",
+   "type_scenario": "ANIMÉ",
+   "duree": 20,
+   "sequence": "Ouverture froide — parc Monceau, 1797",
+   "fiche": [
+    [
+     "LIEU",
+     "Du parc au ciel de Paris : le plan se découpe en 4a (sol) et 4b (vol)."
+    ],
+    [
+     null,
+     "4a · Trois temps : le ballon s'arrache (contre plongée depuis le sol, cordes larguées qui retombent, aucun badaud au cadre) ; la foule bascule en arrière pour le suivre (plan serré sur trois dos, mains aux chapeaux, manteaux bruns gris et vert sombre) ; le ballon rétrécit au dessus des cimes (plan large, corde traînante)."
+    ],
+    [
+     null,
+     "4b · Trois temps : les toits de Paris glissent sous la nacelle (très large plongée, rebord d'osier au premier plan bas, paquet de soie posé contre lui) ; la main gantée de Garnerin se crispe sur le rebord (gros plan, ciel D2 flou) ; la ville entière sous la brume, le parc réduit à un rectangle vert à foule sombre (très large, ni rebord ni nacelle au cadre)."
+    ],
+    [
+     "LUMIÈRE",
+     "4a en JOUR, 4b bascule en TENSION : contraste dur, ambre ou gris froid selon style."
+    ],
+    [
+     "RACCORDS",
+     "La taille du ballon décroît strictement d'un sous plan à l'autre ; le paquet de soie de 4b-1 est celui du plan 3 ; la main gantée est la droite, celle du pansement n'existe pas ici (Garnerin, pas Sam)."
+    ],
+    [
+     "INTERDITS",
+     "Le ballon ne « redécolle » jamais deux fois ; aucun personnage dans 4a-1, 4a-3, 4b-1, 4b-3."
+    ]
+   ],
+   "muet": "— (muet)",
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 10,
+     "description": "Le ballon quitte le sol, la foule bascule en arrière pour le suivre des yeux.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 10,
+     "description": "Vu d'en haut, les toits de Paris rapetissent, la foule devient une tache sombre ; le vent siffle.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": "— (muet)",
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "a121e73c33dac662"
+  },
+  {
+   "adresse": "S01E01/plan-5",
+   "numero": 5,
+   "titre": "La lame sur la corde",
+   "type_scenario": "ANIMÉ",
+   "duree": 8,
+   "sequence": "Ouverture froide — parc Monceau, 1797",
+   "fiche": [
+    [
+     "LIEU",
+     "En vol, flanc de la nacelle, très haut au dessus de Paris."
+    ],
+    [
+     "CAMÉRA",
+     "Très gros plan en angle rasant le long de la corde."
+    ],
+    [
+     "CADRE",
+     "UNE seule main, celle de Garnerin dans sa manche sombre, scie la corde ENCORE ENTIÈRE et tendue ; quelques fibres externes sautent une à une, la lame à mi chemin. La corde tranchée est celle qui lie LE SOMMET DU PARACHUTE REPLIÉ au ballon : dans le cadre, de bas en haut, le rebord d'osier, les suspentes, le parachute fermé, puis LA corde, puis le ballon. Ciel et toits D2 flous derrière."
+    ],
+    [
+     "HORS CADRE",
+     "Le visage de Garnerin, le reste de la nacelle, le ballon."
+    ],
+    [
+     "ACTION",
+     "Va et vient court de la lame, fibres qui jaillissent, vibration de la corde. La corde NE cède PAS dans ce plan."
+    ],
+    [
+     "RACCORDS",
+     "Le plan 61 reprend ce geste à l'identique et va jusqu'à la rupture ; l'image figée du plan 6 est tirée de cette chute."
+    ],
+    [
+     "INTERDITS",
+     "Corde déjà tranchée, seconde main, mur ou intérieur derrière, code « D2 » lisible."
+    ]
+   ],
+   "muet": "— (muet)",
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 8,
+     "description": "Très gros plan : la lame tranche la corde qui retient la nacelle au ballon.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": "— (muet)",
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "512cebbcff6829e7"
+  },
+  {
+   "adresse": "S01E01/plan-6",
+   "numero": 6,
+   "titre": "Le carton titre",
+   "type_scenario": "FIXE",
+   "duree": 13,
+   "sequence": "Ouverture froide — parc Monceau, 1797",
+   "fiche": [
+    [
+     "LIEU",
+     "Plein ciel, image figée en pleine chute."
+    ],
+    [
+     "CADRE",
+     "Dernière image du dernier clip du plan 5, figée : la corde rompue fouette l'air, torons ouverts, ciel et toits D2 flous derrière. Carton titre posé AU MONTAGE : « LES DÉCOUVREURS — Nos ancêtres les Chinois »."
+    ],
+    [
+     "FABRICATION",
+     "Ce plan ne se génère pas : POST pur, aucune image à produire."
+    ],
+    [
+     "RACCORDS",
+     "Voix off de Sam par dessus ; le silence de l'image porte le suspens jusqu'au plan 61."
+    ]
+   ],
+   "type": "POST",
+   "registre": "MIXTE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 13,
+     "description": "L'image se fige en pleine chute ; carton titre « LES DÉCOUVREURS — Nos ancêtres les Chinois ».",
+     "mouvement": "Source : dernière image du plan 5 ; traitement : figement, incrustation du carton titre"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "ce096b7b499eb2b1"
+  },
+  {
+   "adresse": "S01E01/plan-7",
+   "numero": 7,
+   "titre": "Le cadre avant l'arrivée",
+   "type_scenario": "FIXE",
+   "duree": 13,
+   "sequence": "Le cadre — la sacoche renversée",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre, couleurs saturées, fin de journée."
+    ],
+    [
+     "CAMÉRA",
+     "Frontale large par défaut, hauteur table."
+    ],
+    [
+     "CADRE",
+     "NAYA À GAUCHE, penchée sur son carnet, griffonne. ELIO À DROITE, pianote sur sa tablette posée. Entre eux, la table : deux tasses fument côté Naya, théière. LA PLACE DE SAM, au centre fond, est VIDE, sa chaise inoccupée. Porte fermée bord gauche, écran mural éteint fond gauche, étagères fond droit, fenêtre bord droit sur le soir."
+    ],
+    [
+     "HORS CADRE",
+     "Sam, pas encore arrivé."
+    ],
+    [
+     "RACCORDS",
+     "Les tasses fumantes annoncent le thé du plan 8 ; la table est NUE, aucun objet."
+    ],
+    [
+     "INTERDITS",
+     "Sacoche visible, troisième tasse servie, table encombrée."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 13,
+     "description": "Intérieur du cadre en couleurs saturées : Naya griffonne, Elio pianote, deux tasses fument sur la grande table.",
+     "mouvement": "Panoramique lent vers la droite, de Naya à Elio"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "bfa923ef1de71105"
+  },
+  {
+   "adresse": "S01E01/plan-8",
+   "numero": 8,
+   "titre": "L'arrivée de Sam",
+   "type_scenario": "ANIMÉ",
+   "duree": 18,
+   "sequence": "Le cadre — la sacoche renversée",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Même frontale large, légèrement recentrée vers la porte."
+    ],
+    [
+     "CADRE",
+     "La porte bord GAUCHE s'ouvre en coup de vent : SAM entre par la gauche, transi, chapeau à large bord, veste sable, SACOCHE GIVRÉE en bandoulière épaule droite, PANSEMENT NEUF sur la main droite. Naya (gauche) et Elio (droite) tournent la tête vers lui. Buée à la porte."
+    ],
+    [
+     "ACTION",
+     "Entrée, trois pas vers sa place au fond centre, il pose la sacoche givrée sur la table à sa gauche (droite écran), tend la main vers la tasse que Naya pousse vers lui."
+    ],
+    [
+     "RACCORDS",
+     "Le givre de la sacoche est le gag verrouillé ; il aura fondu dès le plan 9. Le pansement main droite reste visible tout l'épisode."
+    ],
+    [
+     "INTERDITS",
+     "Lunettes, sacoche sans givre à CE plan, entrée par la droite."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 9,
+     "description": "La porte s'ouvre en coup de vent : Sam entre, transi, sacoche givrée à l'épaule, et secoue sa veste sable.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 9,
+     "description": "Il s'avance vers la table en gesticulant, pansement visible sur la main droite, et se laisse tomber sur sa chaise.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "1df147d73619fa5d"
+  },
+  {
+   "adresse": "S01E01/plan-9",
+   "numero": 9,
+   "titre": "La cascade des neuf objets",
+   "type_scenario": "ANIMÉ",
+   "duree": 12,
+   "sequence": "Le cadre — la sacoche renversée",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre, la table."
+    ],
+    [
+     "CAMÉRA",
+     "Plongée modérée sur la table depuis la place de Sam, cadrant le plateau."
+    ],
+    [
+     "CADRE",
+     "Les mains de Sam (pansement à droite) retournent la sacoche couverte d'étiquettes ; NEUF objets déferlent et s'immobilisent en désordre lisible : pétard, carte à jouer, boussole, cerf volant de poche, carré de soie plié, allumette, billet ancien, petit soc de charrue, fer d'attelage miniature. La sacoche vide reste à DROITE écran."
+    ],
+    [
+     "ACTION",
+     "Bascule de la sacoche, cascade, deux objets roulent puis s'arrêtent. Rien ne tombe de la table."
+    ],
+    [
+     "RACCORDS",
+     "Ces neuf objets, ni plus ni moins, sont l'état de table de référence jusqu'au plan 23. Le registre de la bible fait foi ensuite."
+    ],
+    [
+     "INTERDITS",
+     "Dixième objet, étrier, lunettes, objet coupé par le bord."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 6,
+     "description": "Sam retourne sa sacoche couverte d'étiquettes : les premiers objets déferlent sur la table.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 6,
+     "description": "La cascade continue — pétard, carte à jouer, boussole, cerf volant de poche, carré de soie, allumette, billet ancien, petit soc, fer d'attelage ; la boussole roule jusqu'au bord, une main la rattrape.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "5b0d943cbfc2133e"
+  },
+  {
+   "adresse": "S01E01/plan-10",
+   "numero": 10,
+   "titre": "Naya découvre le butin",
+   "type_scenario": "FIXE",
+   "duree": 10,
+   "sequence": "Le cadre — la sacoche renversée",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan rapproché de trois quarts sur Naya, depuis la droite de la table."
+    ],
+    [
+     "CADRE",
+     "NAYA penchée en avant sur le fouillis, yeux écarquillés, crayon suspendu en main droite, boucles en avant. Premier plan bas : trois ou quatre objets flous (boussole, soie, pétard). Fond flou : l'écran éteint."
+    ],
+    [
+     "RACCORDS",
+     "Contrechamp naturel du plan 11 ; les objets flous correspondent à la disposition du plan 9."
+    ],
+    [
+     "INTERDITS",
+     "Bouche ouverte sur la clé, Sam ou Elio net dans le fond."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 10,
+     "description": "Naya penchée sur le fouillis, yeux écarquillés, crayon suspendu.",
+     "mouvement": "Panoramique lent vers le bas, du visage de Naya vers le fouillis d'objets"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "32db43982d3f0081"
+  },
+  {
+   "adresse": "S01E01/plan-11",
+   "numero": 11,
+   "titre": "Le défi d'Elio",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Le cadre — la sacoche renversée",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Contrechamp du plan 10 : plan rapproché de trois quarts sur Elio, depuis la gauche de la table."
+    ],
+    [
+     "CADRE",
+     "ELIO, moue de défi sous la casquette orange, bras croisés, tablette posée devant lui, dossier de chaise visible. Premier plan bas : deux objets flous. Fond flou : la fenêtre, bord droit."
+    ],
+    [
+     "RACCORDS",
+     "Symétrique exact du plan 10, même hauteur, même distance."
+    ],
+    [
+     "INTERDITS",
+     "Tablette levée (le premier gel n'arrive qu'au plan 15), bouche ouverte."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Contrechamp sur Elio, moue de défi sous la casquette orange.",
+     "mouvement": "Zoom avant lent sur Elio"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "bca67e36bddfbe77"
+  },
+  {
+   "adresse": "S01E01/plan-12",
+   "numero": 12,
+   "titre": "Montage Tang",
+   "type_scenario": "ANIMÉ",
+   "duree": 15,
+   "sequence": "Le cadre — la sacoche renversée",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit d'époque désaturé, Chine des Tang. Deux vignettes (décor D4)."
+    ],
+    [
+     "VIGNETTE 1",
+     "Fours de potiers en brique, hautes flammes ; vases de porcelaine translucide alignés sur des claies, un artisan de dos au fond. Plan moyen."
+    ],
+    [
+     "VIGNETTE 2",
+     "Table de jeu basse, cartes peintes éparses, lampes à huile, trois joueurs assis dont AUCUN visage lisible (profils perdus, dos). Plan moyen."
+    ],
+    [
+     "ACTION",
+     "V1 : tremblement des flammes, vapeur. V2 : une carte se pose, une lampe vacille."
+    ],
+    [
+     "RACCORDS",
+     "La carte à jouer posée ici est du même dessin que l'objet sur la table du cadre."
+    ],
+    [
+     "INTERDITS",
+     "Lettrage sur les cartes, couleur réservée, visage de face."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 15,
+     "description": "Bref montage : fours de potiers, vases de porcelaine translucide, joueurs de cartes sous les Tang.",
+     "mouvement": "2 images (fours et porcelaine ; joueurs de cartes) ; zoom avant lent sur chacune"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "3ab66ec258da8ca0"
+  },
+  {
+   "adresse": "S01E01/plan-13",
+   "numero": 13,
+   "titre": "Le manifeste de Sam",
+   "type_scenario": "FIXE",
+   "duree": 17,
+   "sequence": "Le cadre — la sacoche renversée",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Frontale, légère contre plongée depuis le niveau de la table."
+    ],
+    [
+     "CADRE",
+     "SAM debout au centre fond, bras écartés AU DESSUS de la table couverte des neuf objets, ton de manifeste, bouche fermée sur la clé. Amorces de dos flou : l'épaule de Naya bord gauche, la casquette d'Elio bord droit. Sacoche vide à droite écran."
+    ],
+    [
+     "RACCORDS",
+     "Table à neuf objets, conforme au plan 9."
+    ],
+    [
+     "INTERDITS",
+     "Lunettes, table partiellement vidée."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 17,
+     "description": "Sam écarte les bras devant la table couverte d'objets, ton de manifeste.",
+     "mouvement": "Zoom arrière lent, de la table couverte d'objets à Sam bras écartés"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "c14ade5eabf48b95"
+  },
+  {
+   "adresse": "S01E01/plan-14",
+   "numero": 14,
+   "titre": "La question du jour",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Le cadre — la sacoche renversée",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan à deux depuis la place de Sam, cadrant les deux enfants de face, la table en premier plan bas."
+    ],
+    [
+     "CADRE",
+     "NAYA À GAUCHE lève son crayon, carnet ouvert. ELIO À DROITE, bras croisés. Entre eux, la longueur de la table et les neuf objets premier plan flou."
+    ],
+    [
+     "RACCORDS",
+     "Ce cadrage « deux enfants face à Sam » resservira aux plans 49 et 79 ; mêmes places."
+    ],
+    [
+     "INTERDITS",
+     "Les deux enfants du même côté de la table."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Naya lève son crayon : la question du jour ; Elio croise les bras.",
+     "mouvement": "Panoramique lent vers la droite, de Naya à Elio"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "62199b536f36ab71"
+  },
+  {
+   "adresse": "S01E01/plan-15",
+   "numero": 15,
+   "titre": "La règle du jeu, premier gel",
+   "type_scenario": "FIXE",
+   "duree": 15,
+   "sequence": "Le cadre — la sacoche renversée",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre, plan signature du gel."
+    ],
+    [
+     "CADRE",
+     "ELIO passe au premier plan DROIT, en couleurs saturées, tablette levée main droite. TOUT LE RESTE FIGE EN GRIS : la table, les neuf objets, Sam au fond centre bras encore ouverts, Naya à gauche. Puis retour couleurs sur la fin du plan."
+    ],
+    [
+     "RACCORDS",
+     "Premier des cinq gels (15, 25, 27, 34, 52) : même position d'Elio, même geste, à chaque fois."
+    ],
+    [
+     "INTERDITS",
+     "Elio désaturé, fond resté en couleurs."
+    ]
+   ],
+   "type": "POST",
+   "registre": "MIXTE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 15,
+     "description": "Elio lève sa tablette, la table passe en gris figé : plan signature du gel, puis retour couleurs.",
+     "mouvement": "Source : image FIXE de la table du cadre ; traitement : désaturation du fond, Elio conservé en couleurs, retour couleurs en fin de plan"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "506c54d6866fd502"
+  },
+  {
+   "adresse": "S01E01/plan-16",
+   "numero": 16,
+   "titre": "Les inventeurs animaux",
+   "type_scenario": "ANIMÉ",
+   "duree": 22,
+   "sequence": "Les premiers inventeurs",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, montage nature en trois vignettes, pleine lumière."
+    ],
+    [
+     "V1",
+     "Un oiseau tisserand noue son nid suspendu, gros plan sur le bec et les fibres. V2 · Un singe assis casse une noix avec une pierre, plan moyen, savane claire. V3 · Une loutre sur le dos ouvre un coquillage posé sur son ventre, plan moyen sur l'eau."
+    ],
+    [
+     "ACTION",
+     "Un geste précis et bouclable par vignette : nouer, frapper, frapper."
+    ],
+    [
+     "INTERDITS",
+     "Être humain, outil manufacturé, décor bâti."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 22,
+     "description": "Montage nature — un oiseau tisserand noue son nid, un singe casse une noix avec une pierre, une loutre sur le dos ouvre un coquillage.",
+     "mouvement": "3 images (oiseau ; singe ; loutre) ; zoom avant lent sur chacune"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "16a6ed125f9fc532"
+  },
+  {
+   "adresse": "S01E01/plan-17",
+   "numero": 17,
+   "titre": "Silex, feu, visages",
+   "type_scenario": "ANIMÉ",
+   "duree": 20,
+   "sequence": "Les premiers inventeurs",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, préhistoire, nuit et pénombre, silhouettes."
+    ],
+    [
+     "V1",
+     "Deux mains en silhouette : un éclat de silex jaillit, étincelle de pierre. V2 · Une flamme prend dans la nuit sur un foyer de brindilles, plein cadre. V3 · Des visages s'éclairent en cercle autour du feu, traits simplifiés par la nuit, AUCUN visage détaillé."
+    ],
+    [
+     "ACTION",
+     "Percussion, naissance de la flamme, lumière qui monte sur les visages."
+    ],
+    [
+     "RACCORDS",
+     "La flamme annonce le feu des alchimistes du plan 71, écho voulu."
+    ],
+    [
+     "INTERDITS",
+     "Visage lisible, vêtement cousu, paysage diurne."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 10,
+     "description": "Silhouettes préhistoriques : un éclat de silex jaillit sous le percuteur.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 10,
+     "description": "Une flamme prend dans la nuit, des visages s'éclairent lentement.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "48cd8c12bda95eae"
+  },
+  {
+   "adresse": "S01E01/plan-18",
+   "numero": 18,
+   "titre": "3,3 millions d'années",
+   "type_scenario": "FIXE",
+   "duree": 17,
+   "sequence": "Les premiers inventeurs",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan rapproché sur Elio depuis la gauche de la table, comme au plan 11."
+    ],
+    [
+     "CADRE",
+     "ELIO consulte sa tablette POSÉE À PLAT, sans la lever : pas de gel, presque poli. Sam amorce floue bord gauche. Table à neuf objets premier plan flou."
+    ],
+    [
+     "RACCORDS",
+     "Contraste voulu avec les gels : ici la correction est douce."
+    ],
+    [
+     "INTERDITS",
+     "Tablette levée, fond gelé gris."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 17,
+     "description": "Elio consulte sa tablette posée à plat, sans figer, presque poli.",
+     "mouvement": "Zoom avant lent sur la tablette posée à plat"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "20952eb420750e48"
+  },
+  {
+   "adresse": "S01E01/plan-19",
+   "numero": 19,
+   "titre": "Le réchauffement et les foyers",
+   "type_scenario": "ANIMÉ",
+   "duree": 24,
+   "sequence": "L'agriculture",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, grand montage."
+    ],
+    [
+     "SÉQUENCE",
+     "Des glaciers reculent (large) ; des pousses percent un sol sombre (gros plan) ; un planisphère STYLISÉ SANS AUCUN TEXTE s'éclaire de sept vignettes végétales — blé, riz, millets, maïs, tubercules — dont DEUX en Chine, sud et nord."
+    ],
+    [
+     "ACTION",
+     "Recul de glace, croissance accélérée, allumage des vignettes une à une."
+    ],
+    [
+     "INTERDITS",
+     "Lettrage sur le planisphère, frontières modernes, plus de huit vignettes."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 24,
+     "description": "Grand montage : les glaciers reculent, des pousses percent, sept vignettes s'allument sur un planisphère stylisé — blé, riz, millets, maïs, tubercules.",
+     "mouvement": "2 images (glaciers et pousses ; planisphère aux vignettes) ; zoom arrière lent sur le planisphère"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "7080e626e0a1d99c"
+  },
+  {
+   "adresse": "S01E01/plan-20",
+   "numero": 20,
+   "titre": "La vieille chanson",
+   "type_scenario": "FIXE",
+   "duree": 15,
+   "sequence": "L'agriculture",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan rapproché sur Naya depuis la droite de la table, comme au plan 10."
+    ],
+    [
+     "CADRE",
+     "NAYA fronce les sourcils, carnet ouvert, crayon posé sur la page. Objets flous premier plan bas."
+    ],
+    [
+     "INTERDITS",
+     "Bouche ouverte, Sam net au fond."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 15,
+     "description": "Naya fronce les sourcils, carnet ouvert.",
+     "mouvement": "Zoom avant lent sur Naya"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "a1382c88203ce953"
+  },
+  {
+   "adresse": "S01E01/plan-21",
+   "numero": 21,
+   "titre": "Semeur et semoir",
+   "type_scenario": "ANIMÉ",
+   "duree": 24,
+   "sequence": "L'agriculture",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, champs des Royaumes combattants, vent, lumière franche."
+    ],
+    [
+     "CAMÉRA",
+     "Plan large latéral, la ligne des champs traversant le cadre."
+    ],
+    [
+     "CADRE",
+     "À GAUCHE, un paysan sème à la volée, nuage de graines rabattu par le vent sur lui. À DROITE, un second pousse un semoir de bois à TROIS rangs derrière un soc de fonte : trois sillons impeccables et parallèles derrière lui. Les deux avancent vers la droite."
+    ],
+    [
+     "ACTION",
+     "Geste ample du semeur contre avancée régulière du semoir ; le vent emporte les graines du premier."
+    ],
+    [
+     "RACCORDS",
+     "Ces deux hommes se retrouvent face à face au plan 22, mêmes costumes."
+    ],
+    [
+     "INTERDITS",
+     "Quatrième sillon, animal de trait (le semoir est poussé), couleur réservée."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 8,
+     "description": "Champs des Royaumes combattants : le premier paysan sème à la volée dans le vent, nuage de graines.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 8,
+     "description": "L'autre paysan pousse un semoir de bois à trois rangs derrière un soc de fonte ; sillons impeccables.",
+     "mouvement": null
+    },
+    {
+     "code": "c",
+     "duree": 8,
+     "description": "Plan large des deux parcelles côte à côte ; le premier s'arrête, bouche ouverte.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—",
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "bca5e37bc8157e6c"
+  },
+  {
+   "adresse": "S01E01/plan-22",
+   "numero": 22,
+   "titre": "Trois rangs d'un coup",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "L'agriculture",
+   "fiche": [
+    [
+     "LIEU",
+     "Même champ."
+    ],
+    [
+     "CAMÉRA",
+     "Plan moyen frontal sur les deux paysans face à face."
+    ],
+    [
+     "CADRE",
+     "LE SEMEUR À GAUCHE, couvert de graines jusque dans les cheveux, dépité. LE SEMOIRIER À DROITE, appuyé sur son semoir, satisfait. Bouches fermées sur la clé. Les trois sillons filent au fond."
+    ],
+    [
+     "RACCORDS",
+     "Costumes et outils identiques au plan 21."
+    ],
+    [
+     "INTERDITS",
+     "Bouches ouvertes, sillons absents du fond."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Les deux paysans face à face, l'un couvert de graines, l'autre appuyé sur son semoir.",
+     "mouvement": "Travelling latéral lent vers la gauche, du paysan couvert de graines au semoir"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "3fbab116b724e438"
+  },
+  {
+   "adresse": "S01E01/plan-23",
+   "numero": 23,
+   "titre": "Premier objet rangé",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "L'agriculture",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre, insert sur la table."
+    ],
+    [
+     "CAMÉRA",
+     "Gros plan plongé sur le centre de la table."
+    ],
+    [
+     "CADRE",
+     "La main droite de Sam (pansement visible) déplace LE PETIT SOC du centre vers la sacoche ouverte à DROITE écran. Les huit autres objets restent en place, nets."
+    ],
+    [
+     "RACCORDS",
+     "Premier des inserts « objet rangé » : tous partagent ce cadrage, ce sens gauche vers droite et cette main au pansement."
+    ],
+    [
+     "INTERDITS",
+     "Autre objet déplacé, sacoche à gauche."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Insert — le petit soc quitte la table et rejoint la sacoche.",
+     "mouvement": "Zoom avant lent sur la sacoche ouverte"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "1ba8785583e442fa"
+  },
+  {
+   "adresse": "S01E01/plan-24",
+   "numero": 24,
+   "titre": "La cervoise de trop",
+   "type_scenario": "FIXE",
+   "duree": 11,
+   "sequence": "L'agriculture",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Frontale sur Sam, plan rapproché taille."
+    ],
+    [
+     "CADRE",
+     "SAM s'emballe, index droit levé, l'autre main arrondie autour d'une chope imaginaire qu'il lève comme un verre. Bord DROIT du cadre : la tablette d'Elio se LÈVE en amorce, annonce du gel."
+    ],
+    [
+     "RACCORDS",
+     "Enchaîne directement sur le gel du plan 25."
+    ],
+    [
+     "INTERDITS",
+     "Vraie chope dans la main, tablette déjà en plein cadre."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 11,
+     "description": "Sam s'emballe, l'index levé, une chope imaginaire levée comme un verre ; Elio lève déjà sa tablette.",
+     "mouvement": "Panoramique lent vers la droite, de Sam à Elio"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "propose",
+   "_note": "révision du 29 août 2026, en attente de la signature de Guillaume",
+   "empreinte": "dd329ca27c6f21c9"
+  },
+  {
+   "adresse": "S01E01/plan-25",
+   "numero": 25,
+   "titre": "Gel de la cervoise et du cognac",
+   "type_scenario": "FIXE",
+   "duree": 19,
+   "sequence": "L'agriculture",
+   "fiche": [
+    [
+     "LIEU",
+     "Gel : brasserie antique figée."
+    ],
+    [
+     "CADRE",
+     "ELIO premier plan DROIT en couleurs vives, tablette levée. Fond gris figé : une brasserie antique, jarres, cuves fumantes arrêtées net, un brasseur de dos pétrifié en plein geste ; sur un banc au fond, un petit alambic de cuivre à bec courbe, figé lui aussi."
+    ],
+    [
+     "RACCORDS",
+     "Même géométrie de gel que le plan 15."
+    ],
+    [
+     "INTERDITS",
+     "Fumée en mouvement dans la zone grise, lettrage d'enseigne."
+    ]
+   ],
+   "type": "POST",
+   "registre": "MIXTE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 19,
+     "description": "GEL : Elio en couleurs vives devant une brasserie antique figée en gris, un petit alambic de cuivre sur un banc au fond.",
+     "mouvement": "Source : image ÉPOQUE « brasserie antique » à générer ; traitement : désaturation totale, incrustation d'Elio en couleurs (portrait FIXE dédié, réutilisable pour tous les gels)"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "propose",
+   "_note": "révision du 29 août 2026, en attente de la signature de Guillaume",
+   "empreinte": "85e98e7c398744ad"
+  },
+  {
+   "adresse": "S01E01/plan-26",
+   "numero": 26,
+   "titre": "L'attelage antique",
+   "type_scenario": "ANIMÉ",
+   "duree": 18,
+   "sequence": "Le harnais",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, route antique, jour."
+    ],
+    [
+     "CAMÉRA",
+     "Plan large latéral, léger travelling accompagnant."
+    ],
+    [
+     "CADRE",
+     "Un attelage antique tire une charrette chargée, de GAUCHE à DROITE : joug et sangles bien visibles sur le poitrail et les épaules du cheval. Un conducteur marche au flanc, vu de profil."
+    ],
+    [
+     "ACTION",
+     "Traction régulière, roues qui tournent, poussière basse."
+    ],
+    [
+     "RACCORDS",
+     "C'est CETTE image que le gel du plan 27 fige : même cadrage exactement."
+    ],
+    [
+     "INTERDITS",
+     "Sangle écrasant la gorge (le récit dit l'inverse), galop."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 18,
+     "description": "Un attelage antique tire une charrette, jougs et sangles bien visibles sur le poitrail.",
+     "mouvement": "Travelling latéral lent le long de l'attelage, du poitrail vers la charge"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "a199988e650f5e37"
+  },
+  {
+   "adresse": "S01E01/plan-27",
+   "numero": 27,
+   "titre": "Gel du cheval étranglé",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Le harnais",
+   "fiche": [
+    [
+     "LIEU",
+     "Gel sur l'image du plan 26."
+    ],
+    [
+     "CADRE",
+     "ELIO premier plan DROIT en couleurs, tablette levée ; l'attelage du plan 26 figé en gris derrière, MÊME cadrage, roue arrêtée, poussière suspendue."
+    ],
+    [
+     "RACCORDS",
+     "Reprise stricte du cadre 26 : c'est le même plan, gelé."
+    ],
+    [
+     "INTERDITS",
+     "Cadrage différent du plan 26."
+    ]
+   ],
+   "type": "POST",
+   "registre": "MIXTE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "GEL : Elio fige l'attelage en gris, tablette levée.",
+     "mouvement": "Source : image du plan 26 ; traitement : désaturation totale, incrustation d'Elio en couleurs"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "73948bd8740a555d"
+  },
+  {
+   "adresse": "S01E01/plan-28",
+   "numero": 28,
+   "titre": "Le collier d'épaule",
+   "type_scenario": "FIXE",
+   "duree": 18,
+   "sequence": "Le harnais",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan moyen sur Sam, axe légèrement décalé vers la GAUCHE du cadre."
+    ],
+    [
+     "CADRE",
+     "SAM s'incline brièvement puis pointe la main gauche vers L'ÉCRAN MURAL, fond gauche, où s'affiche un collier d'épaule rembourré, dessiné plein cadre écran, SANS aucun texte. Naya amorce bord gauche."
+    ],
+    [
+     "RACCORDS",
+     "L'écran mural sert ici pour la première fois ; il resservira au plan 54."
+    ],
+    [
+     "INTERDITS",
+     "Texte ou cote sur l'écran, écran à droite."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 18,
+     "description": "Sam s'incline, puis pointe l'écran où apparaît un collier d'épaule rembourré.",
+     "mouvement": "Travelling latéral lent vers la droite, de Sam vers l'écran mural"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "10f6b7fa9a55ccae"
+  },
+  {
+   "adresse": "S01E01/plan-29",
+   "numero": 29,
+   "titre": "Le cheval promu général",
+   "type_scenario": "ANIMÉ",
+   "duree": 20,
+   "sequence": "Le harnais",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, cour de ferme han, jour."
+    ],
+    [
+     "SÉQUENCE",
+     "Un charretier han passe le collier d'épaule à son cheval (plan moyen) ; le cheval se rengorge, encolure haute, comme un général passant ses troupes (plan rapproché, gag) ; la lourde charrette s'ébranle SANS effort vers la DROITE (plan large). INSERT final au cadre : le fer d'attelage miniature rejoint la sacoche, cadrage du plan 23."
+    ],
+    [
+     "RACCORDS",
+     "Sens de marche gauche droite, comme au plan 26 : la progression technique va toujours vers la droite."
+    ],
+    [
+     "INTERDITS",
+     "Cheval efflanqué, charge qui peine, deuxième cheval."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 10,
+     "description": "Le charretier han passe le collier d'épaule à son cheval.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 10,
+     "description": "Le cheval se rengorge comme un général, la lourde charrette s'ébranle sans effort.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "dd4b80f9a4fec3a8"
+  },
+  {
+   "adresse": "S01E01/plan-30",
+   "numero": 30,
+   "titre": "Monter sans étrier",
+   "type_scenario": "ANIMÉ",
+   "duree": 20,
+   "sequence": "L'étrier",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, cour antique, jour. Gag en deux temps."
+    ],
+    [
+     "TEMPS 1",
+     "Un cavalier antique prend son élan de DROITE à GAUCHE, saute par dessus sa monture et GLISSE DE L'AUTRE CÔTÉ, jambes au ciel : le cheval, placide, tourne à peine la tête."
+    ],
+    [
+     "TEMPS 2",
+     "Un second cavalier est hissé à deux, un serviteur sous chaque pied, raide comme une statue."
+    ],
+    [
+     "CADRE",
+     "Plans moyens latéraux, sol dégagé, AUCUN étrier visible nulle part."
+    ],
+    [
+     "INTERDITS",
+     "Étrier, selle moderne, chute violente (c'est un gag, pas un accident)."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 10,
+     "description": "Un cavalier antique prend son élan, saute vers sa monture... et glisse de l'autre côté (gag).",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 10,
+     "description": "Un second cavalier se fait hisser par deux serviteurs, dignité en berne.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "0d7032fb96b5cd09"
+  },
+  {
+   "adresse": "S01E01/plan-31",
+   "numero": 31,
+   "titre": "Le carnet de terrain",
+   "type_scenario": "FIXE",
+   "duree": 15,
+   "sequence": "L'étrier",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan rapproché frontal sur Sam."
+    ],
+    [
+     "CADRE",
+     "SAM feuillette son carnet de terrain à deux mains, pansement visible, ton honnête, regard bas sur les pages puis relevé. Table à sept objets premier plan flou (soc et fer déjà rangés, allumette encore là)."
+    ],
+    [
+     "INTERDITS",
+     "Lunettes pour lire, carnet de Naya à la place du sien."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 15,
+     "description": "Sam feuillette son carnet de terrain, honnête.",
+     "mouvement": "Zoom avant lent sur le carnet de terrain"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "d4e0deace7e736c9"
+  },
+  {
+   "adresse": "S01E01/plan-32",
+   "numero": 32,
+   "titre": "Les Avars au galop",
+   "type_scenario": "ANIMÉ",
+   "duree": 22,
+   "sequence": "L'étrier",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, steppe, lumière dorée, poussière."
+    ],
+    [
+     "CAMÉRA",
+     "Plan large latéral au galop, travelling."
+    ],
+    [
+     "CADRE",
+     "Des cavaliers avars traversent de GAUCHE à DROITE au galop, ÉTRIERS LUISANTS bien visibles sous les bottes, arcs au dos, poussière d'or ; l'horizon d'Europe, ligne de collines pâles, ferme le fond DROIT."
+    ],
+    [
+     "ACTION",
+     "Galop soutenu, crinières, poussière ; aucun cavalier ne regarde la caméra."
+    ],
+    [
+     "RACCORDS",
+     "Le sens gauche droite dit le voyage vers l'Europe, cohérent avec les plans 26 et 29."
+    ],
+    [
+     "INTERDITS",
+     "Armure de chevalier (elle n'arrive qu'au plan 34), visage de face."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 8,
+     "description": "La steppe au galop : cavaliers avars en ligne, étriers luisants.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 8,
+     "description": "La poussière dorée monte, la horde file.",
+     "mouvement": null
+    },
+    {
+     "code": "c",
+     "duree": 6,
+     "description": "L'horizon de l'Europe se dessine au loin.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—",
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "882be3c5249fec6d"
+  },
+  {
+   "adresse": "S01E01/plan-33",
+   "numero": 33,
+   "titre": "L'envolée de Sam",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "L'étrier",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CADRE",
+     "SAM se lève à moitié de sa chaise, bras droit déployé vers le haut, ton de grande fresque ; bord DROIT : la tablette d'Elio se lève en amorce."
+    ],
+    [
+     "RACCORDS",
+     "Même mécanique d'annonce que le plan 24 : l'amorce de tablette précède toujours un gel."
+    ],
+    [
+     "INTERDITS",
+     "Sam entièrement debout (il est à mi chemin, c'est le gag)."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Sam se lève à moitié, bras déployé, ton de grande fresque ; Elio lève sa tablette.",
+     "mouvement": "Zoom arrière lent, de Sam au cercle du cadre"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "b1aed918b76d4ff7"
+  },
+  {
+   "adresse": "S01E01/plan-34",
+   "numero": 34,
+   "titre": "Gel de la chevalerie",
+   "type_scenario": "FIXE",
+   "duree": 15,
+   "sequence": "L'étrier",
+   "fiche": [
+    [
+     "LIEU",
+     "Gel."
+    ],
+    [
+     "CADRE",
+     "ELIO premier plan DROIT en couleurs, tablette levée ; derrière lui, figé en gris, UN CHEVALIER EN ARMURE complet, lance et écu SANS emblème, à cheval, étriers visibles."
+    ],
+    [
+     null,
+     "ALERTE (voir bible, registre des objets) · La réplique range « l'étrier », qui n'est pas un des neuf objets : AUCUN objet ne quitte la table dans ce plan, pas d'insert."
+    ],
+    [
+     "INTERDITS",
+     "Insert d'objet, héraldique sur l'écu, lettrage."
+    ]
+   ],
+   "type": "POST",
+   "registre": "MIXTE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 15,
+     "description": "GEL : un chevalier en armure figé en gris derrière Elio.",
+     "mouvement": "Source : image ÉPOQUE « chevalier en armure » à générer ; traitement : désaturation, incrustation d'Elio en couleurs"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "14109e6e52e780a0"
+  },
+  {
+   "adresse": "S01E01/plan-35",
+   "numero": 35,
+   "titre": "La liste continue",
+   "type_scenario": "ANIMÉ",
+   "duree": 22,
+   "sequence": "Boussole, forage, fourmis, bœufs de fer",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, montage en quatre vignettes techniques, fonds sobres."
+    ],
+    [
+     "V1",
+     "Une aiguille de boussole pivote et se fixe (gros plan plein cadre, cadran SANS caractères). V2 · Un cardan tourne, anneaux emboîtés, un brûleur reste horizontal (gros plan). V3 · Une écluse se remplit, une barque monte entre deux portes de bois (plan moyen). V4 · Un gouvernail d'étambot sous l'arrière d'une jonque, l'eau file (plan moyen sous la ligne de flottaison esquissée)."
+    ],
+    [
+     "ACTION",
+     "Un mouvement simple et bouclable par vignette."
+    ],
+    [
+     "INTERDITS",
+     "Caractères sur le cadran, vapeur (sortie de la liste), personnage."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 22,
+     "description": "Montage : aiguille de boussole qui pivote, cardan, écluse, gouvernail d'étambot sous une jonque.",
+     "mouvement": "4 images (boussole ; cardan ; écluse ; gouvernail) ; zoom avant lent sur chacune"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "propose",
+   "_note": "révision du 29 août 2026, en attente de la signature de Guillaume",
+   "empreinte": "1ed9c9823801576b"
+  },
+  {
+   "adresse": "S01E01/plan-36",
+   "numero": 36,
+   "titre": "Le forage du Sichuan",
+   "type_scenario": "ANIMÉ",
+   "duree": 14,
+   "sequence": "Boussole, forage, fourmis, bœufs de fer",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, Sichuan, IIᵉ siècle avant notre ère, jour voilé."
+    ],
+    [
+     "CADRE",
+     "Hautes tours de forage en bambou, câbles plongeant dans des puits ; au premier plan droit, une flamme de gaz naturel brûle sous un bassin de saumure fumant ; ouvriers petits au pied des tours, de dos."
+    ],
+    [
+     "ACTION",
+     "Balancier d'un câble, vapeur du bassin, flamme stable."
+    ],
+    [
+     "INTERDITS",
+     "Derrick métallique, visage lisible."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 14,
+     "description": "Le Sichuan : hautes tours de bambou, câbles qui plongent dans des puits ; une flamme de gaz brûle près d'un bassin de saumure.",
+     "mouvement": "Panoramique vertical lent, du sommet des tours de bambou vers le puits"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "73c00ffacebf85ea"
+  },
+  {
+   "adresse": "S01E01/plan-37",
+   "numero": 37,
+   "titre": "L'allumette rangée",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Boussole, forage, fourmis, bœufs de fer",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre, insert table, cadrage du plan 23."
+    ],
+    [
+     "CADRE",
+     "La main au pansement déplace L'ALLUMETTE du centre vers la sacoche à droite. Restent nets sur la table : carte, boussole, cerf volant, soie, billet, pétard."
+    ],
+    [
+     "INTERDITS",
+     "Flamme (l'allumette est éteinte, objet de collection), autre objet déplacé."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Insert — l'allumette quitte la table pour la sacoche.",
+     "mouvement": "Zoom avant lent sur la sacoche ouverte"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "fb13259ed3d96787"
+  },
+  {
+   "adresse": "S01E01/plan-38",
+   "numero": 38,
+   "titre": "Les fourmis des vergers",
+   "type_scenario": "ANIMÉ",
+   "duree": 26,
+   "sequence": "Boussole, forage, fourmis, bœufs de fer",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, vergers d'agrumes du sud, 304, jour clair."
+    ],
+    [
+     "SÉQUENCE",
+     "Au marché, un paysan achète des NIDS de fourmis suspendus en bourses de feuilles (plan moyen) ; au verger, on tend des TIGES DE BAMBOU d'arbre en arbre en passerelles (plan large) ; colonnes de fourmis en patrouille sur une branche, une chenille happée et emportée (gros plan)."
+    ],
+    [
+     "ACTION",
+     "File de fourmis continue, chenille saisie, feuillage qui respire."
+    ],
+    [
+     "INTERDITS",
+     "Fourmis géantes, coccinelle (c'est l'Europe de 1888, hors champ)."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 9,
+     "description": "Au marché du sud, des paysans achètent des nids de fourmis.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 9,
+     "description": "Ils tendent des tiges de bambou d'arbre en arbre dans le verger d'agrumes.",
+     "mouvement": null
+    },
+    {
+     "code": "c",
+     "duree": 8,
+     "description": "Colonnes de fourmis en patrouille sur les tiges ; une chenille happée.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—",
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "a11939340cda9f72"
+  },
+  {
+   "adresse": "S01E01/plan-39",
+   "numero": 39,
+   "titre": "Les bœufs de fer",
+   "type_scenario": "ANIMÉ",
+   "duree": 32,
+   "sequence": "Boussole, forage, fourmis, bœufs de fer",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit muet, fleuve Jaune en crue, vers 1060, ciel chargé. Le plus long ANIMÉ de l'épisode : 32 s, séquence en cinq temps."
+    ],
+    [
+     "T1",
+     "Sous l'eau boueuse, des bœufs de fonte engloutis, cordes mortes (plan sous la surface, trouble). T2 · LE MOINE HUAIBING, robe simple, dirige du geste : deux barges se chargent de terre, s'enfoncent jusqu'au plat bord (plan large). T3 · Des plongeurs tendent les cordes des barges aux bœufs (plan moyen). T4 · On VIDE la terre par dessus bord : les barges remontent centimètre par centimètre et ARRACHENT les bœufs du fond (alternance gros plans cordes / plan large). T5 · Les bœufs crèvent la surface, cris de joie muets sur la rive, bras levés."
+    ],
+    [
+     "RACCORDS",
+     "Aucune parole : la musique porte tout ; le principe est redessiné par Naya au plan 40."
+    ],
+    [
+     "INTERDITS",
+     "Grue, treuil, machine : la flottaison seule."
+    ]
+   ],
+   "muet": "— (muet, musique)",
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 8,
+     "description": "Le fleuve Jaune en crue : les bœufs de fonte disparaissent sous l'eau boueuse.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 8,
+     "description": "Le moine Huaibing fait charger deux barges de terre ; les cordes se tendent vers le fond.",
+     "mouvement": null
+    },
+    {
+     "code": "c",
+     "duree": 8,
+     "description": "On vide la terre des barges, pelletée après pelletée.",
+     "mouvement": null
+    },
+    {
+     "code": "d",
+     "duree": 8,
+     "description": "Les barges remontent et arrachent les bœufs du fond, cris de joie sur la rive.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": "— (muet, musique)",
+   "suite_tableau": [
+    "—",
+    "—",
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "a82558c808f63b05"
+  },
+  {
+   "adresse": "S01E01/plan-40",
+   "numero": 40,
+   "titre": "Le principe redessiné",
+   "type_scenario": "FIXE",
+   "duree": 13,
+   "sequence": "Boussole, forage, fourmis, bœufs de fer",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan rapproché sur Naya, depuis la droite de la table."
+    ],
+    [
+     "CADRE",
+     "NAYA soufflée, redessine dans son carnet le principe : deux barges, cordes, bœuf — un CROQUIS enfantin SANS texte, en cours de tracé. Crayon en main droite."
+    ],
+    [
+     "INTERDITS",
+     "Mots ou chiffres sur la page, schéma d'ingénieur."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 13,
+     "description": "Naya, soufflée, redessine le principe dans son carnet.",
+     "mouvement": "Zoom avant lent sur la page du carnet de Naya"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "633b6d746ada0f6e"
+  },
+  {
+   "adresse": "S01E01/plan-41",
+   "numero": 41,
+   "titre": "Le premier cerf volant",
+   "type_scenario": "ANIMÉ",
+   "duree": 20,
+   "sequence": "Le vol",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, colline venteuse, Vᵉ siècle avant notre ère, jour venté."
+    ],
+    [
+     "CAMÉRA",
+     "Plan large en contre plongée depuis le bas de pente."
+    ],
+    [
+     "CADRE",
+     "Trois artisans au sommet, de dos et de profil, font monter un GRAND OISEAU de bois et de soie au bout d'un fil ; l'oiseau occupe le tiers haut, le fil bien lisible entre les mains et le ciel ; herbes couchées par le vent."
+    ],
+    [
+     "ACTION",
+     "L'oiseau prend le vent, plonge, se rattrape, monte ; le fil se tend."
+    ],
+    [
+     "RACCORDS",
+     "La silhouette d'oiseau annonce le hibou des plans 44 à 47 et le cerf volant des plans 75 et 80."
+    ],
+    [
+     "INTERDITS",
+     "Cerf volant losange moderne, enfant (ce sont des artisans), visage de face."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 10,
+     "description": "Colline venteuse, Vᵉ siècle avant notre ère : des artisans assemblent le grand oiseau de bois et de soie.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 10,
+     "description": "L'oiseau monte au bout de son fil et tient dans le vent.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "13ec044bdbe30cc3"
+  },
+  {
+   "adresse": "S01E01/plan-42",
+   "numero": 42,
+   "titre": "Les messages de Taicheng",
+   "type_scenario": "ANIMÉ",
+   "duree": 20,
+   "sequence": "Le vol",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, remparts de Taicheng assiégés, 549, jour gris de siège."
+    ],
+    [
+     "CAMÉRA",
+     "Plan large depuis l'intérieur des remparts, parapet au premier plan bas."
+    ],
+    [
+     "CADRE",
+     "Des cerfs volants s'élèvent depuis le chemin de ronde, chacun emportant un ROULEAU attaché (rouleaux muets, SANS caractères visibles) ; en bas au fond, les lignes ennemies d'où montent des volées de flèches qui plafonnent sous les cerfs volants ; défenseurs de dos au parapet."
+    ],
+    [
+     "ACTION",
+     "Ascension des cerfs volants, flèches qui montent et retombent, vent de travers."
+    ],
+    [
+     "INTERDITS",
+     "Caractères lisibles sur les rouleaux, sang, cerf volant touché."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 10,
+     "description": "Remparts assiégés : des cerfs volants s'élèvent, emportant des rouleaux.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 10,
+     "description": "Des flèches montent des lignes ennemies ; les cerfs volants filent vers l'horizon.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "ba24181589af804d"
+  },
+  {
+   "adresse": "S01E01/plan-43",
+   "numero": 43,
+   "titre": "La question qui bascule",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Le vol",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan rapproché sur Naya, depuis la droite de la table."
+    ],
+    [
+     "CADRE",
+     "NAYA, doigt levé, regard vers Sam hors cadre gauche ; carnet ouvert sous l'autre main. Bouche fermée sur la clé."
+    ],
+    [
+     "RACCORDS",
+     "Cette question ouvre le chapitre du vol humain : le montage enchaîne directement sur la tour de Ye."
+    ],
+    [
+     "INTERDITS",
+     "Bouche ouverte, Elio dans le cadre."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Naya, doigt levé, la question qui fait basculer le chapitre.",
+     "mouvement": "Zoom arrière lent, de Naya au cercle du cadre"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "64b7dc93c1ee2b30"
+  },
+  {
+   "adresse": "S01E01/plan-44",
+   "numero": 44,
+   "titre": "La tour du Phénix d'or",
+   "type_scenario": "ANIMÉ",
+   "duree": 22,
+   "sequence": "Le vol",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, Ye, 559, jour blafard."
+    ],
+    [
+     "CAMÉRA",
+     "Plan large en contre plongée depuis le pied de la tour, puis plan moyen au sommet."
+    ],
+    [
+     "CADRE",
+     "LA TOUR domine la ville minuscule ; au sommet, L'EMPEREUR GAO YANG, silhouette riche et raide, entouré de gardes ; on ATTACHE un prisonnier maigre et digne, YUAN HUANGTOU, à un IMMENSE HIBOU DE PAPIER aux ailes déployées, plus large que trois hommes ; cordes aux poignets et à la taille."
+    ],
+    [
+     "ACTION",
+     "Les gardes serrent les liens, le vent soulève déjà le bord des ailes, Yuan Huangtou regarde droit devant, calme."
+    ],
+    [
+     "RACCORDS",
+     "Le hibou est celui des plans 45 à 47 et de la surimpression du plan 75 ; sa silhouette doit rester identique."
+    ],
+    [
+     "INTERDITS",
+     "Sourire de l'empereur (raideur, pas cruauté grimaçante), foule en liesse, visage de garde lisible."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 22,
+     "description": "Ye, 559 : la tour du Phénix d'or dressée sur la ville ; l'empereur Gao Yang au sommet ; un prisonnier maigre et digne attaché à un immense hibou de papier.",
+     "mouvement": "Zoom avant lent sur les mains liées aux montants du hibou"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "6c16c7701fb16284"
+  },
+  {
+   "adresse": "S01E01/plan-45",
+   "numero": 45,
+   "titre": "Le vol",
+   "type_scenario": "ANIMÉ",
+   "duree": 30,
+   "sequence": "Le vol",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit muet, le ciel de Ye. 30 s, séquence en quatre temps, musique seule."
+    ],
+    [
+     "T1",
+     "Le hibou DÉCROCHE du sommet et PIQUE, la cour hurle en contrebas (plan large plongé depuis la tour)."
+    ],
+    [
+     "T2",
+     "Le vent le PREND : la chute se change en plané, il frôle les créneaux des remparts (travelling latéral serré, ailes vibrantes)."
+    ],
+    [
+     "T3",
+     "Il PLANE au dessus de la ville minuscule, toits et rues loin dessous (très large plongée, la silhouette homme et hibou petite au centre)."
+    ],
+    [
+     "T4",
+     "Il SE POSE rudement sur une longue voie dégagée, glissade, poussière, il s'immobilise (plan large au sol)."
+    ],
+    [
+     "RACCORDS",
+     "Le trajet total dit « près de 2,5 km » : la ville doit défiler. La longue voie du T4 est celle où les gardes le relèvent au plan 47."
+    ],
+    [
+     "INTERDITS",
+     "Battement d'ailes (il plane, il ne vole pas), chute mortelle, foule au point d'atterrissage."
+    ]
+   ],
+   "muet": "— (muet, musique seule)",
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 10,
+     "description": "Le hibou décroche de la tour, pique vers le sol, la cour hurle.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 10,
+     "description": "Le vent le prend, il frôle les remparts.",
+     "mouvement": null
+    },
+    {
+     "code": "c",
+     "duree": 10,
+     "description": "Il plane sur la ville minuscule et se pose rudement sur une longue voie.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": "— (muet, musique seule)",
+   "suite_tableau": [
+    "—",
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "b908c6205b03dbfa"
+  },
+  {
+   "adresse": "S01E01/plan-46",
+   "numero": 46,
+   "titre": "Vu du sol",
+   "type_scenario": "ANIMÉ",
+   "duree": 14,
+   "sequence": "Le vol",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, une rue de Ye, même moment."
+    ],
+    [
+     "CAMÉRA",
+     "Contre plongée forte depuis la rue."
+    ],
+    [
+     "CADRE",
+     "Des passants au premier plan, DE DOS ou de trois quarts arrière, lèvent la tête, bouches ouvertes de stupeur (aucun visage détaillé) ; dans le ciel pâle, LA SILHOUETTE homme et hibou passe lentement, petite et nette."
+    ],
+    [
+     "ACTION",
+     "La silhouette traverse le cadre de droite à gauche ; les têtes suivent."
+    ],
+    [
+     "INTERDITS",
+     "Visage lisible au premier plan, silhouette trop grosse (elle est haute et loin)."
+    ]
+   ],
+   "muet": "— (muet)",
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 14,
+     "description": "Vu du sol : des passants lèvent la tête, bouche ouverte, vers la silhouette qui plane dans le ciel pâle.",
+     "mouvement": "Panoramique lent le long des visages levés"
+    }
+   ],
+   "muet_tableau": "— (muet)",
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "4b6ae6280e9ff7cb"
+  },
+  {
+   "adresse": "S01E01/plan-47",
+   "numero": 47,
+   "titre": "Le prix du vol",
+   "type_scenario": "ANIMÉ",
+   "duree": 14,
+   "sequence": "Le vol",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, fin du vol, trois micro plans enchaînés."
+    ],
+    [
+     "T1",
+     "Deux GARDES relèvent Yuan Huangtou sur la longue voie, sans brutalité, un de chaque côté (plan moyen)."
+    ],
+    [
+     "T2",
+     "Une PORTE DE CACHOT en bois bardé se referme, barre posée, obscurité derrière (gros plan frontal)."
+    ],
+    [
+     "T3",
+     "LE HIBOU DE PAPIER, abandonné, reste accroché de travers dans un arbre nu, une aile pliée (plan moyen, vent léger)."
+    ],
+    [
+     "RACCORDS",
+     "L'arbre au hibou est l'image mélancolique que la surimpression du plan 75 rappellera."
+    ],
+    [
+     "INTERDITS",
+     "Violence explicite, sang, hibou détruit au sol."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 14,
+     "description": "Des gardes le relèvent ; une porte de cachot se referme ; le hibou de papier reste accroché à un arbre.",
+     "mouvement": "2 images (les gardes l'encadrent ; la porte close et le hibou dans l'arbre) ; zoom avant lent sur chacune"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "15082fb1cf579919"
+  },
+  {
+   "adresse": "S01E01/plan-48",
+   "numero": 48,
+   "titre": "Treize siècles et demi",
+   "type_scenario": "FIXE",
+   "duree": 19,
+   "sequence": "Le vol",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, Angleterre et Allemagne, 1894 et 1891, deux images, ciels d'après-midi."
+    ],
+    [
+     "V1",
+     "Le camp de Pirbright : une plaine rase, quelques tentes ; LE LEVITOR, un train de grands cerfs-volants hexagonaux de toile claire, tient au bout d'un câble tendu ; sous le dernier, UN HOMME en uniforme est assis sur une simple planche à quinze mètres du sol, petit et net, des soldats au sol de dos tiennent le câble (plan large, légère contre plongée)."
+    ],
+    [
+     "V2",
+     "Une colline d'herbe rase ; LILIENTHAL suspendu sous son planeur de toile et de saules, deux ailes tendues en éventail, jambes pendantes, au ras de la pente, chapeau sur la tête (plan moyen, de profil, ciel pâle derrière)."
+    ],
+    [
+     "ACTION",
+     "Zoom avant lent sur chaque image, dans l'ordre : l'homme suspendu, puis Lilienthal."
+    ],
+    [
+     "RACCORDS",
+     "Ferme le chapitre du vol ouvert au plan 41 ; enchaîne sur le silence du cadre (plan 49). Le hibou de papier du plan 47 n'apparaît pas."
+    ],
+    [
+     "INTERDITS",
+     "Avion à moteur, hélice, lettrage sur les toiles, visage lisible, cerf volant en forme d'animal."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 19,
+     "description": "Montage : le train de cerfs-volants Levitor et son homme suspendu à quinze mètres au-dessus du camp de Pirbright ; Lilienthal suspendu sous son planeur de toile, au ras d'une colline.",
+     "mouvement": "2 images (Pirbright, 1894 ; Lilienthal, 1891) ; zoom avant lent sur chacune"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "propose",
+   "_note": "révision du 29 août 2026, en attente de la signature de Guillaume",
+   "empreinte": "d33b728036184d37"
+  },
+  {
+   "adresse": "S01E01/plan-49",
+   "numero": 49,
+   "titre": "Le silence du cadre",
+   "type_scenario": "FIXE",
+   "duree": 14,
+   "sequence": "Le vol",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan à deux depuis la place de Sam, cadrage du plan 14."
+    ],
+    [
+     "CADRE",
+     "Silence : NAYA À GAUCHE a REFERMÉ son carnet, mains posées dessus ; ELIO À DROITE, tablette posée, regard bas. La table entre eux, six objets restants premier plan flou (carte, boussole, cerf volant, soie, billet, pétard)."
+    ],
+    [
+     "RACCORDS",
+     "Le poids de ce silence est rappelé par Sam : « elle pèsera dans la morale du jour » — écho au plan 75."
+    ],
+    [
+     "INTERDITS",
+     "Sourire, gel, tablette levée."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 14,
+     "description": "Silence ; Naya a refermé son carnet.",
+     "mouvement": "Zoom avant lent sur Naya et son carnet refermé"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "f22c9a1467640647"
+  },
+  {
+   "adresse": "S01E01/plan-50",
+   "numero": 50,
+   "titre": "Le pont de bambou",
+   "type_scenario": "ANIMÉ",
+   "duree": 22,
+   "sequence": "Le pont suspendu",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, gorge du Sichuan, Iᵉʳ siècle, jour, brume de fond de gorge."
+    ],
+    [
+     "CAMÉRA",
+     "Plan large de trois quarts, la gorge traversant le cadre en diagonale."
+    ],
+    [
+     "CADRE",
+     "UN PONT DE CÂBLES DE BAMBOU tendu en travers du vide, tablier de lattes ; DES PORTEURS chargés de ballots s'y engagent de GAUCHE à DROITE, le tablier ONDULE sous leurs pas ; parois abruptes, rivière fine tout en bas."
+    ],
+    [
+     "ACTION",
+     "Ondulation du tablier au rythme des pas, balancement des ballots, brume qui monte."
+    ],
+    [
+     "RACCORDS",
+     "Le gel du plan 53 opposera à ce pont un pont de chaînes de fer."
+    ],
+    [
+     "INTERDITS",
+     "Chaînes métalliques ici, chute, corde qui casse (ça, c'est la question de Naya au plan 54)."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 8,
+     "description": "Gorge du Sichuan : le pont de câbles de bambou tendu en travers du vide.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 8,
+     "description": "Des porteurs chargés s'y engagent.",
+     "mouvement": null
+    },
+    {
+     "code": "c",
+     "duree": 6,
+     "description": "Le tablier ondule sous leurs pas, le vide dessous.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—",
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "6538d0fe9a77b5de"
+  },
+  {
+   "adresse": "S01E01/plan-51",
+   "numero": 51,
+   "titre": "Ça ne tiendra jamais",
+   "type_scenario": "FIXE",
+   "duree": 14,
+   "sequence": "Le pont suspendu",
+   "fiche": [
+    [
+     "LIEU",
+     "Même gorge, au bord."
+    ],
+    [
+     "CAMÉRA",
+     "Plan rapproché sur deux badauds chinois au premier plan, le pont au fond."
+    ],
+    [
+     "CADRE",
+     "LE SCEPTIQUE À GAUCHE, bras croisés, l'AUTRE À DROITE ; derrière eux, net au fond, LE PORTEUR traverse tranquillement le pont. Bouches fermées sur la clé."
+    ],
+    [
+     "RACCORDS",
+     "Gag miroir des badauds parieurs de 1797 : même mécanique du sceptique démenti, mille sept cents ans plus tôt."
+    ],
+    [
+     "INTERDITS",
+     "Bouches ouvertes, pont vide au fond."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 14,
+     "description": "Deux badauds au bord de la gorge ; le porteur traverse tranquillement derrière eux.",
+     "mouvement": "Travelling latéral lent vers la droite, des badauds au porteur qui traverse"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "7df3a7b34e64b1df"
+  },
+  {
+   "adresse": "S01E01/plan-52",
+   "numero": 52,
+   "titre": "Cinq siècles !",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Le pont suspendu",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CADRE",
+     "SAM grandiose, bras levé, buste en avant ; bord DROIT, la tablette d'Elio se lève en amorce."
+    ],
+    [
+     "RACCORDS",
+     "Troisième annonce de gel, mécanique des plans 24 et 33."
+    ],
+    [
+     "INTERDITS",
+     "Sam debout complet, gel déjà déclenché."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Sam, grandiose ; Elio lève sa tablette.",
+     "mouvement": "Panoramique lent vers la droite, de Sam à Elio"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "0f9b14dad3ca1b8b"
+  },
+  {
+   "adresse": "S01E01/plan-53",
+   "numero": 53,
+   "titre": "Gel des cinq siècles",
+   "type_scenario": "FIXE",
+   "duree": 17,
+   "sequence": "Le pont suspendu",
+   "fiche": [
+    [
+     "LIEU",
+     "Gel."
+    ],
+    [
+     "CADRE",
+     "ELIO premier plan DROIT en couleurs, tablette levée ; derrière, figé en gris, UN PONT DE CHAÎNES DE FER à tablier de bois au dessus d'un détroit, haubans de fer nets (aucun pylône moderne, dessin d'époque 1826)."
+    ],
+    [
+     "INTERDITS",
+     "Pont suspendu à câbles d'acier XXᵉ, voitures, lettrage."
+    ]
+   ],
+   "type": "POST",
+   "registre": "MIXTE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 17,
+     "description": "GEL : un pont de chaînes de fer figé en gris derrière Elio.",
+     "mouvement": "Source : image ÉPOQUE « pont de chaînes de fer » à générer ; traitement : désaturation, incrustation d'Elio en couleurs"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "566d68adaab09a1e"
+  },
+  {
+   "adresse": "S01E01/plan-54",
+   "numero": 54,
+   "titre": "Et si la corde casse ?",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Le parachute",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan rapproché sur Naya, l'écran mural au fond GAUCHE affichant encore le pont."
+    ],
+    [
+     "CADRE",
+     "NAYA fixe l'écran, une main CRISPÉE sur son carnet ; profil trois quarts vers la gauche. L'image du pont, muette, sur l'écran mural."
+    ],
+    [
+     "RACCORDS",
+     "La question lance le chapitre parachute : la soie sur la table devient le sujet."
+    ],
+    [
+     "INTERDITS",
+     "Écran éteint, texte à l'écran."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Naya fixe le pont à l'écran, une main crispée sur son carnet.",
+     "mouvement": "Zoom avant lent sur l'écran mural où s'affiche le pont"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "3e61129b7815d011"
+  },
+  {
+   "adresse": "S01E01/plan-55",
+   "numero": 55,
+   "titre": "La légende de Shun",
+   "type_scenario": "ANIMÉ",
+   "duree": 22,
+   "sequence": "Le parachute",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, Chine légendaire, NUIT, un grenier en flammes."
+    ],
+    [
+     "CAMÉRA",
+     "Plan large nocturne, le grenier à droite, flammes hautes."
+    ],
+    [
+     "CADRE",
+     "Depuis le toit, UN JEUNE HOMME saute dans le vide, freiné par DEUX GRANDS CHAPEAUX CONIQUES tenus à bout de bras ; trajectoire lisible, il ROULE au sol et SE RELÈVE, silhouette sur le brasier."
+    ],
+    [
+     "ACTION",
+     "Saut, descente freinée, roulade, relevé : quatre temps propres."
+    ],
+    [
+     "RACCORDS",
+     "Premier maillon de la chaîne du parachute : chapeaux, puis parasols (55), puis cadre rigide (59), puis soie (61)."
+    ],
+    [
+     "INTERDITS",
+     "Cape de héros, flammes léchant le sauteur, atterrissage debout."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 8,
+     "description": "Chine légendaire : le grenier en flammes dans la nuit, le jeune homme cerné au sommet.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 8,
+     "description": "Il saute, freiné par les deux grands chapeaux coniques.",
+     "mouvement": null
+    },
+    {
+     "code": "c",
+     "duree": 6,
+     "description": "Il roule dans la poussière et se relève dans les étincelles.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—",
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "22335e2b06308c1c"
+  },
+  {
+   "adresse": "S01E01/plan-56",
+   "numero": 56,
+   "titre": "Les pillards au butin",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Le parachute",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, Chine des Song, NUIT, toit d'une tour."
+    ],
+    [
+     "CAMÉRA",
+     "Plan moyen sur le toit, ciel de nuit."
+    ],
+    [
+     "CADRE",
+     "DEUX PILLARDS accroupis au faîte : LE PETIT À GAUCHE, sacs de butin en bandoulière, DEUX GRANDS PARASOLS à la main ; LE GRAND À DROITE, les mains vides, dépité. Bouches fermées sur la clé."
+    ],
+    [
+     "RACCORDS",
+     "Le petit est celui qui saute au plan 57 ; les parasols et les sacs doivent se retrouver identiques."
+    ],
+    [
+     "INTERDITS",
+     "Bouches ouvertes, lune énorme, troisième homme."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Chine des Song, nuit : deux pillards sur le toit d'une tour, sacs de butin et grands parasols.",
+     "mouvement": "Panoramique lent vers le bas, du toit de la tour à la ruelle"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "405fc42240e44fe1"
+  },
+  {
+   "adresse": "S01E01/plan-57",
+   "numero": 57,
+   "titre": "Le saut du pillard",
+   "type_scenario": "ANIMÉ",
+   "duree": 14,
+   "sequence": "Le parachute",
+   "fiche": [
+    [
+     "LIEU",
+     "Même tour, même nuit. Gag muet."
+    ],
+    [
+     "CAMÉRA",
+     "Plan large latéral prenant toute la hauteur de la tour."
+    ],
+    [
+     "CADRE ET ACTION",
+     "LE PETIT saute avec parasols ET sacs, descend en se balançant, atterrit EN DOUCEUR dans une CHARRETTE DE PAILLE au pied de la tour ; tout en haut, LE GRAND gesticule, silhouette furieuse contre le ciel."
+    ],
+    [
+     "RACCORDS",
+     "La charrette de paille amortit : écho burlesque de la roulade de Shun."
+    ],
+    [
+     "INTERDITS",
+     "Parasol retourné, chute manquée, garde alerté."
+    ]
+   ],
+   "muet": "— (muet, gag)",
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 7,
+     "description": "Le premier pillard saute avec parasols et sacs.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 7,
+     "description": "Atterrissage en douceur dans une charrette de paille ; l'autre gesticule tout en haut.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": "— (muet, gag)",
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "f99574f6890401ab"
+  },
+  {
+   "adresse": "S01E01/plan-58",
+   "numero": 58,
+   "titre": "Le vieux volume",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Le parachute",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CADRE",
+     "SAM très sûr de lui BRANDIT UN VIEUX VOLUME relié, couverture SANS titre lisible ; bord DROIT, tablette d'Elio levée en amorce."
+    ],
+    [
+     "RACCORDS",
+     "Le volume est celui dont la page s'affiche au plan 59."
+    ],
+    [
+     "INTERDITS",
+     "Titre lisible sur la couverture (le lettrage n'arrive qu'à l'insert monté du plan 59)."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Sam, très sûr de lui, brandit un vieux volume ; Elio lève sa tablette.",
+     "mouvement": "Zoom avant lent sur le volume brandi"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "2367aa3ace871d1b"
+  },
+  {
+   "adresse": "S01E01/plan-59",
+   "numero": 59,
+   "titre": "La page du Siam",
+   "type_scenario": "FIXE",
+   "duree": 18,
+   "sequence": "Le parachute",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre, insert plein cadre."
+    ],
+    [
+     "CADRE",
+     "LA PAGE GRAVÉE du livre de La Loubère plein cadre : planche d'ACROBATES SIAMOIS suspendus sous de GRANDS PARASOLS, gravure au trait. **Le lettrage de la page de titre est posé AU MONTAGE**, comme le carton du plan 6 : l'image générée est la planche gravée SANS texte."
+    ],
+    [
+     "RACCORDS",
+     "Naya lit la page à voix haute : c'est le seul texte « lu » de l'épisode, et il vit dans la piste son plus l'incrust."
+    ],
+    [
+     "INTERDITS",
+     "Texte généré dans l'image, couleur (gravure monochrome)."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 18,
+     "description": "Insert : la page gravée du livre de Simon de La Loubère, planche d'acrobates sous de grands parasols.",
+     "mouvement": "Panoramique lent vers le bas sur la planche gravée"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "ed769e933bb8f64c"
+  },
+  {
+   "adresse": "S01E01/plan-60",
+   "numero": 60,
+   "titre": "Lenormand",
+   "type_scenario": "ANIMÉ",
+   "duree": 20,
+   "sequence": "Le parachute",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, Montpellier, 1783, jour. Deux temps plus une chute d'image."
+    ],
+    [
+     "T1",
+     "LENORMAND, jeune, saute d'un ARBRE de jardin avec deux parasols, atterrit assis dans un POTAGER, choux écrasés (plan moyen, gag doux)."
+    ],
+    [
+     "T2",
+     "Devant une petite FOULE, il descend LENTEMENT de la TOUR DE L'OBSERVATOIRE sous un GRAND CADRE RIGIDE tendu de toile, jambes pédalant un peu (plan large en contre plongée)."
+    ],
+    [
+     "T3",
+     "Gros plan : UNE PLUME trace un mot neuf sur un papier — le geste d'écrire, la page inclinée, LE MOT ILLISIBLE à l'image (règle anti lettrage), c'est la voix off qui le dit : « parachute »."
+    ],
+    [
+     "RACCORDS",
+     "Le cadre rigide du T2 est l'objet dont le plan 61 dit qu'il « ne s'emporte pas sous un ballon »."
+    ],
+    [
+     "INTERDITS",
+     "Mot lisible sur le papier, parachute hémisphérique moderne au T2."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 10,
+     "description": "Montpellier : Lenormand saute d'un arbre avec deux parasols et atterrit dans un potager.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 10,
+     "description": "Devant une foule, il descend lentement de la tour de l'observatoire sous un grand cadre de toile ; une plume trace un mot neuf.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "630ee249a522e90c"
+  },
+  {
+   "adresse": "S01E01/plan-61",
+   "numero": 61,
+   "titre": "Retour à la corde",
+   "type_scenario": "ANIMÉ",
+   "duree": 14,
+   "sequence": "Le parachute",
+   "fiche": [
+    [
+     "LIEU",
+     "En vol au dessus du parc, 1797 : RACCORD EXACT avec le plan 5."
+    ],
+    [
+     "CADRE",
+     "Même cadrage que le plan 5, même lame, même corde : cette fois la lame VA JUSQU'AU BOUT, la corde CÈDE, la nacelle DÉCROCHE d'un coup ; en bas, minuscule, la foule pousse UN SEUL cri (mouvement de foule, pas de son direct)."
+    ],
+    [
+     "ACTION",
+     "Sciage, rupture nette, chute amorcée, torons qui fouettent."
+    ],
+    [
+     "RACCORDS",
+     "Reprend le plan 5 image pour image avant de le dépasser ; enchaîne sur l'intérieur de voilure du plan 62."
+    ],
+    [
+     "INTERDITS",
+     "Nouveau cadrage, seconde main, ballon dans le champ après la rupture."
+    ]
+   ],
+   "type": "POST",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 14,
+     "description": "Raccord exact avec le plan 5 : la lame tranche la corde, la nacelle décroche, la foule pousse un seul cri.",
+     "mouvement": "Source : réutilisation du clip du plan 5, remonté tel quel ; aucun nouveau rendu (le cri de la foule est au mixage son)"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "3ebd5eac0dd54acb"
+  },
+  {
+   "adresse": "S01E01/plan-62",
+   "numero": 62,
+   "titre": "La corolle",
+   "type_scenario": "ANIMÉ",
+   "duree": 10,
+   "sequence": "Le parachute",
+   "fiche": [
+    [
+     "LIEU",
+     "En chute, INTÉRIEUR de la voilure."
+    ],
+    [
+     "CAMÉRA",
+     "Plein cadre vers le haut, depuis l'intérieur du paquet."
+    ],
+    [
+     "CADRE ET ACTION",
+     "LA SOIE JAILLIT du paquet et S'ÉPANOUIT en corolle blanche au dessus de la caméra, les cordages se tendent en étoile, la lumière traverse la soie ; le bleu du ciel aux bords."
+    ],
+    [
+     "RACCORDS",
+     "La soie est celle pliée depuis le plan 3 ; sa blancheur répond au carré de soie posé sur la table du cadre."
+    ],
+    [
+     "INTERDITS",
+     "Ciel de nuit, déchirure, motif sur la soie."
+    ]
+   ],
+   "muet": "— (muet)",
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 10,
+     "description": "Vue depuis l'intérieur de la voilure : la soie jaillit du paquet et s'épanouit en corolle blanche, les cordages chantent.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": "— (muet)",
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "20959891bc86be67"
+  },
+  {
+   "adresse": "S01E01/plan-63",
+   "numero": 63,
+   "titre": "La descente et le verdict",
+   "type_scenario": "ANIMÉ",
+   "duree": 28,
+   "sequence": "Le parachute",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit muet, du ciel à l'allée du parc, 28 s, séquence en quatre temps."
+    ],
+    [
+     "T1",
+     "LA DESCENTE BALANCE violemment de gauche à droite sous la corolle, Paris tangue en fond (plan large aérien)."
+    ],
+    [
+     "T2",
+     "La foule, VUE DE DOS au sol, retient son souffle, immobile (plan moyen)."
+    ],
+    [
+     "T3",
+     "ATTERRISSAGE BRUTAL dans une allée : impact, ROULADE, la voilure le RECOUVRE entièrement (plan large au sol)."
+    ],
+    [
+     "T4",
+     "Il ÉMERGE de la soie EN BOITANT, bras levés ; la foule EXPLOSE, chapeaux en l'air (plan large, la foule enfin de trois quarts, aucun visage détaillé)."
+    ],
+    [
+     "RACCORDS",
+     "L'allée du T3 est l'allée principale de la bible ; la boiterie prépare « il boite » du plan 64."
+    ],
+    [
+     "INTERDITS",
+     "Atterrissage debout, voilure qui disparaît, visage lisible dans la foule."
+    ]
+   ],
+   "muet": "— (muet, musique)",
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 10,
+     "description": "La descente balance violemment de gauche à droite, la foule retient son souffle.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 9,
+     "description": "Atterrissage brutal dans une allée, roulade, la voilure le recouvre.",
+     "mouvement": null
+    },
+    {
+     "code": "c",
+     "duree": 9,
+     "description": "Il en émerge en boitant, bras levés, la foule explose.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": "— (muet, musique)",
+   "suite_tableau": [
+    "—",
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "aab5032dd3467a37"
+  },
+  {
+   "adresse": "S01E01/plan-64",
+   "numero": 64,
+   "titre": "Le pari payé",
+   "type_scenario": "FIXE",
+   "duree": 16,
+   "sequence": "Le parachute",
+   "fiche": [
+    [
+     "LIEU",
+     "Parc, bord de l'allée, minutes après l'atterrissage."
+    ],
+    [
+     "CAMÉRA",
+     "Cadrage du plan 2, à l'identique : les deux badauds au premier plan."
+    ],
+    [
+     "CADRE",
+     "LE MAIGRE À DROITE TEND LA MAIN, paume ouverte ; LE ROND À GAUCHE PAIE, pièces au creux de la main ; derrière eux, la foule encore agitée autour de la voilure affalée au fond. Bouches fermées sur la clé. INSERT au cadre ensuite : LA SOIE et LE CERF VOLANT DE POCHE rejoignent la sacoche, cadrage du plan 23, deux objets d'un coup."
+    ],
+    [
+     "RACCORDS",
+     "Mêmes badauds, mêmes places, mêmes costumes qu'au plan 2 : la boucle de l'ouverture se ferme."
+    ],
+    [
+     "INTERDITS",
+     "Places inversées, manteau sarcelle, billets (des pièces, en 1797)."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 16,
+     "description": "Les deux badauds de l'ouverture ; l'un paie, l'autre encaisse.",
+     "mouvement": "Zoom avant lent sur les mains qui échangent les pièces"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "256c3488f4f38774"
+  },
+  {
+   "adresse": "S01E01/plan-65",
+   "numero": 65,
+   "titre": "Quatre objets",
+   "type_scenario": "FIXE",
+   "duree": 19,
+   "sequence": "Le papier",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plongée modérée sur la table, cadrage du plan 9 resserré."
+    ],
+    [
+     "CADRE",
+     "SUR LA TABLE, EXACTEMENT QUATRE OBJETS alignés : la carte à jouer, le billet, la boussole, le pétard. LA MAIN D'ELIO les COMPTE du doigt, un à un, depuis la droite. INSERT enchaîné : LA BOUSSOLE rejoint la sacoche."
+    ],
+    [
+     "RACCORDS",
+     "Le compte de quatre valide le registre de la bible ; après l'insert il en reste TROIS."
+    ],
+    [
+     "INTERDITS",
+     "Cinquième objet, soie ou cerf volant encore visibles."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 19,
+     "description": "Sur la table, il ne reste que la carte, le billet, la boussole et le pétard ; Elio les compte du doigt.",
+     "mouvement": "Travelling latéral lent vers la droite, le long des quatre derniers objets"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "9e1afb654c12f0c5"
+  },
+  {
+   "adresse": "S01E01/plan-66",
+   "numero": 66,
+   "titre": "De l'argile au papier",
+   "type_scenario": "ANIMÉ",
+   "duree": 21,
+   "sequence": "Le papier",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, montage en trois vignettes."
+    ],
+    [
+     "V1",
+     "Une TABLETTE D'ARGILE d'Uruk tournée dans une main, signes en creux ILLISIBLES traités en texture (gros plan)."
+    ],
+    [
+     "V2",
+     "Des HIÉROGLYPHES peints sur un mur clair, motifs figuratifs sans mot moderne (plan moyen)."
+    ],
+    [
+     "V3",
+     "ATELIER HAN : un ouvrier PRESSE la pâte dans un bac, un autre LÈVE une feuille claire et ruisselante sur son tamis, feuilles sèches suspendues au fond (plan moyen, geste précis)."
+    ],
+    [
+     "RACCORDS",
+     "La feuille levée annonce armure (66), billet (67) et livre (68)."
+    ],
+    [
+     "INTERDITS",
+     "Alphabet latin, caractères nets et lisibles (texture, pas écriture)."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 21,
+     "description": "Montage : tablette d'argile d'Uruk, hiéroglyphes peints, puis un atelier han où l'on presse la pâte à papier et lève des feuilles claires.",
+     "mouvement": "3 images (argile ; hiéroglyphes ; atelier du papier) ; zoom avant lent sur chacune"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "4b47739d85eab753"
+  },
+  {
+   "adresse": "S01E01/plan-67",
+   "numero": 67,
+   "titre": "L'armure de papier",
+   "type_scenario": "FIXE",
+   "duree": 18,
+   "sequence": "Le papier",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, chemin de ronde d'un rempart, jour."
+    ],
+    [
+     "CAMÉRA",
+     "Plan moyen à deux, parapet au fond."
+    ],
+    [
+     "CADRE",
+     "LA SENTINELLE À GAUCHE, ravie, bras légèrement écartés, porte une CUIRASSE DE FEUILLES PLIÉES en écailles ; LE GÉNÉRAL ADVERSE À DROITE, riche armure sombre, PALPE la cuirasse à deux mains, sourcils hauts. Bouches fermées sur la clé."
+    ],
+    [
+     "RACCORDS",
+     "Trois flèches fichées dans la cuirasse, aucune n'a percé : le détail illustre la réplique."
+    ],
+    [
+     "INTERDITS",
+     "Sang, flèche plantée dans la chair, caractères sur les feuilles."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 18,
+     "description": "Saynète sur un rempart : un général adverse palpe la cuirasse de feuilles pliées d'une sentinelle ravie.",
+     "mouvement": "Travelling latéral lent vers la gauche, le long du chemin de ronde"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "71cd885ca0748841"
+  },
+  {
+   "adresse": "S01E01/plan-68",
+   "numero": 68,
+   "titre": "Les faux monnayeurs",
+   "type_scenario": "FIXE",
+   "duree": 14,
+   "sequence": "Le papier",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, ruelle des Song, tombée du jour."
+    ],
+    [
+     "CAMÉRA",
+     "Plan moyen, la ruelle fuyant vers le fond."
+    ],
+    [
+     "CADRE",
+     "DEUX COMPÈRES accroupis au premier plan, une LIASSE DE BILLETS entre eux ; au FOND de la ruelle, une PATROUILLE passe, hallebardes contre l'épaule, sans les voir ; les compères se figent puis ENTERRENT la liasse au pied du mur. INSERT au cadre : LE BILLET rejoint la sacoche."
+    ],
+    [
+     "RACCORDS",
+     "Après l'insert restent DEUX objets : la carte et le pétard."
+    ],
+    [
+     "INTERDITS",
+     "Billets aux motifs lisibles, patrouille qui les repère."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 14,
+     "description": "Saynète dans une ruelle : deux compères, une liasse de billets entre eux ; une patrouille passe au fond ; ils enterrent la liasse.",
+     "mouvement": "Zoom avant lent sur la liasse que l'on enterre"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "04fe5fb060ae91e8"
+  },
+  {
+   "adresse": "S01E01/plan-69",
+   "numero": 69,
+   "titre": "Le Sutra et Bi Sheng",
+   "type_scenario": "ANIMÉ",
+   "duree": 22,
+   "sequence": "Le papier",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, deux temps."
+    ],
+    [
+     "T1",
+     "UN ROULEAU IMPRIMÉ se déroule lentement sur une table sombre — le frontispice du Sutra du diamant traité en GRAVURE FIGURATIVE (le Bouddha en scène), colonnes de texte réduites à une TEXTURE illisible (gros plan travelling)."
+    ],
+    [
+     "T2",
+     "L'ATELIER DE BI SHENG : des MILLIERS de petits caractères de terre cuite dans des casiers en quadrillage, une main en saisit un à la pince, une PLAQUE composée se remplit sur un lit de cire (plans rapprochés)."
+    ],
+    [
+     "RACCORDS",
+     "Les casiers innombrables illustrent « des milliers, là où notre alphabet en demande 26 »."
+    ],
+    [
+     "INTERDITS",
+     "Caractère assez gros pour être lisible, presse à vis (Gutenberg est hors champ)."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 22,
+     "description": "Un rouleau imprimé se déroule — le Sutra du diamant — puis l'atelier de Bi Sheng : des milliers de petits caractères de terre cuite alignés dans des casiers, une plaque composée à la cire.",
+     "mouvement": "2 images ; travelling latéral lent le long du rouleau, puis zoom avant lent sur les casiers"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "81351491297cbbe8"
+  },
+  {
+   "adresse": "S01E01/plan-70",
+   "numero": 70,
+   "titre": "Aucun miracle",
+   "type_scenario": "FIXE",
+   "duree": 23,
+   "sequence": "Le papier",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan à deux : Elio à droite, Sam au centre fond, cadrage légèrement décalé droite."
+    ],
+    [
+     "CADRE",
+     "ELIO, tablette POSÉE, sourcil levé, presque déçu que tout soit vrai ; SAM répond CARNET EN MAIN. INSERT enchaîné : LA CARTE À JOUER rejoint la sacoche."
+    ],
+    [
+     "RACCORDS",
+     "Après l'insert reste UN objet : le pétard, seul sur la table — l'image du plan 73."
+    ],
+    [
+     "INTERDITS",
+     "Gel, tablette levée."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 23,
+     "description": "Elio, tablette posée, sourcil levé ; Sam répond carnet en main.",
+     "mouvement": "Panoramique lent vers la gauche, d'Elio à Sam"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "082c48eefd618107"
+  },
+  {
+   "adresse": "S01E01/plan-71",
+   "numero": 71,
+   "titre": "Les alchimistes",
+   "type_scenario": "ANIMÉ",
+   "duree": 20,
+   "sequence": "Les armes et la morale",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, cave d'alchimistes, nuit, lueurs de fourneaux."
+    ],
+    [
+     "CAMÉRA",
+     "Plan moyen, l'établi traversant le cadre."
+    ],
+    [
+     "CADRE",
+     "Cornues, alambics, jarres ; DEUX SAVANTS penchés sur un creuset ; une DÉTONATION sourde les rejette en arrière, FUMÉE, les jarres TREMBLENT ; ils se redressent COUVERTS DE SUIE, sourcils roussis, ahuris (gag noir)."
+    ],
+    [
+     "ACTION",
+     "Préparation, éclair, souffle, suie : quatre temps."
+    ],
+    [
+     "RACCORDS",
+     "La paire propre puis couverte de suie suit la RÈGLE 22 : version propre d'abord, suie dérivée."
+    ],
+    [
+     "INTERDITS",
+     "Explosion destructrice, blessure, flamme verte fantaisiste."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 10,
+     "description": "Fourneaux d'alchimistes : cornues, fumées, gestes précautionneux.",
+     "mouvement": null
+    },
+    {
+     "code": "b",
+     "duree": 10,
+     "description": "La détonation fait trembler les jarres ; deux savants couverts de suie.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "e0d73ac8b5190e10"
+  },
+  {
+   "adresse": "S01E01/plan-72",
+   "numero": 72,
+   "titre": "De la fête à la guerre",
+   "type_scenario": "ANIMÉ",
+   "duree": 20,
+   "sequence": "Les armes et la morale",
+   "fiche": [
+    [
+     "LIEU",
+     "Récit, un ciel de nouvel an qui devient champ de bataille."
+    ],
+    [
+     "CAMÉRA",
+     "Plein ciel, puis bascule lente vers l'horizon."
+    ],
+    [
+     "CADRE ET ACTION",
+     "Des FUSÉES DE FÊTE montent et fleurissent dans un ciel de nuit au dessus de lampions ; PAR FONDU, les mêmes traînées deviennent des FLÈCHES DE FEU rasantes, puis des bouches de CANONS et des FUSILS crachant sur un champ de bataille enfumé, silhouettes sans visages."
+    ],
+    [
+     "RACCORDS",
+     "Le fondu EST le propos : même objet, deux usages ; aucune coupe franche."
+    ],
+    [
+     "INTERDITS",
+     "Sang, cadavre, drapeau identifiable, visage."
+    ]
+   ],
+   "type": "ANIMÉ",
+   "registre": "ÉPOQUE",
+   "blocs": [
+    {
+     "code": "a",
+     "duree": 10,
+     "description": "Fusées de fête dans un ciel de nouvel an.",
+     "mouvement": "Fondu entre 71a et 71b réalisé au montage"
+    },
+    {
+     "code": "b",
+     "duree": 10,
+     "description": "Flèches de feu, canons et fusils sur un champ de bataille.",
+     "mouvement": null
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [
+    "—"
+   ],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "3555048dc5d209f4"
+  },
+  {
+   "adresse": "S01E01/plan-73",
+   "numero": 73,
+   "titre": "Le dernier objet",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Les armes et la morale",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan rapproché sur la table, Sam de trois quarts au fond."
+    ],
+    [
+     "CADRE",
+     "LE PÉTARD, SEUL au centre de la table nue ; SAM le REGARDE SANS LE PRENDRE, mains posées de part et d'autre ; la sacoche ouverte attend à droite. Elio amorce bord droit."
+    ],
+    [
+     "RACCORDS",
+     "Le vide autour de l'objet est le sujet : huit places libres."
+    ],
+    [
+     "INTERDITS",
+     "Autre objet, main sur le pétard (pas encore)."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Le pétard, dernier objet sur la table ; Sam le regarde sans le prendre.",
+     "mouvement": "Zoom avant lent sur le pétard, dernier objet de la table"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "437cb792dbdd509d"
+  },
+  {
+   "adresse": "S01E01/plan-74",
+   "numero": 74,
+   "titre": "Rangé sans fierté",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Les armes et la morale",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Même axe que le plan 73, à peine plus serré."
+    ],
+    [
+     "CADRE ET ACTION",
+     "SAM range LENTEMENT le pétard dans la sacoche (geste gauche vers droite, cadrage des inserts), puis REFERME LA SACOCHE À DEMI, le rabat posé sans boucler. Regard bas."
+    ],
+    [
+     "RACCORDS",
+     "La sacoche à demi fermée reste ainsi jusqu'au plan 79, où Sam en sort le flacon."
+    ],
+    [
+     "INTERDITS",
+     "Sacoche bouclée, geste vif."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Sam range lentement le pétard, referme la sacoche à demi.",
+     "mouvement": "Zoom avant lent sur la sacoche qui se referme"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "5a7f8cb5e5d27592"
+  },
+  {
+   "adresse": "S01E01/plan-75",
+   "numero": 75,
+   "titre": "Les deux images",
+   "type_scenario": "ANIMÉ",
+   "duree": 18,
+   "sequence": "Les armes et la morale",
+   "fiche": [
+    [
+     "LIEU",
+     "Surimpression, hors registre : le pont entre époque et présent."
+    ],
+    [
+     "CADRE",
+     "En fondu superposé : LA SILHOUETTE du prince volant sous son hibou de papier, grise, plane à gauche ; UN CERF VOLANT D'ENFANT d'aujourd'hui, couleurs vives, monte à droite dans un parc ensoleillé, l'enfant de dos en bas du cadre."
+    ],
+    [
+     "ACTION",
+     "Les deux vols glissent l'un vers l'autre sans se toucher ; la surimpression s'équilibre puis bascule côté présent."
+    ],
+    [
+     "RACCORDS",
+     "Reprend la silhouette exacte du plan 45 T3 ; le cerf volant moderne annonce celui du plan 80."
+    ],
+    [
+     "INTERDITS",
+     "Les deux images au même traitement (l'une grise, l'autre vive), visage de l'enfant."
+    ]
+   ],
+   "type": "POST",
+   "registre": "MIXTE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 18,
+     "description": "Surimpression : la silhouette du prince volant sous son hibou de papier... et un petit cerf volant de fête, aujourd'hui, dans un parc ensoleillé.",
+     "mouvement": "Sources : 2 images FIXE à générer (le prince sous son hibou, registre ÉPOQUE ; le cerf volant dans un parc actuel, registre CADRE) ; traitement : surimpression croisée au montage"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "391208c5a62c8c6f"
+  },
+  {
+   "adresse": "S01E01/plan-76",
+   "numero": 76,
+   "titre": "La page de Naya",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Les armes et la morale",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre, insert."
+    ],
+    [
+     "CAMÉRA",
+     "Gros plan plongé sur le carnet de Naya."
+    ],
+    [
+     "CADRE ET ACTION",
+     "LA PAGE S'ÉCRIT sous son crayon : la main de Naya trace une ligne dont on voit le GESTE, pas les mots — l'écriture est une texture cursive ILLISIBLE, c'est sa voix qui dit le texte. Coin de table, ombre des boucles."
+    ],
+    [
+     "INTERDITS",
+     "Mots lisibles (règle anti lettrage), écriture d'adulte."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Insert sur le carnet de Naya : la page s'écrit sous son crayon.",
+     "mouvement": "Zoom avant lent sur la page du carnet qui s'écrit"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "e6cf0f1a2946a4dd"
+  },
+  {
+   "adresse": "S01E01/plan-77",
+   "numero": 77,
+   "titre": "La morale de Sam",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Les armes et la morale",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan rapproché poitrine, frontal, le plus simple de l'épisode."
+    ],
+    [
+     "CADRE",
+     "SAM, doux, CHAPEAU REPOUSSÉ EN ARRIÈRE, sans aucun triomphe ; mains ouvertes posées sur la table ; fond doux, hors focale."
+    ],
+    [
+     "RACCORDS",
+     "Arbitrage du 22 août appliqué : aucune lunette, nulle part."
+    ],
+    [
+     "INTERDITS",
+     "Lunettes remontées (ancienne description), sourire large, geste."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Sam, doux, chapeau repoussé en arrière, sans aucun triomphe.",
+     "mouvement": "Zoom avant très lent sur Sam"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "605c5f734049fe1c"
+  },
+  {
+   "adresse": "S01E01/plan-78",
+   "numero": 78,
+   "titre": "La table vide",
+   "type_scenario": "FIXE",
+   "duree": 12,
+   "sequence": "Les armes et la morale",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan moyen sur Elio, la table nue en premier plan."
+    ],
+    [
+     "CADRE",
+     "ELIO contemple LA TABLE VIDE, tablette BAISSÉE posée sur ses genoux, petit sourire honnête ; la sacoche à demi fermée au fond droite ; Sam amorce floue au fond centre."
+    ],
+    [
+     "RACCORDS",
+     "Table rigoureusement nue : le registre est soldé."
+    ],
+    [
+     "INTERDITS",
+     "Objet oublié sur la table, tablette levée."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 12,
+     "description": "Elio contemple la table vide, tablette baissée, petit sourire honnête.",
+     "mouvement": "Zoom arrière lent, d'Elio à la table vide"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "f811093046ea0795"
+  },
+  {
+   "adresse": "S01E01/plan-79",
+   "numero": 79,
+   "titre": "Le flacon teaser",
+   "type_scenario": "FIXE",
+   "duree": 14,
+   "sequence": "Les armes et la morale",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre."
+    ],
+    [
+     "CAMÉRA",
+     "Plan à deux enfants cadrage du plan 14, Sam au centre."
+    ],
+    [
+     "CADRE ET ACTION",
+     "SAM sort de la sacoche À DEMI FERMÉE un PETIT FLACON DE VERRE au liquide clair, le tient à hauteur des yeux ; NAYA (gauche) et ELIO (droite) SE PENCHENT D'UN MÊME MOUVEMENT vers le centre, symétriques."
+    ],
+    [
+     "RACCORDS",
+     "Le flacon est le teaser de l'épisode suivant ; il RETOURNE dans la sacoche hors champ avant le plan 80."
+    ],
+    [
+     "INTERDITS",
+     "Étiquette sur le flacon, liquide coloré."
+    ]
+   ],
+   "type": "FIXE",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 14,
+     "description": "Sam sort de sa sacoche un petit flacon de verre au liquide clair ; Naya et Elio se penchent d'un même mouvement.",
+     "mouvement": "Zoom avant lent sur le flacon de verre"
+    }
+   ],
+   "muet_tableau": null,
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "45fdf394b2c09e42"
+  },
+  {
+   "adresse": "S01E01/plan-80",
+   "numero": 80,
+   "titre": "Le cerf volant du soir",
+   "type_scenario": "ANIMÉ",
+   "duree": 10,
+   "sequence": "Les armes et la morale",
+   "fiche": [
+    [
+     "LIEU",
+     "Pièce du cadre, dernier plan."
+    ],
+    [
+     "CAMÉRA",
+     "Plan moyen bas, la table en premier plan."
+    ],
+    [
+     "CADRE ET ACTION",
+     "LA SACOCHE FERMÉE, bouclée cette fois, seule sur la table nue, premier plan gauche ; PAR LA FENÊTRE bord DROIT, dans le ciel du soir orangé, UN CERF VOLANT monte lentement ; la pièce s'assombrit doucement ; FONDU au noir."
+    ],
+    [
+     "RACCORDS",
+     "Le cerf volant est celui, vif, du plan 75 : dernier écho du premier vol. La sacoche bouclée clôt le jeu ouvert au plan 9."
+    ],
+    [
+     "INTERDITS",
+     "Personnage dans le cadre, lumière de plein jour, sacoche ouverte."
+    ]
+   ],
+   "muet": "— (muet, fin)",
+   "type": "ANIMÉ",
+   "registre": "CADRE",
+   "blocs": [
+    {
+     "code": null,
+     "duree": 10,
+     "description": "La sacoche fermée sur la table ; par la fenêtre du cadre, un cerf volant monte dans le soir.",
+     "mouvement": "Fondu final réalisé au montage"
+    }
+   ],
+   "muet_tableau": "— (muet, fin)",
+   "suite_tableau": [],
+   "statut": "valide",
+   "valide_par": "Guillaume",
+   "valide_le": "2026-08-22",
+   "empreinte": "487434754c458ff5"
+  }
+ ]
+}
